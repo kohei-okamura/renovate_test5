@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-bank-account-card.vue should be rendered correctly with title 1`] = `
+<div
+  class="z-data-card-stub"
+  createdat="1973-07-07T03:22:07+0900"
+  id="2"
+  title="給与振込口座"
+  updatedat="2024-05-24T11:53:42+0900"
+>
+  <div
+    class="z-data-card-stub-slot-actions"
+  />
+  <z-data-card-item-stub
+    icon="M6.5,10H4.5V17H6.5V10M12.5,10H10.5V17H12.5V10M21,19H2V21H21V19M18.5,10H16.5V17H18.5V10M11.5,3.26L16.71,6H6.29L11.5,3.26M11.5,1L2,6V8H21V6L11.5,1Z"
+    label="銀行名（銀行コード）"
+  >
+    埼玉りそな（0017）
+  </z-data-card-item-stub>
+  <z-data-card-item-stub
+    label="支店名（支店コード）"
+  >
+    土呂出張所（337）
+  </z-data-card-item-stub>
+  <z-data-card-item-stub
+    label="銀行口座種別"
+    value="定期預金"
+  />
+  <z-data-card-item-stub
+    label="口座番号"
+    value="1657959"
+  />
+  <z-data-card-item-stub
+    label="口座名義"
+    value="キダ サトミ"
+  />
+  <!---->
+  <div
+    class="z-data-card-stub-slot-header"
+  />
+</div>
+`;
+
+exports[`z-bank-account-card.vue should be rendered correctly without title 1`] = `
+<div
+  class="z-data-card-stub"
+  createdat="1990-08-08T01:31:13+0900"
+  id="1"
+  title="銀行口座"
+  updatedat="2014-07-01T18:07:18+0900"
+>
+  <div
+    class="z-data-card-stub-slot-actions"
+  />
+  <z-data-card-item-stub
+    icon="M6.5,10H4.5V17H6.5V10M12.5,10H10.5V17H12.5V10M21,19H2V21H21V19M18.5,10H16.5V17H18.5V10M11.5,3.26L16.71,6H6.29L11.5,3.26M11.5,1L2,6V8H21V6L11.5,1Z"
+    label="銀行名（銀行コード）"
+  >
+    ソニー（0035）
+  </z-data-card-item-stub>
+  <z-data-card-item-stub
+    label="支店名（支店コード）"
+  >
+    本店（001）
+  </z-data-card-item-stub>
+  <z-data-card-item-stub
+    label="銀行口座種別"
+    value="当座預金"
+  />
+  <z-data-card-item-stub
+    label="口座番号"
+    value="6614772"
+  />
+  <z-data-card-item-stub
+    label="口座名義"
+    value="アライ エリカ"
+  />
+  <!---->
+  <div
+    class="z-data-card-stub-slot-header"
+  />
+</div>
+`;

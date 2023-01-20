@@ -1,0 +1,38 @@
+{
+    "providedIn": "2022-01-01T00:00:00+0900",
+    "insNumber": "0123456789",
+    "userName": "\u30c6\u30b9\u30c8\u540d\u524d",
+    "entries": [
+        {
+            "officeName": "\u571f\u5c4b\u8a2a\u554f\u4ecb\u8b77\u4e8b\u696d\u6240 \u65b0\u5bbf",
+            "officeCode": "1370406140",
+            "serviceName": "\u8eab\u4f53\u4ecb\u8b771",
+            "serviceCode": "111111",
+            "unitScore": "250",
+            "count": "8",
+            "wholeScore": "2,000",
+            "maxBenefitQuotaExcessScore": "0",
+            "maxBenefitExcessScore": "0",
+            "scoreWithinMaxBenefitQuota": "0",
+            "scoreWithinMaxBenefit": "0",
+            "unitCost": "1140.00",
+            "totalFeeForInsuranceOrBusiness": "0",
+            "benefitRate": "0",
+            "claimAmountForInsuranceOrBusiness": "0",
+            "copayForInsuranceOrBusiness": "0",
+            "copayWholeExpense": "0"
+        }
+    ],
+    "maxBenefit": "36,127",
+    "totalScoreTotal": "10,000",
+    "maxBenefitExcessScoreTotal": "10,000",
+    "scoreWithinMaxBenefitTotal": "10,000",
+    "totalFeeForInsuranceOrBusinessTotal": "10,000",
+    "claimAmountForInsuranceOrBusinessTotal": "10,000",
+    "copayForInsuranceOrBusinessTotal": "10,000",
+    "copayWholeExpenseTotal": "10,000",
+    "insuranceClaimAmount": "10,000",
+    "subsidyClaimAmount": "10,000",
+    "copayAmount": "10,000",
+    "unitCost": "11.10"
+}

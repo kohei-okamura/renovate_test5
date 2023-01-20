@@ -1,0 +1,18 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 費用
+type: object
+properties:
+  taxExcluded:
+    description: 税抜
+    type: number
+  taxIncluded:
+    description: 税込
+    type: number
+  taxType:
+    $ref: '#/components/schemas/TaxType'
+  taxCategory:
+    $ref: '#/components/schemas/TaxCategory'

@@ -1,0 +1,51 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+post:
+  summary: 招待登録
+  description: 招待を登録する。
+  requestBody:
+    content:
+      application/json:
+        schema:
+          type: object
+          properties:
+            emails:
+              description: メールアドレス
+              type: array
+              items:
+                type: string
+                example:
+                  - jack@example.com
+                  - john@example.com
+              minItems: 1
+              uniqueItems: true
+            officeIds:
+              description: 事業所 ID
+              type: array
+              items:
+                $ref: '#/components/schemas/OfficeId'
+            officeGroupIds:
+              description: 事業所グループ ID
+              type: array
+              items:
+                $ref: '#/components/schemas/OfficeGroupId'
+            roleIds:
+              description: ロール ID
+              type: array
+              items:
+                $ref: '#/components/schemas/RoleId'
+          required:
+            - emails
+            - officeIds
+            - officeGroupIds
+            - roleIds
+  responses:
+    '201':
+      $ref: '#/components/responses/Created'
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+  tags:
+    - スタッフ：招待

@@ -1,0 +1,48 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 障害福祉サービス：請求：サービスコード区分
+name: DwsServiceCodeCategory
+php:
+  enabled: true
+  namespace: ServiceCodeDictionary
+  traits:
+    - DwsServiceCodeCategorySupport
+typescript:
+  enabled: true
+items:
+  - { description: 居宅：身体, name: PhysicalCare, value: 111000 }
+  - { description: 居宅：家事, name: Housework, value: 112000 }
+  - { description: 居宅：通院・身体あり, name: AccompanyWithPhysicalCare, value: 113000 }
+  - { description: 居宅：通院・身体なし, name: Accompany, value: 114000 }
+  - { description: 居宅：乗降介助, name: AccessibleTaxi, value: 115000 }
+  - { description: 重訪Ⅰ（重度障害者等の場合）, name: VisitingCareForPwsd1, value: 121000 }
+  - { description: 重訪Ⅱ（障害支援区分6に該当する者の場合）, name: VisitingCareForPwsd2, value: 122000 }
+  - { description: 重訪Ⅲ, name: VisitingCareForPwsd3, value: 123000 }
+  - { description: 重訪（移動加算）, name: OutingSupportForPwsd, value: 120901 }
+  - { description: 特定事業所加算Ⅰ, name: SpecifiedOfficeAddition1, value: 990101 }
+  - { description: 特定事業所加算Ⅱ, name: SpecifiedOfficeAddition2, value: 990102 }
+  - { description: 特定事業所加算Ⅲ, name: SpecifiedOfficeAddition3, value: 990103 }
+  - { description: 特定事業所加算Ⅳ, name: SpecifiedOfficeAddition4, value: 990104 }
+  - { description: 特別地域加算, name: SpecifiedAreaAddition, value: 990201 }
+  - { description: 緊急時対応加算, name: EmergencyAddition1, value: 990301 }
+  - { description: 緊急時対応加算（地域生活拠点）, name: EmergencyAddition2, value: 990302 }
+  - { description: 喀痰吸引等支援体制加算, name: SuckingSupportSystemAddition, value: 990401 }
+  - { description: 初回加算, name: FirstTimeAddition, value: 990501 }
+  - { description: 利用者負担上限額管理加算, name: CopayCoordinationAddition, value: 990601 }
+  - { description: 福祉専門職員等連携加算, name: WelfareSpecialistCooperationAddition, value: 990701 }
+  - { description: 行動障害支援連携加算, name: BehavioralDisorderSupportCooperationAddition, value: 990702 }
+  - { description: 福祉・介護職員処遇改善加算Ⅰ, name: TreatmentImprovementAddition1, value: 990801 }
+  - { description: 福祉・介護職員処遇改善加算Ⅱ, name: TreatmentImprovementAddition2, value: 990802 }
+  - { description: 福祉・介護職員処遇改善加算Ⅲ, name: TreatmentImprovementAddition3, value: 990803 }
+  - { description: 福祉・介護職員処遇改善加算Ⅳ, name: TreatmentImprovementAddition4, value: 990804 }
+  - { description: 福祉・介護職員処遇改善加算Ⅴ, name: TreatmentImprovementAddition5, value: 990805 }
+  - { description: 福祉・介護職員処遇改善特別加算, name: TreatmentImprovementSpecialAddition, value: 990901 }
+  - { description: 福祉・介護職員等特定処遇改善加算Ⅰ, name: SpecifiedTreatmentImprovementAddition1, value: 991001 }
+  - { description: 福祉・介護職員等特定処遇改善加算Ⅱ, name: SpecifiedTreatmentImprovementAddition2, value: 991002 }
+  - { description: 令和3年9月30日までの上乗せ分, name: Covid19PandemicSpecialAddition, value: 991101 }
+  - { description: 同一建物減算1, name: BulkServiceSubtraction1, value: 991201 }
+  - { description: 同一建物減算2, name: BulkServiceSubtraction2, value: 991202 }
+  - { description: 身体拘束廃止未実施減算, name: PhysicalRestraintSubtraction, value: 991301 }
+  - { description: 移動介護緊急時支援加算, name: MovingCareSupportAddition, value: 991401 }
+  - { description: 福祉・介護職員等ベースアップ等支援加算, name: BaseIncreaseSupportAddition, value: 991501 }

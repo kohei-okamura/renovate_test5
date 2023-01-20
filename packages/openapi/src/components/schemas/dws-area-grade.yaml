@@ -1,0 +1,17 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 障害福祉サービス：地域区分
+type: object
+properties:
+  id:
+    description: 地域区分 ID
+    type: object
+  code:
+    description: 地域区分コード
+    type: string
+  name:
+    description: 名称
+    type: string

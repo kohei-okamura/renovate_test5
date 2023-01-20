@@ -1,0 +1,19 @@
+name: "ESLint for @zinger/sprint-planner"
+on:
+  pull_request:
+    paths:
+      - 'packages/sprint-planner/**/*.js'
+      - 'packages/sprint-planner/**/*.ts'
+      - '.eslintignore'
+      - '.eslintrc.js'
+      - '.github/workflows/eslint-sprint-planner.yaml'
+jobs:
+  lint:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup
+        uses: ./.github/actions/setup-node-js
+      - name: Run eslint
+        run: yarn lint:ci packages/openapi

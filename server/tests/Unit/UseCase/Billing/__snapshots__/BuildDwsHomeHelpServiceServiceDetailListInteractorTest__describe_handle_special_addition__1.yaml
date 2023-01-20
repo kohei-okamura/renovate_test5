@@ -1,0 +1,33 @@
+-
+    userId: 1
+    providedOn: '2021-06-12T00:00:00+09:00'
+    serviceCode:
+        serviceDivisionCode: '11'
+        serviceCategoryCode: '1255'
+    serviceCodeCategory: 111000
+    isAddition: false
+    unitScore: 603
+    count: 1
+    totalScore: 603
+-
+    userId: 1
+    providedOn: '2021-06-30T23:59:59+09:00'
+    serviceCode:
+        serviceDivisionCode: '11'
+        serviceCategoryCode: ZZ01
+    serviceCodeCategory: 991101
+    isAddition: true
+    unitScore: 1
+    count: 1
+    totalScore: 1
+-
+    userId: 1
+    providedOn: '2021-06-30T00:00:00+09:00'
+    serviceCode:
+        serviceDivisionCode: '11'
+        serviceCategoryCode: '6015'
+    serviceCodeCategory: 990201
+    isAddition: true
+    unitScore: 91
+    count: 1
+    totalScore: 91

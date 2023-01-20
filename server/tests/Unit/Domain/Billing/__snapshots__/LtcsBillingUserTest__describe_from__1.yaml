@@ -1,0 +1,15 @@
+userId: 1
+ltcsInsCardId: 517
+insNumber: '0123456789'
+name:
+    displayName: '玉井 真吾'
+    phoneticDisplayName: 'タマイ シンゴ'
+    familyName: 玉井
+    givenName: 真吾
+    phoneticFamilyName: タマイ
+    phoneticGivenName: シンゴ
+sex: 1
+birthday: '2015-03-09T00:00:00+09:00'
+ltcsLevel: 24
+activatedOn: '2009-02-08T00:00:00+09:00'
+deactivatedOn: '1976-04-12T00:00:00+09:00'

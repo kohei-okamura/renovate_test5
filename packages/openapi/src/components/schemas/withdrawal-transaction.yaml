@@ -1,0 +1,24 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 口座振替データ
+type: object
+properties:
+  id:
+    description: 口座振替データ ID
+    type: object
+  items:
+    description: 明細
+    type: array
+    items:
+      $ref: '#/components/schemas/WithdrawalTransactionItem'
+  deductedOn:
+    $ref: '#/components/schemas/DateLike'
+  downloadedAt:
+    $ref: '#/components/schemas/DateLike'
+  createdAt:
+    $ref: '#/components/schemas/DateLike'
+  updatedAt:
+    $ref: '#/components/schemas/DateLike'

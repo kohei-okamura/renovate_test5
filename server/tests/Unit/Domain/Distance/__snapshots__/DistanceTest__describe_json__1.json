@@ -1,0 +1,29 @@
+{
+    "distance": 0,
+    "destination": {
+        "id": null,
+        "name": null,
+        "abbr": null,
+        "phoneticName": null,
+        "corporationName": null,
+        "phoneticCorporationName": null,
+        "purpose": null,
+        "addr": null,
+        "location": null,
+        "tel": null,
+        "fax": null,
+        "email": null,
+        "qualifications": null,
+        "officeGroupId": null,
+        "dwsGenericService": null,
+        "dwsCommAccompanyService": null,
+        "ltcsCareManagementService": null,
+        "ltcsHomeVisitLongTermCareService": null,
+        "ltcsCompHomeVisitingService": null,
+        "ltcsPreventionService": null,
+        "status": null,
+        "isEnabled": true,
+        "createdAt": "2019-05-15T00:00:00+0900",
+        "updatedAt": "2019-05-15T00:00:00+0900"
+    }
+}

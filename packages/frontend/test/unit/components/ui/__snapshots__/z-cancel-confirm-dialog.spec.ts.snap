@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-cancel-confirm-dialog.vue should be rendered correctly 1`] = `
+<v-dialog-stub
+  closedelay="0"
+  contentclass=""
+  opendelay="0"
+  origin="center center"
+  persistent="true"
+  retainfocus="true"
+  transition="dialog-transition"
+  width="600"
+>
+  <v-card-stub
+    loaderheight="4"
+    tag="div"
+  >
+    <!---->
+    <v-card-text-stub
+      tag="div"
+    >
+      <p
+        class="message"
+      >
+        キャンセルする場合は、キャンセル理由を入力して実行を押してください。
+      </p>
+      <div>
+        <div
+          data-reason=""
+        >
+          <div
+            class="v-input v-textarea v-textarea--auto-grow v-textarea--no-resize theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"
+          >
+            <div
+              class="v-input__control"
+            >
+              <div
+                class="v-input__slot"
+                style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+              >
+                <fieldset
+                  aria-hidden="true"
+                >
+                  <legend
+                    style="width: 0px;"
+                  >
+                    <span
+                      class="notranslate"
+                    >
+                      ​
+                    </span>
+                  </legend>
+                </fieldset>
+                <div
+                  class="v-text-field__slot"
+                >
+                  <label
+                    class="v-label theme--light"
+                    style="left: 0px; position: absolute;"
+                  >
+                    キャンセル理由 *
+                  </label>
+                  <textarea
+                    rows="3"
+                  />
+                </div>
+              </div>
+              <div
+                class="v-text-field__details"
+              >
+                <div
+                  class="v-messages theme--light"
+                >
+                  <transition-group-stub
+                    class="v-messages__wrapper"
+                    name="message-transition"
+                    tag="div"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </v-card-text-stub>
+    <v-card-actions-stub
+      tag="div"
+    >
+      <v-spacer-stub
+        tag="div"
+      />
+      <a
+        class="v-btn-stub"
+        color="grey"
+        data-button-negative=""
+        text=""
+      >
+        <span>
+          キャンセル
+        </span>
+      </a>
+      <a
+        class="v-btn-stub"
+        color="primary"
+        data-button-positive=""
+        text=""
+        type="submit"
+      >
+        <span>
+          実行
+        </span>
+      </a>
+    </v-card-actions-stub>
+  </v-card-stub>
+</v-dialog-stub>
+`;

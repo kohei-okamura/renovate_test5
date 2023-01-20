@@ -1,0 +1,15 @@
+{
+    "id": 1,
+    "officeId": 1,
+    "name": "\u6383\u9664",
+    "durationMinutes": 60,
+    "fee": {
+        "taxExcluded": 1000,
+        "taxIncluded": 1100,
+        "taxType": 2,
+        "taxCategory": 1
+    },
+    "note": "",
+    "createdAt": "2019-05-15T00:00:00+0900",
+    "updatedAt": "2019-05-15T00:00:00+0900"
+}

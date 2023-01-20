@@ -1,0 +1,19 @@
+-
+    userId: 1
+    disposition: 2
+    providedOn: '2022-10-31T23:59:59+09:00'
+    serviceCode:
+        serviceDivisionCode: '11'
+        serviceCategoryCode: '6274'
+    serviceCodeCategory: 990502
+    buildingSubtraction: 0
+    noteRequirement: 99
+    isAddition: true
+    isLimited: false
+    durationMinutes: 0
+    unitScore: 200
+    count: 1
+    wholeScore: 200
+    maxBenefitQuotaExcessScore: 0
+    maxBenefitExcessScore: 0
+    totalScore: 200

@@ -1,0 +1,25 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+description: 介護保険サービス：訪問介護：算定情報登録／更新フォーム
+type: object
+properties:
+  period:
+    $ref: '#/components/schemas/PeriodForm'
+  locationAddition:
+    $ref: '#/components/schemas/LtcsOfficeLocationAddition'
+  specifiedOfficeAddition:
+    $ref: '#/components/schemas/HomeVisitLongTermCareSpecifiedOfficeAddition'
+  treatmentImprovementAddition:
+    $ref: '#/components/schemas/DwsTreatmentImprovementAddition'
+  specifiedTreatmentImprovementAddition:
+    $ref: '#/components/schemas/DwsSpecifiedTreatmentImprovementAddition'
+  baseIncreaseSupportAddition:
+    $ref: '#/components/schemas/LtcsBaseIncreaseSupportAddition'
+required:
+  - period
+  - locationAddition
+  - specifiedOfficeAddition
+  - treatmentImprovementAddition
+  - specifiedTreatmentImprovementAddition
+  - baseIncreaseSupportAddition

@@ -1,0 +1,17 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 事業領域
+name: ServiceSegment
+php:
+  enabled: true
+  namespace: Common
+typescript:
+  enabled: true
+items:
+  - { description: 障害福祉サービス, name: DisabilitiesWelfare, value: 1 }
+  - { description: 介護保険サービス, name: LongTermCare, value: 2 }
+  - { description: 総合事業, name: Comprehensive, value: 3 }
+  - { description: 地域生活支援事業, name: CommunityLifeSupport, value: 4 }
+  - { description: 自費サービス, name: OwnExpense, value: 7 }
+  - { description: その他, name: Other, value: 9 }

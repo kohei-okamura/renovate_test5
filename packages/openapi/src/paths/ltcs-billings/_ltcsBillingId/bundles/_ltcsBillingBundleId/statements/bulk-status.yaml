@@ -1,0 +1,37 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+post:
+  summary: 介護保険サービス：明細書状態一括更新
+  description: 介護保険サービス：明細書の状態を一括更新する。
+  parameters:
+    - $ref: '#/components/parameters/ltcsBillingId'
+    - $ref: '#/components/parameters/ltcsBillingBundleId'
+  requestBody:
+    content:
+      application/json:
+        schema:
+          properties:
+            status:
+              description: 介護保険サービス：請求：状態
+              $ref: '#/components/schemas/LtcsBillingStatus'
+            ids:
+              description: 介護保険サービス：明細書 ID
+              type: array
+              items:
+                $ref: '#/components/schemas/LtcsBillingStatementId'
+              minItems: 1
+          required:
+            - status
+            - ids
+  responses:
+    '202':
+      $ref: '#/components/responses/JobCreated'
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+    '404':
+      description: 明細書 ID が一致する介護保険サービス：明細書が存在しない場合
+  tags:
+    - 介護保険サービス：請求

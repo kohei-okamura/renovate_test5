@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`api/dws-subsidies-api create should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/dws-subsidies-api get should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/dws-subsidies-api update should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;

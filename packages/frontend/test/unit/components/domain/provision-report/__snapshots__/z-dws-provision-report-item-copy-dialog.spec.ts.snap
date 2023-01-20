@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-dws-provision-report-item-copy-dialog.vue should be rendered correctly 1`] = `
+<v-dialog-stub
+  closedelay="0"
+  contentclass=""
+  maxwidth="640"
+  opendelay="0"
+  origin="center center"
+  persistent="true"
+  retainfocus="true"
+  transition="dialog"
+  value="true"
+  width="50%"
+>
+  <v-card-stub
+    loaderheight="4"
+    tag="div"
+  >
+    <z-card-titlebar-stub
+      color="blue-grey"
+    >
+      予定をコピー
+    </z-card-titlebar-stub>
+    <z-data-card-item-stub
+      icon="M15,13H16.5V15.82L18.94,17.23L18.19,18.53L15,16.69V13M19,8H5V19H9.67C9.24,18.09 9,17.07 9,16A7,7 0 0,1 16,9C17.07,9 18.09,9.24 19,9.67V8M5,21C3.89,21 3,20.1 3,19V5C3,3.89 3.89,3 5,3H6V1H8V3H16V1H18V3H19A2,2 0 0,1 21,5V11.1C22.24,12.36 23,14.09 23,16A7,7 0 0,1 16,23C14.09,23 12.36,22.24 11.1,21H5M16,11.15A4.85,4.85 0 0,0 11.15,16C11.15,18.68 13.32,20.85 16,20.85A4.85,4.85 0 0,0 20.85,16C20.85,13.32 18.68,11.15 16,11.15Z"
+      label="サービス提供時間"
+    >
+      <time
+        datetime="2021-05-04T09:00:00+0900"
+      >
+        2021年05月04日 09:00
+      </time>
+      <span>
+        〜
+      </span>
+      <time
+        datetime="10:00"
+      >
+        10:00
+      </time>
+    </z-data-card-item-stub>
+    <z-data-card-item-stub
+      icon="M11.19,2.25C10.93,2.25 10.67,2.31 10.42,2.4L3.06,5.45C2.04,5.87 1.55,7.04 1.97,8.05L6.93,20C7.24,20.77 7.97,21.23 8.74,21.25C9,21.25 9.27,21.22 9.53,21.1L16.9,18.05C17.65,17.74 18.11,17 18.13,16.25C18.14,16 18.09,15.71 18,15.45L13,3.5C12.71,2.73 11.97,2.26 11.19,2.25M14.67,2.25L18.12,10.6V4.25A2,2 0 0,0 16.12,2.25M20.13,3.79V12.82L22.56,6.96C22.97,5.94 22.5,4.78 21.47,4.36M11.19,4.22L16.17,16.24L8.78,19.3L3.8,7.29"
+      label="サービス区分"
+      value="自費"
+    />
+    <z-data-card-item-stub
+      label="自費サービス"
+      value="魚粉マシマシで。"
+    />
+    <!---->
+    <z-data-card-item-stub
+      icon="M16 17V19H2V17S2 13 9 13 16 17 16 17M12.5 7.5A3.5 3.5 0 1 0 9 11A3.5 3.5 0 0 0 12.5 7.5M15.94 13A5.32 5.32 0 0 1 18 17V19H22V17S22 13.37 15.94 13M15 4A3.39 3.39 0 0 0 13.07 4.59A5 5 0 0 1 13.07 10.41A3.39 3.39 0 0 0 15 11A3.5 3.5 0 0 0 15 4Z"
+      label="提供人数"
+      value="1 人"
+    />
+    <z-data-card-item-stub
+      icon="M3,5H9V11H3V5M5,7V9H7V7H5M11,7H21V9H11V7M11,15H21V17H11V15M5,20L1.5,16.5L2.91,15.09L5,17.17L9.59,12.59L11,14L5,20Z"
+      label="サービスオプション"
+    >
+      <span>
+        -
+      </span>
+    </z-data-card-item-stub>
+    <z-data-card-item-stub
+      icon="M21,6V8H3V6H21M3,18H12V16H3V18M3,13H21V11H3V13Z"
+      label="備考"
+      value="これは備考です。"
+    />
+    <v-divider-stub
+      class="mt-3 mb-6 mx-4"
+    />
+    <form
+      class="v-form"
+      data-form=""
+      novalidate="novalidate"
+    >
+      <div
+        class="ml-6 ml-sm-16 mr-4 text-body-2 text-sm-body-1"
+      >
+        コピー先の日付を選択してください（複数選択可）。
+      </div>
+      <div
+        class="ml-4 ml-sm-6 mr-4 pb-6"
+      >
+        <v-date-picker-stub
+          allowed-dates="function () { [native code] }"
+          alloweddates="[Function]"
+          dayformat="[Function]"
+          eventcolor="warning"
+          firstdayofweek="1"
+          full-width=""
+          fullwidth="true"
+          headerdateformat="[Function]"
+          locale="ja-JP"
+          localefirstdayofyear="0"
+          max="2021-05-31"
+          min="2021-05-01"
+          multiple="true"
+          next-icon=""
+          nexticon=""
+          nextmontharialabel="$vuetify.datePicker.nextMonthAriaLabel"
+          nextyeararialabel="$vuetify.datePicker.nextYearAriaLabel"
+          notitle="true"
+          picker-date="2021-05-04"
+          pickerdate="2021-05-04"
+          prev-icon=""
+          previcon=""
+          prevmontharialabel="$vuetify.datePicker.prevMonthAriaLabel"
+          prevyeararialabel="$vuetify.datePicker.prevYearAriaLabel"
+          selecteditemstext="$vuetify.datePicker.itemsSelected"
+          showcurrent="true"
+          titledateformat="[Function]"
+          type="date"
+          value=""
+          width="290"
+          yearformat="[Function]"
+        />
+        <div
+          class="mb-4 mx-4 mt-2"
+          data-dates-length=""
+          vid="dates"
+        >
+          <input
+            type="hidden"
+            value="0"
+          />
+          <!---->
+        </div>
+        <v-row-stub
+          class="pr-4"
+          justify="center"
+          justifymd="end"
+          nogutters="true"
+          tag="div"
+        >
+          <v-col-stub
+            cols="5"
+            md="3"
+            tag="div"
+          >
+            <a
+              class="v-btn-stub"
+              data-cancel=""
+              text=""
+              width="100%"
+            >
+              キャンセル
+            </a>
+          </v-col-stub>
+          <v-col-stub
+            class="pl-4"
+            cols="5"
+            md="3"
+            tag="div"
+          >
+            <a
+              class="v-btn-stub"
+              color="primary"
+              data-ok=""
+              depressed=""
+              type="submit"
+              width="100%"
+            >
+              コピー
+            </a>
+          </v-col-stub>
+        </v-row-stub>
+      </div>
+    </form>
+  </v-card-stub>
+</v-dialog-stub>
+`;

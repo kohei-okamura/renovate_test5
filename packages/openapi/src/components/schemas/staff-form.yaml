@@ -1,0 +1,31 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+description: スタッフ登録／更新フォーム
+allOf:
+  - $ref: '#/components/schemas/StructuredNameForm'
+  - $ref: '#/components/schemas/AddrForm'
+  - type: object
+    properties:
+      sex:
+        $ref: '#/components/schemas/Sex'
+      birthday:
+        $ref: '#/components/schemas/Date'
+      tel:
+        description: 電話番号
+        type: string
+      fax:
+        description: FAX 番号
+        type: string
+      certifications:
+        description: 資格
+        type: array
+        items:
+          $ref: '#/components/schemas/Certification'
+      status:
+        $ref: '#/components/schemas/StaffStatus'
+    required:
+      - sex
+      - birthday
+      - tel
+      - certifications

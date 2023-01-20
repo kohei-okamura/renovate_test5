@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-ltcs-contracts-card.vue should be rendered correctly 1`] = `
+<z-contracts-card-stub
+  items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+  options="[object Object]"
+  permission="ltcs-contracts/list"
+/>
+`;

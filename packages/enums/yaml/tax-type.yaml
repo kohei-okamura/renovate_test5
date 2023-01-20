@@ -1,0 +1,14 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 課税区分
+name: TaxType
+php:
+  enabled: true
+  namespace: Common
+typescript:
+  enabled: true
+items:
+  - { description: 税抜, name: TaxExcluded, value: 1 }
+  - { description: 税込, name: TaxIncluded, value: 2 }
+  - { description: 非課税, name: TaxExempted, value: 3 }

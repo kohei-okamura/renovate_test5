@@ -1,0 +1,56 @@
+copayCoordinationOfficeName: 上限管理事業所の名前
+statements:
+    -
+        id: null
+        dwsBillingId: null
+        dwsBillingBundleId: null
+        subsidyCityCode: null
+        user: null
+        dwsAreaGradeName: null
+        dwsAreaGradeCode: null
+        copayLimit: null
+        totalScore: null
+        totalFee: null
+        totalCappedCopay: null
+        totalAdjustedCopay: null
+        totalCoordinatedCopay: null
+        totalCopay: null
+        totalBenefit: null
+        totalSubsidy: null
+        isProvided: null
+        copayCoordination: null
+        copayCoordinationStatus: null
+        aggregates: null
+        contracts: null
+        items: null
+        status: null
+        fixedAt: null
+        createdAt: null
+        updatedAt: null
+    -
+        id: null
+        dwsBillingId: null
+        dwsBillingBundleId: null
+        subsidyCityCode: null
+        user: null
+        dwsAreaGradeName: null
+        dwsAreaGradeCode: null
+        copayLimit: null
+        totalScore: null
+        totalFee: null
+        totalCappedCopay: null
+        totalAdjustedCopay: null
+        totalCoordinatedCopay: null
+        totalCopay: null
+        totalBenefit: null
+        totalSubsidy: null
+        isProvided: null
+        copayCoordination: null
+        copayCoordinationStatus: null
+        aggregates: null
+        contracts: null
+        items: null
+        status: null
+        fixedAt: null
+        createdAt: null
+        updatedAt: null

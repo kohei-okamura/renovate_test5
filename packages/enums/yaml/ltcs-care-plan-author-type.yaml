@@ -1,0 +1,14 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 介護保険サービス：居宅サービス計画作成区分
+name: LtcsCarePlanAuthorType
+php:
+  enabled: true
+  namespace: LtcsInsCard
+typescript:
+  enabled: true
+items:
+  - { description: 居宅介護支援事業所作成, name: CareManagerOffice, value: 1 }
+  - { description: 自己作成, name: Self, value: 2 }
+  - { description: 介護予防支援事業所・地域包括支援センター作成, name: PreventionOffice, value: 3 }

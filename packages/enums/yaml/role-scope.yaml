@@ -1,0 +1,15 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 権限範囲
+name: RoleScope
+php:
+  enabled: true
+  namespace: Role
+typescript:
+  enabled: true
+items:
+  - { description: 全体, name: Whole, value: 1 }
+  - { description: グループ, name: Group, value: 2 }
+  - { description: 事業所, name: Office, value: 3 }
+  - { description: 個人, name: Person, value: 4 }

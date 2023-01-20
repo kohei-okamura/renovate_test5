@@ -1,0 +1,15 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 端数処理区分
+name: Rounding
+php:
+  enabled: true
+  namespace: Common
+typescript:
+  enabled: true
+items:
+  - { description: 未設定, name: None, value: 0 }
+  - { description: 切り捨て, name: Floor, value: 1 }
+  - { description: 切り上げ, name: Ceil, value: 2 }
+  - { description: 四捨五入, name: Round, value: 3 }

@@ -1,0 +1,26 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 利用者：請求先情報
+type: object
+properties:
+  destination:
+    $ref: '#/components/schemas/BillingDestination'
+  paymentMethod:
+    $ref: '#/components/schemas/PaymentMethod'
+  contractNumber:
+    description: 契約者番号
+    type: string
+  corporationName:
+    description: 請求先法人名・団体名
+    type: string
+  agentName:
+    description: 請求先氏名・担当者名
+    type: string
+  addr:
+    $ref: '#/components/schemas/Addr'
+  tel:
+    description: 請求先電話番号
+    type: string

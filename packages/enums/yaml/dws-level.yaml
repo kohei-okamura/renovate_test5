@@ -1,0 +1,18 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 障害支援区分
+name: DwsLevel
+php:
+  enabled: true
+  namespace: DwsCertification
+typescript:
+  enabled: true
+items:
+  - { description: 非該当, name: NotApplicable, value: 99 }
+  - { description: 区分1, name: Level1, value: 21 }
+  - { description: 区分2, name: Level2, value: 22 }
+  - { description: 区分3, name: Level3, value: 23 }
+  - { description: 区分4, name: Level4, value: 24 }
+  - { description: 区分5, name: Level5, value: 25 }
+  - { description: 区分6, name: Level6, value: 26 }

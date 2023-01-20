@@ -1,0 +1,13 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 障害福祉サービス：請求：給付種別
+name: DwsBillingPaymentCategory
+php:
+  enabled: true
+  namespace: Billing
+typescript:
+  enabled: true
+items:
+  - { description: 介護給付費・訓練等給付費・地域相談支援給付費・特例介護給付費・特例訓練等給付費, name: Category1, value: 1 }
+  - { description: 特定障害者特別給付費・高額障害者福祉サービス費, name: Category2, value: 2 }

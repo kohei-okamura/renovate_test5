@@ -1,0 +1,24 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+put:
+  summary: 勤務シフト一括登録
+  description: 複数の勤務シフトを一括で登録する。
+  requestBody:
+    content:
+      multipart/form-data:
+        schema:
+          type: object
+          properties:
+            file:
+              type: string
+              format: binary
+  responses:
+    '202':
+      $ref: '#/components/responses/JobCreated'
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+  tags:
+    - 勤務シフト

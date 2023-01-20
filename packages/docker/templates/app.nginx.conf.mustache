@@ -1,0 +1,49 @@
+server {
+  listen 0.0.0.0:{{{httpPort}}};
+  server_name {{{hostname}}};
+  index index.html index.php;
+  root /usr/share/nginx/html;
+
+  location / {
+    location ~* \.(css|gif|ico|jpg|jpeg|js|json|png|woff2)$ {
+      include security.nginx.conf;
+
+      try_files $uri =404;
+      expires 5d;
+    }
+    location / {
+      include csp.nginx.conf;
+      include security.nginx.conf;
+
+      try_files $uri /index.html =404;
+      expires 5d;
+    }
+  }
+
+  location /api {
+    include security.nginx.conf;
+
+    fastcgi_pass unix:/var/run/php-fpm/php-fpm.sock;
+    include fastcgi_params;
+
+    # パス関連の設定
+    set $path_info $request_uri;
+    if ($path_info ~ ^/api/(.*)$) {
+      set $path_info /$1;
+    }
+    fastcgi_param DOCUMENT_URI $path_info;
+    fastcgi_param REQUEST_URI $path_info;
+    fastcgi_param SCRIPT_NAME $path_info;
+    fastcgi_param SCRIPT_FILENAME /app/server/public/index.php;
+
+    # HTTPOXY 対策
+    fastcgi_param HTTP_PROXY "";
+
+    # アプリケーションに HTTPS 通信であることを伝える
+    set $proxy_https '';
+    if ($http_x_forwarded_proto = 'https') {
+      set $proxy_https 'on';
+    }
+    fastcgi_param HTTPS $proxy_https if_not_empty;
+  }
+}

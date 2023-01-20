@@ -1,0 +1,1277 @@
+-
+    id: 1
+    organizationId: 1
+    name: 土屋訪問介護事業所
+    abbr: 東京
+    phoneticName: ツチヤホウモンカイゴジギョウショ
+    corporationName: ''
+    phoneticCorporationName: ''
+    purpose: 1
+    addr:
+        postcode: 164-0011
+        prefecture: 13
+        city: 中野区
+        street: 中央1-35-6
+        apartment: レッチフィールド中野坂上ビル3F
+    location:
+        lat: 35.69688911
+        lng: 139.68480332
+    tel: 050-3188-7708
+    fax: 03-6701-2453
+    email: tokyo-tsuchiya-houmon@eustylelab.co.jp
+    qualifications:
+        - '1011'
+        - '1012'
+        - '2011'
+    officeGroupId: null
+    dwsGenericService:
+        code: '1311401366'
+        openedOn: '2020-06-01T00:00:00+09:00'
+        designationExpiredOn: '2026-05-31T00:00:00+09:00'
+        dwsAreaGradeId: 1
+    dwsCommAccompanyService: null
+    ltcsCareManagementService: null
+    ltcsHomeVisitLongTermCareService:
+        code: '1371405083'
+        openedOn: '2015-10-01T00:00:00+09:00'
+        designationExpiredOn: '2021-09-30T00:00:00+09:00'
+        ltcsAreaGradeId: 1
+    ltcsCompHomeVisitingService: null
+    ltcsPreventionService: null
+    status: 2
+    isEnabled: true
+    version: 1
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 2
+    organizationId: 1
+    name: '土屋訪問介護事業所 さいたま'
+    abbr: 埼玉
+    phoneticName: ツチヤホウモンカイゴジギョウショサイタマ
+    corporationName: ''
+    phoneticCorporationName: ''
+    purpose: 1
+    addr:
+        postcode: 336-0017
+        prefecture: 11
+        city: さいたま市南区
+        street: 南浦和2-40-1
+        apartment: 第2愛興ビル307号
+    location:
+        lat: 35.84814732
+        lng: 139.67104103
+    tel: 050-3188-7637
+    fax: 048-611-8976
+    email: saitama-tsuchiya-houmon@eustylelab.co.jp
+    qualifications:
+        - '1011'
+        - '1012'
+        - '2011'
+        - 20A0
+    officeGroupId: null
+    dwsGenericService:
+        code: '1116507326'
+        openedOn: '2016-02-01T00:00:00+09:00'
+        designationExpiredOn: '2022-01-31T00:00:00+09:00'
+        dwsAreaGradeId: 3
+    dwsCommAccompanyService: null
+    ltcsCareManagementService: null
+    ltcsHomeVisitLongTermCareService:
+        code: '1176514840'
+        openedOn: '2016-05-01T00:00:00+09:00'
+        designationExpiredOn: '2022-04-30T00:00:00+09:00'
+        ltcsAreaGradeId: 3
+    ltcsCompHomeVisitingService:
+        code: '1176514840'
+        openedOn: '2017-04-01T00:00:00+09:00'
+        designationExpiredOn: '2023-03-31T00:00:00+09:00'
+    ltcsPreventionService: null
+    status: 2
+    isEnabled: true
+    version: 1
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 3
+    organizationId: 1
+    name: '土屋訪問介護事業所 よこはま'
+    abbr: 横浜
+    phoneticName: ツチヤホウモンカイゴジギョウショヨコハマ
+    corporationName: ''
+    phoneticCorporationName: ''
+    purpose: 1
+    addr:
+        postcode: 220-0023
+        prefecture: 14
+        city: 横浜市西区
+        street: 平沼1-6-7
+        apartment: 川合ビル4-A
+    location:
+        lat: 35.45988323
+        lng: 139.62025443
+    tel: 050-3177-4570
+    fax: 045-330-6688
+    email: yokohama-tsuchiya-houmon@eustylelab.co.jp
+    qualifications:
+        - '1011'
+        - '1012'
+        - '2011'
+    officeGroupId: null
+    dwsGenericService:
+        code: '1410201097'
+        openedOn: '2016-04-01T00:00:00+09:00'
+        designationExpiredOn: '2022-03-31T00:00:00+09:00'
+        dwsAreaGradeId: 2
+    dwsCommAccompanyService: null
+    ltcsCareManagementService: null
+    ltcsHomeVisitLongTermCareService:
+        code: '1470202795'
+        openedOn: '2016-12-01T00:00:00+09:00'
+        designationExpiredOn: '2022-11-30T00:00:00+09:00'
+        ltcsAreaGradeId: 2
+    ltcsCompHomeVisitingService: null
+    ltcsPreventionService: null
+    status: 2
+    isEnabled: true
+    version: 1
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 4
+    organizationId: 1
+    name: '土屋訪問介護事業所 ふなばし'
+    abbr: 船橋
+    phoneticName: ツチヤホウモンカイゴジギョウショフナバシ
+    corporationName: ''
+    phoneticCorporationName: ''
+    purpose: 1
+    addr:
+        postcode: 273-0031
+        prefecture: 12
+        city: 船橋市
+        street: 西船4-21-3
+        apartment: プロッシモ西船橋502号室
+    location:
+        lat: 35.70906792
+        lng: 139.95845501
+    tel: 050-3188-7831
+    fax: 047-413-0626
+    email: funabashi-tsuchiya-houmon@eustylelab.co.jp
+    qualifications:
+        - '1011'
+        - '1012'
+        - '2011'
+        - 20A0
+    officeGroupId: null
+    dwsGenericService:
+        code: '1212801995'
+        openedOn: '2016-05-01T00:00:00+09:00'
+        designationExpiredOn: '2022-04-30T00:00:00+09:00'
+        dwsAreaGradeId: 4
+    dwsCommAccompanyService: null
+    ltcsCareManagementService: null
+    ltcsHomeVisitLongTermCareService:
+        code: '1270908161'
+        openedOn: '2016-12-01T00:00:00+09:00'
+        designationExpiredOn: '2022-11-30T00:00:00+09:00'
+        ltcsAreaGradeId: 4
+    ltcsCompHomeVisitingService:
+        code: '1270908161'
+        openedOn: '2016-12-01T00:00:00+09:00'
+        designationExpiredOn: '2022-11-30T00:00:00+09:00'
+    ltcsPreventionService: null
+    status: 2
+    isEnabled: true
+    version: 1
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 5
+    organizationId: 1
+    name: '土屋訪問介護事業所 中野北'
+    abbr: 中野北
+    phoneticName: ツチヤホウモンカイゴジギョウショナカノキタ
+    corporationName: ''
+    phoneticCorporationName: ''
+    purpose: 1
+    addr:
+        postcode: 165-0026
+        prefecture: 13
+        city: 中野区
+        street: 新井4-4-6
+        apartment: リバーシティ201
+    location:
+        lat: 35.71703897
+        lng: 139.66419317
+    tel: 050-3188-7747
+    fax: 03-6701-2453
+    email: nakanokita-tsuchiya-houmon@eustylelab.co.jp
+    qualifications:
+        - '1011'
+        - '1012'
+        - '2011'
+        - 20A0
+    officeGroupId: null
+    dwsGenericService:
+        code: '1311401861'
+        openedOn: '2018-08-01T00:00:00+09:00'
+        designationExpiredOn: '2024-07-31T00:00:00+09:00'
+        dwsAreaGradeId: 1
+    dwsCommAccompanyService: null
+    ltcsCareManagementService: null
+    ltcsHomeVisitLongTermCareService:
+        code: '1371405521'
+        openedOn: '2017-09-01T00:00:00+09:00'
+        designationExpiredOn: '2023-08-31T00:00:00+09:00'
+        ltcsAreaGradeId: 1
+    ltcsCompHomeVisitingService:
+        code: 13A1400236
+        openedOn: '2017-10-01T00:00:00+09:00'
+        designationExpiredOn: '2023-08-31T00:00:00+09:00'
+    ltcsPreventionService: null
+    status: 2
+    isEnabled: true
+    version: 1
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 6
+    organizationId: 1
+    name: '土屋訪問介護事業所 新宿'
+    abbr: 新宿
+    phoneticName: ツチヤホウモンカイゴジギョウショシンジュク
+    corporationName: ''
+    phoneticCorporationName: ''
+    purpose: 1
+    addr:
+        postcode: 169-0075
+        prefecture: 13
+        city: 新宿区
+        street: 高田馬場1-31-8
+        apartment: 高田馬場ダイカンプラザ419号室
+    location:
+        lat: 35.70998811
+        lng: 139.70325674
+    tel: 050-3171-7297
+    fax: 03-6701-2453
+    email: shinjuku-tsuchiya-houmon@eustylelab.co.jp
+    qualifications:
+        - '1011'
+        - '1012'
+        - '2011'
+        - 20A0
+    officeGroupId: null
+    dwsGenericService:
+        code: '1310402167'
+        openedOn: '2018-08-01T00:00:00+09:00'
+        designationExpiredOn: '2024-07-31T00:00:00+09:00'
+        dwsAreaGradeId: 1
+    dwsCommAccompanyService: null
+    ltcsCareManagementService: null
+    ltcsHomeVisitLongTermCareService:
+        code: '1370406140'
+        openedOn: '2017-09-01T00:00:00+09:00'
+        designationExpiredOn: '2023-08-31T00:00:00+09:00'
+        ltcsAreaGradeId: 1
+    ltcsCompHomeVisitingService:
+        code: 13A0400401
+        openedOn: '2017-11-01T00:00:00+09:00'
+        designationExpiredOn: '2023-10-31T00:00:00+09:00'
+    ltcsPreventionService: null
+    status: 2
+    isEnabled: true
+    version: 1
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 7
+    organizationId: 1
+    name: '土屋訪問介護事業所 世田谷'
+    abbr: 世田谷
+    phoneticName: ツチヤホウモンカイゴジギョウショセタガヤ
+    corporationName: ''
+    phoneticCorporationName: ''
+    purpose: 1
+    addr:
+        postcode: 157-0062
+        prefecture: 13
+        city: 世田谷区
+        street: 南烏山4-3-8
+        apartment: マノアール世田谷310号室
+    location:
+        lat: 35.6697746
+        lng: 139.602329
+    tel: 050-3171-8578
+    fax: 03-6701-2453
+    email: houmonkaigo@eustylelab.co.jp
+    qualifications:
+        - '1011'
+        - '1012'
+        - '2011'
+        - 20A0
+    officeGroupId: null
+    dwsGenericService:
+        code: '1311204091'
+        openedOn: '2017-10-01T00:00:00+09:00'
+        designationExpiredOn: '2023-09-30T00:00:00+09:00'
+        dwsAreaGradeId: 1
+    dwsCommAccompanyService: null
+    ltcsCareManagementService: null
+    ltcsHomeVisitLongTermCareService:
+        code: '1371214733'
+        openedOn: '2017-10-01T00:00:00+09:00'
+        designationExpiredOn: '2023-09-30T00:00:00+09:00'
+        ltcsAreaGradeId: 1
+    ltcsCompHomeVisitingService:
+        code: '1371214733'
+        openedOn: '2018-06-01T00:00:00+09:00'
+        designationExpiredOn: '2024-03-31T00:00:00+09:00'
+    ltcsPreventionService: null
+    status: 2
+    isEnabled: true
+    version: 1
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 8
+    organizationId: 1
+    name: '土屋訪問介護事業所 豊島'
+    abbr: 豊島
+    phoneticName: ツチヤホウモンカイゴジギョウショトシマ
+    corporationName: ''
+    phoneticCorporationName: ''
+    purpose: 1
+    addr:
+        postcode: 170-0005
+        prefecture: 13
+        city: 豊島区
+        street: 南大塚3-7-8
+        apartment: 'ロッヂングサクセス 102'
+    location:
+        lat: 35.72772013
+        lng: 139.72837888
+    tel: 050-3171-8706
+    fax: 050-6861-4718
+    email: toshima-tsuchiya-houmon@eustylelab.co.jp
+    qualifications:
+        - '1011'
+        - '1012'
+        - '2011'
+    officeGroupId: null
+    dwsGenericService:
+        code: '1311601700'
+        openedOn: '2018-11-01T00:00:00+09:00'
+        designationExpiredOn: '2024-10-31T00:00:00+09:00'
+        dwsAreaGradeId: 1
+    dwsCommAccompanyService: null
+    ltcsCareManagementService: null
+    ltcsHomeVisitLongTermCareService:
+        code: '1371605575'
+        openedOn: '2018-11-01T00:00:00+09:00'
+        designationExpiredOn: '2024-10-31T00:00:00+09:00'
+        ltcsAreaGradeId: 1
+    ltcsCompHomeVisitingService: null
+    ltcsPreventionService: null
+    status: 2
+    isEnabled: true
+    version: 1
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 9
+    organizationId: 1
+    name: '土屋訪問介護事業所 新潟'
+    abbr: 新潟
+    phoneticName: ツチヤホウモンカイゴジギョウショニイガタ
+    corporationName: ''
+    phoneticCorporationName: ''
+    purpose: 1
+    addr:
+        postcode: 951-8141
+        prefecture: 15
+        city: 新潟市中央区
+        street: 関新2-1-73
+        apartment: 新潟ダイカンプラザ遊学館1205号室
+    location:
+        lat: 37.90727895
+        lng: 139.02172248
+    tel: 050-3627-7810
+    fax: 050-6861-4266
+    email: niigata-tsuchiya-houmon@eustylelab.co.jp
+    qualifications:
+        - '1011'
+        - '1012'
+    officeGroupId: null
+    dwsGenericService:
+        code: '1510103300'
+        openedOn: '2019-01-01T00:00:00+09:00'
+        designationExpiredOn: '2024-12-31T00:00:00+09:00'
+        dwsAreaGradeId: 7
+    dwsCommAccompanyService: null
+    ltcsCareManagementService: null
+    ltcsHomeVisitLongTermCareService: null
+    ltcsCompHomeVisitingService: null
+    ltcsPreventionService: null
+    status: 2
+    isEnabled: true
+    version: 1
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 10
+    organizationId: 1
+    name: '土屋訪問介護事業所 宇都宮'
+    abbr: 宇都宮
+    phoneticName: ツチヤホウモンカイゴジギョウショウツノミヤ
+    corporationName: ''
+    phoneticCorporationName: ''
+    purpose: 1
+    addr:
+        postcode: 321-0954
+        prefecture: 9
+        city: 宇都宮市
+        street: 元今泉2-11-6
+        apartment: 'ROSE TOWER 元今泉1203号室'
+    location:
+        lat: 36.56414253
+        lng: 139.90031581
+    tel: 050-3627-7512
+    fax: 050-6861-3975
+    email: utsunomiya-tsuchiya-houmon@eustylelab.co.jp
+    qualifications:
+        - '1011'
+        - '1012'
+        - '2011'
+    officeGroupId: null
+    dwsGenericService:
+        code: '0910102193'
+        openedOn: '2019-01-01T00:00:00+09:00'
+        designationExpiredOn: '2024-12-31T00:00:00+09:00'
+        dwsAreaGradeId: 6
+    dwsCommAccompanyService: null
+    ltcsCareManagementService: null
+    ltcsHomeVisitLongTermCareService:
+        code: '0970108098'
+        openedOn: '2019-10-01T00:00:00+09:00'
+        designationExpiredOn: '2025-09-30T00:00:00+09:00'
+        ltcsAreaGradeId: 6
+    ltcsCompHomeVisitingService: null
+    ltcsPreventionService: null
+    status: 2
+    isEnabled: true
+    version: 1
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 11
+    organizationId: 1
+    name: '土屋訪問介護事業所 立川'
+    abbr: 立川
+    phoneticName: ツチヤホウモンカイゴジギョウショタチカワ
+    corporationName: ''
+    phoneticCorporationName: ''
+    purpose: 1
+    addr:
+        postcode: 190-0011
+        prefecture: 13
+        city: 立川市
+        street: 高松町2-25-30
+        apartment: コーポ竹内302号
+    location:
+        lat: 35.7045814
+        lng: 139.41979227
+    tel: 050-3131-8518
+    fax: 03-6701-2453
+    email: tachikawa-tsuchiya-houmon@eustylelab.co.jp
+    qualifications:
+        - '1011'
+        - '1012'
+    officeGroupId: null
+    dwsGenericService:
+        code: '1312501065'
+        openedOn: '2017-08-01T00:00:00+09:00'
+        designationExpiredOn: '2023-07-31T00:00:00+09:00'
+        dwsAreaGradeId: 4
+    dwsCommAccompanyService: null
+    ltcsCareManagementService: null
+    ltcsHomeVisitLongTermCareService: null
+    ltcsCompHomeVisitingService: null
+    ltcsPreventionService: null
+    status: 2
+    isEnabled: true
+    version: 1
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 12
+    organizationId: 1
+    name: '土屋訪問介護事業所 甲府'
+    abbr: 甲府
+    phoneticName: ツチヤホウモンカイゴジギョウショコウフ
+    corporationName: ''
+    phoneticCorporationName: ''
+    purpose: 1
+    addr:
+        postcode: 400-0032
+        prefecture: 19
+        city: 甲府市
+        street: 中央3-11-22
+        apartment: ヤマインハイツ505号室
+    location:
+        lat: 35.66098797
+        lng: 138.57517547
+    tel: 050-3628-5510
+    fax: 050-6875-5910
+    email: yamanashi-tsuchiya-houmon@eustylelab.co.jp
+    qualifications:
+        - '1011'
+        - '1012'
+    officeGroupId: null
+    dwsGenericService:
+        code: '1910102456'
+        openedOn: '2019-03-01T00:00:00+09:00'
+        designationExpiredOn: '2025-02-28T00:00:00+09:00'
+        dwsAreaGradeId: 7
+    dwsCommAccompanyService: null
+    ltcsCareManagementService: null
+    ltcsHomeVisitLongTermCareService: null
+    ltcsCompHomeVisitingService: null
+    ltcsPreventionService: null
+    status: 2
+    isEnabled: true
+    version: 1
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 13
+    organizationId: 1
+    name: 不動前ヘルパーステーション
+    abbr: 不動前
+    phoneticName: フドウマエヘルパーステーション
+    corporationName: ''
+    phoneticCorporationName: ''
+    purpose: 1
+    addr:
+        postcode: 153-0064
+        prefecture: 13
+        city: 目黒区
+        street: 下目黒3-18-7
+        apartment: スカイコート目黒201
+    location:
+        lat: 35.62728649
+        lng: 139.70904821
+    tel: 03-5704-5788
+    fax: 03-5704-8751
+    email: fudomae-hs@eustylelab.co.jp
+    qualifications:
+        - '2011'
+        - 20A0
+    officeGroupId: null
+    dwsGenericService: null
+    dwsCommAccompanyService: null
+    ltcsCareManagementService: null
+    ltcsHomeVisitLongTermCareService:
+        code: '1371004878'
+        openedOn: '2019-04-01T00:00:00+09:00'
+        designationExpiredOn: '2025-03-31T00:00:00+09:00'
+        ltcsAreaGradeId: 1
+    ltcsCompHomeVisitingService:
+        code: 13A1000374
+        openedOn: '2019-04-01T00:00:00+09:00'
+        designationExpiredOn: '2021-03-31T00:00:00+09:00'
+    ltcsPreventionService: null
+    status: 2
+    isEnabled: true
+    version: 1
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 14
+    organizationId: 1
+    name: '土屋訪問介護事業所 八王子'
+    abbr: 八王子
+    phoneticName: ツチヤホウモンカイゴジギョウショハチオウジ
+    corporationName: ''
+    phoneticCorporationName: ''
+    purpose: 1
+    addr:
+        postcode: 192-0073
+        prefecture: 13
+        city: 八王子市
+        street: 寺町29-22
+        apartment: グロブナーハウス寺町101
+    location:
+        lat: 35.65575445
+        lng: 139.33229026
+    tel: 050-3628-5502
+    fax: 050-6875-5920
+    email: hachioji-tsuchiya-houmon@eustylelab.co.jp
+    qualifications: {  }
+    officeGroupId: null
+    dwsGenericService: null
+    dwsCommAccompanyService: null
+    ltcsCareManagementService: null
+    ltcsHomeVisitLongTermCareService: null
+    ltcsCompHomeVisitingService: null
+    ltcsPreventionService: null
+    status: 2
+    isEnabled: true
+    version: 1
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 15
+    organizationId: 1
+    name: '土屋訪問介護事業所 藤沢'
+    abbr: 藤沢
+    phoneticName: ツチヤホウモンカイゴジギョウショフジサワ
+    corporationName: ''
+    phoneticCorporationName: ''
+    purpose: 1
+    addr:
+        postcode: 251-0052
+        prefecture: 14
+        city: 藤沢市
+        street: 藤沢572
+        apartment: ラ・ホーヤ藤沢708号室
+    location:
+        lat: 35.3407472
+        lng: 139.48856901
+    tel: 050-3171-7280
+    fax: 050-6868-2022
+    email: fujisawa-tsuchiya-houmon@eustylelab.co.jp
+    qualifications:
+        - '1011'
+        - '1012'
+        - '2011'
+    officeGroupId: null
+    dwsGenericService:
+        code: '1412202200'
+        openedOn: '2019-06-01T00:00:00+09:00'
+        designationExpiredOn: '2025-05-31T00:00:00+09:00'
+        dwsAreaGradeId: 4
+    dwsCommAccompanyService: null
+    ltcsCareManagementService: null
+    ltcsHomeVisitLongTermCareService:
+        code: '1472206638'
+        openedOn: '2019-07-01T00:00:00+09:00'
+        designationExpiredOn: '2025-06-30T00:00:00+09:00'
+        ltcsAreaGradeId: 4
+    ltcsCompHomeVisitingService: null
+    ltcsPreventionService: null
+    status: 2
+    isEnabled: true
+    version: 1
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 16
+    organizationId: 1
+    name: '土屋訪問介護事業所 所沢'
+    abbr: 所沢
+    phoneticName: ツチヤホウモンカイゴジギョウショトコロザワ
+    corporationName: ''
+    phoneticCorporationName: ''
+    purpose: 1
+    addr:
+        postcode: 359-0021
+        prefecture: 11
+        city: 所沢市
+        street: 東所沢5丁目2-17
+        apartment: 第二YTビル303号室
+    location:
+        lat: 35.79448161
+        lng: 139.51472862
+    tel: 050-3187-3007
+    fax: 050-6875-5923
+    email: saitama-tsuchiya-houmon@eustylelab.co.jp
+    qualifications:
+        - '1011'
+        - '1012'
+        - '2011'
+    officeGroupId: null
+    dwsGenericService:
+        code: '1112501588'
+        openedOn: '2019-07-01T00:00:00+09:00'
+        designationExpiredOn: '2025-06-30T00:00:00+09:00'
+        dwsAreaGradeId: 6
+    dwsCommAccompanyService: null
+    ltcsCareManagementService: null
+    ltcsHomeVisitLongTermCareService:
+        code: '1172505586'
+        openedOn: '2019-10-01T00:00:00+09:00'
+        designationExpiredOn: '2025-09-30T00:00:00+09:00'
+        ltcsAreaGradeId: 6
+    ltcsCompHomeVisitingService: null
+    ltcsPreventionService: null
+    status: 2
+    isEnabled: true
+    version: 1
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 17
+    organizationId: 1
+    name: '土屋訪問介護事業所 千葉'
+    abbr: 千葉
+    phoneticName: ツチヤホウモンカイゴジギョウショチバ
+    corporationName: ''
+    phoneticCorporationName: ''
+    purpose: 1
+    addr:
+        postcode: 260-0028
+        prefecture: 12
+        city: 千葉市中央区
+        street: 新町1-13
+        apartment: 木村ビル5A
+    location:
+        lat: 35.60989996
+        lng: 140.11534224
+    tel: 050-3196-1644
+    fax: 047-413-0626
+    email: funabashi-tsuchiya-houmon@eustylelab.co.jp
+    qualifications:
+        - '1011'
+        - '1012'
+        - '2011'
+    officeGroupId: null
+    dwsGenericService:
+        code: '1210103949'
+        openedOn: '2018-02-01T00:00:00+09:00'
+        designationExpiredOn: '2024-01-31T00:00:00+09:00'
+        dwsAreaGradeId: 3
+    dwsCommAccompanyService: null
+    ltcsCareManagementService: null
+    ltcsHomeVisitLongTermCareService:
+        code: '1270105214'
+        openedOn: '2019-10-01T00:00:00+09:00'
+        designationExpiredOn: '2025-09-30T00:00:00+09:00'
+        ltcsAreaGradeId: 3
+    ltcsCompHomeVisitingService: null
+    ltcsPreventionService: null
+    status: 2
+    isEnabled: true
+    version: 1
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 18
+    organizationId: 1
+    name: '土屋訪問介護事業所 前橋'
+    abbr: 前橋
+    phoneticName: ツチヤホウモンカイゴジギョウショマエバシ
+    corporationName: ''
+    phoneticCorporationName: ''
+    purpose: 1
+    addr:
+        postcode: 371-0805
+        prefecture: 10
+        city: 前橋市
+        street: 南町三丁目3番地5
+        apartment: グランコート南町501号室
+    location:
+        lat: 36.38241562
+        lng: 139.06886343
+    tel: 050-3154-0410
+    fax: 050-6875-5305
+    email: gunma-tsuchiya-houmon@eustylelab.co.jp
+    qualifications:
+        - '1011'
+        - '1012'
+    officeGroupId: null
+    dwsGenericService:
+        code: '1010102117'
+        openedOn: '2020-01-01T00:00:00+09:00'
+        designationExpiredOn: '2025-12-31T00:00:00+09:00'
+        dwsAreaGradeId: 7
+    dwsCommAccompanyService: null
+    ltcsCareManagementService: null
+    ltcsHomeVisitLongTermCareService: null
+    ltcsCompHomeVisitingService: null
+    ltcsPreventionService: null
+    status: 2
+    isEnabled: true
+    version: 1
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 19
+    organizationId: 1
+    name: '土屋訪問介護事業所 つくば'
+    abbr: つくば
+    phoneticName: ツチヤホウモンカイゴジギョウショツクバ
+    corporationName: ''
+    phoneticCorporationName: ''
+    purpose: 1
+    addr:
+        postcode: 305-0821
+        prefecture: 8
+        city: つくば市
+        street: 春日2丁目22-1
+        apartment: エスポワール春日401号室
+    location:
+        lat: 36.08458558
+        lng: 140.10013739
+    tel: 050-3131-8836
+    fax: 050-6868-2683
+    email: tsukuba-tsuchiya-houmon@eustylelab.co.jp
+    qualifications:
+        - '1011'
+        - '1012'
+        - '2011'
+    officeGroupId: null
+    dwsGenericService:
+        code: '0812001246'
+        openedOn: '2020-01-01T00:00:00+09:00'
+        designationExpiredOn: '2025-12-31T00:00:00+09:00'
+        dwsAreaGradeId: 4
+    dwsCommAccompanyService: null
+    ltcsCareManagementService: null
+    ltcsHomeVisitLongTermCareService:
+        code: '0872003132'
+        openedOn: '2020-06-01T00:00:00+09:00'
+        designationExpiredOn: '2026-05-31T00:00:00+09:00'
+        ltcsAreaGradeId: 5
+    ltcsCompHomeVisitingService: null
+    ltcsPreventionService: null
+    status: 2
+    isEnabled: true
+    version: 1
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 20
+    organizationId: 1
+    name: '土屋訪問介護事業所 武蔵小杉'
+    abbr: 武蔵小杉
+    phoneticName: ツチヤホウモンカイゴジギョウショムサシコスギ
+    corporationName: ''
+    phoneticCorporationName: ''
+    purpose: 1
+    addr:
+        postcode: 211-0016
+        prefecture: 14
+        city: 川崎市中原区
+        street: 市ノ坪35
+        apartment: ハイムシルク203号室
+    location:
+        lat: 35.57311323
+        lng: 139.65817852
+    tel: 050-3187-6727
+    fax: 044-330-1678
+    email: musashikosugi-tsuchiya-houmon@eustylelab.co.jp
+    qualifications:
+        - '1011'
+        - '1012'
+        - '2011'
+    officeGroupId: null
+    dwsGenericService:
+        code: '1415201126'
+        openedOn: '2020-08-01T00:00:00+09:00'
+        designationExpiredOn: '2026-07-31T00:00:00+09:00'
+        dwsAreaGradeId: 2
+    dwsCommAccompanyService: null
+    ltcsCareManagementService: null
+    ltcsHomeVisitLongTermCareService:
+        code: '1475203046'
+        openedOn: '2020-08-01T00:00:00+09:00'
+        designationExpiredOn: '2026-07-31T00:00:00+09:00'
+        ltcsAreaGradeId: 2
+    ltcsCompHomeVisitingService: null
+    ltcsPreventionService: null
+    status: 2
+    isEnabled: true
+    version: 1
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 21
+    organizationId: 1
+    name: アースサポート渋谷
+    abbr: ''
+    phoneticName: アースサポートシブヤ
+    corporationName: アースサポート株式会社
+    phoneticCorporationName: アースサポート
+    purpose: 2
+    addr:
+        postcode: 151-0071
+        prefecture: 13
+        city: 渋谷区
+        street: 本町1-4-14
+        apartment: ''
+    location:
+        lat: 0.0
+        lng: 0.0
+    tel: 03-5302-2231
+    fax: 03-5302-2230
+    email: ''
+    qualifications:
+        - '2046'
+    officeGroupId: null
+    dwsGenericService: null
+    dwsCommAccompanyService: null
+    ltcsCareManagementService:
+        code: '1371300037'
+        openedOn: null
+        designationExpiredOn: null
+        ltcsAreaGradeId: null
+    ltcsHomeVisitLongTermCareService: null
+    ltcsCompHomeVisitingService: null
+    ltcsPreventionService: null
+    status: 2
+    isEnabled: true
+    version: 1
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 22
+    organizationId: 1
+    name: あい居宅介護支援事業所
+    abbr: ''
+    phoneticName: アイキョタクガイゴシエンジギョウショ
+    corporationName: 社会福祉法人あいの樹
+    phoneticCorporationName: アイノキ
+    purpose: 2
+    addr:
+        postcode: 187-0035
+        prefecture: 13
+        city: 小平市
+        street: 小川西町5-22-12
+        apartment: ''
+    location:
+        lat: 0.0
+        lng: 0.0
+    tel: 042-349-2191
+    fax: 042-349-2192
+    email: ''
+    qualifications:
+        - '2046'
+    officeGroupId: null
+    dwsGenericService: null
+    dwsCommAccompanyService: null
+    ltcsCareManagementService:
+        code: '1374302196'
+        openedOn: null
+        designationExpiredOn: null
+        ltcsAreaGradeId: null
+    ltcsHomeVisitLongTermCareService: null
+    ltcsCompHomeVisitingService: null
+    ltcsPreventionService: null
+    status: 2
+    isEnabled: true
+    version: 1
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 23
+    organizationId: 1
+    name: 愛・居宅介護支援事業所杉並
+    abbr: ''
+    phoneticName: アイキョタクカイゴシエンジギョウショスギナミ
+    corporationName: 株式会社愛総合福祉
+    phoneticCorporationName: アイソウゴウフクシ
+    purpose: 2
+    addr:
+        postcode: 168-0065
+        prefecture: 13
+        city: 杉並区
+        street: 浜田山2-22-9
+        apartment: サニーコート邑103号室
+    location:
+        lat: 0.0
+        lng: 0.0
+    tel: 03-6379-7326
+    fax: 03-6379-7351
+    email: ''
+    qualifications:
+        - '2046'
+    officeGroupId: null
+    dwsGenericService: null
+    dwsCommAccompanyService: null
+    ltcsCareManagementService:
+        code: '1371509439'
+        openedOn: null
+        designationExpiredOn: null
+        ltcsAreaGradeId: null
+    ltcsHomeVisitLongTermCareService: null
+    ltcsCompHomeVisitingService: null
+    ltcsPreventionService: null
+    status: 2
+    isEnabled: true
+    version: 1
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 24
+    organizationId: 1
+    name: あおいサポートステーション
+    abbr: ''
+    phoneticName: アオイサポートステーション
+    corporationName: '合同会社Y&Uケア芙蓉会'
+    phoneticCorporationName: ワイアンドユウケアフヨウカイ
+    purpose: 2
+    addr:
+        postcode: 168-0065
+        prefecture: 13
+        city: 杉並区
+        street: 浜田山3-25-16
+        apartment: エスカイア102
+    location:
+        lat: 0.0
+        lng: 0.0
+    tel: 03-6795-8149
+    fax: 03-6796-9949
+    email: ''
+    qualifications:
+        - '2046'
+    officeGroupId: null
+    dwsGenericService: null
+    dwsCommAccompanyService: null
+    ltcsCareManagementService:
+        code: '1371505932'
+        openedOn: null
+        designationExpiredOn: null
+        ltcsAreaGradeId: null
+    ltcsHomeVisitLongTermCareService: null
+    ltcsCompHomeVisitingService: null
+    ltcsPreventionService: null
+    status: 2
+    isEnabled: true
+    version: 1
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 25
+    organizationId: 1
+    name: 青い鳥
+    abbr: ''
+    phoneticName: アオイトリ
+    corporationName: 青い鳥合同会社
+    phoneticCorporationName: アオイトリ
+    purpose: 2
+    addr:
+        postcode: 167-0051
+        prefecture: 13
+        city: 杉並区
+        street: 荻窪4-24-18
+        apartment: レジデンス102号室
+    location:
+        lat: 0.0
+        lng: 0.0
+    tel: 03-6383-5888
+    fax: 03-6383-5892
+    email: ''
+    qualifications:
+        - '2046'
+    officeGroupId: null
+    dwsGenericService: null
+    dwsCommAccompanyService: null
+    ltcsCareManagementService:
+        code: '1371509462'
+        openedOn: null
+        designationExpiredOn: null
+        ltcsAreaGradeId: null
+    ltcsHomeVisitLongTermCareService: null
+    ltcsCompHomeVisitingService: null
+    ltcsPreventionService: null
+    status: 2
+    isEnabled: true
+    version: 1
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 26
+    organizationId: 1
+    name: あおぞら在宅介護支援サービス
+    abbr: ''
+    phoneticName: アオゾラザイタクカイゴシエンサービス
+    corporationName: 特定非営利活動法人中野ふくし倶楽部
+    phoneticCorporationName: ナカノフクシクラブ
+    purpose: 2
+    addr:
+        postcode: 164-0011
+        prefecture: 13
+        city: 中野区
+        street: 中央4-53-7
+        apartment: YHNビル1F
+    location:
+        lat: 0.0
+        lng: 0.0
+    tel: 03-3384-5616
+    fax: 03-3384-5617
+    email: ''
+    qualifications:
+        - '2046'
+    officeGroupId: null
+    dwsGenericService: null
+    dwsCommAccompanyService: null
+    ltcsCareManagementService:
+        code: '1371400233'
+        openedOn: null
+        designationExpiredOn: null
+        ltcsAreaGradeId: null
+    ltcsHomeVisitLongTermCareService: null
+    ltcsCompHomeVisitingService: null
+    ltcsPreventionService: null
+    status: 2
+    isEnabled: true
+    version: 1
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 27
+    organizationId: 1
+    name: あおば
+    abbr: ''
+    phoneticName: アオバ
+    corporationName: 特定非営利活動法人あおば
+    phoneticCorporationName: アオバ
+    purpose: 2
+    addr:
+        postcode: 164-0012
+        prefecture: 13
+        city: 中野区
+        street: 本町3-5-4
+        apartment: メゾンシルクロード1階
+    location:
+        lat: 0.0
+        lng: 0.0
+    tel: 03-5358-8200
+    fax: 03-5358-8338
+    email: ''
+    qualifications:
+        - '2046'
+    officeGroupId: null
+    dwsGenericService: null
+    dwsCommAccompanyService: null
+    ltcsCareManagementService:
+        code: '1371402684'
+        openedOn: null
+        designationExpiredOn: null
+        ltcsAreaGradeId: null
+    ltcsHomeVisitLongTermCareService: null
+    ltcsCompHomeVisitingService: null
+    ltcsPreventionService: null
+    status: 2
+    isEnabled: true
+    version: 1
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 28
+    organizationId: 1
+    name: あおやぎ介護保険センター
+    abbr: ''
+    phoneticName: アオヤギカイゴホケンセンター
+    corporationName: 有限会社ういのんファーム
+    phoneticCorporationName: ウイノンファーム
+    purpose: 2
+    addr:
+        postcode: 165-0026
+        prefecture: 13
+        city: 中野区
+        street: 新井1-42-10
+        apartment: 206号
+    location:
+        lat: 0.0
+        lng: 0.0
+    tel: 03-3387-7981
+    fax: 03-5345-5186
+    email: ''
+    qualifications:
+        - '2046'
+    officeGroupId: null
+    dwsGenericService: null
+    dwsCommAccompanyService: null
+    ltcsCareManagementService:
+        code: '1372800936'
+        openedOn: null
+        designationExpiredOn: null
+        ltcsAreaGradeId: null
+    ltcsHomeVisitLongTermCareService: null
+    ltcsCompHomeVisitingService: null
+    ltcsPreventionService: null
+    status: 2
+    isEnabled: true
+    version: 1
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 29
+    organizationId: 1
+    name: 赤羽整形リウマチクリニック居宅介護支援事業部
+    abbr: ''
+    phoneticName: アカバネセイケイリウマチクリニックキョタクカイゴシエンジギョウブ
+    corporationName: 医療法人社団はなぶさ
+    phoneticCorporationName: ハナブサ
+    purpose: 2
+    addr:
+        postcode: 115-0055
+        prefecture: 13
+        city: 北区
+        street: 赤羽西1-34-2
+        apartment: 玉川ビル2階201号室
+    location:
+        lat: 0.0
+        lng: 0.0
+    tel: 03-3900-0567
+    fax: 03-3900-0572
+    email: ''
+    qualifications:
+        - '2046'
+    officeGroupId: null
+    dwsGenericService: null
+    dwsCommAccompanyService: null
+    ltcsCareManagementService:
+        code: '1371703503'
+        openedOn: null
+        designationExpiredOn: null
+        ltcsAreaGradeId: null
+    ltcsHomeVisitLongTermCareService: null
+    ltcsCompHomeVisitingService: null
+    ltcsPreventionService: null
+    status: 2
+    isEnabled: true
+    version: 1
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 30
+    organizationId: 1
+    name: あさがお宮原
+    abbr: ''
+    phoneticName: アサガオミヤハラ
+    corporationName: 株式会社ういず総合研究所
+    phoneticCorporationName: ウイズソウゴウケンキュウジョ
+    purpose: 2
+    addr:
+        postcode: 331-0812
+        prefecture: 11
+        city: さいたま市北区
+        street: 宮原町1-529
+        apartment: ''
+    location:
+        lat: 0.0
+        lng: 0.0
+    tel: 048-662-3125
+    fax: 048-662-7453
+    email: ''
+    qualifications:
+        - '2046'
+    officeGroupId: null
+    dwsGenericService: null
+    dwsCommAccompanyService: null
+    ltcsCareManagementService:
+        code: '1176515243'
+        openedOn: null
+        designationExpiredOn: null
+        ltcsAreaGradeId: null
+    ltcsHomeVisitLongTermCareService: null
+    ltcsCompHomeVisitingService: null
+    ltcsPreventionService: null
+    status: 2
+    isEnabled: true
+    version: 1
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'

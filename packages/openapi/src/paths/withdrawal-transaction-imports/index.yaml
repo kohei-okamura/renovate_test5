@@ -1,0 +1,26 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+post:
+  summary: 口座振替データ（全銀ファイル）アップロード
+  description: 口座振替データ（全銀ファイル）をアップロードし、利用者請求：入金日時、処理日時、振替結果コードを一括で登録する。
+  requestBody:
+    content:
+      multipart/form-data:
+        schema:
+          type: object
+          properties:
+            file:
+              type: string
+              format: text
+          required:
+            - file
+  responses:
+    '202':
+      $ref: '#/components/responses/JobCreated'
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+  tags:
+    - 口座振替データ

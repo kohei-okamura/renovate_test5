@@ -1,0 +1,70 @@
+name: "Update OpenAPI docs"
+
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/update-openapi-docs.yaml'
+  push:
+    branches:
+      - main
+    paths:
+      - 'packages/openapi/**/*.js'
+      - 'packages/openapi/**/*.ts'
+      - 'packages/openapi/**/*.yaml'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Node.js
+        uses: ./.github/actions/setup-node-js
+      - name: Build
+        run: |
+          rm -rf ./packages/openapi/dist/.gitignore
+          yarn openapi:build
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/main' }}
+        with:
+          deploy_key: ${{ secrets.ZINGER_OPENAPI_DEPLOY_KEY }}
+          destination_dir: dist
+          external_repository: eustylelab/zinger-openapi
+          publish_branch: main
+          publish_dir: ./packages/openapi/dist
+          user_name: 'github-actions[bot]'
+          user_email: '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Slack Notification on Success
+        if: ${{ success() }}
+        run: |
+          cat << __JSON__ | jq -c | curl -H 'Content-Type: application/json' -d @- ${{ secrets.SLACK_WEBHOOK }}
+          {
+            "text": "OpenAPI の定義が更新されました。デプロイ中です（1分〜数分で完了）。",
+            "attachments": [{
+              "color": "good",
+              "fields": [
+                { "title": "URL", "value": "https://zinger-openapi.pages.dev/" },
+                { "title": "Commit", "value": "<${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/commit/${GITHUB_SHA}|${GITHUB_SHA:0:7}>", "short": true },
+                { "title": "Actions", "value": "<${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}|${GITHUB_RUN_ID}>", "short": true }
+              ]
+            }]
+          }
+          __JSON__
+      - name: Slack Notification on Failure
+        if: ${{ failure() }}
+        run: |
+          cat << __JSON__ | jq -c | curl -H 'Content-Type: application/json' -d @- ${{ secrets.SLACK_WEBHOOK }}
+          {
+            "text": "OpenAPI のデプロイが開始できませんでした。",
+            "attachments": [{
+              "color": "warning",
+              "fields": [
+                { "title": "URL", "value": "https://zinger-openapi.pages.dev/" },
+                { "title": "Commit", "value": "<${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/commit/${GITHUB_SHA}|${GITHUB_SHA:0:7}>", "short": true },
+                { "title": "Actions", "value": "<${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}|${GITHUB_RUN_ID}>", "short": true }
+              ]
+            }]
+          }
+          __JSON__

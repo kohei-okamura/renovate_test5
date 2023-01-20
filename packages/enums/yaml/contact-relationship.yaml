@@ -1,0 +1,15 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 連絡先電話番号：続柄・関係
+name: ContactRelationship
+php:
+  enabled: true
+  namespace: Common
+typescript:
+  enabled: true
+items:
+  - { description: 本人, name: Theirself, value: 10 }
+  - { description: 家族, name: Family, value: 20 }
+  - { description: 弁護士, name: Lawyer, value: 30 }
+  - { description: その他, name: Others, value: 99 }

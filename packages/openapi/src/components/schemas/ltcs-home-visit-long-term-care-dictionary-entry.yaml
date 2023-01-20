@@ -1,0 +1,60 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 介護保険サービス：訪問介護：サービスコード辞書エントリ
+type: object
+properties:
+  id:
+    description: 辞書エントリ ID
+    type: object
+  dictionaryId:
+    description: 辞書 ID
+    type: object
+  serviceCode:
+    description: サービスコード
+    type: string
+  name:
+    description: 名称
+    type: string
+  category:
+    $ref: '#/components/schemas/LtcsServiceCodeCategory'
+  headcount:
+    description: 提供人数
+    type: number
+  compositionType:
+    $ref: '#/components/schemas/LtcsCompositionType'
+  specifiedOfficeAddition:
+    $ref: '#/components/schemas/HomeVisitLongTermCareSpecifiedOfficeAddition'
+  noteRequirement:
+    description: 摘要欄記載要件
+    type: object
+  isLimited:
+    description: 支給限度額対象
+    type: boolean
+  isBulkSubtractionTarget:
+    description: 同一建物減算対象
+    type: boolean
+  isSymbioticSubtractionTarget:
+    description: 共生型減算対象
+    type: boolean
+  score:
+    $ref: '#/components/schemas/LtcsCalcScore'
+  extraScore:
+    $ref: '#/components/schemas/LtcsCalcExtraScore'
+  timeframe:
+    $ref: '#/components/schemas/Timeframe'
+  totalMinutes:
+    description: 合計時間数
+    type: object
+  physicalMinutes:
+    description: 身体時間数
+    type: object
+  houseworkMinutes:
+    description: 生活時間数
+    type: object
+  createdAt:
+    $ref: '#/components/schemas/DateLike'
+  updatedAt:
+    $ref: '#/components/schemas/DateLike'

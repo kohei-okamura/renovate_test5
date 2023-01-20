@@ -1,0 +1,74 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 介護保険被保険者証
+type: object
+properties:
+  id:
+    description: 介護保険被保険者証 ID
+    type: object
+  userId:
+    description: 利用者 ID
+    type: object
+  effectivatedOn:
+    $ref: '#/components/schemas/DateLike'
+  status:
+    $ref: '#/components/schemas/LtcsInsCardStatus'
+  insNumber:
+    description: 被保険者証番号
+    type: string
+  issuedOn:
+    $ref: '#/components/schemas/DateLike'
+  insurerNumber:
+    description: 保険者番号
+    type: string
+  insurerName:
+    description: 保険者名
+    type: string
+  ltcsLevel:
+    $ref: '#/components/schemas/LtcsLevel'
+  certificatedOn:
+    $ref: '#/components/schemas/DateLike'
+  activatedOn:
+    $ref: '#/components/schemas/DateLike'
+  deactivatedOn:
+    $ref: '#/components/schemas/DateLike'
+  maxBenefit:
+    description: 区分支給限度基準額
+    type: number
+  maxBenefitQuotas:
+    description: 種類支給限度基準額
+    type: array
+    items:
+      $ref: '#/components/schemas/LtcsInsCardMaxBenefitQuota'
+  copayRate:
+    description: 利用者負担割合（原則）
+    type: number
+  copayActivatedOn:
+    $ref: '#/components/schemas/DateLike'
+  copayDeactivatedOn:
+    $ref: '#/components/schemas/DateLike'
+  carePlanAuthorType:
+    description: 居宅サービス計画作成区分
+    type: object
+  communityGeneralSupportCenterId:
+    description: 地域包括支援センター ID
+    type: object
+  carePlanAuthorOfficeId:
+    description: 居宅介護支援事業所 ID
+    type: object
+  careManagerName:
+    description: 居宅介護支援事業所：担当者
+    type: string
+  isEnabled:
+    description: 有効フラグ
+    type: boolean
+  version:
+    description: バージョン
+    type: number
+  createdAt:
+    $ref: '#/components/schemas/DateLike'
+  updatedAt:
+    $ref: '#/components/schemas/DateLike'

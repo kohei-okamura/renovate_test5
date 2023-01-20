@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`layouts/login.vue should be rendered correctly 1`] = `
+<div
+  class="v-application v-application--is-ltr theme--light"
+  data-app="true"
+  data-layout-login=""
+  id="app"
+>
+  <div
+    class="v-application--wrap"
+  >
+    <main
+      class="v-main content"
+      data-booted="true"
+      style="padding: 0px 0px 0px 0px;"
+    >
+      <div
+        class="v-main__wrap"
+      >
+        <div
+          class="wrapper"
+        >
+          <nuxt-stub />
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+`;

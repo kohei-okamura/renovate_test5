@@ -1,0 +1,50 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 障害福祉サービス：明細書：集計
+type: object
+properties:
+  serviceDivisionCode:
+    $ref: '#/components/schemas/DwsServiceDivisionCode'
+  startedOn:
+    $ref: '#/components/schemas/DateLike'
+  terminatedOn:
+    $ref: '#/components/schemas/DateLike'
+  serviceDays:
+    description: サービス利用日数
+    type: number
+  subtotalScore:
+    description: 給付単位数
+    type: number
+  unitCost:
+    description: 単位数単価
+    type: number
+  subtotalFee:
+    description: 総費用額
+    type: number
+  unmanagedCopay:
+    description: 1割相当額
+    type: number
+  managedCopay:
+    description: 利用者負担額
+    type: number
+  cappedCopay:
+    description: 上限月額調整
+    type: number
+  adjustedCopay:
+    description: 調整後利用者負担額
+    type: number
+  coordinatedCopay:
+    description: 上限額管理後利用者負担額
+    type: number
+  subtotalCopay:
+    description: 決定利用者負担額
+    type: number
+  subtotalBenefit:
+    description: 請求額：給付費
+    type: number
+  subtotalSubsidy:
+    description: 自治体助成分請求額
+    type: number

@@ -1,0 +1,17 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 障害福祉サービス受給者証：支給量等
+type: object
+properties:
+  dwsCertificationServiceType:
+    $ref: '#/components/schemas/DwsCertificationServiceType'
+  grantedAmount:
+    description: 支給量等
+    type: string
+  activatedOn:
+    $ref: '#/components/schemas/DateLike'
+  deactivatedOn:
+    $ref: '#/components/schemas/DateLike'

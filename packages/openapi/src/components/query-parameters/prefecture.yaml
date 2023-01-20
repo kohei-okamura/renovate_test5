@@ -1,0 +1,10 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+in: query
+name: prefecture
+description: 都道府県
+schema:
+  $ref: '#/components/schemas/Prefecture'

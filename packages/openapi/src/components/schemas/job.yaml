@@ -1,0 +1,22 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 非同期ジョブ
+type: object
+properties:
+  data:
+    description: 処理結果データ
+    type: object
+  status:
+    $ref: '#/components/schemas/JobStatus'
+  token:
+    description: トークン
+    type: string
+    minLength: 60
+    maxLength: 60
+  updatedAt:
+    $ref: '#/components/schemas/DateLike'
+  createdAt:
+    $ref: '#/components/schemas/DateLike'

@@ -1,0 +1,13 @@
+{
+    "isCoaching": true,
+    "isMoving": true,
+    "isSecondary": true,
+    "movingDurationMinutes": 0,
+    "range": {
+        "start": null,
+        "end": null
+    },
+    "headcount": 1,
+    "isHospitalized": false,
+    "isLongHospitalized": true
+}

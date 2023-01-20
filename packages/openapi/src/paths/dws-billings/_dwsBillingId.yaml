@@ -1,0 +1,21 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+get:
+  summary: 障害福祉サービス：請求取得
+  description: 障害福祉サービス：請求の詳細を取得する。
+  parameters:
+    - $ref: '#/components/parameters/dwsBillingId'
+  responses:
+    '200':
+      description: 正常に処理が行われた場合
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/DwsBillingResponse'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+    '404':
+      description: 障害福祉サービス：請求 ID に対応する障害福祉サービス：請求が存在しない場合
+  tags:
+    - 障害福祉サービス：請求

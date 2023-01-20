@@ -1,0 +1,9 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+in: path
+name: dwsContractId
+description: 障害福祉契約 ID
+required: true
+schema:
+  $ref: '#/components/schemas/ContractId'

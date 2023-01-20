@@ -1,0 +1,30 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+put:
+  summary: スタッフ検証
+  description: スタッフを「メールアドレス検証済み」に更新する。
+  parameters:
+    - $ref: '#/components/parameters/token'
+  requestBody:
+    content:
+      application/json:
+        schema:
+          type: object
+          properties:
+            isVerified:
+              description: 'メールアドレス検証済み'
+              enum: [true]
+  responses:
+    '200':
+      $ref: '#/components/responses/OK'
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+    '404':
+      $ref: '#/components/responses/StaffNotFound'
+    '410':
+      $ref: '#/components/responses/TokenExpired'
+  tags:
+    - スタッフ

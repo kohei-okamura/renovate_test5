@@ -1,0 +1,19 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 繰り返し周期
+name: Recurrence
+php:
+  enabled: true
+  namespace: Common
+typescript:
+  enabled: true
+items:
+  - { description: 毎週, name: EveryWeek, value: 11 }
+  - { description: 奇数週, name: OddWeek, value: 12 }
+  - { description: 偶数週, name: EvenWeek, value: 13 }
+  - { description: 第1週, name: FirstWeekOfMonth, value: 21 }
+  - { description: 第2週, name: SecondWeekOfMonth, value: 22 }
+  - { description: 第3週, name: ThirdWeekOfMonth, value: 23 }
+  - { description: 第4週, name: FourthWeekOfMonth, value: 24 }
+  - { description: 最終週, name: LastWeekOfMonth, value: 25 }

@@ -1,0 +1,62 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+description: 利用者登録／更新フォーム
+allOf:
+  - $ref: '#/components/schemas/StructuredNameForm'
+  - $ref: '#/components/schemas/AddrForm'
+  - type: object
+    properties:
+      sex:
+        $ref: '#/components/schemas/Sex'
+      birthday:
+        $ref: '#/components/schemas/Date'
+      contacts:
+        description: 連絡先電話番号
+        type: array
+        items:
+          $ref: '#/components/schemas/Contact'
+      billingDestination:
+        description: 請求先情報
+        allOf:
+          - type: object
+            properties:
+              destination:
+                $ref: '#/components/schemas/BillingDestination'
+              paymentMethod:
+                $ref: '#/components/schemas/PaymentMethod'
+              contractNumber:
+                description: 契約者番号
+                type: string
+              corporationName:
+                description: 請求先法人名・団体名
+                type: string
+              agentName:
+                description: 請求先氏名・担当者名
+                type: string
+              # TODO: $ref: '#/components/schemas/AddrForm'　を使いたかったが、User 直下でも使っているため正しく動作しない（バグの模様）
+              # 参考: https://github.com/Redocly/redoc/issues/1154
+              postcode:
+                description: 郵便番号
+                type: string
+              prefecture:
+                $ref: '#/components/schemas/Prefecture'
+              city:
+                description: 市区町村
+                type: string
+              street:
+                description: 町名・番地
+                type: string
+              apartment:
+                description: 建物名など
+                type: string
+              tel:
+                description: 請求先電話番号
+                type: string
+            required:
+              - destination
+              - paymentMethod
+    required:
+      - sex
+      - birthday
+      - tel

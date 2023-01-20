@@ -1,0 +1,107 @@
+managedTotalEntry:
+    scoreWithinMaxBenefitQuota: 3811
+    scoreWithinMaxBenefit: 3711
+    totalFeeForInsuranceOrBusiness: 42305
+    claimAmountForInsuranceOrBusiness: 33844
+    copayForInsuranceOrBusiness: 8461
+    copayWholeExpense: 3420
+    officeName: 事業所テスト
+    officeCode: '0123456789'
+    serviceName: '訪問介護 合計'
+    serviceCode: ''
+    unitScore: 0
+    count: 0
+    wholeScore: 4011
+    maxBenefitQuotaExcessScore: 200
+    maxBenefitExcessScore: 100
+    unitCost: 114000
+    benefitRate: 80
+totalScoreTotal: 4011
+maxBenefitExcessScoreTotal: 100
+scoreWithinMaxBenefitTotal: 3711
+totalFeeForInsuranceOrBusinessTotal: 48096
+claimAmountForInsuranceOrBusinessTotal: 38476
+copayForInsuranceOrBusinessTotal: 9620
+copayWholeExpenseTotal: 3899
+providedIn: '2020-10-01T00:00:00+09:00'
+insNumber: '0123456789'
+userName: '田中 提供太郎'
+unmanagedEntries:
+    -
+        scoreWithinMaxBenefitQuota: 522
+        scoreWithinMaxBenefit: 508
+        totalFeeForInsuranceOrBusiness: 5791
+        claimAmountForInsuranceOrBusiness: 4632
+        copayForInsuranceOrBusiness: 1159
+        copayWholeExpense: 479
+        officeName: 事業所テスト
+        officeCode: '0123456789'
+        serviceName: 訪問介護処遇改善加算Ⅰ
+        serviceCode: '116275'
+        unitScore: 508
+        count: 1
+        wholeScore: 550
+        maxBenefitQuotaExcessScore: 28
+        maxBenefitExcessScore: 14
+        unitCost: 114000
+        benefitRate: 80
+managedEntries:
+    -
+        scoreWithinMaxBenefitQuota: -200
+        scoreWithinMaxBenefit: -300
+        totalFeeForInsuranceOrBusiness: -3420
+        claimAmountForInsuranceOrBusiness: -2736
+        copayForInsuranceOrBusiness: -684
+        copayWholeExpense: 3420
+        officeName: 事業所テスト
+        officeCode: '0123456789'
+        serviceName: 身体介護1
+        serviceCode: '111111'
+        unitScore: 250
+        count: 1
+        wholeScore: 0
+        maxBenefitQuotaExcessScore: 200
+        maxBenefitExcessScore: 100
+        unitCost: 114000
+        benefitRate: 80
+    -
+        scoreWithinMaxBenefitQuota: 1243
+        scoreWithinMaxBenefit: 1143
+        totalFeeForInsuranceOrBusiness: 13030
+        claimAmountForInsuranceOrBusiness: 10424
+        copayForInsuranceOrBusiness: 2606
+        copayWholeExpense: 3420
+        officeName: 事業所テスト
+        officeCode: '0123456789'
+        serviceName: 身9生3・2人・深・Ⅰ
+        serviceCode: '112444'
+        unitScore: 1443
+        count: 1
+        wholeScore: 1443
+        maxBenefitQuotaExcessScore: 200
+        maxBenefitExcessScore: 100
+        unitCost: 114000
+        benefitRate: 80
+    -
+        scoreWithinMaxBenefitQuota: 2368
+        scoreWithinMaxBenefit: 2268
+        totalFeeForInsuranceOrBusiness: 25855
+        claimAmountForInsuranceOrBusiness: 20684
+        copayForInsuranceOrBusiness: 5171
+        copayWholeExpense: 3420
+        officeName: 事業所テスト
+        officeCode: '0123456789'
+        serviceName: 身9生3・2人・深・Ⅰ
+        serviceCode: '112444'
+        unitScore: 1284
+        count: 2
+        wholeScore: 2568
+        maxBenefitQuotaExcessScore: 200
+        maxBenefitExcessScore: 100
+        unitCost: 114000
+        benefitRate: 80
+maxBenefit: 27048
+insuranceClaimAmount: 40756
+subsidyClaimAmount: 10190
+copayAmount: 11239
+unitCost: 114000

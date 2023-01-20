@@ -1,0 +1,53 @@
+-
+    -
+        id: 8
+        officeId: 26
+        period:
+            start: '2021-01-12T00:00:00+0900'
+            end: '2021-12-25T00:00:00+0900'
+        specifiedOfficeAddition: 1
+        treatmentImprovementAddition: 2
+        specifiedTreatmentImprovementAddition: 0
+        baseIncreaseSupportAddition: 0
+        isEnabled: true
+        createdAt: '2021-01-05T00:00:00+0900'
+        updatedAt: '2021-01-10T00:00:00+0900'
+    -
+        id: 9
+        officeId: 26
+        period:
+            start: '2021-01-10T00:00:00+0900'
+            end: '2021-12-31T00:00:00+0900'
+        specifiedOfficeAddition: 1
+        treatmentImprovementAddition: 2
+        specifiedTreatmentImprovementAddition: 0
+        baseIncreaseSupportAddition: 0
+        isEnabled: true
+        createdAt: '2021-01-05T00:00:00+0900'
+        updatedAt: '2021-01-10T00:00:00+0900'
+    -
+        id: 6
+        officeId: 26
+        period:
+            start: '2021-01-10T00:00:00+0900'
+            end: '2021-12-25T00:00:00+0900'
+        specifiedOfficeAddition: 1
+        treatmentImprovementAddition: 2
+        specifiedTreatmentImprovementAddition: 0
+        baseIncreaseSupportAddition: 0
+        isEnabled: true
+        createdAt: '2021-01-05T00:00:00+0900'
+        updatedAt: '2021-01-10T00:00:00+0900'
+    -
+        id: 7
+        officeId: 26
+        period:
+            start: '2021-01-10T00:00:00+0900'
+            end: '2021-12-25T00:00:00+0900'
+        specifiedOfficeAddition: 1
+        treatmentImprovementAddition: 2
+        specifiedTreatmentImprovementAddition: 0
+        baseIncreaseSupportAddition: 0
+        isEnabled: true
+        createdAt: '2021-01-03T00:00:00+0900'
+        updatedAt: '2021-01-10T00:00:00+0900'

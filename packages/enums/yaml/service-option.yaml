@@ -1,0 +1,28 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: サービスオプション
+name: ServiceOption
+php:
+  enabled: true
+  namespace: Shift
+typescript:
+  enabled: true
+items:
+  - { description: 通知, name: NotificationEnabled, value: 100001 }
+  - { description: 単発, name: OneOff, value: 100002 }
+  - { description: 初回, name: FirstTime, value: 300001 }
+  - { description: 緊急時対応, name: Emergency, value: 300002 }
+  - { description: 喀痰吸引, name: Sucking, value: 300003 }
+  - { description: 福祉専門職員等連携, name: WelfareSpecialistCooperation, value: 301101 }
+  - { description: 初計, name: PlannedByNovice, value: 301102 }
+  - { description: 基礎研修課程修了者等, name: ProvidedByBeginner, value: 301103 }
+  - { description: 重研, name: ProvidedByCareWorkerForPwsd, value: 301104 }
+  - { description: 同一建物減算, name: Over20, value: 301105 }
+  - { description: 同一建物減算（大規模）, name: Over50, value: 301106 }
+  - { description: 行動障害支援連携, name: BehavioralDisorderSupportCooperation, value: 301201 }
+  - { description: 入院, name: Hospitalized, value: 301202 }
+  - { description: 入院（長期）, name: LongHospitalized, value: 301203 }
+  - { description: 熟練同行, name: Coaching, value: 301204 }
+  - { description: 生活機能向上連携Ⅰ, name: VitalFunctionsImprovement1, value: 401101 }
+  - { description: 生活機能向上連携Ⅱ, name: VitalFunctionsImprovement2, value: 401102 }

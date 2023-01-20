@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-promised.vue should be rendered correctly when the promise changed: 1 1`] = `
+<div>
+  <span
+    data-slot-default=""
+  >
+    After
+  </span>
+</div>
+`;
+
+exports[`z-promised.vue should be rendered correctly when the promise changed: 2 1`] = `
+<div>
+  <span
+    data-slot-rejected=""
+  >
+    Error: After
+  </span>
+</div>
+`;
+
+exports[`z-promised.vue should be rendered correctly when the promise changed: 3 1`] = `
+<div>
+  <span
+    data-slot-pending=""
+  >
+    Loading...
+  </span>
+</div>
+`;
+
+exports[`z-promised.vue should be rendered correctly when the promise changed: 4 1`] = `
+<div>
+  <span
+    data-slot-default=""
+  >
+    After
+  </span>
+</div>
+`;
+
+exports[`z-promised.vue should be rendered correctly when the promise changed: 5 1`] = `
+<div>
+  <span
+    data-slot-rejected=""
+  >
+    Error: After
+  </span>
+</div>
+`;
+
+exports[`z-promised.vue should be rendered correctly when the promise changed: 6 1`] = `
+<div>
+  <span
+    data-slot-pending=""
+  >
+    Loading...
+  </span>
+</div>
+`;
+
+exports[`z-promised.vue should be rendered correctly when the promise changed: 7 1`] = `
+<div>
+  <span
+    data-slot-default=""
+  >
+    After
+  </span>
+</div>
+`;
+
+exports[`z-promised.vue should be rendered correctly when the promise changed: 8 1`] = `
+<div>
+  <span
+    data-slot-rejected=""
+  >
+    Error: After
+  </span>
+</div>
+`;
+
+exports[`z-promised.vue should be rendered correctly when the promise is pending 1`] = `
+<div>
+  <span
+    data-slot-pending=""
+  >
+    Loading...
+  </span>
+</div>
+`;
+
+exports[`z-promised.vue should be rendered correctly when the promise is pending and pending slot is not defined 1`] = `
+<div>
+  <span
+    data-slot-default=""
+  >
+  </span>
+</div>
+`;
+
+exports[`z-promised.vue should be rendered correctly when the promise is pending and tag specified 1`] = `
+<h1>
+  <span
+    data-slot-pending=""
+  >
+    Loading...
+  </span>
+</h1>
+`;
+
+exports[`z-promised.vue should be rendered correctly when the promise is rejected 1`] = `
+<div>
+  <span
+    data-slot-rejected=""
+  >
+    Error: February
+  </span>
+</div>
+`;
+
+exports[`z-promised.vue should be rendered correctly when the promise is rejected and tag specified 1`] = `
+<h1>
+  <span
+    data-slot-rejected=""
+  >
+    Error: April
+  </span>
+</h1>
+`;
+
+exports[`z-promised.vue should be rendered correctly when the promise is rejected but rejected slot is not defined 1`] = `
+<div>
+  <span
+    data-slot-default=""
+  >
+  </span>
+</div>
+`;
+
+exports[`z-promised.vue should be rendered correctly when the promise is resolved 1`] = `
+<div>
+  <span
+    data-slot-default=""
+  >
+    January
+  </span>
+</div>
+`;
+
+exports[`z-promised.vue should be rendered correctly when the promise is resolved and tag specified 1`] = `
+<h1>
+  <span
+    data-slot-default=""
+  >
+    March
+  </span>
+</h1>
+`;

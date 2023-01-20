@@ -1,0 +1,20 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 障害福祉サービス：計画：サービス区分
+name: DwsProjectServiceCategory
+php:
+  enabled: true
+  namespace: Project
+  traits:
+    - DwsProjectServiceCategorySupport
+  withResolver: true
+typescript:
+  enabled: true
+items:
+  - { description: 居宅：身体介護, name: PhysicalCare, value: 11 }
+  - { description: 居宅：家事援助, name: Housework, value: 12 }
+  - { description: 居宅：通院等介助（身体を伴う）, name: AccompanyWithPhysicalCare, value: 13 }
+  - { description: 居宅：通院等介助（身体を伴わない）, name: Accompany, value: 14 }
+  - { description: 重度訪問介護, name: VisitingCareForPwsd, value: 21 }
+  - { description: 自費, name: OwnExpense, value: 91 }

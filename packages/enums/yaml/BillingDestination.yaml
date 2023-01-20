@@ -1,0 +1,15 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 請求先
+name: BillingDestination
+php:
+  enabled: true
+  namespace: User
+typescript:
+  enabled: true
+items:
+  - { description: 未設定, name: None, value: 0 }
+  - { description: 本人, name: Theirself, value: 1 }
+  - { description: 本人以外（個人）, name: Agent, value: 2 }
+  - { description: 本人以外（法人・団体）, name: Corporation, value: 3 }

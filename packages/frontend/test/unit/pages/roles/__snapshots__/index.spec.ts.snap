@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/roles/index.vue should be rendered correctly 1`] = `
+<div
+  breadcrumbs="[object Object]"
+  class="z-page-stub"
+  data-page-roles-index=""
+>
+  <div
+    class="z-page-stub-slot-tabs"
+  />
+  <div
+    class="z-page-stub-slot-title"
+  />
+  <div
+    class="root"
+    data-z-data-table=""
+  >
+    <!---->
+    <v-card-stub
+      class="py-4"
+      loaderheight="4"
+      tag="div"
+    >
+      <div
+        class="v-data-table theme--light table clickable"
+        data-desktop-table=""
+      >
+        <div
+          class="v-data-table__wrapper"
+        >
+          <table>
+            <colgroup>
+              <col
+                class=""
+              />
+              <col
+                class=""
+              />
+              <col
+                class=""
+              />
+            </colgroup>
+            <thead
+              class="v-data-table-header"
+            >
+              <tr>
+                <th
+                  aria-label="ロール名: Not sorted. Activate to sort ascending."
+                  aria-sort="none"
+                  class="text-start name sortable"
+                  role="columnheader"
+                  scope="col"
+                >
+                  <span>
+                    ロール名
+                  </span>
+                  <i
+                    aria-hidden="true"
+                    class="v-icon notranslate v-data-table-header__icon mdi mdi-arrow-up theme--light"
+                    style="font-size: 18px;"
+                  />
+                </th>
+                <th
+                  aria-label="権限範囲: Not sorted. Activate to sort ascending."
+                  aria-sort="none"
+                  class="text-start scope sortable"
+                  role="columnheader"
+                  scope="col"
+                >
+                  <span>
+                    権限範囲
+                  </span>
+                  <i
+                    aria-hidden="true"
+                    class="v-icon notranslate v-data-table-header__icon mdi mdi-arrow-up theme--light"
+                    style="font-size: 18px;"
+                  />
+                </th>
+                <th
+                  aria-label="システム管理権限: Not sorted. Activate to sort ascending."
+                  aria-sort="none"
+                  class="text-start isSystemAdmin sortable"
+                  role="columnheader"
+                  scope="col"
+                >
+                  <span>
+                    システム管理権限
+                  </span>
+                  <i
+                    aria-hidden="true"
+                    class="v-icon notranslate v-data-table-header__icon mdi mdi-arrow-up theme--light"
+                    style="font-size: 18px;"
+                  />
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                class=""
+              >
+                <td
+                  class="text-start"
+                >
+                  システム管理者
+                </td>
+                <td
+                  class="text-start"
+                >
+                  個人
+                </td>
+                <td
+                  class="text-start"
+                >
+                  有効
+                </td>
+              </tr>
+              <tr
+                class=""
+              >
+                <td
+                  class="text-start"
+                >
+                  テスト担当者
+                </td>
+                <td
+                  class="text-start"
+                >
+                  事業所
+                </td>
+                <td
+                  class="text-start"
+                >
+                  無効
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <!---->
+    </v-card-stub>
+  </div>
+  <a
+    bottom=""
+    class="z-fab-stub"
+    data-fab=""
+    fixed=""
+    icon="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+    nuxt=""
+    right=""
+    to="/roles/new"
+  />
+</div>
+`;

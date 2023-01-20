@@ -1,0 +1,23 @@
+{
+  "timeZone": "Asia/Tokyo",
+  "dependencies": {
+    "libraries": [
+      {
+        "userSymbol": "BacklogApp",
+        "libraryId": "1hH_7o3t7HbA5S7gheVgymzWm87RjX5YAjaJJSVa-AlzSsoG_2tMPO-hV",
+        "version": "15"
+      },
+      {
+        "userSymbol": "UserPropertiesManager",
+        "libraryId": "1Nk_f1A0TdtLn2IAo8W-GOFqvmg__THylMI_OFX1fFllsEiGXBxl5cwur",
+        "version": "9"
+      }
+    ]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/script.external_request",
+    "https://www.googleapis.com/auth/spreadsheets"
+  ]
+}

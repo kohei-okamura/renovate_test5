@@ -1,0 +1,16 @@
+-
+    serviceDivisionCode: '12'
+    startedOn: '2020-01-01T00:00:00+09:00'
+    terminatedOn: '2021-10-31T00:00:00+09:00'
+    serviceDays: 1
+    subtotalScore: 2648
+    unitCost: 112000
+    subtotalFee: 29657
+    unmanagedCopay: 2965
+    managedCopay: 2965
+    cappedCopay: 2965
+    adjustedCopay: null
+    coordinatedCopay: null
+    subtotalCopay: 2965
+    subtotalBenefit: 26692
+    subtotalSubsidy: null

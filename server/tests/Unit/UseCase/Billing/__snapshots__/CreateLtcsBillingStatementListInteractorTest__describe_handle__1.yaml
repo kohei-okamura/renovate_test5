@@ -1,0 +1,5081 @@
+-
+    id: 1
+    billingId: 2
+    bundleId: 1
+    insurerNumber: '131011'
+    insurerName: 杜王町
+    user:
+        userId: 1
+        ltcsInsCardId: 1
+        insNumber: '0000156829'
+        name:
+            displayName: '高田 純次'
+            phoneticDisplayName: 'タカダ ジュンジ'
+            familyName: 高田
+            givenName: 純次
+            phoneticFamilyName: タカダ
+            phoneticGivenName: ジュンジ
+        sex: 1
+        birthday: '1947-01-01T00:00:00+09:00'
+        ltcsLevel: 24
+        activatedOn: '2020-01-01T00:00:00+09:00'
+        deactivatedOn: '2022-12-31T00:00:00+09:00'
+    carePlanAuthor:
+        authorType: 1
+        officeId: 1
+        code: '1370402826'
+        name: 土屋ケア
+    agreedOn: null
+    expiredOn: null
+    expiredReason: 0
+    insurance:
+        benefitRate: 90
+        totalScore: 3225
+        claimAmount: 28984
+        copayAmount: 3221
+    subsidies:
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+    items:
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '6111'
+            serviceCodeCategory: 112000
+            unitScore: 643
+            count: 2
+            totalScore: 1286
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '6135'
+            serviceCodeCategory: 112000
+            unitScore: 775
+            count: 2
+            totalScore: 1550
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '6275'
+            serviceCodeCategory: 990501
+            unitScore: 389
+            count: 1
+            totalScore: 389
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+    aggregates:
+        -
+            serviceDivisionCode: '11'
+            serviceDays: 2
+            plannedScore: 2436
+            managedScore: 2436
+            unmanagedScore: 389
+            insurance:
+                totalScore: 2825
+                unitCost: 114000
+                claimAmount: 28984
+                copayAmount: 3221
+            subsidies:
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+    appendix:
+        managedTotalEntry:
+            scoreWithinMaxBenefitQuota: 7552
+            scoreWithinMaxBenefit: 7552
+            totalFeeForInsuranceOrBusiness: 86092
+            claimAmountForInsuranceOrBusiness: 77482
+            copayForInsuranceOrBusiness: 8610
+            copayWholeExpense: 0
+            officeName: '土屋訪問介護事業所 '
+            officeCode: '1234567890'
+            serviceName: '訪問介護 合計'
+            serviceCode: ''
+            unitScore: 0
+            count: 0
+            wholeScore: 7552
+            maxBenefitQuotaExcessScore: 0
+            maxBenefitExcessScore: 0
+            unitCost: 114000
+            benefitRate: 90
+        totalScoreTotal: 7552
+        maxBenefitExcessScoreTotal: 0
+        scoreWithinMaxBenefitTotal: 7552
+        totalFeeForInsuranceOrBusinessTotal: 97891
+        claimAmountForInsuranceOrBusinessTotal: 88101
+        copayForInsuranceOrBusinessTotal: 9790
+        copayWholeExpenseTotal: 0
+        providedIn: '2020-11-01T00:00:00+09:00'
+        insNumber: '0000156829'
+        userName: '高田 純次'
+        unmanagedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 1035
+                scoreWithinMaxBenefit: 1035
+                totalFeeForInsuranceOrBusiness: 11799
+                claimAmountForInsuranceOrBusiness: 10619
+                copayForInsuranceOrBusiness: 1180
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 処遇改善加算Ⅰ
+                serviceCode: '116275'
+                unitScore: 1035
+                count: 1
+                wholeScore: 1035
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        managedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 2780
+                scoreWithinMaxBenefit: 2780
+                totalFeeForInsuranceOrBusiness: 31692
+                claimAmountForInsuranceOrBusiness: 28522
+                copayForInsuranceOrBusiness: 3170
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身体3・Ⅰ
+                serviceCode: '112097'
+                unitScore: 695
+                count: 4
+                wholeScore: 2780
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 3424
+                scoreWithinMaxBenefit: 3424
+                totalFeeForInsuranceOrBusiness: 39033
+                claimAmountForInsuranceOrBusiness: 35129
+                copayForInsuranceOrBusiness: 3904
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身3生2・Ⅰ
+                serviceCode: '112121'
+                unitScore: 856
+                count: 4
+                wholeScore: 3424
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 1348
+                scoreWithinMaxBenefit: 1348
+                totalFeeForInsuranceOrBusiness: 15367
+                claimAmountForInsuranceOrBusiness: 13830
+                copayForInsuranceOrBusiness: 1537
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 生活3・夜・Ⅰ
+                serviceCode: '118014'
+                unitScore: 337
+                count: 4
+                wholeScore: 1348
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        maxBenefit: 30938
+        insuranceClaimAmount: 88101
+        subsidyClaimAmount: 0
+        copayAmount: 9790
+        unitCost: 114000
+    status: 20
+    fixedAt: null
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 2
+    billingId: 2
+    bundleId: 1
+    insurerNumber: '131045'
+    insurerName: 杜王町
+    user:
+        userId: 2
+        ltcsInsCardId: 2
+        insNumber: '0000181636'
+        name:
+            displayName: '高田 純次'
+            phoneticDisplayName: 'タカダ ジュンジ'
+            familyName: 高田
+            givenName: 純次
+            phoneticFamilyName: タカダ
+            phoneticGivenName: ジュンジ
+        sex: 2
+        birthday: '1927-01-10T00:00:00+09:00'
+        ltcsLevel: 22
+        activatedOn: '2020-01-01T00:00:00+09:00'
+        deactivatedOn: '2022-12-31T00:00:00+09:00'
+    carePlanAuthor:
+        authorType: 1
+        officeId: 2
+        code: '1370403196'
+        name: 土屋ケア
+    agreedOn: null
+    expiredOn: null
+    expiredReason: 0
+    insurance:
+        benefitRate: 90
+        totalScore: 764
+        claimAmount: 3734
+        copayAmount: 415
+    subsidies:
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+    items:
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '7311'
+            serviceCodeCategory: 113000
+            unitScore: 224
+            count: 3
+            totalScore: 672
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '6275'
+            serviceCodeCategory: 990501
+            unitScore: 92
+            count: 1
+            totalScore: 92
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+    aggregates:
+        -
+            serviceDivisionCode: '11'
+            serviceDays: 3
+            plannedScore: 272
+            managedScore: 272
+            unmanagedScore: 92
+            insurance:
+                totalScore: 364
+                unitCost: 114000
+                claimAmount: 3734
+                copayAmount: 415
+            subsidies:
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+    appendix:
+        managedTotalEntry:
+            scoreWithinMaxBenefitQuota: 7552
+            scoreWithinMaxBenefit: 7552
+            totalFeeForInsuranceOrBusiness: 86092
+            claimAmountForInsuranceOrBusiness: 77482
+            copayForInsuranceOrBusiness: 8610
+            copayWholeExpense: 0
+            officeName: '土屋訪問介護事業所 '
+            officeCode: '1234567890'
+            serviceName: '訪問介護 合計'
+            serviceCode: ''
+            unitScore: 0
+            count: 0
+            wholeScore: 7552
+            maxBenefitQuotaExcessScore: 0
+            maxBenefitExcessScore: 0
+            unitCost: 114000
+            benefitRate: 90
+        totalScoreTotal: 7552
+        maxBenefitExcessScoreTotal: 0
+        scoreWithinMaxBenefitTotal: 7552
+        totalFeeForInsuranceOrBusinessTotal: 97891
+        claimAmountForInsuranceOrBusinessTotal: 88101
+        copayForInsuranceOrBusinessTotal: 9790
+        copayWholeExpenseTotal: 0
+        providedIn: '2020-11-01T00:00:00+09:00'
+        insNumber: '0000156829'
+        userName: '高田 純次'
+        unmanagedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 1035
+                scoreWithinMaxBenefit: 1035
+                totalFeeForInsuranceOrBusiness: 11799
+                claimAmountForInsuranceOrBusiness: 10619
+                copayForInsuranceOrBusiness: 1180
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 処遇改善加算Ⅰ
+                serviceCode: '116275'
+                unitScore: 1035
+                count: 1
+                wholeScore: 1035
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        managedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 2780
+                scoreWithinMaxBenefit: 2780
+                totalFeeForInsuranceOrBusiness: 31692
+                claimAmountForInsuranceOrBusiness: 28522
+                copayForInsuranceOrBusiness: 3170
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身体3・Ⅰ
+                serviceCode: '112097'
+                unitScore: 695
+                count: 4
+                wholeScore: 2780
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 3424
+                scoreWithinMaxBenefit: 3424
+                totalFeeForInsuranceOrBusiness: 39033
+                claimAmountForInsuranceOrBusiness: 35129
+                copayForInsuranceOrBusiness: 3904
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身3生2・Ⅰ
+                serviceCode: '112121'
+                unitScore: 856
+                count: 4
+                wholeScore: 3424
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 1348
+                scoreWithinMaxBenefit: 1348
+                totalFeeForInsuranceOrBusiness: 15367
+                claimAmountForInsuranceOrBusiness: 13830
+                copayForInsuranceOrBusiness: 1537
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 生活3・夜・Ⅰ
+                serviceCode: '118014'
+                unitScore: 337
+                count: 4
+                wholeScore: 1348
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        maxBenefit: 30938
+        insuranceClaimAmount: 88101
+        subsidyClaimAmount: 0
+        copayAmount: 9790
+        unitCost: 114000
+    status: 20
+    fixedAt: null
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 3
+    billingId: 2
+    bundleId: 1
+    insurerNumber: '131045'
+    insurerName: 杜王町
+    user:
+        userId: 3
+        ltcsInsCardId: 3
+        insNumber: '0000244756'
+        name:
+            displayName: '高田 純次'
+            phoneticDisplayName: 'タカダ ジュンジ'
+            familyName: 高田
+            givenName: 純次
+            phoneticFamilyName: タカダ
+            phoneticGivenName: ジュンジ
+        sex: 1
+        birthday: '1926-12-03T00:00:00+09:00'
+        ltcsLevel: 24
+        activatedOn: '2020-01-01T00:00:00+09:00'
+        deactivatedOn: '2022-12-31T00:00:00+09:00'
+    carePlanAuthor:
+        authorType: 1
+        officeId: 3
+        code: '1370406447'
+        name: 土屋ケア
+    agreedOn: null
+    expiredOn: null
+    expiredReason: 0
+    insurance:
+        benefitRate: 70
+        totalScore: 1433
+        claimAmount: 8243
+        copayAmount: 3533
+    subsidies:
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+    items:
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '4111'
+            serviceCodeCategory: 112000
+            unitScore: 315
+            count: 4
+            totalScore: 1260
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '6275'
+            serviceCodeCategory: 990501
+            unitScore: 173
+            count: 1
+            totalScore: 173
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+    aggregates:
+        -
+            serviceDivisionCode: '11'
+            serviceDays: 4
+            plannedScore: 860
+            managedScore: 860
+            unmanagedScore: 173
+            insurance:
+                totalScore: 1033
+                unitCost: 114000
+                claimAmount: 8243
+                copayAmount: 3533
+            subsidies:
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+    appendix:
+        managedTotalEntry:
+            scoreWithinMaxBenefitQuota: 7552
+            scoreWithinMaxBenefit: 7552
+            totalFeeForInsuranceOrBusiness: 86092
+            claimAmountForInsuranceOrBusiness: 77482
+            copayForInsuranceOrBusiness: 8610
+            copayWholeExpense: 0
+            officeName: '土屋訪問介護事業所 '
+            officeCode: '1234567890'
+            serviceName: '訪問介護 合計'
+            serviceCode: ''
+            unitScore: 0
+            count: 0
+            wholeScore: 7552
+            maxBenefitQuotaExcessScore: 0
+            maxBenefitExcessScore: 0
+            unitCost: 114000
+            benefitRate: 90
+        totalScoreTotal: 7552
+        maxBenefitExcessScoreTotal: 0
+        scoreWithinMaxBenefitTotal: 7552
+        totalFeeForInsuranceOrBusinessTotal: 97891
+        claimAmountForInsuranceOrBusinessTotal: 88101
+        copayForInsuranceOrBusinessTotal: 9790
+        copayWholeExpenseTotal: 0
+        providedIn: '2020-11-01T00:00:00+09:00'
+        insNumber: '0000156829'
+        userName: '高田 純次'
+        unmanagedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 1035
+                scoreWithinMaxBenefit: 1035
+                totalFeeForInsuranceOrBusiness: 11799
+                claimAmountForInsuranceOrBusiness: 10619
+                copayForInsuranceOrBusiness: 1180
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 処遇改善加算Ⅰ
+                serviceCode: '116275'
+                unitScore: 1035
+                count: 1
+                wholeScore: 1035
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        managedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 2780
+                scoreWithinMaxBenefit: 2780
+                totalFeeForInsuranceOrBusiness: 31692
+                claimAmountForInsuranceOrBusiness: 28522
+                copayForInsuranceOrBusiness: 3170
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身体3・Ⅰ
+                serviceCode: '112097'
+                unitScore: 695
+                count: 4
+                wholeScore: 2780
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 3424
+                scoreWithinMaxBenefit: 3424
+                totalFeeForInsuranceOrBusiness: 39033
+                claimAmountForInsuranceOrBusiness: 35129
+                copayForInsuranceOrBusiness: 3904
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身3生2・Ⅰ
+                serviceCode: '112121'
+                unitScore: 856
+                count: 4
+                wholeScore: 3424
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 1348
+                scoreWithinMaxBenefit: 1348
+                totalFeeForInsuranceOrBusiness: 15367
+                claimAmountForInsuranceOrBusiness: 13830
+                copayForInsuranceOrBusiness: 1537
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 生活3・夜・Ⅰ
+                serviceCode: '118014'
+                unitScore: 337
+                count: 4
+                wholeScore: 1348
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        maxBenefit: 30938
+        insuranceClaimAmount: 88101
+        subsidyClaimAmount: 0
+        copayAmount: 9790
+        unitCost: 114000
+    status: 20
+    fixedAt: null
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 4
+    billingId: 2
+    bundleId: 1
+    insurerNumber: '131045'
+    insurerName: 杜王町
+    user:
+        userId: 4
+        ltcsInsCardId: 4
+        insNumber: '0000278549'
+        name:
+            displayName: '高田 純次'
+            phoneticDisplayName: 'タカダ ジュンジ'
+            familyName: 高田
+            givenName: 純次
+            phoneticFamilyName: タカダ
+            phoneticGivenName: ジュンジ
+        sex: 2
+        birthday: '1929-02-10T00:00:00+09:00'
+        ltcsLevel: 25
+        activatedOn: '2020-01-01T00:00:00+09:00'
+        deactivatedOn: '2022-12-31T00:00:00+09:00'
+    carePlanAuthor:
+        authorType: 1
+        officeId: 4
+        code: '1370406132'
+        name: 土屋ケア
+    agreedOn: null
+    expiredOn: null
+    expiredReason: 0
+    insurance:
+        benefitRate: 90
+        totalScore: 6307
+        claimAmount: 60605
+        copayAmount: 6734
+    subsidies:
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+    items:
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '1111'
+            serviceCodeCategory: 111000
+            unitScore: 249
+            count: 8
+            totalScore: 1992
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '1211'
+            serviceCodeCategory: 111000
+            unitScore: 395
+            count: 9
+            totalScore: 3555
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '6275'
+            serviceCodeCategory: 990501
+            unitScore: 760
+            count: 1
+            totalScore: 760
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+    aggregates:
+        -
+            serviceDivisionCode: '11'
+            serviceDays: 9
+            plannedScore: 5147
+            managedScore: 5147
+            unmanagedScore: 760
+            insurance:
+                totalScore: 5907
+                unitCost: 114000
+                claimAmount: 60605
+                copayAmount: 6734
+            subsidies:
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+    appendix:
+        managedTotalEntry:
+            scoreWithinMaxBenefitQuota: 7552
+            scoreWithinMaxBenefit: 7552
+            totalFeeForInsuranceOrBusiness: 86092
+            claimAmountForInsuranceOrBusiness: 77482
+            copayForInsuranceOrBusiness: 8610
+            copayWholeExpense: 0
+            officeName: '土屋訪問介護事業所 '
+            officeCode: '1234567890'
+            serviceName: '訪問介護 合計'
+            serviceCode: ''
+            unitScore: 0
+            count: 0
+            wholeScore: 7552
+            maxBenefitQuotaExcessScore: 0
+            maxBenefitExcessScore: 0
+            unitCost: 114000
+            benefitRate: 90
+        totalScoreTotal: 7552
+        maxBenefitExcessScoreTotal: 0
+        scoreWithinMaxBenefitTotal: 7552
+        totalFeeForInsuranceOrBusinessTotal: 97891
+        claimAmountForInsuranceOrBusinessTotal: 88101
+        copayForInsuranceOrBusinessTotal: 9790
+        copayWholeExpenseTotal: 0
+        providedIn: '2020-11-01T00:00:00+09:00'
+        insNumber: '0000156829'
+        userName: '高田 純次'
+        unmanagedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 1035
+                scoreWithinMaxBenefit: 1035
+                totalFeeForInsuranceOrBusiness: 11799
+                claimAmountForInsuranceOrBusiness: 10619
+                copayForInsuranceOrBusiness: 1180
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 処遇改善加算Ⅰ
+                serviceCode: '116275'
+                unitScore: 1035
+                count: 1
+                wholeScore: 1035
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        managedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 2780
+                scoreWithinMaxBenefit: 2780
+                totalFeeForInsuranceOrBusiness: 31692
+                claimAmountForInsuranceOrBusiness: 28522
+                copayForInsuranceOrBusiness: 3170
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身体3・Ⅰ
+                serviceCode: '112097'
+                unitScore: 695
+                count: 4
+                wholeScore: 2780
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 3424
+                scoreWithinMaxBenefit: 3424
+                totalFeeForInsuranceOrBusiness: 39033
+                claimAmountForInsuranceOrBusiness: 35129
+                copayForInsuranceOrBusiness: 3904
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身3生2・Ⅰ
+                serviceCode: '112121'
+                unitScore: 856
+                count: 4
+                wholeScore: 3424
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 1348
+                scoreWithinMaxBenefit: 1348
+                totalFeeForInsuranceOrBusiness: 15367
+                claimAmountForInsuranceOrBusiness: 13830
+                copayForInsuranceOrBusiness: 1537
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 生活3・夜・Ⅰ
+                serviceCode: '118014'
+                unitScore: 337
+                count: 4
+                wholeScore: 1348
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        maxBenefit: 30938
+        insuranceClaimAmount: 88101
+        subsidyClaimAmount: 0
+        copayAmount: 9790
+        unitCost: 114000
+    status: 20
+    fixedAt: null
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 5
+    billingId: 2
+    bundleId: 1
+    insurerNumber: '131045'
+    insurerName: 杜王町
+    user:
+        userId: 5
+        ltcsInsCardId: 5
+        insNumber: '0000344127'
+        name:
+            displayName: '高田 純次'
+            phoneticDisplayName: 'タカダ ジュンジ'
+            familyName: 高田
+            givenName: 純次
+            phoneticFamilyName: タカダ
+            phoneticGivenName: ジュンジ
+        sex: 2
+        birthday: '1932-03-03T00:00:00+09:00'
+        ltcsLevel: 22
+        activatedOn: '2020-01-01T00:00:00+09:00'
+        deactivatedOn: '2022-12-31T00:00:00+09:00'
+    carePlanAuthor:
+        authorType: 1
+        officeId: 5
+        code: '1370406736'
+        name: 土屋ケア
+    agreedOn: null
+    expiredOn: null
+    expiredReason: 0
+    insurance:
+        benefitRate: 90
+        totalScore: 2507
+        claimAmount: 21617
+        copayAmount: 2402
+    subsidies:
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+    items:
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '4111'
+            serviceCodeCategory: 112000
+            unitScore: 315
+            count: 7
+            totalScore: 2205
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '6275'
+            serviceCodeCategory: 990501
+            unitScore: 302
+            count: 1
+            totalScore: 302
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+    aggregates:
+        -
+            serviceDivisionCode: '11'
+            serviceDays: 7
+            plannedScore: 1805
+            managedScore: 1805
+            unmanagedScore: 302
+            insurance:
+                totalScore: 2107
+                unitCost: 114000
+                claimAmount: 21617
+                copayAmount: 2402
+            subsidies:
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+    appendix:
+        managedTotalEntry:
+            scoreWithinMaxBenefitQuota: 7552
+            scoreWithinMaxBenefit: 7552
+            totalFeeForInsuranceOrBusiness: 86092
+            claimAmountForInsuranceOrBusiness: 77482
+            copayForInsuranceOrBusiness: 8610
+            copayWholeExpense: 0
+            officeName: '土屋訪問介護事業所 '
+            officeCode: '1234567890'
+            serviceName: '訪問介護 合計'
+            serviceCode: ''
+            unitScore: 0
+            count: 0
+            wholeScore: 7552
+            maxBenefitQuotaExcessScore: 0
+            maxBenefitExcessScore: 0
+            unitCost: 114000
+            benefitRate: 90
+        totalScoreTotal: 7552
+        maxBenefitExcessScoreTotal: 0
+        scoreWithinMaxBenefitTotal: 7552
+        totalFeeForInsuranceOrBusinessTotal: 97891
+        claimAmountForInsuranceOrBusinessTotal: 88101
+        copayForInsuranceOrBusinessTotal: 9790
+        copayWholeExpenseTotal: 0
+        providedIn: '2020-11-01T00:00:00+09:00'
+        insNumber: '0000156829'
+        userName: '高田 純次'
+        unmanagedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 1035
+                scoreWithinMaxBenefit: 1035
+                totalFeeForInsuranceOrBusiness: 11799
+                claimAmountForInsuranceOrBusiness: 10619
+                copayForInsuranceOrBusiness: 1180
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 処遇改善加算Ⅰ
+                serviceCode: '116275'
+                unitScore: 1035
+                count: 1
+                wholeScore: 1035
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        managedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 2780
+                scoreWithinMaxBenefit: 2780
+                totalFeeForInsuranceOrBusiness: 31692
+                claimAmountForInsuranceOrBusiness: 28522
+                copayForInsuranceOrBusiness: 3170
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身体3・Ⅰ
+                serviceCode: '112097'
+                unitScore: 695
+                count: 4
+                wholeScore: 2780
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 3424
+                scoreWithinMaxBenefit: 3424
+                totalFeeForInsuranceOrBusiness: 39033
+                claimAmountForInsuranceOrBusiness: 35129
+                copayForInsuranceOrBusiness: 3904
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身3生2・Ⅰ
+                serviceCode: '112121'
+                unitScore: 856
+                count: 4
+                wholeScore: 3424
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 1348
+                scoreWithinMaxBenefit: 1348
+                totalFeeForInsuranceOrBusiness: 15367
+                claimAmountForInsuranceOrBusiness: 13830
+                copayForInsuranceOrBusiness: 1537
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 生活3・夜・Ⅰ
+                serviceCode: '118014'
+                unitScore: 337
+                count: 4
+                wholeScore: 1348
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        maxBenefit: 30938
+        insuranceClaimAmount: 88101
+        subsidyClaimAmount: 0
+        copayAmount: 9790
+        unitCost: 114000
+    status: 20
+    fixedAt: null
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 6
+    billingId: 2
+    bundleId: 1
+    insurerNumber: '131045'
+    insurerName: 杜王町
+    user:
+        userId: 6
+        ltcsInsCardId: 6
+        insNumber: '0000390229'
+        name:
+            displayName: '高田 純次'
+            phoneticDisplayName: 'タカダ ジュンジ'
+            familyName: 高田
+            givenName: 純次
+            phoneticFamilyName: タカダ
+            phoneticGivenName: ジュンジ
+        sex: 1
+        birthday: '1932-01-26T00:00:00+09:00'
+        ltcsLevel: 24
+        activatedOn: '2020-01-01T00:00:00+09:00'
+        deactivatedOn: '2022-12-31T00:00:00+09:00'
+    carePlanAuthor:
+        authorType: 1
+        officeId: 6
+        code: '1370406181'
+        name: 土屋ケア
+    agreedOn: null
+    expiredOn: null
+    expiredReason: 0
+    insurance:
+        benefitRate: 80
+        totalScore: 6701
+        claimAmount: 57464
+        copayAmount: 14367
+    subsidies:
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+    items:
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '4845'
+            serviceCodeCategory: 111000
+            unitScore: 166
+            count: 20
+            totalScore: 3320
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '4846'
+            serviceCodeCategory: 111000
+            unitScore: 208
+            count: 8
+            totalScore: 1664
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '7211'
+            serviceCodeCategory: 113000
+            unitScore: 182
+            count: 5
+            totalScore: 910
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '6275'
+            serviceCodeCategory: 990501
+            unitScore: 807
+            count: 1
+            totalScore: 807
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+    aggregates:
+        -
+            serviceDivisionCode: '11'
+            serviceDays: 20
+            plannedScore: 5494
+            managedScore: 5494
+            unmanagedScore: 807
+            insurance:
+                totalScore: 6301
+                unitCost: 114000
+                claimAmount: 57464
+                copayAmount: 14367
+            subsidies:
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+    appendix:
+        managedTotalEntry:
+            scoreWithinMaxBenefitQuota: 7552
+            scoreWithinMaxBenefit: 7552
+            totalFeeForInsuranceOrBusiness: 86092
+            claimAmountForInsuranceOrBusiness: 77482
+            copayForInsuranceOrBusiness: 8610
+            copayWholeExpense: 0
+            officeName: '土屋訪問介護事業所 '
+            officeCode: '1234567890'
+            serviceName: '訪問介護 合計'
+            serviceCode: ''
+            unitScore: 0
+            count: 0
+            wholeScore: 7552
+            maxBenefitQuotaExcessScore: 0
+            maxBenefitExcessScore: 0
+            unitCost: 114000
+            benefitRate: 90
+        totalScoreTotal: 7552
+        maxBenefitExcessScoreTotal: 0
+        scoreWithinMaxBenefitTotal: 7552
+        totalFeeForInsuranceOrBusinessTotal: 97891
+        claimAmountForInsuranceOrBusinessTotal: 88101
+        copayForInsuranceOrBusinessTotal: 9790
+        copayWholeExpenseTotal: 0
+        providedIn: '2020-11-01T00:00:00+09:00'
+        insNumber: '0000156829'
+        userName: '高田 純次'
+        unmanagedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 1035
+                scoreWithinMaxBenefit: 1035
+                totalFeeForInsuranceOrBusiness: 11799
+                claimAmountForInsuranceOrBusiness: 10619
+                copayForInsuranceOrBusiness: 1180
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 処遇改善加算Ⅰ
+                serviceCode: '116275'
+                unitScore: 1035
+                count: 1
+                wholeScore: 1035
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        managedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 2780
+                scoreWithinMaxBenefit: 2780
+                totalFeeForInsuranceOrBusiness: 31692
+                claimAmountForInsuranceOrBusiness: 28522
+                copayForInsuranceOrBusiness: 3170
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身体3・Ⅰ
+                serviceCode: '112097'
+                unitScore: 695
+                count: 4
+                wholeScore: 2780
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 3424
+                scoreWithinMaxBenefit: 3424
+                totalFeeForInsuranceOrBusiness: 39033
+                claimAmountForInsuranceOrBusiness: 35129
+                copayForInsuranceOrBusiness: 3904
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身3生2・Ⅰ
+                serviceCode: '112121'
+                unitScore: 856
+                count: 4
+                wholeScore: 3424
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 1348
+                scoreWithinMaxBenefit: 1348
+                totalFeeForInsuranceOrBusiness: 15367
+                claimAmountForInsuranceOrBusiness: 13830
+                copayForInsuranceOrBusiness: 1537
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 生活3・夜・Ⅰ
+                serviceCode: '118014'
+                unitScore: 337
+                count: 4
+                wholeScore: 1348
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        maxBenefit: 30938
+        insuranceClaimAmount: 88101
+        subsidyClaimAmount: 0
+        copayAmount: 9790
+        unitCost: 114000
+    status: 20
+    fixedAt: null
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 7
+    billingId: 2
+    bundleId: 1
+    insurerNumber: '131045'
+    insurerName: 杜王町
+    user:
+        userId: 7
+        ltcsInsCardId: 7
+        insNumber: '0000442707'
+        name:
+            displayName: '高田 純次'
+            phoneticDisplayName: 'タカダ ジュンジ'
+            familyName: 高田
+            givenName: 純次
+            phoneticFamilyName: タカダ
+            phoneticGivenName: ジュンジ
+        sex: 2
+        birthday: '1929-01-01T00:00:00+09:00'
+        ltcsLevel: 21
+        activatedOn: '2020-01-01T00:00:00+09:00'
+        deactivatedOn: '2022-12-31T00:00:00+09:00'
+    carePlanAuthor:
+        authorType: 1
+        officeId: 7
+        code: '1370402149'
+        name: 土屋ケア
+    agreedOn: null
+    expiredOn: null
+    expiredReason: 0
+    insurance:
+        benefitRate: 90
+        totalScore: 3782
+        claimAmount: 34698
+        copayAmount: 0
+    subsidies:
+        -
+            defrayerCategory: 12
+            defrayerNumber: '12132015'
+            recipientNumber: '2476729'
+            benefitRate: 100
+            totalScore: 3382
+            claimAmount: 3856
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+    items:
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '1211'
+            serviceCodeCategory: 111000
+            unitScore: 395
+            count: 5
+            totalScore: 1975
+            subsidies:
+                -
+                    count: 5
+                    totalScore: 1975
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '4111'
+            serviceCodeCategory: 112000
+            unitScore: 315
+            count: 3
+            totalScore: 945
+            subsidies:
+                -
+                    count: 3
+                    totalScore: 945
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '7211'
+            serviceCodeCategory: 113000
+            unitScore: 182
+            count: 1
+            totalScore: 182
+            subsidies:
+                -
+                    count: 1
+                    totalScore: 182
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '7311'
+            serviceCodeCategory: 113000
+            unitScore: 224
+            count: 1
+            totalScore: 224
+            subsidies:
+                -
+                    count: 1
+                    totalScore: 224
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '6275'
+            serviceCodeCategory: 990501
+            unitScore: 456
+            count: 1
+            totalScore: 456
+            subsidies:
+                -
+                    count: 1
+                    totalScore: 456
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+    aggregates:
+        -
+            serviceDivisionCode: '11'
+            serviceDays: 5
+            plannedScore: 2926
+            managedScore: 2926
+            unmanagedScore: 456
+            insurance:
+                totalScore: 3382
+                unitCost: 114000
+                claimAmount: 34698
+                copayAmount: 0
+            subsidies:
+                -
+                    totalScore: 3382
+                    claimAmount: 3856
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+    appendix:
+        managedTotalEntry:
+            scoreWithinMaxBenefitQuota: 7552
+            scoreWithinMaxBenefit: 7552
+            totalFeeForInsuranceOrBusiness: 86092
+            claimAmountForInsuranceOrBusiness: 77482
+            copayForInsuranceOrBusiness: 8610
+            copayWholeExpense: 0
+            officeName: '土屋訪問介護事業所 '
+            officeCode: '1234567890'
+            serviceName: '訪問介護 合計'
+            serviceCode: ''
+            unitScore: 0
+            count: 0
+            wholeScore: 7552
+            maxBenefitQuotaExcessScore: 0
+            maxBenefitExcessScore: 0
+            unitCost: 114000
+            benefitRate: 90
+        totalScoreTotal: 7552
+        maxBenefitExcessScoreTotal: 0
+        scoreWithinMaxBenefitTotal: 7552
+        totalFeeForInsuranceOrBusinessTotal: 97891
+        claimAmountForInsuranceOrBusinessTotal: 88101
+        copayForInsuranceOrBusinessTotal: 9790
+        copayWholeExpenseTotal: 0
+        providedIn: '2020-11-01T00:00:00+09:00'
+        insNumber: '0000156829'
+        userName: '高田 純次'
+        unmanagedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 1035
+                scoreWithinMaxBenefit: 1035
+                totalFeeForInsuranceOrBusiness: 11799
+                claimAmountForInsuranceOrBusiness: 10619
+                copayForInsuranceOrBusiness: 1180
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 処遇改善加算Ⅰ
+                serviceCode: '116275'
+                unitScore: 1035
+                count: 1
+                wholeScore: 1035
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        managedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 2780
+                scoreWithinMaxBenefit: 2780
+                totalFeeForInsuranceOrBusiness: 31692
+                claimAmountForInsuranceOrBusiness: 28522
+                copayForInsuranceOrBusiness: 3170
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身体3・Ⅰ
+                serviceCode: '112097'
+                unitScore: 695
+                count: 4
+                wholeScore: 2780
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 3424
+                scoreWithinMaxBenefit: 3424
+                totalFeeForInsuranceOrBusiness: 39033
+                claimAmountForInsuranceOrBusiness: 35129
+                copayForInsuranceOrBusiness: 3904
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身3生2・Ⅰ
+                serviceCode: '112121'
+                unitScore: 856
+                count: 4
+                wholeScore: 3424
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 1348
+                scoreWithinMaxBenefit: 1348
+                totalFeeForInsuranceOrBusiness: 15367
+                claimAmountForInsuranceOrBusiness: 13830
+                copayForInsuranceOrBusiness: 1537
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 生活3・夜・Ⅰ
+                serviceCode: '118014'
+                unitScore: 337
+                count: 4
+                wholeScore: 1348
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        maxBenefit: 30938
+        insuranceClaimAmount: 88101
+        subsidyClaimAmount: 0
+        copayAmount: 9790
+        unitCost: 114000
+    status: 20
+    fixedAt: null
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 8
+    billingId: 2
+    bundleId: 1
+    insurerNumber: '131045'
+    insurerName: 杜王町
+    user:
+        userId: 8
+        ltcsInsCardId: 8
+        insNumber: '0000524595'
+        name:
+            displayName: '高田 純次'
+            phoneticDisplayName: 'タカダ ジュンジ'
+            familyName: 高田
+            givenName: 純次
+            phoneticFamilyName: タカダ
+            phoneticGivenName: ジュンジ
+        sex: 2
+        birthday: '1935-09-09T00:00:00+09:00'
+        ltcsLevel: 24
+        activatedOn: '2020-01-01T00:00:00+09:00'
+        deactivatedOn: '2022-12-31T00:00:00+09:00'
+    carePlanAuthor:
+        authorType: 1
+        officeId: 8
+        code: '1370406181'
+        name: 土屋ケア
+    agreedOn: null
+    expiredOn: null
+    expiredReason: 0
+    insurance:
+        benefitRate: 90
+        totalScore: 5660
+        claimAmount: 53967
+        copayAmount: 5997
+    subsidies:
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+    items:
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '1111'
+            serviceCodeCategory: 111000
+            unitScore: 249
+            count: 1
+            totalScore: 249
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '1211'
+            serviceCodeCategory: 111000
+            unitScore: 395
+            count: 1
+            totalScore: 395
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '4112'
+            serviceCodeCategory: 112000
+            unitScore: 394
+            count: 11
+            totalScore: 4334
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '6275'
+            serviceCodeCategory: 990501
+            unitScore: 682
+            count: 1
+            totalScore: 682
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+    aggregates:
+        -
+            serviceDivisionCode: '11'
+            serviceDays: 11
+            plannedScore: 4578
+            managedScore: 4578
+            unmanagedScore: 682
+            insurance:
+                totalScore: 5260
+                unitCost: 114000
+                claimAmount: 53967
+                copayAmount: 5997
+            subsidies:
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+    appendix:
+        managedTotalEntry:
+            scoreWithinMaxBenefitQuota: 7552
+            scoreWithinMaxBenefit: 7552
+            totalFeeForInsuranceOrBusiness: 86092
+            claimAmountForInsuranceOrBusiness: 77482
+            copayForInsuranceOrBusiness: 8610
+            copayWholeExpense: 0
+            officeName: '土屋訪問介護事業所 '
+            officeCode: '1234567890'
+            serviceName: '訪問介護 合計'
+            serviceCode: ''
+            unitScore: 0
+            count: 0
+            wholeScore: 7552
+            maxBenefitQuotaExcessScore: 0
+            maxBenefitExcessScore: 0
+            unitCost: 114000
+            benefitRate: 90
+        totalScoreTotal: 7552
+        maxBenefitExcessScoreTotal: 0
+        scoreWithinMaxBenefitTotal: 7552
+        totalFeeForInsuranceOrBusinessTotal: 97891
+        claimAmountForInsuranceOrBusinessTotal: 88101
+        copayForInsuranceOrBusinessTotal: 9790
+        copayWholeExpenseTotal: 0
+        providedIn: '2020-11-01T00:00:00+09:00'
+        insNumber: '0000156829'
+        userName: '高田 純次'
+        unmanagedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 1035
+                scoreWithinMaxBenefit: 1035
+                totalFeeForInsuranceOrBusiness: 11799
+                claimAmountForInsuranceOrBusiness: 10619
+                copayForInsuranceOrBusiness: 1180
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 処遇改善加算Ⅰ
+                serviceCode: '116275'
+                unitScore: 1035
+                count: 1
+                wholeScore: 1035
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        managedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 2780
+                scoreWithinMaxBenefit: 2780
+                totalFeeForInsuranceOrBusiness: 31692
+                claimAmountForInsuranceOrBusiness: 28522
+                copayForInsuranceOrBusiness: 3170
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身体3・Ⅰ
+                serviceCode: '112097'
+                unitScore: 695
+                count: 4
+                wholeScore: 2780
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 3424
+                scoreWithinMaxBenefit: 3424
+                totalFeeForInsuranceOrBusiness: 39033
+                claimAmountForInsuranceOrBusiness: 35129
+                copayForInsuranceOrBusiness: 3904
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身3生2・Ⅰ
+                serviceCode: '112121'
+                unitScore: 856
+                count: 4
+                wholeScore: 3424
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 1348
+                scoreWithinMaxBenefit: 1348
+                totalFeeForInsuranceOrBusiness: 15367
+                claimAmountForInsuranceOrBusiness: 13830
+                copayForInsuranceOrBusiness: 1537
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 生活3・夜・Ⅰ
+                serviceCode: '118014'
+                unitScore: 337
+                count: 4
+                wholeScore: 1348
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        maxBenefit: 30938
+        insuranceClaimAmount: 88101
+        subsidyClaimAmount: 0
+        copayAmount: 9790
+        unitCost: 114000
+    status: 20
+    fixedAt: null
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 9
+    billingId: 2
+    bundleId: 1
+    insurerNumber: '131045'
+    insurerName: 杜王町
+    user:
+        userId: 9
+        ltcsInsCardId: 9
+        insNumber: '0000609198'
+        name:
+            displayName: '高田 純次'
+            phoneticDisplayName: 'タカダ ジュンジ'
+            familyName: 高田
+            givenName: 純次
+            phoneticFamilyName: タカダ
+            phoneticGivenName: ジュンジ
+        sex: 1
+        birthday: '1953-03-03T00:00:00+09:00'
+        ltcsLevel: 25
+        activatedOn: '2020-01-01T00:00:00+09:00'
+        deactivatedOn: '2022-12-31T00:00:00+09:00'
+    carePlanAuthor:
+        authorType: 1
+        officeId: 9
+        code: '1370401604'
+        name: 土屋ケア
+    agreedOn: null
+    expiredOn: null
+    expiredReason: 0
+    insurance:
+        benefitRate: 90
+        totalScore: 3890
+        claimAmount: 35807
+        copayAmount: 3979
+    subsidies:
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+    items:
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '1112'
+            serviceCodeCategory: 111000
+            unitScore: 311
+            count: 11
+            totalScore: 3421
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '6275'
+            serviceCodeCategory: 990501
+            unitScore: 469
+            count: 1
+            totalScore: 469
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+    aggregates:
+        -
+            serviceDivisionCode: '11'
+            serviceDays: 11
+            plannedScore: 3021
+            managedScore: 3021
+            unmanagedScore: 469
+            insurance:
+                totalScore: 3490
+                unitCost: 114000
+                claimAmount: 35807
+                copayAmount: 3979
+            subsidies:
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+    appendix:
+        managedTotalEntry:
+            scoreWithinMaxBenefitQuota: 7552
+            scoreWithinMaxBenefit: 7552
+            totalFeeForInsuranceOrBusiness: 86092
+            claimAmountForInsuranceOrBusiness: 77482
+            copayForInsuranceOrBusiness: 8610
+            copayWholeExpense: 0
+            officeName: '土屋訪問介護事業所 '
+            officeCode: '1234567890'
+            serviceName: '訪問介護 合計'
+            serviceCode: ''
+            unitScore: 0
+            count: 0
+            wholeScore: 7552
+            maxBenefitQuotaExcessScore: 0
+            maxBenefitExcessScore: 0
+            unitCost: 114000
+            benefitRate: 90
+        totalScoreTotal: 7552
+        maxBenefitExcessScoreTotal: 0
+        scoreWithinMaxBenefitTotal: 7552
+        totalFeeForInsuranceOrBusinessTotal: 97891
+        claimAmountForInsuranceOrBusinessTotal: 88101
+        copayForInsuranceOrBusinessTotal: 9790
+        copayWholeExpenseTotal: 0
+        providedIn: '2020-11-01T00:00:00+09:00'
+        insNumber: '0000156829'
+        userName: '高田 純次'
+        unmanagedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 1035
+                scoreWithinMaxBenefit: 1035
+                totalFeeForInsuranceOrBusiness: 11799
+                claimAmountForInsuranceOrBusiness: 10619
+                copayForInsuranceOrBusiness: 1180
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 処遇改善加算Ⅰ
+                serviceCode: '116275'
+                unitScore: 1035
+                count: 1
+                wholeScore: 1035
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        managedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 2780
+                scoreWithinMaxBenefit: 2780
+                totalFeeForInsuranceOrBusiness: 31692
+                claimAmountForInsuranceOrBusiness: 28522
+                copayForInsuranceOrBusiness: 3170
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身体3・Ⅰ
+                serviceCode: '112097'
+                unitScore: 695
+                count: 4
+                wholeScore: 2780
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 3424
+                scoreWithinMaxBenefit: 3424
+                totalFeeForInsuranceOrBusiness: 39033
+                claimAmountForInsuranceOrBusiness: 35129
+                copayForInsuranceOrBusiness: 3904
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身3生2・Ⅰ
+                serviceCode: '112121'
+                unitScore: 856
+                count: 4
+                wholeScore: 3424
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 1348
+                scoreWithinMaxBenefit: 1348
+                totalFeeForInsuranceOrBusiness: 15367
+                claimAmountForInsuranceOrBusiness: 13830
+                copayForInsuranceOrBusiness: 1537
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 生活3・夜・Ⅰ
+                serviceCode: '118014'
+                unitScore: 337
+                count: 4
+                wholeScore: 1348
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        maxBenefit: 30938
+        insuranceClaimAmount: 88101
+        subsidyClaimAmount: 0
+        copayAmount: 9790
+        unitCost: 114000
+    status: 20
+    fixedAt: null
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 10
+    billingId: 2
+    bundleId: 1
+    insurerNumber: '131045'
+    insurerName: 杜王町
+    user:
+        userId: 10
+        ltcsInsCardId: 10
+        insNumber: '0000697102'
+        name:
+            displayName: '高田 純次'
+            phoneticDisplayName: 'タカダ ジュンジ'
+            familyName: 高田
+            givenName: 純次
+            phoneticFamilyName: タカダ
+            phoneticGivenName: ジュンジ
+        sex: 1
+        birthday: '1939-11-14T00:00:00+09:00'
+        ltcsLevel: 21
+        activatedOn: '2020-01-01T00:00:00+09:00'
+        deactivatedOn: '2022-12-31T00:00:00+09:00'
+    carePlanAuthor:
+        authorType: 1
+        officeId: 10
+        code: '1370406694'
+        name: 土屋ケア
+    agreedOn: null
+    expiredOn: null
+    expiredReason: 0
+    insurance:
+        benefitRate: 80
+        totalScore: 2985
+        claimAmount: 23575
+        copayAmount: 5894
+    subsidies:
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+    items:
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '4111'
+            serviceCodeCategory: 112000
+            unitScore: 315
+            count: 3
+            totalScore: 945
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '7211'
+            serviceCodeCategory: 113000
+            unitScore: 182
+            count: 8
+            totalScore: 1456
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '7311'
+            serviceCodeCategory: 113000
+            unitScore: 224
+            count: 1
+            totalScore: 224
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '6275'
+            serviceCodeCategory: 990501
+            unitScore: 360
+            count: 1
+            totalScore: 360
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+    aggregates:
+        -
+            serviceDivisionCode: '11'
+            serviceDays: 8
+            plannedScore: 2225
+            managedScore: 2225
+            unmanagedScore: 360
+            insurance:
+                totalScore: 2585
+                unitCost: 114000
+                claimAmount: 23575
+                copayAmount: 5894
+            subsidies:
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+    appendix:
+        managedTotalEntry:
+            scoreWithinMaxBenefitQuota: 7552
+            scoreWithinMaxBenefit: 7552
+            totalFeeForInsuranceOrBusiness: 86092
+            claimAmountForInsuranceOrBusiness: 77482
+            copayForInsuranceOrBusiness: 8610
+            copayWholeExpense: 0
+            officeName: '土屋訪問介護事業所 '
+            officeCode: '1234567890'
+            serviceName: '訪問介護 合計'
+            serviceCode: ''
+            unitScore: 0
+            count: 0
+            wholeScore: 7552
+            maxBenefitQuotaExcessScore: 0
+            maxBenefitExcessScore: 0
+            unitCost: 114000
+            benefitRate: 90
+        totalScoreTotal: 7552
+        maxBenefitExcessScoreTotal: 0
+        scoreWithinMaxBenefitTotal: 7552
+        totalFeeForInsuranceOrBusinessTotal: 97891
+        claimAmountForInsuranceOrBusinessTotal: 88101
+        copayForInsuranceOrBusinessTotal: 9790
+        copayWholeExpenseTotal: 0
+        providedIn: '2020-11-01T00:00:00+09:00'
+        insNumber: '0000156829'
+        userName: '高田 純次'
+        unmanagedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 1035
+                scoreWithinMaxBenefit: 1035
+                totalFeeForInsuranceOrBusiness: 11799
+                claimAmountForInsuranceOrBusiness: 10619
+                copayForInsuranceOrBusiness: 1180
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 処遇改善加算Ⅰ
+                serviceCode: '116275'
+                unitScore: 1035
+                count: 1
+                wholeScore: 1035
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        managedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 2780
+                scoreWithinMaxBenefit: 2780
+                totalFeeForInsuranceOrBusiness: 31692
+                claimAmountForInsuranceOrBusiness: 28522
+                copayForInsuranceOrBusiness: 3170
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身体3・Ⅰ
+                serviceCode: '112097'
+                unitScore: 695
+                count: 4
+                wholeScore: 2780
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 3424
+                scoreWithinMaxBenefit: 3424
+                totalFeeForInsuranceOrBusiness: 39033
+                claimAmountForInsuranceOrBusiness: 35129
+                copayForInsuranceOrBusiness: 3904
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身3生2・Ⅰ
+                serviceCode: '112121'
+                unitScore: 856
+                count: 4
+                wholeScore: 3424
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 1348
+                scoreWithinMaxBenefit: 1348
+                totalFeeForInsuranceOrBusiness: 15367
+                claimAmountForInsuranceOrBusiness: 13830
+                copayForInsuranceOrBusiness: 1537
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 生活3・夜・Ⅰ
+                serviceCode: '118014'
+                unitScore: 337
+                count: 4
+                wholeScore: 1348
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        maxBenefit: 30938
+        insuranceClaimAmount: 88101
+        subsidyClaimAmount: 0
+        copayAmount: 9790
+        unitCost: 114000
+    status: 20
+    fixedAt: null
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 11
+    billingId: 2
+    bundleId: 1
+    insurerNumber: '131045'
+    insurerName: 杜王町
+    user:
+        userId: 11
+        ltcsInsCardId: 11
+        insNumber: '0000722876'
+        name:
+            displayName: '高田 純次'
+            phoneticDisplayName: 'タカダ ジュンジ'
+            familyName: 高田
+            givenName: 純次
+            phoneticFamilyName: タカダ
+            phoneticGivenName: ジュンジ
+        sex: 2
+        birthday: '1938-11-14T00:00:00+09:00'
+        ltcsLevel: 22
+        activatedOn: '2020-01-01T00:00:00+09:00'
+        deactivatedOn: '2022-12-31T00:00:00+09:00'
+    carePlanAuthor:
+        authorType: 1
+        officeId: 11
+        code: '1370406736'
+        name: 土屋ケア
+    agreedOn: null
+    expiredOn: null
+    expiredReason: 0
+    insurance:
+        benefitRate: 90
+        totalScore: 764
+        claimAmount: 3734
+        copayAmount: 415
+    subsidies:
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+    items:
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '7311'
+            serviceCodeCategory: 113000
+            unitScore: 224
+            count: 3
+            totalScore: 672
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '6275'
+            serviceCodeCategory: 990501
+            unitScore: 92
+            count: 1
+            totalScore: 92
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+    aggregates:
+        -
+            serviceDivisionCode: '11'
+            serviceDays: 3
+            plannedScore: 272
+            managedScore: 272
+            unmanagedScore: 92
+            insurance:
+                totalScore: 364
+                unitCost: 114000
+                claimAmount: 3734
+                copayAmount: 415
+            subsidies:
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+    appendix:
+        managedTotalEntry:
+            scoreWithinMaxBenefitQuota: 7552
+            scoreWithinMaxBenefit: 7552
+            totalFeeForInsuranceOrBusiness: 86092
+            claimAmountForInsuranceOrBusiness: 77482
+            copayForInsuranceOrBusiness: 8610
+            copayWholeExpense: 0
+            officeName: '土屋訪問介護事業所 '
+            officeCode: '1234567890'
+            serviceName: '訪問介護 合計'
+            serviceCode: ''
+            unitScore: 0
+            count: 0
+            wholeScore: 7552
+            maxBenefitQuotaExcessScore: 0
+            maxBenefitExcessScore: 0
+            unitCost: 114000
+            benefitRate: 90
+        totalScoreTotal: 7552
+        maxBenefitExcessScoreTotal: 0
+        scoreWithinMaxBenefitTotal: 7552
+        totalFeeForInsuranceOrBusinessTotal: 97891
+        claimAmountForInsuranceOrBusinessTotal: 88101
+        copayForInsuranceOrBusinessTotal: 9790
+        copayWholeExpenseTotal: 0
+        providedIn: '2020-11-01T00:00:00+09:00'
+        insNumber: '0000156829'
+        userName: '高田 純次'
+        unmanagedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 1035
+                scoreWithinMaxBenefit: 1035
+                totalFeeForInsuranceOrBusiness: 11799
+                claimAmountForInsuranceOrBusiness: 10619
+                copayForInsuranceOrBusiness: 1180
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 処遇改善加算Ⅰ
+                serviceCode: '116275'
+                unitScore: 1035
+                count: 1
+                wholeScore: 1035
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        managedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 2780
+                scoreWithinMaxBenefit: 2780
+                totalFeeForInsuranceOrBusiness: 31692
+                claimAmountForInsuranceOrBusiness: 28522
+                copayForInsuranceOrBusiness: 3170
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身体3・Ⅰ
+                serviceCode: '112097'
+                unitScore: 695
+                count: 4
+                wholeScore: 2780
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 3424
+                scoreWithinMaxBenefit: 3424
+                totalFeeForInsuranceOrBusiness: 39033
+                claimAmountForInsuranceOrBusiness: 35129
+                copayForInsuranceOrBusiness: 3904
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身3生2・Ⅰ
+                serviceCode: '112121'
+                unitScore: 856
+                count: 4
+                wholeScore: 3424
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 1348
+                scoreWithinMaxBenefit: 1348
+                totalFeeForInsuranceOrBusiness: 15367
+                claimAmountForInsuranceOrBusiness: 13830
+                copayForInsuranceOrBusiness: 1537
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 生活3・夜・Ⅰ
+                serviceCode: '118014'
+                unitScore: 337
+                count: 4
+                wholeScore: 1348
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        maxBenefit: 30938
+        insuranceClaimAmount: 88101
+        subsidyClaimAmount: 0
+        copayAmount: 9790
+        unitCost: 114000
+    status: 20
+    fixedAt: null
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 12
+    billingId: 2
+    bundleId: 1
+    insurerNumber: '131045'
+    insurerName: 杜王町
+    user:
+        userId: 12
+        ltcsInsCardId: 12
+        insNumber: '0000729574'
+        name:
+            displayName: '高田 純次'
+            phoneticDisplayName: 'タカダ ジュンジ'
+            familyName: 高田
+            givenName: 純次
+            phoneticFamilyName: タカダ
+            phoneticGivenName: ジュンジ
+        sex: 2
+        birthday: '1940-08-16T00:00:00+09:00'
+        ltcsLevel: 24
+        activatedOn: '2020-01-01T00:00:00+09:00'
+        deactivatedOn: '2022-12-31T00:00:00+09:00'
+    carePlanAuthor:
+        authorType: 1
+        officeId: 12
+        code: '1370406694'
+        name: 土屋ケア
+    agreedOn: null
+    expiredOn: null
+    expiredReason: 0
+    insurance:
+        benefitRate: 90
+        totalScore: 283
+        claimAmount: -1199
+        copayAmount: -134
+    subsidies:
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+    items:
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '1111'
+            serviceCodeCategory: 111000
+            unitScore: 249
+            count: 1
+            totalScore: 249
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '6275'
+            serviceCodeCategory: 990501
+            unitScore: 34
+            count: 1
+            totalScore: 34
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+    aggregates:
+        -
+            serviceDivisionCode: '11'
+            serviceDays: 1
+            plannedScore: -151
+            managedScore: -151
+            unmanagedScore: 34
+            insurance:
+                totalScore: -117
+                unitCost: 114000
+                claimAmount: -1199
+                copayAmount: -134
+            subsidies:
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+    appendix:
+        managedTotalEntry:
+            scoreWithinMaxBenefitQuota: 7552
+            scoreWithinMaxBenefit: 7552
+            totalFeeForInsuranceOrBusiness: 86092
+            claimAmountForInsuranceOrBusiness: 77482
+            copayForInsuranceOrBusiness: 8610
+            copayWholeExpense: 0
+            officeName: '土屋訪問介護事業所 '
+            officeCode: '1234567890'
+            serviceName: '訪問介護 合計'
+            serviceCode: ''
+            unitScore: 0
+            count: 0
+            wholeScore: 7552
+            maxBenefitQuotaExcessScore: 0
+            maxBenefitExcessScore: 0
+            unitCost: 114000
+            benefitRate: 90
+        totalScoreTotal: 7552
+        maxBenefitExcessScoreTotal: 0
+        scoreWithinMaxBenefitTotal: 7552
+        totalFeeForInsuranceOrBusinessTotal: 97891
+        claimAmountForInsuranceOrBusinessTotal: 88101
+        copayForInsuranceOrBusinessTotal: 9790
+        copayWholeExpenseTotal: 0
+        providedIn: '2020-11-01T00:00:00+09:00'
+        insNumber: '0000156829'
+        userName: '高田 純次'
+        unmanagedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 1035
+                scoreWithinMaxBenefit: 1035
+                totalFeeForInsuranceOrBusiness: 11799
+                claimAmountForInsuranceOrBusiness: 10619
+                copayForInsuranceOrBusiness: 1180
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 処遇改善加算Ⅰ
+                serviceCode: '116275'
+                unitScore: 1035
+                count: 1
+                wholeScore: 1035
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        managedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 2780
+                scoreWithinMaxBenefit: 2780
+                totalFeeForInsuranceOrBusiness: 31692
+                claimAmountForInsuranceOrBusiness: 28522
+                copayForInsuranceOrBusiness: 3170
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身体3・Ⅰ
+                serviceCode: '112097'
+                unitScore: 695
+                count: 4
+                wholeScore: 2780
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 3424
+                scoreWithinMaxBenefit: 3424
+                totalFeeForInsuranceOrBusiness: 39033
+                claimAmountForInsuranceOrBusiness: 35129
+                copayForInsuranceOrBusiness: 3904
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身3生2・Ⅰ
+                serviceCode: '112121'
+                unitScore: 856
+                count: 4
+                wholeScore: 3424
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 1348
+                scoreWithinMaxBenefit: 1348
+                totalFeeForInsuranceOrBusiness: 15367
+                claimAmountForInsuranceOrBusiness: 13830
+                copayForInsuranceOrBusiness: 1537
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 生活3・夜・Ⅰ
+                serviceCode: '118014'
+                unitScore: 337
+                count: 4
+                wholeScore: 1348
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        maxBenefit: 30938
+        insuranceClaimAmount: 88101
+        subsidyClaimAmount: 0
+        copayAmount: 9790
+        unitCost: 114000
+    status: 20
+    fixedAt: null
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 13
+    billingId: 2
+    bundleId: 1
+    insurerNumber: '131045'
+    insurerName: 杜王町
+    user:
+        userId: 13
+        ltcsInsCardId: 13
+        insNumber: '0000749085'
+        name:
+            displayName: '高田 純次'
+            phoneticDisplayName: 'タカダ ジュンジ'
+            familyName: 高田
+            givenName: 純次
+            phoneticFamilyName: タカダ
+            phoneticGivenName: ジュンジ
+        sex: 2
+        birthday: '1941-01-19T00:00:00+09:00'
+        ltcsLevel: 25
+        activatedOn: '2020-01-01T00:00:00+09:00'
+        deactivatedOn: '2022-12-31T00:00:00+09:00'
+    carePlanAuthor:
+        authorType: 1
+        officeId: 13
+        code: '1370406322'
+        name: 土屋ケア
+    agreedOn: null
+    expiredOn: null
+    expiredReason: 0
+    insurance:
+        benefitRate: 90
+        totalScore: 1699
+        claimAmount: 13327
+        copayAmount: 1481
+    subsidies:
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+    items:
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '1111'
+            serviceCodeCategory: 111000
+            unitScore: 249
+            count: 6
+            totalScore: 1494
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '6275'
+            serviceCodeCategory: 990501
+            unitScore: 205
+            count: 1
+            totalScore: 205
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+    aggregates:
+        -
+            serviceDivisionCode: '11'
+            serviceDays: 6
+            plannedScore: 1094
+            managedScore: 1094
+            unmanagedScore: 205
+            insurance:
+                totalScore: 1299
+                unitCost: 114000
+                claimAmount: 13327
+                copayAmount: 1481
+            subsidies:
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+    appendix:
+        managedTotalEntry:
+            scoreWithinMaxBenefitQuota: 7552
+            scoreWithinMaxBenefit: 7552
+            totalFeeForInsuranceOrBusiness: 86092
+            claimAmountForInsuranceOrBusiness: 77482
+            copayForInsuranceOrBusiness: 8610
+            copayWholeExpense: 0
+            officeName: '土屋訪問介護事業所 '
+            officeCode: '1234567890'
+            serviceName: '訪問介護 合計'
+            serviceCode: ''
+            unitScore: 0
+            count: 0
+            wholeScore: 7552
+            maxBenefitQuotaExcessScore: 0
+            maxBenefitExcessScore: 0
+            unitCost: 114000
+            benefitRate: 90
+        totalScoreTotal: 7552
+        maxBenefitExcessScoreTotal: 0
+        scoreWithinMaxBenefitTotal: 7552
+        totalFeeForInsuranceOrBusinessTotal: 97891
+        claimAmountForInsuranceOrBusinessTotal: 88101
+        copayForInsuranceOrBusinessTotal: 9790
+        copayWholeExpenseTotal: 0
+        providedIn: '2020-11-01T00:00:00+09:00'
+        insNumber: '0000156829'
+        userName: '高田 純次'
+        unmanagedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 1035
+                scoreWithinMaxBenefit: 1035
+                totalFeeForInsuranceOrBusiness: 11799
+                claimAmountForInsuranceOrBusiness: 10619
+                copayForInsuranceOrBusiness: 1180
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 処遇改善加算Ⅰ
+                serviceCode: '116275'
+                unitScore: 1035
+                count: 1
+                wholeScore: 1035
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        managedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 2780
+                scoreWithinMaxBenefit: 2780
+                totalFeeForInsuranceOrBusiness: 31692
+                claimAmountForInsuranceOrBusiness: 28522
+                copayForInsuranceOrBusiness: 3170
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身体3・Ⅰ
+                serviceCode: '112097'
+                unitScore: 695
+                count: 4
+                wholeScore: 2780
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 3424
+                scoreWithinMaxBenefit: 3424
+                totalFeeForInsuranceOrBusiness: 39033
+                claimAmountForInsuranceOrBusiness: 35129
+                copayForInsuranceOrBusiness: 3904
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身3生2・Ⅰ
+                serviceCode: '112121'
+                unitScore: 856
+                count: 4
+                wholeScore: 3424
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 1348
+                scoreWithinMaxBenefit: 1348
+                totalFeeForInsuranceOrBusiness: 15367
+                claimAmountForInsuranceOrBusiness: 13830
+                copayForInsuranceOrBusiness: 1537
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 生活3・夜・Ⅰ
+                serviceCode: '118014'
+                unitScore: 337
+                count: 4
+                wholeScore: 1348
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        maxBenefit: 30938
+        insuranceClaimAmount: 88101
+        subsidyClaimAmount: 0
+        copayAmount: 9790
+        unitCost: 114000
+    status: 20
+    fixedAt: null
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 14
+    billingId: 2
+    bundleId: 1
+    insurerNumber: '131045'
+    insurerName: 杜王町
+    user:
+        userId: 14
+        ltcsInsCardId: 14
+        insNumber: '0000856583'
+        name:
+            displayName: '高田 純次'
+            phoneticDisplayName: 'タカダ ジュンジ'
+            familyName: 高田
+            givenName: 純次
+            phoneticFamilyName: タカダ
+            phoneticGivenName: ジュンジ
+        sex: 1
+        birthday: '1943-04-18T00:00:00+09:00'
+        ltcsLevel: 24
+        activatedOn: '2020-01-01T00:00:00+09:00'
+        deactivatedOn: '2022-12-31T00:00:00+09:00'
+    carePlanAuthor:
+        authorType: 1
+        officeId: 14
+        code: '1370402826'
+        name: 土屋ケア
+    agreedOn: null
+    expiredOn: null
+    expiredReason: 0
+    insurance:
+        benefitRate: 90
+        totalScore: 6447
+        claimAmount: 62041
+        copayAmount: 6894
+    subsidies:
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+    items:
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '4111'
+            serviceCodeCategory: 112000
+            unitScore: 315
+            count: 18
+            totalScore: 5670
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '6275'
+            serviceCodeCategory: 990501
+            unitScore: 777
+            count: 1
+            totalScore: 777
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+    aggregates:
+        -
+            serviceDivisionCode: '11'
+            serviceDays: 18
+            plannedScore: 5270
+            managedScore: 5270
+            unmanagedScore: 777
+            insurance:
+                totalScore: 6047
+                unitCost: 114000
+                claimAmount: 62041
+                copayAmount: 6894
+            subsidies:
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+    appendix:
+        managedTotalEntry:
+            scoreWithinMaxBenefitQuota: 7552
+            scoreWithinMaxBenefit: 7552
+            totalFeeForInsuranceOrBusiness: 86092
+            claimAmountForInsuranceOrBusiness: 77482
+            copayForInsuranceOrBusiness: 8610
+            copayWholeExpense: 0
+            officeName: '土屋訪問介護事業所 '
+            officeCode: '1234567890'
+            serviceName: '訪問介護 合計'
+            serviceCode: ''
+            unitScore: 0
+            count: 0
+            wholeScore: 7552
+            maxBenefitQuotaExcessScore: 0
+            maxBenefitExcessScore: 0
+            unitCost: 114000
+            benefitRate: 90
+        totalScoreTotal: 7552
+        maxBenefitExcessScoreTotal: 0
+        scoreWithinMaxBenefitTotal: 7552
+        totalFeeForInsuranceOrBusinessTotal: 97891
+        claimAmountForInsuranceOrBusinessTotal: 88101
+        copayForInsuranceOrBusinessTotal: 9790
+        copayWholeExpenseTotal: 0
+        providedIn: '2020-11-01T00:00:00+09:00'
+        insNumber: '0000156829'
+        userName: '高田 純次'
+        unmanagedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 1035
+                scoreWithinMaxBenefit: 1035
+                totalFeeForInsuranceOrBusiness: 11799
+                claimAmountForInsuranceOrBusiness: 10619
+                copayForInsuranceOrBusiness: 1180
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 処遇改善加算Ⅰ
+                serviceCode: '116275'
+                unitScore: 1035
+                count: 1
+                wholeScore: 1035
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        managedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 2780
+                scoreWithinMaxBenefit: 2780
+                totalFeeForInsuranceOrBusiness: 31692
+                claimAmountForInsuranceOrBusiness: 28522
+                copayForInsuranceOrBusiness: 3170
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身体3・Ⅰ
+                serviceCode: '112097'
+                unitScore: 695
+                count: 4
+                wholeScore: 2780
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 3424
+                scoreWithinMaxBenefit: 3424
+                totalFeeForInsuranceOrBusiness: 39033
+                claimAmountForInsuranceOrBusiness: 35129
+                copayForInsuranceOrBusiness: 3904
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身3生2・Ⅰ
+                serviceCode: '112121'
+                unitScore: 856
+                count: 4
+                wholeScore: 3424
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 1348
+                scoreWithinMaxBenefit: 1348
+                totalFeeForInsuranceOrBusiness: 15367
+                claimAmountForInsuranceOrBusiness: 13830
+                copayForInsuranceOrBusiness: 1537
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 生活3・夜・Ⅰ
+                serviceCode: '118014'
+                unitScore: 337
+                count: 4
+                wholeScore: 1348
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        maxBenefit: 30938
+        insuranceClaimAmount: 88101
+        subsidyClaimAmount: 0
+        copayAmount: 9790
+        unitCost: 114000
+    status: 20
+    fixedAt: null
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 15
+    billingId: 2
+    bundleId: 1
+    insurerNumber: '131045'
+    insurerName: 杜王町
+    user:
+        userId: 15
+        ltcsInsCardId: 15
+        insNumber: '0001011675'
+        name:
+            displayName: '高田 純次'
+            phoneticDisplayName: 'タカダ ジュンジ'
+            familyName: 高田
+            givenName: 純次
+            phoneticFamilyName: タカダ
+            phoneticGivenName: ジュンジ
+        sex: 2
+        birthday: '1946-11-03T00:00:00+09:00'
+        ltcsLevel: 23
+        activatedOn: '2020-01-01T00:00:00+09:00'
+        deactivatedOn: '2022-12-31T00:00:00+09:00'
+    carePlanAuthor:
+        authorType: 1
+        officeId: 15
+        code: '1370406348'
+        name: 土屋ケア
+    agreedOn: null
+    expiredOn: null
+    expiredReason: 0
+    insurance:
+        benefitRate: 90
+        totalScore: 5180
+        claimAmount: 49042
+        copayAmount: 5450
+    subsidies:
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+    items:
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '1111'
+            serviceCodeCategory: 111000
+            unitScore: 249
+            count: 12
+            totalScore: 2988
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '7311'
+            serviceCodeCategory: 113000
+            unitScore: 224
+            count: 7
+            totalScore: 1568
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '6275'
+            serviceCodeCategory: 990501
+            unitScore: 624
+            count: 1
+            totalScore: 624
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+    aggregates:
+        -
+            serviceDivisionCode: '11'
+            serviceDays: 12
+            plannedScore: 4156
+            managedScore: 4156
+            unmanagedScore: 624
+            insurance:
+                totalScore: 4780
+                unitCost: 114000
+                claimAmount: 49042
+                copayAmount: 5450
+            subsidies:
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+    appendix:
+        managedTotalEntry:
+            scoreWithinMaxBenefitQuota: 7552
+            scoreWithinMaxBenefit: 7552
+            totalFeeForInsuranceOrBusiness: 86092
+            claimAmountForInsuranceOrBusiness: 77482
+            copayForInsuranceOrBusiness: 8610
+            copayWholeExpense: 0
+            officeName: '土屋訪問介護事業所 '
+            officeCode: '1234567890'
+            serviceName: '訪問介護 合計'
+            serviceCode: ''
+            unitScore: 0
+            count: 0
+            wholeScore: 7552
+            maxBenefitQuotaExcessScore: 0
+            maxBenefitExcessScore: 0
+            unitCost: 114000
+            benefitRate: 90
+        totalScoreTotal: 7552
+        maxBenefitExcessScoreTotal: 0
+        scoreWithinMaxBenefitTotal: 7552
+        totalFeeForInsuranceOrBusinessTotal: 97891
+        claimAmountForInsuranceOrBusinessTotal: 88101
+        copayForInsuranceOrBusinessTotal: 9790
+        copayWholeExpenseTotal: 0
+        providedIn: '2020-11-01T00:00:00+09:00'
+        insNumber: '0000156829'
+        userName: '高田 純次'
+        unmanagedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 1035
+                scoreWithinMaxBenefit: 1035
+                totalFeeForInsuranceOrBusiness: 11799
+                claimAmountForInsuranceOrBusiness: 10619
+                copayForInsuranceOrBusiness: 1180
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 処遇改善加算Ⅰ
+                serviceCode: '116275'
+                unitScore: 1035
+                count: 1
+                wholeScore: 1035
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        managedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 2780
+                scoreWithinMaxBenefit: 2780
+                totalFeeForInsuranceOrBusiness: 31692
+                claimAmountForInsuranceOrBusiness: 28522
+                copayForInsuranceOrBusiness: 3170
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身体3・Ⅰ
+                serviceCode: '112097'
+                unitScore: 695
+                count: 4
+                wholeScore: 2780
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 3424
+                scoreWithinMaxBenefit: 3424
+                totalFeeForInsuranceOrBusiness: 39033
+                claimAmountForInsuranceOrBusiness: 35129
+                copayForInsuranceOrBusiness: 3904
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身3生2・Ⅰ
+                serviceCode: '112121'
+                unitScore: 856
+                count: 4
+                wholeScore: 3424
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 1348
+                scoreWithinMaxBenefit: 1348
+                totalFeeForInsuranceOrBusiness: 15367
+                claimAmountForInsuranceOrBusiness: 13830
+                copayForInsuranceOrBusiness: 1537
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 生活3・夜・Ⅰ
+                serviceCode: '118014'
+                unitScore: 337
+                count: 4
+                wholeScore: 1348
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        maxBenefit: 30938
+        insuranceClaimAmount: 88101
+        subsidyClaimAmount: 0
+        copayAmount: 9790
+        unitCost: 114000
+    status: 20
+    fixedAt: null
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 16
+    billingId: 2
+    bundleId: 1
+    insurerNumber: '131045'
+    insurerName: 杜王町
+    user:
+        userId: 16
+        ltcsInsCardId: 16
+        insNumber: '0001148329'
+        name:
+            displayName: '高田 純次'
+            phoneticDisplayName: 'タカダ ジュンジ'
+            familyName: 高田
+            givenName: 純次
+            phoneticFamilyName: タカダ
+            phoneticGivenName: ジュンジ
+        sex: 1
+        birthday: '1949-04-28T00:00:00+10:00'
+        ltcsLevel: 23
+        activatedOn: '2020-01-01T00:00:00+09:00'
+        deactivatedOn: '2022-12-31T00:00:00+09:00'
+    carePlanAuthor:
+        authorType: 1
+        officeId: 16
+        code: '1370403949'
+        name: 土屋ケア
+    agreedOn: null
+    expiredOn: null
+    expiredReason: 0
+    insurance:
+        benefitRate: 90
+        totalScore: 18944
+        claimAmount: 190260
+        copayAmount: 21141
+    subsidies:
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+    items:
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '1111'
+            serviceCodeCategory: 111000
+            unitScore: 249
+            count: 36
+            totalScore: 8964
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '1112'
+            serviceCodeCategory: 111000
+            unitScore: 311
+            count: 13
+            totalScore: 4043
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '4111'
+            serviceCodeCategory: 112000
+            unitScore: 315
+            count: 8
+            totalScore: 2520
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '7211'
+            serviceCodeCategory: 113000
+            unitScore: 182
+            count: 5
+            totalScore: 910
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '7311'
+            serviceCodeCategory: 113000
+            unitScore: 224
+            count: 1
+            totalScore: 224
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '6275'
+            serviceCodeCategory: 990501
+            unitScore: 2283
+            count: 1
+            totalScore: 2283
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+    aggregates:
+        -
+            serviceDivisionCode: '11'
+            serviceDays: 36
+            plannedScore: 16261
+            managedScore: 16261
+            unmanagedScore: 2283
+            insurance:
+                totalScore: 18544
+                unitCost: 114000
+                claimAmount: 190260
+                copayAmount: 21141
+            subsidies:
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+    appendix:
+        managedTotalEntry:
+            scoreWithinMaxBenefitQuota: 7552
+            scoreWithinMaxBenefit: 7552
+            totalFeeForInsuranceOrBusiness: 86092
+            claimAmountForInsuranceOrBusiness: 77482
+            copayForInsuranceOrBusiness: 8610
+            copayWholeExpense: 0
+            officeName: '土屋訪問介護事業所 '
+            officeCode: '1234567890'
+            serviceName: '訪問介護 合計'
+            serviceCode: ''
+            unitScore: 0
+            count: 0
+            wholeScore: 7552
+            maxBenefitQuotaExcessScore: 0
+            maxBenefitExcessScore: 0
+            unitCost: 114000
+            benefitRate: 90
+        totalScoreTotal: 7552
+        maxBenefitExcessScoreTotal: 0
+        scoreWithinMaxBenefitTotal: 7552
+        totalFeeForInsuranceOrBusinessTotal: 97891
+        claimAmountForInsuranceOrBusinessTotal: 88101
+        copayForInsuranceOrBusinessTotal: 9790
+        copayWholeExpenseTotal: 0
+        providedIn: '2020-11-01T00:00:00+09:00'
+        insNumber: '0000156829'
+        userName: '高田 純次'
+        unmanagedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 1035
+                scoreWithinMaxBenefit: 1035
+                totalFeeForInsuranceOrBusiness: 11799
+                claimAmountForInsuranceOrBusiness: 10619
+                copayForInsuranceOrBusiness: 1180
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 処遇改善加算Ⅰ
+                serviceCode: '116275'
+                unitScore: 1035
+                count: 1
+                wholeScore: 1035
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        managedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 2780
+                scoreWithinMaxBenefit: 2780
+                totalFeeForInsuranceOrBusiness: 31692
+                claimAmountForInsuranceOrBusiness: 28522
+                copayForInsuranceOrBusiness: 3170
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身体3・Ⅰ
+                serviceCode: '112097'
+                unitScore: 695
+                count: 4
+                wholeScore: 2780
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 3424
+                scoreWithinMaxBenefit: 3424
+                totalFeeForInsuranceOrBusiness: 39033
+                claimAmountForInsuranceOrBusiness: 35129
+                copayForInsuranceOrBusiness: 3904
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身3生2・Ⅰ
+                serviceCode: '112121'
+                unitScore: 856
+                count: 4
+                wholeScore: 3424
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 1348
+                scoreWithinMaxBenefit: 1348
+                totalFeeForInsuranceOrBusiness: 15367
+                claimAmountForInsuranceOrBusiness: 13830
+                copayForInsuranceOrBusiness: 1537
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 生活3・夜・Ⅰ
+                serviceCode: '118014'
+                unitScore: 337
+                count: 4
+                wholeScore: 1348
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        maxBenefit: 30938
+        insuranceClaimAmount: 88101
+        subsidyClaimAmount: 0
+        copayAmount: 9790
+        unitCost: 114000
+    status: 20
+    fixedAt: null
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 17
+    billingId: 2
+    bundleId: 1
+    insurerNumber: '131045'
+    insurerName: 杜王町
+    user:
+        userId: 17
+        ltcsInsCardId: 17
+        insNumber: '0001264324'
+        name:
+            displayName: '高田 純次'
+            phoneticDisplayName: 'タカダ ジュンジ'
+            familyName: 高田
+            givenName: 純次
+            phoneticFamilyName: タカダ
+            phoneticGivenName: ジュンジ
+        sex: 1
+        birthday: '1951-08-10T00:00:00+10:00'
+        ltcsLevel: 25
+        activatedOn: '2020-01-01T00:00:00+09:00'
+        deactivatedOn: '2022-12-31T00:00:00+09:00'
+    carePlanAuthor:
+        authorType: 1
+        officeId: 17
+        code: '1370405126'
+        name: 土屋ケア
+    agreedOn: null
+    expiredOn: null
+    expiredReason: 0
+    insurance:
+        benefitRate: 90
+        totalScore: 17362
+        claimAmount: 174029
+        copayAmount: 0
+    subsidies:
+        -
+            defrayerCategory: 12
+            defrayerNumber: '12132015'
+            recipientNumber: '4608212'
+            benefitRate: 100
+            totalScore: 16962
+            claimAmount: 19337
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+    items:
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '1111'
+            serviceCodeCategory: 111000
+            unitScore: 249
+            count: 50
+            totalScore: 12450
+            subsidies:
+                -
+                    count: 50
+                    totalScore: 12450
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '1112'
+            serviceCodeCategory: 111000
+            unitScore: 311
+            count: 4
+            totalScore: 1244
+            subsidies:
+                -
+                    count: 4
+                    totalScore: 1244
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '4112'
+            serviceCodeCategory: 112000
+            unitScore: 394
+            count: 4
+            totalScore: 1576
+            subsidies:
+                -
+                    count: 4
+                    totalScore: 1576
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '6275'
+            serviceCodeCategory: 990501
+            unitScore: 2092
+            count: 1
+            totalScore: 2092
+            subsidies:
+                -
+                    count: 1
+                    totalScore: 2092
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+    aggregates:
+        -
+            serviceDivisionCode: '11'
+            serviceDays: 50
+            plannedScore: 14870
+            managedScore: 14870
+            unmanagedScore: 2092
+            insurance:
+                totalScore: 16962
+                unitCost: 114000
+                claimAmount: 174029
+                copayAmount: 0
+            subsidies:
+                -
+                    totalScore: 16962
+                    claimAmount: 19337
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+    appendix:
+        managedTotalEntry:
+            scoreWithinMaxBenefitQuota: 7552
+            scoreWithinMaxBenefit: 7552
+            totalFeeForInsuranceOrBusiness: 86092
+            claimAmountForInsuranceOrBusiness: 77482
+            copayForInsuranceOrBusiness: 8610
+            copayWholeExpense: 0
+            officeName: '土屋訪問介護事業所 '
+            officeCode: '1234567890'
+            serviceName: '訪問介護 合計'
+            serviceCode: ''
+            unitScore: 0
+            count: 0
+            wholeScore: 7552
+            maxBenefitQuotaExcessScore: 0
+            maxBenefitExcessScore: 0
+            unitCost: 114000
+            benefitRate: 90
+        totalScoreTotal: 7552
+        maxBenefitExcessScoreTotal: 0
+        scoreWithinMaxBenefitTotal: 7552
+        totalFeeForInsuranceOrBusinessTotal: 97891
+        claimAmountForInsuranceOrBusinessTotal: 88101
+        copayForInsuranceOrBusinessTotal: 9790
+        copayWholeExpenseTotal: 0
+        providedIn: '2020-11-01T00:00:00+09:00'
+        insNumber: '0000156829'
+        userName: '高田 純次'
+        unmanagedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 1035
+                scoreWithinMaxBenefit: 1035
+                totalFeeForInsuranceOrBusiness: 11799
+                claimAmountForInsuranceOrBusiness: 10619
+                copayForInsuranceOrBusiness: 1180
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 処遇改善加算Ⅰ
+                serviceCode: '116275'
+                unitScore: 1035
+                count: 1
+                wholeScore: 1035
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        managedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 2780
+                scoreWithinMaxBenefit: 2780
+                totalFeeForInsuranceOrBusiness: 31692
+                claimAmountForInsuranceOrBusiness: 28522
+                copayForInsuranceOrBusiness: 3170
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身体3・Ⅰ
+                serviceCode: '112097'
+                unitScore: 695
+                count: 4
+                wholeScore: 2780
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 3424
+                scoreWithinMaxBenefit: 3424
+                totalFeeForInsuranceOrBusiness: 39033
+                claimAmountForInsuranceOrBusiness: 35129
+                copayForInsuranceOrBusiness: 3904
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身3生2・Ⅰ
+                serviceCode: '112121'
+                unitScore: 856
+                count: 4
+                wholeScore: 3424
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 1348
+                scoreWithinMaxBenefit: 1348
+                totalFeeForInsuranceOrBusiness: 15367
+                claimAmountForInsuranceOrBusiness: 13830
+                copayForInsuranceOrBusiness: 1537
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 生活3・夜・Ⅰ
+                serviceCode: '118014'
+                unitScore: 337
+                count: 4
+                wholeScore: 1348
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        maxBenefit: 30938
+        insuranceClaimAmount: 88101
+        subsidyClaimAmount: 0
+        copayAmount: 9790
+        unitCost: 114000
+    status: 20
+    fixedAt: null
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 18
+    billingId: 2
+    bundleId: 1
+    insurerNumber: '131045'
+    insurerName: 杜王町
+    user:
+        userId: 18
+        ltcsInsCardId: 18
+        insNumber: '0001287325'
+        name:
+            displayName: '高田 純次'
+            phoneticDisplayName: 'タカダ ジュンジ'
+            familyName: 高田
+            givenName: 純次
+            phoneticFamilyName: タカダ
+            phoneticGivenName: ジュンジ
+        sex: 1
+        birthday: '1968-08-15T00:00:00+09:00'
+        ltcsLevel: 25
+        activatedOn: '2020-01-01T00:00:00+09:00'
+        deactivatedOn: '2022-12-31T00:00:00+09:00'
+    carePlanAuthor:
+        authorType: 1
+        officeId: 18
+        code: '1370403709'
+        name: 土屋ケア
+    agreedOn: null
+    expiredOn: null
+    expiredReason: 0
+    insurance:
+        benefitRate: 90
+        totalScore: 3182
+        claimAmount: 28542
+        copayAmount: 3172
+    subsidies:
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+    items:
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '1112'
+            serviceCodeCategory: 111000
+            unitScore: 311
+            count: 9
+            totalScore: 2799
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '6275'
+            serviceCodeCategory: 990501
+            unitScore: 383
+            count: 1
+            totalScore: 383
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+    aggregates:
+        -
+            serviceDivisionCode: '11'
+            serviceDays: 9
+            plannedScore: 2399
+            managedScore: 2399
+            unmanagedScore: 383
+            insurance:
+                totalScore: 2782
+                unitCost: 114000
+                claimAmount: 28542
+                copayAmount: 3172
+            subsidies:
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+    appendix:
+        managedTotalEntry:
+            scoreWithinMaxBenefitQuota: 7552
+            scoreWithinMaxBenefit: 7552
+            totalFeeForInsuranceOrBusiness: 86092
+            claimAmountForInsuranceOrBusiness: 77482
+            copayForInsuranceOrBusiness: 8610
+            copayWholeExpense: 0
+            officeName: '土屋訪問介護事業所 '
+            officeCode: '1234567890'
+            serviceName: '訪問介護 合計'
+            serviceCode: ''
+            unitScore: 0
+            count: 0
+            wholeScore: 7552
+            maxBenefitQuotaExcessScore: 0
+            maxBenefitExcessScore: 0
+            unitCost: 114000
+            benefitRate: 90
+        totalScoreTotal: 7552
+        maxBenefitExcessScoreTotal: 0
+        scoreWithinMaxBenefitTotal: 7552
+        totalFeeForInsuranceOrBusinessTotal: 97891
+        claimAmountForInsuranceOrBusinessTotal: 88101
+        copayForInsuranceOrBusinessTotal: 9790
+        copayWholeExpenseTotal: 0
+        providedIn: '2020-11-01T00:00:00+09:00'
+        insNumber: '0000156829'
+        userName: '高田 純次'
+        unmanagedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 1035
+                scoreWithinMaxBenefit: 1035
+                totalFeeForInsuranceOrBusiness: 11799
+                claimAmountForInsuranceOrBusiness: 10619
+                copayForInsuranceOrBusiness: 1180
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 処遇改善加算Ⅰ
+                serviceCode: '116275'
+                unitScore: 1035
+                count: 1
+                wholeScore: 1035
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        managedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 2780
+                scoreWithinMaxBenefit: 2780
+                totalFeeForInsuranceOrBusiness: 31692
+                claimAmountForInsuranceOrBusiness: 28522
+                copayForInsuranceOrBusiness: 3170
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身体3・Ⅰ
+                serviceCode: '112097'
+                unitScore: 695
+                count: 4
+                wholeScore: 2780
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 3424
+                scoreWithinMaxBenefit: 3424
+                totalFeeForInsuranceOrBusiness: 39033
+                claimAmountForInsuranceOrBusiness: 35129
+                copayForInsuranceOrBusiness: 3904
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身3生2・Ⅰ
+                serviceCode: '112121'
+                unitScore: 856
+                count: 4
+                wholeScore: 3424
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 1348
+                scoreWithinMaxBenefit: 1348
+                totalFeeForInsuranceOrBusiness: 15367
+                claimAmountForInsuranceOrBusiness: 13830
+                copayForInsuranceOrBusiness: 1537
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 生活3・夜・Ⅰ
+                serviceCode: '118014'
+                unitScore: 337
+                count: 4
+                wholeScore: 1348
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        maxBenefit: 30938
+        insuranceClaimAmount: 88101
+        subsidyClaimAmount: 0
+        copayAmount: 9790
+        unitCost: 114000
+    status: 20
+    fixedAt: null
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 19
+    billingId: 2
+    bundleId: 1
+    insurerNumber: '131045'
+    insurerName: 杜王町
+    user:
+        userId: 19
+        ltcsInsCardId: 19
+        insNumber: '0001396613'
+        name:
+            displayName: '高田 純次'
+            phoneticDisplayName: 'タカダ ジュンジ'
+            familyName: 高田
+            givenName: 純次
+            phoneticFamilyName: タカダ
+            phoneticGivenName: ジュンジ
+        sex: 1
+        birthday: '1958-01-04T00:00:00+09:00'
+        ltcsLevel: 22
+        activatedOn: '2020-01-01T00:00:00+09:00'
+        deactivatedOn: '2022-12-31T00:00:00+09:00'
+    carePlanAuthor:
+        authorType: 1
+        officeId: 19
+        code: '1370404822'
+        name: 土屋ケア
+    agreedOn: null
+    expiredOn: null
+    expiredReason: 0
+    insurance:
+        benefitRate: 90
+        totalScore: 7859
+        claimAmount: 76528
+        copayAmount: 8504
+    subsidies:
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+    items:
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '1111'
+            serviceCodeCategory: 111000
+            unitScore: 249
+            count: 23
+            totalScore: 5727
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '1211'
+            serviceCodeCategory: 111000
+            unitScore: 395
+            count: 3
+            totalScore: 1185
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '6275'
+            serviceCodeCategory: 990501
+            unitScore: 947
+            count: 1
+            totalScore: 947
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+    aggregates:
+        -
+            serviceDivisionCode: '11'
+            serviceDays: 23
+            plannedScore: 6512
+            managedScore: 6512
+            unmanagedScore: 947
+            insurance:
+                totalScore: 7459
+                unitCost: 114000
+                claimAmount: 76528
+                copayAmount: 8504
+            subsidies:
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+    appendix:
+        managedTotalEntry:
+            scoreWithinMaxBenefitQuota: 7552
+            scoreWithinMaxBenefit: 7552
+            totalFeeForInsuranceOrBusiness: 86092
+            claimAmountForInsuranceOrBusiness: 77482
+            copayForInsuranceOrBusiness: 8610
+            copayWholeExpense: 0
+            officeName: '土屋訪問介護事業所 '
+            officeCode: '1234567890'
+            serviceName: '訪問介護 合計'
+            serviceCode: ''
+            unitScore: 0
+            count: 0
+            wholeScore: 7552
+            maxBenefitQuotaExcessScore: 0
+            maxBenefitExcessScore: 0
+            unitCost: 114000
+            benefitRate: 90
+        totalScoreTotal: 7552
+        maxBenefitExcessScoreTotal: 0
+        scoreWithinMaxBenefitTotal: 7552
+        totalFeeForInsuranceOrBusinessTotal: 97891
+        claimAmountForInsuranceOrBusinessTotal: 88101
+        copayForInsuranceOrBusinessTotal: 9790
+        copayWholeExpenseTotal: 0
+        providedIn: '2020-11-01T00:00:00+09:00'
+        insNumber: '0000156829'
+        userName: '高田 純次'
+        unmanagedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 1035
+                scoreWithinMaxBenefit: 1035
+                totalFeeForInsuranceOrBusiness: 11799
+                claimAmountForInsuranceOrBusiness: 10619
+                copayForInsuranceOrBusiness: 1180
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 処遇改善加算Ⅰ
+                serviceCode: '116275'
+                unitScore: 1035
+                count: 1
+                wholeScore: 1035
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        managedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 2780
+                scoreWithinMaxBenefit: 2780
+                totalFeeForInsuranceOrBusiness: 31692
+                claimAmountForInsuranceOrBusiness: 28522
+                copayForInsuranceOrBusiness: 3170
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身体3・Ⅰ
+                serviceCode: '112097'
+                unitScore: 695
+                count: 4
+                wholeScore: 2780
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 3424
+                scoreWithinMaxBenefit: 3424
+                totalFeeForInsuranceOrBusiness: 39033
+                claimAmountForInsuranceOrBusiness: 35129
+                copayForInsuranceOrBusiness: 3904
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身3生2・Ⅰ
+                serviceCode: '112121'
+                unitScore: 856
+                count: 4
+                wholeScore: 3424
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 1348
+                scoreWithinMaxBenefit: 1348
+                totalFeeForInsuranceOrBusiness: 15367
+                claimAmountForInsuranceOrBusiness: 13830
+                copayForInsuranceOrBusiness: 1537
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 生活3・夜・Ⅰ
+                serviceCode: '118014'
+                unitScore: 337
+                count: 4
+                wholeScore: 1348
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        maxBenefit: 30938
+        insuranceClaimAmount: 88101
+        subsidyClaimAmount: 0
+        copayAmount: 9790
+        unitCost: 114000
+    status: 20
+    fixedAt: null
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 20
+    billingId: 2
+    bundleId: 1
+    insurerNumber: '131169'
+    insurerName: 杜王町
+    user:
+        userId: 20
+        ltcsInsCardId: 20
+        insNumber: '0000769752'
+        name:
+            displayName: '高田 純次'
+            phoneticDisplayName: 'タカダ ジュンジ'
+            familyName: 高田
+            givenName: 純次
+            phoneticFamilyName: タカダ
+            phoneticGivenName: ジュンジ
+        sex: 2
+        birthday: '1943-10-04T00:00:00+09:00'
+        ltcsLevel: 25
+        activatedOn: '2020-01-01T00:00:00+09:00'
+        deactivatedOn: '2022-12-31T00:00:00+09:00'
+    carePlanAuthor:
+        authorType: 1
+        officeId: 20
+        code: '1371600089'
+        name: 土屋ケア
+    agreedOn: null
+    expiredOn: null
+    expiredReason: 0
+    insurance:
+        benefitRate: 90
+        totalScore: 4530
+        claimAmount: 42373
+        copayAmount: 4709
+    subsidies:
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            defrayerCategory: null
+            defrayerNumber: ''
+            recipientNumber: ''
+            benefitRate: null
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+    items:
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '1111'
+            serviceCodeCategory: 111000
+            unitScore: 249
+            count: 16
+            totalScore: 3984
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+        -
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '6275'
+            serviceCodeCategory: 990501
+            unitScore: 546
+            count: 1
+            totalScore: 546
+            subsidies:
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+                -
+                    count: 0
+                    totalScore: 0
+            note: ''
+    aggregates:
+        -
+            serviceDivisionCode: '11'
+            serviceDays: 16
+            plannedScore: 3584
+            managedScore: 3584
+            unmanagedScore: 546
+            insurance:
+                totalScore: 4130
+                unitCost: 114000
+                claimAmount: 42373
+                copayAmount: 4709
+            subsidies:
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+                -
+                    totalScore: 0
+                    claimAmount: 0
+                    copayAmount: 0
+    appendix:
+        managedTotalEntry:
+            scoreWithinMaxBenefitQuota: 7552
+            scoreWithinMaxBenefit: 7552
+            totalFeeForInsuranceOrBusiness: 86092
+            claimAmountForInsuranceOrBusiness: 77482
+            copayForInsuranceOrBusiness: 8610
+            copayWholeExpense: 0
+            officeName: '土屋訪問介護事業所 '
+            officeCode: '1234567890'
+            serviceName: '訪問介護 合計'
+            serviceCode: ''
+            unitScore: 0
+            count: 0
+            wholeScore: 7552
+            maxBenefitQuotaExcessScore: 0
+            maxBenefitExcessScore: 0
+            unitCost: 114000
+            benefitRate: 90
+        totalScoreTotal: 7552
+        maxBenefitExcessScoreTotal: 0
+        scoreWithinMaxBenefitTotal: 7552
+        totalFeeForInsuranceOrBusinessTotal: 97891
+        claimAmountForInsuranceOrBusinessTotal: 88101
+        copayForInsuranceOrBusinessTotal: 9790
+        copayWholeExpenseTotal: 0
+        providedIn: '2020-11-01T00:00:00+09:00'
+        insNumber: '0000156829'
+        userName: '高田 純次'
+        unmanagedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 1035
+                scoreWithinMaxBenefit: 1035
+                totalFeeForInsuranceOrBusiness: 11799
+                claimAmountForInsuranceOrBusiness: 10619
+                copayForInsuranceOrBusiness: 1180
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 処遇改善加算Ⅰ
+                serviceCode: '116275'
+                unitScore: 1035
+                count: 1
+                wholeScore: 1035
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        managedEntries:
+            -
+                scoreWithinMaxBenefitQuota: 2780
+                scoreWithinMaxBenefit: 2780
+                totalFeeForInsuranceOrBusiness: 31692
+                claimAmountForInsuranceOrBusiness: 28522
+                copayForInsuranceOrBusiness: 3170
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身体3・Ⅰ
+                serviceCode: '112097'
+                unitScore: 695
+                count: 4
+                wholeScore: 2780
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 3424
+                scoreWithinMaxBenefit: 3424
+                totalFeeForInsuranceOrBusiness: 39033
+                claimAmountForInsuranceOrBusiness: 35129
+                copayForInsuranceOrBusiness: 3904
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 身3生2・Ⅰ
+                serviceCode: '112121'
+                unitScore: 856
+                count: 4
+                wholeScore: 3424
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+            -
+                scoreWithinMaxBenefitQuota: 1348
+                scoreWithinMaxBenefit: 1348
+                totalFeeForInsuranceOrBusiness: 15367
+                claimAmountForInsuranceOrBusiness: 13830
+                copayForInsuranceOrBusiness: 1537
+                copayWholeExpense: 0
+                officeName: '土屋訪問介護事業所 '
+                officeCode: '1234567890'
+                serviceName: 生活3・夜・Ⅰ
+                serviceCode: '118014'
+                unitScore: 337
+                count: 4
+                wholeScore: 1348
+                maxBenefitQuotaExcessScore: 0
+                maxBenefitExcessScore: 0
+                unitCost: 114000
+                benefitRate: 90
+        maxBenefit: 30938
+        insuranceClaimAmount: 88101
+        subsidyClaimAmount: 0
+        copayAmount: 9790
+        unitCost: 114000
+    status: 20
+    fixedAt: null
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'

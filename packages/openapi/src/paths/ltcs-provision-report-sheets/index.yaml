@@ -1,0 +1,42 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+post:
+  summary: サービス提供票ダウンロード
+  description: サービス提供票をダウンロードする。
+  requestBody:
+    content:
+      application/json:
+        schema:
+          properties:
+            officeId:
+              $ref: '#/components/schemas/OfficeId'
+            userId:
+              $ref: '#/components/schemas/UserId'
+            providedIn:
+              description: サービス提供年月
+              type: string
+              pattern: '^\d{4}-\d{2}$'
+              example: '2021-07'
+            issuedOn:
+              $ref: '#/components/schemas/DateLike'
+            needsMaskingInsNumber:
+              description: 被保険者番号のマスキング要否
+              type: boolean
+            needsMaskingInsName:
+              description: 被保険者氏名のマスキング要否
+              type: boolean
+          required:
+            - officeId
+            - userId
+            - providedIn
+            - issuedOn
+  responses:
+    '202':
+      $ref: '#/components/responses/JobCreated'
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+  tags:
+    - 介護保険サービス：予実

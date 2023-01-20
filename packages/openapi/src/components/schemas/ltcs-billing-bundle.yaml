@@ -1,0 +1,21 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 介護保険サービス：請求単位
+type: object
+properties:
+  id:
+    description: 請求単位 ID
+    type: object
+  billingId:
+    description: 請求 ID
+    type: object
+  providedIn:
+    description: サービス提供年月
+    type: string
+  createdAt:
+    $ref: '#/components/schemas/DateLike'
+  updatedAt:
+    $ref: '#/components/schemas/DateLike'

@@ -1,0 +1,15 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 事業所：状態
+name: OfficeStatus
+php:
+  enabled: true
+  namespace: Office
+typescript:
+  enabled: true
+items:
+  - { description: 準備中, name: InPreparation, value: 1 }
+  - { description: 運営中, name: InOperation, value: 2 }
+  - { description: 休止, name: Suspended, value: 8 }
+  - { description: 廃止, name: Closed, value: 9 }

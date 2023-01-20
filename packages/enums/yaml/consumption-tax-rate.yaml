@@ -1,0 +1,14 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 消費税
+name: ConsumptionTaxRate
+php:
+  enabled: true
+  namespace: Common
+typescript:
+  enabled: true
+items:
+  - { description: 0%, name: zero, value: 0 }
+  - { description: 8%, name: eight, value: 8 }
+  - { description: 10%, name: ten, value: 10 }

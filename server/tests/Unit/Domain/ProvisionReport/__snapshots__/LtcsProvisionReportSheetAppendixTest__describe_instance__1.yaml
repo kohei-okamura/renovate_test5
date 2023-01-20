@@ -1,0 +1,71 @@
+managedTotalEntry:
+    scoreWithinMaxBenefitQuota: 480
+    scoreWithinMaxBenefit: 440
+    totalFeeForInsuranceOrBusiness: 501
+    claimAmountForInsuranceOrBusiness: 400
+    copayForInsuranceOrBusiness: 101
+    copayWholeExpense: 69
+    officeName: 事業所名
+    officeCode: '0123456789'
+    serviceName: '訪問介護 合計'
+    serviceCode: ''
+    unitScore: 0
+    count: 0
+    wholeScore: 500
+    maxBenefitQuotaExcessScore: 20
+    maxBenefitExcessScore: 40
+    unitCost: 11400
+    benefitRate: 80
+totalScoreTotal: 500
+maxBenefitExcessScoreTotal: 40
+scoreWithinMaxBenefitTotal: 440
+totalFeeForInsuranceOrBusinessTotal: 530
+claimAmountForInsuranceOrBusinessTotal: 423
+copayForInsuranceOrBusinessTotal: 107
+copayWholeExpenseTotal: 118
+providedIn: '2019-05-15T00:00:00+09:00'
+insNumber: '123456789'
+userName: 名前
+unmanagedEntries:
+    -
+        scoreWithinMaxBenefitQuota: 66
+        scoreWithinMaxBenefit: 26
+        totalFeeForInsuranceOrBusiness: 29
+        claimAmountForInsuranceOrBusiness: 23
+        copayForInsuranceOrBusiness: 6
+        copayWholeExpense: 49
+        officeName: 事業所名
+        officeCode: '0123456789'
+        serviceName: 訪問介護処遇改善加算Ⅰ
+        serviceCode: '116275'
+        unitScore: 60
+        count: 1
+        wholeScore: 69
+        maxBenefitQuotaExcessScore: 3
+        maxBenefitExcessScore: 40
+        unitCost: 11400
+        benefitRate: 80
+managedEntries:
+    -
+        scoreWithinMaxBenefitQuota: 480
+        scoreWithinMaxBenefit: 440
+        totalFeeForInsuranceOrBusiness: 501
+        claimAmountForInsuranceOrBusiness: 400
+        copayForInsuranceOrBusiness: 101
+        copayWholeExpense: 69
+        officeName: 事業所名
+        officeCode: '0123456789'
+        serviceName: 身体介護1
+        serviceCode: '111111'
+        unitScore: 250
+        count: 2
+        wholeScore: 500
+        maxBenefitQuotaExcessScore: 20
+        maxBenefitExcessScore: 40
+        unitCost: 11400
+        benefitRate: 80
+maxBenefit: 36217
+insuranceClaimAmount: 29373
+subsidyClaimAmount: 0
+copayAmount: 10000
+unitCost: 11400

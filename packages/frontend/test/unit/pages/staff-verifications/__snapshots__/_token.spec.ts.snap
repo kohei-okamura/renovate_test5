@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/staff-verifications/_token.vue should display message when server responses 2xx 1`] = `
+<v-container-stub
+  fill-height=""
+  tag="div"
+>
+  <v-row-stub
+    aligncontent="center"
+    justify="center"
+    tag="div"
+  >
+    <v-col-stub
+      cols="12"
+      lg="4"
+      md="5"
+      sm="8"
+      tag="div"
+      xl="3"
+    >
+      <v-card-stub
+        loaderheight="4"
+        tag="div"
+      >
+        <z-card-titlebar-stub
+          color="primary"
+        >
+          メールアドレス確認
+        </z-card-titlebar-stub>
+        <v-card-text-stub
+          tag="div"
+        >
+          メールアドレスの確認が完了しました。
+        </v-card-text-stub>
+        <v-card-actions-stub
+          tag="div"
+        >
+          <a
+            block=""
+            class="v-btn-stub"
+            color="primary"
+            nuxt=""
+            text=""
+            to="/"
+          >
+            ログイン画面へ
+          </a>
+        </v-card-actions-stub>
+      </v-card-stub>
+    </v-col-stub>
+  </v-row-stub>
+</v-container-stub>
+`;
+
+exports[`pages/staff-verifications/_token.vue should display message when server responses 403 Forbidden 1`] = `
+<v-container-stub
+  fill-height=""
+  tag="div"
+>
+  <v-row-stub
+    aligncontent="center"
+    justify="center"
+    tag="div"
+  >
+    <v-col-stub
+      cols="12"
+      lg="4"
+      md="5"
+      sm="8"
+      tag="div"
+      xl="3"
+    >
+      <v-card-stub
+        loaderheight="4"
+        tag="div"
+      >
+        <z-card-titlebar-stub
+          color="primary"
+        >
+          URL の有効期限が切れています
+        </z-card-titlebar-stub>
+        <v-card-text-stub
+          tag="div"
+        >
+          お手数ですが、もう一度最初からご登録ください。
+        </v-card-text-stub>
+        <v-card-actions-stub
+          tag="div"
+        >
+          <a
+            block=""
+            class="v-btn-stub"
+            color="primary"
+            nuxt=""
+            text=""
+            to="/staffs/new"
+          >
+            新規登録
+          </a>
+        </v-card-actions-stub>
+      </v-card-stub>
+    </v-col-stub>
+  </v-row-stub>
+</v-container-stub>
+`;

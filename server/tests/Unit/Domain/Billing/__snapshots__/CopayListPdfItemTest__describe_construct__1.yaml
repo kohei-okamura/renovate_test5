@@ -1,0 +1,9 @@
+itemNumber: 1
+cityCode: '123456'
+dwsNumber: '1234567890'
+name: 利用者のなまえ
+fee: 37200
+copay: 37200
+serviceDivision:
+    - '11'
+    - '12'

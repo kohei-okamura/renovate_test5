@@ -1,0 +1,51 @@
+{
+    "issuedOn": "\u4ee4\u548c3\u5e745\u67081\u65e5",
+    "office": {
+        "name": null,
+        "corporationName": null,
+        "addr": null,
+        "tel": null
+    },
+    "period": {
+        "start": "2020-05-01T00:00:00+0900",
+        "end": "2020-05-31T00:00:00+0900"
+    },
+    "user": {
+        "id": null,
+        "name": null,
+        "sex": null,
+        "birthday": null,
+        "addr": null,
+        "location": null,
+        "contacts": null,
+        "bankAccountId": null,
+        "billingDestination": null,
+        "isEnabled": true,
+        "createdAt": "2019-05-15T00:00:00+0900",
+        "updatedAt": "2019-05-15T00:00:00+0900"
+    },
+    "billingItems": [
+        {
+            "ltcsStatementId": 6,
+            "score": 100,
+            "unitCost": 100000,
+            "subtotalCost": 1000,
+            "tax": 10,
+            "medicalDeductionAmount": 5000,
+            "benefitAmount": 2000,
+            "subsidyAmount": 1000,
+            "totalAmount": 1000,
+            "copayWithoutTax": 2000,
+            "copayWithTax": 2200
+        }
+    ],
+    "itemsAmounts": {
+        "score": "100",
+        "unitCost": "10.00",
+        "subtotalCost": "1,000",
+        "benefitAmount": "2,000",
+        "copayWithTax": "2,200"
+    },
+    "page": 1,
+    "maxPage": 1
+}

@@ -1,0 +1,88 @@
+-
+    userId: 1
+    providedOn: '2021-04-05T00:00:00+09:00'
+    serviceCode:
+        serviceDivisionCode: '11'
+        serviceCategoryCode: '1115'
+    serviceCodeCategory: 111000
+    isAddition: false
+    unitScore: 402
+    count: 1
+    totalScore: 402
+-
+    userId: 1
+    providedOn: '2021-04-10T00:00:00+09:00'
+    serviceCode:
+        serviceDivisionCode: '11'
+        serviceCategoryCode: '1115'
+    serviceCodeCategory: 111000
+    isAddition: false
+    unitScore: 402
+    count: 1
+    totalScore: 402
+-
+    userId: 1
+    providedOn: '2021-04-15T00:00:00+09:00'
+    serviceCode:
+        serviceDivisionCode: '11'
+        serviceCategoryCode: '1115'
+    serviceCodeCategory: 111000
+    isAddition: false
+    unitScore: 402
+    count: 1
+    totalScore: 402
+-
+    userId: 1
+    providedOn: '2021-04-20T00:00:00+09:00'
+    serviceCode:
+        serviceDivisionCode: '11'
+        serviceCategoryCode: '1115'
+    serviceCodeCategory: 111000
+    isAddition: false
+    unitScore: 402
+    count: 1
+    totalScore: 402
+-
+    userId: 1
+    providedOn: '2021-04-25T00:00:00+09:00'
+    serviceCode:
+        serviceDivisionCode: '11'
+        serviceCategoryCode: '1115'
+    serviceCodeCategory: 111000
+    isAddition: false
+    unitScore: 402
+    count: 1
+    totalScore: 402
+-
+    userId: 1
+    providedOn: '2021-04-30T23:59:59+09:00'
+    serviceCode:
+        serviceDivisionCode: '11'
+        serviceCategoryCode: ZZ01
+    serviceCodeCategory: 991101
+    isAddition: true
+    unitScore: 2
+    count: 1
+    totalScore: 2
+-
+    userId: 1
+    providedOn: '2021-04-05T00:00:00+09:00'
+    serviceCode:
+        serviceDivisionCode: '11'
+        serviceCategoryCode: '6025'
+    serviceCodeCategory: 990301
+    isAddition: true
+    unitScore: 100
+    count: 1
+    totalScore: 100
+-
+    userId: 1
+    providedOn: '2021-04-10T00:00:00+09:00'
+    serviceCode:
+        serviceDivisionCode: '11'
+        serviceCategoryCode: '6025'
+    serviceCodeCategory: 990301
+    isAddition: true
+    unitScore: 100
+    count: 1
+    totalScore: 100

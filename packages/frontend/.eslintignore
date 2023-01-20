@@ -1,0 +1,5 @@
+sw.*
+
+/.nuxt
+/node_modules
+/public

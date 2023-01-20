@@ -1,0 +1,27 @@
+paths:
+  tests: server/tests
+  output: server/tests/_output
+  data: server/tests/_data
+  support: server/tests/_support
+  envs: server/tests/_envs
+extensions:
+  enabled:
+    - Codeception\Extension\RunFailed
+  commands:
+    - Tests\Command\Codeception\UpdateSnapshotsCommand
+modules:
+  config:
+    Db:
+      dsn: ''
+      user: ''
+      password: ''
+actor_suffix: Tester
+settings:
+  memory_limit: 6G
+  error_level: E_ALL
+coverage:
+  enabled: true
+  include:
+    - server/modules/*
+  local: true
+  remote: false

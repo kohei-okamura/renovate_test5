@@ -1,0 +1,39 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 契約
+type: object
+properties:
+  id:
+    description: 契約 ID
+    type: object
+  userId:
+    description: 利用者 ID
+    type: object
+  officeId:
+    description: 事業所 ID
+    type: object
+  serviceSegment:
+    $ref: '#/components/schemas/ServiceSegment'
+  status:
+    $ref: '#/components/schemas/ContractStatus'
+  contractedOn:
+    $ref: '#/components/schemas/DateLike'
+  terminatedOn:
+    $ref: '#/components/schemas/DateLike'
+  dwsPeriods:
+    description: 障害福祉サービス提供期間
+    type: object
+  ltcsPeriod:
+    $ref: '#/components/schemas/ContractPeriod'
+  expiredReason:
+    $ref: '#/components/schemas/LtcsExpiredReason'
+  note:
+    description: 備考
+    type: string
+  createdAt:
+    $ref: '#/components/schemas/DateLike'
+  updatedAt:
+    $ref: '#/components/schemas/DateLike'

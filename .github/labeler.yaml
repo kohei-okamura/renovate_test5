@@ -1,0 +1,22 @@
+backend:
+  - 'server/**/*'
+
+dependencies:
+  - 'composer.json'
+  - 'composer.lock'
+  - 'package.json'
+  - 'yarn.lock'
+  - '**/package.json'
+
+frontend:
+  - 'packages/frontend/**/*'
+
+infrastructure:
+  - 'packages/aws/**/*'
+  - 'packages/docker/**/*'
+
+php:
+  - '**/*.php'
+
+typescript:
+  - '**/*.ts'

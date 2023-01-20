@@ -1,0 +1,14 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 税率区分
+name: TaxCategory
+php:
+  enabled: true
+  namespace: Common
+typescript:
+  enabled: true
+items:
+  - { description: 該当なし, name: Unapplicable, value: 0 }
+  - { description: 消費税, name: ConsumptionTax, value: 1 }
+  - { description: 消費税（軽減税率）, name: ReducedConsumptionTax, value: 2 }

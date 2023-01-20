@@ -1,0 +1,569 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-bank-account-form-dialog.vue should be rendered correctly 1`] = `
+<v-dialog-stub
+  closedelay="0"
+  contentclass=""
+  opendelay="0"
+  origin="center center"
+  persistent="true"
+  retainfocus="true"
+  transition="dialog"
+  value="true"
+  width="640"
+>
+  <v-card-stub
+    loaderheight="4"
+    tag="div"
+  >
+    <z-card-titlebar-stub
+      color="blue-grey"
+      data-title=""
+    >
+      銀行口座情報を編集
+    </z-card-titlebar-stub>
+    <div
+      class="pt-6"
+    >
+      <z-form-card-item-set-stub
+        icon="M6.5,10H4.5V17H6.5V10M12.5,10H10.5V17H12.5V10M21,19H2V21H21V19M18.5,10H16.5V17H18.5V10M11.5,3.26L16.71,6H6.29L11.5,3.26M11.5,1L2,6V8H21V6L11.5,1Z"
+        label=""
+      >
+        <v-row-stub
+          nogutters="true"
+          tag="div"
+        >
+          <v-col-stub
+            cols="12"
+            sm="6"
+            tag="div"
+          >
+            <div
+              class="root"
+              data-bank-name=""
+              data-z-form-card-item=""
+            >
+              <div
+                class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--enclosed v-text-field--outlined"
+              >
+                <div
+                  class="v-input__control"
+                >
+                  <div
+                    class="v-input__slot"
+                    style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                  >
+                    <fieldset
+                      aria-hidden="true"
+                    >
+                      <legend
+                        style="width: 0px;"
+                      >
+                        <span
+                          class="notranslate"
+                        >
+                          ​
+                        </span>
+                      </legend>
+                    </fieldset>
+                    <div
+                      class="v-text-field__slot"
+                    >
+                      <label
+                        class="v-label v-label--active theme--light"
+                        style="left: 0px; position: absolute;"
+                      >
+                        銀行名 *
+                      </label>
+                      <input
+                        data-bank-name-input=""
+                        type="text"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="v-text-field__details"
+                  >
+                    <div
+                      class="v-messages theme--light"
+                    >
+                      <transition-group-stub
+                        class="v-messages__wrapper"
+                        name="message-transition"
+                        tag="div"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </v-col-stub>
+          <v-col-stub
+            cols="12"
+            sm="6"
+            tag="div"
+          >
+            <div
+              class="root"
+              data-bank-code=""
+              data-z-form-card-item=""
+            >
+              <div
+                class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--enclosed v-text-field--outlined"
+              >
+                <div
+                  class="v-input__control"
+                >
+                  <div
+                    class="v-input__slot"
+                    style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                  >
+                    <fieldset
+                      aria-hidden="true"
+                    >
+                      <legend
+                        style="width: 0px;"
+                      >
+                        <span
+                          class="notranslate"
+                        >
+                          ​
+                        </span>
+                      </legend>
+                    </fieldset>
+                    <div
+                      class="v-text-field__slot"
+                    >
+                      <label
+                        class="v-label v-label--active theme--light"
+                        style="left: 0px; position: absolute;"
+                      >
+                        銀行コード *
+                      </label>
+                      <input
+                        data-bank-code-input=""
+                        type="text"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="v-text-field__details"
+                  >
+                    <div
+                      class="v-messages theme--light"
+                    >
+                      <transition-group-stub
+                        class="v-messages__wrapper"
+                        name="message-transition"
+                        tag="div"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </v-col-stub>
+          <v-col-stub
+            cols="12"
+            sm="6"
+            tag="div"
+          >
+            <div
+              class="root"
+              data-bank-branch-name=""
+              data-z-form-card-item=""
+            >
+              <div
+                class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--enclosed v-text-field--outlined"
+              >
+                <div
+                  class="v-input__control"
+                >
+                  <div
+                    class="v-input__slot"
+                    style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                  >
+                    <fieldset
+                      aria-hidden="true"
+                    >
+                      <legend
+                        style="width: 0px;"
+                      >
+                        <span
+                          class="notranslate"
+                        >
+                          ​
+                        </span>
+                      </legend>
+                    </fieldset>
+                    <div
+                      class="v-text-field__slot"
+                    >
+                      <label
+                        class="v-label v-label--active theme--light"
+                        style="left: 0px; position: absolute;"
+                      >
+                        支店名 *
+                      </label>
+                      <input
+                        data-bank-branch-name-input=""
+                        type="text"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="v-text-field__details"
+                  >
+                    <div
+                      class="v-messages theme--light"
+                    >
+                      <transition-group-stub
+                        class="v-messages__wrapper"
+                        name="message-transition"
+                        tag="div"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </v-col-stub>
+          <v-col-stub
+            cols="12"
+            sm="6"
+            tag="div"
+          >
+            <div
+              class="root"
+              data-bank-branch-code=""
+              data-z-form-card-item=""
+            >
+              <div
+                class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--enclosed v-text-field--outlined"
+              >
+                <div
+                  class="v-input__control"
+                >
+                  <div
+                    class="v-input__slot"
+                    style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                  >
+                    <fieldset
+                      aria-hidden="true"
+                    >
+                      <legend
+                        style="width: 0px;"
+                      >
+                        <span
+                          class="notranslate"
+                        >
+                          ​
+                        </span>
+                      </legend>
+                    </fieldset>
+                    <div
+                      class="v-text-field__slot"
+                    >
+                      <label
+                        class="v-label v-label--active theme--light"
+                        style="left: 0px; position: absolute;"
+                      >
+                        支店コード *
+                      </label>
+                      <input
+                        data-bank-branch-code-input=""
+                        type="text"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="v-text-field__details"
+                  >
+                    <div
+                      class="v-messages theme--light"
+                    >
+                      <transition-group-stub
+                        class="v-messages__wrapper"
+                        name="message-transition"
+                        tag="div"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </v-col-stub>
+        </v-row-stub>
+        <div
+          class="root"
+          data-bank-account-type=""
+          data-z-form-card-item=""
+        >
+          <div
+            class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--enclosed v-text-field--outlined v-select"
+          >
+            <div
+              class="v-input__control"
+            >
+              <div
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                class="v-input__slot"
+                role="button"
+                style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+              >
+                <fieldset
+                  aria-hidden="true"
+                >
+                  <legend
+                    style="width: 0px;"
+                  >
+                    <span
+                      class="notranslate"
+                    >
+                      ​
+                    </span>
+                  </legend>
+                </fieldset>
+                <div
+                  class="v-select__slot"
+                >
+                  <label
+                    class="v-label v-label--active theme--light"
+                    style="left: 0px; position: absolute;"
+                  >
+                    銀行口座種別 *
+                  </label>
+                  <div
+                    class="v-select__selections"
+                  >
+                    <div
+                      class="v-select__selection v-select__selection--comma"
+                    >
+                      当座預金
+                    </div>
+                    <input
+                      aria-readonly="false"
+                      autocomplete="off"
+                      readonly="readonly"
+                      type="text"
+                    />
+                  </div>
+                  <div
+                    class="v-input__append-inner"
+                  >
+                    <div
+                      class="v-input__icon v-input__icon--append"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="v-icon notranslate mdi mdi-menu-down theme--light"
+                      />
+                    </div>
+                  </div>
+                  <input
+                    type="hidden"
+                    value="2"
+                  />
+                </div>
+                <div
+                  class="v-menu"
+                >
+                  <!---->
+                </div>
+              </div>
+              <div
+                class="v-text-field__details"
+              >
+                <div
+                  class="v-messages theme--light"
+                >
+                  <transition-group-stub
+                    class="v-messages__wrapper"
+                    name="message-transition"
+                    tag="div"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="root"
+          data-bank-account-holder=""
+          data-z-form-card-item=""
+        >
+          <div
+            class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--enclosed v-text-field--outlined"
+          >
+            <div
+              class="v-input__control"
+            >
+              <div
+                class="v-input__slot"
+                style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+              >
+                <fieldset
+                  aria-hidden="true"
+                >
+                  <legend
+                    style="width: 0px;"
+                  >
+                    <span
+                      class="notranslate"
+                    >
+                      ​
+                    </span>
+                  </legend>
+                </fieldset>
+                <div
+                  class="v-text-field__slot"
+                >
+                  <label
+                    class="v-label v-label--active theme--light"
+                    style="left: 0px; position: absolute;"
+                  >
+                    口座名義 *
+                  </label>
+                  <input
+                    data-bank-account-holder-input=""
+                    type="text"
+                  />
+                </div>
+              </div>
+              <div
+                class="v-text-field__details"
+              >
+                <div
+                  class="v-messages theme--light"
+                >
+                  <transition-group-stub
+                    class="v-messages__wrapper"
+                    name="message-transition"
+                    tag="div"
+                  >
+                    <div
+                      class="v-messages__message"
+                    >
+                      姓と名の間には空白（スペース）を入れてください。例：ツチヤ ハナコ
+                    </div>
+                  </transition-group-stub>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="root"
+          data-bank-account-number=""
+          data-z-form-card-item=""
+        >
+          <div
+            class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--enclosed v-text-field--outlined"
+          >
+            <div
+              class="v-input__control"
+            >
+              <div
+                class="v-input__slot"
+                style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+              >
+                <fieldset
+                  aria-hidden="true"
+                >
+                  <legend
+                    style="width: 0px;"
+                  >
+                    <span
+                      class="notranslate"
+                    >
+                      ​
+                    </span>
+                  </legend>
+                </fieldset>
+                <div
+                  class="v-text-field__slot"
+                >
+                  <label
+                    class="v-label v-label--active theme--light"
+                    style="left: 0px; position: absolute;"
+                  >
+                    口座番号 *
+                  </label>
+                  <input
+                    data-bank-account-number-input=""
+                    maxlength="8"
+                    type="text"
+                  />
+                </div>
+              </div>
+              <div
+                class="v-text-field__details"
+              >
+                <div
+                  class="v-messages theme--light"
+                >
+                  <transition-group-stub
+                    class="v-messages__wrapper"
+                    name="message-transition"
+                    tag="div"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <v-messages-stub
+            class="multiLine mx-3 mt-n1"
+            value="口座番号は7桁で入力してください。
+通帳に記載されている番号が7桁未満の場合は、先頭に「0」を追加して合計7桁になるように入力してください。
+
+例）口座番号が 12345 の5桁の場合：0012345"
+          />
+        </div>
+      </z-form-card-item-set-stub>
+    </div>
+    <v-card-actions-stub
+      class="pb-6"
+      tag="div"
+    >
+      <v-row-stub
+        justify="center"
+        justifymd="end"
+        nogutters="true"
+        tag="div"
+      >
+        <v-col-stub
+          cols="5"
+          md="3"
+          tag="div"
+        >
+          <a
+            class="v-btn-stub"
+            data-cancel=""
+            text=""
+            width="100%"
+          >
+            キャンセル
+          </a>
+        </v-col-stub>
+        <v-col-stub
+          class="pl-4"
+          cols="5"
+          md="3"
+          tag="div"
+        >
+          <a
+            class="v-btn-stub"
+            color="primary"
+            data-ok=""
+            depressed=""
+            width="100%"
+          >
+            保存
+          </a>
+        </v-col-stub>
+      </v-row-stub>
+    </v-card-actions-stub>
+  </v-card-stub>
+</v-dialog-stub>
+`;

@@ -1,0 +1,46 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+description: 介護保険サービス：予実合計単位数取得フォーム
+type: object
+properties:
+  officeId:
+    $ref: '#/components/schemas/OfficeId'
+  userId:
+    $ref: '#/components/schemas/UserId'
+  providedIn:
+    description: サービス提供年月
+    type: string
+    pattern: '^\d{4}-\d{2}$'
+    example: '2021-07'
+  entries:
+    description: サービス情報
+    type: array
+    items:
+      $ref: '#/components/schemas/LtcsProvisionReportEntry'
+  specifiedOfficeAddition:
+    $ref: '#/components/schemas/HomeVisitLongTermCareSpecifiedOfficeAddition'
+  treatmentImprovementAddition:
+    $ref: '#/components/schemas/LtcsTreatmentImprovementAddition'
+  specifiedTreatmentImprovementAddition:
+    $ref: '#/components/schemas/LtcsSpecifiedTreatmentImprovementAddition'
+  baseIncreaseSupportAddition:
+    $ref: '#/components/schemas/LtcsBaseIncreaseSupportAddition'
+  locationAddition:
+    $ref: '#/components/schemas/LtcsOfficeLocationAddition'
+  plan:
+    $ref: '#/components/schemas/LtcsProvisionReportOverScore'
+  result:
+    $ref: '#/components/schemas/LtcsProvisionReportOverScore'
+required:
+  - officeId
+  - userId
+  - providedIn
+  - entries
+  - specifiedOfficeAddition
+  - treatmentImprovementAddition
+  - specifiedTreatmentImprovementAddition
+  - baseIncreaseSupportAddition
+  - locationAddition
+  - plan
+  - result

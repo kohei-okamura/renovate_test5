@@ -1,0 +1,10 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+in: query
+name: ltcsBillingId
+description: 介護保険サービス：請求 ID
+schema:
+  $ref: '#/components/schemas/LtcsBillingId'

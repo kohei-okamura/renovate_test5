@@ -1,0 +1,767 @@
+id: null
+billingId: 2
+bundleId: 1
+insurerNumber: '131011'
+insurerName: 杜王町
+user:
+    userId: 1
+    ltcsInsCardId: 1
+    insNumber: '0000156829'
+    name:
+        displayName: '高田 純次'
+        phoneticDisplayName: 'タカダ ジュンジ'
+        familyName: 高田
+        givenName: 純次
+        phoneticFamilyName: タカダ
+        phoneticGivenName: ジュンジ
+    sex: 1
+    birthday: '1947-01-01T00:00:00+09:00'
+    ltcsLevel: 24
+    activatedOn: '2020-01-01T00:00:00+09:00'
+    deactivatedOn: '2022-12-31T00:00:00+09:00'
+carePlanAuthor:
+    authorType: 1
+    officeId: 1
+    code: '1370402826'
+    name: 土屋ケア
+agreedOn: null
+expiredOn: null
+expiredReason: 0
+insurance:
+    benefitRate: 90
+    totalScore: 103504
+    claimAmount: 1039287
+    copayAmount: 115477
+subsidies:
+    -
+        defrayerCategory: null
+        defrayerNumber: ''
+        recipientNumber: ''
+        benefitRate: null
+        totalScore: 0
+        claimAmount: 0
+        copayAmount: 0
+    -
+        defrayerCategory: null
+        defrayerNumber: ''
+        recipientNumber: ''
+        benefitRate: null
+        totalScore: 0
+        claimAmount: 0
+        copayAmount: 0
+    -
+        defrayerCategory: null
+        defrayerNumber: ''
+        recipientNumber: ''
+        benefitRate: null
+        totalScore: 0
+        claimAmount: 0
+        copayAmount: 0
+items:
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '6111'
+        serviceCodeCategory: 112000
+        unitScore: 643
+        count: 2
+        totalScore: 1286
+        subsidies:
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+        note: ''
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '6135'
+        serviceCodeCategory: 112000
+        unitScore: 775
+        count: 2
+        totalScore: 1550
+        subsidies:
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+        note: ''
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '6275'
+        serviceCodeCategory: 990501
+        unitScore: 389
+        count: 1
+        totalScore: 389
+        subsidies:
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+        note: ''
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '7311'
+        serviceCodeCategory: 113000
+        unitScore: 224
+        count: 16
+        totalScore: 3584
+        subsidies:
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+        note: ''
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '6275'
+        serviceCodeCategory: 990501
+        unitScore: 92
+        count: 2
+        totalScore: 184
+        subsidies:
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+        note: ''
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '4111'
+        serviceCodeCategory: 112000
+        unitScore: 315
+        count: 43
+        totalScore: 13545
+        subsidies:
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+        note: ''
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '6275'
+        serviceCodeCategory: 990501
+        unitScore: 173
+        count: 1
+        totalScore: 173
+        subsidies:
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+        note: ''
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '1111'
+        serviceCodeCategory: 111000
+        unitScore: 249
+        count: 153
+        totalScore: 38097
+        subsidies:
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+        note: ''
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '1211'
+        serviceCodeCategory: 111000
+        unitScore: 395
+        count: 18
+        totalScore: 7110
+        subsidies:
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+        note: ''
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '6275'
+        serviceCodeCategory: 990501
+        unitScore: 760
+        count: 1
+        totalScore: 760
+        subsidies:
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+        note: ''
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '6275'
+        serviceCodeCategory: 990501
+        unitScore: 302
+        count: 1
+        totalScore: 302
+        subsidies:
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+        note: ''
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '4845'
+        serviceCodeCategory: 111000
+        unitScore: 166
+        count: 20
+        totalScore: 3320
+        subsidies:
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+        note: ''
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '4846'
+        serviceCodeCategory: 111000
+        unitScore: 208
+        count: 8
+        totalScore: 1664
+        subsidies:
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+        note: ''
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '7211'
+        serviceCodeCategory: 113000
+        unitScore: 182
+        count: 19
+        totalScore: 3458
+        subsidies:
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+        note: ''
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '6275'
+        serviceCodeCategory: 990501
+        unitScore: 807
+        count: 1
+        totalScore: 807
+        subsidies:
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+        note: ''
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '6275'
+        serviceCodeCategory: 990501
+        unitScore: 456
+        count: 1
+        totalScore: 456
+        subsidies:
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+        note: ''
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '4112'
+        serviceCodeCategory: 112000
+        unitScore: 394
+        count: 15
+        totalScore: 5910
+        subsidies:
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+        note: ''
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '6275'
+        serviceCodeCategory: 990501
+        unitScore: 682
+        count: 1
+        totalScore: 682
+        subsidies:
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+        note: ''
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '1112'
+        serviceCodeCategory: 111000
+        unitScore: 311
+        count: 37
+        totalScore: 11507
+        subsidies:
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+        note: ''
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '6275'
+        serviceCodeCategory: 990501
+        unitScore: 469
+        count: 1
+        totalScore: 469
+        subsidies:
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+        note: ''
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '6275'
+        serviceCodeCategory: 990501
+        unitScore: 360
+        count: 1
+        totalScore: 360
+        subsidies:
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+        note: ''
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '6275'
+        serviceCodeCategory: 990501
+        unitScore: 34
+        count: 1
+        totalScore: 34
+        subsidies:
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+        note: ''
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '6275'
+        serviceCodeCategory: 990501
+        unitScore: 205
+        count: 1
+        totalScore: 205
+        subsidies:
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+        note: ''
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '6275'
+        serviceCodeCategory: 990501
+        unitScore: 777
+        count: 1
+        totalScore: 777
+        subsidies:
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+        note: ''
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '6275'
+        serviceCodeCategory: 990501
+        unitScore: 624
+        count: 1
+        totalScore: 624
+        subsidies:
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+        note: ''
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '6275'
+        serviceCodeCategory: 990501
+        unitScore: 2283
+        count: 1
+        totalScore: 2283
+        subsidies:
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+        note: ''
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '6275'
+        serviceCodeCategory: 990501
+        unitScore: 2092
+        count: 1
+        totalScore: 2092
+        subsidies:
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+        note: ''
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '6275'
+        serviceCodeCategory: 990501
+        unitScore: 383
+        count: 1
+        totalScore: 383
+        subsidies:
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+        note: ''
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '6275'
+        serviceCodeCategory: 990501
+        unitScore: 947
+        count: 1
+        totalScore: 947
+        subsidies:
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+        note: ''
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '6275'
+        serviceCodeCategory: 990501
+        unitScore: 546
+        count: 1
+        totalScore: 546
+        subsidies:
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+            -
+                count: 0
+                totalScore: 0
+        note: ''
+aggregates:
+    -
+        serviceDivisionCode: '11'
+        serviceDays: 50
+        plannedScore: 90631
+        managedScore: 90631
+        unmanagedScore: 12473
+        insurance:
+            totalScore: 103104
+            unitCost: 112000
+            claimAmount: 1039287
+            copayAmount: 115477
+        subsidies:
+            -
+                totalScore: 0
+                claimAmount: 0
+                copayAmount: 0
+            -
+                totalScore: 0
+                claimAmount: 0
+                copayAmount: 0
+            -
+                totalScore: 0
+                claimAmount: 0
+                copayAmount: 0
+appendix:
+    managedTotalEntry:
+        scoreWithinMaxBenefitQuota: 7552
+        scoreWithinMaxBenefit: 7552
+        totalFeeForInsuranceOrBusiness: 86092
+        claimAmountForInsuranceOrBusiness: 77482
+        copayForInsuranceOrBusiness: 8610
+        copayWholeExpense: 0
+        officeName: '土屋訪問介護事業所 '
+        officeCode: '1234567890'
+        serviceName: '訪問介護 合計'
+        serviceCode: ''
+        unitScore: 0
+        count: 0
+        wholeScore: 7552
+        maxBenefitQuotaExcessScore: 0
+        maxBenefitExcessScore: 0
+        unitCost: 114000
+        benefitRate: 90
+    totalScoreTotal: 7552
+    maxBenefitExcessScoreTotal: 0
+    scoreWithinMaxBenefitTotal: 7552
+    totalFeeForInsuranceOrBusinessTotal: 97891
+    claimAmountForInsuranceOrBusinessTotal: 88101
+    copayForInsuranceOrBusinessTotal: 9790
+    copayWholeExpenseTotal: 0
+    providedIn: '2020-11-01T00:00:00+09:00'
+    insNumber: '0000156829'
+    userName: '高田 純次'
+    unmanagedEntries:
+        -
+            scoreWithinMaxBenefitQuota: 1035
+            scoreWithinMaxBenefit: 1035
+            totalFeeForInsuranceOrBusiness: 11799
+            claimAmountForInsuranceOrBusiness: 10619
+            copayForInsuranceOrBusiness: 1180
+            copayWholeExpense: 0
+            officeName: '土屋訪問介護事業所 '
+            officeCode: '1234567890'
+            serviceName: 処遇改善加算Ⅰ
+            serviceCode: '116275'
+            unitScore: 1035
+            count: 1
+            wholeScore: 1035
+            maxBenefitQuotaExcessScore: 0
+            maxBenefitExcessScore: 0
+            unitCost: 114000
+            benefitRate: 90
+    managedEntries:
+        -
+            scoreWithinMaxBenefitQuota: 2780
+            scoreWithinMaxBenefit: 2780
+            totalFeeForInsuranceOrBusiness: 31692
+            claimAmountForInsuranceOrBusiness: 28522
+            copayForInsuranceOrBusiness: 3170
+            copayWholeExpense: 0
+            officeName: '土屋訪問介護事業所 '
+            officeCode: '1234567890'
+            serviceName: 身体3・Ⅰ
+            serviceCode: '112097'
+            unitScore: 695
+            count: 4
+            wholeScore: 2780
+            maxBenefitQuotaExcessScore: 0
+            maxBenefitExcessScore: 0
+            unitCost: 114000
+            benefitRate: 90
+        -
+            scoreWithinMaxBenefitQuota: 3424
+            scoreWithinMaxBenefit: 3424
+            totalFeeForInsuranceOrBusiness: 39033
+            claimAmountForInsuranceOrBusiness: 35129
+            copayForInsuranceOrBusiness: 3904
+            copayWholeExpense: 0
+            officeName: '土屋訪問介護事業所 '
+            officeCode: '1234567890'
+            serviceName: 身3生2・Ⅰ
+            serviceCode: '112121'
+            unitScore: 856
+            count: 4
+            wholeScore: 3424
+            maxBenefitQuotaExcessScore: 0
+            maxBenefitExcessScore: 0
+            unitCost: 114000
+            benefitRate: 90
+        -
+            scoreWithinMaxBenefitQuota: 1348
+            scoreWithinMaxBenefit: 1348
+            totalFeeForInsuranceOrBusiness: 15367
+            claimAmountForInsuranceOrBusiness: 13830
+            copayForInsuranceOrBusiness: 1537
+            copayWholeExpense: 0
+            officeName: '土屋訪問介護事業所 '
+            officeCode: '1234567890'
+            serviceName: 生活3・夜・Ⅰ
+            serviceCode: '118014'
+            unitScore: 337
+            count: 4
+            wholeScore: 1348
+            maxBenefitQuotaExcessScore: 0
+            maxBenefitExcessScore: 0
+            unitCost: 114000
+            benefitRate: 90
+    maxBenefit: 30938
+    insuranceClaimAmount: 88101
+    subsidyClaimAmount: 0
+    copayAmount: 9790
+    unitCost: 114000
+status: 20
+fixedAt: null
+createdAt: '2019-05-15T00:00:00+09:00'
+updatedAt: '2019-05-15T00:00:00+09:00'

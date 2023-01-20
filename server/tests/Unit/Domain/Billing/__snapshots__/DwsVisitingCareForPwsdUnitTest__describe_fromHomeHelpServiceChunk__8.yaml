@@ -1,0 +1,72 @@
+-
+    fragment:
+        isHospitalized: false
+        isLongHospitalized: false
+        isCoaching: false
+        isMoving: false
+        isSecondary: false
+        movingDurationMinutes: 0
+        range:
+            start: '2021-06-10T00:00:00+09:00'
+            end: '2021-06-10T10:00:00+09:00'
+        headcount: 1
+    providedOn: '2019-05-15T00:00:00+09:00'
+    isEmergency: false
+    isFirst: false
+    isBehavioralDisorderSupportCooperation: false
+    category: 121000
+    range:
+        start: '2021-06-10T00:00:00+09:00'
+        end: '2021-06-10T10:00:00+09:00'
+    serviceCount: 1
+    isTerminated: false
+    serviceDuration: null
+    movingDuration: null
+-
+    fragment:
+        isHospitalized: false
+        isLongHospitalized: false
+        isCoaching: false
+        isMoving: false
+        isSecondary: false
+        movingDurationMinutes: 0
+        range:
+            start: '2021-06-10T16:00:00+09:00'
+            end: '2021-06-11T00:00:00+09:00'
+        headcount: 1
+    providedOn: '2019-05-15T00:00:00+09:00'
+    isEmergency: false
+    isFirst: false
+    isBehavioralDisorderSupportCooperation: false
+    category: 121000
+    range:
+        start: '2021-06-10T16:00:00+09:00'
+        end: '2021-06-11T00:00:00+09:00'
+    serviceCount: 1
+    isTerminated: true
+    serviceDuration: 1080
+    movingDuration: null
+-
+    fragment:
+        isHospitalized: false
+        isLongHospitalized: false
+        isCoaching: false
+        isMoving: false
+        isSecondary: true
+        movingDurationMinutes: 0
+        range:
+            start: '2021-06-10T00:00:00+09:00'
+            end: '2021-06-10T10:00:00+09:00'
+        headcount: 1
+    providedOn: '2019-05-15T00:00:00+09:00'
+    isEmergency: false
+    isFirst: false
+    isBehavioralDisorderSupportCooperation: false
+    category: 121000
+    range:
+        start: '2021-06-10T00:00:00+09:00'
+        end: '2021-06-10T10:00:00+09:00'
+    serviceCount: 2
+    isTerminated: true
+    serviceDuration: 600
+    movingDuration: null

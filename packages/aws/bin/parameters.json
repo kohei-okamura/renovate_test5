@@ -1,0 +1,38 @@
+{
+  "zinger": {
+    "secure": {
+      "appKey": {
+        "parameterName": "/zinger/secure/appKey",
+        "version": 1
+      },
+      "awsAccessKeyId": {
+        "parameterName": "/zinger/secure/awsAccessKeyId",
+        "version": 1
+      },
+      "awsSecretAccessKey": {
+        "parameterName": "/zinger/secure/awsSecretAccessKey",
+        "version": 1
+      },
+      "awsBucket": {
+        "parameterName": "/zinger/secure/awsBucket",
+        "version": 1
+      },
+      "dbMasterPassword": {
+        "parameterName": "/zinger/secure/dbMasterPassword",
+        "version": 1
+      },
+      "dbPassword": {
+        "parameterName": "/zinger/secure/dbPassword",
+        "version": 1
+      },
+      "dbUsername": {
+        "parameterName": "/zinger/secure/dbUsername",
+        "version": 1
+      },
+      "redisPassword": {
+        "parameterName": "/zinger/secure/redisPassword",
+        "version": 1
+      }
+    }
+  }
+}

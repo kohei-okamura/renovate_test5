@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-form-dialog.vue should be rendered correctly 1`] = `
+<z-page-dialog-stub
+  value="true"
+  width="500"
+>
+  <form
+    class="v-form"
+    data-form=""
+    novalidate="novalidate"
+  >
+    <v-card-stub
+      loaderheight="4"
+      tag="div"
+    >
+      <z-card-titlebar-stub
+        color="blue-grey"
+      >
+        テスト
+      </z-card-titlebar-stub>
+    </v-card-stub>
+  </form>
+</z-page-dialog-stub>
+`;
+
+exports[`z-form-dialog.vue should close when the falsy value given 1`] = `
+<z-page-dialog-stub
+  value="true"
+  width="500"
+>
+  <form
+    class="v-form"
+    data-form=""
+    novalidate="novalidate"
+  >
+    <v-card-stub
+      loaderheight="4"
+      tag="div"
+    >
+      <z-card-titlebar-stub
+        color="blue-grey"
+      >
+      </z-card-titlebar-stub>
+    </v-card-stub>
+  </form>
+</z-page-dialog-stub>
+`;
+
+exports[`z-form-dialog.vue should close when the falsy value given 2`] = `
+<z-page-dialog-stub
+  value="true"
+  width="500"
+>
+  <form
+    class="v-form"
+    data-form=""
+    novalidate="novalidate"
+  >
+    <v-card-stub
+      loaderheight="4"
+      tag="div"
+    >
+      <z-card-titlebar-stub
+        color="blue-grey"
+      >
+      </z-card-titlebar-stub>
+    </v-card-stub>
+  </form>
+</z-page-dialog-stub>
+`;

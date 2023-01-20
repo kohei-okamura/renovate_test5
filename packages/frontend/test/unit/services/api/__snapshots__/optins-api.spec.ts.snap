@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`api/options-api officeGroups should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/options-api offices should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/options-api roles should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/options-api staffs should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/options-api users should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;

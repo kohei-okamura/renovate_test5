@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`api/bank-accounts-api update should throw an AxiosError when failed to request(/api/staffs/:staffId/bank-account) 1`] = `"Request failed with status code 400"`;
+
+exports[`api/bank-accounts-api update should throw an AxiosError when failed to request(/api/users/:userId/bank-account) 1`] = `"Request failed with status code 400"`;

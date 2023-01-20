@@ -1,0 +1,428 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/map.vue should be rendered correctly 1`] = `
+<main
+  class="v-main"
+  data-booted="true"
+  style="padding: 0px 200px 0px 0px;"
+>
+  <div
+    class="v-main__wrap"
+  >
+    <v-container-stub
+      class="pa-0"
+      fill-height=""
+      fluid="true"
+      tag="div"
+    >
+      <v-layout-stub
+        fill-height=""
+        fluid=""
+        id="map"
+        tag="div"
+      />
+    </v-container-stub>
+    <nav
+      class="v-navigation-drawer v-navigation-drawer--fixed v-navigation-drawer--open v-navigation-drawer--right theme--light"
+      data-booted="true"
+      style="height: 100vh; top: 0px; max-height: calc(100% - 0px); transform: translateX(0%); width: 200px;"
+    >
+      <div
+        class="v-navigation-drawer__content"
+      >
+        <v-list-stub
+          dense="true"
+          tag="div"
+        >
+          <v-subheader-stub>
+            スタッフ
+          </v-subheader-stub>
+          <v-list-item-stub
+            activeclass=""
+            tag="div"
+          >
+            <v-list-item-icon-stub>
+              <v-icon-stub>
+                M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,6A2,2 0 0,0 10,8A2,2 0 0,0 12,10A2,2 0 0,0 14,8A2,2 0 0,0 12,6M12,13C14.67,13 20,14.33 20,17V20H4V17C4,14.33 9.33,13 12,13M12,14.9C9.03,14.9 5.9,16.36 5.9,17V18.1H18.1V17C18.1,16.36 14.97,14.9 12,14.9Z
+              </v-icon-stub>
+            </v-list-item-icon-stub>
+            <v-list-item-content-stub
+              tag="div"
+            >
+              <v-list-item-title-stub
+                tag="div"
+              >
+                新井 恵梨香
+              </v-list-item-title-stub>
+            </v-list-item-content-stub>
+          </v-list-item-stub>
+          <v-list-item-stub
+            activeclass=""
+            tag="div"
+          >
+            <v-list-item-icon-stub>
+              <v-icon-stub>
+                M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,6A2,2 0 0,0 10,8A2,2 0 0,0 12,10A2,2 0 0,0 14,8A2,2 0 0,0 12,6M12,13C14.67,13 20,14.33 20,17V20H4V17C4,14.33 9.33,13 12,13M12,14.9C9.03,14.9 5.9,16.36 5.9,17V18.1H18.1V17C18.1,16.36 14.97,14.9 12,14.9Z
+              </v-icon-stub>
+            </v-list-item-icon-stub>
+            <v-list-item-content-stub
+              tag="div"
+            >
+              <v-list-item-title-stub
+                tag="div"
+              >
+                木田 聡美
+              </v-list-item-title-stub>
+            </v-list-item-content-stub>
+          </v-list-item-stub>
+          <v-list-item-stub
+            activeclass=""
+            tag="div"
+          >
+            <v-list-item-icon-stub>
+              <v-icon-stub>
+                M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,6A2,2 0 0,0 10,8A2,2 0 0,0 12,10A2,2 0 0,0 14,8A2,2 0 0,0 12,6M12,13C14.67,13 20,14.33 20,17V20H4V17C4,14.33 9.33,13 12,13M12,14.9C9.03,14.9 5.9,16.36 5.9,17V18.1H18.1V17C18.1,16.36 14.97,14.9 12,14.9Z
+              </v-icon-stub>
+            </v-list-item-icon-stub>
+            <v-list-item-content-stub
+              tag="div"
+            >
+              <v-list-item-title-stub
+                tag="div"
+              >
+                松本 惇
+              </v-list-item-title-stub>
+            </v-list-item-content-stub>
+          </v-list-item-stub>
+          <v-list-item-stub
+            activeclass=""
+            tag="div"
+          >
+            <v-list-item-icon-stub>
+              <v-icon-stub>
+                M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,6A2,2 0 0,0 10,8A2,2 0 0,0 12,10A2,2 0 0,0 14,8A2,2 0 0,0 12,6M12,13C14.67,13 20,14.33 20,17V20H4V17C4,14.33 9.33,13 12,13M12,14.9C9.03,14.9 5.9,16.36 5.9,17V18.1H18.1V17C18.1,16.36 14.97,14.9 12,14.9Z
+              </v-icon-stub>
+            </v-list-item-icon-stub>
+            <v-list-item-content-stub
+              tag="div"
+            >
+              <v-list-item-title-stub
+                tag="div"
+              >
+                長沢 瞳
+              </v-list-item-title-stub>
+            </v-list-item-content-stub>
+          </v-list-item-stub>
+          <v-list-item-stub
+            activeclass=""
+            tag="div"
+          >
+            <v-list-item-icon-stub>
+              <v-icon-stub>
+                M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,6A2,2 0 0,0 10,8A2,2 0 0,0 12,10A2,2 0 0,0 14,8A2,2 0 0,0 12,6M12,13C14.67,13 20,14.33 20,17V20H4V17C4,14.33 9.33,13 12,13M12,14.9C9.03,14.9 5.9,16.36 5.9,17V18.1H18.1V17C18.1,16.36 14.97,14.9 12,14.9Z
+              </v-icon-stub>
+            </v-list-item-icon-stub>
+            <v-list-item-content-stub
+              tag="div"
+            >
+              <v-list-item-title-stub
+                tag="div"
+              >
+                川西 幸平
+              </v-list-item-title-stub>
+            </v-list-item-content-stub>
+          </v-list-item-stub>
+          <v-list-item-stub
+            activeclass=""
+            tag="div"
+          >
+            <v-list-item-icon-stub>
+              <v-icon-stub>
+                M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,6A2,2 0 0,0 10,8A2,2 0 0,0 12,10A2,2 0 0,0 14,8A2,2 0 0,0 12,6M12,13C14.67,13 20,14.33 20,17V20H4V17C4,14.33 9.33,13 12,13M12,14.9C9.03,14.9 5.9,16.36 5.9,17V18.1H18.1V17C18.1,16.36 14.97,14.9 12,14.9Z
+              </v-icon-stub>
+            </v-list-item-icon-stub>
+            <v-list-item-content-stub
+              tag="div"
+            >
+              <v-list-item-title-stub
+                tag="div"
+              >
+                片桐 将也
+              </v-list-item-title-stub>
+            </v-list-item-content-stub>
+          </v-list-item-stub>
+          <v-list-item-stub
+            activeclass=""
+            tag="div"
+          >
+            <v-list-item-icon-stub>
+              <v-icon-stub>
+                M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,6A2,2 0 0,0 10,8A2,2 0 0,0 12,10A2,2 0 0,0 14,8A2,2 0 0,0 12,6M12,13C14.67,13 20,14.33 20,17V20H4V17C4,14.33 9.33,13 12,13M12,14.9C9.03,14.9 5.9,16.36 5.9,17V18.1H18.1V17C18.1,16.36 14.97,14.9 12,14.9Z
+              </v-icon-stub>
+            </v-list-item-icon-stub>
+            <v-list-item-content-stub
+              tag="div"
+            >
+              <v-list-item-title-stub
+                tag="div"
+              >
+                重田 英嗣
+              </v-list-item-title-stub>
+            </v-list-item-content-stub>
+          </v-list-item-stub>
+          <v-list-item-stub
+            activeclass=""
+            tag="div"
+          >
+            <v-list-item-icon-stub>
+              <v-icon-stub>
+                M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,6A2,2 0 0,0 10,8A2,2 0 0,0 12,10A2,2 0 0,0 14,8A2,2 0 0,0 12,6M12,13C14.67,13 20,14.33 20,17V20H4V17C4,14.33 9.33,13 12,13M12,14.9C9.03,14.9 5.9,16.36 5.9,17V18.1H18.1V17C18.1,16.36 14.97,14.9 12,14.9Z
+              </v-icon-stub>
+            </v-list-item-icon-stub>
+            <v-list-item-content-stub
+              tag="div"
+            >
+              <v-list-item-title-stub
+                tag="div"
+              >
+                市川 美佳
+              </v-list-item-title-stub>
+            </v-list-item-content-stub>
+          </v-list-item-stub>
+          <v-list-item-stub
+            activeclass=""
+            tag="div"
+          >
+            <v-list-item-icon-stub>
+              <v-icon-stub>
+                M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,6A2,2 0 0,0 10,8A2,2 0 0,0 12,10A2,2 0 0,0 14,8A2,2 0 0,0 12,6M12,13C14.67,13 20,14.33 20,17V20H4V17C4,14.33 9.33,13 12,13M12,14.9C9.03,14.9 5.9,16.36 5.9,17V18.1H18.1V17C18.1,16.36 14.97,14.9 12,14.9Z
+              </v-icon-stub>
+            </v-list-item-icon-stub>
+            <v-list-item-content-stub
+              tag="div"
+            >
+              <v-list-item-title-stub
+                tag="div"
+              >
+                丹羽 直美
+              </v-list-item-title-stub>
+            </v-list-item-content-stub>
+          </v-list-item-stub>
+          <v-list-item-stub
+            activeclass=""
+            tag="div"
+          >
+            <v-list-item-icon-stub>
+              <v-icon-stub>
+                M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,6A2,2 0 0,0 10,8A2,2 0 0,0 12,10A2,2 0 0,0 14,8A2,2 0 0,0 12,6M12,13C14.67,13 20,14.33 20,17V20H4V17C4,14.33 9.33,13 12,13M12,14.9C9.03,14.9 5.9,16.36 5.9,17V18.1H18.1V17C18.1,16.36 14.97,14.9 12,14.9Z
+              </v-icon-stub>
+            </v-list-item-icon-stub>
+            <v-list-item-content-stub
+              tag="div"
+            >
+              <v-list-item-title-stub
+                tag="div"
+              >
+                野村 真一
+              </v-list-item-title-stub>
+            </v-list-item-content-stub>
+          </v-list-item-stub>
+          <v-list-item-stub
+            activeclass=""
+            tag="div"
+          >
+            <v-list-item-icon-stub>
+              <v-icon-stub>
+                M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,6A2,2 0 0,0 10,8A2,2 0 0,0 12,10A2,2 0 0,0 14,8A2,2 0 0,0 12,6M12,13C14.67,13 20,14.33 20,17V20H4V17C4,14.33 9.33,13 12,13M12,14.9C9.03,14.9 5.9,16.36 5.9,17V18.1H18.1V17C18.1,16.36 14.97,14.9 12,14.9Z
+              </v-icon-stub>
+            </v-list-item-icon-stub>
+            <v-list-item-content-stub
+              tag="div"
+            >
+              <v-list-item-title-stub
+                tag="div"
+              >
+                河本 人志
+              </v-list-item-title-stub>
+            </v-list-item-content-stub>
+          </v-list-item-stub>
+          <v-list-item-stub
+            activeclass=""
+            tag="div"
+          >
+            <v-list-item-icon-stub>
+              <v-icon-stub>
+                M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,6A2,2 0 0,0 10,8A2,2 0 0,0 12,10A2,2 0 0,0 14,8A2,2 0 0,0 12,6M12,13C14.67,13 20,14.33 20,17V20H4V17C4,14.33 9.33,13 12,13M12,14.9C9.03,14.9 5.9,16.36 5.9,17V18.1H18.1V17C18.1,16.36 14.97,14.9 12,14.9Z
+              </v-icon-stub>
+            </v-list-item-icon-stub>
+            <v-list-item-content-stub
+              tag="div"
+            >
+              <v-list-item-title-stub
+                tag="div"
+              >
+                矢部 勇一
+              </v-list-item-title-stub>
+            </v-list-item-content-stub>
+          </v-list-item-stub>
+          <v-list-item-stub
+            activeclass=""
+            tag="div"
+          >
+            <v-list-item-icon-stub>
+              <v-icon-stub>
+                M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,6A2,2 0 0,0 10,8A2,2 0 0,0 12,10A2,2 0 0,0 14,8A2,2 0 0,0 12,6M12,13C14.67,13 20,14.33 20,17V20H4V17C4,14.33 9.33,13 12,13M12,14.9C9.03,14.9 5.9,16.36 5.9,17V18.1H18.1V17C18.1,16.36 14.97,14.9 12,14.9Z
+              </v-icon-stub>
+            </v-list-item-icon-stub>
+            <v-list-item-content-stub
+              tag="div"
+            >
+              <v-list-item-title-stub
+                tag="div"
+              >
+                吉野 美帆
+              </v-list-item-title-stub>
+            </v-list-item-content-stub>
+          </v-list-item-stub>
+          <v-list-item-stub
+            activeclass=""
+            tag="div"
+          >
+            <v-list-item-icon-stub>
+              <v-icon-stub>
+                M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,6A2,2 0 0,0 10,8A2,2 0 0,0 12,10A2,2 0 0,0 14,8A2,2 0 0,0 12,6M12,13C14.67,13 20,14.33 20,17V20H4V17C4,14.33 9.33,13 12,13M12,14.9C9.03,14.9 5.9,16.36 5.9,17V18.1H18.1V17C18.1,16.36 14.97,14.9 12,14.9Z
+              </v-icon-stub>
+            </v-list-item-icon-stub>
+            <v-list-item-content-stub
+              tag="div"
+            >
+              <v-list-item-title-stub
+                tag="div"
+              >
+                伊沢 奈々
+              </v-list-item-title-stub>
+            </v-list-item-content-stub>
+          </v-list-item-stub>
+          <v-list-item-stub
+            activeclass=""
+            tag="div"
+          >
+            <v-list-item-icon-stub>
+              <v-icon-stub>
+                M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,6A2,2 0 0,0 10,8A2,2 0 0,0 12,10A2,2 0 0,0 14,8A2,2 0 0,0 12,6M12,13C14.67,13 20,14.33 20,17V20H4V17C4,14.33 9.33,13 12,13M12,14.9C9.03,14.9 5.9,16.36 5.9,17V18.1H18.1V17C18.1,16.36 14.97,14.9 12,14.9Z
+              </v-icon-stub>
+            </v-list-item-icon-stub>
+            <v-list-item-content-stub
+              tag="div"
+            >
+              <v-list-item-title-stub
+                tag="div"
+              >
+                椎名 宏行
+              </v-list-item-title-stub>
+            </v-list-item-content-stub>
+          </v-list-item-stub>
+          <v-list-item-stub
+            activeclass=""
+            tag="div"
+          >
+            <v-list-item-icon-stub>
+              <v-icon-stub>
+                M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,6A2,2 0 0,0 10,8A2,2 0 0,0 12,10A2,2 0 0,0 14,8A2,2 0 0,0 12,6M12,13C14.67,13 20,14.33 20,17V20H4V17C4,14.33 9.33,13 12,13M12,14.9C9.03,14.9 5.9,16.36 5.9,17V18.1H18.1V17C18.1,16.36 14.97,14.9 12,14.9Z
+              </v-icon-stub>
+            </v-list-item-icon-stub>
+            <v-list-item-content-stub
+              tag="div"
+            >
+              <v-list-item-title-stub
+                tag="div"
+              >
+                長沢 あさみ
+              </v-list-item-title-stub>
+            </v-list-item-content-stub>
+          </v-list-item-stub>
+          <v-list-item-stub
+            activeclass=""
+            tag="div"
+          >
+            <v-list-item-icon-stub>
+              <v-icon-stub>
+                M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,6A2,2 0 0,0 10,8A2,2 0 0,0 12,10A2,2 0 0,0 14,8A2,2 0 0,0 12,6M12,13C14.67,13 20,14.33 20,17V20H4V17C4,14.33 9.33,13 12,13M12,14.9C9.03,14.9 5.9,16.36 5.9,17V18.1H18.1V17C18.1,16.36 14.97,14.9 12,14.9Z
+              </v-icon-stub>
+            </v-list-item-icon-stub>
+            <v-list-item-content-stub
+              tag="div"
+            >
+              <v-list-item-title-stub
+                tag="div"
+              >
+                土橋 樹里
+              </v-list-item-title-stub>
+            </v-list-item-content-stub>
+          </v-list-item-stub>
+          <v-list-item-stub
+            activeclass=""
+            tag="div"
+          >
+            <v-list-item-icon-stub>
+              <v-icon-stub>
+                M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,6A2,2 0 0,0 10,8A2,2 0 0,0 12,10A2,2 0 0,0 14,8A2,2 0 0,0 12,6M12,13C14.67,13 20,14.33 20,17V20H4V17C4,14.33 9.33,13 12,13M12,14.9C9.03,14.9 5.9,16.36 5.9,17V18.1H18.1V17C18.1,16.36 14.97,14.9 12,14.9Z
+              </v-icon-stub>
+            </v-list-item-icon-stub>
+            <v-list-item-content-stub
+              tag="div"
+            >
+              <v-list-item-title-stub
+                tag="div"
+              >
+                上野 育二
+              </v-list-item-title-stub>
+            </v-list-item-content-stub>
+          </v-list-item-stub>
+          <v-list-item-stub
+            activeclass=""
+            tag="div"
+          >
+            <v-list-item-icon-stub>
+              <v-icon-stub>
+                M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,6A2,2 0 0,0 10,8A2,2 0 0,0 12,10A2,2 0 0,0 14,8A2,2 0 0,0 12,6M12,13C14.67,13 20,14.33 20,17V20H4V17C4,14.33 9.33,13 12,13M12,14.9C9.03,14.9 5.9,16.36 5.9,17V18.1H18.1V17C18.1,16.36 14.97,14.9 12,14.9Z
+              </v-icon-stub>
+            </v-list-item-icon-stub>
+            <v-list-item-content-stub
+              tag="div"
+            >
+              <v-list-item-title-stub
+                tag="div"
+              >
+                佐竹 丈雄
+              </v-list-item-title-stub>
+            </v-list-item-content-stub>
+          </v-list-item-stub>
+          <v-list-item-stub
+            activeclass=""
+            tag="div"
+          >
+            <v-list-item-icon-stub>
+              <v-icon-stub>
+                M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,6A2,2 0 0,0 10,8A2,2 0 0,0 12,10A2,2 0 0,0 14,8A2,2 0 0,0 12,6M12,13C14.67,13 20,14.33 20,17V20H4V17C4,14.33 9.33,13 12,13M12,14.9C9.03,14.9 5.9,16.36 5.9,17V18.1H18.1V17C18.1,16.36 14.97,14.9 12,14.9Z
+              </v-icon-stub>
+            </v-list-item-icon-stub>
+            <v-list-item-content-stub
+              tag="div"
+            >
+              <v-list-item-title-stub
+                tag="div"
+              >
+                三谷 由樹
+              </v-list-item-title-stub>
+            </v-list-item-content-stub>
+          </v-list-item-stub>
+        </v-list-stub>
+      </div>
+      <div
+        class="v-navigation-drawer__border"
+      />
+    </nav>
+  </div>
+</main>
+`;

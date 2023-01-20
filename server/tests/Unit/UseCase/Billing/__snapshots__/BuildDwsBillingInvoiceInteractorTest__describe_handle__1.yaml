@@ -1,0 +1,41 @@
+id: null
+dwsBillingBundleId: 1
+claimAmount: 425874
+dwsPayment:
+    subtotalDetailCount: 4
+    subtotalScore: 42190
+    subtotalFee: 472526
+    subtotalBenefit: 425274
+    subtotalCopay: 46652
+    subtotalSubsidy: 600
+highCostDwsPayment:
+    subtotalDetailCount: 0
+    subtotalFee: 0
+    subtotalBenefit: 0
+totalCount: 4
+totalScore: 42190
+totalFee: 472526
+totalBenefit: 425274
+totalCopay: 46652
+totalSubsidy: 600
+items:
+    -
+        paymentCategory: 1
+        serviceDivisionCode: '11'
+        subtotalCount: 2
+        subtotalScore: 3568
+        subtotalFee: 39960
+        subtotalBenefit: 35964
+        subtotalCopay: 3696
+        subtotalSubsidy: 300
+    -
+        paymentCategory: 1
+        serviceDivisionCode: '12'
+        subtotalCount: 2
+        subtotalScore: 38622
+        subtotalFee: 432566
+        subtotalBenefit: 389310
+        subtotalCopay: 42956
+        subtotalSubsidy: 300
+createdAt: '2019-05-15T00:00:00+09:00'
+updatedAt: '2019-05-15T00:00:00+09:00'

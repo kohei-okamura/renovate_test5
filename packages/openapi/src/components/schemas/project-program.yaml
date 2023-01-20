@@ -1,0 +1,31 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 計画：週間サービス計画
+type: object
+properties:
+  summaryIndex:
+    description: 週間サービス計画番号
+    type: number
+  dayOfWeeks:
+    description: 曜日
+    type: array
+    items:
+      $ref: '#/components/schemas/DayOfWeek'
+  slot:
+    $ref: '#/components/schemas/TimeRange'
+  amounts:
+    description: サービス項目別提供量
+    type: array
+    items:
+      $ref: '#/components/schemas/ProjectProgramAmount'
+  contents:
+    description: サービス詳細
+    type: array
+    items:
+      $ref: '#/components/schemas/ProjectProgramContent'
+  note:
+    description: 備考
+    type: string

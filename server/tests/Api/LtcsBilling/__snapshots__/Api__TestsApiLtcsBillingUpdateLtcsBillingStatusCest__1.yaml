@@ -1,0 +1,28 @@
+-
+    name: 介護給付費請求書・明細書_事テス_202112.csv
+    path: ''
+    token: ''
+    mimeType: text/csv
+    createdAt: '2022-10-24T12:34:56+09:00'
+    downloadedAt: null
+-
+    name: 介護給付費請求書・明細書_事テス_202112.pdf
+    path: ''
+    token: ''
+    mimeType: application/pdf
+    createdAt: '2022-10-24T12:34:56+09:00'
+    downloadedAt: null
+-
+    name: 介護給付費請求書・明細書_事テス_202201.csv
+    path: ''
+    token: ''
+    mimeType: text/csv
+    createdAt: '2022-10-24T12:34:56+09:00'
+    downloadedAt: null
+-
+    name: 介護給付費請求書・明細書_事テス_202201.pdf
+    path: ''
+    token: ''
+    mimeType: application/pdf
+    createdAt: '2022-10-24T12:34:56+09:00'
+    downloadedAt: null

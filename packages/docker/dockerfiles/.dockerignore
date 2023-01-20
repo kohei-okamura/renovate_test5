@@ -1,0 +1,6 @@
+.gitignore
+
+.work/app/server/storage/app/*
+.work/app/server/storage/framework/*/*
+.work/app/server/storage/logs/*.log
+.work/app/server/tests

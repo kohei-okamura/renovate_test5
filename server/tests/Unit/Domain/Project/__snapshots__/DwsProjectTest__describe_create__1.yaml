@@ -1,0 +1,39 @@
+id: 1
+organizationId: 2
+contractId: 3
+officeId: 4
+userId: 5
+staffId: 6
+writtenOn: '2019-05-14T00:00:00+09:00'
+effectivatedOn: '2019-05-16T00:00:00+09:00'
+requestFromUser: できるだけ自分でできることは自分でやりたい。
+requestFromFamily: 自由にさせてやりたい。
+objective: 在宅中の転倒や誤飲を防止し、負担を軽減できるようサポートする。
+programs:
+    -
+        summaryIndex: 1
+        category: 11
+        recurrence: 11
+        dayOfWeeks:
+            - 1
+            - 3
+            - 5
+        slot:
+            start: '10:00'
+            end: '18:00'
+        headcount: 1
+        ownExpenseProgramId: null
+        options:
+            - 300003
+            - 301105
+        contents:
+            -
+                menuId: 123
+                duration: 60
+                content: 夜ごはんのお買い物へ一緒に行き、料理を行う。
+                memo: 火、包丁を使わない作業をしていただく。
+        note: 備考
+isEnabled: true
+version: 12
+createdAt: '2019-05-14T00:00:00+09:00'
+updatedAt: '2019-05-15T00:00:00+09:00'

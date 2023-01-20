@@ -1,0 +1,29 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+get:
+  summary: 出勤確認勤務シフト一覧
+  description: トークンに対応する出勤確認に関連付けられた勤務シフトの一覧を取得する。
+  parameters:
+    - $ref: '#/components/parameters/token'
+  responses:
+    '200':
+      description: トークンに対応する出勤確認が存在する場合
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              list:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Shift'
+              pagination:
+                $ref: '#/components/schemas/Pagination'
+    '404':
+      $ref: '#/components/responses/CallingNotFound'
+    '410':
+      $ref: '#/components/responses/TokenExpired'
+  security: []
+  tags:
+    - スタッフ：出勤確認

@@ -1,0 +1,3 @@
+---
+'*.php': composer fixer:fix
+'*.{js,ts,vue}': yarn eslint --cache

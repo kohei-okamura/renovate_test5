@@ -1,0 +1,16 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+securitySchemes:
+  cookie:
+    type: apiKey
+    in: cookie
+    name: session
+parameters:
+  $ref: ./parameters.yaml
+responses:
+  $ref: ./responses.yaml
+schemas:
+  $ref: ./schemas.yaml
+x-query-parameters:
+  $ref: ./query-parameters.yaml

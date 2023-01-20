@@ -1,0 +1,682 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-dws-provision-report-item-form-dialog.vue initial view should be rendered correctly 1`] = `
+<v-dialog-stub
+  closedelay="0"
+  contentclass=""
+  maxwidth="640"
+  opendelay="0"
+  origin="center center"
+  persistent="true"
+  retainfocus="true"
+  transition="dialog"
+  value="true"
+  width="50%"
+>
+  <form
+    class="v-form"
+    data-form=""
+    novalidate="novalidate"
+  >
+    <v-card-stub
+      loaderheight="4"
+      tag="div"
+    >
+      <z-card-titlebar-stub
+        color="blue-grey"
+      >
+        予定を編集
+      </z-card-titlebar-stub>
+      <div
+        class="py-6"
+      >
+        <z-form-card-item-set-stub
+          icon="M11.19,2.25C10.93,2.25 10.67,2.31 10.42,2.4L3.06,5.45C2.04,5.87 1.55,7.04 1.97,8.05L6.93,20C7.24,20.77 7.97,21.23 8.74,21.25C9,21.25 9.27,21.22 9.53,21.1L16.9,18.05C17.65,17.74 18.11,17 18.13,16.25C18.14,16 18.09,15.71 18,15.45L13,3.5C12.71,2.73 11.97,2.26 11.19,2.25M14.67,2.25L18.12,10.6V4.25A2,2 0 0,0 16.12,2.25M20.13,3.79V12.82L22.56,6.96C22.97,5.94 22.5,4.78 21.47,4.36M11.19,4.22L16.17,16.24L8.78,19.3L3.8,7.29"
+          label=""
+        >
+          <div
+            class="root"
+            data-category=""
+            data-z-form-card-item=""
+          >
+            <div
+              class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--enclosed v-text-field--outlined v-select"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  aria-expanded="false"
+                  aria-haspopup="listbox"
+                  class="v-input__slot"
+                  role="button"
+                  style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                >
+                  <fieldset
+                    aria-hidden="true"
+                  >
+                    <legend
+                      style="width: 0px;"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                  <div
+                    class="v-select__slot"
+                  >
+                    <label
+                      class="v-label v-label--active theme--light"
+                      style="left: 0px; position: absolute;"
+                    >
+                      サービス区分 *
+                    </label>
+                    <div
+                      class="v-select__selections"
+                    >
+                      <div
+                        class="v-select__selection v-select__selection--comma"
+                      >
+                        自費
+                      </div>
+                      <input
+                        aria-readonly="false"
+                        autocomplete="off"
+                        readonly="readonly"
+                        type="text"
+                      />
+                    </div>
+                    <div
+                      class="v-input__append-inner"
+                    >
+                      <div
+                        class="v-input__icon v-input__icon--append"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="v-icon notranslate mdi mdi-menu-down theme--light"
+                        />
+                      </div>
+                    </div>
+                    <input
+                      type="hidden"
+                      value="91"
+                    />
+                  </div>
+                  <div
+                    class="v-menu"
+                  >
+                    <!---->
+                  </div>
+                </div>
+                <div
+                  class="v-text-field__details"
+                >
+                  <div
+                    class="v-messages theme--light"
+                  >
+                    <transition-group-stub
+                      class="v-messages__wrapper"
+                      name="message-transition"
+                      tag="div"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="root"
+            data-own-expense-program-id=""
+            data-z-form-card-item=""
+          >
+            <div
+              class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--enclosed v-text-field--outlined v-select"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  aria-expanded="false"
+                  aria-haspopup="listbox"
+                  class="v-input__slot"
+                  role="button"
+                  style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                >
+                  <fieldset
+                    aria-hidden="true"
+                  >
+                    <legend
+                      style="width: 0px;"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                  <div
+                    class="v-select__slot"
+                  >
+                    <label
+                      class="v-label v-label--active theme--light"
+                      style="left: 0px; position: absolute;"
+                    >
+                      自費サービス *
+                    </label>
+                    <div
+                      class="v-select__selections"
+                    >
+                      <div
+                        class="v-select__selection v-select__selection--comma"
+                      >
+                        もやしが好きだ。
+                      </div>
+                      <input
+                        aria-readonly="false"
+                        autocomplete="off"
+                        readonly="readonly"
+                        type="text"
+                      />
+                    </div>
+                    <div
+                      class="v-input__append-inner"
+                    >
+                      <div
+                        class="v-input__icon v-input__icon--append"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="v-icon notranslate mdi mdi-menu-down theme--light"
+                        />
+                      </div>
+                    </div>
+                    <input
+                      type="hidden"
+                      value="2"
+                    />
+                  </div>
+                  <div
+                    class="v-menu"
+                  >
+                    <!---->
+                  </div>
+                </div>
+                <div
+                  class="v-text-field__details"
+                >
+                  <div
+                    class="v-messages theme--light"
+                  >
+                    <transition-group-stub
+                      class="v-messages__wrapper"
+                      name="message-transition"
+                      tag="div"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </z-form-card-item-set-stub>
+        <!---->
+        <z-form-card-item-set-stub
+          icon="M15,13H16.5V15.82L18.94,17.23L18.19,18.53L15,16.69V13M19,8H5V19H9.67C9.24,18.09 9,17.07 9,16A7,7 0 0,1 16,9C17.07,9 18.09,9.24 19,9.67V8M5,21C3.89,21 3,20.1 3,19V5C3,3.89 3.89,3 5,3H6V1H8V3H16V1H18V3H19A2,2 0 0,1 21,5V11.1C22.24,12.36 23,14.09 23,16A7,7 0 0,1 16,23C14.09,23 12.36,22.24 11.1,21H5M16,11.15A4.85,4.85 0 0,0 11.15,16C11.15,18.68 13.32,20.85 16,20.85A4.85,4.85 0 0,0 20.85,16C20.85,13.32 18.68,11.15 16,11.15Z"
+          label=""
+        >
+          <div
+            class="root"
+            data-schedule-date=""
+            data-z-form-card-item=""
+          >
+            <div
+              class="z-date-field"
+              max="2021-02-28"
+              min="2021-02-01"
+              picker-date="2021-02-01"
+            >
+              <div
+                class="v-input v-input--is-label-active v-input--is-dirty v-input--is-readonly v-input--dense theme--light v-text-field v-text-field--enclosed v-text-field--outlined"
+              >
+                <div
+                  class="v-input__control"
+                >
+                  <div
+                    class="v-input__slot"
+                    style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                  >
+                    <fieldset
+                      aria-hidden="true"
+                    >
+                      <legend
+                        style="width: 0px;"
+                      >
+                        <span
+                          class="notranslate"
+                        >
+                          ​
+                        </span>
+                      </legend>
+                    </fieldset>
+                    <div
+                      class="v-text-field__slot"
+                    >
+                      <label
+                        class="v-label v-label--active theme--light"
+                        style="left: 0px; position: absolute;"
+                      >
+                        サービス提供年月日 *
+                      </label>
+                      <input
+                        readonly="readonly"
+                        type="text"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="v-text-field__details"
+                  >
+                    <div
+                      class="v-messages theme--light"
+                    >
+                      <transition-group-stub
+                        class="v-messages__wrapper"
+                        name="message-transition"
+                        tag="div"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <v-dialog-stub
+                closedelay="0"
+                contentclass=""
+                data-z-date-field-dialog=""
+                opendelay="0"
+                origin="center center"
+                retainfocus="true"
+                transition="dialog-transition"
+                width="290px"
+              >
+                <v-date-picker-stub
+                  data-z-date-field-picker=""
+                  dayformat="[Function]"
+                  eventcolor="warning"
+                  firstdayofweek="1"
+                  headerdateformat="[Function]"
+                  locale="ja-JP"
+                  localefirstdayofyear="0"
+                  max="2021-02-28"
+                  min="2021-02-01"
+                  nexticon="$next"
+                  nextmontharialabel="$vuetify.datePicker.nextMonthAriaLabel"
+                  nextyeararialabel="$vuetify.datePicker.nextYearAriaLabel"
+                  notitle="true"
+                  picker-date="2021-02-01"
+                  pickerdate="2021-02-01"
+                  previcon="$prev"
+                  prevmontharialabel="$vuetify.datePicker.prevMonthAriaLabel"
+                  prevyeararialabel="$vuetify.datePicker.prevYearAriaLabel"
+                  selecteditemstext="$vuetify.datePicker.itemsSelected"
+                  showcurrent="true"
+                  titledateformat="[Function]"
+                  type="date"
+                  value="2021-02-28"
+                  width="290"
+                  yearformat="[Function]"
+                >
+                  <v-spacer-stub
+                    tag="div"
+                  />
+                  <!---->
+                  <a
+                    class="v-btn-stub"
+                    color="primary"
+                    data-z-date-field-button-cancel=""
+                    text=""
+                  >
+                    キャンセル
+                  </a>
+                </v-date-picker-stub>
+              </v-dialog-stub>
+            </div>
+          </div>
+          <z-flex-stub>
+            <div
+              class="root"
+              data-schedule-start=""
+              data-z-form-card-item=""
+            >
+              <div
+                class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--enclosed v-text-field--outlined"
+              >
+                <div
+                  class="v-input__control"
+                >
+                  <div
+                    class="v-input__slot"
+                    style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                  >
+                    <fieldset
+                      aria-hidden="true"
+                    >
+                      <legend
+                        style="width: 0px;"
+                      >
+                        <span
+                          class="notranslate"
+                        >
+                          ​
+                        </span>
+                      </legend>
+                    </fieldset>
+                    <div
+                      class="v-text-field__slot"
+                    >
+                      <label
+                        class="v-label v-label--active theme--light"
+                        style="left: 0px; position: absolute;"
+                      >
+                        サービス提供時間 *
+                      </label>
+                      <input
+                        type="time"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="v-text-field__details"
+                  >
+                    <div
+                      class="v-messages theme--light"
+                    >
+                      <transition-group-stub
+                        class="v-messages__wrapper"
+                        name="message-transition"
+                        tag="div"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <z-flex-shrink-stub
+              class="pb-2 pl-2 pt-4"
+            >
+              〜
+            </z-flex-shrink-stub>
+            <div
+              class="root"
+              data-schedule-end=""
+              data-z-form-card-item=""
+            >
+              <div
+                class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--enclosed v-text-field--outlined"
+              >
+                <div
+                  class="v-input__control"
+                >
+                  <div
+                    class="v-input__slot"
+                    style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                  >
+                    <fieldset
+                      aria-hidden="true"
+                    >
+                      <legend
+                        style="width: 0px;"
+                      >
+                        <span
+                          class="notranslate"
+                        >
+                          ​
+                        </span>
+                      </legend>
+                    </fieldset>
+                    <div
+                      class="v-text-field__slot"
+                    >
+                      <input
+                        type="time"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="v-text-field__details"
+                  >
+                    <div
+                      class="v-messages theme--light"
+                    >
+                      <transition-group-stub
+                        class="v-messages__wrapper"
+                        name="message-transition"
+                        tag="div"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </z-flex-stub>
+        </z-form-card-item-set-stub>
+        <z-form-card-item-set-stub
+          icon="M16 17V19H2V17S2 13 9 13 16 17 16 17M12.5 7.5A3.5 3.5 0 1 0 9 11A3.5 3.5 0 0 0 12.5 7.5M15.94 13A5.32 5.32 0 0 1 18 17V19H22V17S22 13.37 15.94 13M15 4A3.39 3.39 0 0 0 13.07 4.59A5 5 0 0 1 13.07 10.41A3.39 3.39 0 0 0 15 11A3.5 3.5 0 0 0 15 4Z"
+          label=""
+        >
+          <div
+            class="root"
+            data-headcount=""
+            data-z-form-card-item=""
+          >
+            <div
+              class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--enclosed v-text-field--outlined v-select"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  aria-expanded="false"
+                  aria-haspopup="listbox"
+                  class="v-input__slot"
+                  role="button"
+                  style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                >
+                  <fieldset
+                    aria-hidden="true"
+                  >
+                    <legend
+                      style="width: 0px;"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                  <div
+                    class="v-select__slot"
+                  >
+                    <label
+                      class="v-label v-label--active theme--light"
+                      style="left: 0px; position: absolute;"
+                    >
+                      提供人数 *
+                    </label>
+                    <div
+                      class="v-select__selections"
+                    >
+                      <div
+                        class="v-select__selection v-select__selection--comma"
+                      >
+                        1
+                      </div>
+                      <input
+                        aria-readonly="false"
+                        autocomplete="off"
+                        readonly="readonly"
+                        type="text"
+                      />
+                    </div>
+                    <div
+                      class="v-text-field__suffix"
+                    >
+                      人
+                    </div>
+                    <div
+                      class="v-input__append-inner"
+                    >
+                      <div
+                        class="v-input__icon v-input__icon--append"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="v-icon notranslate mdi mdi-menu-down theme--light"
+                        />
+                      </div>
+                    </div>
+                    <input
+                      type="hidden"
+                      value="1"
+                    />
+                  </div>
+                  <div
+                    class="v-menu"
+                  >
+                    <!---->
+                  </div>
+                </div>
+                <div
+                  class="v-text-field__details"
+                >
+                  <div
+                    class="v-messages theme--light"
+                  >
+                    <transition-group-stub
+                      class="v-messages__wrapper"
+                      name="message-transition"
+                      tag="div"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </z-form-card-item-set-stub>
+        <!---->
+        <z-form-card-item-set-stub
+          icon="M21,6V8H3V6H21M3,18H12V16H3V18M3,13H21V11H3V13Z"
+          label=""
+        >
+          <div
+            class="root"
+            data-note=""
+            data-z-form-card-item=""
+          >
+            <div
+              class="v-input v-textarea v-textarea--auto-grow v-textarea--no-resize theme--light v-text-field v-text-field--enclosed v-text-field--outlined"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  class="v-input__slot"
+                  style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                >
+                  <fieldset
+                    aria-hidden="true"
+                  >
+                    <legend
+                      style="width: 0px;"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                  <div
+                    class="v-text-field__slot"
+                  >
+                    <label
+                      class="v-label theme--light"
+                      style="left: 0px; position: absolute;"
+                    >
+                      備考
+                    </label>
+                    <textarea
+                      rows="3"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="v-text-field__details"
+                >
+                  <div
+                    class="v-messages theme--light"
+                  >
+                    <transition-group-stub
+                      class="v-messages__wrapper"
+                      name="message-transition"
+                      tag="div"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </z-form-card-item-set-stub>
+        <div
+          class="root"
+          data-z-form-card-item=""
+        >
+          <v-row-stub
+            class="pr-4"
+            justify="center"
+            justifymd="end"
+            nogutters="true"
+            tag="div"
+          >
+            <v-col-stub
+              cols="5"
+              md="3"
+              tag="div"
+            >
+              <a
+                class="v-btn-stub"
+                data-cancel=""
+                text=""
+                width="100%"
+              >
+                キャンセル
+              </a>
+            </v-col-stub>
+            <v-col-stub
+              class="pl-4"
+              cols="5"
+              md="3"
+              tag="div"
+            >
+              <a
+                class="v-btn-stub"
+                color="primary"
+                data-ok=""
+                depressed=""
+                type="submit"
+                width="100%"
+              >
+                編集
+              </a>
+            </v-col-stub>
+          </v-row-stub>
+        </div>
+      </div>
+    </v-card-stub>
+  </form>
+</v-dialog-stub>
+`;

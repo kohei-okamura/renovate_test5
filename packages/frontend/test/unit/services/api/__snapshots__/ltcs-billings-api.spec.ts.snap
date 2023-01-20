@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`api/ltcs-billings-api create should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/ltcs-billings-api file should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/ltcs-billings-api get should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/ltcs-billings-api getIndex should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/ltcs-billings-api updateStatus should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;

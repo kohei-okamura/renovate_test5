@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-dev-mode-only.vue should not render when developer mode is disabled 1`] = `<!---->`;
+
+exports[`z-dev-mode-only.vue should render when developer mode is enabled 1`] = `
+<div>
+  <span
+    data-slot-default=""
+  >
+    開発者モード
+  </span>
+</div>
+`;

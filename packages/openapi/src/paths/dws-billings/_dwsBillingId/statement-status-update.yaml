@@ -1,0 +1,36 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+post:
+  summary: 障害福祉サービス：明細書状態一括更新
+  description: 障害福祉サービス：明細書の状態を一括更新する。
+  parameters:
+    - $ref: '#/components/parameters/dwsBillingId'
+  requestBody:
+    content:
+      application/json:
+        schema:
+          properties:
+            status:
+              description: 障害福祉サービス：請求：状態
+              $ref: '#/components/schemas/DwsBillingStatus'
+            ids:
+              description: 障害福祉サービス：明細書 ID
+              type: array
+              items:
+                $ref: '#/components/schemas/DwsBillingStatementId'
+              minItems: 1
+          required:
+            - status
+            - ids
+  responses:
+    '202':
+      $ref: '#/components/responses/JobCreated'
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+    '404':
+      description: 明細書 ID が一致する障害福祉サービス：明細書が存在しない場合
+  tags:
+    - 障害福祉サービス：請求

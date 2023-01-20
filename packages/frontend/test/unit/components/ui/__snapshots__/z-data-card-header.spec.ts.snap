@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-data-card-header.vue should be rendered correctly 1`] = `
+<div
+  class="d-flex root"
+  data-z-data-card-header=""
+>
+  <div
+    data-slot-default=""
+  />
+</div>
+`;

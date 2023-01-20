@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-page-dialog.vue should be rendered correctly 1`] = `
+<v-dialog-stub
+  closedelay="0"
+  contentclass=""
+  opendelay="0"
+  origin="center center"
+  retainfocus="true"
+  transition="dialog"
+  value="true"
+  width="500"
+>
+  <div
+    class="slot-stub"
+    id="default"
+  />
+</v-dialog-stub>
+`;
+
+exports[`z-page-dialog.vue should close when the falsy value given 1`] = `
+<v-dialog-stub
+  closedelay="0"
+  contentclass=""
+  opendelay="0"
+  origin="center center"
+  retainfocus="true"
+  transition="dialog"
+  value="true"
+  width="500"
+>
+  <div
+    class="slot-stub"
+    id="default"
+  />
+</v-dialog-stub>
+`;
+
+exports[`z-page-dialog.vue should close when the falsy value given 2`] = `
+<v-dialog-stub
+  closedelay="0"
+  contentclass=""
+  opendelay="0"
+  origin="center center"
+  retainfocus="true"
+  transition="dialog"
+  value="true"
+  width="500"
+>
+  <div
+    class="slot-stub"
+    id="default"
+  />
+</v-dialog-stub>
+`;
+
+exports[`z-page-dialog.vue should open after 100ms 1`] = `
+<v-dialog-stub
+  closedelay="0"
+  contentclass=""
+  opendelay="0"
+  origin="center center"
+  retainfocus="true"
+  transition="dialog"
+  value="true"
+  width="500"
+>
+  <div
+    class="slot-stub"
+    id="default"
+  />
+</v-dialog-stub>
+`;

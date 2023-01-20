@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/users/_id/ltcs-projects/_projectId.vue should be rendered correctly 1`] = `<nuxt-child-stub />`;

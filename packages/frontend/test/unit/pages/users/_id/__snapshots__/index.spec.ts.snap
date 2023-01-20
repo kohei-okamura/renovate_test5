@@ -1,0 +1,300 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/users/_id/index.vue FAB (speed dial) should be rendered when session auth is system admin 1`] = `
+<z-fab-speed-dial-stub
+  data-fab=""
+  icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+>
+  <z-fab-speed-dial-button-stub
+    color="secondary"
+    icon="M3 6V8H14V6H3M3 10V12H14V10H3M20 10.1C19.9 10.1 19.7 10.2 19.6 10.3L18.6 11.3L20.7 13.4L21.7 12.4C21.9 12.2 21.9 11.8 21.7 11.6L20.4 10.3C20.3 10.2 20.2 10.1 20 10.1M18.1 11.9L12 17.9V20H14.1L20.2 13.9L18.1 11.9M3 14V16H10V14H3Z"
+    nuxt=""
+    to="/users/1/edit"
+  >
+    <span>
+      基本情報を編集
+    </span>
+  </z-fab-speed-dial-button-stub>
+  <z-fab-speed-dial-button-stub
+    color="secondary"
+    icon="M6.5,10H4.5V17H6.5V10M12.5,10H10.5V17H12.5V10M21,19H2V21H21V19M18.5,10H16.5V17H18.5V10M11.5,3.26L16.71,6H6.29L11.5,3.26M11.5,1L2,6V8H21V6L11.5,1Z"
+    nuxt=""
+    to="/users/1/bank-account/edit"
+  >
+    <span>
+      銀行口座情報を編集
+    </span>
+  </z-fab-speed-dial-button-stub>
+</z-fab-speed-dial-stub>
+`;
+
+exports[`pages/users/_id/index.vue FAB (speed dial) should be rendered when the staff has permissions: [ 'users/bank-account/update' ] 1`] = `
+<z-fab-speed-dial-stub
+  data-fab=""
+  icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+>
+  <!---->
+  <z-fab-speed-dial-button-stub
+    color="secondary"
+    icon="M6.5,10H4.5V17H6.5V10M12.5,10H10.5V17H12.5V10M21,19H2V21H21V19M18.5,10H16.5V17H18.5V10M11.5,3.26L16.71,6H6.29L11.5,3.26M11.5,1L2,6V8H21V6L11.5,1Z"
+    nuxt=""
+    to="/users/1/bank-account/edit"
+  >
+    <span>
+      銀行口座情報を編集
+    </span>
+  </z-fab-speed-dial-button-stub>
+</z-fab-speed-dial-stub>
+`;
+
+exports[`pages/users/_id/index.vue FAB (speed dial) should be rendered when the staff has permissions: [ 'users/update' ] 1`] = `
+<z-fab-speed-dial-stub
+  data-fab=""
+  icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+>
+  <z-fab-speed-dial-button-stub
+    color="secondary"
+    icon="M3 6V8H14V6H3M3 10V12H14V10H3M20 10.1C19.9 10.1 19.7 10.2 19.6 10.3L18.6 11.3L20.7 13.4L21.7 12.4C21.9 12.2 21.9 11.8 21.7 11.6L20.4 10.3C20.3 10.2 20.2 10.1 20 10.1M18.1 11.9L12 17.9V20H14.1L20.2 13.9L18.1 11.9M3 14V16H10V14H3Z"
+    nuxt=""
+    to="/users/1/edit"
+  >
+    <span>
+      基本情報を編集
+    </span>
+  </z-fab-speed-dial-button-stub>
+  <!---->
+</z-fab-speed-dial-stub>
+`;
+
+exports[`pages/users/_id/index.vue FAB (speed dial) should be rendered when the staff has permissions: [ 'users/update', 'users/bank-account/update' ] 1`] = `
+<z-fab-speed-dial-stub
+  data-fab=""
+  icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+>
+  <z-fab-speed-dial-button-stub
+    color="secondary"
+    icon="M3 6V8H14V6H3M3 10V12H14V10H3M20 10.1C19.9 10.1 19.7 10.2 19.6 10.3L18.6 11.3L20.7 13.4L21.7 12.4C21.9 12.2 21.9 11.8 21.7 11.6L20.4 10.3C20.3 10.2 20.2 10.1 20 10.1M18.1 11.9L12 17.9V20H14.1L20.2 13.9L18.1 11.9M3 14V16H10V14H3Z"
+    nuxt=""
+    to="/users/1/edit"
+  >
+    <span>
+      基本情報を編集
+    </span>
+  </z-fab-speed-dial-button-stub>
+  <z-fab-speed-dial-button-stub
+    color="secondary"
+    icon="M6.5,10H4.5V17H6.5V10M12.5,10H10.5V17H12.5V10M21,19H2V21H21V19M18.5,10H16.5V17H18.5V10M11.5,3.26L16.71,6H6.29L11.5,3.26M11.5,1L2,6V8H21V6L11.5,1Z"
+    nuxt=""
+    to="/users/1/bank-account/edit"
+  >
+    <span>
+      銀行口座情報を編集
+    </span>
+  </z-fab-speed-dial-button-stub>
+</z-fab-speed-dial-stub>
+`;
+
+exports[`pages/users/_id/index.vue should be rendered correctly 1`] = `
+<div
+  breadcrumbs="[object Object],[object Object]"
+  class="z-page-stub"
+  compact="compact"
+  tabs="[object Object],[object Object],[object Object],[object Object]"
+>
+  <div
+    class="z-page-stub-slot-tabs"
+  />
+  <div
+    class="z-page-stub-slot-title"
+  />
+  <z-tabs-items-stub
+    class="transparent"
+    value="user"
+  >
+    <v-tab-item-stub
+      value="user"
+    >
+      <div
+        class="z-data-card-stub"
+        title="基本情報"
+      >
+        <div
+          class="z-data-card-stub-slot-actions"
+        />
+        <z-data-card-item-stub
+          icon="M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2C6.47,2 2,6.47 2,12C2,17.53 6.47,22 12,22C17.53,22 22,17.53 22,12C22,6.47 17.53,2 12,2M14.59,8L12,10.59L9.41,8L8,9.41L10.59,12L8,14.59L9.41,16L12,13.41L14.59,16L16,14.59L13.41,12L16,9.41L14.59,8Z"
+          label="状態"
+          value="利用終了"
+        />
+        <z-data-card-item-stub
+          icon="M10 4a2 2 0 104 0 2 2 0 10-4 0M19 13v-2c-1.54.02-3.09-.75-4.07-1.83l-1.29-1.43c-.17-.19-.38-.34-.61-.45-.01 0-.01-.01-.02-.01H13c-.35-.2-.75-.3-1.19-.26C10.76 7.11 10 8.04 10 9.09V15c0 1.1.9 2 2 2h5v5h2v-5.5c0-1.1-.9-2-2-2h-3v-3.45c1.29 1.07 3.25 1.94 5 1.95zm-6.17 5c-.41 1.16-1.52 2-2.83 2-1.66 0-3-1.34-3-3 0-1.31.84-2.41 2-2.83V12.1a5 5 0 105.9 5.9h-2.07z"
+          label="利用者名"
+          value="新井 恵梨香"
+        />
+        <z-data-card-item-stub
+          label="利用者名：フリガナ"
+          value="アライ エリカ"
+        />
+        <z-data-card-item-stub
+          icon="M7.5,2A2,2 0 0,1 9.5,4A2,2 0 0,1 7.5,6A2,2 0 0,1 5.5,4A2,2 0 0,1 7.5,2M6,7H9A2,2 0 0,1 11,9V14.5H9.5V22H5.5V14.5H4V9A2,2 0 0,1 6,7M16.5,2A2,2 0 0,1 18.5,4A2,2 0 0,1 16.5,6A2,2 0 0,1 14.5,4A2,2 0 0,1 16.5,2M15,22V16H12L14.59,8.41C14.84,7.59 15.6,7 16.5,7C17.4,7 18.16,7.59 18.41,8.41L21,16H18V22H15Z"
+          label="性別"
+          value="女性"
+        />
+        <z-data-card-item-stub
+          icon="M12,6C13.11,6 14,5.1 14,4C14,3.62 13.9,3.27 13.71,2.97L12,0L10.29,2.97C10.1,3.27 10,3.62 10,4A2,2 0 0,0 12,6M16.6,16L15.53,14.92L14.45,16C13.15,17.29 10.87,17.3 9.56,16L8.5,14.92L7.4,16C6.75,16.64 5.88,17 4.96,17C4.23,17 3.56,16.77 3,16.39V21A1,1 0 0,0 4,22H20A1,1 0 0,0 21,21V16.39C20.44,16.77 19.77,17 19.04,17C18.12,17 17.25,16.64 16.6,16M18,9H13V7H11V9H6A3,3 0 0,0 3,12V13.54C3,14.62 3.88,15.5 4.96,15.5C5.5,15.5 6,15.3 6.34,14.93L8.5,12.8L10.61,14.93C11.35,15.67 12.64,15.67 13.38,14.93L15.5,12.8L17.65,14.93C18,15.3 18.5,15.5 19.03,15.5C20.11,15.5 21,14.62 21,13.54V12A3,3 0 0,0 18,9Z"
+          label="生年月日"
+        >
+          <z-era-date-stub
+            alternative="-"
+            value="1974-11-01"
+          />
+        </z-data-card-item-stub>
+        <z-data-card-item-stub
+          icon="M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,2A7,7 0 0,1 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9C7,10 7,12 12,18.71C17,12 17,10 17,9A5,5 0 0,0 12,4Z"
+          label="住所"
+        >
+          〒545-0034
+          <br />
+          大阪府大阪市阿倍野区阿倍野元町2-6-12
+          <!---->
+        </z-data-card-item-stub>
+        <z-data-card-item-stub
+          icon="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z"
+          label="電話番号"
+        >
+          <div
+            class="mb-1"
+          >
+            0882-51-8663（弁護士・江口 順子）
+          </div>
+          <div
+            class="mb-1"
+          >
+            0284-91-2743（本人）
+          </div>
+        </z-data-card-item-stub>
+        <div
+          class="z-data-card-stub-slot-header"
+        />
+      </div>
+      <z-billing-destination-card-stub
+        billingdestination="[object Object]"
+        data-billing-destination-card=""
+        title="請求先"
+      />
+      <z-bank-account-card-stub
+        bankaccountholder="トガシ アキラ"
+        bankaccountnumber="5693332"
+        bankaccounttype="1"
+        bankbranchcode="106"
+        bankbranchname="あいいろ"
+        bankcode="0039"
+        bankname="じぶん"
+        createdat="2016-03-13T23:44:19+0900"
+        data-bank-account-card=""
+        id="27"
+        title="銀行口座"
+        updatedat="1986-10-30T17:27:07+0900"
+      />
+      <z-system-meta-card-stub
+        createdat="1971-10-22T10:55:20+0900"
+        id="1"
+        updatedat="1996-02-23T21:01:39+0900"
+      />
+    </v-tab-item-stub>
+    <v-tab-item-stub
+      value="dws"
+    >
+      <z-dws-contracts-card-stub
+        data-dws-contracts-card=""
+        items="[object Object],[object Object]"
+        user="[object Object]"
+      />
+      <z-dws-certifications-card-stub
+        data-dws-certifications-card=""
+        items="[object Object],[object Object],[object Object],[object Object],[object Object]"
+        user="[object Object]"
+      />
+      <z-dws-subsidies-card-stub
+        data-dws-subsidies-card=""
+        items="[object Object],[object Object],[object Object],[object Object],[object Object]"
+        user="[object Object]"
+      />
+      <z-user-dws-calc-specs-card-stub
+        data-user-dws-calc-specs-card=""
+        items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+        user="[object Object]"
+      />
+      <z-dws-projects-card-stub
+        contracts="[object Object],[object Object]"
+        data-dws-projects-card=""
+        items="[object Object],[object Object]"
+        user="[object Object]"
+      />
+    </v-tab-item-stub>
+    <v-tab-item-stub
+      value="ltcs"
+    >
+      <z-ltcs-contracts-card-stub
+        data-ltcs-contracts-card=""
+        items="[object Object],[object Object],[object Object],[object Object]"
+        user="[object Object]"
+      />
+      <z-ltcs-ins-cards-card-stub
+        data-ltcs-ins-cards-card=""
+        items="[object Object],[object Object],[object Object],[object Object],[object Object]"
+        user="[object Object]"
+      />
+      <z-ltcs-subsidies-card-stub
+        data-ltcs-subsidies-card=""
+        items="[object Object],[object Object],[object Object],[object Object],[object Object]"
+        user="[object Object]"
+      />
+      <z-user-ltcs-calc-specs-card-stub
+        data-user-ltcs-calc-specs-card=""
+        items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+        user="[object Object]"
+      />
+      <z-ltcs-projects-card-stub
+        contracts="[object Object],[object Object],[object Object],[object Object]"
+        data-ltcs-projects-card=""
+        items="[object Object],[object Object],[object Object],[object Object]"
+        user="[object Object]"
+      />
+    </v-tab-item-stub>
+    <v-tab-item-stub
+      value="billings"
+    >
+      <!---->
+      <z-user-billings-view-stub
+        userid="1"
+      />
+    </v-tab-item-stub>
+  </z-tabs-items-stub>
+  <z-fab-speed-dial-stub
+    data-fab=""
+    icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+  >
+    <z-fab-speed-dial-button-stub
+      color="secondary"
+      icon="M3 6V8H14V6H3M3 10V12H14V10H3M20 10.1C19.9 10.1 19.7 10.2 19.6 10.3L18.6 11.3L20.7 13.4L21.7 12.4C21.9 12.2 21.9 11.8 21.7 11.6L20.4 10.3C20.3 10.2 20.2 10.1 20 10.1M18.1 11.9L12 17.9V20H14.1L20.2 13.9L18.1 11.9M3 14V16H10V14H3Z"
+      nuxt=""
+      to="/users/1/edit"
+    >
+      <span>
+        基本情報を編集
+      </span>
+    </z-fab-speed-dial-button-stub>
+    <z-fab-speed-dial-button-stub
+      color="secondary"
+      icon="M6.5,10H4.5V17H6.5V10M12.5,10H10.5V17H12.5V10M21,19H2V21H21V19M18.5,10H16.5V17H18.5V10M11.5,3.26L16.71,6H6.29L11.5,3.26M11.5,1L2,6V8H21V6L11.5,1Z"
+      nuxt=""
+      to="/users/1/bank-account/edit"
+    >
+      <span>
+        銀行口座情報を編集
+      </span>
+    </z-fab-speed-dial-button-stub>
+  </z-fab-speed-dial-stub>
+</div>
+`;

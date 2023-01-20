@@ -1,0 +1,84 @@
+-
+    name: 介護給付費等請求書・明細書_事テス_202010.csv
+    path: attachments/xyz.csv
+    token: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    mimeType: text/csv
+    createdAt: '2022-05-12T18:13:51+09:00'
+    downloadedAt: null
+-
+    name: 介護給付費等請求書・明細書_事テス_202010.pdf
+    path: attachments/xyz.csv
+    token: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    mimeType: application/pdf
+    createdAt: '2022-05-12T18:13:51+09:00'
+    downloadedAt: null
+-
+    name: サービス提供実績記録票_事テス_202010.csv
+    path: attachments/xyz.csv
+    token: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    mimeType: text/csv
+    createdAt: '2022-05-12T18:13:51+09:00'
+    downloadedAt: null
+-
+    name: サービス提供実績記録票_事テス_202010.pdf
+    path: attachments/xyz.csv
+    token: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    mimeType: application/pdf
+    createdAt: '2022-05-12T18:13:51+09:00'
+    downloadedAt: null
+-
+    name: 利用者負担上限額管理結果票_事テス_202010.csv
+    path: attachments/xyz.csv
+    token: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    mimeType: text/csv
+    createdAt: '2022-05-12T18:13:51+09:00'
+    downloadedAt: null
+-
+    name: 利用者負担上限額管理結果票_事テス_202010.pdf
+    path: attachments/xyz.csv
+    token: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    mimeType: application/pdf
+    createdAt: '2022-05-12T18:13:51+09:00'
+    downloadedAt: null
+-
+    name: 介護給付費等請求書・明細書_事テス_202011.csv
+    path: attachments/xyz.csv
+    token: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    mimeType: text/csv
+    createdAt: '2022-05-12T18:13:51+09:00'
+    downloadedAt: null
+-
+    name: 介護給付費等請求書・明細書_事テス_202011.pdf
+    path: attachments/xyz.csv
+    token: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    mimeType: application/pdf
+    createdAt: '2022-05-12T18:13:51+09:00'
+    downloadedAt: null
+-
+    name: サービス提供実績記録票_事テス_202011.csv
+    path: attachments/xyz.csv
+    token: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    mimeType: text/csv
+    createdAt: '2022-05-12T18:13:51+09:00'
+    downloadedAt: null
+-
+    name: サービス提供実績記録票_事テス_202011.pdf
+    path: attachments/xyz.csv
+    token: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    mimeType: application/pdf
+    createdAt: '2022-05-12T18:13:51+09:00'
+    downloadedAt: null
+-
+    name: 利用者負担上限額管理結果票_事テス_202011.csv
+    path: attachments/xyz.csv
+    token: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    mimeType: text/csv
+    createdAt: '2022-05-12T18:13:51+09:00'
+    downloadedAt: null
+-
+    name: 利用者負担上限額管理結果票_事テス_202011.pdf
+    path: attachments/xyz.csv
+    token: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    mimeType: application/pdf
+    createdAt: '2022-05-12T18:13:51+09:00'
+    downloadedAt: null

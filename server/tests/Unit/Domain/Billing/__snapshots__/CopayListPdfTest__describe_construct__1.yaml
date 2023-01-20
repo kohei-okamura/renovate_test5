@@ -1,0 +1,17 @@
+issuedOn: 2020年10月10日
+copayCoordinationOfficeName: 上限管理事業所のなまえ
+officeCode: '1234567890'
+officeAddr:
+    postcode: 164-0012
+    prefecture: 13
+    city: 中野区
+    street: 本町1-32-2
+    apartment: ハーモニータワー18F
+officeTel: 03-1234-5678
+officeName: 事業所のなまえ
+providedIn:
+    japaneseCalender: '20'
+    year: '20'
+    month: '10'
+    day: '10'
+items: {  }

@@ -1,0 +1,35 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+post:
+  summary: 勤務シフト雛形作成
+  description: 勤務シフト雛形ファイルの作成をリクエストする。
+  requestBody:
+    content:
+      application/json:
+        schema:
+          properties:
+            officeId:
+              $ref: '#/components/schemas/OfficeId'
+            range:
+              allOf:
+                - description: 対象期間
+                - $ref: '#/components/schemas/DateRange'
+            isCopy:
+              description: コピーフラグ
+              type: boolean
+            source:
+              allOf:
+                - description: コピー元期間
+                - $ref: '#/components/schemas/DateRange'
+  responses:
+    '202':
+      $ref: '#/components/responses/JobCreated'
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+    '404':
+      description: 事業所 ID に対応する事業所が存在しない場合
+  tags:
+    - 勤務シフト

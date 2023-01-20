@@ -1,0 +1,58 @@
+{
+    "id": null,
+    "dwsBillingId": 3,
+    "dwsBillingBundleId": 1,
+    "user": {
+        "userId": 1,
+        "dwsCertificationId": 10,
+        "dwsNumber": "0123456789",
+        "name": "\u30ca\u30de\u30a8",
+        "childName": "\u30aa\u30ca\u30de\u30a8",
+        "copayLimit": 10000
+    },
+    "format": "0101",
+    "plan": [
+        {
+            "11": {
+                "1": 155000
+            }
+        }
+    ],
+    "result": [
+        {
+            "11": {
+                "1": 155000
+            }
+        }
+    ],
+    "emergencyCount": null,
+    "firstTimeCount": 150,
+    "welfareSpecialistCooperationCount": 150,
+    "behavioralDisorderSupportCooperationCount": 150,
+    "movingCareSupportCount": 150,
+    "items": [
+        {
+            "id": null,
+            "dwsBillingId": null,
+            "dwsBillingBundleId": null,
+            "user": null,
+            "format": null,
+            "plan": null,
+            "result": null,
+            "emergencyCount": null,
+            "firstTimeCount": null,
+            "welfareSpecialistCooperationCount": null,
+            "behavioralDisorderSupportCooperationCount": null,
+            "movingCareSupportCount": null,
+            "items": null,
+            "status": null,
+            "fixedAt": null,
+            "createdAt": null,
+            "updatedAt": null
+        }
+    ],
+    "status": 10,
+    "fixedAt": null,
+    "createdAt": null,
+    "updatedAt": null
+}

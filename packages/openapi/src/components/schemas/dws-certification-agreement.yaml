@@ -1,0 +1,23 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 障害福祉サービス受給者証：訪問系サービス事業者記入欄
+type: object
+properties:
+  indexNumber:
+    description: 番号
+    type: number
+  officeId:
+    description: 事業所ID
+    type: object
+  dwsCertificationAgreementType:
+    $ref: '#/components/schemas/DwsCertificationAgreementType'
+  paymentAmount:
+    description: 契約支給量（分単位）
+    type: number
+  agreedOn:
+    $ref: '#/components/schemas/DateLike'
+  expiredOn:
+    $ref: '#/components/schemas/DateLike'

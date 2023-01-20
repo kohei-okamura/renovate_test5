@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-overflow-shadow.vue should be rendered correctly 1`] = `
+<div
+  class="root"
+  data-z-overflow-shadow=""
+>
+  <div
+    class="scrollContainer"
+  >
+    <span />
+    <div
+      class="flex-fill"
+    />
+    <span />
+  </div>
+</div>
+`;

@@ -1,0 +1,75 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+get:
+  summary: スタッフ取得
+  description: スタッフの詳細を取得する。
+  parameters:
+    - $ref: '#/components/parameters/staffId'
+  responses:
+    '200':
+      description: 正常に処理が行われた場合
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/StaffResponse'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+    '404':
+      $ref: '#/components/responses/StaffNotFound'
+  tags:
+    - スタッフ
+put:
+  summary: スタッフ更新
+  description: スタッフ情報を更新する。
+  parameters:
+    - $ref: '#/components/parameters/staffId'
+  requestBody:
+    content:
+      application/json:
+        schema:
+          allOf:
+            - $ref: '#/components/schemas/StaffForm'
+            - type: object
+              properties:
+                employeeNumber:
+                  description: 社員番号
+                  type: string
+                email:
+                  description: メールアドレス
+                  type: string
+                officeIds:
+                  description: 事業所 ID
+                  type: array
+                  items:
+                    $ref: '#/components/schemas/OfficeId'
+                officeGroupIds:
+                  description: 事業所グループ ID
+                  type: array
+                  items:
+                    $ref: '#/components/schemas/OfficeGroupId'
+                roleIds:
+                  description: ロール ID
+                  type: array
+                  items:
+                    $ref: '#/components/schemas/RoleId'
+              required:
+                - email
+                - officeIds
+                - officeGroupIds
+                - roleIds
+  responses:
+    '200':
+      description: 正常に処理が行われた場合
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/StaffResponse'
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+    '404':
+      description: スタッフ ID に対応するスタッフが存在しない場合
+  tags:
+    - スタッフ

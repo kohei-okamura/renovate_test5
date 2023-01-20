@@ -1,0 +1,38 @@
+{
+    "id": 1,
+    "name": {
+        "displayName": "\u571f\u5c4b \u82b1\u5b50",
+        "phoneticDisplayName": "\u30c4\u30c1\u30e4 \u30cf\u30ca\u30b3",
+        "familyName": "\u571f\u5c4b",
+        "givenName": "\u82b1\u5b50",
+        "phoneticFamilyName": "\u30c4\u30c1\u30e4",
+        "phoneticGivenName": "\u30cf\u30ca\u30b3"
+    },
+    "sex": 1,
+    "birthday": "2019-05-15T00:00:00+0900",
+    "addr": {
+        "postcode": "164-0011",
+        "prefecture": 13,
+        "city": "\u4e2d\u91ce\u533a",
+        "street": "\u4e2d\u592e1-35-6",
+        "apartment": "\u30ec\u30c3\u30c1\u30d5\u30a3\u30fc\u30eb\u30c9\u4e2d\u91ce\u5742\u4e0a\u30d3\u30eb6F"
+    },
+    "location": {
+        "lat": null,
+        "lng": null
+    },
+    "contacts": [],
+    "bankAccountId": 1,
+    "billingDestination": {
+        "destination": null,
+        "paymentMethod": null,
+        "contractNumber": null,
+        "corporationName": null,
+        "agentName": null,
+        "addr": null,
+        "tel": null
+    },
+    "isEnabled": true,
+    "createdAt": "2019-05-15T00:00:00+0900",
+    "updatedAt": "2019-05-15T00:00:00+0900"
+}

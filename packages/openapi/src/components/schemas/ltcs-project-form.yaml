@@ -1,0 +1,45 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+description: 介護保険サービス：計画登録／更新フォーム
+type: object
+properties:
+  officeId:
+    $ref: '#/components/schemas/OfficeId'
+  staffId:
+    $ref: '#/components/schemas/StaffId'
+  writtenOn:
+    $ref: '#/components/schemas/DateLike'
+  effectivatedOn:
+    $ref: '#/components/schemas/DateLike'
+  requestFromUser:
+    description: ご本人の希望
+    type: string
+  requestFromFamily:
+    description: ご家族の希望
+    type: string
+  problem:
+    description: 解決すべき課題
+    type: string
+  longTermObjective:
+    description: 長期目標
+    $ref: '#/components/schemas/Objective'
+  shortTermObjective:
+    description: 短期目標
+    $ref: '#/components/schemas/Objective'
+  programs:
+    description: 週間サービス計画
+    type: array
+    items:
+      $ref: '#/components/schemas/LtcsProjectProgram'
+required:
+  - officeId
+  - staffId
+  - writtenOn
+  - effectivatedOn
+  - requestFromUser
+  - requestFromFamily
+  - problem
+  - longTermObjective
+  - shortTermObjective
+  - programs

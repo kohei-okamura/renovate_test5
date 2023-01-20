@@ -1,0 +1,5 @@
+{
+  "extends": ["config:base", "group:all", ":preserveSemverRanges"],
+  "timezone": "Asia/Tokyo",
+  "ignorePaths": ["package.json", "packages", ".github"]
+}

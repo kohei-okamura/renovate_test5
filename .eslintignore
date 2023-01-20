@@ -1,0 +1,15 @@
+**/node_modules
+sw.*
+
+/node_modules
+/packages/aws/**/*.js
+/packages/aws/cdk.out
+/packages/docker/app/server
+/packages/docker/web-prod/public
+/packages/docker/web-staging/public
+/packages/frontend/.nuxt
+/packages/frontend/public
+/packages/service-code-api/cdk.out
+/packages/service-code-api/**/*.js
+/server
+/vendor

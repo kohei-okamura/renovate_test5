@@ -1,0 +1,1332 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-date-field.vue should be rendered correctly when a data-xxx attribute is specified 1`] = `
+<div
+  class="z-date-field"
+  data-some-awesome-attribute=""
+>
+  <z-text-field-stub
+    backgroundcolor="#f1f6fa"
+    clearicon="$clear"
+    dense="true"
+    errorcount="1"
+    errormessages=""
+    loaderheight="2"
+    messages=""
+    outlined="true"
+    readonly="true"
+    rules=""
+    successmessages=""
+    type="text"
+  />
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    data-z-date-field-dialog=""
+    opendelay="0"
+    origin="center center"
+    retainfocus="true"
+    transition="dialog-transition"
+    width="290px"
+  >
+    <z-date-picker-stub
+      data-z-date-field-picker=""
+      max="2028-05-17"
+      min="1920-01-01"
+      type="date"
+      usejapaneseera="true"
+    >
+      <v-spacer-stub
+        tag="div"
+      />
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-clear=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        クリア
+      </v-btn-stub>
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-cancel=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        キャンセル
+      </v-btn-stub>
+    </z-date-picker-stub>
+  </v-dialog-stub>
+</div>
+`;
+
+exports[`z-date-field.vue should be rendered correctly when no props are specified 1`] = `
+<div
+  class="z-date-field"
+>
+  <z-text-field-stub
+    backgroundcolor="#f1f6fa"
+    clearicon="$clear"
+    dense="true"
+    errorcount="1"
+    errormessages=""
+    loaderheight="2"
+    messages=""
+    outlined="true"
+    readonly="true"
+    rules=""
+    successmessages=""
+    type="text"
+  />
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    data-z-date-field-dialog=""
+    opendelay="0"
+    origin="center center"
+    retainfocus="true"
+    transition="dialog-transition"
+    width="290px"
+  >
+    <z-date-picker-stub
+      data-z-date-field-picker=""
+      max="2028-05-17"
+      min="1920-01-01"
+      type="date"
+      usejapaneseera="true"
+    >
+      <v-spacer-stub
+        tag="div"
+      />
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-clear=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        クリア
+      </v-btn-stub>
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-cancel=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        キャンセル
+      </v-btn-stub>
+    </z-date-picker-stub>
+  </v-dialog-stub>
+</div>
+`;
+
+exports[`z-date-field.vue should be rendered correctly when the "birthday" prop is specified 1`] = `
+<div
+  class="z-date-field z-date-field--birthday"
+>
+  <z-text-field-stub
+    backgroundcolor="#f1f6fa"
+    clearicon="$clear"
+    dense="true"
+    errorcount="1"
+    errormessages=""
+    loaderheight="2"
+    messages=""
+    outlined="true"
+    readonly="true"
+    rules=""
+    successmessages=""
+    type="text"
+  />
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    data-z-date-field-dialog=""
+    opendelay="0"
+    origin="center center"
+    retainfocus="true"
+    transition="dialog-transition"
+    width="290px"
+  >
+    <z-date-picker-stub
+      birthday="true"
+      data-z-date-field-picker=""
+      max="2028-05-17"
+      min="1920-01-01"
+      type="date"
+      usejapaneseera="true"
+    >
+      <v-spacer-stub
+        tag="div"
+      />
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-clear=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        クリア
+      </v-btn-stub>
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-cancel=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        キャンセル
+      </v-btn-stub>
+    </z-date-picker-stub>
+  </v-dialog-stub>
+</div>
+`;
+
+exports[`z-date-field.vue should be rendered correctly when the "clearable" prop is specified 1`] = `
+<div
+  class="z-date-field"
+>
+  <z-text-field-stub
+    backgroundcolor="#f1f6fa"
+    clearicon="$clear"
+    dense="true"
+    errorcount="1"
+    errormessages=""
+    loaderheight="2"
+    messages=""
+    outlined="true"
+    readonly="true"
+    rules=""
+    successmessages=""
+    type="text"
+  />
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    data-z-date-field-dialog=""
+    opendelay="0"
+    origin="center center"
+    retainfocus="true"
+    transition="dialog-transition"
+    width="290px"
+  >
+    <z-date-picker-stub
+      data-z-date-field-picker=""
+      max="2028-05-17"
+      min="1920-01-01"
+      type="date"
+      usejapaneseera="true"
+    >
+      <v-spacer-stub
+        tag="div"
+      />
+      <!---->
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-cancel=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        キャンセル
+      </v-btn-stub>
+    </z-date-picker-stub>
+  </v-dialog-stub>
+</div>
+`;
+
+exports[`z-date-field.vue should be rendered correctly when the "errorMessages" prop is specified 1`] = `
+<div
+  class="z-date-field"
+>
+  <z-text-field-stub
+    backgroundcolor="#f1f6fa"
+    clearicon="$clear"
+    dense="true"
+    errorcount="1"
+    errormessages="入力してください。,エラーですよ。"
+    loaderheight="2"
+    messages=""
+    outlined="true"
+    readonly="true"
+    rules=""
+    successmessages=""
+    type="text"
+  />
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    data-z-date-field-dialog=""
+    opendelay="0"
+    origin="center center"
+    retainfocus="true"
+    transition="dialog-transition"
+    width="290px"
+  >
+    <z-date-picker-stub
+      data-z-date-field-picker=""
+      max="2028-05-17"
+      min="1920-01-01"
+      type="date"
+      usejapaneseera="true"
+    >
+      <v-spacer-stub
+        tag="div"
+      />
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-clear=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        クリア
+      </v-btn-stub>
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-cancel=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        キャンセル
+      </v-btn-stub>
+    </z-date-picker-stub>
+  </v-dialog-stub>
+</div>
+`;
+
+exports[`z-date-field.vue should be rendered correctly when the "hide-details" attribute is specified 1`] = `
+<div
+  class="z-date-field"
+  hide-details="true"
+>
+  <z-text-field-stub
+    backgroundcolor="#f1f6fa"
+    clearicon="$clear"
+    dense="true"
+    errorcount="1"
+    errormessages=""
+    hidedetails="true"
+    loaderheight="2"
+    messages=""
+    outlined="true"
+    readonly="true"
+    rules=""
+    successmessages=""
+    type="text"
+  />
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    data-z-date-field-dialog=""
+    opendelay="0"
+    origin="center center"
+    retainfocus="true"
+    transition="dialog-transition"
+    width="290px"
+  >
+    <z-date-picker-stub
+      data-z-date-field-picker=""
+      max="2028-05-17"
+      min="1920-01-01"
+      type="date"
+      usejapaneseera="true"
+    >
+      <v-spacer-stub
+        tag="div"
+      />
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-clear=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        クリア
+      </v-btn-stub>
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-cancel=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        キャンセル
+      </v-btn-stub>
+    </z-date-picker-stub>
+  </v-dialog-stub>
+</div>
+`;
+
+exports[`z-date-field.vue should be rendered correctly when the "label" prop is specified 1`] = `
+<div
+  class="z-date-field"
+>
+  <z-text-field-stub
+    backgroundcolor="#f1f6fa"
+    clearicon="$clear"
+    dense="true"
+    errorcount="1"
+    errormessages=""
+    label="生年月日"
+    loaderheight="2"
+    messages=""
+    outlined="true"
+    readonly="true"
+    rules=""
+    successmessages=""
+    type="text"
+  />
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    data-z-date-field-dialog=""
+    opendelay="0"
+    origin="center center"
+    retainfocus="true"
+    transition="dialog-transition"
+    width="290px"
+  >
+    <z-date-picker-stub
+      data-z-date-field-picker=""
+      max="2028-05-17"
+      min="1920-01-01"
+      type="date"
+      usejapaneseera="true"
+    >
+      <v-spacer-stub
+        tag="div"
+      />
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-clear=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        クリア
+      </v-btn-stub>
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-cancel=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        キャンセル
+      </v-btn-stub>
+    </z-date-picker-stub>
+  </v-dialog-stub>
+</div>
+`;
+
+exports[`z-date-field.vue should be rendered correctly when the "max" attribute is specified 1`] = `
+<div
+  class="z-date-field"
+  max="2021-04-20"
+>
+  <z-text-field-stub
+    backgroundcolor="#f1f6fa"
+    clearicon="$clear"
+    dense="true"
+    errorcount="1"
+    errormessages=""
+    loaderheight="2"
+    messages=""
+    outlined="true"
+    readonly="true"
+    rules=""
+    successmessages=""
+    type="text"
+  />
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    data-z-date-field-dialog=""
+    opendelay="0"
+    origin="center center"
+    retainfocus="true"
+    transition="dialog-transition"
+    width="290px"
+  >
+    <z-date-picker-stub
+      data-z-date-field-picker=""
+      max="2021-04-20"
+      min="1920-01-01"
+      type="date"
+      usejapaneseera="true"
+    >
+      <v-spacer-stub
+        tag="div"
+      />
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-clear=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        クリア
+      </v-btn-stub>
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-cancel=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        キャンセル
+      </v-btn-stub>
+    </z-date-picker-stub>
+  </v-dialog-stub>
+</div>
+`;
+
+exports[`z-date-field.vue should be rendered correctly when the "min" attribute is specified 1`] = `
+<div
+  class="z-date-field"
+  min="1995-06-04"
+>
+  <z-text-field-stub
+    backgroundcolor="#f1f6fa"
+    clearicon="$clear"
+    dense="true"
+    errorcount="1"
+    errormessages=""
+    loaderheight="2"
+    messages=""
+    outlined="true"
+    readonly="true"
+    rules=""
+    successmessages=""
+    type="text"
+  />
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    data-z-date-field-dialog=""
+    opendelay="0"
+    origin="center center"
+    retainfocus="true"
+    transition="dialog-transition"
+    width="290px"
+  >
+    <z-date-picker-stub
+      data-z-date-field-picker=""
+      max="2028-05-17"
+      min="1995-06-04"
+      type="date"
+      usejapaneseera="true"
+    >
+      <v-spacer-stub
+        tag="div"
+      />
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-clear=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        クリア
+      </v-btn-stub>
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-cancel=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        キャンセル
+      </v-btn-stub>
+    </z-date-picker-stub>
+  </v-dialog-stub>
+</div>
+`;
+
+exports[`z-date-field.vue should be rendered correctly when the "picker-date" attribute is specified 1`] = `
+<div
+  class="z-date-field"
+  picker-date="2020-05-05"
+>
+  <z-text-field-stub
+    backgroundcolor="#f1f6fa"
+    clearicon="$clear"
+    dense="true"
+    errorcount="1"
+    errormessages=""
+    loaderheight="2"
+    messages=""
+    outlined="true"
+    readonly="true"
+    rules=""
+    successmessages=""
+    type="text"
+  />
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    data-z-date-field-dialog=""
+    opendelay="0"
+    origin="center center"
+    retainfocus="true"
+    transition="dialog-transition"
+    width="290px"
+  >
+    <z-date-picker-stub
+      data-z-date-field-picker=""
+      max="2028-05-17"
+      min="1920-01-01"
+      picker-date="2020-05-05"
+      type="date"
+      usejapaneseera="true"
+    >
+      <v-spacer-stub
+        tag="div"
+      />
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-clear=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        クリア
+      </v-btn-stub>
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-cancel=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        キャンセル
+      </v-btn-stub>
+    </z-date-picker-stub>
+  </v-dialog-stub>
+</div>
+`;
+
+exports[`z-date-field.vue should be rendered correctly when the "prepend-icon" attribute is specified 1`] = `
+<div
+  class="z-date-field"
+  prepend-icon="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z"
+>
+  <z-text-field-stub
+    backgroundcolor="#f1f6fa"
+    clearicon="$clear"
+    dense="true"
+    errorcount="1"
+    errormessages=""
+    loaderheight="2"
+    messages=""
+    outlined="true"
+    prependicon="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z"
+    readonly="true"
+    rules=""
+    successmessages=""
+    type="text"
+  />
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    data-z-date-field-dialog=""
+    opendelay="0"
+    origin="center center"
+    retainfocus="true"
+    transition="dialog-transition"
+    width="290px"
+  >
+    <z-date-picker-stub
+      data-z-date-field-picker=""
+      max="2028-05-17"
+      min="1920-01-01"
+      type="date"
+      usejapaneseera="true"
+    >
+      <v-spacer-stub
+        tag="div"
+      />
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-clear=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        クリア
+      </v-btn-stub>
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-cancel=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        キャンセル
+      </v-btn-stub>
+    </z-date-picker-stub>
+  </v-dialog-stub>
+</div>
+`;
+
+exports[`z-date-field.vue should be rendered correctly when the "type" prop is specified 1`] = `
+<div
+  class="z-date-field"
+>
+  <z-text-field-stub
+    backgroundcolor="#f1f6fa"
+    clearicon="$clear"
+    dense="true"
+    errorcount="1"
+    errormessages=""
+    loaderheight="2"
+    messages=""
+    outlined="true"
+    readonly="true"
+    rules=""
+    successmessages=""
+    type="text"
+  />
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    data-z-date-field-dialog=""
+    opendelay="0"
+    origin="center center"
+    retainfocus="true"
+    transition="dialog-transition"
+    width="290px"
+  >
+    <z-date-picker-stub
+      data-z-date-field-picker=""
+      max="2028-05-17"
+      min="1920-01-01"
+      type="month"
+      usejapaneseera="true"
+    >
+      <v-spacer-stub
+        tag="div"
+      />
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-clear=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        クリア
+      </v-btn-stub>
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-cancel=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        キャンセル
+      </v-btn-stub>
+    </z-date-picker-stub>
+  </v-dialog-stub>
+</div>
+`;
+
+exports[`z-date-field.vue should be rendered correctly when the "useJapaneseEra" and "value" props are specified 1`] = `
+<div
+  class="z-date-field"
+>
+  <z-text-field-stub
+    backgroundcolor="#f1f6fa"
+    clearicon="$clear"
+    dense="true"
+    errorcount="1"
+    errormessages=""
+    loaderheight="2"
+    messages=""
+    outlined="true"
+    readonly="true"
+    rules=""
+    successmessages=""
+    type="text"
+    value="2008年05月17日"
+  />
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    data-z-date-field-dialog=""
+    opendelay="0"
+    origin="center center"
+    retainfocus="true"
+    transition="dialog-transition"
+    width="290px"
+  >
+    <z-date-picker-stub
+      data-z-date-field-picker=""
+      max="2028-05-17"
+      min="1920-01-01"
+      type="date"
+      value="2008-05-17"
+    >
+      <v-spacer-stub
+        tag="div"
+      />
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-clear=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        クリア
+      </v-btn-stub>
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-cancel=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        キャンセル
+      </v-btn-stub>
+    </z-date-picker-stub>
+  </v-dialog-stub>
+</div>
+`;
+
+exports[`z-date-field.vue should be rendered correctly when the "useJapaneseEra" prop is specified 1`] = `
+<div
+  class="z-date-field"
+>
+  <z-text-field-stub
+    backgroundcolor="#f1f6fa"
+    clearicon="$clear"
+    dense="true"
+    errorcount="1"
+    errormessages=""
+    loaderheight="2"
+    messages=""
+    outlined="true"
+    readonly="true"
+    rules=""
+    successmessages=""
+    type="text"
+  />
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    data-z-date-field-dialog=""
+    opendelay="0"
+    origin="center center"
+    retainfocus="true"
+    transition="dialog-transition"
+    width="290px"
+  >
+    <z-date-picker-stub
+      data-z-date-field-picker=""
+      max="2028-05-17"
+      min="1920-01-01"
+      type="date"
+    >
+      <v-spacer-stub
+        tag="div"
+      />
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-clear=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        クリア
+      </v-btn-stub>
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-cancel=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        キャンセル
+      </v-btn-stub>
+    </z-date-picker-stub>
+  </v-dialog-stub>
+</div>
+`;
+
+exports[`z-date-field.vue should be rendered correctly when the "value" prop is specified 1`] = `
+<div
+  class="z-date-field"
+>
+  <z-text-field-stub
+    backgroundcolor="#f1f6fa"
+    clearicon="$clear"
+    dense="true"
+    errorcount="1"
+    errormessages=""
+    loaderheight="2"
+    messages=""
+    outlined="true"
+    readonly="true"
+    rules=""
+    successmessages=""
+    type="text"
+    value="平成20年5月17日"
+  />
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    data-z-date-field-dialog=""
+    opendelay="0"
+    origin="center center"
+    retainfocus="true"
+    transition="dialog-transition"
+    width="290px"
+  >
+    <z-date-picker-stub
+      data-z-date-field-picker=""
+      max="2028-05-17"
+      min="1920-01-01"
+      type="date"
+      usejapaneseera="true"
+      value="2008-05-17"
+    >
+      <v-spacer-stub
+        tag="div"
+      />
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-clear=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        クリア
+      </v-btn-stub>
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-cancel=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        キャンセル
+      </v-btn-stub>
+    </z-date-picker-stub>
+  </v-dialog-stub>
+</div>
+`;
+
+exports[`z-date-field.vue should close the date-picker when click outside of the dialog 1`] = `
+<div
+  class="z-date-field"
+>
+  <z-text-field-stub
+    backgroundcolor="#f1f6fa"
+    clearicon="$clear"
+    dense="true"
+    errorcount="1"
+    errormessages=""
+    loaderheight="2"
+    messages=""
+    outlined="true"
+    readonly="true"
+    rules=""
+    successmessages=""
+    type="text"
+  />
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    data-z-date-field-dialog=""
+    opendelay="0"
+    origin="center center"
+    retainfocus="true"
+    transition="dialog-transition"
+    width="290px"
+  >
+    <z-date-picker-stub
+      data-z-date-field-picker=""
+      max="2028-05-17"
+      min="1920-01-01"
+      type="date"
+      usejapaneseera="true"
+    >
+      <v-spacer-stub
+        tag="div"
+      />
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-clear=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        クリア
+      </v-btn-stub>
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-cancel=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        キャンセル
+      </v-btn-stub>
+    </z-date-picker-stub>
+  </v-dialog-stub>
+</div>
+`;
+
+exports[`z-date-field.vue should close the date-picker when click the "cancel" button 1`] = `
+<div
+  class="z-date-field"
+>
+  <z-text-field-stub
+    backgroundcolor="#f1f6fa"
+    clearicon="$clear"
+    dense="true"
+    errorcount="1"
+    errormessages=""
+    loaderheight="2"
+    messages=""
+    outlined="true"
+    readonly="true"
+    rules=""
+    successmessages=""
+    type="text"
+  />
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    data-z-date-field-dialog=""
+    opendelay="0"
+    origin="center center"
+    retainfocus="true"
+    transition="dialog-transition"
+    width="290px"
+  >
+    <z-date-picker-stub
+      data-z-date-field-picker=""
+      max="2028-05-17"
+      min="1920-01-01"
+      type="date"
+      usejapaneseera="true"
+    >
+      <v-spacer-stub
+        tag="div"
+      />
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-clear=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        クリア
+      </v-btn-stub>
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-cancel=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        キャンセル
+      </v-btn-stub>
+    </z-date-picker-stub>
+  </v-dialog-stub>
+</div>
+`;
+
+exports[`z-date-field.vue should close the date-picker when click the "clear" button 1`] = `
+<div
+  class="z-date-field"
+>
+  <z-text-field-stub
+    backgroundcolor="#f1f6fa"
+    clearicon="$clear"
+    dense="true"
+    errorcount="1"
+    errormessages=""
+    loaderheight="2"
+    messages=""
+    outlined="true"
+    readonly="true"
+    rules=""
+    successmessages=""
+    type="text"
+  />
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    data-z-date-field-dialog=""
+    opendelay="0"
+    origin="center center"
+    retainfocus="true"
+    transition="dialog-transition"
+    width="290px"
+  >
+    <z-date-picker-stub
+      data-z-date-field-picker=""
+      max="2028-05-17"
+      min="1920-01-01"
+      type="date"
+      usejapaneseera="true"
+    >
+      <v-spacer-stub
+        tag="div"
+      />
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-clear=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        クリア
+      </v-btn-stub>
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-cancel=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        キャンセル
+      </v-btn-stub>
+    </z-date-picker-stub>
+  </v-dialog-stub>
+</div>
+`;
+
+exports[`z-date-field.vue should close the date-picker when input the date-picker 1`] = `
+<div
+  class="z-date-field"
+>
+  <z-text-field-stub
+    backgroundcolor="#f1f6fa"
+    clearicon="$clear"
+    dense="true"
+    errorcount="1"
+    errormessages=""
+    loaderheight="2"
+    messages=""
+    outlined="true"
+    readonly="true"
+    rules=""
+    successmessages=""
+    type="text"
+  />
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    data-z-date-field-dialog=""
+    opendelay="0"
+    origin="center center"
+    retainfocus="true"
+    transition="dialog-transition"
+    width="290px"
+  >
+    <z-date-picker-stub
+      data-z-date-field-picker=""
+      max="2028-05-17"
+      min="1920-01-01"
+      type="date"
+      usejapaneseera="true"
+    >
+      <v-spacer-stub
+        tag="div"
+      />
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-clear=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        クリア
+      </v-btn-stub>
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-cancel=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        キャンセル
+      </v-btn-stub>
+    </z-date-picker-stub>
+  </v-dialog-stub>
+</div>
+`;
+
+exports[`z-date-field.vue should open the date-picker when the text-field clicked 1`] = `
+<div
+  class="z-date-field"
+>
+  <z-text-field-stub
+    backgroundcolor="#f1f6fa"
+    clearicon="$clear"
+    dense="true"
+    errorcount="1"
+    errormessages=""
+    loaderheight="2"
+    messages=""
+    outlined="true"
+    readonly="true"
+    rules=""
+    successmessages=""
+    type="text"
+  />
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    data-z-date-field-dialog=""
+    opendelay="0"
+    origin="center center"
+    retainfocus="true"
+    transition="dialog-transition"
+    value="true"
+    width="290px"
+  >
+    <z-date-picker-stub
+      data-z-date-field-picker=""
+      dialog="true"
+      max="2028-05-17"
+      min="1920-01-01"
+      type="date"
+      usejapaneseera="true"
+    >
+      <v-spacer-stub
+        tag="div"
+      />
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-clear=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        クリア
+      </v-btn-stub>
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-cancel=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        キャンセル
+      </v-btn-stub>
+    </z-date-picker-stub>
+  </v-dialog-stub>
+</div>
+`;
+
+exports[`z-date-field.vue should open the date-picker when the text-field focused 1`] = `
+<div
+  class="z-date-field"
+>
+  <z-text-field-stub
+    backgroundcolor="#f1f6fa"
+    clearicon="$clear"
+    dense="true"
+    errorcount="1"
+    errormessages=""
+    loaderheight="2"
+    messages=""
+    outlined="true"
+    readonly="true"
+    rules=""
+    successmessages=""
+    type="text"
+  />
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    data-z-date-field-dialog=""
+    opendelay="0"
+    origin="center center"
+    retainfocus="true"
+    transition="dialog-transition"
+    value="true"
+    width="290px"
+  >
+    <z-date-picker-stub
+      data-z-date-field-picker=""
+      dialog="true"
+      max="2028-05-17"
+      min="1920-01-01"
+      type="date"
+      usejapaneseera="true"
+    >
+      <v-spacer-stub
+        tag="div"
+      />
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-clear=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        クリア
+      </v-btn-stub>
+      <v-btn-stub
+        activeclass=""
+        color="primary"
+        data-z-date-field-button-cancel=""
+        tag="button"
+        text="true"
+        type="button"
+      >
+        キャンセル
+      </v-btn-stub>
+    </z-date-picker-stub>
+  </v-dialog-stub>
+</div>
+`;

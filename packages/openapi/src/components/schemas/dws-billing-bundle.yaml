@@ -1,0 +1,27 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 障害福祉サービス：請求単位
+type: object
+properties:
+  id:
+    description: 請求単位 ID
+    type: object
+  dwsBillingId:
+    description: 請求 ID
+    type: object
+  providedIn:
+    description: サービス提供年月
+    type: string
+  cityCode:
+    description: 市町村番号
+    type: string
+  cityName:
+    description: 市町村名
+    type: string
+  createdAt:
+    $ref: '#/components/schemas/DateLike'
+  updatedAt:
+    $ref: '#/components/schemas/DateLike'

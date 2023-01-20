@@ -1,0 +1,29 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 障害福祉サービス：請求
+type: object
+properties:
+  id:
+    description: 請求 ID
+    type: object
+  office:
+    $ref: '#/components/schemas/DwsBillingOffice'
+  transactedIn:
+    description: 処理対象年月
+    type: string
+  files:
+    description: ファイル
+    type: array
+    items:
+      $ref: '#/components/schemas/DwsBillingFile'
+  status:
+    $ref: '#/components/schemas/DwsBillingStatus'
+  fixedAt:
+    $ref: '#/components/schemas/DateLike'
+  createdAt:
+    $ref: '#/components/schemas/DateLike'
+  updatedAt:
+    $ref: '#/components/schemas/DateLike'

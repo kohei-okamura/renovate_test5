@@ -1,0 +1,621 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+Activity:
+  $ref: ./schemas/activity.yaml
+AddrForm:
+  $ref: ./schemas/addr-form.yaml
+Addr:
+  $ref: ./schemas/addr.yaml
+Assignee:
+  $ref: ./schemas/assignee.yaml
+AttendanceForm:
+  $ref: ./schemas/attendance-form.yaml
+AttendanceId:
+  $ref: ./schemas/attendance-id.yaml
+Attendance:
+  $ref: ./schemas/attendance.yaml
+Auth:
+  $ref: ./schemas/auth.yaml
+BankAccountForm:
+  $ref: ./schemas/bank-account-form.yaml
+BankAccountId:
+  $ref: ./schemas/bank-account-id.yaml
+BankAccountType:
+  $ref: ./schemas/bank-account-type.yaml
+BankAccount:
+  $ref: ./schemas/bank-account.yaml
+BillingDestination:
+  $ref: ./schemas/billing-destination.yaml
+Business:
+  $ref: ./schemas/business.yaml
+Certification:
+  $ref: ./schemas/certification.yaml
+Child:
+  $ref: ./schemas/child.yaml
+ConsumptionTaxRate:
+  $ref: ./schemas/consumption-tax-rate.yaml
+ContactRelationship:
+  $ref: ./schemas/contact-relationship.yaml
+Contact:
+  $ref: ./schemas/contact.yaml
+ContractId:
+  $ref: ./schemas/contract-id.yaml
+ContractPeriod:
+  $ref: ./schemas/contract-period.yaml
+ContractStatus:
+  $ref: ./schemas/contract-status.yaml
+Contract:
+  $ref: ./schemas/contract.yaml
+CopayCoordinationResult:
+  $ref: ./schemas/copay-coordination-result.yaml
+CopayCoordinationType:
+  $ref: ./schemas/copay-coordination-type.yaml
+CopayCoordination:
+  $ref: ./schemas/copay-coordination.yaml
+DateLike:
+  $ref: ./schemas/date-like.yaml
+DateRangeType:
+  $ref: ./schemas/date-range-type.yaml
+DateRange:
+  $ref: ./schemas/date-range.yaml
+Date:
+  $ref: ./schemas/date.yaml
+DayOfWeek:
+  $ref: ./schemas/day-of-week.yaml
+DefrayerCategory:
+  $ref: ./schemas/defrayer-category.yaml
+Distance:
+  $ref: ./schemas/distance.yaml
+Duration:
+  $ref: ./schemas/duration.yaml
+DwsAreaGradeId:
+  $ref: ./schemas/dws-area-grade-id.yaml
+DwsAreaGrade:
+  $ref: ./schemas/dws-area-grade.yaml
+DwsBaseIncreaseSupportAddition:
+  $ref: ./schemas/dws-base-increase-support-addition.yaml
+DwsBillingBundleId:
+  $ref: ./schemas/dws-billing-bundle-id.yaml
+DwsBillingBundle:
+  $ref: ./schemas/dws-billing-bundle.yaml
+DwsBillingCopayCoordinationExchangeAim:
+  $ref: ./schemas/dws-billing-copay-coordination-exchange-aim.yaml
+DwsBillingCopayCoordinationForm:
+  $ref: ./schemas/dws-billing-copay-coordination-form.yaml
+DwsBillingCopayCoordinationId:
+  $ref: ./schemas/dws-billing-copay-coordination-id.yaml
+DwsBillingCopayCoordinationItem:
+  $ref: ./schemas/dws-billing-copay-coordination-item.yaml
+DwsBillingCopayCoordinationPayment:
+  $ref: ./schemas/dws-billing-copay-coordination-payment.yaml
+DwsBillingCopayCoordinationResponse:
+  $ref: ./schemas/dws-billing-copay-coordination-response.yaml
+DwsBillingCopayCoordinationStatusForm:
+  $ref: ./schemas/dws-billing-copay-coordination-status-form.yaml
+DwsBillingCopayCoordination:
+  $ref: ./schemas/dws-billing-copay-coordination.yaml
+DwsBillingFile:
+  $ref: ./schemas/dws-billing-file.yaml
+DwsBillingForm:
+  $ref: ./schemas/dws-billing-form.yaml
+DwsBillingHighCostPayment:
+  $ref: ./schemas/dws-billing-high-cost-payment.yaml
+DwsBillingId:
+  $ref: ./schemas/dws-billing-id.yaml
+DwsBillingInvoiceId:
+  $ref: ./schemas/dws-billing-invoice-id.yaml
+DwsBillingInvoiceItem:
+  $ref: ./schemas/dws-billing-invoice-item.yaml
+DwsBillingInvoice:
+  $ref: ./schemas/dws-billing-invoice.yaml
+DwsBillingOffice:
+  $ref: ./schemas/dws-billing-office.yaml
+DwsBillingPaymentCategory:
+  $ref: ./schemas/dws-billing-payment-category.yaml
+DwsBillingPayment:
+  $ref: ./schemas/dws-billing-payment.yaml
+DwsBillingResponse:
+  $ref: ./schemas/dws-billing-response.yaml
+DwsBillingServiceReportAggregateCategory:
+  $ref: ./schemas/dws-billing-service-report-aggregate-category.yaml
+DwsBillingServiceReportAggregateGroup:
+  $ref: ./schemas/dws-billing-service-report-aggregate-group.yaml
+DwsBillingServiceReportDuration:
+  $ref: ./schemas/dws-billing-service-report-duration.yaml
+DwsBillingServiceReportFormat:
+  $ref: ./schemas/dws-billing-service-report-format.yaml
+DwsBillingServiceReportId:
+  $ref: ./schemas/dws-billing-service-report-id.yaml
+DwsBillingServiceReportItem:
+  $ref: ./schemas/dws-billing-service-report-item.yaml
+DwsBillingServiceReportProviderType:
+  $ref: ./schemas/dws-billing-service-report-provider-type.yaml
+DwsBillingServiceReportResponse:
+  $ref: ./schemas/dws-billing-service-report-response.yaml
+DwsBillingServiceReportSituation:
+  $ref: ./schemas/dws-billing-service-report-situation.yaml
+DwsBillingServiceReport:
+  $ref: ./schemas/dws-billing-service-report.yaml
+DwsBillingStatementAggregate:
+  $ref: ./schemas/dws-billing-statement-aggregate.yaml
+DwsBillingStatementContract:
+  $ref: ./schemas/dws-billing-statement-contract.yaml
+DwsBillingStatementCopayCoordinationStatus:
+  $ref: ./schemas/dws-billing-statement-copay-coordination-status.yaml
+DwsBillingStatementCopayCoordination:
+  $ref: ./schemas/dws-billing-statement-copay-coordination.yaml
+DwsBillingStatementForm:
+  $ref: ./schemas/dws-billing-statement-form.yaml
+DwsBillingStatementId:
+  $ref: ./schemas/dws-billing-statement-id.yaml
+DwsBillingStatementItem:
+  $ref: ./schemas/dws-billing-statement-item.yaml
+DwsBillingStatementResponse:
+  $ref: ./schemas/dws-billing-statement-response.yaml
+DwsBillingStatement:
+  $ref: ./schemas/dws-billing-statement.yaml
+DwsBillingStatusForm:
+  $ref: ./schemas/dws-billing-status-form.yaml
+DwsBillingStatus:
+  $ref: ./schemas/dws-billing-status.yaml
+DwsBillingUser:
+  $ref: ./schemas/dws-billing-user.yaml
+DwsBilling:
+  $ref: ./schemas/dws-billing.yaml
+DwsCertificationAgreementType:
+  $ref: ./schemas/dws-certification-agreement-type.yaml
+DwsCertificationAgreement:
+  $ref: ./schemas/dws-certification-agreement.yaml
+DwsCertificationForm:
+  $ref: ./schemas/dws-certification-form.yaml
+DwsCertificationGrant:
+  $ref: ./schemas/dws-certification-grant.yaml
+DwsCertificationId:
+  $ref: ./schemas/dws-certification-id.yaml
+DwsCertificationServiceType:
+  $ref: ./schemas/dws-certification-service-type.yaml
+DwsCertificationStatus:
+  $ref: ./schemas/dws-certification-status.yaml
+DwsCertification:
+  $ref: ./schemas/dws-certification.yaml
+DwsContractForm:
+  $ref: ./schemas/dws-contract-form.yaml
+DwsGrantedServiceCode:
+  $ref: ./schemas/dws-granted-service-code.yaml
+DwsHomeHelpServiceBuildingType:
+  $ref: ./schemas/dws-home-help-service-building-type.yaml
+DwsHomeHelpServiceProviderType:
+  $ref: ./schemas/dws-home-help-service-provider-type.yaml
+DwsLevel:
+  $ref: ./schemas/dws-level.yaml
+DwsProjectContent:
+  $ref: ./schemas/dws-project-content.yaml
+DwsProjectForm:
+  $ref: ./schemas/dws-project-form.yaml
+DwsProjectId:
+  $ref: ./schemas/dws-project-id.yaml
+DwsProjectProgram:
+  $ref: ./schemas/dws-project-program.yaml
+DwsProjectResponse:
+  $ref: ./schemas/dws-project-response.yaml
+DwsProjectServiceCategory:
+  $ref: ./schemas/dws-project-service-category.yaml
+DwsProjectServiceMenu:
+  $ref: ./schemas/dws-project-service-menu.yaml
+DwsProject:
+  $ref: ./schemas/dws-project.yaml
+DwsProvisionReportDigest:
+  $ref: ./schemas/dws-provision-report-digest.yaml
+DwsProvisionReportForm:
+  $ref: ./schemas/dws-provision-report-form.yaml
+DwsProvisionReportId:
+  $ref: ./schemas/dws-provision-report-id.yaml
+DwsProvisionReportItem:
+  $ref: ./schemas/dws-provision-report-item.yaml
+DwsProvisionReportStatusForm:
+  $ref: ./schemas/dws-provision-report-status-form.yaml
+DwsProvisionReportStatus:
+  $ref: ./schemas/dws-provision-report-status.yaml
+DwsProvisionReportTimeSummaryForm:
+  $ref: ./schemas/dws-provision-report-time-summary-form.yaml
+DwsProvisionReportTimeSummaryItem:
+  $ref: ./schemas/dws-provision-report-time-summary-item.yaml
+DwsProvisionReport:
+  $ref: ./schemas/dws-provision-report.yaml
+DwsServiceDivisionCode:
+  $ref: ./schemas/dws-service-division-code.yaml
+DwsSpecifiedTreatmentImprovementAddition:
+  $ref: ./schemas/dws-specified-treatment-improvement-addition.yaml
+DwsTreatmentImprovementAddition:
+  $ref: ./schemas/dws-treatment-improvement-addition.yaml
+DwsType:
+  $ref: ./schemas/dws-type.yaml
+DwsUserLocationAddition:
+  $ref: ./schemas/dws-user-location-addition.yaml
+Expense:
+  $ref: ./schemas/expense.yaml
+HomeHelpServiceCalcSpecForm:
+  $ref: ./schemas/home-help-service-calc-spec-form.yaml
+HomeHelpServiceCalcSpecId:
+  $ref: ./schemas/home-help-service-calc-spec-id.yaml
+HomeHelpServiceCalcSpec:
+  $ref: ./schemas/home-help-service-calc-spec.yaml
+HomeHelpServiceSpecifiedOfficeAddition:
+  $ref: ./schemas/home-help-service-specified-office-addition.yaml
+HomeVisitLongTermCareCalcSpecForm:
+  $ref: ./schemas/home-visit-long-term-care-calc-spec-form.yaml
+HomeVisitLongTermCareCalcSpecId:
+  $ref: ./schemas/home-visit-long-term-care-calc-spec-id.yaml
+HomeVisitLongTermCareCalcSpec:
+  $ref: ./schemas/home-visit-long-term-care-calc-spec.yaml
+HomeVisitLongTermCareSpecifiedOfficeAddition:
+  $ref: ./schemas/home-visit-long-term-care-specified-office-addition.yaml
+InvitationId:
+  $ref: ./schemas/invitation-id.yaml
+Invitation:
+  $ref: ./schemas/invitation.yaml
+JobId:
+  $ref: ./schemas/job-id.yaml
+JobStatus:
+  $ref: ./schemas/job-status.yaml
+Job:
+  $ref: ./schemas/job.yaml
+Location:
+  $ref: ./schemas/location.yaml
+LtcsAreaGradeId:
+  $ref: ./schemas/ltcs-area-grade-id.yaml
+LtcsAreaGrade:
+  $ref: ./schemas/ltcs-area-grade.yaml
+LtcsBaseIncreaseSupportAddition:
+  $ref: ./schemas/ltcs-base-increase-support-addition.yaml
+LtcsBillingBundleId:
+  $ref: ./schemas/ltcs-billing-bundle-id.yaml
+LtcsBillingBundle:
+  $ref: ./schemas/ltcs-billing-bundle.yaml
+LtcsBillingFile:
+  $ref: ./schemas/ltcs-billing-file.yaml
+LtcsBillingForm:
+  $ref: ./schemas/ltcs-billing-form.yaml
+LtcsBillingId:
+  $ref: ./schemas/ltcs-billing-id.yaml
+LtcsBillingInvoiceId:
+  $ref: ./schemas/ltcs-billing-invoice-id.yaml
+LtcsBillingInvoice:
+  $ref: ./schemas/ltcs-billing-invoice.yaml
+LtcsBillingOffice:
+  $ref: ./schemas/ltcs-billing-office.yaml
+LtcsBillingResponse:
+  $ref: ./schemas/ltcs-billing-response.yaml
+LtcsBillingStatementAggregateInsurance:
+  $ref: ./schemas/ltcs-billing-statement-aggregate-insurance.yaml
+LtcsBillingStatementAggregateSubsidy:
+  $ref: ./schemas/ltcs-billing-statement-aggregate-subsidy.yaml
+LtcsBillingStatementAggregate:
+  $ref: ./schemas/ltcs-billing-statement-aggregate.yaml
+LtcsBillingStatementForm:
+  $ref: ./schemas/ltcs-billing-statement-form.yaml
+LtcsBillingStatementId:
+  $ref: ./schemas/ltcs-billing-statement-id.yaml
+LtcsBillingStatementInsurance:
+  $ref: ./schemas/ltcs-billing-statement-insurance.yaml
+LtcsBillingStatementItemSubsidy:
+  $ref: ./schemas/ltcs-billing-statement-item-subsidy.yaml
+LtcsBillingStatementItem:
+  $ref: ./schemas/ltcs-billing-statement-item.yaml
+LtcsBillingStatementResponse:
+  $ref: ./schemas/ltcs-billing-statement-response.yaml
+LtcsBillingStatementSubsidy:
+  $ref: ./schemas/ltcs-billing-statement-subsidy.yaml
+LtcsBillingStatement:
+  $ref: ./schemas/ltcs-billing-statement.yaml
+LtcsBillingStatusForm:
+  $ref: ./schemas/ltcs-billing-status-form.yaml
+LtcsBillingStatus:
+  $ref: ./schemas/ltcs-billing-status.yaml
+LtcsBillingUser:
+  $ref: ./schemas/ltcs-billing-user.yaml
+LtcsBilling:
+  $ref: ./schemas/ltcs-billing.yaml
+LtcsCalcCycle:
+  $ref: ./schemas/ltcs-calc-cycle.yaml
+LtcsCalcExtraScore:
+  $ref: ./schemas/ltcs-calc-extra-score.yaml
+LtcsCalcScore:
+  $ref: ./schemas/ltcs-calc-score.yaml
+LtcsCalcType:
+  $ref: ./schemas/ltcs-calc-type.yaml
+LtcsCarePlanAuthorType:
+  $ref: ./schemas/ltcs-care-plan-author-type.yaml
+LtcsCarePlanAuthor:
+  $ref: ./schemas/ltcs-care-plan-author.yaml
+LtcsCompositionType:
+  $ref: ./schemas/ltcs-composition-type.yaml
+LtcsContractForm:
+  $ref: ./schemas/ltcs-contract-form.yaml
+LtcsExpiredReason:
+  $ref: ./schemas/ltcs-expired-reason.yaml
+LtcsHomeVisitLongTermCareDictionaryEntryId:
+  $ref: ./schemas/ltcs-home-visit-long-term-care-dictionary-entry-id.yaml
+LtcsHomeVisitLongTermCareDictionaryEntry:
+  $ref: ./schemas/ltcs-home-visit-long-term-care-dictionary-entry.yaml
+LtcsHomeVisitLongTermCareDictionaryId:
+  $ref: ./schemas/ltcs-home-visit-long-term-care-dictionary-id.yaml
+LtcsHomeVisitLongTermCareDictionary:
+  $ref: ./schemas/ltcs-home-visit-long-term-care-dictionary.yaml
+LtcsInsCardForm:
+  $ref: ./schemas/ltcs-ins-card-form.yaml
+LtcsInsCardId:
+  $ref: ./schemas/ltcs-ins-card-id.yaml
+LtcsInsCardMaxBenefitQuota:
+  $ref: ./schemas/ltcs-ins-card-max-benefit-quota.yaml
+LtcsInsCardServiceType:
+  $ref: ./schemas/ltcs-ins-card-service-type.yaml
+LtcsInsCardStatus:
+  $ref: ./schemas/ltcs-ins-card-status.yaml
+LtcsInsCard:
+  $ref: ./schemas/ltcs-ins-card.yaml
+LtcsLevel:
+  $ref: ./schemas/ltcs-level.yaml
+LtcsOfficeLocationAddition:
+  $ref: ./schemas/ltcs-office-location-addition.yaml
+LtcsProjectAmountCategory:
+  $ref: ./schemas/ltcs-project-amount-category.yaml
+LtcsProjectAmount:
+  $ref: ./schemas/ltcs-project-amount.yaml
+LtcsProjectContent:
+  $ref: ./schemas/ltcs-project-content.yaml
+LtcsProjectForm:
+  $ref: ./schemas/ltcs-project-form.yaml
+LtcsProjectId:
+  $ref: ./schemas/ltcs-project-id.yaml
+LtcsProjectProgram:
+  $ref: ./schemas/ltcs-project-program.yaml
+LtcsProjectResponse:
+  $ref: ./schemas/ltcs-project-response.yaml
+LtcsProjectServiceCategory:
+  $ref: ./schemas/ltcs-project-service-category.yaml
+LtcsProjectServiceMenu:
+  $ref: ./schemas/ltcs-project-service-menu.yaml
+LtcsProject:
+  $ref: ./schemas/ltcs-project.yaml
+LtcsProvisionReportDigest:
+  $ref: ./schemas/ltcs-provision-report-digest.yaml
+LtcsProvisionReportEntry:
+  $ref: ./schemas/ltcs-provision-report-entry.yaml
+LtcsProvisionReportForm:
+  $ref: ./schemas/ltcs-provision-report-form.yaml
+LtcsProvisionReportId:
+  $ref: ./schemas/ltcs-provision-report-id.yaml
+LtcsProvisionReportOverScore:
+  $ref: ./schemas/ltcs-provision-report-over-score.yaml
+LtcsProvisionReportScoreSummaryForm:
+  $ref: ./schemas/ltcs-provision-report-score-summary-form.yaml
+LtcsProvisionReportSheetAppendixEntry:
+  $ref: ./schemas/ltcs-provision-report-sheet-appendix-entry.yaml
+LtcsProvisionReportSheetAppendix:
+  $ref: ./schemas/ltcs-provision-report-sheet-appendix.yaml
+LtcsProvisionReportStatusForm:
+  $ref: ./schemas/ltcs-provision-report-status-form.yaml
+LtcsProvisionReportStatus:
+  $ref: ./schemas/ltcs-provision-report-status.yaml
+LtcsProvisionReportType:
+  $ref: ./schemas/ltcs-provision-report-type.yaml
+LtcsProvisionReport:
+  $ref: ./schemas/ltcs-provision-report.yaml
+LtcsServiceCodeCategory:
+  $ref: ./schemas/ltcs-service-code-category.yaml
+LtcsServiceDivisionCode:
+  $ref: ./schemas/ltcs-service-division-code.yaml
+LtcsSpecifiedTreatmentImprovementAddition:
+  $ref: ./schemas/ltcs-specified-treatment-improvement-addition.yaml
+LtcsTreatmentImprovementAddition:
+  $ref: ./schemas/ltcs-treatment-improvement-addition.yaml
+LtcsUserLocationAddition:
+  $ref: ./schemas/ltcs-user-location-addition.yaml
+MimeType:
+  $ref: ./schemas/mime-type.yaml
+Objective:
+  $ref: ./schemas/objective.yaml
+OfficeForm:
+  $ref: ./schemas/office-form.yaml
+OfficeGroupForm:
+  $ref: ./schemas/office-group-form.yaml
+OfficeGroupId:
+  $ref: ./schemas/office-group-id.yaml
+OfficeGroup:
+  $ref: ./schemas/office-group.yaml
+OfficeId:
+  $ref: ./schemas/office-id.yaml
+OfficeQualification:
+  $ref: ./schemas/office-qualification.yaml
+OfficeStatus:
+  $ref: ./schemas/office-status.yaml
+Office:
+  $ref: ./schemas/office.yaml
+OrganizationSettingId:
+  $ref: ./schemas/organization-setting-id.yaml
+OrganizationSetting:
+  $ref: ./schemas/organization-setting.yaml
+OwnExpenseProgramForm:
+  $ref: ./schemas/own-expense-program-form.yaml
+OwnExpenseProgramId:
+  $ref: ./schemas/own-expense-program-id.yaml
+OwnExpenseProgram:
+  $ref: ./schemas/own-expense-program.yaml
+Pagination:
+  $ref: ./schemas/pagination.yaml
+PaymentMethod:
+  $ref: ./schemas/payment-method.yaml
+PeriodForm:
+  $ref: ./schemas/period-form.yaml
+PermissionGroupId:
+  $ref: ./schemas/permission-group-id.yaml
+PermissionGroup:
+  $ref: ./schemas/permission-group.yaml
+Permission:
+  $ref: ./schemas/permission.yaml
+Postcode:
+  $ref: ./schemas/postcode.yaml
+Prefecture:
+  $ref: ./schemas/prefecture.yaml
+ProjectId:
+  $ref: ./schemas/project-id.yaml
+ProjectProgramAmount:
+  $ref: ./schemas/project-program-amount.yaml
+ProjectProgramContent:
+  $ref: ./schemas/project-program-content.yaml
+ProjectProgram:
+  $ref: ./schemas/project-program.yaml
+Project:
+  $ref: ./schemas/project.yaml
+Purpose:
+  $ref: ./schemas/purpose.yaml
+Recurrence:
+  $ref: ./schemas/recurrence.yaml
+RoleForm:
+  $ref: ./schemas/role-form.yaml
+RoleId:
+  $ref: ./schemas/role-id.yaml
+RoleScope:
+  $ref: ./schemas/role-scope.yaml
+Role:
+  $ref: ./schemas/role.yaml
+Rounding:
+  $ref: ./schemas/rounding.yaml
+Schedule:
+  $ref: ./schemas/schedule.yaml
+ServiceCategoryId:
+  $ref: ./schemas/service-category-id.yaml
+ServiceCategory:
+  $ref: ./schemas/service-category.yaml
+ServiceMenuId:
+  $ref: ./schemas/service-menu-id.yaml
+ServiceMenuOptionId:
+  $ref: ./schemas/service-menu-option-id.yaml
+ServiceMenuOption:
+  $ref: ./schemas/service-menu-option.yaml
+ServiceMenu:
+  $ref: ./schemas/service-menu.yaml
+ServiceOption:
+  $ref: ./schemas/service-option.yaml
+ServiceSegment:
+  $ref: ./schemas/service-segment.yaml
+SessionForm:
+  $ref: ./schemas/session-form.yaml
+Sex:
+  $ref: ./schemas/sex.yaml
+ShiftForm:
+  $ref: ./schemas/shift-form.yaml
+ShiftId:
+  $ref: ./schemas/shift-id.yaml
+Shift:
+  $ref: ./schemas/shift.yaml
+StaffForm:
+  $ref: ./schemas/staff-form.yaml
+StaffId:
+  $ref: ./schemas/staff-id.yaml
+StaffResponse:
+  $ref: ./schemas/staff-response.yaml
+StaffStatus:
+  $ref: ./schemas/staff-status.yaml
+Staff:
+  $ref: ./schemas/staff.yaml
+StructuredNameForm:
+  $ref: ./schemas/structured-name-form.yaml
+StructuredName:
+  $ref: ./schemas/structured-name.yaml
+Task:
+  $ref: ./schemas/task.yaml
+TaxCategory:
+  $ref: ./schemas/tax-category.yaml
+TaxType:
+  $ref: ./schemas/tax-type.yaml
+TimeRange:
+  $ref: ./schemas/time-range.yaml
+Timeframe:
+  $ref: ./schemas/timeframe.yaml
+UrlResponse:
+  $ref: ./schemas/url-response.yaml
+UserBillingBankAccount:
+  $ref: ./schemas/user-billing-bank-account.yaml
+UserBillingDestination:
+  $ref: ./schemas/user-billing-destination.yaml
+UserBillingDwsItem:
+  $ref: ./schemas/user-billing-dws-item.yaml
+UserBillingForm:
+  $ref: ./schemas/user-billing-form.yaml
+UserBillingId:
+  $ref: ./schemas/user-billing-id.yaml
+UserBillingLtcsItem:
+  $ref: ./schemas/user-billing-ltcs-item.yaml
+UserBillingOffice:
+  $ref: ./schemas/user-billing-office.yaml
+UserBillingOtherItem:
+  $ref: ./schemas/user-billing-other-item.yaml
+UserBillingResult:
+  $ref: ./schemas/user-billing-result.yaml
+UserBillingUsedService:
+  $ref: ./schemas/user-billing-used-service.yaml
+UserBillingUser:
+  $ref: ./schemas/user-billing-user.yaml
+UserBilling:
+  $ref: ./schemas/user-billing.yaml
+UserDwsCalcSpecForm:
+  $ref: ./schemas/user-dws-calc-spec-form.yaml
+UserDwsCalcSpecId:
+  $ref: ./schemas/user-dws-calc-spec-id.yaml
+UserDwsCalcSpecResponse:
+  $ref: ./schemas/user-dws-calc-spec-response.yaml
+UserDwsCalcSpec:
+  $ref: ./schemas/user-dws-calc-spec.yaml
+UserDwsSubsidyFactor:
+  $ref: ./schemas/user-dws-subsidy-factor.yaml
+UserDwsSubsidyForm:
+  $ref: ./schemas/user-dws-subsidy-form.yaml
+UserDwsSubsidyId:
+  $ref: ./schemas/user-dws-subsidy-id.yaml
+UserDwsSubsidyType:
+  $ref: ./schemas/user-dws-subsidy-type.yaml
+UserDwsSubsidy:
+  $ref: ./schemas/user-dws-subsidy.yaml
+UserForm:
+  $ref: ./schemas/user-form.yaml
+UserId:
+  $ref: ./schemas/user-id.yaml
+UserLtcsCalcSpecForm:
+  $ref: ./schemas/user-ltcs-calc-spec-form.yaml
+UserLtcsCalcSpecId:
+  $ref: ./schemas/user-ltcs-calc-spec-id.yaml
+UserLtcsCalcSpecResponse:
+  $ref: ./schemas/user-ltcs-calc-spec-response.yaml
+UserLtcsCalcSpec:
+  $ref: ./schemas/user-ltcs-calc-spec.yaml
+UserLtcsSubsidyForm:
+  $ref: ./schemas/user-ltcs-subsidy-form.yaml
+UserLtcsSubsidyId:
+  $ref: ./schemas/user-ltcs-subsidy-id.yaml
+UserLtcsSubsidy:
+  $ref: ./schemas/user-ltcs-subsidy.yaml
+User:
+  $ref: ./schemas/user.yaml
+VisitingCareForPwsdCalcSpecForm:
+  $ref: ./schemas/visiting-care-for-pwsd-calc-spec-form.yaml
+VisitingCareForPwsdCalcSpecId:
+  $ref: ./schemas/visiting-care-for-pwsd-calc-spec-id.yaml
+VisitingCareForPwsdCalcSpec:
+  $ref: ./schemas/visiting-care-for-pwsd-calc-spec.yaml
+VisitingCareForPwsdSpecifiedOfficeAddition:
+  $ref: ./schemas/visiting-care-for-pwsd-specified-office-addition.yaml
+WithdrawalResultCode:
+  $ref: ./schemas/withdrawal-result-code.yaml
+WithdrawalTransactionId:
+  $ref: ./schemas/withdrawal-transaction-id.yaml
+WithdrawalTransactionItem:
+  $ref: ./schemas/withdrawal-transaction-item.yaml
+WithdrawalTransaction:
+  $ref: ./schemas/withdrawal-transaction.yaml
+YearMonth:
+  $ref: ./schemas/year-month.yaml

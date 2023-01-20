@@ -1,0 +1,53 @@
+destinationName: ''
+office:
+    officeId: null
+    code: null
+    name: null
+    abbr: null
+    addr: null
+    tel: null
+providedIn:
+    japaneseCalender: ''
+    year: ''
+    month: ''
+    day: ''
+claimAmount:
+    - ''
+    - ' '
+    - ' '
+    - ' '
+    - '1'
+    - '0'
+    - '0'
+    - '0'
+    - '0'
+    - '0'
+    - ''
+items:
+    -
+        paymentCategory: 1
+        serviceDivisionCode: '12'
+        subtotalCount: 10
+        subtotalScore: 1000
+        subtotalFee: 1000
+        subtotalBenefit: 1000
+        subtotalCopay: 1000
+        subtotalSubsidy: 1000
+dwsPayment:
+    subtotalDetailCount: 10
+    subtotalScore: 10000
+    subtotalFee: 1000000
+    subtotalBenefit: 1000000
+    subtotalCopay: 37200
+    subtotalSubsidy: 100000
+highCostDwsPayment:
+    subtotalDetailCount: 10
+    subtotalFee: 1000000
+    subtotalBenefit: 1000000
+totalCount: 10
+totalScore: 1000
+totalFee: 1000
+totalBenefit: 1000
+totalCopay: 1000
+totalSubsidy: 1000
+issuedOn: 2019年5月15日

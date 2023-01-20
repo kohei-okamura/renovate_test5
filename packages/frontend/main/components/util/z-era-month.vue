@@ -1,0 +1,19 @@
+<!--
+  - Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+  - UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+  -->
+<script lang="ts">
+import { defineComponent } from '@nuxtjs/composition-api'
+import { DatetimeComponentPropDefs, setupDatetimeComponent } from '~/components/tools/setup-datetime-component'
+import { eraMonth } from '~/composables/era-date'
+import { ISO_MONTH_FORMAT } from '~/models/date'
+
+export default defineComponent({
+  name: 'ZEraMonth',
+  props: DatetimeComponentPropDefs,
+  setup: setupDatetimeComponent({
+    format: ISO_MONTH_FORMAT,
+    displayFormat: value => eraMonth(value)
+  })
+})
+</script>

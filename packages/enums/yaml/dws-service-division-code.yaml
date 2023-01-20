@@ -1,0 +1,14 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 障害福祉サービス：請求：サービス種類コード
+name: DwsServiceDivisionCode
+php:
+  enabled: true
+  namespace: Billing
+  withResolver: true
+typescript:
+  enabled: true
+items:
+  - { description: 居宅介護, name: HomeHelpService, value: '11' }
+  - { description: 重度訪問介護, name: VisitingCareForPwsd, value: '12' }

@@ -1,0 +1,352 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/users/_id/ltcs-ins-cards/_cardId/index.vue FAB (speed dial) should be rendered when session auth is system admin 1`] = `
+<z-fab-speed-dial-stub
+  data-fab=""
+  icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+>
+  <z-fab-speed-dial-button-stub
+    color="secondary"
+    icon="M3 6V8H14V6H3M3 10V12H14V10H3M20 10.1C19.9 10.1 19.7 10.2 19.6 10.3L18.6 11.3L20.7 13.4L21.7 12.4C21.9 12.2 21.9 11.8 21.7 11.6L20.4 10.3C20.3 10.2 20.2 10.1 20 10.1M18.1 11.9L12 17.9V20H14.1L20.2 13.9L18.1 11.9M3 14V16H10V14H3Z"
+    nuxt=""
+    to="/users/1/ltcs-ins-cards/10/edit"
+  >
+      被保険者証を編集
+  </z-fab-speed-dial-button-stub>
+  <z-fab-speed-dial-button-stub
+    color="secondary"
+    icon="M6,19A2,2 0 0,0 8,21H16A2,2 0 0,0 18,19V7H6V19M8,9H16V19H8V9M15.5,4L14.5,3H9.5L8.5,4H5V6H19V4H15.5Z"
+  >
+      被保険者証を削除
+  </z-fab-speed-dial-button-stub>
+</z-fab-speed-dial-stub>
+`;
+
+exports[`pages/users/_id/ltcs-ins-cards/_cardId/index.vue FAB (speed dial) should be rendered when the staff has permissions: [ 'ltcs-ins-cards/delete' ] 1`] = `
+<z-fab-speed-dial-stub
+  data-fab=""
+  icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+>
+  <!---->
+  <z-fab-speed-dial-button-stub
+    color="secondary"
+    icon="M6,19A2,2 0 0,0 8,21H16A2,2 0 0,0 18,19V7H6V19M8,9H16V19H8V9M15.5,4L14.5,3H9.5L8.5,4H5V6H19V4H15.5Z"
+  >
+      被保険者証を削除
+  </z-fab-speed-dial-button-stub>
+</z-fab-speed-dial-stub>
+`;
+
+exports[`pages/users/_id/ltcs-ins-cards/_cardId/index.vue FAB (speed dial) should be rendered when the staff has permissions: [ 'ltcs-ins-cards/update' ] 1`] = `
+<z-fab-speed-dial-stub
+  data-fab=""
+  icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+>
+  <z-fab-speed-dial-button-stub
+    color="secondary"
+    icon="M3 6V8H14V6H3M3 10V12H14V10H3M20 10.1C19.9 10.1 19.7 10.2 19.6 10.3L18.6 11.3L20.7 13.4L21.7 12.4C21.9 12.2 21.9 11.8 21.7 11.6L20.4 10.3C20.3 10.2 20.2 10.1 20 10.1M18.1 11.9L12 17.9V20H14.1L20.2 13.9L18.1 11.9M3 14V16H10V14H3Z"
+    nuxt=""
+    to="/users/1/ltcs-ins-cards/10/edit"
+  >
+      被保険者証を編集
+  </z-fab-speed-dial-button-stub>
+  <!---->
+</z-fab-speed-dial-stub>
+`;
+
+exports[`pages/users/_id/ltcs-ins-cards/_cardId/index.vue FAB (speed dial) should be rendered when the staff has permissions: [ 'ltcs-ins-cards/update', 'ltcs-ins-cards/delete' ] 1`] = `
+<z-fab-speed-dial-stub
+  data-fab=""
+  icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+>
+  <z-fab-speed-dial-button-stub
+    color="secondary"
+    icon="M3 6V8H14V6H3M3 10V12H14V10H3M20 10.1C19.9 10.1 19.7 10.2 19.6 10.3L18.6 11.3L20.7 13.4L21.7 12.4C21.9 12.2 21.9 11.8 21.7 11.6L20.4 10.3C20.3 10.2 20.2 10.1 20 10.1M18.1 11.9L12 17.9V20H14.1L20.2 13.9L18.1 11.9M3 14V16H10V14H3Z"
+    nuxt=""
+    to="/users/1/ltcs-ins-cards/10/edit"
+  >
+      被保険者証を編集
+  </z-fab-speed-dial-button-stub>
+  <z-fab-speed-dial-button-stub
+    color="secondary"
+    icon="M6,19A2,2 0 0,0 8,21H16A2,2 0 0,0 18,19V7H6V19M8,9H16V19H8V9M15.5,4L14.5,3H9.5L8.5,4H5V6H19V4H15.5Z"
+  >
+      被保険者証を削除
+  </z-fab-speed-dial-button-stub>
+</z-fab-speed-dial-stub>
+`;
+
+exports[`pages/users/_id/ltcs-ins-cards/_cardId/index.vue should be rendered correctly 1`] = `
+<div
+  breadcrumbs="[object Object],[object Object],[object Object]"
+  class="z-page-stub"
+  compact="compact"
+>
+  <div
+    class="z-page-stub-slot-tabs"
+  />
+  <div
+    class="z-page-stub-slot-title"
+  />
+  <z-user-summary-stub
+    user="[object Object]"
+  />
+  <div
+    class="z-data-card-stub"
+    title="基本情報"
+  >
+    <div
+      class="z-data-card-stub-slot-actions"
+    />
+    <z-data-card-item-stub
+      icon="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z"
+      label="適用日"
+    >
+      <time
+        datetime="1980-10-08"
+      >
+        昭和55年10月8日
+      </time>
+    </z-data-card-item-stub>
+    <z-data-card-item-stub
+      icon="M12 2C6.5 2 2 6.5 2 12S6.5 22 12 22 22 17.5 22 12 17.5 2 12 2M12 20C7.59 20 4 16.41 4 12S7.59 4 12 4 20 7.59 20 12 16.41 20 12 20M16.59 7.58L10 14.17L7.41 11.59L6 13L10 17L18 9L16.59 7.58Z"
+      label="認定区分"
+      value="認定済"
+    />
+    <z-data-card-item-stub
+      icon="M2,6H4V18H2V6M5,6H6V18H5V6M7,6H10V18H7V6M11,6H12V18H11V6M14,6H16V18H14V6M17,6H20V18H17V6M21,6H22V18H21V6Z"
+      label="被保険者証番号"
+      value="3582530952"
+    />
+    <z-data-card-item-stub
+      icon="M19 19H5V8H19M16 1V3H8V1H6V3H5C3.9 3 3 3.9 3 5V19C3 20.11 3.9 21 5 21H19C20.11 21 21 20.11 21 19V5C21 3.9 20.11 3 19 3H18V1M10.88 12H7.27L10.19 14.11L9.08 17.56L12 15.43L14.92 17.56L13.8 14.12L16.72 12H13.12L12 8.56L10.88 12Z"
+      label="交付年月日"
+    >
+      <time
+        datetime="2009-10-22"
+      >
+        平成21年10月22日
+      </time>
+    </z-data-card-item-stub>
+    <z-data-card-item-stub
+      icon="M15,23H13V21H15V23M19,21H17V23H19V21M15,17H13V19H15V17M7,21H5V23H7V21M7,17H5V19H7V17M19,17H17V19H19V17M15,13H13V15H15V13M19,13H17V15H19V13M21,9A2,2 0 0,1 23,11V23H21V11H11V23H9V15H3V23H1V15A2,2 0 0,1 3,13H9V11A2,2 0 0,1 11,9V7A2,2 0 0,1 13,5H15V1H17V5H19A2,2 0 0,1 21,7V9M19,9V7H13V9H19Z"
+      label="保険者の名称"
+      value="伊具郡丸森町"
+    />
+    <z-data-card-item-stub
+      label="保険者番号"
+      value="569348"
+    />
+    <z-data-card-item-stub
+      icon="M3,22V8H7V22H3M10,22V2H14V22H10M17,22V14H21V22H17Z"
+      label="要介護状態区分等"
+      value="要介護5"
+    />
+    <z-data-card-item-stub
+      icon="M19 19H5V8H19M16 1V3H8V1H6V3H5C3.9 3 3 3.9 3 5V19C3 20.11 3.9 21 5 21H19C20.11 21 21 20.11 21 19V5C21 3.9 20.11 3 19 3H18V1M10.88 12H7.27L10.19 14.11L9.08 17.56L12 15.43L14.92 17.56L13.8 14.12L16.72 12H13.12L12 8.56L10.88 12Z"
+      label="認定年月日"
+    >
+      <time
+        datetime="1993-11-18"
+      >
+        平成5年11月18日
+      </time>
+    </z-data-card-item-stub>
+    <z-data-card-item-stub
+      icon="M9,10H7V12H9V10M13,10H11V12H13V10M17,10H15V12H17V10M19,3H18V1H16V3H8V1H6V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3M19,19H5V8H19V19Z"
+      label="認定の有効期間"
+    >
+      <time
+        datetime="1989-08-01"
+      >
+        平成1年8月1日
+      </time>
+      <span>
+        〜
+      </span>
+      <time
+        datetime="1995-04-16"
+      >
+        平成7年4月16日
+      </time>
+    </z-data-card-item-stub>
+    <div
+      class="z-data-card-stub-slot-header"
+    />
+  </div>
+  <div
+    class="z-data-card-stub"
+    title="居宅サービス計画"
+  >
+    <div
+      class="z-data-card-stub-slot-actions"
+    />
+    <z-data-card-item-stub
+      icon="M19.07 14.88L21.12 16.93L15.06 23H13V20.94L19.07 14.88M21.04 13.13C21.18 13.13 21.31 13.19 21.42 13.3L22.7 14.58C22.92 14.79 22.92 15.14 22.7 15.35L21.7 16.35L19.65 14.3L20.65 13.3C20.76 13.19 20.9 13.13 21.04 13.13M17 4V10L15 8L13 10V4H9V20H11V22H7C5.95 22 5 21.05 5 20V19H3V17H5V13H3V11H5V7H3V5H5V4C5 2.89 5.9 2 7 2H19C20.05 2 21 2.95 21 4V10L19 12V4H17M5 5V7H7V5H5M5 11V13H7V11H5M5 17V19H7V17H5Z"
+      label="居宅サービス計画作成区分"
+      value="居宅介護支援事業所作成"
+    />
+    <!---->
+    <z-data-card-item-stub
+      label="居宅介護支援事業所"
+      value="デイ都立家政"
+    />
+    <z-data-card-item-stub
+      label="担当者の名称"
+      value="倉田 綾"
+    />
+    <div
+      class="z-data-card-stub-slot-header"
+    />
+  </div>
+  <div
+    class="root"
+    data-z-data-table=""
+  >
+    <z-subheader-stub>
+      種類支給限度基準額
+    </z-subheader-stub>
+    <v-card-stub
+      class="py-4"
+      loaderheight="4"
+      tag="div"
+    >
+      <div
+        class="v-data-table theme--light table"
+        data-desktop-table=""
+      >
+        <div
+          class="v-data-table__wrapper"
+        >
+          <table>
+            <colgroup>
+              <col
+                class=""
+              />
+              <col
+                class=""
+              />
+            </colgroup>
+            <thead
+              class="v-data-table-header"
+            >
+              <tr>
+                <th
+                  aria-label="サービスの種類"
+                  class="text-start th-ltcs-ins-card-service-type"
+                  role="columnheader"
+                  scope="col"
+                >
+                  <span>
+                    サービスの種類
+                  </span>
+                </th>
+                <th
+                  aria-label="種類支給限度基準額"
+                  class="text-start th-max-benefit-quota"
+                  role="columnheader"
+                  scope="col"
+                >
+                  <span>
+                    種類支給限度基準額
+                  </span>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                class=""
+              >
+                <td
+                  class="text-start"
+                >
+      サービス種別2
+                </td>
+                <td
+                  class="text-start"
+                >
+                  1月あたり 196,400 単位
+                </td>
+              </tr>
+              <tr
+                class=""
+              >
+                <td
+                  class="text-start"
+                >
+      サービス種別2
+                </td>
+                <td
+                  class="text-start"
+                >
+                  1月あたり 112,000 単位
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <!---->
+    </v-card-stub>
+  </div>
+  <div
+    class="z-data-card-stub"
+    title="介護保険負担割合証情報"
+  >
+    <div
+      class="z-data-card-stub-slot-actions"
+    />
+    <z-data-card-item-stub
+      icon="M11,2V22C5.9,21.5 2,17.2 2,12C2,6.8 5.9,2.5 11,2M13,2V11H22C21.5,6.2 17.8,2.5 13,2M13,13V22C17.7,21.5 21.5,17.8 22,13H13Z"
+      label="利用者負担の割合"
+    >
+      5割
+    </z-data-card-item-stub>
+    <z-data-card-item-stub
+      icon="M9,10H7V12H9V10M13,10H11V12H13V10M17,10H15V12H17V10M19,3H18V1H16V3H8V1H6V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3M19,19H5V8H19V19Z"
+      label="利用者負担適用期間"
+    >
+      <time
+        datetime="2018-09-26"
+      >
+        平成30年9月26日
+      </time>
+      <span>
+        〜
+      </span>
+      <time
+        datetime="2015-09-23"
+      >
+        平成27年9月23日
+      </time>
+    </z-data-card-item-stub>
+    <div
+      class="z-data-card-stub-slot-header"
+    />
+  </div>
+  <z-system-meta-card-stub
+    createdat="1999-09-24T18:52:31+0900"
+    id="10"
+    updatedat="1997-03-16T22:59:34+0900"
+  />
+  <z-fab-speed-dial-stub
+    data-fab=""
+    icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+  >
+    <z-fab-speed-dial-button-stub
+      color="secondary"
+      icon="M3 6V8H14V6H3M3 10V12H14V10H3M20 10.1C19.9 10.1 19.7 10.2 19.6 10.3L18.6 11.3L20.7 13.4L21.7 12.4C21.9 12.2 21.9 11.8 21.7 11.6L20.4 10.3C20.3 10.2 20.2 10.1 20 10.1M18.1 11.9L12 17.9V20H14.1L20.2 13.9L18.1 11.9M3 14V16H10V14H3Z"
+      nuxt=""
+      to="/users/1/ltcs-ins-cards/10/edit"
+    >
+      被保険者証を編集
+    </z-fab-speed-dial-button-stub>
+    <z-fab-speed-dial-button-stub
+      color="secondary"
+      icon="M6,19A2,2 0 0,0 8,21H16A2,2 0 0,0 18,19V7H6V19M8,9H16V19H8V9M15.5,4L14.5,3H9.5L8.5,4H5V6H19V4H15.5Z"
+    >
+      被保険者証を削除
+    </z-fab-speed-dial-button-stub>
+  </z-fab-speed-dial-stub>
+</div>
+`;

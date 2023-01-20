@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-menu-button.vue should be rendered correctly 1`] = `
+<div
+  class="v-menu-stub"
+  offset-y=""
+  transition="slide-y-transition"
+>
+  <div
+    class="v-menu-stub-slot-activator"
+  />
+  <v-list-stub
+    dense="true"
+    tag="div"
+  />
+</div>
+`;

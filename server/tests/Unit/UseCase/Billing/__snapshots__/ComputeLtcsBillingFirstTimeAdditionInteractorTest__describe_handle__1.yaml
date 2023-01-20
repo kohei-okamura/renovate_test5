@@ -1,0 +1,19 @@
+-
+    userId: 1
+    disposition: 2
+    providedOn: '2021-01-02T00:00:00+09:00'
+    serviceCode:
+        serviceDivisionCode: '11'
+        serviceCategoryCode: '4001'
+    serviceCodeCategory: 990201
+    buildingSubtraction: 0
+    noteRequirement: 99
+    isAddition: true
+    isLimited: true
+    durationMinutes: 0
+    unitScore: 200
+    count: 1
+    wholeScore: 200
+    maxBenefitQuotaExcessScore: 0
+    maxBenefitExcessScore: 0
+    totalScore: 200

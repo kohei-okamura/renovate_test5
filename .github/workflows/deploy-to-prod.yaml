@@ -1,0 +1,23 @@
+name: Deploy to Production
+
+on:
+  push:
+    branches:
+      - prod
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+  packages: write
+
+jobs:
+  deploy:
+    uses: eustylelab/zinger/.github/workflows/deploy.yaml@prod
+    with:
+      aws-profile: zinger
+      stage: prod
+      stage-name: 本番環境
+    secrets:
+      aws-role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME_PROD }}
+      slack-webhook: ${{ secrets.SLACK_WEBHOOK }}

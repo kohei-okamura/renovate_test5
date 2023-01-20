@@ -1,0 +1,136 @@
+-
+    recordCount: 11
+    officeCode: '1370406140'
+    dataType: J41
+    transactedIn: '2021-02-01T00:00:00+09:00'
+-
+    recordFormat: '01'
+    providedIn: '2021-01-01T00:00:00+09:00'
+    copayCoordinationExchangeAim: 1
+    cityCode: '131041'
+    copayCoordinationOfficeCode: '1370406140'
+    dwsNumber: '1234567890'
+    userPhoneticDisplayName: タカダジュンジ
+    childPhoneticDisplayName: ''
+    copayLimit: 37200
+    result: 1
+    totalFee: 905677
+    totalCopay: 27900
+    coordinatedCopay: 9300
+-
+    recordFormat: '02'
+    providedIn: '2021-01-01T00:00:00+09:00'
+    cityCode: '131041'
+    copayCoordinationOfficeCode: '1370406140'
+    dwsNumber: '1234567890'
+    itemNumber: 1
+    officeCode: '1370406140'
+    fee: 494009
+    copay: 9300
+    coordinatedCopay: 9300
+-
+    recordFormat: '02'
+    providedIn: '2021-01-01T00:00:00+09:00'
+    cityCode: '131041'
+    copayCoordinationOfficeCode: '1370406140'
+    dwsNumber: '1234567890'
+    itemNumber: 2
+    officeCode: '1313201244'
+    fee: 156059
+    copay: 9300
+    coordinatedCopay: 0
+-
+    recordFormat: '02'
+    providedIn: '2021-01-01T00:00:00+09:00'
+    cityCode: '131041'
+    copayCoordinationOfficeCode: '1370406140'
+    dwsNumber: '1234567890'
+    itemNumber: 3
+    officeCode: '1313202283'
+    fee: 255609
+    copay: 9300
+    coordinatedCopay: 0
+-
+    recordFormat: '01'
+    providedIn: '2021-01-01T00:00:00+09:00'
+    copayCoordinationExchangeAim: 1
+    cityCode: '131041'
+    copayCoordinationOfficeCode: '1370406140'
+    dwsNumber: '1234567890'
+    userPhoneticDisplayName: タカダジュンジ
+    childPhoneticDisplayName: ''
+    copayLimit: 37200
+    result: 1
+    totalFee: 1445241
+    totalCopay: 39159
+    coordinatedCopay: 37200
+-
+    recordFormat: '02'
+    providedIn: '2021-01-01T00:00:00+09:00'
+    cityCode: '131041'
+    copayCoordinationOfficeCode: '1370406140'
+    dwsNumber: '1234567890'
+    itemNumber: 1
+    officeCode: '1370406140'
+    fee: 1425643
+    copay: 37200
+    coordinatedCopay: 37200
+-
+    recordFormat: '02'
+    providedIn: '2021-01-01T00:00:00+09:00'
+    cityCode: '131041'
+    copayCoordinationOfficeCode: '1370406140'
+    dwsNumber: '1234567890'
+    itemNumber: 2
+    officeCode: '1312700691'
+    fee: 19598
+    copay: 1959
+    coordinatedCopay: 0
+-
+    recordFormat: '01'
+    providedIn: '2021-01-01T00:00:00+09:00'
+    copayCoordinationExchangeAim: 1
+    cityCode: '131041'
+    copayCoordinationOfficeCode: '1370406140'
+    dwsNumber: '1234567890'
+    userPhoneticDisplayName: タカダジュンジ
+    childPhoneticDisplayName: ''
+    copayLimit: 37200
+    result: 1
+    totalFee: 1359927
+    totalCopay: 17942
+    coordinatedCopay: 9300
+-
+    recordFormat: '02'
+    providedIn: '2021-01-01T00:00:00+09:00'
+    cityCode: '131041'
+    copayCoordinationOfficeCode: '1370406140'
+    dwsNumber: '1234567890'
+    itemNumber: 1
+    officeCode: '1370406140'
+    fee: 1273501
+    copay: 9300
+    coordinatedCopay: 9300
+-
+    recordFormat: '02'
+    providedIn: '2021-01-01T00:00:00+09:00'
+    cityCode: '131041'
+    copayCoordinationOfficeCode: '1370406140'
+    dwsNumber: '1234567890'
+    itemNumber: 2
+    officeCode: '1372700235'
+    fee: 73466
+    copay: 7346
+    coordinatedCopay: 0
+-
+    recordFormat: '02'
+    providedIn: '2021-01-01T00:00:00+09:00'
+    cityCode: '131041'
+    copayCoordinationOfficeCode: '1370406140'
+    dwsNumber: '1234567890'
+    itemNumber: 3
+    officeCode: '1313600205'
+    fee: 12960
+    copay: 1296
+    coordinatedCopay: 0
+- {  }

@@ -1,0 +1,36 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 介護保険サービス：訪問介護：算定情報
+type: object
+properties:
+  id:
+    description: 算定情報 ID
+    type: object
+  officeId:
+    description: 事業所 ID
+    type: object
+  period:
+    $ref: '#/components/schemas/DateRange'
+  specifiedOfficeAddition:
+    $ref: '#/components/schemas/HomeVisitLongTermCareSpecifiedOfficeAddition'
+  treatmentImprovementAddition:
+    $ref: '#/components/schemas/LtcsTreatmentImprovementAddition'
+  specifiedTreatmentImprovementAddition:
+    $ref: '#/components/schemas/LtcsSpecifiedTreatmentImprovementAddition'
+  locationAddition:
+    $ref: '#/components/schemas/LtcsOfficeLocationAddition'
+  baseIncreaseSupportAddition:
+    $ref: '#/components/schemas/LtcsBaseIncreaseSupportAddition'
+  isEnabled:
+    description: 有効フラグ
+    type: boolean
+  version:
+    description: バージョン
+    type: number
+  createdAt:
+    $ref: '#/components/schemas/DateLike'
+  updatedAt:
+    $ref: '#/components/schemas/DateLike'

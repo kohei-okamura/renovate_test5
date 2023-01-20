@@ -1,0 +1,47 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+get:
+  summary: 障害福祉サービス契約取得
+  description: 契約（障害福祉サービス）の詳細を取得する。
+  parameters:
+    - $ref: '#/components/parameters/userId'
+    - $ref: '#/components/parameters/dwsContractId'
+  responses:
+    '200':
+      description: 正常に処理が行われた場合
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              contract:
+                $ref: '#/components/schemas/Contract'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+    '404':
+      description: 利用者 ID に対応する利用者、もしくは障害福祉契約 ID に対応する障害福祉契約が存在しない場合
+  tags:
+    - 利用者：障害福祉サービス契約
+put:
+  summary: 障害福祉サービス契約更新
+  description: 契約（障害福祉サービス）情報を更新する。
+  parameters:
+    - $ref: '#/components/parameters/userId'
+    - $ref: '#/components/parameters/dwsContractId'
+  requestBody:
+    content:
+      application/json:
+        schema:
+          $ref: '#/components/schemas/DwsContractForm'
+  responses:
+    '200':
+      $ref: '#/components/responses/OK'
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+    '404':
+      description: 利用者 ID に対応する利用者、もしくは障害福祉契約 ID に対応する障害福祉契約が存在しない場合
+  tags:
+    - 利用者：障害福祉サービス契約

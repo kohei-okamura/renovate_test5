@@ -1,0 +1,46 @@
+-
+    id: null
+    userId: 1
+    category: 121000
+    isEmergency: false
+    isFirst: false
+    isBehavioralDisorderSupportCooperation: false
+    providedOn: '2021-04-01T00:00:00+09:00'
+    range:
+        start: '2021-04-01T21:45:00+09:00'
+        end: '2021-04-02T00:15:00+09:00'
+    fragments:
+        -
+            isHospitalized: false
+            isLongHospitalized: false
+            isCoaching: false
+            isMoving: false
+            isSecondary: false
+            movingDurationMinutes: 0
+            range:
+                start: '2021-04-01T21:45:00+09:00'
+                end: '2021-04-02T00:15:00+09:00'
+            headcount: 1
+-
+    id: null
+    userId: 1
+    category: 121000
+    isEmergency: false
+    isFirst: false
+    isBehavioralDisorderSupportCooperation: false
+    providedOn: '2021-04-02T00:00:00+09:00'
+    range:
+        start: '2021-04-02T00:15:00+09:00'
+        end: '2021-04-02T02:45:00+09:00'
+    fragments:
+        -
+            isHospitalized: false
+            isLongHospitalized: false
+            isCoaching: false
+            isMoving: false
+            isSecondary: false
+            movingDurationMinutes: 0
+            range:
+                start: '2021-04-02T00:15:00+09:00'
+                end: '2021-04-02T02:45:00+09:00'
+            headcount: 1

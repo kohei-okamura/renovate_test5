@@ -1,0 +1,55 @@
+{
+  "name": "@zinger/service-code-api",
+  "version": "0.1.0",
+  "license": "UNLICENSED",
+  "bin": {
+    "service-code-api": "bin/service-code-api.js"
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig-build.json",
+    "cdk:prod": "cdk --profile zinger --app 'yarn ts-node bin/service-code-api.prod.ts'",
+    "cdk:staging": "cdk --profile zinger-staging --app 'yarn ts-node bin/service-code-api.staging.ts'",
+    "deploy:prepare:clean": "run-s clean",
+    "deploy:prepare:setup": "run-s setup:db",
+    "deploy:prepare:build": "run-s build",
+    "deploy:staging": "run-s deploy:prepare:* deploy:staging:run",
+    "deploy:staging:run": "yarn cdk:staging deploy",
+    "deploy:prod": "run-s deploy:prepare:* deploy:prod:run",
+    "deploy:prod:run": "yarn cdk:prod deploy",
+    "clean": "rimraf *.{js,d.ts,tsbuildinfo} {bin,test}/*.{js,d.ts} cdk.out lib/**/*.{js,d.ts}",
+    "find:ltcs-home-visit-long-term-care": "ts-node bin/find-ltcs-home-visit-long-term-care-entry.ts",
+    "output:csv:dws": "ts-node bin/output-csv-dws.ts",
+    "output:csv:ltcs": "ts-node bin/output-csv-ltcs.ts",
+    "setup:db": "ts-node bin/setup-db.ts",
+    "test": "jest",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "@zinger/enums": "^1.0.0",
+    "aws-cdk-lib": "^2.33.0",
+    "better-sqlite3": "^7.5.0",
+    "commander": "^9.0.0",
+    "constructs": "^10.0.0",
+    "csv-parse": "^5.0.4",
+    "csv-stringify": "^6.0.5",
+    "immutable": "^4.0.0",
+    "jaco": "^4.0.0",
+    "knex": "^1.0.3",
+    "npm-run-all": "^4.1.5",
+    "parsimmon": "^1.18.1",
+    "source-map-support": "^0.5.20",
+    "ts-node": "^10.4.0",
+    "xlsx": "^0.18.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.92",
+    "@types/better-sqlite3": "^7.4.2",
+    "@types/node": "^17.0.14",
+    "@types/parsimmon": "^1.10.6",
+    "aws-cdk": "^2.33.0",
+    "aws-lambda": "^1.0.7",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.4.0",
+    "typescript": "~4.7.3"
+  }
+}

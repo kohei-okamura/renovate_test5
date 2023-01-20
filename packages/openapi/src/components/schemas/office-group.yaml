@@ -1,0 +1,24 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 事業所グループ
+type: object
+properties:
+  id:
+    description: 事業所グループ ID
+    type: object
+  parentOfficeGroupId:
+    description: 親事業所グループ ID
+    type: object
+  name:
+    description: 名称
+    type: string
+  sortOrder:
+    description: 表示順
+    type: number
+  createdAt:
+    $ref: '#/components/schemas/DateLike'
+  updatedAt:
+    $ref: '#/components/schemas/DateLike'

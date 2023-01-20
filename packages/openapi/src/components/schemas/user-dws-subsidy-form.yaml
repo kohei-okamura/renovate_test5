@@ -1,0 +1,40 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+description: 自治体助成情報登録／更新フォーム
+type: object
+properties:
+  period:
+    $ref: '#/components/schemas/PeriodForm'
+  cityName:
+    description: 助成自治体名
+    type: string
+  cityCode:
+    description: 助成自治体番号
+    type: string
+  subsidyType:
+    $ref: '#/components/schemas/UserDwsSubsidyType'
+  factor:
+    $ref: '#/components/schemas/UserDwsSubsidyFactor'
+  benefitRate:
+    description: 給付率
+    type: integer
+  copayRate:
+    description: 本人負担率
+    type: integer
+  rounding:
+    $ref: '#/components/schemas/Rounding'
+  benefitAmount:
+    description: 給付額
+    type: integer
+  copayAmount:
+    description: 本人負担額
+    type: integer
+  note:
+    description: 備考
+    type: string
+required:
+  - period
+  - cityName
+  - cityCode
+  - subsidyType

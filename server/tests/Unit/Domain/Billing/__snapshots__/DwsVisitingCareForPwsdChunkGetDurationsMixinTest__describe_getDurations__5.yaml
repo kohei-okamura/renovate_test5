@@ -1,0 +1,136 @@
+chunk:
+    id: null
+    userId: 1
+    category: 121000
+    isEmergency: false
+    isFirst: false
+    isBehavioralDisorderSupportCooperation: false
+    providedOn: '2021-04-01T00:00:00+09:00'
+    range:
+        start: '2021-04-01T04:00:00+09:00'
+        end: '2021-04-01T12:00:00+09:00'
+    fragments:
+        -
+            isHospitalized: false
+            isLongHospitalized: false
+            isCoaching: false
+            isMoving: false
+            isSecondary: false
+            movingDurationMinutes: 0
+            range:
+                start: '2021-04-01T04:00:00+09:00'
+                end: '2021-04-01T12:00:00+09:00'
+            headcount: 1
+        -
+            isHospitalized: false
+            isLongHospitalized: false
+            isCoaching: false
+            isMoving: false
+            isSecondary: true
+            movingDurationMinutes: 0
+            range:
+                start: '2021-04-01T06:00:00+09:00'
+                end: '2021-04-01T09:00:00+09:00'
+            headcount: 1
+        -
+            isHospitalized: false
+            isLongHospitalized: false
+            isCoaching: false
+            isMoving: true
+            isSecondary: false
+            movingDurationMinutes: 180
+            range:
+                start: '2021-04-01T04:00:00+09:00'
+                end: '2021-04-01T12:00:00+09:00'
+            headcount: 1
+        -
+            isHospitalized: false
+            isLongHospitalized: false
+            isCoaching: false
+            isMoving: true
+            isSecondary: true
+            movingDurationMinutes: 180
+            range:
+                start: '2021-04-01T06:00:00+09:00'
+                end: '2021-04-01T09:00:00+09:00'
+            headcount: 1
+durations:
+    -
+        -
+            category: 121000
+            isHospitalized: false
+            isLongHospitalized: false
+            isCoaching: false
+            isMoving: false
+            isSecondary: false
+            providedOn: '2021-04-01T00:00:00+09:00'
+            timeframe: 4
+            duration: 120
+            headcount: 1
+        -
+            category: 121000
+            isHospitalized: false
+            isLongHospitalized: false
+            isCoaching: false
+            isMoving: false
+            isSecondary: false
+            providedOn: '2021-04-01T00:00:00+09:00'
+            timeframe: 2
+            duration: 120
+            headcount: 1
+        -
+            category: 121000
+            isHospitalized: false
+            isLongHospitalized: false
+            isCoaching: false
+            isMoving: false
+            isSecondary: false
+            providedOn: '2021-04-01T00:00:00+09:00'
+            timeframe: 1
+            duration: 240
+            headcount: 1
+        -
+            category: 121000
+            isHospitalized: false
+            isLongHospitalized: false
+            isCoaching: false
+            isMoving: true
+            isSecondary: false
+            providedOn: '2021-04-01T00:00:00+09:00'
+            timeframe: 9
+            duration: 180
+            headcount: 1
+    -
+        -
+            category: 121000
+            isHospitalized: false
+            isLongHospitalized: false
+            isCoaching: false
+            isMoving: false
+            isSecondary: true
+            providedOn: '2021-04-01T00:00:00+09:00'
+            timeframe: 2
+            duration: 120
+            headcount: 1
+        -
+            category: 121000
+            isHospitalized: false
+            isLongHospitalized: false
+            isCoaching: false
+            isMoving: false
+            isSecondary: true
+            providedOn: '2021-04-01T00:00:00+09:00'
+            timeframe: 1
+            duration: 60
+            headcount: 1
+        -
+            category: 121000
+            isHospitalized: false
+            isLongHospitalized: false
+            isCoaching: false
+            isMoving: true
+            isSecondary: true
+            providedOn: '2021-04-01T00:00:00+09:00'
+            timeframe: 9
+            duration: 180
+            headcount: 1

@@ -1,0 +1,28 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 障害福祉サービス：利用者別算定情報
+type: object
+properties:
+  id:
+    description: 利用者別算定情報 ID
+    type: object
+  userId:
+    description: 利用者 ID
+    type: object
+  effectivatedOn:
+    $ref: '#/components/schemas/DateLike'
+  locationAddition:
+    $ref: '#/components/schemas/DwsUserLocationAddition'
+  isEnabled:
+    description: 有効フラグ
+    type: boolean
+  version:
+    description: バージョン
+    type: number
+  createdAt:
+    $ref: '#/components/schemas/DateLike'
+  updatedAt:
+    $ref: '#/components/schemas/DateLike'

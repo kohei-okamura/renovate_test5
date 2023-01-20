@@ -1,0 +1,86 @@
+{
+    "id": null,
+    "dwsBillingId": 3,
+    "dwsBillingBundleId": 1,
+    "subsidyCityCode": "123456",
+    "user": {
+        "userId": 1,
+        "dwsCertificationId": 10,
+        "dwsNumber": "0123456789",
+        "name": "\u30ca\u30de\u30a8",
+        "childName": "\u30aa\u30ca\u30de\u30a8",
+        "copayLimit": 10000
+    },
+    "dwsAreaGradeName": "\u5730\u57df\u533a\u5206\u540d",
+    "dwsAreaGradeCode": "28",
+    "copayLimit": null,
+    "totalScore": 1000,
+    "totalFee": 1000,
+    "totalCappedCopay": 1000,
+    "totalAdjustedCopay": 1000,
+    "totalCoordinatedCopay": 1000,
+    "totalCopay": 1000,
+    "totalBenefit": 1000,
+    "totalSubsidy": 1000,
+    "isProvided": false,
+    "copayCoordination": {
+        "office": {
+            "officeId": 1,
+            "code": "123456",
+            "name": "\u4e8b\u696d\u62401",
+            "abbr": "\u4e8b\u696d1",
+            "addr": {
+                "postcode": "739-0604",
+                "prefecture": 34,
+                "city": "\u5927\u7af9\u5e02",
+                "street": "\u5317\u68041-13-11",
+                "apartment": "\u5317\u6804\u8358411"
+            },
+            "tel": "090-3169-6661"
+        },
+        "result": 1,
+        "amount": 1000
+    },
+    "copayCoordinationStatus": 11,
+    "aggregates": [
+        {
+            "serviceDivisionCode": "12",
+            "startedOn": "2019-05-14T00:00:00+0900",
+            "terminatedOn": "2019-05-15T00:00:00+0900",
+            "serviceDays": 3,
+            "subtotalScore": 1000,
+            "unitCost": 100000,
+            "subtotalFee": 1000,
+            "unmanagedCopay": 1000,
+            "managedCopay": 1000,
+            "cappedCopay": 1000,
+            "adjustedCopay": 1000,
+            "coordinatedCopay": 1000,
+            "subtotalCopay": 1000,
+            "subtotalBenefit": 1000,
+            "subtotalSubsidy": 1000
+        }
+    ],
+    "contracts": [
+        {
+            "dwsGrantedServiceCode": "112000",
+            "grantedAmount": 1000,
+            "agreedOn": "2019-04-15T00:00:00+0900",
+            "expiredOn": "2019-05-15T00:00:00+0900",
+            "indexNumber": 1
+        }
+    ],
+    "items": [
+        {
+            "serviceCode": "123456",
+            "serviceCodeCategory": 111000,
+            "unitScore": 200,
+            "count": 10,
+            "totalScore": 2000
+        }
+    ],
+    "status": 10,
+    "fixedAt": "2019-05-15T00:00:00+0900",
+    "createdAt": "2019-05-15T00:00:00+0900",
+    "updatedAt": "2019-05-15T00:00:00+0900"
+}

@@ -1,0 +1,24 @@
+/*
+ * Copyright © 2019 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+ * UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+ */
+@import '~vuetify/src/styles/styles';
+
+.z-app {
+  // disabled なチェックボックスを更に薄くする
+  .theme--light.v-icon.v-icon.v-icon--disabled {
+    color: rgba(0, 0, 0, 0.15) !important;
+  }
+  // ペジネーションをフラットに表示する.
+  .v-pagination {
+    .v-pagination__item,
+    .v-pagination__navigation {
+      box-shadow: none;
+      outline: none;
+    }
+  }
+  // 数値入力フィールドを右寄せにする
+  input[type=number] {
+    text-align: right;
+  }
+}

@@ -1,0 +1,19 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 利用者請求：振替結果コード
+name: WithdrawalResultCode
+php:
+  enabled: true
+  namespace: UserBilling
+typescript:
+  enabled: true
+items:
+  - { description: 振替済, name: done, value: 0 }
+  - { description: 資金不足, name: shortage, value: 1 }
+  - { description: 取引なし, name: noAccount, value: 2 }
+  - { description: 預金者都合, name: depositorCause, value: 3 }
+  - { description: 依頼書なし, name: noRequest, value: 4 }
+  - { description: 委託者都合, name: bankingClientCause, value: 8 }
+  - { description: その他, name: other, value: 9 }
+  - { description: 未処理, name: pending, value: 99 }

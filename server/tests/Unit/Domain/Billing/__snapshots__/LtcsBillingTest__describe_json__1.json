@@ -1,0 +1,31 @@
+{
+    "id": null,
+    "office": {
+        "officeId": 7850,
+        "code": "1222828353",
+        "name": "\u6709\u9650\u4f1a\u793e \u6e1a",
+        "abbr": "\u6709\u9650\u4f1a\u793e \u6d5c\u7530",
+        "addr": {
+            "postcode": "889-1612",
+            "prefecture": 45,
+            "city": "\u5bae\u5d0e\u5e02",
+            "street": "\u6e05\u6b66\u753a\u5ca13-1-19",
+            "apartment": ""
+        },
+        "tel": "080-9288-5672"
+    },
+    "transactedIn": "2021-04-01T00:00:00+0900",
+    "files": [
+        {
+            "name": "\u4ecb\u8b77\u7d66\u4ed8\u8cbb\u8acb\u6c42\u66f8\u30fb\u660e\u7d30\u66f8_\u65b0\u5bbf_202012.csv",
+            "token": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            "mimeType": "text\/csv",
+            "createdAt": "2001-09-04T06:50:24+0900",
+            "downloadedAt": "2006-06-13T17:07:40+0900"
+        }
+    ],
+    "status": 99,
+    "fixedAt": "1999-09-29T03:04:14+0900",
+    "createdAt": "2009-06-07T21:14:26+0900",
+    "updatedAt": "1988-12-08T13:08:20+0900"
+}

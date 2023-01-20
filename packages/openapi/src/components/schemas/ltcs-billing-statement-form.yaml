@@ -1,0 +1,22 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+description: 介護保険サービス：明細書更新フォーム
+type: object
+properties:
+  aggregates:
+    type: array
+    items:
+      description: 集計
+      type: object
+      properties:
+        serviceDivisionCode:
+          $ref: '#/components/schemas/LtcsServiceDivisionCode'
+        plannedScore:
+          description: 計画単位数
+          type: integer
+      required:
+        - serviceDivisionCode
+        - plannedScore
+required:
+  - aggregates

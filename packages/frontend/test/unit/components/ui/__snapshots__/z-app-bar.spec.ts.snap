@@ -1,0 +1,417 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-app-bar.vue notification should not show badge when it does not have notifications 1`] = `
+<span
+  class="v-badge mx-2 v-badge--overlap theme--light"
+  data-notification-icon=""
+>
+  <a
+    class="v-btn-stub"
+    data-button=""
+    disabled="disabled"
+    icon=""
+    small=""
+  >
+    <v-icon-stub
+      color="white"
+      dark=""
+    >
+      M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M14,21A2,2 0 0,1 12,23A2,2 0 0,1 10,21
+    </v-icon-stub>
+  </a>
+  <span
+    class="v-badge__wrapper"
+  >
+    <transition-stub
+      name="scale-rotate-transition"
+    >
+      <span
+        aria-atomic="true"
+        aria-label="Badge"
+        aria-live="polite"
+        class="v-badge__badge primary"
+        role="status"
+        style="bottom: calc(100% - 16px); left: calc(100% - 16px); display: none;"
+      />
+    </transition-stub>
+  </span>
+</span>
+`;
+
+exports[`z-app-bar.vue notification should show badge when it has notifications 1`] = `
+<span
+  class="v-badge mx-2 v-badge--overlap theme--light"
+  data-notification-icon=""
+>
+  <a
+    class="v-btn-stub"
+    data-button=""
+    icon=""
+    small=""
+  >
+    <v-icon-stub
+      color="white"
+      dark=""
+    >
+      M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M14,21A2,2 0 0,1 12,23A2,2 0 0,1 10,21
+    </v-icon-stub>
+  </a>
+  <span
+    class="v-badge__wrapper"
+  >
+    <transition-stub
+      name="scale-rotate-transition"
+    >
+      <span
+        aria-atomic="true"
+        aria-label="Badge"
+        aria-live="polite"
+        class="v-badge__badge primary"
+        role="status"
+        style="bottom: calc(100% - 16px); left: calc(100% - 16px);"
+      >
+        3
+      </span>
+    </transition-stub>
+  </span>
+</span>
+`;
+
+exports[`z-app-bar.vue should be rendered correctly 1`] = `
+<v-app-bar-stub
+  app="true"
+  class="root"
+  color="secondary"
+  dark="true"
+  data-z-app-bar=""
+  dense="true"
+  elevateonscroll="true"
+  extended="true"
+  extensionheight="32"
+  fixed="true"
+  src=""
+  tag="header"
+  value="true"
+>
+  <button
+    class="v-app-bar__nav-icon z-app-bar__menu-button v-btn v-btn--icon v-btn--round theme--light v-size--default"
+    data-menu-button=""
+    type="button"
+  >
+    <span
+      class="v-btn__content"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate mdi mdi-menu theme--light"
+      />
+    </span>
+  </button>
+  <v-toolbar-title-stub
+    tag="div"
+  >
+    <a
+      class="title"
+    >
+      careid
+    </a>
+  </v-toolbar-title-stub>
+  <v-spacer-stub
+    tag="div"
+  />
+  <span
+    class="v-badge mx-2 v-badge--overlap theme--light"
+    data-notification-icon=""
+  >
+    <a
+      class="v-btn-stub"
+      data-button=""
+      disabled="disabled"
+      icon=""
+      small=""
+    >
+      <v-icon-stub
+        color="white"
+        dark=""
+      >
+        M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M14,21A2,2 0 0,1 12,23A2,2 0 0,1 10,21
+      </v-icon-stub>
+    </a>
+    <span
+      class="v-badge__wrapper"
+    >
+      <transition-stub
+        name="scale-rotate-transition"
+      >
+        <span
+          aria-atomic="true"
+          aria-label="Badge"
+          aria-live="polite"
+          class="v-badge__badge primary"
+          role="status"
+          style="bottom: calc(100% - 16px); left: calc(100% - 16px); display: none;"
+        />
+      </transition-stub>
+    </span>
+  </span>
+  <div
+    class="v-menu-stub"
+    offset-y=""
+  >
+    <div
+      class="v-menu-stub-slot-activator"
+    />
+    <v-list-stub
+      dense="true"
+      tag="div"
+    >
+      <v-list-item-stub
+        activeclass=""
+        tag="div"
+      >
+        <v-list-item-content-stub
+          tag="div"
+        >
+          <v-list-item-title-stub
+            tag="div"
+          >
+            登録情報を編集
+          </v-list-item-title-stub>
+        </v-list-item-content-stub>
+      </v-list-item-stub>
+      <v-list-item-stub
+        activeclass=""
+        disabled="true"
+        tag="div"
+      >
+        <v-list-item-content-stub
+          tag="div"
+        >
+          <v-list-item-title-stub
+            tag="div"
+          >
+            デスクトップ通知は有効です
+          </v-list-item-title-stub>
+        </v-list-item-content-stub>
+      </v-list-item-stub>
+      <v-list-item-stub
+        activeclass=""
+        tag="div"
+      >
+        <v-list-item-content-stub
+          tag="div"
+        >
+          <v-list-item-title-stub
+            tag="div"
+          >
+            ログアウト
+          </v-list-item-title-stub>
+        </v-list-item-content-stub>
+      </v-list-item-stub>
+      <v-list-item-stub
+        activeclass=""
+        tag="div"
+      >
+        <v-list-item-content-stub
+          tag="div"
+        >
+          <v-list-item-title-stub
+            tag="div"
+          >
+            開発者モード
+          </v-list-item-title-stub>
+          <div
+            class="v-input px-2 py-1 theme--light v-input--selection-controls v-input--switch v-input--switch--inset"
+          >
+            <div
+              class="v-input__control"
+            >
+              <div
+                class="v-input__slot"
+              >
+                <div
+                  class="v-input--selection-controls__input"
+                >
+                  <input
+                    aria-checked="false"
+                    aria-disabled="false"
+                    role="switch"
+                    type="checkbox"
+                    value=""
+                  />
+                  <div
+                    class="v-input--selection-controls__ripple"
+                  />
+                  <div
+                    class="v-input--switch__track theme--light"
+                  />
+                  <div
+                    class="v-input--switch__thumb theme--light"
+                  >
+                    <transition-stub
+                      mode="out-in"
+                      name="fab-transition"
+                    />
+                  </div>
+                </div>
+                <label
+                  class="v-label theme--light"
+                  style="left: 0px; position: relative;"
+                >
+                  無効
+                </label>
+              </div>
+              <div
+                class="v-messages theme--light"
+              >
+                <transition-group-stub
+                  class="v-messages__wrapper"
+                  name="message-transition"
+                  tag="div"
+                />
+              </div>
+            </div>
+          </div>
+        </v-list-item-content-stub>
+      </v-list-item-stub>
+    </v-list-stub>
+  </div>
+</v-app-bar-stub>
+`;
+
+exports[`z-app-bar.vue should be rendered correctly when the staff is not an administrator 1`] = `
+<v-app-bar-stub
+  app="true"
+  class="root"
+  color="secondary"
+  dark="true"
+  data-z-app-bar=""
+  dense="true"
+  elevateonscroll="true"
+  extended="true"
+  extensionheight="32"
+  fixed="true"
+  src=""
+  tag="header"
+  value="true"
+>
+  <button
+    class="v-app-bar__nav-icon z-app-bar__menu-button v-btn v-btn--icon v-btn--round theme--light v-size--default"
+    data-menu-button=""
+    type="button"
+  >
+    <span
+      class="v-btn__content"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate mdi mdi-menu theme--light"
+      />
+    </span>
+  </button>
+  <v-toolbar-title-stub
+    tag="div"
+  >
+    <a
+      class="title"
+    >
+      careid
+    </a>
+  </v-toolbar-title-stub>
+  <v-spacer-stub
+    tag="div"
+  />
+  <span
+    class="v-badge mx-2 v-badge--overlap theme--light"
+    data-notification-icon=""
+  >
+    <a
+      class="v-btn-stub"
+      data-button=""
+      disabled="disabled"
+      icon=""
+      small=""
+    >
+      <v-icon-stub
+        color="white"
+        dark=""
+      >
+        M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M14,21A2,2 0 0,1 12,23A2,2 0 0,1 10,21
+      </v-icon-stub>
+    </a>
+    <span
+      class="v-badge__wrapper"
+    >
+      <transition-stub
+        name="scale-rotate-transition"
+      >
+        <span
+          aria-atomic="true"
+          aria-label="Badge"
+          aria-live="polite"
+          class="v-badge__badge primary"
+          role="status"
+          style="bottom: calc(100% - 16px); left: calc(100% - 16px); display: none;"
+        />
+      </transition-stub>
+    </span>
+  </span>
+  <div
+    class="v-menu-stub"
+    offset-y=""
+  >
+    <div
+      class="v-menu-stub-slot-activator"
+    />
+    <v-list-stub
+      dense="true"
+      tag="div"
+    >
+      <v-list-item-stub
+        activeclass=""
+        tag="div"
+      >
+        <v-list-item-content-stub
+          tag="div"
+        >
+          <v-list-item-title-stub
+            tag="div"
+          >
+            登録情報を編集
+          </v-list-item-title-stub>
+        </v-list-item-content-stub>
+      </v-list-item-stub>
+      <v-list-item-stub
+        activeclass=""
+        disabled="true"
+        tag="div"
+      >
+        <v-list-item-content-stub
+          tag="div"
+        >
+          <v-list-item-title-stub
+            tag="div"
+          >
+            デスクトップ通知は有効です
+          </v-list-item-title-stub>
+        </v-list-item-content-stub>
+      </v-list-item-stub>
+      <v-list-item-stub
+        activeclass=""
+        tag="div"
+      >
+        <v-list-item-content-stub
+          tag="div"
+        >
+          <v-list-item-title-stub
+            tag="div"
+          >
+            ログアウト
+          </v-list-item-title-stub>
+        </v-list-item-content-stub>
+      </v-list-item-stub>
+      <!---->
+    </v-list-stub>
+  </div>
+</v-app-bar-stub>
+`;

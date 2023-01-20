@@ -1,0 +1,17 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 介護保険サービス：明細書：集計：公費
+type: object
+properties:
+  totalScore:
+    description: 単位数合計
+    type: number
+  claimAmount:
+    description: 請求額
+    type: number
+  copayAmount:
+    description: 本人負担額
+    type: number

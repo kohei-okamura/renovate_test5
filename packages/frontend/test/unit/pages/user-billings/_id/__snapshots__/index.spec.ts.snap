@@ -1,0 +1,3811 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/user-billings/_id/index.vue download download invoice should display errors when error occurred in useUserBillingFileDownloader.downloadInvoices 1`] = `
+<div
+  class="v-alert__content"
+>
+      不正なidが含まれています。
+  <br />
+      発行日が不正です。
+  <br />
+</div>
+`;
+
+exports[`pages/user-billings/_id/index.vue download download notice should display errors when error occurred in useUserBillingFileDownloader.downloadNotices 1`] = `
+<div
+  class="v-alert__content"
+>
+      不正なidが含まれています。
+  <br />
+      発行日が不正です。
+  <br />
+</div>
+`;
+
+exports[`pages/user-billings/_id/index.vue download download receipt should display errors when error occurred in useUserBillingFileDownloader.downloadReceipts 1`] = `
+<div
+  class="v-alert__content"
+>
+      不正なidが含まれています。
+  <br />
+      発行日が不正です。
+  <br />
+</div>
+`;
+
+exports[`pages/user-billings/_id/index.vue download download statement should display errors when error occurred in useUserBillingFileDownloader.downloadStatements 1`] = `
+<div
+  class="v-alert__content"
+>
+      不正なidが含まれています。
+  <br />
+      発行日が不正です。
+  <br />
+</div>
+`;
+
+exports[`pages/user-billings/_id/index.vue should be rendered correctly if the paymentMethod is withdrawal 1`] = `
+<div
+  breadcrumbs="[object Object],[object Object]"
+  class="z-page-stub"
+  compact="compact"
+>
+  <div
+    class="z-page-stub-slot-tabs"
+  />
+  <div
+    class="z-page-stub-slot-title"
+  />
+  <!---->
+  <div
+    class="z-data-card-stub"
+    title="事業所"
+  >
+    <div
+      class="z-data-card-stub-slot-actions"
+    />
+    <z-data-card-item-stub
+      icon="M18,15H16V17H18M18,11H16V13H18M20,19H12V17H14V15H12V13H14V11H12V9H20M10,7H8V5H10M10,11H8V9H10M10,15H8V13H10M10,19H8V17H10M6,7H4V5H6M6,11H4V9H6M6,15H4V13H6M6,19H4V17H6M12,7V3H2V21H22V7H12Z"
+      label="事業所名"
+    >
+      <a>
+        土屋訪問介護事業所 山形
+      </a>
+    </z-data-card-item-stub>
+    <div
+      class="z-data-card-stub-slot-header"
+    />
+  </div>
+  <div
+    class="z-data-card-stub"
+    title="利用者"
+  >
+    <div
+      class="z-data-card-stub-slot-actions"
+    />
+    <z-data-card-item-stub
+      icon="M10 4a2 2 0 104 0 2 2 0 10-4 0M19 13v-2c-1.54.02-3.09-.75-4.07-1.83l-1.29-1.43c-.17-.19-.38-.34-.61-.45-.01 0-.01-.01-.02-.01H13c-.35-.2-.75-.3-1.19-.26C10.76 7.11 10 8.04 10 9.09V15c0 1.1.9 2 2 2h5v5h2v-5.5c0-1.1-.9-2-2-2h-3v-3.45c1.29 1.07 3.25 1.94 5 1.95zm-6.17 5c-.41 1.16-1.52 2-2.83 2-1.66 0-3-1.34-3-3 0-1.31.84-2.41 2-2.83V12.1a5 5 0 105.9 5.9h-2.07z"
+      label="氏名"
+    >
+      <a>
+        野村 真一
+      </a>
+    </z-data-card-item-stub>
+    <div
+      class="z-data-card-stub-slot-header"
+    />
+  </div>
+  <div>
+    <div
+      class="z-data-card-stub"
+      title="請求先"
+    >
+      <div
+        class="z-data-card-stub-slot-actions"
+      />
+      <z-data-card-item-stub
+        icon="M7,2H17A2,2 0 0,1 19,4V20A2,2 0 0,1 17,22H7A2,2 0 0,1 5,20V4A2,2 0 0,1 7,2M7,4V8H17V4H7M7,10V12H9V10H7M11,10V12H13V10H11M15,10V12H17V10H15M7,14V16H9V14H7M11,14V16H13V14H11M15,14V16H17V14H15M7,18V20H9V18H7M11,18V20H13V18H11M15,18V20H17V18H15Z"
+        label="請求先"
+        value="本人"
+      />
+      <z-data-card-item-stub
+        icon="M5,3C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V16.72C21.59,16.37 22,15.74 22,15V9C22,8.26 21.59,7.63 21,7.28V5A2,2 0 0,0 19,3H5M5,5H19V7H13A2,2 0 0,0 11,9V15A2,2 0 0,0 13,17H19V19H5V5M13,9H20V15H13V9M16,10.5A1.5,1.5 0 0,0 14.5,12A1.5,1.5 0 0,0 16,13.5A1.5,1.5 0 0,0 17.5,12A1.5,1.5 0 0,0 16,10.5Z"
+        label="支払方法"
+        value="口座振替"
+      />
+      <z-data-card-item-stub
+        label="契約者番号"
+        value="3080960011"
+      />
+      <!---->
+      <!---->
+      <!---->
+      <div
+        class="z-data-card-stub-slot-header"
+      />
+    </div>
+    <z-prompt-dialog-stub
+      cancelable="true"
+      options="[object Object]"
+    />
+  </div>
+  <z-bank-account-card-stub
+    bankaccountholder="イワブチ マサヤ"
+    bankaccountnumber="1279199"
+    bankaccounttype="1"
+    bankbranchcode="001"
+    bankbranchname="本店"
+    bankcode="0039"
+    bankname="じぶん"
+    createdat="2016-10-11T10:15:55+0900"
+    id="59"
+    title="銀行口座"
+    updatedat="1977-04-01T00:14:11+0900"
+  >
+    <!---->
+  </z-bank-account-card-stub>
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    opendelay="0"
+    origin="center center"
+    persistent="true"
+    retainfocus="true"
+    transition="dialog"
+    width="640"
+  >
+    <v-card-stub
+      loaderheight="4"
+      tag="div"
+    >
+      <z-card-titlebar-stub
+        color="blue-grey"
+        data-title=""
+      >
+      銀行口座情報を編集
+      </z-card-titlebar-stub>
+      <div
+        class="pt-6"
+      >
+        <z-form-card-item-set-stub
+          icon="M6.5,10H4.5V17H6.5V10M12.5,10H10.5V17H12.5V10M21,19H2V21H21V19M18.5,10H16.5V17H18.5V10M11.5,3.26L16.71,6H6.29L11.5,3.26M11.5,1L2,6V8H21V6L11.5,1Z"
+          label=""
+        >
+          <v-row-stub
+            nogutters="true"
+            tag="div"
+          >
+            <v-col-stub
+              cols="12"
+              sm="6"
+              tag="div"
+            >
+              <div
+                class="root"
+                data-bank-name=""
+                data-z-form-card-item=""
+              >
+                <div
+                  class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"
+                >
+                  <div
+                    class="v-input__control"
+                  >
+                    <div
+                      class="v-input__slot"
+                      style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                    >
+                      <fieldset
+                        aria-hidden="true"
+                      >
+                        <legend
+                          style="width: -24px;"
+                        >
+                          <span
+                            class="notranslate"
+                          >
+                            ​
+                          </span>
+                        </legend>
+                      </fieldset>
+                      <div
+                        class="v-text-field__slot"
+                      >
+                        <label
+                          class="v-label v-label--active theme--light"
+                          style="left: 0px; position: absolute;"
+                        >
+                          銀行名 *
+                        </label>
+                        <input
+                          data-bank-name-input=""
+                          type="text"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="v-text-field__details"
+                    >
+                      <div
+                        class="v-messages theme--light"
+                      >
+                        <transition-group-stub
+                          class="v-messages__wrapper"
+                          name="message-transition"
+                          tag="div"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </v-col-stub>
+            <v-col-stub
+              cols="12"
+              sm="6"
+              tag="div"
+            >
+              <div
+                class="root"
+                data-bank-code=""
+                data-z-form-card-item=""
+              >
+                <div
+                  class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"
+                >
+                  <div
+                    class="v-input__control"
+                  >
+                    <div
+                      class="v-input__slot"
+                      style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                    >
+                      <fieldset
+                        aria-hidden="true"
+                      >
+                        <legend
+                          style="width: -24px;"
+                        >
+                          <span
+                            class="notranslate"
+                          >
+                            ​
+                          </span>
+                        </legend>
+                      </fieldset>
+                      <div
+                        class="v-text-field__slot"
+                      >
+                        <label
+                          class="v-label v-label--active theme--light"
+                          style="left: 0px; position: absolute;"
+                        >
+                          銀行コード *
+                        </label>
+                        <input
+                          data-bank-code-input=""
+                          type="text"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="v-text-field__details"
+                    >
+                      <div
+                        class="v-messages theme--light"
+                      >
+                        <transition-group-stub
+                          class="v-messages__wrapper"
+                          name="message-transition"
+                          tag="div"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </v-col-stub>
+            <v-col-stub
+              cols="12"
+              sm="6"
+              tag="div"
+            >
+              <div
+                class="root"
+                data-bank-branch-name=""
+                data-z-form-card-item=""
+              >
+                <div
+                  class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"
+                >
+                  <div
+                    class="v-input__control"
+                  >
+                    <div
+                      class="v-input__slot"
+                      style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                    >
+                      <fieldset
+                        aria-hidden="true"
+                      >
+                        <legend
+                          style="width: -24px;"
+                        >
+                          <span
+                            class="notranslate"
+                          >
+                            ​
+                          </span>
+                        </legend>
+                      </fieldset>
+                      <div
+                        class="v-text-field__slot"
+                      >
+                        <label
+                          class="v-label v-label--active theme--light"
+                          style="left: 0px; position: absolute;"
+                        >
+                          支店名 *
+                        </label>
+                        <input
+                          data-bank-branch-name-input=""
+                          type="text"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="v-text-field__details"
+                    >
+                      <div
+                        class="v-messages theme--light"
+                      >
+                        <transition-group-stub
+                          class="v-messages__wrapper"
+                          name="message-transition"
+                          tag="div"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </v-col-stub>
+            <v-col-stub
+              cols="12"
+              sm="6"
+              tag="div"
+            >
+              <div
+                class="root"
+                data-bank-branch-code=""
+                data-z-form-card-item=""
+              >
+                <div
+                  class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"
+                >
+                  <div
+                    class="v-input__control"
+                  >
+                    <div
+                      class="v-input__slot"
+                      style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                    >
+                      <fieldset
+                        aria-hidden="true"
+                      >
+                        <legend
+                          style="width: -24px;"
+                        >
+                          <span
+                            class="notranslate"
+                          >
+                            ​
+                          </span>
+                        </legend>
+                      </fieldset>
+                      <div
+                        class="v-text-field__slot"
+                      >
+                        <label
+                          class="v-label v-label--active theme--light"
+                          style="left: 0px; position: absolute;"
+                        >
+                          支店コード *
+                        </label>
+                        <input
+                          data-bank-branch-code-input=""
+                          type="text"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="v-text-field__details"
+                    >
+                      <div
+                        class="v-messages theme--light"
+                      >
+                        <transition-group-stub
+                          class="v-messages__wrapper"
+                          name="message-transition"
+                          tag="div"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </v-col-stub>
+          </v-row-stub>
+          <div
+            class="root"
+            data-bank-account-type=""
+            data-z-form-card-item=""
+          >
+            <div
+              class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined v-select"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  aria-expanded="false"
+                  aria-haspopup="listbox"
+                  class="v-input__slot"
+                  role="button"
+                  style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                >
+                  <fieldset
+                    aria-hidden="true"
+                  >
+                    <legend
+                      style="width: -24px;"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                  <div
+                    class="v-select__slot"
+                  >
+                    <label
+                      class="v-label v-label--active theme--light"
+                      style="left: 0px; position: absolute;"
+                    >
+                      銀行口座種別 *
+                    </label>
+                    <div
+                      class="v-select__selections"
+                    >
+                      <div
+                        class="v-select__selection v-select__selection--comma"
+                      >
+                        普通預金
+                      </div>
+                      <input
+                        aria-readonly="false"
+                        autocomplete="off"
+                        readonly="readonly"
+                        type="text"
+                      />
+                    </div>
+                    <div
+                      class="v-input__append-inner"
+                    >
+                      <div
+                        class="v-input__icon v-input__icon--append"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="v-icon notranslate mdi mdi-menu-down theme--light"
+                        />
+                      </div>
+                    </div>
+                    <input
+                      type="hidden"
+                      value="1"
+                    />
+                  </div>
+                  <div
+                    class="v-menu"
+                  >
+                    <!---->
+                  </div>
+                </div>
+                <div
+                  class="v-text-field__details"
+                >
+                  <div
+                    class="v-messages theme--light"
+                  >
+                    <transition-group-stub
+                      class="v-messages__wrapper"
+                      name="message-transition"
+                      tag="div"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="root"
+            data-bank-account-holder=""
+            data-z-form-card-item=""
+          >
+            <div
+              class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  class="v-input__slot"
+                  style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                >
+                  <fieldset
+                    aria-hidden="true"
+                  >
+                    <legend
+                      style="width: -24px;"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                  <div
+                    class="v-text-field__slot"
+                  >
+                    <label
+                      class="v-label v-label--active theme--light"
+                      style="left: 0px; position: absolute;"
+                    >
+                      口座名義 *
+                    </label>
+                    <input
+                      data-bank-account-holder-input=""
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="v-text-field__details"
+                >
+                  <div
+                    class="v-messages theme--light"
+                  >
+                    <transition-group-stub
+                      class="v-messages__wrapper"
+                      name="message-transition"
+                      tag="div"
+                    >
+                      <div
+                        class="v-messages__message"
+                      >
+                        姓と名の間には空白（スペース）を入れてください。例：ツチヤ ハナコ
+                      </div>
+                    </transition-group-stub>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="root"
+            data-bank-account-number=""
+            data-z-form-card-item=""
+          >
+            <div
+              class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  class="v-input__slot"
+                  style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                >
+                  <fieldset
+                    aria-hidden="true"
+                  >
+                    <legend
+                      style="width: -24px;"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                  <div
+                    class="v-text-field__slot"
+                  >
+                    <label
+                      class="v-label v-label--active theme--light"
+                      style="left: 0px; position: absolute;"
+                    >
+                      口座番号 *
+                    </label>
+                    <input
+                      data-bank-account-number-input=""
+                      maxlength="8"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="v-text-field__details"
+                >
+                  <div
+                    class="v-messages theme--light"
+                  >
+                    <transition-group-stub
+                      class="v-messages__wrapper"
+                      name="message-transition"
+                      tag="div"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <v-messages-stub
+              class="multiLine mx-3 mt-n1"
+              value="口座番号は7桁で入力してください。
+通帳に記載されている番号が7桁未満の場合は、先頭に「0」を追加して合計7桁になるように入力してください。
+
+例）口座番号が 12345 の5桁の場合：0012345"
+            />
+          </div>
+        </z-form-card-item-set-stub>
+      </div>
+      <v-card-actions-stub
+        class="pb-6"
+        tag="div"
+      >
+        <v-row-stub
+          justify="center"
+          justifymd="end"
+          nogutters="true"
+          tag="div"
+        >
+          <v-col-stub
+            cols="5"
+            md="3"
+            tag="div"
+          >
+            <a
+              class="v-btn-stub"
+              data-cancel=""
+              text=""
+              width="100%"
+            >
+              キャンセル
+            </a>
+          </v-col-stub>
+          <v-col-stub
+            class="pl-4"
+            cols="5"
+            md="3"
+            tag="div"
+          >
+            <a
+              class="v-btn-stub"
+              color="primary"
+              data-ok=""
+              depressed=""
+              width="100%"
+            >
+            保存
+            </a>
+          </v-col-stub>
+        </v-row-stub>
+      </v-card-actions-stub>
+    </v-card-stub>
+  </v-dialog-stub>
+  <div>
+    <div
+      class="z-data-card-stub"
+      title="請求情報"
+    >
+      <div
+        class="z-data-card-stub-slot-actions"
+      />
+      <z-data-card-item-stub
+        icon="M7,2H17A2,2 0 0,1 19,4V20A2,2 0 0,1 17,22H7A2,2 0 0,1 5,20V4A2,2 0 0,1 7,2M7,4V8H17V4H7M7,10V12H9V10H7M11,10V12H13V10H11M15,10V12H17V10H15M7,14V16H9V14H7M11,14V16H13V14H11M15,14V16H17V14H15M7,18V20H9V18H7M11,18V20H13V18H11M15,18V20H17V18H15Z"
+        label="請求結果"
+        value="入金済"
+      />
+      <z-data-card-item-stub
+        label="振替結果"
+        value="預金者都合"
+      />
+      <z-data-card-item-stub
+        icon="M13.92 11H18V13H13V15H18V17H13V21H11V17H6V15H11V13H6V11H10.08L5 3H7.37L12 10.29L16.63 3H19L13.92 11Z"
+        label="合計金額"
+        value="207,510円"
+      />
+      <z-data-card-item-stub
+        icon="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z"
+        label="発行日"
+      >
+        <time
+          datetime="2008-07-31"
+        >
+          平成20年7月31日
+        </time>
+      </z-data-card-item-stub>
+      <z-data-card-item-stub
+        icon="M9,10V12H7V10H9M13,10V12H11V10H13M17,10V12H15V10H17M19,3A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5C3.89,21 3,20.1 3,19V5A2,2 0 0,1 5,3H6V1H8V3H16V1H18V3H19M19,19V8H5V19H19M9,14V16H7V14H9M13,14V16H11V14H13M17,14V16H15V14H17Z"
+        label="サービス提供年月"
+      >
+      平成23年6月
+      </z-data-card-item-stub>
+      <z-data-card-item-stub
+        icon="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z"
+        label="口座振替日"
+      >
+        <time
+          datetime="2014-08-12"
+        >
+          平成26年8月12日
+        </time>
+      </z-data-card-item-stub>
+      <z-data-card-item-stub
+        icon="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z"
+        label="入金日"
+      >
+        <time
+          datetime="1982-06-01"
+        >
+          昭和57年6月1日
+        </time>
+      </z-data-card-item-stub>
+      <!---->
+      <div
+        class="z-data-card-stub-slot-header"
+      />
+    </div>
+    <z-progress-stub
+      message="処理中です。しばらくお待ちください。"
+      opacity="0.8"
+      zindex="7"
+    />
+    <z-date-confirm-dialog-stub
+      max="2018-05-17T09:00:00.000+09:00"
+      message="入金日を選択してください"
+      positivelabel="登録"
+    />
+  </div>
+  <div
+    class="z-data-card-stub"
+    title="サービス明細"
+  >
+    <div
+      class="z-data-card-stub-slot-actions"
+    />
+    <z-overflow-shadow-stub>
+      <div
+        class="v-data-table text-no-wrap service-details theme--light"
+      >
+        <div
+          class="v-data-table__wrapper"
+        >
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  摘要
+                </th>
+                <th
+                  class="text-right"
+                >
+                  数量
+                </th>
+                <th
+                  class="text-right"
+                >
+                  単価
+                </th>
+                <th
+                  class="text-right"
+                >
+                  小計
+                </th>
+                <th
+                  class="text-right"
+                >
+                  金額
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  障害福祉サービス
+                </td>
+                <td
+                  class="text-right"
+                >
+                  851単位
+                </td>
+                <td
+                  class="text-right"
+                >
+                  2.30円
+                </td>
+                <td
+                  class="text-right"
+                >
+                  50,731円
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  障害福祉サービス 介護給付額
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                  6,076円
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  障害福祉サービス 自治体助成額
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                  38,810円
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  障害福祉サービス 自己負担額
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                  5,549円
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  介護保険サービス
+                </td>
+                <td
+                  class="text-right"
+                >
+                  868単位
+                </td>
+                <td
+                  class="text-right"
+                >
+                  8.36円
+                </td>
+                <td
+                  class="text-right"
+                >
+                  68,241円
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  介護保険サービス 介護給付額
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                  81,654円
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  介護保険サービス 公費負担額
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                  24,321円
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  介護保険サービス 自己負担額
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                  15,599円
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  自己負担サービス
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                  153,837円
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </z-overflow-shadow-stub>
+    <div
+      class="z-data-card-stub-slot-header"
+    />
+  </div>
+  <div>
+    <div
+      class="mt-2 z-data-card-stub"
+    >
+      <div
+        class="z-data-card-stub-slot-actions"
+      />
+      <z-data-card-item-stub
+        icon="M13.92 11H18V13H13V15H18V17H13V21H11V17H6V15H11V13H6V11H10.08L5 3H7.37L12 10.29L16.63 3H19L13.92 11Z"
+        label="税抜金額(10%)"
+        value="144,899円"
+      />
+      <z-data-card-item-stub
+        label="消費税額(10%)"
+        value="14,487円"
+      />
+      <z-data-card-item-stub
+        label="税抜金額(8%)"
+        value="0円"
+      />
+      <z-data-card-item-stub
+        label="消費税額(8%)"
+        value="0円"
+      />
+      <z-data-card-item-stub
+        label="繰越金額"
+        value="66円"
+      />
+      <z-data-card-item-stub
+        label="合計"
+        value="207,510円"
+      />
+      <z-data-card-item-stub
+        label="医療費控除対象額"
+        value="288,145円"
+      />
+      <!---->
+      <div
+        class="z-data-card-stub-slot-header"
+      />
+    </div>
+    <z-prompt-dialog-stub
+      cancelable="true"
+      data-carried-over-amount-dialog=""
+      options="[object Object]"
+    />
+  </div>
+  <z-system-meta-card-stub
+    createdat="2008-07-31T22:56:58+0900"
+    id="1"
+    updatedat="2009-01-05T11:31:48+0900"
+  />
+  <z-fab-speed-dial-stub
+    data-fab=""
+    icon="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z"
+  >
+    <z-fab-speed-dial-button-stub
+      color="secondary"
+      data-download-button="invoice"
+      icon="M7,2H17A2,2 0 0,1 19,4V20A2,2 0 0,1 17,22H7A2,2 0 0,1 5,20V4A2,2 0 0,1 7,2M7,4V8H17V4H7M7,10V12H9V10H7M11,10V12H13V10H11M15,10V12H17V10H15M7,14V16H9V14H7M11,14V16H13V14H11M15,14V16H17V14H15M7,18V20H9V18H7M11,18V20H13V18H11M15,18V20H17V18H15Z"
+    >
+      請求書をダウンロード
+    </z-fab-speed-dial-button-stub>
+    <z-fab-speed-dial-button-stub
+      color="secondary"
+      data-download-button="receipt"
+      icon="M5,3C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V16.72C21.59,16.37 22,15.74 22,15V9C22,8.26 21.59,7.63 21,7.28V5A2,2 0 0,0 19,3H5M5,5H19V7H13A2,2 0 0,0 11,9V15A2,2 0 0,0 13,17H19V19H5V5M13,9H20V15H13V9M16,10.5A1.5,1.5 0 0,0 14.5,12A1.5,1.5 0 0,0 16,13.5A1.5,1.5 0 0,0 17.5,12A1.5,1.5 0 0,0 16,10.5Z"
+    >
+      領収書をダウンロード
+    </z-fab-speed-dial-button-stub>
+    <z-fab-speed-dial-button-stub
+      color="secondary"
+      data-download-button="notice"
+      icon="M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M14,21A2,2 0 0,1 12,23A2,2 0 0,1 10,21"
+    >
+      代理受領額通知書をダウンロード
+    </z-fab-speed-dial-button-stub>
+    <z-fab-speed-dial-button-stub
+      color="secondary"
+      data-download-button="statement"
+      icon="M10 4a2 2 0 104 0 2 2 0 10-4 0M19 13v-2c-1.54.02-3.09-.75-4.07-1.83l-1.29-1.43c-.17-.19-.38-.34-.61-.45-.01 0-.01-.01-.02-.01H13c-.35-.2-.75-.3-1.19-.26C10.76 7.11 10 8.04 10 9.09V15c0 1.1.9 2 2 2h5v5h2v-5.5c0-1.1-.9-2-2-2h-3v-3.45c1.29 1.07 3.25 1.94 5 1.95zm-6.17 5c-.41 1.16-1.52 2-2.83 2-1.66 0-3-1.34-3-3 0-1.31.84-2.41 2-2.83V12.1a5 5 0 105.9 5.9h-2.07z"
+    >
+      介護サービス利用明細書をダウンロード
+    </z-fab-speed-dial-button-stub>
+  </z-fab-speed-dial-stub>
+  <z-progress-stub
+    message="処理中です。しばらくお待ちください。"
+    opacity="0.8"
+    zindex="7"
+  />
+  <z-date-confirm-dialog-stub
+    data-date-confirm-dialog="download"
+    message="印字する発行日を選択してください"
+    positivelabel="ダウンロード"
+  />
+</div>
+`;
+
+exports[`pages/user-billings/_id/index.vue should be rendered correctly when user has permission 1`] = `
+<div
+  breadcrumbs="[object Object],[object Object]"
+  class="z-page-stub"
+  compact="compact"
+>
+  <div
+    class="z-page-stub-slot-tabs"
+  />
+  <div
+    class="z-page-stub-slot-title"
+  />
+  <!---->
+  <div
+    class="z-data-card-stub"
+    title="事業所"
+  >
+    <div
+      class="z-data-card-stub-slot-actions"
+    />
+    <z-data-card-item-stub
+      icon="M18,15H16V17H18M18,11H16V13H18M20,19H12V17H14V15H12V13H14V11H12V9H20M10,7H8V5H10M10,11H8V9H10M10,15H8V13H10M10,19H8V17H10M6,7H4V5H6M6,11H4V9H6M6,15H4V13H6M6,19H4V17H6M12,7V3H2V21H22V7H12Z"
+      label="事業所名"
+    >
+      <a>
+        土屋訪問介護事業所 山形
+      </a>
+    </z-data-card-item-stub>
+    <div
+      class="z-data-card-stub-slot-header"
+    />
+  </div>
+  <div
+    class="z-data-card-stub"
+    title="利用者"
+  >
+    <div
+      class="z-data-card-stub-slot-actions"
+    />
+    <z-data-card-item-stub
+      icon="M10 4a2 2 0 104 0 2 2 0 10-4 0M19 13v-2c-1.54.02-3.09-.75-4.07-1.83l-1.29-1.43c-.17-.19-.38-.34-.61-.45-.01 0-.01-.01-.02-.01H13c-.35-.2-.75-.3-1.19-.26C10.76 7.11 10 8.04 10 9.09V15c0 1.1.9 2 2 2h5v5h2v-5.5c0-1.1-.9-2-2-2h-3v-3.45c1.29 1.07 3.25 1.94 5 1.95zm-6.17 5c-.41 1.16-1.52 2-2.83 2-1.66 0-3-1.34-3-3 0-1.31.84-2.41 2-2.83V12.1a5 5 0 105.9 5.9h-2.07z"
+      label="氏名"
+    >
+      <a>
+        野村 真一
+      </a>
+    </z-data-card-item-stub>
+    <div
+      class="z-data-card-stub-slot-header"
+    />
+  </div>
+  <div>
+    <div
+      class="z-data-card-stub"
+      title="請求先"
+    >
+      <div
+        class="z-data-card-stub-slot-actions"
+      />
+      <z-data-card-item-stub
+        icon="M7,2H17A2,2 0 0,1 19,4V20A2,2 0 0,1 17,22H7A2,2 0 0,1 5,20V4A2,2 0 0,1 7,2M7,4V8H17V4H7M7,10V12H9V10H7M11,10V12H13V10H11M15,10V12H17V10H15M7,14V16H9V14H7M11,14V16H13V14H11M15,14V16H17V14H15M7,18V20H9V18H7M11,18V20H13V18H11M15,18V20H17V18H15Z"
+        label="請求先"
+        value="本人"
+      />
+      <z-data-card-item-stub
+        icon="M5,3C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V16.72C21.59,16.37 22,15.74 22,15V9C22,8.26 21.59,7.63 21,7.28V5A2,2 0 0,0 19,3H5M5,5H19V7H13A2,2 0 0,0 11,9V15A2,2 0 0,0 13,17H19V19H5V5M13,9H20V15H13V9M16,10.5A1.5,1.5 0 0,0 14.5,12A1.5,1.5 0 0,0 16,13.5A1.5,1.5 0 0,0 17.5,12A1.5,1.5 0 0,0 16,10.5Z"
+        label="支払方法"
+        value="銀行振込"
+      />
+      <!---->
+      <!---->
+      <!---->
+      <!---->
+      <div
+        class="z-data-card-stub-slot-header"
+      />
+    </div>
+    <z-prompt-dialog-stub
+      cancelable="true"
+      options="[object Object]"
+    />
+  </div>
+  <!---->
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    opendelay="0"
+    origin="center center"
+    persistent="true"
+    retainfocus="true"
+    transition="dialog"
+    width="640"
+  >
+    <v-card-stub
+      loaderheight="4"
+      tag="div"
+    >
+      <z-card-titlebar-stub
+        color="blue-grey"
+        data-title=""
+      >
+      銀行口座情報を編集
+      </z-card-titlebar-stub>
+      <div
+        class="pt-6"
+      >
+        <z-form-card-item-set-stub
+          icon="M6.5,10H4.5V17H6.5V10M12.5,10H10.5V17H12.5V10M21,19H2V21H21V19M18.5,10H16.5V17H18.5V10M11.5,3.26L16.71,6H6.29L11.5,3.26M11.5,1L2,6V8H21V6L11.5,1Z"
+          label=""
+        >
+          <v-row-stub
+            nogutters="true"
+            tag="div"
+          >
+            <v-col-stub
+              cols="12"
+              sm="6"
+              tag="div"
+            >
+              <div
+                class="root"
+                data-bank-name=""
+                data-z-form-card-item=""
+              >
+                <div
+                  class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"
+                >
+                  <div
+                    class="v-input__control"
+                  >
+                    <div
+                      class="v-input__slot"
+                      style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                    >
+                      <fieldset
+                        aria-hidden="true"
+                      >
+                        <legend
+                          style="width: -24px;"
+                        >
+                          <span
+                            class="notranslate"
+                          >
+                            ​
+                          </span>
+                        </legend>
+                      </fieldset>
+                      <div
+                        class="v-text-field__slot"
+                      >
+                        <label
+                          class="v-label v-label--active theme--light"
+                          style="left: 0px; position: absolute;"
+                        >
+                          銀行名 *
+                        </label>
+                        <input
+                          data-bank-name-input=""
+                          type="text"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="v-text-field__details"
+                    >
+                      <div
+                        class="v-messages theme--light"
+                      >
+                        <transition-group-stub
+                          class="v-messages__wrapper"
+                          name="message-transition"
+                          tag="div"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </v-col-stub>
+            <v-col-stub
+              cols="12"
+              sm="6"
+              tag="div"
+            >
+              <div
+                class="root"
+                data-bank-code=""
+                data-z-form-card-item=""
+              >
+                <div
+                  class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"
+                >
+                  <div
+                    class="v-input__control"
+                  >
+                    <div
+                      class="v-input__slot"
+                      style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                    >
+                      <fieldset
+                        aria-hidden="true"
+                      >
+                        <legend
+                          style="width: -24px;"
+                        >
+                          <span
+                            class="notranslate"
+                          >
+                            ​
+                          </span>
+                        </legend>
+                      </fieldset>
+                      <div
+                        class="v-text-field__slot"
+                      >
+                        <label
+                          class="v-label v-label--active theme--light"
+                          style="left: 0px; position: absolute;"
+                        >
+                          銀行コード *
+                        </label>
+                        <input
+                          data-bank-code-input=""
+                          type="text"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="v-text-field__details"
+                    >
+                      <div
+                        class="v-messages theme--light"
+                      >
+                        <transition-group-stub
+                          class="v-messages__wrapper"
+                          name="message-transition"
+                          tag="div"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </v-col-stub>
+            <v-col-stub
+              cols="12"
+              sm="6"
+              tag="div"
+            >
+              <div
+                class="root"
+                data-bank-branch-name=""
+                data-z-form-card-item=""
+              >
+                <div
+                  class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"
+                >
+                  <div
+                    class="v-input__control"
+                  >
+                    <div
+                      class="v-input__slot"
+                      style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                    >
+                      <fieldset
+                        aria-hidden="true"
+                      >
+                        <legend
+                          style="width: -24px;"
+                        >
+                          <span
+                            class="notranslate"
+                          >
+                            ​
+                          </span>
+                        </legend>
+                      </fieldset>
+                      <div
+                        class="v-text-field__slot"
+                      >
+                        <label
+                          class="v-label v-label--active theme--light"
+                          style="left: 0px; position: absolute;"
+                        >
+                          支店名 *
+                        </label>
+                        <input
+                          data-bank-branch-name-input=""
+                          type="text"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="v-text-field__details"
+                    >
+                      <div
+                        class="v-messages theme--light"
+                      >
+                        <transition-group-stub
+                          class="v-messages__wrapper"
+                          name="message-transition"
+                          tag="div"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </v-col-stub>
+            <v-col-stub
+              cols="12"
+              sm="6"
+              tag="div"
+            >
+              <div
+                class="root"
+                data-bank-branch-code=""
+                data-z-form-card-item=""
+              >
+                <div
+                  class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"
+                >
+                  <div
+                    class="v-input__control"
+                  >
+                    <div
+                      class="v-input__slot"
+                      style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                    >
+                      <fieldset
+                        aria-hidden="true"
+                      >
+                        <legend
+                          style="width: -24px;"
+                        >
+                          <span
+                            class="notranslate"
+                          >
+                            ​
+                          </span>
+                        </legend>
+                      </fieldset>
+                      <div
+                        class="v-text-field__slot"
+                      >
+                        <label
+                          class="v-label v-label--active theme--light"
+                          style="left: 0px; position: absolute;"
+                        >
+                          支店コード *
+                        </label>
+                        <input
+                          data-bank-branch-code-input=""
+                          type="text"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="v-text-field__details"
+                    >
+                      <div
+                        class="v-messages theme--light"
+                      >
+                        <transition-group-stub
+                          class="v-messages__wrapper"
+                          name="message-transition"
+                          tag="div"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </v-col-stub>
+          </v-row-stub>
+          <div
+            class="root"
+            data-bank-account-type=""
+            data-z-form-card-item=""
+          >
+            <div
+              class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined v-select"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  aria-expanded="false"
+                  aria-haspopup="listbox"
+                  class="v-input__slot"
+                  role="button"
+                  style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                >
+                  <fieldset
+                    aria-hidden="true"
+                  >
+                    <legend
+                      style="width: -24px;"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                  <div
+                    class="v-select__slot"
+                  >
+                    <label
+                      class="v-label v-label--active theme--light"
+                      style="left: 0px; position: absolute;"
+                    >
+                      銀行口座種別 *
+                    </label>
+                    <div
+                      class="v-select__selections"
+                    >
+                      <div
+                        class="v-select__selection v-select__selection--comma"
+                      >
+                        普通預金
+                      </div>
+                      <input
+                        aria-readonly="false"
+                        autocomplete="off"
+                        readonly="readonly"
+                        type="text"
+                      />
+                    </div>
+                    <div
+                      class="v-input__append-inner"
+                    >
+                      <div
+                        class="v-input__icon v-input__icon--append"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="v-icon notranslate mdi mdi-menu-down theme--light"
+                        />
+                      </div>
+                    </div>
+                    <input
+                      type="hidden"
+                      value="1"
+                    />
+                  </div>
+                  <div
+                    class="v-menu"
+                  >
+                    <!---->
+                  </div>
+                </div>
+                <div
+                  class="v-text-field__details"
+                >
+                  <div
+                    class="v-messages theme--light"
+                  >
+                    <transition-group-stub
+                      class="v-messages__wrapper"
+                      name="message-transition"
+                      tag="div"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="root"
+            data-bank-account-holder=""
+            data-z-form-card-item=""
+          >
+            <div
+              class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  class="v-input__slot"
+                  style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                >
+                  <fieldset
+                    aria-hidden="true"
+                  >
+                    <legend
+                      style="width: -24px;"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                  <div
+                    class="v-text-field__slot"
+                  >
+                    <label
+                      class="v-label v-label--active theme--light"
+                      style="left: 0px; position: absolute;"
+                    >
+                      口座名義 *
+                    </label>
+                    <input
+                      data-bank-account-holder-input=""
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="v-text-field__details"
+                >
+                  <div
+                    class="v-messages theme--light"
+                  >
+                    <transition-group-stub
+                      class="v-messages__wrapper"
+                      name="message-transition"
+                      tag="div"
+                    >
+                      <div
+                        class="v-messages__message"
+                      >
+                        姓と名の間には空白（スペース）を入れてください。例：ツチヤ ハナコ
+                      </div>
+                    </transition-group-stub>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="root"
+            data-bank-account-number=""
+            data-z-form-card-item=""
+          >
+            <div
+              class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  class="v-input__slot"
+                  style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                >
+                  <fieldset
+                    aria-hidden="true"
+                  >
+                    <legend
+                      style="width: -24px;"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                  <div
+                    class="v-text-field__slot"
+                  >
+                    <label
+                      class="v-label v-label--active theme--light"
+                      style="left: 0px; position: absolute;"
+                    >
+                      口座番号 *
+                    </label>
+                    <input
+                      data-bank-account-number-input=""
+                      maxlength="8"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="v-text-field__details"
+                >
+                  <div
+                    class="v-messages theme--light"
+                  >
+                    <transition-group-stub
+                      class="v-messages__wrapper"
+                      name="message-transition"
+                      tag="div"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <v-messages-stub
+              class="multiLine mx-3 mt-n1"
+              value="口座番号は7桁で入力してください。
+通帳に記載されている番号が7桁未満の場合は、先頭に「0」を追加して合計7桁になるように入力してください。
+
+例）口座番号が 12345 の5桁の場合：0012345"
+            />
+          </div>
+        </z-form-card-item-set-stub>
+      </div>
+      <v-card-actions-stub
+        class="pb-6"
+        tag="div"
+      >
+        <v-row-stub
+          justify="center"
+          justifymd="end"
+          nogutters="true"
+          tag="div"
+        >
+          <v-col-stub
+            cols="5"
+            md="3"
+            tag="div"
+          >
+            <a
+              class="v-btn-stub"
+              data-cancel=""
+              text=""
+              width="100%"
+            >
+              キャンセル
+            </a>
+          </v-col-stub>
+          <v-col-stub
+            class="pl-4"
+            cols="5"
+            md="3"
+            tag="div"
+          >
+            <a
+              class="v-btn-stub"
+              color="primary"
+              data-ok=""
+              depressed=""
+              width="100%"
+            >
+            保存
+            </a>
+          </v-col-stub>
+        </v-row-stub>
+      </v-card-actions-stub>
+    </v-card-stub>
+  </v-dialog-stub>
+  <div>
+    <div
+      class="z-data-card-stub"
+      title="請求情報"
+    >
+      <div
+        class="z-data-card-stub-slot-actions"
+      />
+      <z-data-card-item-stub
+        icon="M7,2H17A2,2 0 0,1 19,4V20A2,2 0 0,1 17,22H7A2,2 0 0,1 5,20V4A2,2 0 0,1 7,2M7,4V8H17V4H7M7,10V12H9V10H7M11,10V12H13V10H11M15,10V12H17V10H15M7,14V16H9V14H7M11,14V16H13V14H11M15,14V16H17V14H15M7,18V20H9V18H7M11,18V20H13V18H11M15,18V20H17V18H15Z"
+        label="請求結果"
+        value="入金済"
+      />
+      <!---->
+      <z-data-card-item-stub
+        icon="M13.92 11H18V13H13V15H18V17H13V21H11V17H6V15H11V13H6V11H10.08L5 3H7.37L12 10.29L16.63 3H19L13.92 11Z"
+        label="合計金額"
+        value="207,510円"
+      />
+      <z-data-card-item-stub
+        icon="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z"
+        label="発行日"
+      >
+        <time
+          datetime="2008-07-31"
+        >
+          平成20年7月31日
+        </time>
+      </z-data-card-item-stub>
+      <z-data-card-item-stub
+        icon="M9,10V12H7V10H9M13,10V12H11V10H13M17,10V12H15V10H17M19,3A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5C3.89,21 3,20.1 3,19V5A2,2 0 0,1 5,3H6V1H8V3H16V1H18V3H19M19,19V8H5V19H19M9,14V16H7V14H9M13,14V16H11V14H13M17,14V16H15V14H17Z"
+        label="サービス提供年月"
+      >
+      平成23年6月
+      </z-data-card-item-stub>
+      <z-data-card-item-stub
+        icon="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z"
+        label="お支払期限日"
+      >
+        <time
+          datetime="2019-05-30"
+        >
+          令和1年5月30日
+        </time>
+      </z-data-card-item-stub>
+      <z-data-card-item-stub
+        icon="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z"
+        label="入金日"
+      >
+        <time
+          datetime="1982-06-01"
+        >
+          昭和57年6月1日
+        </time>
+      </z-data-card-item-stub>
+      <v-card-actions-stub
+        tag="div"
+      >
+        <v-spacer-stub
+          tag="div"
+        />
+        <!---->
+        <a
+          class="v-btn-stub"
+          color="primary"
+          text=""
+        >
+          入金日を削除する
+        </a>
+      </v-card-actions-stub>
+      <div
+        class="z-data-card-stub-slot-header"
+      />
+    </div>
+    <z-progress-stub
+      message="処理中です。しばらくお待ちください。"
+      opacity="0.8"
+      zindex="7"
+    />
+    <z-date-confirm-dialog-stub
+      max="2018-05-17T09:00:00.000+09:00"
+      message="入金日を選択してください"
+      positivelabel="登録"
+    />
+  </div>
+  <div
+    class="z-data-card-stub"
+    title="サービス明細"
+  >
+    <div
+      class="z-data-card-stub-slot-actions"
+    />
+    <z-overflow-shadow-stub>
+      <div
+        class="v-data-table text-no-wrap service-details theme--light"
+      >
+        <div
+          class="v-data-table__wrapper"
+        >
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  摘要
+                </th>
+                <th
+                  class="text-right"
+                >
+                  数量
+                </th>
+                <th
+                  class="text-right"
+                >
+                  単価
+                </th>
+                <th
+                  class="text-right"
+                >
+                  小計
+                </th>
+                <th
+                  class="text-right"
+                >
+                  金額
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  障害福祉サービス
+                </td>
+                <td
+                  class="text-right"
+                >
+                  851単位
+                </td>
+                <td
+                  class="text-right"
+                >
+                  2.30円
+                </td>
+                <td
+                  class="text-right"
+                >
+                  50,731円
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  障害福祉サービス 介護給付額
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                  6,076円
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  障害福祉サービス 自治体助成額
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                  38,810円
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  障害福祉サービス 自己負担額
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                  5,549円
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  介護保険サービス
+                </td>
+                <td
+                  class="text-right"
+                >
+                  868単位
+                </td>
+                <td
+                  class="text-right"
+                >
+                  8.36円
+                </td>
+                <td
+                  class="text-right"
+                >
+                  68,241円
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  介護保険サービス 介護給付額
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                  81,654円
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  介護保険サービス 公費負担額
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                  24,321円
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  介護保険サービス 自己負担額
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                  15,599円
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  自己負担サービス
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                  153,837円
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </z-overflow-shadow-stub>
+    <div
+      class="z-data-card-stub-slot-header"
+    />
+  </div>
+  <div>
+    <div
+      class="mt-2 z-data-card-stub"
+    >
+      <div
+        class="z-data-card-stub-slot-actions"
+      />
+      <z-data-card-item-stub
+        icon="M13.92 11H18V13H13V15H18V17H13V21H11V17H6V15H11V13H6V11H10.08L5 3H7.37L12 10.29L16.63 3H19L13.92 11Z"
+        label="税抜金額(10%)"
+        value="144,899円"
+      />
+      <z-data-card-item-stub
+        label="消費税額(10%)"
+        value="14,487円"
+      />
+      <z-data-card-item-stub
+        label="税抜金額(8%)"
+        value="0円"
+      />
+      <z-data-card-item-stub
+        label="消費税額(8%)"
+        value="0円"
+      />
+      <z-data-card-item-stub
+        label="繰越金額"
+        value="66円"
+      />
+      <z-data-card-item-stub
+        label="合計"
+        value="207,510円"
+      />
+      <z-data-card-item-stub
+        label="医療費控除対象額"
+        value="288,145円"
+      />
+      <!---->
+      <div
+        class="z-data-card-stub-slot-header"
+      />
+    </div>
+    <z-prompt-dialog-stub
+      cancelable="true"
+      data-carried-over-amount-dialog=""
+      options="[object Object]"
+    />
+  </div>
+  <z-system-meta-card-stub
+    createdat="2008-07-31T22:56:58+0900"
+    id="1"
+    updatedat="2009-01-05T11:31:48+0900"
+  />
+  <z-fab-speed-dial-stub
+    data-fab=""
+    icon="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z"
+  >
+    <z-fab-speed-dial-button-stub
+      color="secondary"
+      data-download-button="invoice"
+      icon="M7,2H17A2,2 0 0,1 19,4V20A2,2 0 0,1 17,22H7A2,2 0 0,1 5,20V4A2,2 0 0,1 7,2M7,4V8H17V4H7M7,10V12H9V10H7M11,10V12H13V10H11M15,10V12H17V10H15M7,14V16H9V14H7M11,14V16H13V14H11M15,14V16H17V14H15M7,18V20H9V18H7M11,18V20H13V18H11M15,18V20H17V18H15Z"
+    >
+      請求書をダウンロード
+    </z-fab-speed-dial-button-stub>
+    <z-fab-speed-dial-button-stub
+      color="secondary"
+      data-download-button="receipt"
+      icon="M5,3C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V16.72C21.59,16.37 22,15.74 22,15V9C22,8.26 21.59,7.63 21,7.28V5A2,2 0 0,0 19,3H5M5,5H19V7H13A2,2 0 0,0 11,9V15A2,2 0 0,0 13,17H19V19H5V5M13,9H20V15H13V9M16,10.5A1.5,1.5 0 0,0 14.5,12A1.5,1.5 0 0,0 16,13.5A1.5,1.5 0 0,0 17.5,12A1.5,1.5 0 0,0 16,10.5Z"
+    >
+      領収書をダウンロード
+    </z-fab-speed-dial-button-stub>
+    <z-fab-speed-dial-button-stub
+      color="secondary"
+      data-download-button="notice"
+      icon="M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M14,21A2,2 0 0,1 12,23A2,2 0 0,1 10,21"
+    >
+      代理受領額通知書をダウンロード
+    </z-fab-speed-dial-button-stub>
+    <z-fab-speed-dial-button-stub
+      color="secondary"
+      data-download-button="statement"
+      icon="M10 4a2 2 0 104 0 2 2 0 10-4 0M19 13v-2c-1.54.02-3.09-.75-4.07-1.83l-1.29-1.43c-.17-.19-.38-.34-.61-.45-.01 0-.01-.01-.02-.01H13c-.35-.2-.75-.3-1.19-.26C10.76 7.11 10 8.04 10 9.09V15c0 1.1.9 2 2 2h5v5h2v-5.5c0-1.1-.9-2-2-2h-3v-3.45c1.29 1.07 3.25 1.94 5 1.95zm-6.17 5c-.41 1.16-1.52 2-2.83 2-1.66 0-3-1.34-3-3 0-1.31.84-2.41 2-2.83V12.1a5 5 0 105.9 5.9h-2.07z"
+    >
+      介護サービス利用明細書をダウンロード
+    </z-fab-speed-dial-button-stub>
+  </z-fab-speed-dial-stub>
+  <z-progress-stub
+    message="処理中です。しばらくお待ちください。"
+    opacity="0.8"
+    zindex="7"
+  />
+  <z-date-confirm-dialog-stub
+    data-date-confirm-dialog="download"
+    message="印字する発行日を選択してください"
+    positivelabel="ダウンロード"
+  />
+</div>
+`;
+
+exports[`pages/user-billings/_id/index.vue should be rendered correctly when user only has permission to view user billings 1`] = `
+<div
+  breadcrumbs="[object Object],[object Object]"
+  class="z-page-stub"
+  compact="compact"
+>
+  <div
+    class="z-page-stub-slot-tabs"
+  />
+  <div
+    class="z-page-stub-slot-title"
+  />
+  <!---->
+  <div
+    class="z-data-card-stub"
+    title="事業所"
+  >
+    <div
+      class="z-data-card-stub-slot-actions"
+    />
+    <z-data-card-item-stub
+      icon="M18,15H16V17H18M18,11H16V13H18M20,19H12V17H14V15H12V13H14V11H12V9H20M10,7H8V5H10M10,11H8V9H10M10,15H8V13H10M10,19H8V17H10M6,7H4V5H6M6,11H4V9H6M6,15H4V13H6M6,19H4V17H6M12,7V3H2V21H22V7H12Z"
+      label="事業所名"
+    >
+      土屋訪問介護事業所 山形
+    </z-data-card-item-stub>
+    <div
+      class="z-data-card-stub-slot-header"
+    />
+  </div>
+  <div
+    class="z-data-card-stub"
+    title="利用者"
+  >
+    <div
+      class="z-data-card-stub-slot-actions"
+    />
+    <z-data-card-item-stub
+      icon="M10 4a2 2 0 104 0 2 2 0 10-4 0M19 13v-2c-1.54.02-3.09-.75-4.07-1.83l-1.29-1.43c-.17-.19-.38-.34-.61-.45-.01 0-.01-.01-.02-.01H13c-.35-.2-.75-.3-1.19-.26C10.76 7.11 10 8.04 10 9.09V15c0 1.1.9 2 2 2h5v5h2v-5.5c0-1.1-.9-2-2-2h-3v-3.45c1.29 1.07 3.25 1.94 5 1.95zm-6.17 5c-.41 1.16-1.52 2-2.83 2-1.66 0-3-1.34-3-3 0-1.31.84-2.41 2-2.83V12.1a5 5 0 105.9 5.9h-2.07z"
+      label="氏名"
+    >
+      野村 真一
+    </z-data-card-item-stub>
+    <div
+      class="z-data-card-stub-slot-header"
+    />
+  </div>
+  <div>
+    <div
+      class="z-data-card-stub"
+      title="請求先"
+    >
+      <div
+        class="z-data-card-stub-slot-actions"
+      />
+      <z-data-card-item-stub
+        icon="M7,2H17A2,2 0 0,1 19,4V20A2,2 0 0,1 17,22H7A2,2 0 0,1 5,20V4A2,2 0 0,1 7,2M7,4V8H17V4H7M7,10V12H9V10H7M11,10V12H13V10H11M15,10V12H17V10H15M7,14V16H9V14H7M11,14V16H13V14H11M15,14V16H17V14H15M7,18V20H9V18H7M11,18V20H13V18H11M15,18V20H17V18H15Z"
+        label="請求先"
+        value="本人"
+      />
+      <z-data-card-item-stub
+        icon="M5,3C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V16.72C21.59,16.37 22,15.74 22,15V9C22,8.26 21.59,7.63 21,7.28V5A2,2 0 0,0 19,3H5M5,5H19V7H13A2,2 0 0,0 11,9V15A2,2 0 0,0 13,17H19V19H5V5M13,9H20V15H13V9M16,10.5A1.5,1.5 0 0,0 14.5,12A1.5,1.5 0 0,0 16,13.5A1.5,1.5 0 0,0 17.5,12A1.5,1.5 0 0,0 16,10.5Z"
+        label="支払方法"
+        value="銀行振込"
+      />
+      <!---->
+      <!---->
+      <!---->
+      <!---->
+      <div
+        class="z-data-card-stub-slot-header"
+      />
+    </div>
+    <z-prompt-dialog-stub
+      cancelable="true"
+      options="[object Object]"
+    />
+  </div>
+  <!---->
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    opendelay="0"
+    origin="center center"
+    persistent="true"
+    retainfocus="true"
+    transition="dialog"
+    width="640"
+  >
+    <v-card-stub
+      loaderheight="4"
+      tag="div"
+    >
+      <z-card-titlebar-stub
+        color="blue-grey"
+        data-title=""
+      >
+      銀行口座情報を編集
+      </z-card-titlebar-stub>
+      <div
+        class="pt-6"
+      >
+        <z-form-card-item-set-stub
+          icon="M6.5,10H4.5V17H6.5V10M12.5,10H10.5V17H12.5V10M21,19H2V21H21V19M18.5,10H16.5V17H18.5V10M11.5,3.26L16.71,6H6.29L11.5,3.26M11.5,1L2,6V8H21V6L11.5,1Z"
+          label=""
+        >
+          <v-row-stub
+            nogutters="true"
+            tag="div"
+          >
+            <v-col-stub
+              cols="12"
+              sm="6"
+              tag="div"
+            >
+              <div
+                class="root"
+                data-bank-name=""
+                data-z-form-card-item=""
+              >
+                <div
+                  class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"
+                >
+                  <div
+                    class="v-input__control"
+                  >
+                    <div
+                      class="v-input__slot"
+                      style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                    >
+                      <fieldset
+                        aria-hidden="true"
+                      >
+                        <legend
+                          style="width: -24px;"
+                        >
+                          <span
+                            class="notranslate"
+                          >
+                            ​
+                          </span>
+                        </legend>
+                      </fieldset>
+                      <div
+                        class="v-text-field__slot"
+                      >
+                        <label
+                          class="v-label v-label--active theme--light"
+                          style="left: 0px; position: absolute;"
+                        >
+                          銀行名 *
+                        </label>
+                        <input
+                          data-bank-name-input=""
+                          type="text"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="v-text-field__details"
+                    >
+                      <div
+                        class="v-messages theme--light"
+                      >
+                        <transition-group-stub
+                          class="v-messages__wrapper"
+                          name="message-transition"
+                          tag="div"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </v-col-stub>
+            <v-col-stub
+              cols="12"
+              sm="6"
+              tag="div"
+            >
+              <div
+                class="root"
+                data-bank-code=""
+                data-z-form-card-item=""
+              >
+                <div
+                  class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"
+                >
+                  <div
+                    class="v-input__control"
+                  >
+                    <div
+                      class="v-input__slot"
+                      style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                    >
+                      <fieldset
+                        aria-hidden="true"
+                      >
+                        <legend
+                          style="width: -24px;"
+                        >
+                          <span
+                            class="notranslate"
+                          >
+                            ​
+                          </span>
+                        </legend>
+                      </fieldset>
+                      <div
+                        class="v-text-field__slot"
+                      >
+                        <label
+                          class="v-label v-label--active theme--light"
+                          style="left: 0px; position: absolute;"
+                        >
+                          銀行コード *
+                        </label>
+                        <input
+                          data-bank-code-input=""
+                          type="text"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="v-text-field__details"
+                    >
+                      <div
+                        class="v-messages theme--light"
+                      >
+                        <transition-group-stub
+                          class="v-messages__wrapper"
+                          name="message-transition"
+                          tag="div"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </v-col-stub>
+            <v-col-stub
+              cols="12"
+              sm="6"
+              tag="div"
+            >
+              <div
+                class="root"
+                data-bank-branch-name=""
+                data-z-form-card-item=""
+              >
+                <div
+                  class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"
+                >
+                  <div
+                    class="v-input__control"
+                  >
+                    <div
+                      class="v-input__slot"
+                      style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                    >
+                      <fieldset
+                        aria-hidden="true"
+                      >
+                        <legend
+                          style="width: -24px;"
+                        >
+                          <span
+                            class="notranslate"
+                          >
+                            ​
+                          </span>
+                        </legend>
+                      </fieldset>
+                      <div
+                        class="v-text-field__slot"
+                      >
+                        <label
+                          class="v-label v-label--active theme--light"
+                          style="left: 0px; position: absolute;"
+                        >
+                          支店名 *
+                        </label>
+                        <input
+                          data-bank-branch-name-input=""
+                          type="text"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="v-text-field__details"
+                    >
+                      <div
+                        class="v-messages theme--light"
+                      >
+                        <transition-group-stub
+                          class="v-messages__wrapper"
+                          name="message-transition"
+                          tag="div"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </v-col-stub>
+            <v-col-stub
+              cols="12"
+              sm="6"
+              tag="div"
+            >
+              <div
+                class="root"
+                data-bank-branch-code=""
+                data-z-form-card-item=""
+              >
+                <div
+                  class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"
+                >
+                  <div
+                    class="v-input__control"
+                  >
+                    <div
+                      class="v-input__slot"
+                      style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                    >
+                      <fieldset
+                        aria-hidden="true"
+                      >
+                        <legend
+                          style="width: -24px;"
+                        >
+                          <span
+                            class="notranslate"
+                          >
+                            ​
+                          </span>
+                        </legend>
+                      </fieldset>
+                      <div
+                        class="v-text-field__slot"
+                      >
+                        <label
+                          class="v-label v-label--active theme--light"
+                          style="left: 0px; position: absolute;"
+                        >
+                          支店コード *
+                        </label>
+                        <input
+                          data-bank-branch-code-input=""
+                          type="text"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="v-text-field__details"
+                    >
+                      <div
+                        class="v-messages theme--light"
+                      >
+                        <transition-group-stub
+                          class="v-messages__wrapper"
+                          name="message-transition"
+                          tag="div"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </v-col-stub>
+          </v-row-stub>
+          <div
+            class="root"
+            data-bank-account-type=""
+            data-z-form-card-item=""
+          >
+            <div
+              class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined v-select"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  aria-expanded="false"
+                  aria-haspopup="listbox"
+                  class="v-input__slot"
+                  role="button"
+                  style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                >
+                  <fieldset
+                    aria-hidden="true"
+                  >
+                    <legend
+                      style="width: -24px;"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                  <div
+                    class="v-select__slot"
+                  >
+                    <label
+                      class="v-label v-label--active theme--light"
+                      style="left: 0px; position: absolute;"
+                    >
+                      銀行口座種別 *
+                    </label>
+                    <div
+                      class="v-select__selections"
+                    >
+                      <div
+                        class="v-select__selection v-select__selection--comma"
+                      >
+                        普通預金
+                      </div>
+                      <input
+                        aria-readonly="false"
+                        autocomplete="off"
+                        readonly="readonly"
+                        type="text"
+                      />
+                    </div>
+                    <div
+                      class="v-input__append-inner"
+                    >
+                      <div
+                        class="v-input__icon v-input__icon--append"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="v-icon notranslate mdi mdi-menu-down theme--light"
+                        />
+                      </div>
+                    </div>
+                    <input
+                      type="hidden"
+                      value="1"
+                    />
+                  </div>
+                  <div
+                    class="v-menu"
+                  >
+                    <!---->
+                  </div>
+                </div>
+                <div
+                  class="v-text-field__details"
+                >
+                  <div
+                    class="v-messages theme--light"
+                  >
+                    <transition-group-stub
+                      class="v-messages__wrapper"
+                      name="message-transition"
+                      tag="div"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="root"
+            data-bank-account-holder=""
+            data-z-form-card-item=""
+          >
+            <div
+              class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  class="v-input__slot"
+                  style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                >
+                  <fieldset
+                    aria-hidden="true"
+                  >
+                    <legend
+                      style="width: -24px;"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                  <div
+                    class="v-text-field__slot"
+                  >
+                    <label
+                      class="v-label v-label--active theme--light"
+                      style="left: 0px; position: absolute;"
+                    >
+                      口座名義 *
+                    </label>
+                    <input
+                      data-bank-account-holder-input=""
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="v-text-field__details"
+                >
+                  <div
+                    class="v-messages theme--light"
+                  >
+                    <transition-group-stub
+                      class="v-messages__wrapper"
+                      name="message-transition"
+                      tag="div"
+                    >
+                      <div
+                        class="v-messages__message"
+                      >
+                        姓と名の間には空白（スペース）を入れてください。例：ツチヤ ハナコ
+                      </div>
+                    </transition-group-stub>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="root"
+            data-bank-account-number=""
+            data-z-form-card-item=""
+          >
+            <div
+              class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  class="v-input__slot"
+                  style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                >
+                  <fieldset
+                    aria-hidden="true"
+                  >
+                    <legend
+                      style="width: -24px;"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                  <div
+                    class="v-text-field__slot"
+                  >
+                    <label
+                      class="v-label v-label--active theme--light"
+                      style="left: 0px; position: absolute;"
+                    >
+                      口座番号 *
+                    </label>
+                    <input
+                      data-bank-account-number-input=""
+                      maxlength="8"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="v-text-field__details"
+                >
+                  <div
+                    class="v-messages theme--light"
+                  >
+                    <transition-group-stub
+                      class="v-messages__wrapper"
+                      name="message-transition"
+                      tag="div"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <v-messages-stub
+              class="multiLine mx-3 mt-n1"
+              value="口座番号は7桁で入力してください。
+通帳に記載されている番号が7桁未満の場合は、先頭に「0」を追加して合計7桁になるように入力してください。
+
+例）口座番号が 12345 の5桁の場合：0012345"
+            />
+          </div>
+        </z-form-card-item-set-stub>
+      </div>
+      <v-card-actions-stub
+        class="pb-6"
+        tag="div"
+      >
+        <v-row-stub
+          justify="center"
+          justifymd="end"
+          nogutters="true"
+          tag="div"
+        >
+          <v-col-stub
+            cols="5"
+            md="3"
+            tag="div"
+          >
+            <a
+              class="v-btn-stub"
+              data-cancel=""
+              text=""
+              width="100%"
+            >
+              キャンセル
+            </a>
+          </v-col-stub>
+          <v-col-stub
+            class="pl-4"
+            cols="5"
+            md="3"
+            tag="div"
+          >
+            <a
+              class="v-btn-stub"
+              color="primary"
+              data-ok=""
+              depressed=""
+              width="100%"
+            >
+            保存
+            </a>
+          </v-col-stub>
+        </v-row-stub>
+      </v-card-actions-stub>
+    </v-card-stub>
+  </v-dialog-stub>
+  <div>
+    <div
+      class="z-data-card-stub"
+      title="請求情報"
+    >
+      <div
+        class="z-data-card-stub-slot-actions"
+      />
+      <z-data-card-item-stub
+        icon="M7,2H17A2,2 0 0,1 19,4V20A2,2 0 0,1 17,22H7A2,2 0 0,1 5,20V4A2,2 0 0,1 7,2M7,4V8H17V4H7M7,10V12H9V10H7M11,10V12H13V10H11M15,10V12H17V10H15M7,14V16H9V14H7M11,14V16H13V14H11M15,14V16H17V14H15M7,18V20H9V18H7M11,18V20H13V18H11M15,18V20H17V18H15Z"
+        label="請求結果"
+        value="入金済"
+      />
+      <!---->
+      <z-data-card-item-stub
+        icon="M13.92 11H18V13H13V15H18V17H13V21H11V17H6V15H11V13H6V11H10.08L5 3H7.37L12 10.29L16.63 3H19L13.92 11Z"
+        label="合計金額"
+        value="207,510円"
+      />
+      <z-data-card-item-stub
+        icon="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z"
+        label="発行日"
+      >
+        <time
+          datetime="2008-07-31"
+        >
+          平成20年7月31日
+        </time>
+      </z-data-card-item-stub>
+      <z-data-card-item-stub
+        icon="M9,10V12H7V10H9M13,10V12H11V10H13M17,10V12H15V10H17M19,3A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5C3.89,21 3,20.1 3,19V5A2,2 0 0,1 5,3H6V1H8V3H16V1H18V3H19M19,19V8H5V19H19M9,14V16H7V14H9M13,14V16H11V14H13M17,14V16H15V14H17Z"
+        label="サービス提供年月"
+      >
+      平成23年6月
+      </z-data-card-item-stub>
+      <z-data-card-item-stub
+        icon="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z"
+        label="お支払期限日"
+      >
+        <time
+          datetime="2019-05-30"
+        >
+          令和1年5月30日
+        </time>
+      </z-data-card-item-stub>
+      <z-data-card-item-stub
+        icon="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z"
+        label="入金日"
+      >
+        <time
+          datetime="1982-06-01"
+        >
+          昭和57年6月1日
+        </time>
+      </z-data-card-item-stub>
+      <!---->
+      <div
+        class="z-data-card-stub-slot-header"
+      />
+    </div>
+    <z-progress-stub
+      message="処理中です。しばらくお待ちください。"
+      opacity="0.8"
+      zindex="7"
+    />
+    <z-date-confirm-dialog-stub
+      max="2018-05-17T09:00:00.000+09:00"
+      message="入金日を選択してください"
+      positivelabel="登録"
+    />
+  </div>
+  <div
+    class="z-data-card-stub"
+    title="サービス明細"
+  >
+    <div
+      class="z-data-card-stub-slot-actions"
+    />
+    <z-overflow-shadow-stub>
+      <div
+        class="v-data-table text-no-wrap service-details theme--light"
+      >
+        <div
+          class="v-data-table__wrapper"
+        >
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  摘要
+                </th>
+                <th
+                  class="text-right"
+                >
+                  数量
+                </th>
+                <th
+                  class="text-right"
+                >
+                  単価
+                </th>
+                <th
+                  class="text-right"
+                >
+                  小計
+                </th>
+                <th
+                  class="text-right"
+                >
+                  金額
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  障害福祉サービス
+                </td>
+                <td
+                  class="text-right"
+                >
+                  851単位
+                </td>
+                <td
+                  class="text-right"
+                >
+                  2.30円
+                </td>
+                <td
+                  class="text-right"
+                >
+                  50,731円
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  障害福祉サービス 介護給付額
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                  6,076円
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  障害福祉サービス 自治体助成額
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                  38,810円
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  障害福祉サービス 自己負担額
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                  5,549円
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  介護保険サービス
+                </td>
+                <td
+                  class="text-right"
+                >
+                  868単位
+                </td>
+                <td
+                  class="text-right"
+                >
+                  8.36円
+                </td>
+                <td
+                  class="text-right"
+                >
+                  68,241円
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  介護保険サービス 介護給付額
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                  81,654円
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  介護保険サービス 公費負担額
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                  24,321円
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  介護保険サービス 自己負担額
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                  15,599円
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  自己負担サービス
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                </td>
+                <td
+                  class="text-right"
+                >
+                  153,837円
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </z-overflow-shadow-stub>
+    <div
+      class="z-data-card-stub-slot-header"
+    />
+  </div>
+  <div>
+    <div
+      class="mt-2 z-data-card-stub"
+    >
+      <div
+        class="z-data-card-stub-slot-actions"
+      />
+      <z-data-card-item-stub
+        icon="M13.92 11H18V13H13V15H18V17H13V21H11V17H6V15H11V13H6V11H10.08L5 3H7.37L12 10.29L16.63 3H19L13.92 11Z"
+        label="税抜金額(10%)"
+        value="144,899円"
+      />
+      <z-data-card-item-stub
+        label="消費税額(10%)"
+        value="14,487円"
+      />
+      <z-data-card-item-stub
+        label="税抜金額(8%)"
+        value="0円"
+      />
+      <z-data-card-item-stub
+        label="消費税額(8%)"
+        value="0円"
+      />
+      <z-data-card-item-stub
+        label="繰越金額"
+        value="66円"
+      />
+      <z-data-card-item-stub
+        label="合計"
+        value="207,510円"
+      />
+      <z-data-card-item-stub
+        label="医療費控除対象額"
+        value="288,145円"
+      />
+      <!---->
+      <div
+        class="z-data-card-stub-slot-header"
+      />
+    </div>
+    <z-prompt-dialog-stub
+      cancelable="true"
+      data-carried-over-amount-dialog=""
+      options="[object Object]"
+    />
+  </div>
+  <z-system-meta-card-stub
+    createdat="2008-07-31T22:56:58+0900"
+    id="1"
+    updatedat="2009-01-05T11:31:48+0900"
+  />
+  <z-fab-speed-dial-stub
+    data-fab=""
+    icon="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z"
+  >
+    <z-fab-speed-dial-button-stub
+      color="secondary"
+      data-download-button="invoice"
+      icon="M7,2H17A2,2 0 0,1 19,4V20A2,2 0 0,1 17,22H7A2,2 0 0,1 5,20V4A2,2 0 0,1 7,2M7,4V8H17V4H7M7,10V12H9V10H7M11,10V12H13V10H11M15,10V12H17V10H15M7,14V16H9V14H7M11,14V16H13V14H11M15,14V16H17V14H15M7,18V20H9V18H7M11,18V20H13V18H11M15,18V20H17V18H15Z"
+    >
+      請求書をダウンロード
+    </z-fab-speed-dial-button-stub>
+    <z-fab-speed-dial-button-stub
+      color="secondary"
+      data-download-button="receipt"
+      icon="M5,3C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V16.72C21.59,16.37 22,15.74 22,15V9C22,8.26 21.59,7.63 21,7.28V5A2,2 0 0,0 19,3H5M5,5H19V7H13A2,2 0 0,0 11,9V15A2,2 0 0,0 13,17H19V19H5V5M13,9H20V15H13V9M16,10.5A1.5,1.5 0 0,0 14.5,12A1.5,1.5 0 0,0 16,13.5A1.5,1.5 0 0,0 17.5,12A1.5,1.5 0 0,0 16,10.5Z"
+    >
+      領収書をダウンロード
+    </z-fab-speed-dial-button-stub>
+    <z-fab-speed-dial-button-stub
+      color="secondary"
+      data-download-button="notice"
+      icon="M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M14,21A2,2 0 0,1 12,23A2,2 0 0,1 10,21"
+    >
+      代理受領額通知書をダウンロード
+    </z-fab-speed-dial-button-stub>
+    <z-fab-speed-dial-button-stub
+      color="secondary"
+      data-download-button="statement"
+      icon="M10 4a2 2 0 104 0 2 2 0 10-4 0M19 13v-2c-1.54.02-3.09-.75-4.07-1.83l-1.29-1.43c-.17-.19-.38-.34-.61-.45-.01 0-.01-.01-.02-.01H13c-.35-.2-.75-.3-1.19-.26C10.76 7.11 10 8.04 10 9.09V15c0 1.1.9 2 2 2h5v5h2v-5.5c0-1.1-.9-2-2-2h-3v-3.45c1.29 1.07 3.25 1.94 5 1.95zm-6.17 5c-.41 1.16-1.52 2-2.83 2-1.66 0-3-1.34-3-3 0-1.31.84-2.41 2-2.83V12.1a5 5 0 105.9 5.9h-2.07z"
+    >
+      介護サービス利用明細書をダウンロード
+    </z-fab-speed-dial-button-stub>
+  </z-fab-speed-dial-stub>
+  <z-progress-stub
+    message="処理中です。しばらくお待ちください。"
+    opacity="0.8"
+    zindex="7"
+  />
+  <z-date-confirm-dialog-stub
+    data-date-confirm-dialog="download"
+    message="印字する発行日を選択してください"
+    positivelabel="ダウンロード"
+  />
+</div>
+`;
+
+exports[`pages/user-billings/_id/index.vue submit should display errors when server responses 400 Bad Request (error occurred in "bankAccountHolder") 1`] = `
+<div
+  class="root"
+  data-bank-account-holder=""
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        class="v-input__slot"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-text-field__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            口座名義 *
+          </label>
+          <input
+            data-bank-account-holder-input=""
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              口座名義を入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/user-billings/_id/index.vue submit should display errors when server responses 400 Bad Request (error occurred in "bankAccountNumber") 1`] = `
+<div
+  class="root"
+  data-bank-account-number=""
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        class="v-input__slot"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-text-field__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            口座番号 *
+          </label>
+          <input
+            data-bank-account-number-input=""
+            maxlength="8"
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              口座番号を入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+  <v-messages-stub
+    class="multiLine mx-3 mt-n1"
+    value="口座番号は7桁で入力してください。
+通帳に記載されている番号が7桁未満の場合は、先頭に「0」を追加して合計7桁になるように入力してください。
+
+例）口座番号が 12345 の5桁の場合：0012345"
+  />
+</div>
+`;
+
+exports[`pages/user-billings/_id/index.vue submit should display errors when server responses 400 Bad Request (error occurred in "bankAccountType") 1`] = `
+<div
+  class="root"
+  data-bank-account-type=""
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined v-select error--text"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        aria-expanded="false"
+        aria-haspopup="listbox"
+        class="v-input__slot"
+        role="button"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-select__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            銀行口座種別 *
+          </label>
+          <div
+            class="v-select__selections"
+          >
+            <div
+              class="v-select__selection v-select__selection--comma"
+            >
+              普通預金
+            </div>
+            <input
+              aria-readonly="false"
+              autocomplete="off"
+              readonly="readonly"
+              type="text"
+            />
+          </div>
+          <div
+            class="v-input__append-inner"
+          >
+            <div
+              class="v-input__icon v-input__icon--append"
+            >
+              <i
+                aria-hidden="true"
+                class="v-icon notranslate mdi mdi-menu-down theme--light error--text"
+              />
+            </div>
+          </div>
+          <input
+            type="hidden"
+            value="1"
+          />
+        </div>
+        <div
+          class="v-menu"
+        >
+          <!---->
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              銀行口座種別を入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/user-billings/_id/index.vue submit should display errors when server responses 400 Bad Request (error occurred in "bankBranchCode") 1`] = `
+<div
+  class="root"
+  data-bank-branch-code=""
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        class="v-input__slot"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-text-field__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            支店コード *
+          </label>
+          <input
+            data-bank-branch-code-input=""
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              支店コードを入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/user-billings/_id/index.vue submit should display errors when server responses 400 Bad Request (error occurred in "bankBranchName") 1`] = `
+<div
+  class="root"
+  data-bank-branch-name=""
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        class="v-input__slot"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-text-field__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            支店名 *
+          </label>
+          <input
+            data-bank-branch-name-input=""
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              支店名を入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/user-billings/_id/index.vue submit should display errors when server responses 400 Bad Request (error occurred in "bankCode") 1`] = `
+<div
+  class="root"
+  data-bank-code=""
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        class="v-input__slot"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-text-field__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            銀行コード *
+          </label>
+          <input
+            data-bank-code-input=""
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              銀行コードを入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/user-billings/_id/index.vue submit should display errors when server responses 400 Bad Request (error occurred in "bankName") 1`] = `
+<div
+  class="root"
+  data-bank-name=""
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        class="v-input__slot"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-text-field__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            銀行名 *
+          </label>
+          <input
+            data-bank-name-input=""
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              銀行名を入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

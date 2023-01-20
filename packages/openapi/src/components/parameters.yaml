@@ -1,0 +1,111 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+attendanceId:
+  $ref: ./parameters/attendance-id.yaml
+bankAccountId:
+  $ref: ./parameters/bank-account-id.yaml
+contractId:
+  $ref: ./parameters/contract-id.yaml
+dwsAreaGradeId:
+  $ref: ./parameters/dws-area-grade-id.yaml
+dwsBillingBundleId:
+  $ref: ./parameters/dws-billing-bundle-id.yaml
+dwsBillingCopayCoordinationId:
+  $ref: ./parameters/dws-billing-copay-coordination-id.yaml
+dwsBillingId:
+  $ref: ./parameters/dws-billing-id.yaml
+dwsBillingInvoiceId:
+  $ref: ./parameters/dws-billing-invoice-id.yaml
+dwsBillingServiceReportId:
+  $ref: ./parameters/dws-billing-service-report-id.yaml
+dwsBillingStatementId:
+  $ref: ./parameters/dws-billing-statement-id.yaml
+dwsCertificationId:
+  $ref: ./parameters/dws-certification-id.yaml
+dwsContractId:
+  $ref: ./parameters/dws-contract-id.yaml
+dwsProjectId:
+  $ref: ./parameters/dws-project-id.yaml
+dwsProvisionReportId:
+  $ref: ./parameters/dws-provision-report-id.yaml
+dwsSubsidyId:
+  $ref: ./parameters/dws-subsidy-id.yaml
+homeHelpServiceCalcSpecId:
+  $ref: ./parameters/home-help-service-calc-spec-id.yaml
+homeVisitLongTermCareCalcSpecId:
+  $ref: ./parameters/home-visit-long-term-care-calc-spec-id.yaml
+invitationId:
+  $ref: ./parameters/invitation-id.yaml
+jobId:
+  $ref: ./parameters/job-id.yaml
+ltcsAreaGradeId:
+  $ref: ./parameters/ltcs-area-grade-id.yaml
+ltcsBillingBundleId:
+  $ref: ./parameters/ltcs-billing-bundle-id.yaml
+ltcsBillingId:
+  $ref: ./parameters/ltcs-billing-id.yaml
+ltcsBillingInvoiceId:
+  $ref: ./parameters/ltcs-billing-invoice-id.yaml
+ltcsBillingStatementId:
+  $ref: ./parameters/ltcs-billing-statement-id.yaml
+ltcsContractId:
+  $ref: ./parameters/ltcs-contract-id.yaml
+ltcsHomeVisitLongTermCareDictionaryEntryId:
+  $ref: ./parameters/ltcs-home-visit-long-term-care-dictionary-entry-id.yaml
+ltcsHomeVisitLongTermCareDictionaryId:
+  $ref: ./parameters/ltcs-home-visit-long-term-care-dictionary-id.yaml
+ltcsInsCardId:
+  $ref: ./parameters/ltcs-ins-card-id.yaml
+ltcsProjectId:
+  $ref: ./parameters/ltcs-project-id.yaml
+ltcsProvisionReportId:
+  $ref: ./parameters/ltcs-provision-report-id.yaml
+ltcsSubsidyId:
+  $ref: ./parameters/ltcs-subsidy-id.yaml
+officeGroupId:
+  $ref: ./parameters/office-group-id.yaml
+officeId:
+  $ref: ./parameters/office-id.yaml
+organizationSettingId:
+  $ref: ./parameters/organization-setting-id.yaml
+ownExpenseProgramId:
+  $ref: ./parameters/own-expense-program-id.yaml
+permissionGroupId:
+  $ref: ./parameters/permission-group-id.yaml
+projectId:
+  $ref: ./parameters/project-id.yaml
+providedIn:
+  $ref: ./parameters/provided-in.yaml
+roleId:
+  $ref: ./parameters/role-id.yaml
+serviceCategoryId:
+  $ref: ./parameters/service-category-id.yaml
+serviceMenuId:
+  $ref: ./parameters/service-menu-id.yaml
+serviceMenuOptionId:
+  $ref: ./parameters/service-menu-option-id.yaml
+shiftId:
+  $ref: ./parameters/shift-id.yaml
+staffId:
+  $ref: ./parameters/staff-id.yaml
+token:
+  $ref: ./parameters/token.yaml
+userBillingId:
+  $ref: ./parameters/user-billing-id.yaml
+userDwsCalcSpecId:
+  $ref: ./parameters/user-dws-calc-spec-id.yaml
+userDwsSubsidyId:
+  $ref: ./parameters/user-dws-subsidy-id.yaml
+userId:
+  $ref: ./parameters/user-id.yaml
+userLtcsCalcSpecId:
+  $ref: ./parameters/user-ltcs-calc-spec-id.yaml
+userLtcsSubsidyId:
+  $ref: ./parameters/user-ltcs-subsidy-id.yaml
+visitingCareForPwsdCalcSpecId:
+  $ref: ./parameters/visiting-care-for-pwsd-calc-spec-id.yaml
+withdrawalTransactionId:
+  $ref: ./parameters/withdrawal-transaction-id.yaml

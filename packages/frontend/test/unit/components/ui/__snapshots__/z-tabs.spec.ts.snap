@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-tabs.vue should be rendered correctly when greater than or equal a breakpoint 1`] = `
+<v-tabs-stub
+  activeclass="font-weight-bold"
+  backgroundcolor="transparent"
+  centered="true"
+  color="accent"
+  light="true"
+  nexticon="$next"
+  previcon="$prev"
+  showarrows="true"
+  slidersize="2"
+>
+  <v-tab-stub
+    ripple="true"
+    to="/tab1"
+  >
+    タブ1
+  </v-tab-stub>
+  <v-tab-stub
+    ripple="true"
+    to="/tab2"
+  >
+    タブ2
+  </v-tab-stub>
+  <v-tab-stub
+    ripple="true"
+    to="/tab3"
+  >
+    タブ3
+  </v-tab-stub>
+</v-tabs-stub>
+`;
+
+exports[`z-tabs.vue should be rendered correctly when less than a breakpoint 1`] = `
+<v-tabs-stub
+  activeclass="font-weight-bold"
+  backgroundcolor="transparent"
+  centered="true"
+  color="accent"
+  grow="true"
+  light="true"
+  nexticon="$next"
+  previcon="$prev"
+  showarrows="true"
+  slidersize="2"
+>
+  <v-tab-stub
+    ripple="true"
+    to="/tab1"
+  >
+    タブ1
+  </v-tab-stub>
+  <v-tab-stub
+    ripple="true"
+    to="/tab2"
+  >
+    タブ2
+  </v-tab-stub>
+  <v-tab-stub
+    ripple="true"
+    to="/tab3"
+  >
+    タブ3
+  </v-tab-stub>
+</v-tabs-stub>
+`;
+
+exports[`z-tabs.vue should be updated when $tabs is updated 1`] = `
+<v-tabs-stub
+  activeclass="font-weight-bold"
+  backgroundcolor="transparent"
+  centered="true"
+  color="accent"
+  grow="true"
+  light="true"
+  nexticon="$next"
+  previcon="$prev"
+  showarrows="true"
+  slidersize="2"
+>
+  <v-tab-stub
+    ripple="true"
+    to="/new/tab1"
+  >
+    新しいタブ1
+  </v-tab-stub>
+  <v-tab-stub
+    ripple="true"
+    to="/new/tab2"
+  >
+    新しいタブ2
+  </v-tab-stub>
+  <v-tab-stub
+    ripple="true"
+    to="/new/tab3"
+  >
+    新しいタブ3
+  </v-tab-stub>
+</v-tabs-stub>
+`;

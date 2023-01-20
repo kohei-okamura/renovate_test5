@@ -1,0 +1,41 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 障害福祉サービス：請求書
+type: object
+properties:
+  id:
+    description: 請求書ID
+    type: object
+  claimAmount:
+    description: 請求金額
+    type: number
+  dwsPayment:
+    $ref: '#/components/schemas/DwsBillingPayment'
+  highCostDwsPayment:
+    $ref: '#/components/schemas/DwsBillingHighCostPayment'
+  totalCount:
+    description: 合計：件数
+    type: number
+  totalScore:
+    description: 合計：単位数
+    type: number
+  totalFee:
+    description: 合計：費用合計
+    type: number
+  totalBenefit:
+    description: 合計：給付費請求額
+    type: number
+  totalCopay:
+    description: 合計：利用者負担額
+    type: number
+  totalSubsidy:
+    description: 合計：自治体助成額
+    type: number
+  items:
+    description: 明細
+    type: array
+    items:
+      $ref: '#/components/schemas/DwsBillingInvoiceItem'

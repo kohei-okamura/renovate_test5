@@ -1,0 +1,37 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+get:
+  summary: 介護保険サービス：訪問介護：サービスコード辞書エントリ取得
+  description: 介護保険サービス：訪問介護：サービスコード辞書エントリを取得する。
+  parameters:
+    - in: path
+      name: serviceCode
+      description: サービスコード
+      required: true
+      schema:
+        type: string
+    - in: query
+      name: providedIn
+      description: サービス提供年月
+      required: true
+      schema:
+        $ref: '#/components/schemas/YearMonth'
+  responses:
+    '200':
+      description: 正常に処理が行われた場合
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              dictionaryEntry:
+                $ref: '#/components/schemas/LtcsHomeVisitLongTermCareDictionaryEntry'
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+    '404':
+      description: サービスコードに対応する介護保険サービス：訪問介護：サービスコード辞書エントリ、もしくは介護保険サービス：訪問介護：サービスコード辞書が存在しない場合
+  tags:
+    - その他

@@ -1,0 +1,13 @@
+{
+    "dwsStatementId": 1,
+    "score": 100,
+    "unitCost": 10,
+    "subtotalCost": 1000,
+    "tax": 10,
+    "medicalDeductionAmount": 5000,
+    "benefitAmount": 2000,
+    "subsidyAmount": 1000,
+    "totalAmount": 1000,
+    "copayWithoutTax": 2000,
+    "copayWithTax": 2200
+}

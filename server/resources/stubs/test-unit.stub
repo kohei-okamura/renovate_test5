@@ -1,0 +1,42 @@
+<?php
+/*
+ * Copyright © {{ year }} EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+ * UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+ */
+declare(strict_types=1);
+
+namespace Tests\Unit\{{ namespace }};
+
+use Spatie\Snapshots\MatchesSnapshots;
+use Tests\Unit\Helpers\UnitSupport;
+use Tests\Unit\Mixins\MockeryMixin;
+use Tests\Unit\Test;
+
+/**
+ * {@link \{{ fqn }}} のテスト.
+ */
+final class {{ className }}Test extends Test
+{
+    use MatchesSnapshots;
+    use MockeryMixin;
+    use UnitSupport;
+
+    /**
+     * 初期化処理.
+     */
+    public static function _setUpSuite(): void
+    {
+        self::beforeEachTest(function (self $self): void {
+            // TODO: 各テストケース（メソッド）の実行前に行う処理（準備）を記述する
+        });
+        self::beforeEachSpec(function (self $self): void {
+            // TODO: 各テストケース（メソッド）の実行前に行う処理（準備）を記述する
+        });
+    }
+
+    /**
+     * @test
+     * @return void
+     */
+    // TODO: テストを記述する
+}

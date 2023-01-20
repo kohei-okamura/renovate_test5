@@ -1,0 +1,52 @@
+{
+  "id": 1,
+  "userId": 1,
+  "effectivatedOn": "2016-05-02 00:00:00",
+  "status": 2,
+  "dwsNumber": "0123456789",
+  "dwsTypes": [
+    1
+  ],
+  "issuedOn": "2016-05-02 00:00:00",
+  "cityName": "\u4e2d\u91ce\u533a",
+  "cityCode": "123456",
+  "dwsLevel": 21,
+  "isSubjectOfComprehensiveSupport": true,
+  "activatedOn": "2016-05-02 00:00:00",
+  "deactivatedOn": "2020-05-02 00:00:00",
+  "grants": [
+    2,
+    "\u652f\u7d66\u91cf\u30c6\u30b9\u30c8",
+    "2007-05-02T00:00:00+0900",
+    "1972-04-17T00:00:00+0900"
+  ],
+  "child": {
+    "name": {
+      "displayName": "\u5185\u85e4 \u52c7\u4ecb",
+      "phoneticDisplayName": "\u30ca\u30a4\u30c8\u30a6 \u30e6\u30a6\u30b9\u30b1",
+      "familyName": "\u5185\u85e4",
+      "givenName": "\u52c7\u4ecb",
+      "phoneticFamilyName": "\u30ca\u30a4\u30c8\u30a6",
+      "phoneticGivenName": "\u30e6\u30a6\u30b9\u30b1"
+    },
+    "birthday": "2000-01-01T00:00:00+0900"
+  },
+  "copayRate": 3000,
+  "copayLimit": null,
+  "copayActivatedOn": "2016-05-02 00:00:00",
+  "copayDeactivatedOn": "2020-05-02 00:00:00",
+  "copayCoordination": {
+    "copayCoordinationType": 1,
+    "officeId": 1
+  },
+  "agreements": [
+    10,
+    3,
+    13,
+    1000,
+    "1980-01-27T00:00:00+0900",
+    "1997-04-06T00:00:00+0900"
+  ],
+  "createdAt": "2019-05-15T00:00:00+0900",
+  "updatedAt": "2019-05-15T00:00:00+0900"
+}

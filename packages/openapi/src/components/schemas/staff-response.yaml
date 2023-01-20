@@ -1,0 +1,19 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+type: object
+properties:
+  bankAccount:
+    $ref: '#/components/schemas/BankAccount'
+  offices:
+    description: 事業所
+    type: array
+    items:
+      $ref: '#/components/schemas/Office'
+  roles:
+    description: ロール
+    type: array
+    items:
+      $ref: '#/components/schemas/Role'
+  staff:
+    $ref: '#/components/schemas/Staff'

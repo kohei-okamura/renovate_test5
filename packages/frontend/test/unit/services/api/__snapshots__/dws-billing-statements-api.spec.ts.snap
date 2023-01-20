@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`api/dws-billing-statements-api bulkUpdateStatus should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/dws-billing-statements-api get should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/dws-billing-statements-api refresh should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/dws-billing-statements-api update should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/dws-billing-statements-api updateCopayCoordination should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/dws-billing-statements-api updateCopayCoordinationStatus should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/dws-billing-statements-api updateStatus should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;

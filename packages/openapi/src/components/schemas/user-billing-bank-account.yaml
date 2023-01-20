@@ -1,0 +1,28 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 利用者請求：銀行口座
+type: object
+properties:
+  bankName:
+    description: 銀行名
+    type: string
+  bankCode:
+    description: 銀行コード
+    type: string
+  bankBranchName:
+    description: 支店名
+    type: string
+  bankBranchCode:
+    description: 支店コード
+    type: string
+  bankAccountType:
+    $ref: '#/components/schemas/BankAccountType'
+  bankAccountNumber:
+    description: 口座番号
+    type: string
+  bankAccountHolder:
+    description: 名義
+    type: string

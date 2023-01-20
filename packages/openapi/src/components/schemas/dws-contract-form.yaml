@@ -1,0 +1,25 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+description: 障害福祉契約
+type: object
+properties:
+  officeId:
+    $ref: '#/components/schemas/OfficeId'
+  status:
+    $ref: '#/components/schemas/ContractStatus'
+  contractedOn:
+    $ref: '#/components/schemas/DateLike'
+  terminatedOn:
+    $ref: '#/components/schemas/DateLike'
+  dwsPeriods:
+    $ref: '#/components/schemas/ContractPeriod'
+  note:
+    description: 備考
+    type: string
+required:
+  - officeId
+  - status
+  - contractedOn
+  - terminatedOn
+  - dwsPeriods

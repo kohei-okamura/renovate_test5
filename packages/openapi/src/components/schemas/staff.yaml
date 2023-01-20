@@ -1,0 +1,74 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: スタッフ
+type: object
+properties:
+  id:
+    description: スタッフ ID
+    type: object
+  bankAccountId:
+    description: 銀行口座 ID
+    type: object
+  roleIds:
+    description: ロール ID
+    type: array
+    items:
+      description: ロール ID
+      type: object
+  employeeNumber:
+    description: 社員番号
+    type: string
+  name:
+    $ref: '#/components/schemas/StructuredName'
+  addr:
+    $ref: '#/components/schemas/Addr'
+  sex:
+    $ref: '#/components/schemas/Sex'
+  birthday:
+    $ref: '#/components/schemas/DateLike'
+  location:
+    $ref: '#/components/schemas/Location'
+  tel:
+    description: 電話番号
+    type: string
+  fax:
+    description: FAX 番号
+    type: string
+  email:
+    description: メールアドレス
+    type: string
+  certifications:
+    description: 資格
+    type: array
+    items:
+      $ref: '#/components/schemas/Certification'
+  officeIds:
+    description: 事業所ID
+    type: array
+    items:
+      description: 事業所ID
+      type: object
+  officeGroupIds:
+    description: 事業所グループ
+    type: array
+    items:
+      description: 事業所グループ
+      type: object
+  isVerified:
+    description: メールアドレス検証済みフラグ
+    type: boolean
+  status:
+    $ref: '#/components/schemas/StaffStatus'
+  isEnabled:
+    description: 有効フラグ
+    type: boolean
+  version:
+    description: バージョン
+    type: number
+  createdAt:
+    $ref: '#/components/schemas/DateLike'
+  updatedAt:
+    $ref: '#/components/schemas/DateLike'

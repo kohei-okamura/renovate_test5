@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-page.vue with breadcrumbs should be rendered correctly on desktop 1`] = `
+<div
+  class="root"
+  data-z-page=""
+  title="DRAGON BALL Z"
+>
+  <v-container-stub
+    class="z-page__content"
+    tag="div"
+  >
+    <div
+      class="v-alert v-sheet theme--dark elevation-1 info"
+      role="alert"
+      style="display: none;"
+    >
+      <div
+        class="v-alert__wrapper"
+      >
+        <i
+          aria-hidden="true"
+          class="v-icon notranslate v-alert__icon mdi mdi-information theme--dark"
+        />
+        <div
+          class="v-alert__content"
+        >
+          <h3>
+          </h3>
+          <div
+            class="alert-body"
+          >
+          </div>
+        </div>
+        <button
+          aria-label="Close"
+          class="v-alert__dismissible v-btn v-btn--icon v-btn--round theme--dark v-size--small"
+          type="button"
+        >
+          <span
+            class="v-btn__content"
+          >
+            <i
+              aria-hidden="true"
+              class="v-icon notranslate mdi mdi-close-circle theme--dark"
+            />
+          </span>
+        </button>
+      </div>
+    </div>
+  </v-container-stub>
+</div>
+`;
+
+exports[`z-page.vue with breadcrumbs should be rendered correctly on mobile 1`] = `
+<div
+  class="root z-page--mobile"
+  data-z-page=""
+  title="DRAGON BALL Z"
+>
+  <v-container-stub
+    class="z-page__content"
+    tag="div"
+  >
+    <div
+      class="v-alert v-sheet theme--dark elevation-1 info"
+      role="alert"
+      style="display: none;"
+    >
+      <div
+        class="v-alert__wrapper"
+      >
+        <i
+          aria-hidden="true"
+          class="v-icon notranslate v-alert__icon mdi mdi-information theme--dark"
+        />
+        <div
+          class="v-alert__content"
+        >
+          <h3>
+          </h3>
+          <div
+            class="alert-body"
+          >
+          </div>
+        </div>
+        <button
+          aria-label="Close"
+          class="v-alert__dismissible v-btn v-btn--icon v-btn--round theme--dark v-size--small"
+          type="button"
+        >
+          <span
+            class="v-btn__content"
+          >
+            <i
+              aria-hidden="true"
+              class="v-icon notranslate mdi mdi-close-circle theme--dark"
+            />
+          </span>
+        </button>
+      </div>
+    </div>
+  </v-container-stub>
+</div>
+`;
+
+exports[`z-page.vue without breadcrumbs should be rendered correctly on desktop 1`] = `
+<div
+  class="root"
+  data-z-page=""
+  title="EUREKA SEVEN"
+>
+  <v-container-stub
+    class="z-page__content"
+    tag="div"
+  >
+    <div
+      class="v-alert v-sheet theme--dark elevation-1 info"
+      role="alert"
+      style="display: none;"
+    >
+      <div
+        class="v-alert__wrapper"
+      >
+        <i
+          aria-hidden="true"
+          class="v-icon notranslate v-alert__icon mdi mdi-information theme--dark"
+        />
+        <div
+          class="v-alert__content"
+        >
+          <h3>
+          </h3>
+          <div
+            class="alert-body"
+          >
+          </div>
+        </div>
+        <button
+          aria-label="Close"
+          class="v-alert__dismissible v-btn v-btn--icon v-btn--round theme--dark v-size--small"
+          type="button"
+        >
+          <span
+            class="v-btn__content"
+          >
+            <i
+              aria-hidden="true"
+              class="v-icon notranslate mdi mdi-close-circle theme--dark"
+            />
+          </span>
+        </button>
+      </div>
+    </div>
+  </v-container-stub>
+</div>
+`;
+
+exports[`z-page.vue without breadcrumbs should be rendered correctly on mobile 1`] = `
+<div
+  class="root z-page--mobile"
+  data-z-page=""
+  title="EUREKA SEVEN"
+>
+  <v-container-stub
+    class="z-page__content"
+    tag="div"
+  >
+    <div
+      class="v-alert v-sheet theme--dark elevation-1 info"
+      role="alert"
+      style="display: none;"
+    >
+      <div
+        class="v-alert__wrapper"
+      >
+        <i
+          aria-hidden="true"
+          class="v-icon notranslate v-alert__icon mdi mdi-information theme--dark"
+        />
+        <div
+          class="v-alert__content"
+        >
+          <h3>
+          </h3>
+          <div
+            class="alert-body"
+          >
+          </div>
+        </div>
+        <button
+          aria-label="Close"
+          class="v-alert__dismissible v-btn v-btn--icon v-btn--round theme--dark v-size--small"
+          type="button"
+        >
+          <span
+            class="v-btn__content"
+          >
+            <i
+              aria-hidden="true"
+              class="v-icon notranslate mdi mdi-close-circle theme--dark"
+            />
+          </span>
+        </button>
+      </div>
+    </div>
+  </v-container-stub>
+</div>
+`;

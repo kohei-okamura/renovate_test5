@@ -1,0 +1,21 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 障害福祉サービス：予実：概要
+type: object
+properties:
+  userId:
+    description: 利用者 ID
+    type: object
+  name:
+    $ref: '#/components/schemas/StructuredName'
+  dwsNumber:
+    description: 受給者証番号
+    type: string
+  isEnabled:
+    description: 利用者の状態
+    type: boolean
+  status:
+    $ref: '#/components/schemas/DwsProvisionReportStatus'

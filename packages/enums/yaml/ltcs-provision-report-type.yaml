@@ -1,0 +1,15 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 介護保険サービス：予実区分
+name: LtcsProvisionReportType
+php:
+  enabled: true
+  namespace: ProvisionReport
+  traits:
+    - LtcsProvisionReportTypeSupport
+typescript:
+  enabled: true
+items:
+  - { description: 訪問介護, name: HomeVisitLongTermCare, value: 1 }
+  - { description: 総合事業, name: ComprehensiveService, value: 2 }

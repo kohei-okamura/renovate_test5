@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`api/dws-certifications-api create should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/dws-certifications-api delete should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/dws-certifications-api get should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/dws-certifications-api update should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;

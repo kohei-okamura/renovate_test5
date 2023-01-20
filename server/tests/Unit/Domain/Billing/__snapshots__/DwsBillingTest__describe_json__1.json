@@ -1,0 +1,32 @@
+{
+    "id": 1,
+    "organizationId": 1,
+    "office": {
+        "officeId": 1,
+        "code": "123456",
+        "name": "\u4e8b\u696d\u62401",
+        "abbr": "\u4e8b\u696d1",
+        "addr": {
+            "postcode": "739-0604",
+            "prefecture": 34,
+            "city": "\u5927\u7af9\u5e02",
+            "street": "\u5317\u68041-13-11",
+            "apartment": "\u5317\u6804\u8358411"
+        },
+        "tel": "090-3169-6661"
+    },
+    "transactedIn": "2019-05-15T00:00:00+0900",
+    "files": [
+        {
+            "name": "\u30b5\u30fc\u30d3\u30b9\u63d0\u4f9b\u5b9f\u7e3e\u8a18\u9332\u7968_\u85e4\u6ca2_202012.csv",
+            "token": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            "mimeType": "text\/csv",
+            "createdAt": "2009-10-10T19:11:19+0900",
+            "downloadedAt": "2006-12-13T03:55:31+0900"
+        }
+    ],
+    "status": 10,
+    "fixedAt": "2019-05-15T00:00:00+0900",
+    "createdAt": "2019-05-15T00:00:00+0900",
+    "updatedAt": "2019-05-15T00:00:00+0900"
+}

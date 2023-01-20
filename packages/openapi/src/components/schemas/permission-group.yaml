@@ -1,0 +1,30 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 権限グループ
+type: object
+properties:
+  id:
+    description: 権限 ID
+    type: object
+  code:
+    description: 権限グループコード
+    type: string
+  name:
+    description: 名称
+    type: string
+  displayName:
+    description: 表示名
+    type: string
+  permissions:
+    description: 権限
+    type: array
+    items:
+      $ref: '#/components/schemas/Permission'
+  sortOrder:
+    description: 表示順
+    type: number
+  createdAt:
+    $ref: '#/components/schemas/DateLike'

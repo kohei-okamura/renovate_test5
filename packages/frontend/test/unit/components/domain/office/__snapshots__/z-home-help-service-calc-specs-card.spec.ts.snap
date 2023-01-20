@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-home-help-service-calc-specs-card.vue footer should change text and icon when clicked footer btn 1`] = `
+<a
+  block=""
+  class="v-btn-stub"
+  color="white"
+  data-toggle-expanded-btn=""
+>
+      古い算定情報（障害・居宅介護）を隠す
+  <v-icon-stub
+    right=""
+  >
+    M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z
+  </v-icon-stub>
+</a>
+`;
+
+exports[`z-home-help-service-calc-specs-card.vue should be rendered correctly 1`] = `
+<div
+  class="z-home-help-service-calc-specs-card root"
+  data-z-data-accordion=""
+>
+  <z-subheader-stub>
+    算定情報（障害・居宅介護）
+  </z-subheader-stub>
+  <div
+    class="v-item-group theme--light v-expansion-panels"
+  >
+    <div
+      aria-expanded="false"
+      class="v-expansion-panel panel"
+      data-expansion-panel=""
+    >
+      <button
+        class="v-expansion-panel-header header"
+        data-expansion-panel-header=""
+        type="button"
+      >
+        <div
+          class="item"
+        >
+          <div
+            class="text-caption text--secondary"
+          >
+            適用期間
+          </div>
+          <div
+            class="text-body-2 text--primary"
+          >
+            <time
+              datetime="1987-11-08"
+            >
+              昭和62年11月8日
+            </time>
+            <span>
+              〜
+            </span>
+            <time
+              datetime="2025-01-03"
+            >
+              令和7年1月3日
+            </time>
+          </div>
+        </div>
+        <transition-stub
+          name="fade-transition"
+        >
+          <div
+            class="v-expansion-panel-header__icon"
+          >
+            <i
+              aria-hidden="true"
+              class="v-icon notranslate mdi mdi-chevron-down theme--light"
+            />
+          </div>
+        </transition-stub>
+      </button>
+      <transition-stub
+        name="expand-transition"
+      >
+        <!---->
+      </transition-stub>
+    </div>
+    <div
+      aria-expanded="false"
+      class="v-expansion-panel panel"
+      data-expansion-panel=""
+    >
+      <button
+        class="v-expansion-panel-header header"
+        data-expansion-panel-header=""
+        type="button"
+      >
+        <div
+          class="item"
+        >
+          <div
+            class="text-caption text--secondary"
+          >
+            適用期間
+          </div>
+          <div
+            class="text-body-2 text--primary"
+          >
+            <time
+              datetime="2008-04-16"
+            >
+              平成20年4月16日
+            </time>
+            <span>
+              〜
+            </span>
+            <time
+              datetime="2012-10-29"
+            >
+              平成24年10月29日
+            </time>
+          </div>
+        </div>
+        <transition-stub
+          name="fade-transition"
+        >
+          <div
+            class="v-expansion-panel-header__icon"
+          >
+            <i
+              aria-hidden="true"
+              class="v-icon notranslate mdi mdi-chevron-down theme--light"
+            />
+          </div>
+        </transition-stub>
+      </button>
+      <transition-stub
+        name="expand-transition"
+      >
+        <!---->
+      </transition-stub>
+    </div>
+  </div>
+  <!---->
+  <div
+    class="text-center footer"
+  >
+    <a
+      block=""
+      class="v-btn-stub"
+      color="white"
+      data-toggle-expanded-btn=""
+    >
+      古い算定情報（障害・居宅介護）を表示
+      <v-icon-stub
+        right=""
+      >
+        M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z
+      </v-icon-stub>
+    </a>
+  </div>
+</div>
+`;

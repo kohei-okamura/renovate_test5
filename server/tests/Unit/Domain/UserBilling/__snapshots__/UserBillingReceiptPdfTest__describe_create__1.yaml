@@ -1,0 +1,99 @@
+billingDestination:
+    addr:
+        postcode: 164-0011
+        prefecture: 13
+        city: 中野区
+        street: 中央1-35-6
+        apartment: レッチフィールド中野坂上ビル6F
+    corporationName: ''
+    agentName: 山田太郎
+carriedOverAmount: 1000
+depositedAt: 2021年4月1日
+dwsItem:
+    dwsStatementId: 1
+    score: 100
+    unitCost: 100000
+    subtotalCost: 1000
+    tax: 10
+    medicalDeductionAmount: 5000
+    benefitAmount: 2000
+    subsidyAmount: 1000
+    totalAmount: 1000
+    copayWithoutTax: 2000
+    copayWithTax: 2200
+issuedOn: 2021年11月10日
+ltcsItem:
+    ltcsStatementId: 6
+    score: 100
+    unitCost: 100000
+    subtotalCost: 1000
+    tax: 10
+    medicalDeductionAmount: 5000
+    benefitAmount: 2000
+    subsidyAmount: 1000
+    totalAmount: 1000
+    copayWithoutTax: 2000
+    copayWithTax: 2200
+medicalDeductionAmount: 25000
+normalTaxRate:
+    withoutTax: 2000
+    tax: 200
+office:
+    name: 事務所名
+    corporationName: 法人名
+    addr:
+        postcode: 164-0000
+        prefecture: 13
+        city: 中野区
+        street: どこだろう
+        apartment: ハーモニータワー
+    tel: 090-0000-0000
+otherItemsTotalAmount: 3000
+period:
+    start: '2021-04-01T00:00:00+09:00'
+    end: '2021-04-30T23:59:59+09:00'
+providedIn: 2021年4月
+reducedTaxRate:
+    withoutTax: 0
+    tax: 0
+totalAmount: 12000
+user:
+    name:
+        displayName: 'てすと たろう'
+        phoneticDisplayName: 'テスト タロウ'
+        familyName: てすと
+        givenName: たろう
+        phoneticFamilyName: テスト
+        phoneticGivenName: タロウ
+    addr:
+        postcode: 164-0011
+        prefecture: 13
+        city: 中野区
+        street: 中央1-35-6
+        apartment: レッチフィールド中野坂上ビル6F
+    contacts:
+        -
+            tel: 01-2345-6789
+            relationship: 20
+            name: 田中花子
+    billingDestination:
+        destination: 2
+        paymentMethod: 1
+        contractNumber: '0123456789'
+        corporationName: ユースタイルラボラトリー株式会社
+        agentName: 山田太郎
+        addr:
+            postcode: 164-0011
+            prefecture: 13
+            city: 中野区
+            street: 中央1-35-6
+            apartment: レッチフィールド中野坂上ビル6F
+        tel: 03-1234-5678
+    bankAccount:
+        bankName: テスト銀行名
+        bankCode: テスト銀行コード
+        bankBranchName: 銀行支店名
+        bankBranchCode: '0123456789'
+        bankAccountType: 1
+        bankAccountNumber: '0123456789'
+        bankAccountHolder: テスト名義

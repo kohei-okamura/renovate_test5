@@ -1,0 +1,14 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: スタッフ：状態
+name: StaffStatus
+php:
+  enabled: true
+  namespace: Staff
+typescript:
+  enabled: true
+items:
+  - { description: 仮登録, name: Provisional, value: 1 }
+  - { description: 在職中, name: Active, value: 2 }
+  - { description: 退職, name: Retired, value: 9 }

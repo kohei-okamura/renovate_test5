@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-date-picker.vue should rendered correctly when no props specified 1`] = `
+<v-date-picker-stub
+  dayformat="[Function]"
+  eventcolor="warning"
+  firstdayofweek="1"
+  headerdateformat="[Function]"
+  locale="ja-JP"
+  localefirstdayofyear="0"
+  max="2028-05-17"
+  min="1920-01-01"
+  nexticon="$next"
+  nextmontharialabel="$vuetify.datePicker.nextMonthAriaLabel"
+  nextyeararialabel="$vuetify.datePicker.nextYearAriaLabel"
+  notitle="true"
+  previcon="$prev"
+  prevmontharialabel="$vuetify.datePicker.prevMonthAriaLabel"
+  prevyeararialabel="$vuetify.datePicker.prevYearAriaLabel"
+  selecteditemstext="$vuetify.datePicker.itemsSelected"
+  showcurrent="true"
+  titledateformat="[Function]"
+  type="date"
+  width="290"
+  yearformat="[Function]"
+/>
+`;
+
+exports[`z-date-picker.vue should rendered correctly when the prop "max" specified 1`] = `
+<v-date-picker-stub
+  dayformat="[Function]"
+  eventcolor="warning"
+  firstdayofweek="1"
+  headerdateformat="[Function]"
+  locale="ja-JP"
+  localefirstdayofyear="0"
+  max="2021-04-19"
+  min="1920-01-01"
+  nexticon="$next"
+  nextmontharialabel="$vuetify.datePicker.nextMonthAriaLabel"
+  nextyeararialabel="$vuetify.datePicker.nextYearAriaLabel"
+  notitle="true"
+  previcon="$prev"
+  prevmontharialabel="$vuetify.datePicker.prevMonthAriaLabel"
+  prevyeararialabel="$vuetify.datePicker.prevYearAriaLabel"
+  selecteditemstext="$vuetify.datePicker.itemsSelected"
+  showcurrent="true"
+  titledateformat="[Function]"
+  type="date"
+  width="290"
+  yearformat="[Function]"
+/>
+`;
+
+exports[`z-date-picker.vue should rendered correctly when the prop "min" specified 1`] = `
+<v-date-picker-stub
+  dayformat="[Function]"
+  eventcolor="warning"
+  firstdayofweek="1"
+  headerdateformat="[Function]"
+  locale="ja-JP"
+  localefirstdayofyear="0"
+  max="2028-05-17"
+  min="2008-05-17"
+  nexticon="$next"
+  nextmontharialabel="$vuetify.datePicker.nextMonthAriaLabel"
+  nextyeararialabel="$vuetify.datePicker.nextYearAriaLabel"
+  notitle="true"
+  previcon="$prev"
+  prevmontharialabel="$vuetify.datePicker.prevMonthAriaLabel"
+  prevyeararialabel="$vuetify.datePicker.prevYearAriaLabel"
+  selecteditemstext="$vuetify.datePicker.itemsSelected"
+  showcurrent="true"
+  titledateformat="[Function]"
+  type="date"
+  width="290"
+  yearformat="[Function]"
+/>
+`;
+
+exports[`z-date-picker.vue should rendered correctly when the prop "pickerDate" specified 1`] = `
+<v-date-picker-stub
+  dayformat="[Function]"
+  eventcolor="warning"
+  firstdayofweek="1"
+  headerdateformat="[Function]"
+  locale="ja-JP"
+  localefirstdayofyear="0"
+  max="2028-05-17"
+  min="1920-01-01"
+  nexticon="$next"
+  nextmontharialabel="$vuetify.datePicker.nextMonthAriaLabel"
+  nextyeararialabel="$vuetify.datePicker.nextYearAriaLabel"
+  notitle="true"
+  previcon="$prev"
+  prevmontharialabel="$vuetify.datePicker.prevMonthAriaLabel"
+  prevyeararialabel="$vuetify.datePicker.prevYearAriaLabel"
+  selecteditemstext="$vuetify.datePicker.itemsSelected"
+  showcurrent="true"
+  titledateformat="[Function]"
+  type="date"
+  width="290"
+  yearformat="[Function]"
+/>
+`;
+
+exports[`z-date-picker.vue should rendered correctly when the prop "type" specified 1`] = `
+<v-date-picker-stub
+  dayformat="[Function]"
+  eventcolor="warning"
+  firstdayofweek="1"
+  headerdateformat="[Function]"
+  locale="ja-JP"
+  localefirstdayofyear="0"
+  max="2028-05-17"
+  min="1920-01-01"
+  nexticon="$next"
+  nextmontharialabel="$vuetify.datePicker.nextMonthAriaLabel"
+  nextyeararialabel="$vuetify.datePicker.nextYearAriaLabel"
+  notitle="true"
+  previcon="$prev"
+  prevmontharialabel="$vuetify.datePicker.prevMonthAriaLabel"
+  prevyeararialabel="$vuetify.datePicker.prevYearAriaLabel"
+  selecteditemstext="$vuetify.datePicker.itemsSelected"
+  showcurrent="true"
+  titledateformat="[Function]"
+  type="month"
+  width="290"
+  yearformat="[Function]"
+/>
+`;
+
+exports[`z-date-picker.vue should rendered correctly when the prop "useJapaneseEra" specified 1`] = `
+<v-date-picker-stub
+  dayformat="[Function]"
+  eventcolor="warning"
+  firstdayofweek="1"
+  locale="ja-JP"
+  localefirstdayofyear="0"
+  max="2028-05-17"
+  min="1920-01-01"
+  nexticon="$next"
+  nextmontharialabel="$vuetify.datePicker.nextMonthAriaLabel"
+  nextyeararialabel="$vuetify.datePicker.nextYearAriaLabel"
+  notitle="true"
+  previcon="$prev"
+  prevmontharialabel="$vuetify.datePicker.prevMonthAriaLabel"
+  prevyeararialabel="$vuetify.datePicker.prevYearAriaLabel"
+  selecteditemstext="$vuetify.datePicker.itemsSelected"
+  showcurrent="true"
+  type="date"
+  width="290"
+/>
+`;
+
+exports[`z-date-picker.vue should rendered correctly when the prop "value" specified 1`] = `
+<v-date-picker-stub
+  dayformat="[Function]"
+  eventcolor="warning"
+  firstdayofweek="1"
+  headerdateformat="[Function]"
+  locale="ja-JP"
+  localefirstdayofyear="0"
+  max="2028-05-17"
+  min="1920-01-01"
+  nexticon="$next"
+  nextmontharialabel="$vuetify.datePicker.nextMonthAriaLabel"
+  nextyeararialabel="$vuetify.datePicker.nextYearAriaLabel"
+  notitle="true"
+  previcon="$prev"
+  prevmontharialabel="$vuetify.datePicker.prevMonthAriaLabel"
+  prevyeararialabel="$vuetify.datePicker.prevYearAriaLabel"
+  selecteditemstext="$vuetify.datePicker.itemsSelected"
+  showcurrent="true"
+  titledateformat="[Function]"
+  type="date"
+  value="2020-12-31"
+  width="290"
+  yearformat="[Function]"
+/>
+`;

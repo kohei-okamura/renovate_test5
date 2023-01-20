@@ -1,0 +1,50 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+get:
+  summary: 障害福祉サービス：予実状況一覧
+  description: 障害福祉サービス：予実状況一覧を取得する。
+  parameters:
+    - in: query
+      name: officeId
+      description: 事業所 ID
+      required: true
+      schema:
+        $ref: '#/components/schemas/OfficeId'
+    - in: query
+      name: providedIn
+      description: サービス提供年月
+      required: true
+      schema:
+        $ref: '#/components/schemas/YearMonth'
+    - in: query
+      name: status
+      description: 状態
+      schema:
+        $ref: '#/components/schemas/DwsProvisionReportStatus'
+    - $ref: '#/components/x-query-parameters/q'
+    - $ref: '#/components/x-query-parameters/all'
+    - $ref: '#/components/x-query-parameters/desc'
+    - $ref: '#/components/x-query-parameters/itemsPerPage'
+    - $ref: '#/components/x-query-parameters/page'
+    - $ref: '#/components/x-query-parameters/sortBy'
+  responses:
+    '200':
+      description: 正常に処理が行われた場合
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              list:
+                type: array
+                items:
+                  $ref: '#/components/schemas/DwsProvisionReportDigest'
+              pagination:
+                $ref: '#/components/schemas/Pagination'
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+  tags:
+    - 障害福祉サービス：予実

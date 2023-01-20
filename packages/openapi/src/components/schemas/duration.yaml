@@ -1,0 +1,13 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 勤務時間
+type: object
+properties:
+  activity:
+    $ref: '#/components/schemas/Activity'
+  duration:
+    description: 所要時間（分）
+    type: number

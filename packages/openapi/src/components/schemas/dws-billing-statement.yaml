@@ -1,0 +1,85 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 障害福祉サービス：明細書
+type: object
+properties:
+  id:
+    description: 明細書 ID
+    type: object
+  dwsBillingId:
+    description: 請求ID
+    type: object
+  dwsBillingBundleId:
+    description: 請求単位 ID
+    type: object
+  subsidyCityCode:
+    description: 助成自治体番号
+    type: string
+  user:
+    $ref: '#/components/schemas/DwsBillingUser'
+  dwsAreaGradeName:
+    description: 地域区分名
+    type: string
+  dwsAreaGradeCode:
+    description: 地域区分コード
+    type: string
+  copayLimit:
+    description: 利用者負担上限月額
+    type: number
+  totalScore:
+    description: 請求額集計欄：合計：給付単位数
+    type: number
+  totalFee:
+    description: 請求額集計欄：合計：総費用額
+    type: number
+  totalCappedCopay:
+    description: 請求額集計欄：合計：上限月額調整
+    type: number
+  totalAdjustedCopay:
+    description: 請求額集計欄：合計：調整後利用者負担額
+    type: number
+  totalCoordinatedCopay:
+    description: 請求額集計欄：合計：上限管理後利用者負担額
+    type: number
+  totalCopay:
+    description: 請求額集計欄：合計：決定利用者負担額
+    type: number
+  totalBenefit:
+    description: 請求額集計欄：合計：請求額：給付費
+    type: number
+  totalSubsidy:
+    description: 請求額集計欄：合計：自治体助成分請求額
+    type: number
+  isProvided:
+    description: 自社サービス提供有無
+    type: boolean
+  copayCoordination:
+    $ref: '#/components/schemas/DwsBillingStatementCopayCoordination'
+  copayCoordinationStatus:
+    $ref: '#/components/schemas/DwsBillingStatementCopayCoordinationStatus'
+  aggregates:
+    description: 集計
+    type: array
+    items:
+      $ref: '#/components/schemas/DwsBillingStatementAggregate'
+  contracts:
+    description: 契約
+    type: array
+    items:
+      $ref: '#/components/schemas/DwsBillingStatementContract'
+  items:
+    description: 明細
+    type: array
+    items:
+      $ref: '#/components/schemas/DwsBillingStatementItem'
+  status:
+    $ref: '#/components/schemas/DwsBillingStatus'
+  fixedAt:
+    $ref: '#/components/schemas/DateLike'
+  createdAt:
+    $ref: '#/components/schemas/DateLike'
+  updatedAt:
+    $ref: '#/components/schemas/DateLike'

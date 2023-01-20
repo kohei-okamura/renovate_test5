@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`api/jobs-api get should return response of the api 1`] = `
+Object {
+  "job": Object {
+    "createdAt": "2015-10-02",
+    "data": Object {
+      "filename": "example.xlsx",
+      "uri": "/example.xlsx",
+    },
+    "status": 3,
+    "token": "2",
+    "updatedAt": "1984-07-09",
+  },
+}
+`;
+
+exports[`api/jobs-api get should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;

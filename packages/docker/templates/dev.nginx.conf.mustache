@@ -1,0 +1,64 @@
+upstream nuxt {
+  server host.docker.internal:3000 fail_timeout=0;
+}
+
+server {
+  listen {{{httpPort}}};
+  return 301 https://$host$request_uri;
+}
+
+server {
+  listen {{{httpsPort}}} ssl http2;
+  server_name .dev.careid.net nginx;
+  index index.html index.php;
+  root /dev/null;
+
+  include ssl.nginx.conf;
+
+  location / {
+    location ~* \.(css|gif|ico|jpg|jpeg|js|json|png|woff2)$ {
+      include proxy.nginx.conf;
+      include security.nginx.conf;
+
+      proxy_set_header Accept-Encoding "";
+      proxy_pass http://nuxt;
+    }
+    location / {
+      include csp.nginx.conf;
+      include proxy.nginx.conf;
+      include security.nginx.conf;
+
+      proxy_set_header Accept-Encoding "";
+      proxy_pass http://nuxt;
+    }
+  }
+
+  location /_loading {
+    include proxy.nginx.conf;
+    include security.nginx.conf;
+
+    proxy_set_header Connection "upgrade";
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_pass http://nuxt;
+  }
+
+  location /api {
+    include security.nginx.conf;
+
+    fastcgi_pass unix:/var/run/php-fpm/php-fpm.sock;
+    include fastcgi_params;
+
+    # パス関連の設定
+    set $path_info $request_uri;
+    if ($path_info ~ ^/api/(.*)$) {
+      set $path_info /$1;
+    }
+    fastcgi_param DOCUMENT_URI $path_info;
+    fastcgi_param REQUEST_URI $path_info;
+    fastcgi_param SCRIPT_NAME $path_info;
+    fastcgi_param SCRIPT_FILENAME /app/server/public/index.php;
+
+    # HTTPOXY 対策
+    fastcgi_param HTTP_PROXY "";
+  }
+}

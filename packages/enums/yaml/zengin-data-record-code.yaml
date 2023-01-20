@@ -1,0 +1,14 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 全銀レコード：データレコード：新規コード
+name: ZenginDataRecordCode
+php:
+  enabled: true
+  namespace: UserBilling
+typescript:
+  enabled: true
+items:
+  - { description: 初回, name: FirstTime, value: 1 }
+  - { description: 変更, name: Change, value: 2 }
+  - { description: その他, name: Other, value: 0 }

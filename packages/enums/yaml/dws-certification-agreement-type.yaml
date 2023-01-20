@@ -1,0 +1,19 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 障害福祉サービス受給者証：サービス内容
+name: DwsCertificationAgreementType
+php:
+  enabled: true
+  namespace: DwsCertification
+typescript:
+  enabled: true
+items:
+  - { description: 身体介護, name: PhysicalCare, value: 11 }
+  - { description: 家事援助, name: Housework, value: 12 }
+  - { description: 通院介助（身体介護を伴う）, name: AccompanyWithPhysicalCare, value: 13 }
+  - { description: 通院介助（身体介護を伴わない）, name: Accompany, value: 14 }
+  - { description: 重度訪問介護（重度障害者等包括支援対象者）, name: VisitingCareForPwsd1, value: 21 }
+  - { description: 重度訪問介護（障害支援区分6該当者）, name: VisitingCareForPwsd2, value: 22 }
+  - { description: 重度訪問介護（その他）, name: VisitingCareForPwsd3, value: 23 }
+  - { description: 重度訪問介護（移動加算）, name: OutingSupportForPwsd, value: 29 }

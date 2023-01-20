@@ -1,0 +1,27 @@
+/*
+ * Copyright © {{year}} EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+ * UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+ *
+ * THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+ */
+import { createEnumerable } from './enum'
+
+const $$ = {
+{{#params.items}}
+  {{{names.camelCase}}}: {{{value}}}{{^isLast}},{{/isLast}}
+{{/params.items}}
+} as const
+
+/**
+ * {{{params.description}}}.
+ */
+export type {{{params.name}}} = typeof $$[keyof typeof $$]
+
+// eslint-disable-next-line @typescript-eslint/no-redeclare -- intentionally naming the variable the same as the type
+export const {{{params.name}}} = createEnumerable($$, [
+{{#params.items}}
+  [$$.{{names.camelCase}}, '{{{description}}}']{{^isLast}},{{/isLast}}
+{{/params.items}}
+])
+
+export const resolve{{{params.name}}} = {{{params.name}}}.resolve

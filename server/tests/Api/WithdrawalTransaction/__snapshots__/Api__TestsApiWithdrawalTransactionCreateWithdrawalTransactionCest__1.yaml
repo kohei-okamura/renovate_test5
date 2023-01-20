@@ -1,0 +1,34 @@
+id: 7
+organizationId: 1
+items:
+    -
+        userBillingIds:
+            - 11
+            - 12
+        zenginRecord:
+            bankCode: '1234'
+            bankBranchCode: '005'
+            bankAccountType: 1
+            bankAccountNumber: '0123456'
+            bankAccountHolder: ﾕｰｽﾀｲﾙﾗﾎﾞﾗﾄﾘｰ-ABC().-/
+            amount: 4400
+            dataRecordCode: 0
+            clientNumber: '01234567890987654321'
+            withdrawalResultCode: 0
+    -
+        userBillingIds:
+            - 13
+        zenginRecord:
+            bankCode: '5678'
+            bankBranchCode: '009'
+            bankAccountType: 1
+            bankAccountNumber: '3456789'
+            bankAccountHolder: ﾕｰｽﾀｲﾙﾗﾎﾞﾗﾄﾘｰ-DEF().-/
+            amount: 10500
+            dataRecordCode: 0
+            clientNumber: '01234567895432109876'
+            withdrawalResultCode: 0
+deductedOn: '2021-04-01T00:00:00+09:00'
+downloadedAt: null
+createdAt: '2021-09-01T00:00:00+09:00'
+updatedAt: '2021-09-01T00:00:00+09:00'

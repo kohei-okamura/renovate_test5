@@ -1,0 +1,91 @@
+openapi: 3.0.3
+info:
+  title: Zinger API 定義
+  description: Zinger の API 定義
+  version: 1.0.0
+servers:
+  - url: 'https://{organizationCode}.dev.careid.net/api'
+    description: Development server
+    variables:
+      organizationCode:
+        default: eustylelab
+        description: 事業者コード
+security:
+  - cookie: []
+tags:
+  - name: 利用者
+    description: 利用者管理 API
+  - name: 利用者：障害福祉サービス契約
+    description: 障害福祉サービス契約管理 API
+  - name: 利用者：障害福祉サービス受給者証
+    description: 障害福祉サービス受給者証管理 API
+  - name: 利用者：自治体助成情報
+    description: 利用者：自治体助成情報管理 API
+  - name: 利用者：障害福祉サービス利用者別算定情報
+    description: 障害福祉サービス利用者別算定情報管理 API
+  - name: 利用者：障害福祉サービス計画
+    description: 障害福祉サービス計画管理 API
+  - name: 利用者：介護保険サービス契約
+    description: 介護保険サービス契約管理 API
+  - name: 利用者：介護保険被保険者証
+    description: 介護保険被保険者証管理 API
+  - name: 利用者：公費情報
+    description: 利用者：公費情報管理 API
+  - name: 利用者：介護保険サービス利用者別算定情報
+    description: 介護保険サービス利用者別算定情報管理 API
+  - name: 利用者：介護保険サービス計画
+    description: 介護保険サービス：計画管理 API
+  - name: スタッフ
+    description: スタッフ管理 API
+  - name: スタッフ：認証・認可
+    description: 認証・認可 API
+  - name: スタッフ：招待
+    description: 招待管理 API
+  - name: スタッフ：パスワード再設定
+    description: パスワード再設定 API
+  - name: スタッフ：出勤確認
+    description: 出勤確認 API
+  - name: 事業者別設定
+    description: 事業者別設定 API
+  - name: 事業所
+    description: 事業所管理 API
+  - name: 事業所：障害福祉サービス：居宅介護：算定情報
+    description: 事業所：障害福祉サービス：居宅介護：算定情報管理 API
+  - name: 事業所：障害福祉サービス：重度訪問介護：算定情報
+    description: 事業所：障害福祉サービス：重度訪問介護：算定情報管理 API
+  - name: 事業所：介護保険サービス：訪問介護：算定情報
+    description: 事業所：介護保険サービス：訪問介護：算定情報管理 API
+  - name: 事業所グループ
+    description: 事業所グループ管理 API
+  - name: 勤務シフト
+    description: 勤務シフト管理 API
+  - name: 勤務実績
+    description: 勤務実績管理 API
+  - name: 障害福祉サービス：予実
+    description: 障害福祉サービス：予実管理 API
+  - name: 介護保険サービス：予実
+    description: 介護保険サービス：予実管理 API
+  - name: 障害福祉サービス：請求
+    description: 障害福祉サービス：請求管理 API
+  - name: 介護保険サービス：請求
+    description: 介護保険サービス：請求管理 API
+  - name: ロール
+    description: ロール管理 API
+  - name: ロール：権限
+    description: 権限情報 API
+  - name: 自費サービス
+    description: 自費サービス管理 API
+  - name: 利用者請求
+    description: 利用者請求 API
+  - name: 口座振替データ
+    description: 口座振替データ API
+  - name: 非同期ジョブ
+    description: 非同期ジョブ情報 API
+  - name: 選択肢
+    description: 選択肢一覧 API
+  - name: その他
+    description: その他の API
+paths:
+  $ref: ./paths/index.yaml
+components:
+  $ref: ./components/index.yaml

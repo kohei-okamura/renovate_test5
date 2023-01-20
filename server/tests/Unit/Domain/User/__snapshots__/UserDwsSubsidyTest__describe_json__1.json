@@ -1,0 +1,22 @@
+{
+    "id": 1,
+    "userId": 1,
+    "period": {
+        "start": "2019-05-15T00:00:00+0900",
+        "end": "2019-05-15T00:00:00+0900"
+    },
+    "cityName": "\u4e2d\u91ce\u533a",
+    "cityCode": "131078",
+    "subsidyType": 2,
+    "factor": 2,
+    "benefitRate": 0,
+    "copayRate": 0,
+    "rounding": 1,
+    "benefitAmount": 10000,
+    "copayAmount": 3000,
+    "note": "NOTE",
+    "isEnabled": true,
+    "version": 1,
+    "createdAt": "2019-05-15T00:00:00+0900",
+    "updatedAt": "2019-05-15T00:00:00+0900"
+}

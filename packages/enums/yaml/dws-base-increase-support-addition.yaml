@@ -1,0 +1,15 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 障害福祉サービス：ベースアップ等支援加算
+name: DwsBaseIncreaseSupportAddition
+php:
+  enabled: true
+  namespace: Office
+  traits:
+    - DwsBaseIncreaseSupportAdditionSupport
+typescript:
+  enabled: true
+items:
+  - { description: なし, name: None, value: 0 }
+  - { description: 福祉・介護職員等ベースアップ等支援加算, name: Addition1, value: 1 }

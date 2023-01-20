@@ -1,0 +1,1117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/dws-billings/_id/bundles/_bundleId/statements/_statementId/index.vue copay coordination initial display should be rendered correctly when copay coordination is already created 1`] = `
+<div
+  class="z-data-card-stub"
+  title="利用者負担上限額管理事業所"
+>
+  <div
+    class="z-data-card-stub-slot-actions"
+  />
+  <z-data-card-item-stub
+    icon="M11.19,2.25C10.93,2.25 10.67,2.31 10.42,2.4L3.06,5.45C2.04,5.87 1.55,7.04 1.97,8.05L6.93,20C7.24,20.77 7.97,21.23 8.74,21.25C9,21.25 9.27,21.22 9.53,21.1L16.9,18.05C17.65,17.74 18.11,17 18.13,16.25C18.14,16 18.09,15.71 18,15.45L13,3.5C12.71,2.73 11.97,2.26 11.19,2.25M14.67,2.25L18.12,10.6V4.25A2,2 0 0,0 16.12,2.25M20.13,3.79V12.82L22.56,6.96C22.97,5.94 22.5,4.78 21.47,4.36M11.19,4.22L16.17,16.24L8.78,19.3L3.8,7.29"
+    label="上限管理区分"
+    value="入力済"
+  />
+  <z-data-card-item-stub
+    icon="M18,15H16V17H18M18,11H16V13H18M20,19H12V17H14V15H12V13H14V11H12V9H20M10,7H8V5H10M10,11H8V9H10M10,15H8V13H10M10,19H8V17H10M6,7H4V5H6M6,11H4V9H6M6,15H4V13H6M6,19H4V17H6M12,7V3H2V21H22V7H12Z"
+    label="指定事業所番号"
+    value="7939133796"
+  />
+  <z-data-card-item-stub
+    label="事業所名称"
+    value="土屋訪問介護事業所 札幌"
+  />
+  <z-data-card-item-stub
+    icon="M21,6V8H3V6H21M3,18H12V16H3V18M3,13H21V11H3V13Z"
+    label="管理結果"
+    value="3. 利用者負担額の合計額が、負担上限月額を超過するため、下記のとおり調整した。"
+  />
+  <z-data-card-item-stub
+    icon="M13.92 11H18V13H13V15H18V17H13V21H11V17H6V15H11V13H6V11H10.08L5 3H7.37L12 10.29L16.63 3H19L13.92 11Z"
+    label="管理結果額"
+    value="20,000 円"
+  />
+  <v-card-actions-stub
+    tag="div"
+  >
+    <v-spacer-stub
+      tag="div"
+    />
+    <a
+      class="v-btn-stub"
+      color="primary"
+      text=""
+    >
+          利用者負担上限額管理結果を編集
+    </a>
+  </v-card-actions-stub>
+  <div
+    class="z-data-card-stub-slot-header"
+  />
+</div>
+`;
+
+exports[`pages/dws-billings/_id/bundles/_bundleId/statements/_statementId/index.vue copay coordination initial display should be rendered correctly when copay coordination is not created 1`] = `
+<div
+  class="z-data-card-stub"
+  title="利用者負担上限額管理事業所"
+>
+  <div
+    class="z-data-card-stub-slot-actions"
+  />
+  <z-data-card-item-stub
+    icon="M11.19,2.25C10.93,2.25 10.67,2.31 10.42,2.4L3.06,5.45C2.04,5.87 1.55,7.04 1.97,8.05L6.93,20C7.24,20.77 7.97,21.23 8.74,21.25C9,21.25 9.27,21.22 9.53,21.1L16.9,18.05C17.65,17.74 18.11,17 18.13,16.25C18.14,16 18.09,15.71 18,15.45L13,3.5C12.71,2.73 11.97,2.26 11.19,2.25M14.67,2.25L18.12,10.6V4.25A2,2 0 0,0 16.12,2.25M20.13,3.79V12.82L22.56,6.96C22.97,5.94 22.5,4.78 21.47,4.36M11.19,4.22L16.17,16.24L8.78,19.3L3.8,7.29"
+    label="上限管理区分"
+    value="未作成"
+  />
+  <z-data-card-item-stub
+    icon="M18,15H16V17H18M18,11H16V13H18M20,19H12V17H14V15H12V13H14V11H12V9H20M10,7H8V5H10M10,11H8V9H10M10,15H8V13H10M10,19H8V17H10M6,7H4V5H6M6,11H4V9H6M6,15H4V13H6M6,19H4V17H6M12,7V3H2V21H22V7H12Z"
+    label="指定事業所番号"
+    value="-"
+  />
+  <z-data-card-item-stub
+    label="事業所名称"
+    value="-"
+  />
+  <z-data-card-item-stub
+    icon="M21,6V8H3V6H21M3,18H12V16H3V18M3,13H21V11H3V13Z"
+    label="管理結果"
+    value="-"
+  />
+  <z-data-card-item-stub
+    icon="M13.92 11H18V13H13V15H18V17H13V21H11V17H6V15H11V13H6V11H10.08L5 3H7.37L12 10.29L16.63 3H19L13.92 11Z"
+    label="管理結果額"
+    value="- 円"
+  />
+  <v-card-actions-stub
+    tag="div"
+  >
+    <v-spacer-stub
+      tag="div"
+    />
+    <a
+      class="v-btn-stub"
+      color="primary"
+      text=""
+    >
+          利用者負担上限額管理結果を登録
+    </a>
+  </v-card-actions-stub>
+  <div
+    class="z-data-card-stub-slot-header"
+  />
+</div>
+`;
+
+exports[`pages/dws-billings/_id/bundles/_bundleId/statements/_statementId/index.vue copay coordination initial display should be rendered correctly when copay coordination is not necessary 1`] = `
+<div
+  class="z-data-card-stub"
+  title="利用者負担上限額管理事業所"
+>
+  <div
+    class="z-data-card-stub-slot-actions"
+  />
+  <z-data-card-item-stub
+    icon="M11.19,2.25C10.93,2.25 10.67,2.31 10.42,2.4L3.06,5.45C2.04,5.87 1.55,7.04 1.97,8.05L6.93,20C7.24,20.77 7.97,21.23 8.74,21.25C9,21.25 9.27,21.22 9.53,21.1L16.9,18.05C17.65,17.74 18.11,17 18.13,16.25C18.14,16 18.09,15.71 18,15.45L13,3.5C12.71,2.73 11.97,2.26 11.19,2.25M14.67,2.25L18.12,10.6V4.25A2,2 0 0,0 16.12,2.25M20.13,3.79V12.82L22.56,6.96C22.97,5.94 22.5,4.78 21.47,4.36M11.19,4.22L16.17,16.24L8.78,19.3L3.8,7.29"
+    label="上限管理区分"
+    value="不要（上限管理なし）"
+  />
+  <!---->
+  <div
+    class="z-data-card-stub-slot-header"
+  />
+</div>
+`;
+
+exports[`pages/dws-billings/_id/bundles/_bundleId/statements/_statementId/index.vue initial display should be rendered correctly 1`] = `
+<div
+  breadcrumbs="[object Object],[object Object],[object Object]"
+  class="z-page-stub"
+  compact="compact"
+  data-page-dws-billing-statement=""
+>
+  <div
+    class="z-page-stub-slot-tabs"
+  />
+  <div
+    class="z-page-stub-slot-title"
+  />
+  <div
+    class="z-data-card-stub"
+    title="基本情報"
+  >
+    <div
+      class="z-data-card-stub-slot-actions"
+    />
+    <z-data-card-item-stub
+      icon="M18,15H16V17H18M18,11H16V13H18M20,19H12V17H14V15H12V13H14V11H12V9H20M10,7H8V5H10M10,11H8V9H10M10,15H8V13H10M10,19H8V17H10M6,7H4V5H6M6,11H4V9H6M6,15H4V13H6M6,19H4V17H6M12,7V3H2V21H22V7H12Z"
+      label="市町村番号"
+      value="01410"
+    />
+    <z-data-card-item-stub
+      label="助成自治体番号"
+      value="助成自治体番号"
+    />
+    <z-data-card-item-stub
+      icon="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z"
+      label="サービス提供年月"
+    >
+      <time
+        datetime="2012-10-01"
+      >
+        平成24年10月1日
+      </time>
+    </z-data-card-item-stub>
+    <z-data-card-item-stub
+      icon="M11,18H13V16H11V18M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,6A4,4 0 0,0 8,10H10A2,2 0 0,1 12,8A2,2 0 0,1 14,10C14,12 11,11.75 11,15H13C13,12.75 16,12.5 16,10A4,4 0 0,0 12,6Z"
+      label="明細書の状態"
+      value="無効"
+    />
+    <!---->
+    <div
+      class="z-data-card-stub-slot-header"
+    />
+  </div>
+  <div
+    class="z-data-card-stub"
+    title="受給者情報"
+  >
+    <div
+      class="z-data-card-stub-slot-actions"
+    />
+    <z-data-card-item-stub
+      icon="M2,6H4V18H2V6M5,6H6V18H5V6M7,6H10V18H7V6M11,6H12V18H11V6M14,6H16V18H14V6M17,6H20V18H17V6M21,6H22V18H21V6Z"
+      label="受給者証番号"
+      value="1410111486"
+    />
+    <z-data-card-item-stub
+      icon="M10 4a2 2 0 104 0 2 2 0 10-4 0M19 13v-2c-1.54.02-3.09-.75-4.07-1.83l-1.29-1.43c-.17-.19-.38-.34-.61-.45-.01 0-.01-.01-.02-.01H13c-.35-.2-.75-.3-1.19-.26C10.76 7.11 10 8.04 10 9.09V15c0 1.1.9 2 2 2h5v5h2v-5.5c0-1.1-.9-2-2-2h-3v-3.45c1.29 1.07 3.25 1.94 5 1.95zm-6.17 5c-.41 1.16-1.52 2-2.83 2-1.66 0-3-1.34-3-3 0-1.31.84-2.41 2-2.83V12.1a5 5 0 105.9 5.9h-2.07z"
+      label="支給決定障害者等氏名"
+      value="新井 恵梨香"
+    />
+    <z-data-card-item-stub
+      label="支給決定に係る障害児氏名"
+      value="宮部 昴"
+    />
+    <div
+      class="z-data-card-stub-slot-header"
+    />
+  </div>
+  <div
+    class="z-data-card-stub"
+    title="請求事業者"
+  >
+    <div
+      class="z-data-card-stub-slot-actions"
+    />
+    <z-data-card-item-stub
+      icon="M18,15H16V17H18M18,11H16V13H18M20,19H12V17H14V15H12V13H14V11H12V9H20M10,7H8V5H10M10,11H8V9H10M10,15H8V13H10M10,19H8V17H10M6,7H4V5H6M6,11H4V9H6M6,15H4V13H6M6,19H4V17H6M12,7V3H2V21H22V7H12Z"
+      label="指定事業所番号"
+      value="2872904986"
+    />
+    <z-data-card-item-stub
+      label="事業者及びその事業所の名称"
+      value="土屋訪問介護事業所 山形"
+    />
+    <z-data-card-item-stub
+      label="地域区分"
+      value="地域区分名"
+    />
+    <z-data-card-item-stub
+      label="就労継続支援Ａ型事業者負担減免措置実施"
+      value="1"
+    />
+    <z-data-card-item-stub
+      icon="M4.08,11.92L12,4L19.92,11.92L18.5,13.33L13,7.83V22H11V7.83L5.5,13.33L4.08,11.92M12,4H22V2H2V4H12Z"
+      label="利用者負担上限月額"
+      value="43,229 円"
+    />
+    <z-data-card-item-stub
+      icon="M10 4a2 2 0 104 0 2 2 0 10-4 0M19 13v-2c-1.54.02-3.09-.75-4.07-1.83l-1.29-1.43c-.17-.19-.38-.34-.61-.45-.01 0-.01-.01-.02-.01H13c-.35-.2-.75-.3-1.19-.26C10.76 7.11 10 8.04 10 9.09V15c0 1.1.9 2 2 2h5v5h2v-5.5c0-1.1-.9-2-2-2h-3v-3.45c1.29 1.07 3.25 1.94 5 1.95zm-6.17 5c-.41 1.16-1.52 2-2.83 2-1.66 0-3-1.34-3-3 0-1.31.84-2.41 2-2.83V12.1a5 5 0 105.9 5.9h-2.07z"
+      label="就労継続支援Ａ型減免対象者"
+      value="-"
+    />
+    <div
+      class="z-data-card-stub-slot-header"
+    />
+  </div>
+  <div
+    class="z-data-card-stub"
+    title="利用者負担上限額管理事業所"
+  >
+    <div
+      class="z-data-card-stub-slot-actions"
+    />
+    <z-data-card-item-stub
+      icon="M11.19,2.25C10.93,2.25 10.67,2.31 10.42,2.4L3.06,5.45C2.04,5.87 1.55,7.04 1.97,8.05L6.93,20C7.24,20.77 7.97,21.23 8.74,21.25C9,21.25 9.27,21.22 9.53,21.1L16.9,18.05C17.65,17.74 18.11,17 18.13,16.25C18.14,16 18.09,15.71 18,15.45L13,3.5C12.71,2.73 11.97,2.26 11.19,2.25M14.67,2.25L18.12,10.6V4.25A2,2 0 0,0 16.12,2.25M20.13,3.79V12.82L22.56,6.96C22.97,5.94 22.5,4.78 21.47,4.36M11.19,4.22L16.17,16.24L8.78,19.3L3.8,7.29"
+      label="上限管理区分"
+      value="不要（上限管理なし）"
+    />
+    <!---->
+    <div
+      class="z-data-card-stub-slot-header"
+    />
+  </div>
+  <div
+    class="root"
+    data-z-data-table=""
+  >
+    <z-subheader-stub>
+      サービス種別
+    </z-subheader-stub>
+    <v-card-stub
+      class="py-4"
+      loaderheight="4"
+      tag="div"
+    >
+      <div
+        class="v-data-table theme--light table"
+        data-desktop-table=""
+      >
+        <div
+          class="v-data-table__wrapper"
+        >
+          <table>
+            <colgroup>
+              <col
+                class=""
+              />
+              <col
+                class=""
+              />
+              <col
+                class=""
+              />
+              <col
+                class=""
+              />
+            </colgroup>
+            <thead
+              class="v-data-table-header"
+            >
+              <tr>
+                <th
+                  aria-label="サービス種別"
+                  class="text-start th-service-division-code"
+                  role="columnheader"
+                  scope="col"
+                >
+                  <span>
+                    サービス種別
+                  </span>
+                </th>
+                <th
+                  aria-label="開始年月日"
+                  class="text-start th-started-on"
+                  role="columnheader"
+                  scope="col"
+                >
+                  <span>
+                    開始年月日
+                  </span>
+                </th>
+                <th
+                  aria-label="終了年月日"
+                  class="text-start th-terminated-on"
+                  role="columnheader"
+                  scope="col"
+                >
+                  <span>
+                    終了年月日
+                  </span>
+                </th>
+                <th
+                  aria-label="利用日数"
+                  class="text-end th-service-days"
+                  role="columnheader"
+                  scope="col"
+                  style="width: 100px; min-width: 100px;"
+                >
+                  <span>
+                    利用日数
+                  </span>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                class=""
+              >
+                <td
+                  class="text-start"
+                >
+                  12: 重度訪問介護
+                </td>
+                <td
+                  class="text-start"
+                >
+                  <time
+                    datetime="1986-06-12"
+                  >
+                    昭61.06.12
+                  </time>
+                </td>
+                <td
+                  class="text-start"
+                >
+                  <time
+                    datetime="1990-06-03"
+                  >
+                    平02.06.03
+                  </time>
+                </td>
+                <td
+                  class="text-end"
+                >
+                  51
+                </td>
+              </tr>
+              <tr
+                class=""
+              >
+                <td
+                  class="text-start"
+                >
+                  11: 居宅介護
+                </td>
+                <td
+                  class="text-start"
+                >
+                  <time
+                    datetime="2016-12-29"
+                  >
+                    平28.12.29
+                  </time>
+                </td>
+                <td
+                  class="text-start"
+                >
+                  <time
+                    datetime="1973-05-27"
+                  >
+                    昭48.05.27
+                  </time>
+                </td>
+                <td
+                  class="text-end"
+                >
+                  54
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <!---->
+    </v-card-stub>
+  </div>
+  <div
+    class="root"
+    data-z-data-table=""
+  >
+    <z-subheader-stub>
+      給付費明細欄
+    </z-subheader-stub>
+    <v-card-stub
+      class="py-4"
+      loaderheight="4"
+      tag="div"
+    >
+      <div
+        class="v-data-table theme--light table"
+        data-desktop-table=""
+      >
+        <div
+          class="v-data-table__wrapper"
+        >
+          <table>
+            <colgroup>
+              <col
+                class=""
+              />
+              <col
+                class=""
+              />
+              <col
+                class=""
+              />
+              <col
+                class=""
+              />
+              <col
+                class=""
+              />
+            </colgroup>
+            <thead
+              class="v-data-table-header"
+            >
+              <tr>
+                <th
+                  aria-label="サービス内容"
+                  class="text-start th-service"
+                  role="columnheader"
+                  scope="col"
+                  style="width: 280px; min-width: 280px;"
+                >
+                  <span>
+                    サービス内容
+                  </span>
+                </th>
+                <th
+                  aria-label="サービスコード"
+                  class="text-start th-service-code"
+                  role="columnheader"
+                  scope="col"
+                  style="width: 124px; min-width: 124px;"
+                >
+                  <span>
+                    サービスコード
+                  </span>
+                </th>
+                <th
+                  aria-label="単位数"
+                  class="text-end th-unit-score"
+                  role="columnheader"
+                  scope="col"
+                  style="width: 100px; min-width: 100px;"
+                >
+                  <span>
+                    単位数
+                  </span>
+                </th>
+                <th
+                  aria-label="回数"
+                  class="text-end th-count"
+                  role="columnheader"
+                  scope="col"
+                  style="width: 60px; min-width: 60px;"
+                >
+                  <span>
+                    回数
+                  </span>
+                </th>
+                <th
+                  aria-label="サービス単位数"
+                  class="text-end th-total-score"
+                  role="columnheader"
+                  scope="col"
+                  style="width: 124px; min-width: 124px;"
+                >
+                  <span>
+                    サービス単位数
+                  </span>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                class=""
+              >
+                <td
+                  class="text-start"
+                >
+                  身体日0.5・2人・建2
+                </td>
+                <td
+                  class="text-start"
+                >
+                  11A014
+                </td>
+                <td
+                  class="text-end"
+                >
+                  2,720
+                </td>
+                <td
+                  class="text-end"
+                >
+                  47
+                </td>
+                <td
+                  class="text-end"
+                >
+                  22,597
+                </td>
+              </tr>
+              <tr
+                class=""
+              >
+                <td
+                  class="text-start"
+                >
+                  身体日0.5・基・2人・初計・建1
+                </td>
+                <td
+                  class="text-start"
+                >
+                  11A012
+                </td>
+                <td
+                  class="text-end"
+                >
+                  4,280
+                </td>
+                <td
+                  class="text-end"
+                >
+                  51
+                </td>
+                <td
+                  class="text-end"
+                >
+                  94,764
+                </td>
+              </tr>
+              <tr
+                class=""
+              >
+                <td
+                  class="text-start"
+                >
+                  身体日1.0・2人
+                </td>
+                <td
+                  class="text-start"
+                >
+                  111116
+                </td>
+                <td
+                  class="text-end"
+                >
+                  1,495
+                </td>
+                <td
+                  class="text-end"
+                >
+                  54
+                </td>
+                <td
+                  class="text-end"
+                >
+                  23,266
+                </td>
+              </tr>
+              <tr
+                class=""
+              >
+                <td
+                  class="text-start"
+                >
+                  身体日0.5・基・初計・建1
+                </td>
+                <td
+                  class="text-start"
+                >
+                  11A011
+                </td>
+                <td
+                  class="text-end"
+                >
+                  7,368
+                </td>
+                <td
+                  class="text-end"
+                >
+                  8
+                </td>
+                <td
+                  class="text-end"
+                >
+                  10,336
+                </td>
+              </tr>
+              <tr
+                class=""
+              >
+                <td
+                  class="text-start"
+                >
+                  身体日0.5・基・2人
+                </td>
+                <td
+                  class="text-start"
+                >
+                  111114
+                </td>
+                <td
+                  class="text-end"
+                >
+                  3,262
+                </td>
+                <td
+                  class="text-end"
+                >
+                  63
+                </td>
+                <td
+                  class="text-end"
+                >
+                  75,913
+                </td>
+              </tr>
+              <tr
+                class=""
+              >
+                <td
+                  class="text-start"
+                >
+                  身体日0.5・建1
+                </td>
+                <td
+                  class="text-start"
+                >
+                  11A005
+                </td>
+                <td
+                  class="text-end"
+                >
+                  8,044
+                </td>
+                <td
+                  class="text-end"
+                >
+                  79
+                </td>
+                <td
+                  class="text-end"
+                >
+                  55,546
+                </td>
+              </tr>
+              <tr
+                class=""
+              >
+                <td
+                  class="text-start"
+                >
+                  身体日0.5・初計
+                </td>
+                <td
+                  class="text-start"
+                >
+                  11A001
+                </td>
+                <td
+                  class="text-end"
+                >
+                  6,760
+                </td>
+                <td
+                  class="text-end"
+                >
+                  96
+                </td>
+                <td
+                  class="text-end"
+                >
+                  81,778
+                </td>
+              </tr>
+              <tr
+                class=""
+              >
+                <td
+                  class="text-start"
+                >
+                  身体日0.5・基・初計・建1
+                </td>
+                <td
+                  class="text-start"
+                >
+                  11A011
+                </td>
+                <td
+                  class="text-end"
+                >
+                  7,964
+                </td>
+                <td
+                  class="text-end"
+                >
+                  55
+                </td>
+                <td
+                  class="text-end"
+                >
+                  97,295
+                </td>
+              </tr>
+              <tr
+                class=""
+              >
+                <td
+                  class="text-start"
+                >
+                  身体日0.5・2人・初計・建1
+                </td>
+                <td
+                  class="text-start"
+                >
+                  11A010
+                </td>
+                <td
+                  class="text-end"
+                >
+                  6,202
+                </td>
+                <td
+                  class="text-end"
+                >
+                  46
+                </td>
+                <td
+                  class="text-end"
+                >
+                  88,868
+                </td>
+              </tr>
+              <tr
+                class=""
+              >
+                <td
+                  class="text-start"
+                >
+                  身体日1.0・基・2人
+                </td>
+                <td
+                  class="text-start"
+                >
+                  111118
+                </td>
+                <td
+                  class="text-end"
+                >
+                  4,094
+                </td>
+                <td
+                  class="text-end"
+                >
+                  4
+                </td>
+                <td
+                  class="text-end"
+                >
+                  50,610
+                </td>
+              </tr>
+              <tr
+                class=""
+              >
+                <td
+                  class="text-start"
+                >
+                  身体日0.5・基・初計
+                </td>
+                <td
+                  class="text-start"
+                >
+                  11A003
+                </td>
+                <td
+                  class="text-end"
+                >
+                  7,051
+                </td>
+                <td
+                  class="text-end"
+                >
+                  11
+                </td>
+                <td
+                  class="text-end"
+                >
+                  83,915
+                </td>
+              </tr>
+              <tr
+                class=""
+              >
+                <td
+                  class="text-start"
+                >
+                  身体日0.5・2人
+                </td>
+                <td
+                  class="text-start"
+                >
+                  111112
+                </td>
+                <td
+                  class="text-end"
+                >
+                  9,286
+                </td>
+                <td
+                  class="text-end"
+                >
+                  21
+                </td>
+                <td
+                  class="text-end"
+                >
+                  83,410
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <!---->
+    </v-card-stub>
+  </div>
+  <form
+    class="v-form"
+    data-form=""
+    novalidate="novalidate"
+  >
+    <div>
+      <div
+        class="z-data-card-stub"
+        title="請求額集計欄"
+      >
+        <div
+          class="z-data-card-stub-slot-actions"
+        />
+        <z-data-card-item-stub
+          icon="M11.19,2.25C10.93,2.25 10.67,2.31 10.42,2.4L3.06,5.45C2.04,5.87 1.55,7.04 1.97,8.05L6.93,20C7.24,20.77 7.97,21.23 8.74,21.25C9,21.25 9.27,21.22 9.53,21.1L16.9,18.05C17.65,17.74 18.11,17 18.13,16.25C18.14,16 18.09,15.71 18,15.45L13,3.5C12.71,2.73 11.97,2.26 11.19,2.25M14.67,2.25L18.12,10.6V4.25A2,2 0 0,0 16.12,2.25M20.13,3.79V12.82L22.56,6.96C22.97,5.94 22.5,4.78 21.47,4.36M11.19,4.22L16.17,16.24L8.78,19.3L3.8,7.29"
+          label="サービス種類コード"
+          value="12: 重度訪問介護"
+        />
+        <z-data-card-item-stub
+          icon="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z"
+          label="サービス利用日数"
+          value="51 日"
+        />
+        <z-data-card-item-stub
+          icon="M19 3H5C3.89 3 3 3.89 3 5V19C3 20.11 3.89 21 5 21H19C20.11 21 21 20.11 21 19V5C21 3.89 20.11 3 19 3M19 19H5V5H19V19M9 18H6V16H9V18M13 18H10V16H13V18M9 15H6V13H9V15M13 15H10V13H13V15M9 12H6V10H9V12M13 12H10V10H13V12Z"
+          label="給付単位数"
+          value="194,183 単位"
+        />
+        <z-data-card-item-stub
+          icon="M13.92 11H18V13H13V15H18V17H13V21H11V17H6V15H11V13H6V11H10.08L5 3H7.37L12 10.29L16.63 3H19L13.92 11Z"
+          label="単位数単価"
+          value="0.72 円"
+        />
+        <z-data-card-item-stub
+          label="総費用額"
+          value="180,810 円"
+        />
+        <z-data-card-item-stub
+          label="１割相当額"
+          value="12,794 円"
+        />
+        <z-data-card-item-stub
+          label="利用者負担額"
+        >
+          <z-form-card-item-stub
+            class="ml-0 d-inline-flex"
+            data-managed-copay="0"
+            datamanagedcopay="0"
+            rules="[object Object]"
+            vid="managedCopay_0"
+          />
+        </z-data-card-item-stub>
+        <z-data-card-item-stub
+          label="上限月額調整"
+          value="106,070 円"
+        />
+        <z-data-card-item-stub
+          label="A型減免：事業者減免額"
+          value=""
+        />
+        <z-data-card-item-stub
+          label="A型減免：減免後利用者負担額"
+          value=""
+        />
+        <z-data-card-item-stub
+          label="調整後利用者負担額"
+          value="194,820 円"
+        />
+        <z-data-card-item-stub
+          label="上限額管理後利用者負担額"
+          value="193,838 円"
+        />
+        <z-data-card-item-stub
+          label="決定利用者負担額"
+          value="135,876 円"
+        />
+        <z-data-card-item-stub
+          label="請求額 給付費"
+          value="125,811 円"
+        />
+        <z-data-card-item-stub
+          label="自治体助成分請求額"
+        >
+          <z-form-card-item-stub
+            class="ml-0 d-inline-flex"
+            data-subtotal-subsidy="0"
+            datasubtotalsubsidy="0"
+            rules="[object Object]"
+            vid="subtotalSubsidy_0"
+          />
+        </z-data-card-item-stub>
+        <div
+          class="z-data-card-stub-slot-header"
+        />
+      </div>
+      <div
+        class="z-data-card-stub"
+      >
+        <div
+          class="z-data-card-stub-slot-actions"
+        />
+        <z-data-card-item-stub
+          icon="M11.19,2.25C10.93,2.25 10.67,2.31 10.42,2.4L3.06,5.45C2.04,5.87 1.55,7.04 1.97,8.05L6.93,20C7.24,20.77 7.97,21.23 8.74,21.25C9,21.25 9.27,21.22 9.53,21.1L16.9,18.05C17.65,17.74 18.11,17 18.13,16.25C18.14,16 18.09,15.71 18,15.45L13,3.5C12.71,2.73 11.97,2.26 11.19,2.25M14.67,2.25L18.12,10.6V4.25A2,2 0 0,0 16.12,2.25M20.13,3.79V12.82L22.56,6.96C22.97,5.94 22.5,4.78 21.47,4.36M11.19,4.22L16.17,16.24L8.78,19.3L3.8,7.29"
+          label="サービス種類コード"
+          value="11: 居宅介護"
+        />
+        <z-data-card-item-stub
+          icon="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z"
+          label="サービス利用日数"
+          value="54 日"
+        />
+        <z-data-card-item-stub
+          icon="M19 3H5C3.89 3 3 3.89 3 5V19C3 20.11 3.89 21 5 21H19C20.11 21 21 20.11 21 19V5C21 3.89 20.11 3 19 3M19 19H5V5H19V19M9 18H6V16H9V18M13 18H10V16H13V18M9 15H6V13H9V15M13 15H10V13H13V15M9 12H6V10H9V12M13 12H10V10H13V12Z"
+          label="給付単位数"
+          value="114,741 単位"
+        />
+        <z-data-card-item-stub
+          icon="M13.92 11H18V13H13V15H18V17H13V21H11V17H6V15H11V13H6V11H10.08L5 3H7.37L12 10.29L16.63 3H19L13.92 11Z"
+          label="単位数単価"
+          value="0.17 円"
+        />
+        <z-data-card-item-stub
+          label="総費用額"
+          value="118,815 円"
+        />
+        <z-data-card-item-stub
+          label="１割相当額"
+          value="11,194 円"
+        />
+        <z-data-card-item-stub
+          label="利用者負担額"
+        >
+          <z-form-card-item-stub
+            class="ml-0 d-inline-flex"
+            data-managed-copay="1"
+            datamanagedcopay="1"
+            rules="[object Object]"
+            vid="managedCopay_1"
+          />
+        </z-data-card-item-stub>
+        <z-data-card-item-stub
+          label="上限月額調整"
+          value="174,490 円"
+        />
+        <z-data-card-item-stub
+          label="A型減免：事業者減免額"
+          value=""
+        />
+        <z-data-card-item-stub
+          label="A型減免：減免後利用者負担額"
+          value=""
+        />
+        <z-data-card-item-stub
+          label="調整後利用者負担額"
+          value="176,256 円"
+        />
+        <z-data-card-item-stub
+          label="上限額管理後利用者負担額"
+          value="164,283 円"
+        />
+        <z-data-card-item-stub
+          label="決定利用者負担額"
+          value="197,544 円"
+        />
+        <z-data-card-item-stub
+          label="請求額 給付費"
+          value="111,908 円"
+        />
+        <z-data-card-item-stub
+          label="自治体助成分請求額"
+        >
+          <z-form-card-item-stub
+            class="ml-0 d-inline-flex"
+            data-subtotal-subsidy="1"
+            datasubtotalsubsidy="1"
+            rules="[object Object]"
+            vid="subtotalSubsidy_1"
+          />
+        </z-data-card-item-stub>
+        <div
+          class="z-data-card-stub-slot-header"
+        />
+      </div>
+    </div>
+    <div
+      class="z-data-card-stub"
+      title="請求額集計欄：合計"
+    >
+      <div
+        class="z-data-card-stub-slot-actions"
+      />
+      <z-data-card-item-stub
+        icon="M19 3H5C3.89 3 3 3.89 3 5V19C3 20.11 3.89 21 5 21H19C20.11 21 21 20.11 21 19V5C21 3.89 20.11 3 19 3M19 19H5V5H19V19M9 18H6V16H9V18M13 18H10V16H13V18M9 15H6V13H9V15M13 15H10V13H13V15M9 12H6V10H9V12M13 12H10V10H13V12Z"
+        label="給付単位数"
+        value="518,325 単位"
+      />
+      <z-data-card-item-stub
+        icon="M13.92 11H18V13H13V15H18V17H13V21H11V17H6V15H11V13H6V11H10.08L5 3H7.37L12 10.29L16.63 3H19L13.92 11Z"
+        label="総費用額"
+        value="225,974 円"
+      />
+      <z-data-card-item-stub
+        label="上限月額調整"
+        value="107,829 円"
+      />
+      <z-data-card-item-stub
+        label="A型減免：事業者減免額"
+        value=""
+      />
+      <z-data-card-item-stub
+        label="A型減免：減免後利用者負担額"
+        value=""
+      />
+      <z-data-card-item-stub
+        label="調整後利用者負担額"
+        value="258,467 円"
+      />
+      <z-data-card-item-stub
+        label="上限額管理後利用者負担額"
+        value="213,241 円"
+      />
+      <z-data-card-item-stub
+        label="決定利用者負担額"
+        value="214,416 円"
+      />
+      <z-data-card-item-stub
+        label="請求額 給付費"
+        value="481,342 円"
+      />
+      <z-data-card-item-stub
+        label="自治体助成分請求額"
+        value="837,154 円"
+      />
+      <div
+        class="z-data-card-stub-slot-header"
+      />
+    </div>
+    <z-system-meta-card-stub
+      createdat="1990-09-06T03:56:57+0900"
+      id="1"
+      updatedat="1996-04-20T19:51:19+0900"
+    />
+    <z-form-action-button-stub
+      fixed="true"
+      icon="M14,13V17H10V13H7L12,8L17,13M19.35,10.03C18.67,6.59 15.64,4 12,4C9.11,4 6.6,5.64 5.35,8.03C2.34,8.36 0,10.9 0,14A6,6 0 0,0 6,20H19A5,5 0 0,0 24,15C24,12.36 21.95,10.22 19.35,10.03Z"
+      text="保存"
+    />
+  </form>
+  <z-dws-billing-copay-coordination-form-dialog-stub
+    amount="258467"
+    errors="[object Object]"
+    value="[object Object]"
+  />
+</div>
+`;

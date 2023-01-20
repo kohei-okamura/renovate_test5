@@ -1,0 +1,9 @@
+---
+coverage:
+  # See https://docs.codecov.com/docs/commit-status
+  status:
+    patch: off
+    project:
+      default:
+        target: 90%
+        threshold: 3%

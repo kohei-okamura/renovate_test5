@@ -1,0 +1,20 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 障害福祉サービス：明細書：契約
+type: object
+properties:
+  dwsGrantedServiceCode:
+    $ref: '#/components/schemas/DwsGrantedServiceCode'
+  grantedAmount:
+    description: 契約支給量（分単位）
+    type: number
+  agreedOn:
+    $ref: '#/components/schemas/DateLike'
+  expiredOn:
+    $ref: '#/components/schemas/DateLike'
+  indexNumber:
+    description: 事業者記入欄番号
+    type: number

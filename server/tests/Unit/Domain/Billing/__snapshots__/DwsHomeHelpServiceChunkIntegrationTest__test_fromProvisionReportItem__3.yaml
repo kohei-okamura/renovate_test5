@@ -1,0 +1,21 @@
+-
+    -
+        category: 111000
+        providerType: 0
+        isSecondary: false
+        isSpanning: false
+        spanningDuration: 0
+        providedOn: '2021-02-03T00:00:00+09:00'
+        timeframe: 2
+        duration: 30
+        headcount: 1
+    -
+        category: 111000
+        providerType: 0
+        isSecondary: false
+        isSpanning: false
+        spanningDuration: 0
+        providedOn: '2021-02-03T00:00:00+09:00'
+        timeframe: 1
+        duration: 60
+        headcount: 1

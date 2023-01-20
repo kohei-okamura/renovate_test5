@@ -1,0 +1,14 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+description: 障害福祉サービス：予実合計時間数
+type: object
+additionalProperties:
+  type: integer
+example:
+  11: 1234000 # 居宅介護：合計1「身体介護」
+  12: 2345000 # 居宅介護：合計2「通院等介助（身体を伴う）」
+  13: 3456000 # 居宅介護：合計3「家事援助」
+  14: 4567000 # 居宅介護：合計4「通院等介助（身体を伴わない）」
+  21: 5678000 # 重度訪問介護
+  22: 6789000 # 重度訪問介護：移動介護分

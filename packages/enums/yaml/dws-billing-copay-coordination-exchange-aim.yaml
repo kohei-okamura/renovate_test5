@@ -1,0 +1,14 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 利用者負担上限額管理結果票：作成区分
+name: DwsBillingCopayCoordinationExchangeAim
+php:
+  enabled: true
+  namespace: Billing
+typescript:
+  enabled: true
+items:
+  - { description: 新規, name: declaration, value: 1 }
+  - { description: 修正, name: modification, value: 2 }
+  - { description: 取り消し, name: cancel, value: 3 }

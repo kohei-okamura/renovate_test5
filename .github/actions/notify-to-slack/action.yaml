@@ -1,0 +1,47 @@
+name: Notify to Slack
+
+description: Notify to Slack
+
+inputs:
+  color:
+    description: Color of Slack Notification
+    default: good
+    required: false
+  text:
+    description: Text of Slack Notification
+    required: true
+  url:
+    description: URL of Slack Incoming Webhook
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - run: |
+        PULL_REQUEST_LINK="$([[ -z "${PULL_REQUEST_URL}" ]] && echo 'n/a' || echo "<${PULL_REQUEST_URL}|#${PULL_REQUEST_NUMBER}>")"
+
+        jq -cn \
+          --arg color "${SLACK_ATTACHMENT_COLOR}" \
+          --arg github_commit_link "<${REPO_URL}/commit/${GITHUB_SHA}|${GITHUB_SHA:0:7}>" \
+          --arg github_pull_request_link "${PULL_REQUEST_LINK}" \
+          --arg github_run_link "<${REPO_URL}/actions/runs/${GITHUB_RUN_ID}|${GITHUB_RUN_ID}>" \
+          --arg text "${SLACK_NOTIFY_TEXT}" \
+          '{
+            text: $text,
+            attachments: [{
+              color: $color,
+              fields: [
+                { title: "Pull Request", value: $github_pull_request_link, short: true },
+                { title: "Commit", value: $github_commit_link, short: true },
+                { title: "Actions", value: $github_run_link, short: true }
+              ]
+            }]
+          }' | curl -H 'Content-Type: application/json' -d @- "${SLACK_WEBHOOK_URL}"
+      env:
+        PULL_REQUEST_NUMBER: ${{ (github.event_name == 'pull_request' && github.event.pull_request.number) || '' }}
+        PULL_REQUEST_URL: ${{ (github.event_name == 'pull_request' && github.event.pull_request.html_url) || '' }}
+        REPO_URL: ${{ github.server_url }}${{ '/' }}${{ github.repository }}
+        SLACK_ATTACHMENT_COLOR: ${{ inputs.color }}
+        SLACK_NOTIFY_TEXT: ${{ inputs.text }}
+        SLACK_WEBHOOK_URL: ${{ inputs.url }}
+      shell: bash

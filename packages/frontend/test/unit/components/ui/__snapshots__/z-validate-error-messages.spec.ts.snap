@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-validate-error-messages.vue should be rendered correctly 1`] = `
+<div>
+  <input
+    type="hidden"
+    value="test input"
+  />
+  <!---->
+</div>
+`;
+
+exports[`z-validate-error-messages.vue should fail when value is empty 1`] = `
+<div>
+  <input
+    type="hidden"
+  />
+  <span
+    class="error--text v-messages"
+  >
+    入力してください。
+  </span>
+</div>
+`;

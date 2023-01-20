@@ -1,0 +1,29 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 介護保険サービス：請求
+type: object
+properties:
+  id:
+    description: 請求 ID
+    type: object
+  office:
+    $ref: '#/components/schemas/LtcsBillingOffice'
+  transactedIn:
+    description: 処理対象年月
+    type: string
+  files:
+    description: ファイル
+    type: array
+    items:
+      $ref: '#/components/schemas/LtcsBillingFile'
+  status:
+    $ref: '#/components/schemas/LtcsBillingStatus'
+  fixedAt:
+    $ref: '#/components/schemas/DateLike'
+  createdAt:
+    $ref: '#/components/schemas/DateLike'
+  updatedAt:
+    $ref: '#/components/schemas/DateLike'

@@ -1,0 +1,28 @@
+-
+    id: 1
+    billingId: 2
+    bundleId: 1
+    isSubsidy: false
+    defrayerCategory: null
+    statementCount: 20
+    totalScore: 103504
+    totalFee: 1179937
+    insuranceAmount: 1047625
+    subsidyAmount: 24105
+    copayAmount: 108207
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 2
+    billingId: 2
+    bundleId: 1
+    isSubsidy: true
+    defrayerCategory: 12
+    statementCount: 2
+    totalScore: 21144
+    totalFee: 241040
+    insuranceAmount: 0
+    subsidyAmount: 24105
+    copayAmount: 0
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'

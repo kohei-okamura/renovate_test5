@@ -1,0 +1,16 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: サービス提供実績記録票：ヘルパー資格
+name: DwsBillingServiceReportProviderType
+php:
+  enabled: true
+  namespace: Billing
+  withResolver: true
+typescript:
+  enabled: true
+items:
+  - { description: 未設定, name: None, value: 0 }
+  - { description: 初任者等, name: Novice, value: 11 }
+  - { description: 基礎等, name: Beginner, value: 12 }
+  - { description: 重訪, name: CareWorkerForPwsd, value: 13 }

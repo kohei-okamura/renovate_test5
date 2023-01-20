@@ -1,0 +1,12 @@
+{
+    "category": 121000,
+    "isCoaching": true,
+    "isMoving": true,
+    "isSecondary": true,
+    "providedOn": "2019-05-15T00:00:00+0900",
+    "timeframe": 1,
+    "duration": 240,
+    "headcount": 1,
+    "isHospitalized": true,
+    "isLongHospitalized": false
+}

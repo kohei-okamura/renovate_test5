@@ -1,0 +1,55 @@
+{
+    "providedIn": {
+        "japaneseCalender": "",
+        "year": "",
+        "month": "",
+        "day": ""
+    },
+    "office": {
+        "officeId": null,
+        "code": null,
+        "name": null,
+        "abbr": null,
+        "addr": null,
+        "tel": null
+    },
+    "cityCode": "123456",
+    "user": {
+        "userId": null,
+        "dwsCertificationId": null,
+        "dwsNumber": null,
+        "name": null,
+        "childName": null,
+        "copayLimit": null
+    },
+    "result": 3,
+    "items": [
+        {
+            "itemNumber": 1,
+            "office": {
+                "officeId": 1,
+                "code": "123456",
+                "name": "\u4e8b\u696d\u62401",
+                "abbr": "\u4e8b\u696d1",
+                "addr": {
+                    "postcode": "739-0604",
+                    "prefecture": 34,
+                    "city": "\u5927\u7af9\u5e02",
+                    "street": "\u5317\u68041-13-11",
+                    "apartment": "\u5317\u6804\u8358411"
+                },
+                "tel": "090-3169-6661"
+            },
+            "subtotal": {
+                "fee": 10000,
+                "copay": 10000,
+                "coordinatedCopay": 10000
+            }
+        }
+    ],
+    "total": {
+        "fee": null,
+        "copay": null,
+        "coordinatedCopay": null
+    }
+}

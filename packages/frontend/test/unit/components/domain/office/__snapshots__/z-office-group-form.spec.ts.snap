@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-office-group-form.vue should be rendered correctly 1`] = `
+<z-page-dialog-stub
+  value="true"
+  width="500"
+>
+  <form
+    class="v-form"
+    data-form=""
+    novalidate="novalidate"
+  >
+    <v-card-stub
+      loaderheight="4"
+      tag="div"
+    >
+      <z-card-titlebar-stub
+        color="blue-grey"
+      >
+        事業所グループを登録
+      </z-card-titlebar-stub>
+      <v-card-text-stub
+        tag="div"
+      >
+        <div>
+          <!---->
+          <div
+            data-name=""
+          >
+            <div
+              class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--enclosed v-text-field--outlined"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  class="v-input__slot"
+                  style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                >
+                  <fieldset
+                    aria-hidden="true"
+                  >
+                    <legend
+                      style="width: 0px;"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                  <div
+                    class="v-text-field__slot"
+                  >
+                    <label
+                      class="v-label v-label--active theme--light"
+                      style="left: 0px; position: absolute;"
+                    >
+                      事業所グループ名 *
+                    </label>
+                    <input
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="v-text-field__details"
+                >
+                  <div
+                    class="v-messages theme--light"
+                  >
+                    <transition-group-stub
+                      class="v-messages__wrapper"
+                      name="message-transition"
+                      tag="div"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </v-card-text-stub>
+      <v-card-actions-stub
+        class="pb-4 pt-0 px-4"
+        tag="div"
+      >
+        <v-spacer-stub
+          tag="div"
+        />
+        <a
+          class="v-btn-stub"
+          data-cancel=""
+          text=""
+        >
+          キャンセル
+        </a>
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-ok=""
+          depressed=""
+          type="submit"
+        >
+          <span>
+            登録
+          </span>
+        </a>
+      </v-card-actions-stub>
+    </v-card-stub>
+  </form>
+</z-page-dialog-stub>
+`;

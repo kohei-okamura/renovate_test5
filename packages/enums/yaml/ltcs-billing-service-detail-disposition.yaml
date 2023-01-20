@@ -1,0 +1,13 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 介護保険サービス：請求：サービス詳細区分
+name: LtcsBillingServiceDetailDisposition
+php:
+  enabled: true
+  namespace: Billing
+typescript:
+  enabled: false
+items:
+  - { description: 予定, name: Plan, value: 1 }
+  - { description: 実績, name: Result, value: 2 }

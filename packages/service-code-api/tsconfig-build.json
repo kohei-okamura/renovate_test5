@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "types": ["node"]
+  },
+  "files": [
+    "bin/service-code-api.prod.ts",
+    "bin/service-code-api.staging.ts",
+    "lib/stack/service-code-api-stack.ts"
+  ]
+}

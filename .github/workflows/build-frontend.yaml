@@ -1,0 +1,41 @@
+name: "Build frontend"
+
+on:
+  pull_request:
+    branches:
+      - staging
+      - prod
+    paths:
+      - '.github/workflows/build-frontend.yaml'
+      - 'packages/enums/lib/*.ts'
+      - 'packages/frontend/**/*.js'
+      - 'packages/frontend/**/*.ts'
+      - 'packages/frontend/**/*.vue'
+      - 'packages/helpers/lib/*.ts'
+      - 'tsconfig.json'
+      - 'tsconfig-test.json'
+      - 'yarn.lock'
+  schedule:
+    - cron: '17 5 * * 1-5'
+
+jobs:
+  test:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup
+        uses: ./.github/actions/setup-node-js
+      - name: Build
+        run: yarn frontend:build
+        env:
+          # Node.js 18.x で Nuxt.js がビルドできない問題に対応する
+          # see https://qiita.com/akitkat/items/f455bbc088a408cbc3a5
+          NODE_OPTIONS: --openssl-legacy-provider
+      - name: Slack Notification on Failure
+        if: ${{ failure() }}
+        uses: ./.github/actions/notify-to-slack
+        with:
+          color: danger
+          text: フロントエンドのビルドでエラーが検出されました。
+          url: ${{ secrets.SLACK_WEBHOOK }}

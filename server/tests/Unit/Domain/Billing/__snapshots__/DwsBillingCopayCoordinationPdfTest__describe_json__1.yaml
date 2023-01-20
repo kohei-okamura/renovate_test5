@@ -1,0 +1,33 @@
+providedIn:
+    japaneseCalender: ''
+    year: ''
+    month: ''
+    day: ''
+office:
+    officeId: null
+    code: null
+    name: null
+    abbr: null
+    addr: null
+    tel: null
+cityCode: '123456'
+user:
+    userId: null
+    dwsCertificationId: null
+    dwsNumber: null
+    name: null
+    childName: null
+    copayLimit: null
+result: 3
+items:
+    -
+        itemNumber: 1
+        officeCode: '123456'
+        officeName: 事業所1
+        fee: 10000
+        copay: 10000
+        coordinatedCopay: 10000
+total:
+    fee: null
+    copay: null
+    coordinatedCopay: null

@@ -1,0 +1,33 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+post:
+  summary: サービス提供実績記録票（プレビュー版）ダウンロード
+  description: サービス提供実績記録票（プレビュー版）をダウンロードする。
+  requestBody:
+    content:
+      application/json:
+        schema:
+          properties:
+            officeId:
+              $ref: '#/components/schemas/OfficeId'
+            userId:
+              $ref: '#/components/schemas/UserId'
+            providedIn:
+              description: サービス提供年月
+              type: string
+              pattern: '^\d{4}-\d{2}$'
+              example: '2021-07'
+          required:
+            - officeId
+            - userId
+            - providedIn
+  responses:
+    '202':
+      $ref: '#/components/responses/JobCreated'
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+  tags:
+    - 障害福祉サービス：予実

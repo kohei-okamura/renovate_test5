@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`api/callings-api acknowledge should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/callings-api getIndex should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;

@@ -1,0 +1,39 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+put:
+  summary: 介護保険サービス：請求状態更新
+  description: 介護保険サービス：請求の状態を更新する。
+  parameters:
+    - $ref: '#/components/parameters/ltcsBillingId'
+  requestBody:
+    content:
+      application/json:
+        schema:
+          $ref: '#/components/schemas/LtcsBillingStatusForm'
+  responses:
+    '200':
+      description: 正常に処理が行われ、ファイル生成を伴わない場合
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/LtcsBillingResponse'
+    '202':
+      description: 正常に処理が行われ、ファイル生成が開始された場合
+      content:
+        application/json:
+          schema:
+            allOf:
+              - $ref: '#/components/schemas/LtcsBillingResponse'
+              - type: object
+                properties:
+                  job:
+                    $ref: '#/components/schemas/Job'
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+    '404':
+      description: 請求 ID が一致する介護保険サービス：請求が存在しない場合
+  tags:
+    - 介護保険サービス：請求

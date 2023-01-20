@@ -1,0 +1,27 @@
+{
+    "ownExpenseProgramId": 1,
+    "slot": {
+        "start": "00:00",
+        "end": "00:00"
+    },
+    "timeframe": 1,
+    "category": 91,
+    "amounts": [
+        {
+            "category": 12,
+            "amount": 60
+        }
+    ],
+    "headcount": 5,
+    "serviceCode": "111213",
+    "options": [
+        100002
+    ],
+    "note": "",
+    "plans": [
+        "2019-05-15"
+    ],
+    "results": [
+        "2019-05-15"
+    ]
+}

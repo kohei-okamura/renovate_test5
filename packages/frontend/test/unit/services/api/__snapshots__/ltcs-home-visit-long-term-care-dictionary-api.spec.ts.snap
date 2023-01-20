@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`api/ltcs-home-visit-long-term-care-dictionary-api get should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/ltcs-home-visit-long-term-care-dictionary-api getIndex should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;

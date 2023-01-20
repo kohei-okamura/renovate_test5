@@ -1,0 +1,20 @@
+name: "ESLint for @zinger/frontend"
+on:
+  pull_request:
+    paths:
+      - 'packages/frontend/**/*.js'
+      - 'packages/frontend/**/*.ts'
+      - 'packages/frontend/**/*.vue'
+      - '.eslintignore'
+      - '.eslintrc.js'
+      - '.github/workflows/eslint-frontend.yaml'
+jobs:
+  lint:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup
+        uses: ./.github/actions/setup-node-js
+      - name: Run eslint
+        run: yarn lint:ci packages/frontend

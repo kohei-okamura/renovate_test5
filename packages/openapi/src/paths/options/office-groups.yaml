@@ -1,0 +1,37 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+get:
+  summary: 事業所グループ選択肢一覧
+  description: 事業所グループ選択肢一覧を取得する。
+  parameters:
+    - in: query
+      name: permission
+      description: 権限
+      required: true
+      schema:
+        $ref: '#/components/schemas/Permission'
+  responses:
+    '200':
+      description: 正常に処理が行われた場合
+      content:
+        application/json:
+          schema:
+            type: array
+            items:
+              description: 選択肢
+              type: object
+              properties:
+                text:
+                  description: 表示用テキスト
+                  type: string
+                value:
+                  description: 値
+                  type: integer
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+  tags:
+    - 事業所グループ
+    - 選択肢

@@ -1,0 +1,187 @@
+/*
+ * Copyright © 2019 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+ * UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+ */
+
+//
+// FIX: p 要素の下にできる微妙な隙間を解消する.
+//
+p {
+  margin: 0;
+}
+p + * {
+  margin-top: 16px;
+}
+//
+// FIX: ボタンのサイズをちょっとだけ大きくする.
+//
+.z-app .v-btn:not(.v-btn--round).v-size--default {
+  height: 40px;
+}
+//
+// FIX: アラートの文字周りを調整.
+//
+.z-app .v-alert {
+  font-size: 14px;
+  font-weight: bold;
+
+  a {
+    color: inherit !important;
+  }
+}
+//
+// FIX: パン屑リストを常に1行で表示する.
+//
+.v-breadcrumbs {
+  flex-wrap: nowrap !important;
+}
+.v-breadcrumbs li {
+  min-width: 0;
+}
+.v-breadcrumbs li:last-child {
+  flex-shrink: 0;
+  min-width: 0;
+}
+.v-breadcrumbs__item {
+  display: inline !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+//
+// FIX: Card + Grid の表示を調整する.
+//
+.v-card .container {
+  padding: 16px;
+}
+//
+// FIX: Card + List の表示を調整する.
+//
+.v-card .v-card__text > .v-list {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+//
+// FIX: v-data-table の progress bar が v-data-table の高さを変えないようにする.
+//
+.v-data-table .v-data-table__progress .column {
+  position: relative;
+
+  .v-progress-linear {
+    background-color: #fff;
+    height: 3px !important;
+    left: 0;
+    position: absolute;
+    top: -3px;
+  }
+}
+//
+// FIX: v-data-table のモバイル版で意図しない謎の部品が表示されるのを防ぐ.
+//
+.v-data-table .v-data-table-header-mobile {
+  display: none;
+}
+//
+// FIX: ダイアログの表示を調整する.
+//
+.z-app .v-dialog > .v-card {
+  > .v-card__title {
+    padding: 16px 24px 0;
+  }
+  > .v-card__text {
+    padding: 20px 24px 8px;
+  }
+}
+//
+// FIX: ダイアログの中身の幅が狭くなるのを防ぐ.
+//
+.v-dialog.v-dialog--scrollable > form {
+  width: 100%;
+}
+//
+// FIX: v-input のレイアウトを調整する.
+//
+.v-input {
+  &.v-input--checkbox {
+    font-size: 14px;
+  }
+  &.v-input--selection-controls {
+    margin-top: 0;
+
+    &.v-input--hide-details {
+      margin-bottom: 8px;
+    }
+  }
+  &.v-input--checkbox .v-input__control {
+    align-items: flex-start;
+  }
+  &.v-input--checkbox .v-input__control .v-input__slot {
+    width: auto;
+  }
+  &.v-select.v-select--chips.v-input--dense.v-input--is-dirty {
+    .v-select__selections {
+      padding: 12px 0 4px;
+    }
+    .v-chip {
+      margin: 0 4px 4px 0;
+    }
+  }
+  .v-text-field__details {
+    min-height: 1px;
+  }
+  &.v-text-field.v-text-field--enclosed.v-text-field--outlined {
+    border-radius: 3px;
+    font-size: 14px;
+    margin-top: 8px;
+
+    &.v-input--hide-details {
+      margin-top: 0;
+    }
+    &.v-input--is-disabled.v-input--is-readonly .v-input__slot {
+      background-color: #eee;
+    }
+    .v-label--active {
+      transform: translateY(-17px) scale(.80);
+    }
+    &.v-textarea {
+      .v-label {
+        top: 10px;
+      }
+    }
+  }
+  .v-label {
+    font-size: 14px;
+  }
+  .v-messages {
+    min-height: 1px;
+  }
+  .v-radio {
+    align-items: flex-start;
+    margin-right: 0;
+
+    .v-label {
+      height: auto;
+      margin-top: 2px;
+    }
+  }
+}
+//
+// FIX: v-list(dense) のレイアウトを調整する.
+//
+.v-list.v-list--dense .v-list-item,
+.v-list .v-list-item.v-list-item--dense {
+  .v-list-item__icon {
+    margin: 13px 0;
+  }
+  .v-list-item__icon:first-child {
+    margin-right: 24px;
+  }
+}
+//
+// FIX: v-tooltip がちっとも fixed にならない問題を解消.
+//
+.v-tooltip__content {
+  &.v-tooltip__content--fixed {
+    position: fixed;
+  }
+}

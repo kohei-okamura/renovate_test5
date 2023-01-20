@@ -1,0 +1,55 @@
+id: 1
+organizationId: 2
+contractId: 3
+officeId: 4
+userId: 5
+staffId: 6
+writtenOn: '2019-05-14T00:00:00+09:00'
+effectivatedOn: '2019-05-16T00:00:00+09:00'
+requestFromUser: できるだけ自分でできることは自分でやりたい。
+requestFromFamily: 自由にさせてやりたい。
+problem: 認知症があるが、病状を悪化させない。安全に家事ができるようになる。
+longTermObjective:
+    term:
+        start: '2019-01-28T00:00:00+09:00'
+        end: '2020-03-31T00:00:00+09:00'
+    text: 自分で薬管理ができる。できる家事を継続する。
+shortTermObjective:
+    term:
+        start: '2019-01-28T00:00:00+09:00'
+        end: '2019-03-31T00:00:00+09:00'
+    text: 服薬忘れを防ぐ為、声掛けにて服薬を促す。できる家事は継続して行っていただく。
+programs:
+    -
+        programIndex: 1
+        category: 11
+        recurrence: 11
+        dayOfWeeks:
+            - 1
+            - 3
+            - 5
+        slot:
+            start: '15:00'
+            end: '17:00'
+        timeframe: 1
+        amounts:
+            -
+                category: 11
+                amount: 120
+        headcount: 1
+        ownExpenseProgramId: null
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '2345'
+        options: {  }
+        contents:
+            -
+                menuId: 123
+                duration: 60
+                content: 夜ごはんのお買い物へ一緒に行き、料理を行う。
+                memo: 火、包丁を使わない作業をしていただく。
+        note: 備考
+isEnabled: true
+version: 12
+createdAt: '2019-05-14T00:00:00+09:00'
+updatedAt: '2019-05-15T00:00:00+09:00'

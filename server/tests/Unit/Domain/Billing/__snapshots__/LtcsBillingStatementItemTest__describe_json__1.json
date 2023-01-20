@@ -1,0 +1,22 @@
+{
+    "serviceCode": "113479",
+    "serviceCodeCategory": 113000,
+    "unitScore": 1652,
+    "count": 18,
+    "totalScore": 459666,
+    "subsidies": [
+        {
+            "count": 14,
+            "totalScore": 589929
+        },
+        {
+            "count": 0,
+            "totalScore": 0
+        },
+        {
+            "count": 0,
+            "totalScore": 0
+        }
+    ],
+    "note": "270"
+}

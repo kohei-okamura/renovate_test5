@@ -1,0 +1,10 @@
+officeId: 1
+status: 3
+contractedOn: '2020-01-01T00:00:00+09:00'
+terminatedOn: '2020-12-31T00:00:00+09:00'
+dwsPeriods: {  }
+ltcsPeriod:
+    start: '2020-05-17T00:00:00+09:00'
+    end: null
+expiredReason: 3
+note: だるまさんが転んだ

@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-projects-card.vue should be rendered correctly 1`] = `
+<div
+  class="root"
+  data-z-data-table=""
+  data-z-projects-card=""
+>
+  <z-subheader-stub>
+    計画一覧
+  </z-subheader-stub>
+  <v-card-stub
+    class="py-4"
+    loaderheight="4"
+    tag="div"
+  >
+    <div
+      class="v-data-table theme--light table"
+      data-desktop-table=""
+    >
+      <div
+        class="v-data-table__wrapper"
+      >
+        <table>
+          <colgroup>
+            <col
+              class=""
+            />
+            <col
+              class=""
+            />
+            <col
+              class=""
+            />
+            <col
+              class=""
+            />
+          </colgroup>
+          <thead
+            class="v-data-table-header"
+          >
+            <tr>
+              <th
+                aria-label="事業所"
+                class="text-start office"
+                role="columnheader"
+                scope="col"
+              >
+                <span>
+                  事業所
+                </span>
+              </th>
+              <th
+                aria-label="作成者"
+                class="text-start staff"
+                role="columnheader"
+                scope="col"
+              >
+                <span>
+                  作成者
+                </span>
+              </th>
+              <th
+                aria-label="作成日"
+                class="text-start writtenOn"
+                role="columnheader"
+                scope="col"
+              >
+                <span>
+                  作成日
+                </span>
+              </th>
+              <th
+                aria-label="適用日"
+                class="text-start effectivatedOn"
+                role="columnheader"
+                scope="col"
+              >
+                <span>
+                  適用日
+                </span>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              class=""
+            >
+              <td
+                class="text-start"
+              >
+                土屋訪問介護事業所
+              </td>
+              <td
+                class="text-start"
+              >
+                片桐 将也
+              </td>
+              <td
+                class="text-start"
+              >
+                <time
+                  datetime="2004-02-18"
+                >
+                  平16.02.18
+                </time>
+              </td>
+              <td
+                class="text-start"
+              >
+                <time
+                  datetime="2010-03-26"
+                >
+                  平22.03.26
+                </time>
+              </td>
+            </tr>
+            <tr
+              class=""
+            >
+              <td
+                class="text-start"
+              >
+                土屋訪問介護事業所
+              </td>
+              <td
+                class="text-start"
+              >
+                片桐 将也
+              </td>
+              <td
+                class="text-start"
+              >
+                <time
+                  datetime="1990-07-06"
+                >
+                  平02.07.06
+                </time>
+              </td>
+              <td
+                class="text-start"
+              >
+                <time
+                  datetime="1997-11-15"
+                >
+                  平09.11.15
+                </time>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!---->
+  </v-card-stub>
+</div>
+`;

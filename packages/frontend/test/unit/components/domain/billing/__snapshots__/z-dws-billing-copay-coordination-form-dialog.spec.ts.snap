@@ -1,0 +1,537 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-dws-billing-copay-coordination-form-dialog.vue initial display should be rendered correctly when registration 1`] = `
+<v-dialog-stub
+  closedelay="0"
+  contentclass=""
+  opendelay="0"
+  origin="center center"
+  persistent="true"
+  retainfocus="true"
+  transition="dialog"
+  value="true"
+  width="500"
+>
+  <form
+    class="v-form"
+    data-form=""
+    novalidate="novalidate"
+  >
+    <v-card-stub
+      loaderheight="4"
+      tag="div"
+    >
+      <z-card-titlebar-stub
+        color="blue-grey"
+      >
+        利用者負担上限額管理結果を登録
+      </z-card-titlebar-stub>
+      <v-card-text-stub
+        tag="div"
+      >
+        <div
+          class="subtitle-1 mb-3"
+        >
+          上限額管理結果を選択してください。
+        </div>
+        <div>
+          <div
+            class="root"
+            data-result=""
+            data-z-form-card-item=""
+          >
+            <div
+              class="v-input theme--light v-input--selection-controls v-input--radio-group v-input--radio-group--column"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  class="v-input__slot"
+                  style="height: auto;"
+                >
+                  <div
+                    class="v-input--radio-group__input"
+                    role="radiogroup"
+                  >
+                    <v-row-stub
+                      tag="div"
+                    >
+                      <v-col-stub
+                        tag="div"
+                      >
+                        <div
+                          class="v-radio theme--light"
+                        >
+                          <div
+                            class="v-input--selection-controls__input"
+                          >
+                            <i
+                              aria-hidden="true"
+                              class="v-icon notranslate mdi mdi-radiobox-blank theme--light"
+                            />
+                            <input
+                              aria-checked="false"
+                              role="radio"
+                              type="radio"
+                              value="1"
+                            />
+                            <div
+                              class="v-input--selection-controls__ripple"
+                            />
+                          </div>
+                          <label
+                            class="v-label theme--light"
+                            style="left: 0px; position: relative;"
+                          >
+                            1. 管理事業所で利用者負担額を充当したため、他事業所の利用者負担は発生しない。
+                          </label>
+                        </div>
+                      </v-col-stub>
+                    </v-row-stub>
+                    <v-row-stub
+                      tag="div"
+                    >
+                      <v-col-stub
+                        tag="div"
+                      >
+                        <div
+                          class="v-radio theme--light"
+                        >
+                          <div
+                            class="v-input--selection-controls__input"
+                          >
+                            <i
+                              aria-hidden="true"
+                              class="v-icon notranslate mdi mdi-radiobox-blank theme--light"
+                            />
+                            <input
+                              aria-checked="false"
+                              role="radio"
+                              type="radio"
+                              value="2"
+                            />
+                            <div
+                              class="v-input--selection-controls__ripple"
+                            />
+                          </div>
+                          <label
+                            class="v-label theme--light"
+                            style="left: 0px; position: relative;"
+                          >
+                            2. 利用者負担額の合計額が、負担上限月額以下のため、調整事務は行わない。
+                          </label>
+                        </div>
+                      </v-col-stub>
+                    </v-row-stub>
+                    <v-row-stub
+                      tag="div"
+                    >
+                      <v-col-stub
+                        tag="div"
+                      >
+                        <div
+                          class="v-radio theme--light"
+                        >
+                          <div
+                            class="v-input--selection-controls__input"
+                          >
+                            <i
+                              aria-hidden="true"
+                              class="v-icon notranslate mdi mdi-radiobox-blank theme--light"
+                            />
+                            <input
+                              aria-checked="false"
+                              role="radio"
+                              type="radio"
+                              value="3"
+                            />
+                            <div
+                              class="v-input--selection-controls__ripple"
+                            />
+                          </div>
+                          <label
+                            class="v-label theme--light"
+                            style="left: 0px; position: relative;"
+                          >
+                            3. 利用者負担額の合計額が、負担上限月額を超過するため、下記のとおり調整した。
+                          </label>
+                        </div>
+                      </v-col-stub>
+                    </v-row-stub>
+                  </div>
+                </div>
+                <div
+                  class="v-messages theme--light"
+                >
+                  <transition-group-stub
+                    class="v-messages__wrapper"
+                    name="message-transition"
+                    tag="div"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="root pl-8"
+            data-amount=""
+            data-z-form-card-item=""
+          >
+            <div
+              class="v-input v-input--dense theme--light v-text-field v-text-field--enclosed v-text-field--outlined"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  class="v-input__slot"
+                  style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                >
+                  <fieldset
+                    aria-hidden="true"
+                  >
+                    <legend
+                      style="width: 0px;"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                  <div
+                    class="v-text-field__slot"
+                  >
+                    <label
+                      class="v-label theme--light"
+                      style="left: 0px; position: absolute;"
+                    >
+                      上限管理後利用者負担額 *
+                    </label>
+                    <input
+                      min="0"
+                      type="number"
+                    />
+                    <div
+                      class="v-text-field__suffix"
+                    >
+                      円
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="v-text-field__details"
+                >
+                  <div
+                    class="v-messages theme--light"
+                  >
+                    <transition-group-stub
+                      class="v-messages__wrapper"
+                      name="message-transition"
+                      tag="div"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </v-card-text-stub>
+      <v-card-actions-stub
+        class="pb-4 pt-0 px-4"
+        tag="div"
+      >
+        <v-spacer-stub
+          tag="div"
+        />
+        <a
+          class="v-btn-stub"
+          data-cancel=""
+          text=""
+        >
+          キャンセル
+        </a>
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-ok=""
+          depressed=""
+          type="submit"
+        >
+          登録
+        </a>
+      </v-card-actions-stub>
+    </v-card-stub>
+  </form>
+</v-dialog-stub>
+`;
+
+exports[`z-dws-billing-copay-coordination-form-dialog.vue initial display should be rendered correctly when update 1`] = `
+<v-dialog-stub
+  closedelay="0"
+  contentclass=""
+  opendelay="0"
+  origin="center center"
+  persistent="true"
+  retainfocus="true"
+  transition="dialog"
+  value="true"
+  width="500"
+>
+  <form
+    class="v-form"
+    data-form=""
+    novalidate="novalidate"
+  >
+    <v-card-stub
+      loaderheight="4"
+      tag="div"
+    >
+      <z-card-titlebar-stub
+        color="blue-grey"
+      >
+        利用者負担上限額管理結果を編集
+      </z-card-titlebar-stub>
+      <v-card-text-stub
+        tag="div"
+      >
+        <div
+          class="subtitle-1 mb-3"
+        >
+          上限額管理結果を選択してください。
+        </div>
+        <div>
+          <div
+            class="root"
+            data-result=""
+            data-z-form-card-item=""
+          >
+            <div
+              class="v-input v-input--is-label-active v-input--is-dirty theme--light v-input--selection-controls v-input--radio-group v-input--radio-group--column"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  class="v-input__slot"
+                  style="height: auto;"
+                >
+                  <div
+                    class="v-input--radio-group__input"
+                    role="radiogroup"
+                  >
+                    <v-row-stub
+                      tag="div"
+                    >
+                      <v-col-stub
+                        tag="div"
+                      >
+                        <div
+                          class="v-radio theme--light"
+                        >
+                          <div
+                            class="v-input--selection-controls__input"
+                          >
+                            <i
+                              aria-hidden="true"
+                              class="v-icon notranslate mdi mdi-radiobox-blank theme--light"
+                            />
+                            <input
+                              aria-checked="false"
+                              role="radio"
+                              type="radio"
+                              value="1"
+                            />
+                            <div
+                              class="v-input--selection-controls__ripple"
+                            />
+                          </div>
+                          <label
+                            class="v-label theme--light"
+                            style="left: 0px; position: relative;"
+                          >
+                            1. 管理事業所で利用者負担額を充当したため、他事業所の利用者負担は発生しない。
+                          </label>
+                        </div>
+                      </v-col-stub>
+                    </v-row-stub>
+                    <v-row-stub
+                      tag="div"
+                    >
+                      <v-col-stub
+                        tag="div"
+                      >
+                        <div
+                          class="v-radio theme--light"
+                        >
+                          <div
+                            class="v-input--selection-controls__input"
+                          >
+                            <i
+                              aria-hidden="true"
+                              class="v-icon notranslate mdi mdi-radiobox-blank theme--light"
+                            />
+                            <input
+                              aria-checked="false"
+                              role="radio"
+                              type="radio"
+                              value="2"
+                            />
+                            <div
+                              class="v-input--selection-controls__ripple"
+                            />
+                          </div>
+                          <label
+                            class="v-label theme--light"
+                            style="left: 0px; position: relative;"
+                          >
+                            2. 利用者負担額の合計額が、負担上限月額以下のため、調整事務は行わない。
+                          </label>
+                        </div>
+                      </v-col-stub>
+                    </v-row-stub>
+                    <v-row-stub
+                      tag="div"
+                    >
+                      <v-col-stub
+                        tag="div"
+                      >
+                        <div
+                          class="v-radio theme--light v-item--active"
+                        >
+                          <div
+                            class="v-input--selection-controls__input"
+                          >
+                            <i
+                              aria-hidden="true"
+                              class="v-icon notranslate mdi mdi-radiobox-marked theme--light primary--text"
+                            />
+                            <input
+                              aria-checked="true"
+                              role="radio"
+                              type="radio"
+                              value="3"
+                            />
+                            <div
+                              class="v-input--selection-controls__ripple primary--text"
+                            />
+                          </div>
+                          <label
+                            class="v-label theme--light"
+                            style="left: 0px; position: relative;"
+                          >
+                            3. 利用者負担額の合計額が、負担上限月額を超過するため、下記のとおり調整した。
+                          </label>
+                        </div>
+                      </v-col-stub>
+                    </v-row-stub>
+                  </div>
+                </div>
+                <div
+                  class="v-messages theme--light"
+                >
+                  <transition-group-stub
+                    class="v-messages__wrapper"
+                    name="message-transition"
+                    tag="div"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="root pl-8"
+            data-amount=""
+            data-z-form-card-item=""
+          >
+            <div
+              class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--enclosed v-text-field--outlined"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  class="v-input__slot"
+                  style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                >
+                  <fieldset
+                    aria-hidden="true"
+                  >
+                    <legend
+                      style="width: 0px;"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                  <div
+                    class="v-text-field__slot"
+                  >
+                    <label
+                      class="v-label v-label--active theme--light"
+                      style="left: 0px; position: absolute;"
+                    >
+                      上限管理後利用者負担額 *
+                    </label>
+                    <input
+                      min="0"
+                      type="number"
+                    />
+                    <div
+                      class="v-text-field__suffix"
+                    >
+                      円
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="v-text-field__details"
+                >
+                  <div
+                    class="v-messages theme--light"
+                  >
+                    <transition-group-stub
+                      class="v-messages__wrapper"
+                      name="message-transition"
+                      tag="div"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </v-card-text-stub>
+      <v-card-actions-stub
+        class="pb-4 pt-0 px-4"
+        tag="div"
+      >
+        <v-spacer-stub
+          tag="div"
+        />
+        <a
+          class="v-btn-stub"
+          data-cancel=""
+          text=""
+        >
+          キャンセル
+        </a>
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-ok=""
+          depressed=""
+          type="submit"
+        >
+          編集
+        </a>
+      </v-card-actions-stub>
+    </v-card-stub>
+  </form>
+</v-dialog-stub>
+`;

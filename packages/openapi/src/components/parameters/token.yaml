@@ -1,0 +1,11 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+in: path
+name: token
+description: トークン
+schema:
+  type: string
+  minLength: 60
+  maxLength: 60
+required: true

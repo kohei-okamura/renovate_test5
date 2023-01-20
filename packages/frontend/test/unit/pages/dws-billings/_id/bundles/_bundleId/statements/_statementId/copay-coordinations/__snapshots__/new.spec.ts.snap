@@ -1,0 +1,1387 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/dws-billings/_id/bundles/_bundleId/statements/_statementId/copay-coordinations/new.vue submit サーバーから 400 Bad Request が返ってきたらエラー内容を表示する: result 1`] = `
+<div
+  class="root"
+  data-result=""
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input v-input--has-state theme--light v-input--selection-controls v-input--radio-group v-input--radio-group--column error--text"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        class="v-input__slot"
+        style="height: auto;"
+      >
+        <div
+          class="v-input--radio-group__input"
+          role="radiogroup"
+        >
+          <v-row-stub
+            tag="div"
+          >
+            <v-col-stub
+              tag="div"
+            >
+              <div
+                class="v-radio theme--light"
+              >
+                <div
+                  class="v-input--selection-controls__input"
+                >
+                  <i
+                    aria-hidden="true"
+                    class="v-icon notranslate mdi mdi-radiobox-blank theme--light error--text"
+                  />
+                  <input
+                    aria-checked="false"
+                    role="radio"
+                    type="radio"
+                    value="1"
+                  />
+                  <div
+                    class="v-input--selection-controls__ripple error--text"
+                  />
+                </div>
+                <label
+                  class="v-label theme--light error--text"
+                  style="left: 0px; position: relative;"
+                >
+                  1. 管理事業所で利用者負担額を充当したため、他事業所の利用者負担は発生しない。
+                </label>
+              </div>
+            </v-col-stub>
+          </v-row-stub>
+          <v-row-stub
+            tag="div"
+          >
+            <v-col-stub
+              tag="div"
+            >
+              <div
+                class="v-radio theme--light"
+              >
+                <div
+                  class="v-input--selection-controls__input"
+                >
+                  <i
+                    aria-hidden="true"
+                    class="v-icon notranslate mdi mdi-radiobox-blank theme--light error--text"
+                  />
+                  <input
+                    aria-checked="false"
+                    role="radio"
+                    type="radio"
+                    value="2"
+                  />
+                  <div
+                    class="v-input--selection-controls__ripple error--text"
+                  />
+                </div>
+                <label
+                  class="v-label theme--light error--text"
+                  style="left: 0px; position: relative;"
+                >
+                  2. 利用者負担額の合計額が、負担上限月額以下のため、調整事務は行わない。
+                </label>
+              </div>
+            </v-col-stub>
+          </v-row-stub>
+          <v-row-stub
+            tag="div"
+          >
+            <v-col-stub
+              tag="div"
+            >
+              <div
+                class="v-radio theme--light"
+              >
+                <div
+                  class="v-input--selection-controls__input"
+                >
+                  <i
+                    aria-hidden="true"
+                    class="v-icon notranslate mdi mdi-radiobox-blank theme--light error--text"
+                  />
+                  <input
+                    aria-checked="false"
+                    role="radio"
+                    type="radio"
+                    value="3"
+                  />
+                  <div
+                    class="v-input--selection-controls__ripple error--text"
+                  />
+                </div>
+                <label
+                  class="v-label theme--light error--text"
+                  style="left: 0px; position: relative;"
+                >
+                  3. 利用者負担額の合計額が、負担上限月額を超過するため、下記のとおり調整した。
+                </label>
+              </div>
+            </v-col-stub>
+          </v-row-stub>
+        </div>
+      </div>
+      <div
+        class="v-messages theme--light error--text"
+        role="alert"
+      >
+        <transition-group-stub
+          class="v-messages__wrapper"
+          name="message-transition"
+          tag="div"
+        >
+          <div
+            class="v-messages__message"
+          >
+            利用者負担上限額管理結果を入力してください。
+          </div>
+        </transition-group-stub>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/dws-billings/_id/bundles/_bundleId/statements/_statementId/copay-coordinations/new.vue 意図通りレンダリングされる 1`] = `
+<div
+  breadcrumbs="[object Object],[object Object],[object Object]"
+  class="z-page-stub"
+  compact="compact"
+>
+  <div
+    class="z-page-stub-slot-tabs"
+  />
+  <div
+    class="z-page-stub-slot-title"
+  />
+  <form
+    class="v-form root"
+    data-form=""
+    data-z-dws-billing-copay-coordination-form=""
+    novalidate="novalidate"
+  >
+    <div
+      class="z-data-card-stub"
+      title="基本情報"
+    >
+      <div
+        class="z-data-card-stub-slot-actions"
+      />
+      <z-data-card-item-stub
+        icon="M18,15H16V17H18M18,11H16V13H18M20,19H12V17H14V15H12V13H14V11H12V9H20M10,7H8V5H10M10,11H8V9H10M10,15H8V13H10M10,19H8V17H10M6,7H4V5H6M6,11H4V9H6M6,15H4V13H6M6,19H4V17H6M12,7V3H2V21H22V7H12Z"
+        label="市町村番号"
+        value="80506"
+      />
+      <z-data-card-item-stub
+        icon="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z"
+        label="サービス提供年月"
+      >
+        <time
+          datetime="1977-11-01"
+        >
+          昭和52年11月1日
+        </time>
+      </z-data-card-item-stub>
+      <z-data-card-item-stub
+        icon="M15.84 10.2L14.83 11.21L12.76 9.18L13.77 8.16C13.97 7.95 14.31 7.94 14.55 8.16L15.84 9.41C16.05 9.62 16.06 9.96 15.84 10.2M8 13.91L12.17 9.72L14.24 11.8L10.08 16H8V13.91M13 2V4C17.39 4.54 20.5 8.53 19.96 12.92C19.5 16.56 16.64 19.43 13 19.88V21.88C18.5 21.28 22.45 16.34 21.85 10.85C21.33 6.19 17.66 2.5 13 2M11 2C9.04 2.18 7.19 2.95 5.67 4.2L7.1 5.74C8.22 4.84 9.57 4.26 11 4.06V2.06M4.26 5.67C3 7.19 2.24 9.04 2.05 11H4.05C4.24 9.58 4.8 8.23 5.69 7.1L4.26 5.67M2.06 13C2.26 14.96 3.03 16.81 4.27 18.33L5.69 16.9C4.81 15.77 4.24 14.42 4.06 13H2.06M7.06 18.37L5.67 19.74C7.18 21 9.04 21.79 11 22V20C9.58 19.82 8.23 19.25 7.1 18.37H7.06Z"
+        label="利用者負担上限額管理結果票の状態"
+        value="入力中"
+      />
+      <div
+        class="z-data-card-stub-slot-header"
+      />
+    </div>
+    <div
+      class="z-data-card-stub"
+      title="受給者情報"
+    >
+      <div
+        class="z-data-card-stub-slot-actions"
+      />
+      <z-data-card-item-stub
+        icon="M2,6H4V18H2V6M5,6H6V18H5V6M7,6H10V18H7V6M11,6H12V18H11V6M14,6H16V18H14V6M17,6H20V18H17V6M21,6H22V18H21V6Z"
+        label="受給者証番号"
+        value="1410111486"
+      />
+      <z-data-card-item-stub
+        icon="M10 4a2 2 0 104 0 2 2 0 10-4 0M19 13v-2c-1.54.02-3.09-.75-4.07-1.83l-1.29-1.43c-.17-.19-.38-.34-.61-.45-.01 0-.01-.01-.02-.01H13c-.35-.2-.75-.3-1.19-.26C10.76 7.11 10 8.04 10 9.09V15c0 1.1.9 2 2 2h5v5h2v-5.5c0-1.1-.9-2-2-2h-3v-3.45c1.29 1.07 3.25 1.94 5 1.95zm-6.17 5c-.41 1.16-1.52 2-2.83 2-1.66 0-3-1.34-3-3 0-1.31.84-2.41 2-2.83V12.1a5 5 0 105.9 5.9h-2.07z"
+        label="支給決定障害者等氏名"
+        value="新井 恵梨香"
+      />
+      <z-data-card-item-stub
+        label="支給決定に係る障害児氏名"
+        value="宮部 昴"
+      />
+      <z-data-card-item-stub
+        icon="M4.08,11.92L12,4L19.92,11.92L18.5,13.33L13,7.83V22H11V7.83L5.5,13.33L4.08,11.92M12,4H22V2H2V4H12Z"
+        label="利用者負担上限月額"
+      >
+      43,229円
+      </z-data-card-item-stub>
+      <div
+        class="z-data-card-stub-slot-header"
+      />
+    </div>
+    <div
+      class="z-data-card-stub"
+      title="管理事業者"
+    >
+      <div
+        class="z-data-card-stub-slot-actions"
+      />
+      <z-data-card-item-stub
+        icon="M18,15H16V17H18M18,11H16V13H18M20,19H12V17H14V15H12V13H14V11H12V9H20M10,7H8V5H10M10,11H8V9H10M10,15H8V13H10M10,19H8V17H10M6,7H4V5H6M6,11H4V9H6M6,15H4V13H6M6,19H4V17H6M12,7V3H2V21H22V7H12Z"
+        label="指定事業所番号"
+        value="5481096821"
+      />
+      <z-data-card-item-stub
+        label="事業者及びその事業所の名称"
+        value="ユースタイルラボラトリー"
+      />
+      <div
+        class="z-data-card-stub-slot-header"
+      />
+    </div>
+    <div>
+      <div
+        class="z-form-card-stub"
+        title="サービス提供状況"
+      >
+        <div
+          class="z-form-card-stub-slot-actions"
+        />
+        <z-form-card-item-set-stub
+          icon=""
+          label="他事業所におけるサービス提供有無"
+          noicon="true"
+        >
+          <div
+            class="root"
+            data-is-provided=""
+            data-z-form-card-item=""
+          >
+            <div
+              class="v-input v-input--is-label-active v-input--is-dirty theme--light v-input--selection-controls v-input--radio-group v-input--radio-group--column"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  class="v-input__slot"
+                  style="height: auto;"
+                >
+                  <div
+                    class="v-input--radio-group__input"
+                    role="radiogroup"
+                  >
+                    <v-row-stub
+                      tag="div"
+                    >
+                      <v-col-stub
+                        cols="12"
+                        md="4"
+                        sm="5"
+                        tag="div"
+                      >
+                        <div
+                          class="v-radio theme--light v-item--active"
+                        >
+                          <div
+                            class="v-input--selection-controls__input"
+                          >
+                            <i
+                              aria-hidden="true"
+                              class="v-icon notranslate mdi mdi-radiobox-marked theme--light primary--text"
+                            />
+                            <input
+                              aria-checked="true"
+                              role="radio"
+                              type="radio"
+                              value="true"
+                            />
+                            <div
+                              class="v-input--selection-controls__ripple primary--text"
+                            />
+                          </div>
+                          <label
+                            class="v-label theme--light"
+                            style="left: 0px; position: relative;"
+                          >
+                            サービス提供あり
+                          </label>
+                        </div>
+                      </v-col-stub>
+                      <v-col-stub
+                        cols="12"
+                        md="4"
+                        sm="5"
+                        tag="div"
+                      >
+                        <div
+                          class="v-radio theme--light"
+                        >
+                          <div
+                            class="v-input--selection-controls__input"
+                          >
+                            <i
+                              aria-hidden="true"
+                              class="v-icon notranslate mdi mdi-radiobox-blank theme--light"
+                            />
+                            <input
+                              aria-checked="false"
+                              role="radio"
+                              type="radio"
+                              value="false"
+                            />
+                            <div
+                              class="v-input--selection-controls__ripple"
+                            />
+                          </div>
+                          <label
+                            class="v-label theme--light"
+                            style="left: 0px; position: relative;"
+                          >
+                            サービス提供なし
+                          </label>
+                        </div>
+                      </v-col-stub>
+                    </v-row-stub>
+                  </div>
+                </div>
+                <div
+                  class="v-messages theme--light"
+                >
+                  <transition-group-stub
+                    class="v-messages__wrapper"
+                    name="message-transition"
+                    tag="div"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </z-form-card-item-set-stub>
+        <div
+          class="z-form-card-stub-slot-header"
+        />
+      </div>
+      <div
+        class="z-form-card-stub"
+        title="作成区分"
+      >
+        <div
+          class="z-form-card-stub-slot-actions"
+        />
+        <z-form-card-item-set-stub
+          icon="M11.19,2.25C10.93,2.25 10.67,2.31 10.42,2.4L3.06,5.45C2.04,5.87 1.55,7.04 1.97,8.05L6.93,20C7.24,20.77 7.97,21.23 8.74,21.25C9,21.25 9.27,21.22 9.53,21.1L16.9,18.05C17.65,17.74 18.11,17 18.13,16.25C18.14,16 18.09,15.71 18,15.45L13,3.5C12.71,2.73 11.97,2.26 11.19,2.25M14.67,2.25L18.12,10.6V4.25A2,2 0 0,0 16.12,2.25M20.13,3.79V12.82L22.56,6.96C22.97,5.94 22.5,4.78 21.47,4.36M11.19,4.22L16.17,16.24L8.78,19.3L3.8,7.29"
+          label="作成区分"
+        >
+          <div
+            class="root"
+            data-exchange-aim=""
+            data-z-form-card-item=""
+          >
+            <div
+              class="v-input v-input--is-label-active v-input--is-dirty theme--light v-input--selection-controls v-input--radio-group v-input--radio-group--column"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  class="v-input__slot"
+                  style="height: auto;"
+                >
+                  <div
+                    class="v-input--radio-group__input"
+                    role="radiogroup"
+                  >
+                    <v-row-stub
+                      tag="div"
+                    >
+                      <v-col-stub
+                        cols="12"
+                        sm="2"
+                        tag="div"
+                      >
+                        <div
+                          class="v-radio theme--light v-item--active"
+                        >
+                          <div
+                            class="v-input--selection-controls__input"
+                          >
+                            <i
+                              aria-hidden="true"
+                              class="v-icon notranslate mdi mdi-radiobox-marked theme--light primary--text"
+                            />
+                            <input
+                              aria-checked="true"
+                              role="radio"
+                              type="radio"
+                              value="1"
+                            />
+                            <div
+                              class="v-input--selection-controls__ripple primary--text"
+                            />
+                          </div>
+                          <label
+                            class="v-label theme--light"
+                            style="left: 0px; position: relative;"
+                          >
+                            新規
+                          </label>
+                        </div>
+                      </v-col-stub>
+                      <v-col-stub
+                        cols="12"
+                        sm="2"
+                        tag="div"
+                      >
+                        <div
+                          class="v-radio theme--light"
+                        >
+                          <div
+                            class="v-input--selection-controls__input"
+                          >
+                            <i
+                              aria-hidden="true"
+                              class="v-icon notranslate mdi mdi-radiobox-blank theme--light"
+                            />
+                            <input
+                              aria-checked="false"
+                              role="radio"
+                              type="radio"
+                              value="2"
+                            />
+                            <div
+                              class="v-input--selection-controls__ripple"
+                            />
+                          </div>
+                          <label
+                            class="v-label theme--light"
+                            style="left: 0px; position: relative;"
+                          >
+                            修正
+                          </label>
+                        </div>
+                      </v-col-stub>
+                    </v-row-stub>
+                  </div>
+                </div>
+                <div
+                  class="v-messages theme--light"
+                >
+                  <transition-group-stub
+                    class="v-messages__wrapper"
+                    name="message-transition"
+                    tag="div"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="v-messages"
+            >
+              過誤請求の場合のみ「修正」を選択してください。
+            </div>
+          </div>
+        </z-form-card-item-set-stub>
+        <div
+          class="z-form-card-stub-slot-header"
+        />
+      </div>
+      <div
+        class="z-form-card-stub"
+        title="利用者負担上限額管理結果"
+      >
+        <div
+          class="z-form-card-stub-slot-actions"
+        />
+        <z-form-card-item-set-stub
+          icon=""
+          label=""
+          noicon="true"
+        >
+          <div
+            class="root"
+            data-result=""
+            data-z-form-card-item=""
+          >
+            <div
+              class="v-input theme--light v-input--selection-controls v-input--radio-group v-input--radio-group--column"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  class="v-input__slot"
+                  style="height: auto;"
+                >
+                  <div
+                    class="v-input--radio-group__input"
+                    role="radiogroup"
+                  >
+                    <v-row-stub
+                      tag="div"
+                    >
+                      <v-col-stub
+                        tag="div"
+                      >
+                        <div
+                          class="v-radio theme--light"
+                        >
+                          <div
+                            class="v-input--selection-controls__input"
+                          >
+                            <i
+                              aria-hidden="true"
+                              class="v-icon notranslate mdi mdi-radiobox-blank theme--light"
+                            />
+                            <input
+                              aria-checked="false"
+                              role="radio"
+                              type="radio"
+                              value="1"
+                            />
+                            <div
+                              class="v-input--selection-controls__ripple"
+                            />
+                          </div>
+                          <label
+                            class="v-label theme--light"
+                            style="left: 0px; position: relative;"
+                          >
+                            1. 管理事業所で利用者負担額を充当したため、他事業所の利用者負担は発生しない。
+                          </label>
+                        </div>
+                      </v-col-stub>
+                    </v-row-stub>
+                    <v-row-stub
+                      tag="div"
+                    >
+                      <v-col-stub
+                        tag="div"
+                      >
+                        <div
+                          class="v-radio theme--light"
+                        >
+                          <div
+                            class="v-input--selection-controls__input"
+                          >
+                            <i
+                              aria-hidden="true"
+                              class="v-icon notranslate mdi mdi-radiobox-blank theme--light"
+                            />
+                            <input
+                              aria-checked="false"
+                              role="radio"
+                              type="radio"
+                              value="2"
+                            />
+                            <div
+                              class="v-input--selection-controls__ripple"
+                            />
+                          </div>
+                          <label
+                            class="v-label theme--light"
+                            style="left: 0px; position: relative;"
+                          >
+                            2. 利用者負担額の合計額が、負担上限月額以下のため、調整事務は行わない。
+                          </label>
+                        </div>
+                      </v-col-stub>
+                    </v-row-stub>
+                    <v-row-stub
+                      tag="div"
+                    >
+                      <v-col-stub
+                        tag="div"
+                      >
+                        <div
+                          class="v-radio theme--light"
+                        >
+                          <div
+                            class="v-input--selection-controls__input"
+                          >
+                            <i
+                              aria-hidden="true"
+                              class="v-icon notranslate mdi mdi-radiobox-blank theme--light"
+                            />
+                            <input
+                              aria-checked="false"
+                              role="radio"
+                              type="radio"
+                              value="3"
+                            />
+                            <div
+                              class="v-input--selection-controls__ripple"
+                            />
+                          </div>
+                          <label
+                            class="v-label theme--light"
+                            style="left: 0px; position: relative;"
+                          >
+                            3. 利用者負担額の合計額が、負担上限月額を超過するため、下記のとおり調整した。
+                          </label>
+                        </div>
+                      </v-col-stub>
+                    </v-row-stub>
+                  </div>
+                </div>
+                <div
+                  class="v-messages theme--light"
+                >
+                  <transition-group-stub
+                    class="v-messages__wrapper"
+                    name="message-transition"
+                    tag="div"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </z-form-card-item-set-stub>
+        <div
+          class="z-form-card-stub-slot-header"
+        />
+      </div>
+      <div
+        class="z-form-card-stub"
+        title="利用者負担額集計・調整欄"
+      >
+        <div
+          class="z-form-card-stub-slot-actions"
+        />
+        <div
+          class="mx-4 mb-2 root z-error-container py-1 px-4 rounded"
+          style="display: none;"
+        >
+          <div
+            data-number-of-offices=""
+            vid="numberOfOffices"
+          >
+            <input
+              type="hidden"
+              value="2"
+            />
+            <!---->
+          </div>
+          <div
+            data-office-only=""
+            vid="officeOnly"
+          >
+            <input
+              type="hidden"
+              value="2"
+            />
+            <!---->
+          </div>
+          <div
+            data-total-coordinated-copay=""
+            vid="total.coordinatedCopay"
+          >
+            <input
+              type="hidden"
+              value="202315"
+            />
+            <!---->
+          </div>
+        </div>
+        <div
+          class="v-data-table item-table v-data-table--dense theme--light"
+        >
+          <div
+            class="v-data-table__wrapper"
+          >
+            <table>
+              <thead>
+                <tr>
+                  <th
+                    style="width: 40px;"
+                  />
+                  <th
+                    class="text-center writingVertical"
+                    style="width: 42px;"
+                  >
+                    項番
+                  </th>
+                  <th>
+                    事業所名
+                  </th>
+                  <th
+                    class="text-right"
+                  >
+                    総費用額
+                  </th>
+                  <th
+                    class="text-right"
+                  >
+                    利用者負担額
+                  </th>
+                  <th
+                    class="text-right"
+                  >
+                    管理結果後
+                    <br />
+                    利用者負担額
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr
+                  class="no-border"
+                >
+                  <td
+                    class="text-center"
+                  >
+                    <!---->
+                  </td>
+                  <td
+                    class="text-center"
+                  >
+                    1
+                  </td>
+                  <td>
+                    <div
+                      class="root ml-1"
+                      data-office=""
+                      data-z-form-card-item=""
+                    >
+                      <div
+                        class="v-input v-input--is-label-active v-input--is-dirty v-input--is-disabled v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined v-select v-autocomplete"
+                        disabled="disabled"
+                        label="事業所 *"
+                        style="width: 210px;"
+                        value="39"
+                      >
+                        <div
+                          class="v-input__control"
+                        >
+                          <div
+                            aria-expanded="false"
+                            aria-haspopup="listbox"
+                            class="v-input__slot"
+                            role="combobox"
+                            style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                          >
+                            <fieldset
+                              aria-hidden="true"
+                            >
+                              <legend
+                                style="width: -24px;"
+                              >
+                                <span
+                                  class="notranslate"
+                                >
+                                  ​
+                                </span>
+                              </legend>
+                            </fieldset>
+                            <div
+                              class="v-select__slot"
+                            >
+                              <label
+                                class="v-label v-label--active v-label--is-disabled theme--light"
+                                style="left: 0px; position: absolute;"
+                              >
+                                事業所 *
+                              </label>
+                              <input
+                                autocomplete="off"
+                                disabled="disabled"
+                                type="text"
+                              />
+                              <div
+                                class="v-input__append-inner"
+                              >
+                                <div
+                                  class="v-input__icon v-input__icon--append"
+                                >
+                                  <i
+                                    aria-hidden="true"
+                                    class="v-icon notranslate v-icon--disabled mdi mdi-menu-down theme--light"
+                                  />
+                                </div>
+                              </div>
+                              <input
+                                type="hidden"
+                                value="39"
+                              />
+                            </div>
+                            <div
+                              class="v-menu"
+                            >
+                              <!---->
+                            </div>
+                          </div>
+                          <div
+                            class="v-text-field__details"
+                          >
+                            <div
+                              class="v-messages theme--light"
+                            >
+                              <transition-group-stub
+                                class="v-messages__wrapper"
+                                name="message-transition"
+                                tag="div"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div
+                      class="root ml-1"
+                      data-subtotal-fee=""
+                      data-z-form-card-item=""
+                    >
+                      <div
+                        class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"
+                        style="width: 108px;"
+                      >
+                        <div
+                          class="v-input__control"
+                        >
+                          <div
+                            class="v-input__slot"
+                            style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                          >
+                            <fieldset
+                              aria-hidden="true"
+                            >
+                              <legend
+                                style="width: 0px;"
+                              >
+                                <span
+                                  class="notranslate"
+                                >
+                                  ​
+                                </span>
+                              </legend>
+                            </fieldset>
+                            <div
+                              class="v-text-field__slot"
+                            >
+                              <input
+                                min="0"
+                                type="number"
+                              />
+                              <div
+                                class="v-text-field__suffix"
+                              >
+                                円
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="v-text-field__details"
+                          >
+                            <div
+                              class="v-messages theme--light"
+                            >
+                              <transition-group-stub
+                                class="v-messages__wrapper"
+                                name="message-transition"
+                                tag="div"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div
+                      class="root ml-1"
+                      data-subtotal-copay=""
+                      data-z-form-card-item=""
+                    >
+                      <div
+                        class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"
+                        style="width: 108px;"
+                      >
+                        <div
+                          class="v-input__control"
+                        >
+                          <div
+                            class="v-input__slot"
+                            style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                          >
+                            <fieldset
+                              aria-hidden="true"
+                            >
+                              <legend
+                                style="width: 0px;"
+                              >
+                                <span
+                                  class="notranslate"
+                                >
+                                  ​
+                                </span>
+                              </legend>
+                            </fieldset>
+                            <div
+                              class="v-text-field__slot"
+                            >
+                              <input
+                                min="0"
+                                type="number"
+                              />
+                              <div
+                                class="v-text-field__suffix"
+                              >
+                                円
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="v-text-field__details"
+                          >
+                            <div
+                              class="v-messages theme--light"
+                            >
+                              <transition-group-stub
+                                class="v-messages__wrapper"
+                                name="message-transition"
+                                tag="div"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div
+                      class="root ml-1"
+                      data-subtotal-coordinated-copay=""
+                      data-z-form-card-item=""
+                    >
+                      <div
+                        class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"
+                        style="width: 108px;"
+                      >
+                        <div
+                          class="v-input__control"
+                        >
+                          <div
+                            class="v-input__slot"
+                            style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                          >
+                            <fieldset
+                              aria-hidden="true"
+                            >
+                              <legend
+                                style="width: 0px;"
+                              >
+                                <span
+                                  class="notranslate"
+                                >
+                                  ​
+                                </span>
+                              </legend>
+                            </fieldset>
+                            <div
+                              class="v-text-field__slot"
+                            >
+                              <input
+                                min="0"
+                                type="number"
+                              />
+                              <div
+                                class="v-text-field__suffix"
+                              >
+                                円
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="v-text-field__details"
+                          >
+                            <div
+                              class="v-messages theme--light"
+                            >
+                              <transition-group-stub
+                                class="v-messages__wrapper"
+                                name="message-transition"
+                                tag="div"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <!---->
+              </tbody>
+              <tbody>
+                <tr
+                  class="no-border"
+                >
+                  <td
+                    class="text-center"
+                  >
+                    <a
+                      class="v-btn-stub"
+                      color="danger"
+                      data-delete-item-btn=""
+                      icon=""
+                      small=""
+                    >
+                      <v-icon-stub>
+                        M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z
+                      </v-icon-stub>
+                    </a>
+                  </td>
+                  <td
+                    class="text-center"
+                  >
+                    2
+                  </td>
+                  <td>
+                    <div
+                      class="root ml-1"
+                      data-office=""
+                      data-z-form-card-item=""
+                    >
+                      <div
+                        class="v-input v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined v-select v-autocomplete"
+                        label="事業所 *"
+                        style="width: 210px;"
+                      >
+                        <div
+                          class="v-input__control"
+                        >
+                          <div
+                            aria-expanded="false"
+                            aria-haspopup="listbox"
+                            class="v-input__slot"
+                            role="combobox"
+                            style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                          >
+                            <fieldset
+                              aria-hidden="true"
+                            >
+                              <legend
+                                style="width: 0px;"
+                              >
+                                <span
+                                  class="notranslate"
+                                >
+                                  ​
+                                </span>
+                              </legend>
+                            </fieldset>
+                            <div
+                              class="v-select__slot"
+                            >
+                              <label
+                                class="v-label theme--light"
+                                style="left: 0px; position: absolute;"
+                              >
+                                事業所 *
+                              </label>
+                              <input
+                                autocomplete="off"
+                                type="text"
+                              />
+                              <div
+                                class="v-input__append-inner"
+                              >
+                                <div
+                                  class="v-input__icon v-input__icon--append"
+                                >
+                                  <i
+                                    aria-hidden="true"
+                                    class="v-icon notranslate mdi mdi-menu-down theme--light"
+                                  />
+                                </div>
+                              </div>
+                              <input
+                                type="hidden"
+                              />
+                            </div>
+                            <div
+                              class="v-menu"
+                            >
+                              <!---->
+                            </div>
+                          </div>
+                          <div
+                            class="v-text-field__details"
+                          >
+                            <div
+                              class="v-messages theme--light"
+                            >
+                              <transition-group-stub
+                                class="v-messages__wrapper"
+                                name="message-transition"
+                                tag="div"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div
+                      class="root ml-1"
+                      data-subtotal-fee=""
+                      data-z-form-card-item=""
+                    >
+                      <div
+                        class="v-input v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"
+                        style="width: 108px;"
+                      >
+                        <div
+                          class="v-input__control"
+                        >
+                          <div
+                            class="v-input__slot"
+                            style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                          >
+                            <fieldset
+                              aria-hidden="true"
+                            >
+                              <legend
+                                style="width: 0px;"
+                              >
+                                <span
+                                  class="notranslate"
+                                >
+                                  ​
+                                </span>
+                              </legend>
+                            </fieldset>
+                            <div
+                              class="v-text-field__slot"
+                            >
+                              <input
+                                min="0"
+                                type="number"
+                              />
+                              <div
+                                class="v-text-field__suffix"
+                              >
+                                円
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="v-text-field__details"
+                          >
+                            <div
+                              class="v-messages theme--light"
+                            >
+                              <transition-group-stub
+                                class="v-messages__wrapper"
+                                name="message-transition"
+                                tag="div"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div
+                      class="root ml-1"
+                      data-subtotal-copay=""
+                      data-z-form-card-item=""
+                    >
+                      <div
+                        class="v-input v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"
+                        style="width: 108px;"
+                      >
+                        <div
+                          class="v-input__control"
+                        >
+                          <div
+                            class="v-input__slot"
+                            style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                          >
+                            <fieldset
+                              aria-hidden="true"
+                            >
+                              <legend
+                                style="width: 0px;"
+                              >
+                                <span
+                                  class="notranslate"
+                                >
+                                  ​
+                                </span>
+                              </legend>
+                            </fieldset>
+                            <div
+                              class="v-text-field__slot"
+                            >
+                              <input
+                                min="0"
+                                type="number"
+                              />
+                              <div
+                                class="v-text-field__suffix"
+                              >
+                                円
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="v-text-field__details"
+                          >
+                            <div
+                              class="v-messages theme--light"
+                            >
+                              <transition-group-stub
+                                class="v-messages__wrapper"
+                                name="message-transition"
+                                tag="div"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div
+                      class="root ml-1"
+                      data-subtotal-coordinated-copay=""
+                      data-z-form-card-item=""
+                    >
+                      <div
+                        class="v-input v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"
+                        style="width: 108px;"
+                      >
+                        <div
+                          class="v-input__control"
+                        >
+                          <div
+                            class="v-input__slot"
+                            style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                          >
+                            <fieldset
+                              aria-hidden="true"
+                            >
+                              <legend
+                                style="width: 0px;"
+                              >
+                                <span
+                                  class="notranslate"
+                                >
+                                  ​
+                                </span>
+                              </legend>
+                            </fieldset>
+                            <div
+                              class="v-text-field__slot"
+                            >
+                              <input
+                                min="0"
+                                type="number"
+                              />
+                              <div
+                                class="v-text-field__suffix"
+                              >
+                                円
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="v-text-field__details"
+                          >
+                            <div
+                              class="v-messages theme--light"
+                            >
+                              <transition-group-stub
+                                class="v-messages__wrapper"
+                                name="message-transition"
+                                tag="div"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <!---->
+              </tbody>
+              <tbody>
+                <tr
+                  class="total"
+                >
+                  <td
+                    colspan="3"
+                  />
+                  <td
+                    class="text-right"
+                  >
+                    644,084円
+                  </td>
+                  <td
+                    class="text-right"
+                  >
+                    202,315円
+                  </td>
+                  <td
+                    class="text-right"
+                  >
+                    202,315円
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div
+          class="z-form-card-stub-slot-header"
+        />
+      </div>
+      <v-card-stub
+        class="mt-3"
+        loaderheight="4"
+        tag="div"
+      >
+        <v-card-text-stub
+          class="pa-0"
+          tag="div"
+        >
+          <a
+            block=""
+            class="text-button pa-0 v-btn-stub"
+            color="primary"
+            data-add-item-btn=""
+            text=""
+            x-large=""
+          >
+            <v-icon-stub
+              left=""
+            >
+              M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z
+            </v-icon-stub>
+            <span>
+              利用者負担額集計・調整欄を追加
+            </span>
+          </a>
+        </v-card-text-stub>
+      </v-card-stub>
+      <z-form-action-button-stub
+        icon="M14,13V17H10V13H7L12,8L17,13M19.35,10.03C18.67,6.59 15.64,4 12,4C9.11,4 6.6,5.64 5.35,8.03C2.34,8.36 0,10.9 0,14A6,6 0 0,0 6,20H19A5,5 0 0,0 24,15C24,12.36 21.95,10.22 19.35,10.03Z"
+        text="登録"
+      />
+    </div>
+  </form>
+</div>
+`;

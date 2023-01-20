@@ -1,0 +1,67 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+get:
+  summary: 介護保険サービス：請求一覧
+  description: 介護保険サービス：請求一覧を取得する。
+  parameters:
+    - in: query
+      name: start
+      description: 処理対象年月（開始）
+      schema:
+        $ref: '#/components/schemas/YearMonth'
+    - in: query
+      name: end
+      description: 処理対象年月（終了）
+      schema:
+        $ref: '#/components/schemas/YearMonth'
+    - in: query
+      name: statuses
+      description: 状態
+      schema:
+        type: array
+        items:
+          $ref: '#/components/schemas/LtcsBillingStatus'
+    - $ref: '#/components/x-query-parameters/officeId'
+    - $ref: '#/components/x-query-parameters/all'
+    - $ref: '#/components/x-query-parameters/desc'
+    - $ref: '#/components/x-query-parameters/itemsPerPage'
+    - $ref: '#/components/x-query-parameters/page'
+    - $ref: '#/components/x-query-parameters/sortBy'
+  responses:
+    '200':
+      description: 正常に処理が行われた場合
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              list:
+                type: array
+                items:
+                  $ref: '#/components/schemas/LtcsBilling'
+              pagination:
+                $ref: '#/components/schemas/Pagination'
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+  tags:
+    - 介護保険サービス：請求
+post:
+  summary: 介護保険サービス：請求作成
+  description: 介護保険サービス：請求の作成をリクエストする。
+  requestBody:
+    content:
+      application/json:
+        schema:
+          $ref: '#/components/schemas/LtcsBillingForm'
+  responses:
+    '202':
+      $ref: '#/components/responses/JobCreated'
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+  tags:
+    - 介護保険サービス：請求

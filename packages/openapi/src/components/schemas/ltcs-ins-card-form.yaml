@@ -1,0 +1,83 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+description: 介護保険被保険者証登録／更新フォーム
+type: object
+properties:
+  effectivatedOn:
+    description: 適用日
+    $ref: '#/components/schemas/DateLike'
+  status:
+    $ref: '#/components/schemas/LtcsInsCardStatus'
+  insNumber:
+    description: 被保険者証番号
+    type: string
+  issuedOn:
+    description: 交付日
+    $ref: '#/components/schemas/DateLike'
+  insurerNumber:
+    description: 保険者番号
+    type: string
+  insurerName:
+    description: 保険者名
+    type: string
+  ltcsLevel:
+    $ref: '#/components/schemas/LtcsLevel'
+  certificatedOn:
+    description: 認定日
+    $ref: '#/components/schemas/DateLike'
+  activatedOn:
+    description: 認定の有効期間（開始）
+    $ref: '#/components/schemas/DateLike'
+  deactivatedOn:
+    description: 認定の有効期間（終了）
+    $ref: '#/components/schemas/DateLike'
+  maxBenefit:
+    description: 区分支給限度基準額
+    type: integer
+  maxBenefitQuotas:
+    description: 種類支給限度基準額
+    type: array
+    items:
+      type: object
+      properties:
+        ltcsInsCardServiceType:
+          $ref: '#/components/schemas/LtcsInsCardServiceType'
+        maxBenefitQuota:
+          description: 種類支給限度基準額
+          type: integer
+  copayRate:
+    description: 利用者負担割合（原則）
+    type: integer
+  copayActivatedOn:
+    description: 利用者負担適用期間（開始）
+    $ref: '#/components/schemas/DateLike'
+  copayDeactivatedOn:
+    description: 利用者負担適用期間（終了）
+    $ref: '#/components/schemas/DateLike'
+  carePlanAuthorType:
+    $ref: '#/components/schemas/LtcsCarePlanAuthorType'
+  communityGeneralSupportCenterId:
+    $ref: '#/components/schemas/OfficeId'
+  carePlanAuthorOfficeId:
+    $ref: '#/components/schemas/OfficeId'
+  careManagerName:
+    description: 居宅介護支援事業所：担当者
+    type: string
+required:
+  - effectivatedOn
+  - status
+  - insNumber
+  - issuedOn
+  - insurerNumber
+  - insurerName
+  - ltcsLevel
+  - certificatedOn
+  - activatedOn
+  - deactivatedOn
+  - maxBenefit
+  - maxBenefitQuotas
+  - copayRate
+  - copayActivatedOn
+  - copayDeactivatedOn
+  - carePlanAuthorType

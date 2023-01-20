@@ -1,0 +1,29 @@
+{
+    "office": {
+        "officeId": null,
+        "officeCode": null,
+        "officeName": null
+    },
+    "user": {
+        "userId": null,
+        "dwsCertificationId": null,
+        "dwsNumber": null,
+        "phoneticName": null,
+        "childPhoneticName": null,
+        "copayLimit": null
+    },
+    "items": [
+        {
+            "itemNumber": null,
+            "officeId": null,
+            "officeName": null,
+            "subtotal": null
+        }
+    ],
+    "result": 1,
+    "total": {
+        "fee": null,
+        "copay": null,
+        "coordinatedCopay": null
+    }
+}

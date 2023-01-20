@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-nuxt-child.vue should be rendered correctly 1`] = `
+<v-overlay-stub
+  class="text-center"
+  color="#212121"
+  dark="true"
+  opacity="0.8"
+  value="true"
+  zindex="7"
+>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    class="v-progress-circular v-progress-circular--visible v-progress-circular--indeterminate"
+    role="progressbar"
+    style="height: 64px; width: 64px;"
+  >
+    <svg
+      style="transform: rotate(0deg);"
+      viewBox="21.333333333333332 21.333333333333332 42.666666666666664 42.666666666666664"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle
+        class="v-progress-circular__overlay"
+        cx="42.666666666666664"
+        cy="42.666666666666664"
+        fill="transparent"
+        r="20"
+        stroke-dasharray="125.664"
+        stroke-dashoffset="125.66370614359172px"
+        stroke-width="2.6666666666666665"
+      />
+    </svg>
+    <div
+      class="v-progress-circular__info"
+    />
+  </div>
+  <div
+    class="mt-4 subtitle-1"
+    data-z-progress-message=""
+  >
+    処理中です。しばらくお待ちください。
+  </div>
+</v-overlay-stub>
+`;

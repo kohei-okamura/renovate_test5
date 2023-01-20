@@ -1,0 +1,13 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 介護保険サービス：請求：サービス種類コード
+name: LtcsServiceDivisionCode
+php:
+  enabled: true
+  namespace: Billing
+  withResolver: true
+typescript:
+  enabled: true
+items:
+  - { description: 訪問介護, name: HomeVisitLongTermCare, value: '11' }

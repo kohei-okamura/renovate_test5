@@ -1,0 +1,8 @@
+{
+    "period": {
+        "start": "2020-10-01T00:00:00+0900",
+        "end": "2020-11-01T00:00:00+0900"
+    },
+    "serviceDurationHours": 105000,
+    "movingDurationHours": 15000
+}

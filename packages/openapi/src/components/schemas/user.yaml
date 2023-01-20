@@ -1,0 +1,41 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 利用者
+type: object
+properties:
+  id:
+    description: 利用者 ID
+    type: object
+  name:
+    $ref: '#/components/schemas/StructuredName'
+  sex:
+    $ref: '#/components/schemas/Sex'
+  birthday:
+    $ref: '#/components/schemas/DateLike'
+  addr:
+    $ref: '#/components/schemas/Addr'
+  location:
+    $ref: '#/components/schemas/Location'
+  contacts:
+    description: 連絡先電話番号
+    type: array
+    items:
+      $ref: '#/components/schemas/Contact'
+  bankAccountId:
+    description: 銀行口座 ID
+    type: object
+  billingDestination:
+    $ref: '#/components/schemas/UserBillingDestination'
+  isEnabled:
+    description: 有効フラグ
+    type: boolean
+  version:
+    description: バージョン
+    type: number
+  createdAt:
+    $ref: '#/components/schemas/DateLike'
+  updatedAt:
+    $ref: '#/components/schemas/DateLike'

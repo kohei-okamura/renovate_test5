@@ -1,0 +1,259 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/dws-billings/new.vue should be rendered correctly 1`] = `
+<div
+  breadcrumbs="[object Object],[object Object]"
+  class="z-page-stub"
+  compact="compact"
+>
+  <div
+    class="z-page-stub-slot-tabs"
+  />
+  <div
+    class="z-page-stub-slot-title"
+  />
+  <form
+    class="v-form z-dws-billing-form"
+    data-form=""
+    novalidate="novalidate"
+  >
+    <div>
+      <div
+        class="z-form-card-stub"
+        title="基本情報"
+      >
+        <div
+          class="z-form-card-stub-slot-actions"
+        />
+        <z-form-card-item-set-stub
+          icon="M18,15H16V17H18M18,11H16V13H18M20,19H12V17H14V15H12V13H14V11H12V9H20M10,7H8V5H10M10,11H8V9H10M10,15H8V13H10M10,19H8V17H10M6,7H4V5H6M6,11H4V9H6M6,15H4V13H6M6,19H4V17H6M12,7V3H2V21H22V7H12Z"
+          label=""
+        >
+          <div
+            class="root"
+            data-office=""
+            data-z-form-card-item=""
+          >
+            <div
+              class="v-input v-input--dense theme--light v-text-field v-text-field--enclosed v-text-field--outlined v-select v-autocomplete"
+              clearable=""
+              error-messages=""
+              label="事業所 *"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  aria-expanded="false"
+                  aria-haspopup="listbox"
+                  class="v-input__slot"
+                  role="combobox"
+                  style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                >
+                  <fieldset
+                    aria-hidden="true"
+                  >
+                    <legend
+                      style="width: 0px;"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                  <div
+                    class="v-select__slot"
+                  >
+                    <label
+                      class="v-label theme--light"
+                      style="left: 0px; position: absolute;"
+                    >
+                      事業所 *
+                    </label>
+                    <input
+                      autocomplete="off"
+                      type="text"
+                    />
+                    <div
+                      class="v-input__append-inner"
+                    >
+                      <div />
+                    </div>
+                    <div
+                      class="v-input__append-inner"
+                    >
+                      <div
+                        class="v-input__icon v-input__icon--append"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="v-icon notranslate mdi mdi-menu-down theme--light"
+                        />
+                      </div>
+                    </div>
+                    <input
+                      type="hidden"
+                    />
+                  </div>
+                  <div
+                    class="v-menu"
+                  >
+                    <!---->
+                  </div>
+                </div>
+                <div
+                  class="v-text-field__details"
+                >
+                  <div
+                    class="v-messages theme--light"
+                  >
+                    <transition-group-stub
+                      class="v-messages__wrapper"
+                      name="message-transition"
+                      tag="div"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </z-form-card-item-set-stub>
+        <z-form-card-item-set-stub
+          icon="M9,10V12H7V10H9M13,10V12H11V10H13M17,10V12H15V10H17M19,3A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5C3.89,21 3,20.1 3,19V5A2,2 0 0,1 5,3H6V1H8V3H16V1H18V3H19M19,19V8H5V19H19M9,14V16H7V14H9M13,14V16H11V14H13M17,14V16H15V14H17Z"
+          label=""
+        >
+          <div
+            class="root"
+            data-transactedin=""
+            data-z-form-card-item=""
+          >
+            <div
+              class="z-date-field"
+              max="2018-05-17"
+            >
+              <div
+                class="v-input v-input--is-label-active v-input--is-dirty v-input--is-readonly v-input--dense theme--light v-text-field v-text-field--enclosed v-text-field--outlined"
+              >
+                <div
+                  class="v-input__control"
+                >
+                  <div
+                    class="v-input__slot"
+                    style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                  >
+                    <fieldset
+                      aria-hidden="true"
+                    >
+                      <legend
+                        style="width: 0px;"
+                      >
+                        <span
+                          class="notranslate"
+                        >
+                          ​
+                        </span>
+                      </legend>
+                    </fieldset>
+                    <div
+                      class="v-text-field__slot"
+                    >
+                      <label
+                        class="v-label v-label--active theme--light"
+                        style="left: 0px; position: absolute;"
+                      >
+                        処理対象年月 *
+                      </label>
+                      <input
+                        readonly="readonly"
+                        type="text"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="v-text-field__details"
+                  >
+                    <div
+                      class="v-messages theme--light"
+                    >
+                      <transition-group-stub
+                        class="v-messages__wrapper"
+                        name="message-transition"
+                        tag="div"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <v-dialog-stub
+                closedelay="0"
+                contentclass=""
+                data-z-date-field-dialog=""
+                opendelay="0"
+                origin="center center"
+                retainfocus="true"
+                transition="dialog-transition"
+                width="290px"
+              >
+                <v-date-picker-stub
+                  data-z-date-field-picker=""
+                  dayformat="[Function]"
+                  eventcolor="warning"
+                  firstdayofweek="1"
+                  headerdateformat="[Function]"
+                  locale="ja-JP"
+                  localefirstdayofyear="0"
+                  max="2018-05-17"
+                  min="1920-01-01"
+                  nexticon="$next"
+                  nextmontharialabel="$vuetify.datePicker.nextMonthAriaLabel"
+                  nextyeararialabel="$vuetify.datePicker.nextYearAriaLabel"
+                  notitle="true"
+                  previcon="$prev"
+                  prevmontharialabel="$vuetify.datePicker.prevMonthAriaLabel"
+                  prevyeararialabel="$vuetify.datePicker.prevYearAriaLabel"
+                  selecteditemstext="$vuetify.datePicker.itemsSelected"
+                  showcurrent="true"
+                  titledateformat="[Function]"
+                  type="month"
+                  value="2018-05-01"
+                  width="290"
+                  yearformat="[Function]"
+                >
+                  <v-spacer-stub
+                    tag="div"
+                  />
+                  <a
+                    class="v-btn-stub"
+                    color="primary"
+                    data-z-date-field-button-clear=""
+                    text=""
+                  >
+                    クリア
+                  </a>
+                  <a
+                    class="v-btn-stub"
+                    color="primary"
+                    data-z-date-field-button-cancel=""
+                    text=""
+                  >
+                    キャンセル
+                  </a>
+                </v-date-picker-stub>
+              </v-dialog-stub>
+            </div>
+          </div>
+        </z-form-card-item-set-stub>
+        <div
+          class="z-form-card-stub-slot-header"
+        />
+      </div>
+      <z-form-action-button-stub
+        icon="M14,13V17H10V13H7L12,8L17,13M19.35,10.03C18.67,6.59 15.64,4 12,4C9.11,4 6.6,5.64 5.35,8.03C2.34,8.36 0,10.9 0,14A6,6 0 0,0 6,20H19A5,5 0 0,0 24,15C24,12.36 21.95,10.22 19.35,10.03Z"
+        text="作成開始"
+      />
+    </div>
+  </form>
+</div>
+`;

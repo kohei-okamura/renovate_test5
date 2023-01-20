@@ -1,0 +1,32 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 勤務内容
+name: Activity
+php:
+  enabled: true
+  namespace: Shift
+typescript:
+  enabled: true
+items:
+  - { description: 居宅：身体, name: DwsPhysicalCare, value: 101101 }
+  - { description: 居宅：家事, name: DwsHousework, value: 101102 }
+  - { description: 居宅：通院・身体あり, name: DwsAccompanyWithPhysicalCare, value: 101103 }
+  - { description: 居宅：通院・身体なし, name: DwsAccompany, value: 101104 }
+  # - { description: 居宅：乗降介助, name: DwsAccompany, value: 101105 }
+  - { description: 重訪, name: DwsVisitingCareForPwsd, value: 101201 }
+  - { description: 重訪（移動加算）, name: DwsOutingSupportForPwsd, value: 101202 }
+  - { description: 介保：身体, name: LtcsPhysicalCare, value: 201101 }
+  - { description: 介保：生活, name: LtcsHousework, value: 201102 }
+  - { description: 移動支援・身体あり, name: CommAccompanyWithPhysicalCare, value: 111101 }
+  - { description: 移動支援・身体なし, name: CommAccompany, value: 111102 }
+  - { description: 総合事業, name: Comprehensive, value: 211101 }
+  - { description: 自費, name: OwnExpense, value: 711101 }
+  - { description: 実地研修, name: Fieldwork, value: 811101 }
+  - { description: アセスメント, name: Assessment, value: 811102 }
+  - { description: その他往訪, name: Visit, value: 899999 }
+  - { description: 事務, name: OfficeWork, value: 911101 }
+  - { description: 営業, name: Sales, value: 911102 }
+  - { description: ミーティング, name: Meeting, value: 911103 }
+  - { description: その他, name: Other, value: 988888 }
+  - { description: 休憩, name: Resting, value: 999999 }

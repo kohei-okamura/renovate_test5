@@ -1,0 +1,33 @@
+{
+    "id": 1,
+    "userId": 1,
+    "officeId": 1,
+    "contractId": 1,
+    "providedIn": "2019-05-15T00:00:00+0900",
+    "plans": [
+        {
+            "schedule": null,
+            "category": null,
+            "headcount": null,
+            "movingDurationMinutes": null,
+            "ownExpenseProgramId": null,
+            "options": null,
+            "note": null
+        }
+    ],
+    "results": [
+        {
+            "schedule": null,
+            "category": null,
+            "headcount": null,
+            "movingDurationMinutes": null,
+            "ownExpenseProgramId": null,
+            "options": null,
+            "note": null
+        }
+    ],
+    "status": 3,
+    "fixedAt": "2019-05-15T00:00:00+0900",
+    "createdAt": "2019-05-15T00:00:00+0900",
+    "updatedAt": "2019-05-15T00:00:00+0900"
+}

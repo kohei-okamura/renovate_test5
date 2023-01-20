@@ -1,0 +1,17 @@
+scoreWithinMaxBenefitQuota: 480
+scoreWithinMaxBenefit: 440
+totalFeeForInsuranceOrBusiness: 501
+claimAmountForInsuranceOrBusiness: 400
+copayForInsuranceOrBusiness: 101
+copayWholeExpense: 69
+officeName: 事業所名
+officeCode: '0123456789'
+serviceName: '訪問介護 合計'
+serviceCode: ''
+unitScore: 0
+count: 0
+wholeScore: 500
+maxBenefitQuotaExcessScore: 20
+maxBenefitExcessScore: 40
+unitCost: 11400
+benefitRate: 80

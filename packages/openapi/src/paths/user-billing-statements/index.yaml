@@ -1,0 +1,31 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+post:
+  summary: 利用者請求・介護サービス利用明細書ダウンロード
+  description: 単一、または複数の利用者請求に対して一括で利用者請求・介護サービス利用明細書をダウンロードする。
+  requestBody:
+    content:
+      application/json:
+        schema:
+          properties:
+            ids:
+              description: 利用者請求 ID
+              type: array
+              items:
+                $ref: '#/components/schemas/UserBillingId'
+              minItems: 1
+            issuedOn:
+              $ref: '#/components/schemas/DateLike'
+          required:
+            - ids
+            - issuedOn
+  responses:
+    '202':
+      $ref: '#/components/responses/JobCreated'
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+  tags:
+    - 利用者請求

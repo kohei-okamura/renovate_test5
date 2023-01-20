@@ -1,0 +1,23 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 計画：週間サービス計画：サービス詳細
+type: object
+properties:
+  serviceMenuId:
+    description: サービス内容 ID
+    type: object
+  serviceMenuOptionIds:
+    description: サービス内容詳細 ID
+    type: array
+    items:
+      description: サービス内容詳細 ID
+      type: object
+  duration:
+    description: 所要時間
+    type: number
+  memo:
+    description: 留意事項
+    type: string

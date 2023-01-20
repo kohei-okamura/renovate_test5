@@ -1,0 +1,29 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+post:
+  summary: 障害福祉サービス：予実合計時間数取得
+  description: 障害福祉サービス：予実詳細の合計時間数を取得する。
+  requestBody:
+    content:
+      application/json:
+        schema:
+          $ref: '#/components/schemas/DwsProvisionReportTimeSummaryForm'
+  responses:
+    '200':
+      description: 合計時間数が正常に計算できた場合
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              plan:
+                $ref: '#/components/schemas/DwsProvisionReportTimeSummaryItem'
+              result:
+                $ref: '#/components/schemas/DwsProvisionReportTimeSummaryItem'
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+  tags:
+    - 障害福祉サービス：予実

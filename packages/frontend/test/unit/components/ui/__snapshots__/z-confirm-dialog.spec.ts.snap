@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-confirm-dialog.vue should be rendered correctly 1`] = `
+<v-dialog-stub
+  closedelay="0"
+  contentclass=""
+  opendelay="0"
+  origin="center center"
+  persistent="true"
+  retainfocus="true"
+  transition="dialog-transition"
+  width="400"
+>
+  <v-card-stub
+    loaderheight="4"
+    tag="div"
+  >
+    <!---->
+    <v-card-text-stub
+      tag="div"
+    >
+      <!---->
+    </v-card-text-stub>
+    <v-card-actions-stub
+      tag="div"
+    >
+      <v-spacer-stub
+        tag="div"
+      />
+      <a
+        class="v-btn-stub"
+        color="grey"
+        data-button-negative=""
+        text=""
+      >
+        <span>
+          キャンセル
+        </span>
+      </a>
+      <a
+        class="v-btn-stub"
+        color="primary"
+        data-button-positive=""
+        text=""
+        type="submit"
+      >
+        <span>
+          OK
+        </span>
+      </a>
+    </v-card-actions-stub>
+  </v-card-stub>
+</v-dialog-stub>
+`;

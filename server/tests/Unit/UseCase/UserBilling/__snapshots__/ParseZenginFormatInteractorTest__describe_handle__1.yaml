@@ -1,0 +1,42 @@
+header:
+    bankingClientCode: '5555555555'
+    bankingClientName: ﾕｰｽﾀｲﾙﾗﾎﾞﾗﾄﾘｰ(ｶ
+    deductedOn: '2018-11-01T00:00:00+09:00'
+data:
+    -
+        bankCode: '0003'
+        bankBranchCode: '003'
+        bankAccountType: 0
+        bankAccountNumber: '4444444'
+        bankAccountHolder: ﾊﾗﾀﾞｻﾔｶ
+        amount: 28600
+        dataRecordCode: 1
+        clientNumber: '55555555550000000101'
+        withdrawalResultCode: 0
+    -
+        bankCode: '0001'
+        bankBranchCode: '001'
+        bankAccountType: 2
+        bankAccountNumber: '2222222'
+        bankAccountHolder: ﾌｼﾞｼﾏｸﾐｺ
+        amount: 9300
+        dataRecordCode: 1
+        clientNumber: '55555555550000000116'
+        withdrawalResultCode: 0
+    -
+        bankCode: '0002'
+        bankBranchCode: '002'
+        bankAccountType: 1
+        bankAccountNumber: '3333333'
+        bankAccountHolder: ﾋﾗｲﾜｱｷﾋﾛ
+        amount: 37200
+        dataRecordCode: 1
+        clientNumber: '55555555550000000115'
+        withdrawalResultCode: 0
+trailer:
+    totalCount: 3
+    totalAmount: 75100
+    succeededCount: 0
+    succeededAmount: 0
+    failedCount: 0
+    failedAmount: 0

@@ -1,0 +1,23 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 介護保険サービス：訪問介護：サービスコード辞書
+type: object
+properties:
+  id:
+    description: 辞書ID
+    type: object
+  effectivatedOn:
+    $ref: '#/components/schemas/DateLike'
+  name:
+    description: 名前
+    type: string
+  version:
+    description: バージョン
+    type: number
+  createdAt:
+    $ref: '#/components/schemas/DateLike'
+  updatedAt:
+    $ref: '#/components/schemas/DateLike'

@@ -1,0 +1,14 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 計画：週間サービス計画：サービス項目別提供量
+type: object
+properties:
+  serviceCategoryId:
+    description: サービス項目 ID
+    type: object
+  amount:
+    description: サービス時間
+    type: number

@@ -1,0 +1,19 @@
+{
+    "officeName": "\u4e8b\u696d\u6240\u540d",
+    "officeCode": "0123456",
+    "serviceName": "\u8a2a\u554f\u4ecb\u8b77 \u5408\u8a08",
+    "serviceCode": "123456",
+    "unitScore": "0",
+    "count": "0",
+    "wholeScore": "(0)",
+    "maxBenefitQuotaExcessScore": "(0)",
+    "maxBenefitExcessScore": "(0)",
+    "scoreWithinMaxBenefitQuota": "(0)",
+    "scoreWithinMaxBenefit": "(0)",
+    "unitCost": "0.12",
+    "totalFeeForInsuranceOrBusiness": "(0)",
+    "benefitRate": "(0)",
+    "claimAmountForInsuranceOrBusiness": "(0)",
+    "copayForInsuranceOrBusiness": "(0)",
+    "copayWholeExpense": "(0)"
+}

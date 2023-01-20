@@ -1,0 +1,33 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+post:
+  summary: 勤務シフト一括キャンセル
+  description: 複数の勤務シフト一括でキャンセルする。
+  requestBody:
+    content:
+      application/json:
+        schema:
+          type: object
+          properties:
+            ids:
+              description: 勤務シフト ID
+              type: array
+              items:
+                $ref: '#/components/schemas/ShiftId'
+              minItems: 1
+            reason:
+              description: キャンセル理由
+              type: string
+          required:
+            - ids
+            - reason
+  responses:
+    '202':
+      $ref: '#/components/responses/JobCreated'
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+  tags:
+    - 勤務シフト

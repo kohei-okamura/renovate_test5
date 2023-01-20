@@ -1,0 +1,39 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+description: 利用者負担上限額管理結果票登録／更新フォーム
+type: object
+properties:
+  userId:
+    $ref: '#/components/schemas/UserId'
+  items:
+    description: 明細
+    type: array
+    items:
+      type: object
+      properties:
+        officeId:
+          $ref: '#/components/schemas/OfficeId'
+        subtotal:
+          allOf:
+            - $ref: '#/components/schemas/DwsBillingCopayCoordinationPayment'
+            - required:
+                - fee
+                - copay
+                - coordinatedCopay
+      required:
+        - officeId
+        - subtotal
+  exchangeAim:
+    $ref: '#/components/schemas/DwsBillingCopayCoordinationExchangeAim'
+  result:
+    $ref: '#/components/schemas/CopayCoordinationResult'
+  isProvided:
+    description: 他事業所におけるサービス提供有無
+    type: boolean
+required:
+  - userId
+  - items
+  - exchangeAim
+  - result
+  - isProvided

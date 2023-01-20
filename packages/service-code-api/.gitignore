@@ -1,0 +1,9 @@
+*.js
+*.d.ts
+*.db
+cdk.context.json
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out

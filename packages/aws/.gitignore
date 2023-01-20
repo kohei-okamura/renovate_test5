@@ -1,0 +1,9 @@
+*.js
+*.d.ts
+
+cdk.out
+cdk.context.json
+
+# Parcel build directories
+.cache
+.build

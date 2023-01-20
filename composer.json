@@ -1,0 +1,109 @@
+{
+  "name": "eustyle/zinger",
+  "description": "Next generation esl system",
+  "license": "proprietary",
+  "type": "project",
+  "require": {
+    "php": "^8.1.6",
+    "ext-gd": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*",
+    "ext-pdo": "*",
+    "ext-redis": "^5.2",
+    "ext-zip": "^1.19",
+    "azuyalabs/yasumi": "^2.4",
+    "barryvdh/laravel-dompdf": "^0.9.0",
+    "barryvdh/laravel-snappy": "^1.0.0",
+    "doctrine/dbal": "^3.0",
+    "fakerphp/faker": "^1.14",
+    "guzzlehttp/guzzle": "^7.3",
+    "hikaeme/monolog-ltsv-formatter": "^2.0",
+    "illuminate/cookie": "^8.0",
+    "illuminate/mail": "^8.0",
+    "illuminate/redis": "^8.0",
+    "illuminate/session": "^8.0",
+    "kevinrob/guzzle-cache-middleware": "^4.0",
+    "laravel/lumen-framework": "^8.0",
+    "league/flysystem": "^1.0",
+    "league/flysystem-aws-s3-v3": "^1.0",
+    "myclabs/deep-copy": "^1.9",
+    "phpoffice/phpspreadsheet": "^1.12",
+    "s-ichikawa/laravel-sendgrid-driver": "^3.0",
+    "shogogg/scalikephp": "0.8.3",
+    "twilio/sdk": "^6.3",
+    "vlucas/phpdotenv": "^5.2"
+  },
+  "require-dev": {
+    "barryvdh/laravel-ide-helper": "^2.7",
+    "codeception/codeception": "^4.1",
+    "codeception/module-asserts": "^2.0",
+    "codeception/module-lumen": "^2.0",
+    "codeception/module-rest": "^2.0",
+    "codeception/specify": "^2.0",
+    "laravel/tinker": "^2.4",
+    "mockery/mockery": "^1.3",
+    "phpunit/phpunit": "^9.0",
+    "rector/rector": "^0.12.3",
+    "spatie/phpunit-snapshot-assertions": "^4.1",
+    "symfony/browser-kit": "<6.1.0"
+  },
+  "autoload": {
+    "classmap": [
+      "server/database/factories"
+    ],
+    "psr-4": {
+      "App\\": "server/modules/app/",
+      "Database\\Seeders\\": "server/database/seeds",
+      "Domain\\": "server/modules/domain/",
+      "Infrastructure\\": "server/modules/infrastructure/",
+      "Lib\\": "server/modules/lib/",
+      "UseCase\\": "server/modules/useCase/",
+      "Tests\\": "server/tests/"
+    }
+  },
+  "autoload-dev": {
+    "classmap": [
+      "server/tests/"
+    ]
+  },
+  "scripts": {
+    "fixer:dry-run": "composer fixer:fix --dry-run --diff --verbose",
+    "fixer:fix": "tools/php-cs-fixer/vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.php",
+    "post-install-cmd": "composer install --working-dir=tools/php-cs-fixer",
+    "test": "yarn codecept",
+    "test:api": "yarn codecept:e2e",
+    "test:billing": "yarn codecept:billing",
+    "test:billing:ci": [
+      "@putenv APP_ENV=billing",
+      "php vendor/bin/codecept run Billing"
+    ],
+    "test:billing:update-snapshots": "yarn codecept:billing:update-snapshots",
+    "test:clean": "@php vendor/bin/codecept clean",
+    "test:e2e": "yarn codecept:e2e",
+    "test:e2e:ci": [
+      "@putenv APP_ENV=e2e",
+      "php vendor/bin/codecept run Api"
+    ],
+    "test:e2e:update-snapshots": "yarn codecept:e2e:update-snapshots",
+    "test:unit": "yarn codecept:unit",
+    "test:unit:ci": [
+      "@putenv APP_ENV=testing",
+      "@putenv XDEBUG_MODE=coverage",
+      "php vendor/bin/codecept run Unit --coverage-xml"
+    ],
+    "test:unit:coverage": "yarn codecept:unit:coverage",
+    "test:unit:parallel": "yarn codecept:unit:parallel",
+    "test:unit:update-snapshots": "yarn codecept:unit:update-snapshots"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "platform": {
+      "php": "8.1.6"
+    },
+    "preferred-install": "dist",
+    "process-timeout": 0,
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

@@ -1,0 +1,15 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 公費制度（法別番号）
+name: DefrayerCategory
+php:
+  enabled: true
+  namespace: Common
+typescript:
+  enabled: true
+items:
+  - { description: 【58】特別対策（全額免除）, name: PwdSupport, value: 58 }
+  - { description: 【81】原爆（福祉）, name: AtomicBombVictim, value: 81 }
+  - { description: 【25】中国残留邦人, name: SupportForJapaneseReturneesFromChina, value: 25 }
+  - { description: 【12】生活保護, name: LivelihoodProtection, value: 12 }

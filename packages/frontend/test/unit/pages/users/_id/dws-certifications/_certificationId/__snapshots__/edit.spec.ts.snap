@@ -1,0 +1,3136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue error text in card-text should be rendered when the staff does not have permissions: dws-certifications/create 1`] = `
+<v-card-text-stub
+  data-card-text=""
+  tag="div"
+>
+  <p>
+          記載内容が変更されたり、新しい受給者証が発行された場合は、新しく登録を行ってください。
+    <br />
+    <span
+      class="error--text"
+    >
+            受給者証を登録する権限が無いため新しく登録することができません。担当者にご確認ください。
+    </span>
+  </p>
+</v-card-text-stub>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue error text in card-text should not be rendered when session auth is system admin 1`] = `
+<v-card-text-stub
+  data-card-text=""
+  tag="div"
+>
+  <p>
+          記載内容が変更されたり、新しい受給者証が発行された場合は、新しく登録を行ってください。
+    <br />
+    <!---->
+  </p>
+</v-card-text-stub>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue error text in card-text should not be rendered when the staff has permissions: dws-certifications/create 1`] = `
+<v-card-text-stub
+  data-card-text=""
+  tag="div"
+>
+  <p>
+          記載内容が変更されたり、新しい受給者証が発行された場合は、新しく登録を行ってください。
+    <br />
+    <!---->
+  </p>
+</v-card-text-stub>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue should be rendered correctly 1`] = `
+<div
+  breadcrumbs="[object Object],[object Object],[object Object],[object Object]"
+  class="z-page-stub"
+  compact="compact"
+>
+  <div
+    class="z-page-stub-slot-tabs"
+  />
+  <div
+    class="z-page-stub-slot-title"
+  />
+  <v-card-stub
+    class="mt-4"
+    loaderheight="4"
+    tag="div"
+  >
+    <v-card-title-stub
+      class="subtitle-1"
+      tag="div"
+    >
+      編集理由を選択してください。
+    </v-card-title-stub>
+    <v-card-text-stub
+      class="pb-2"
+      tag="div"
+    >
+      <div
+        class="v-input mt-0 theme--light v-input--selection-controls v-input--radio-group v-input--radio-group--column"
+      >
+        <div
+          class="v-input__control"
+        >
+          <div
+            class="v-input__slot"
+            style="height: auto;"
+          >
+            <div
+              class="v-input--radio-group__input"
+              role="radiogroup"
+            >
+              <div
+                class="v-radio theme--light"
+              >
+                <div
+                  class="v-input--selection-controls__input"
+                >
+                  <i
+                    aria-hidden="true"
+                    class="v-icon notranslate mdi mdi-radiobox-blank theme--light"
+                  />
+                  <input
+                    aria-checked="false"
+                    data-reason-a="true"
+                    role="radio"
+                    type="radio"
+                    value="A"
+                  />
+                  <div
+                    class="v-input--selection-controls__ripple"
+                  />
+                </div>
+                <label
+                  class="v-label theme--light"
+                  style="left: 0px; position: relative;"
+                >
+                  受給者証の記載内容が変更されたので反映したい。
+                </label>
+              </div>
+              <div
+                class="v-radio theme--light"
+              >
+                <div
+                  class="v-input--selection-controls__input"
+                >
+                  <i
+                    aria-hidden="true"
+                    class="v-icon notranslate mdi mdi-radiobox-blank theme--light"
+                  />
+                  <input
+                    aria-checked="false"
+                    data-reason-b="true"
+                    role="radio"
+                    type="radio"
+                    value="B"
+                  />
+                  <div
+                    class="v-input--selection-controls__ripple"
+                  />
+                </div>
+                <label
+                  class="v-label theme--light"
+                  style="left: 0px; position: relative;"
+                >
+                  新しい受給者証が発行されたので内容を書き換えたい。
+                </label>
+              </div>
+              <div
+                class="v-radio theme--light"
+              >
+                <div
+                  class="v-input--selection-controls__input"
+                >
+                  <i
+                    aria-hidden="true"
+                    class="v-icon notranslate mdi mdi-radiobox-blank theme--light"
+                  />
+                  <input
+                    aria-checked="false"
+                    data-reason-c="true"
+                    role="radio"
+                    type="radio"
+                    value="C"
+                  />
+                  <div
+                    class="v-input--selection-controls__ripple"
+                  />
+                </div>
+                <label
+                  class="v-label theme--light"
+                  style="left: 0px; position: relative;"
+                >
+                  入力ミスなどの不正確な情報を訂正したい。
+                </label>
+              </div>
+            </div>
+          </div>
+          <div
+            class="v-messages theme--light"
+          >
+            <transition-group-stub
+              class="v-messages__wrapper"
+              name="message-transition"
+              tag="div"
+            />
+          </div>
+        </div>
+      </div>
+    </v-card-text-stub>
+  </v-card-stub>
+  <transition-stub
+    mode="out-in"
+    name="fade-transition"
+  >
+    <!---->
+  </transition-stub>
+</div>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue submit z-dws-certification-form should display errors when server responses 400 Bad Request (error occurred in "activatedOn") 1`] = `
+<div
+  class="root"
+  data-activated-on=""
+  data-z-form-card-item=""
+>
+  <div
+    class="z-date-field"
+  >
+    <div
+      class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--is-readonly v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+    >
+      <div
+        class="v-input__control"
+      >
+        <div
+          class="v-input__slot"
+          style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+        >
+          <fieldset
+            aria-hidden="true"
+          >
+            <legend
+              style="width: -24px;"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+          <div
+            class="v-text-field__slot"
+          >
+            <label
+              class="v-label v-label--active theme--light error--text"
+              style="left: 0px; position: absolute;"
+            >
+              認定有効期間 *
+            </label>
+            <input
+              readonly="readonly"
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          class="v-text-field__details"
+        >
+          <div
+            class="v-messages theme--light error--text"
+            role="alert"
+          >
+            <transition-group-stub
+              class="v-messages__wrapper"
+              name="message-transition"
+              tag="div"
+            >
+              <div
+                class="v-messages__message"
+              >
+                認定有効期間（開始）を入力してください。
+              </div>
+            </transition-group-stub>
+          </div>
+        </div>
+      </div>
+    </div>
+    <v-dialog-stub
+      closedelay="0"
+      contentclass=""
+      data-z-date-field-dialog=""
+      opendelay="0"
+      origin="center center"
+      retainfocus="true"
+      transition="dialog-transition"
+      width="290px"
+    >
+      <v-date-picker-stub
+        data-z-date-field-picker=""
+        dayformat="[Function]"
+        eventcolor="warning"
+        firstdayofweek="1"
+        headerdateformat="[Function]"
+        locale="ja-JP"
+        localefirstdayofyear="0"
+        max="2028-05-17"
+        min="1920-01-01"
+        nexticon="$next"
+        nextmontharialabel="$vuetify.datePicker.nextMonthAriaLabel"
+        nextyeararialabel="$vuetify.datePicker.nextYearAriaLabel"
+        notitle="true"
+        previcon="$prev"
+        prevmontharialabel="$vuetify.datePicker.prevMonthAriaLabel"
+        prevyeararialabel="$vuetify.datePicker.prevYearAriaLabel"
+        selecteditemstext="$vuetify.datePicker.itemsSelected"
+        showcurrent="true"
+        titledateformat="[Function]"
+        type="date"
+        value="1992-05-14"
+        width="290"
+        yearformat="[Function]"
+      >
+        <v-spacer-stub
+          tag="div"
+        />
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-clear=""
+          text=""
+        >
+          クリア
+        </a>
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-cancel=""
+          text=""
+        >
+          キャンセル
+        </a>
+      </v-date-picker-stub>
+    </v-dialog-stub>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue submit z-dws-certification-form should display errors when server responses 400 Bad Request (error occurred in "activatedOn") 2`] = `
+<div
+  class="root"
+  data-grant-activated-on="0"
+  data-z-form-card-item=""
+>
+  <div
+    class="z-date-field"
+  >
+    <div
+      class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--is-readonly v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+    >
+      <div
+        class="v-input__control"
+      >
+        <div
+          class="v-input__slot"
+          style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+        >
+          <fieldset
+            aria-hidden="true"
+          >
+            <legend
+              style="width: -24px;"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+          <div
+            class="v-text-field__slot"
+          >
+            <label
+              class="v-label v-label--active theme--light error--text"
+              style="left: 0px; position: absolute;"
+            >
+              支給決定期間 *
+            </label>
+            <input
+              readonly="readonly"
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          class="v-text-field__details"
+        >
+          <div
+            class="v-messages theme--light error--text"
+            role="alert"
+          >
+            <transition-group-stub
+              class="v-messages__wrapper"
+              name="message-transition"
+              tag="div"
+            >
+              <div
+                class="v-messages__message"
+              >
+                支給決定期間（開始）を入力してください。
+              </div>
+            </transition-group-stub>
+          </div>
+        </div>
+      </div>
+    </div>
+    <v-dialog-stub
+      closedelay="0"
+      contentclass=""
+      data-z-date-field-dialog=""
+      opendelay="0"
+      origin="center center"
+      retainfocus="true"
+      transition="dialog-transition"
+      width="290px"
+    >
+      <v-date-picker-stub
+        data-z-date-field-picker=""
+        dayformat="[Function]"
+        eventcolor="warning"
+        firstdayofweek="1"
+        headerdateformat="[Function]"
+        locale="ja-JP"
+        localefirstdayofyear="0"
+        max="2028-05-17"
+        min="1920-01-01"
+        nexticon="$next"
+        nextmontharialabel="$vuetify.datePicker.nextMonthAriaLabel"
+        nextyeararialabel="$vuetify.datePicker.nextYearAriaLabel"
+        notitle="true"
+        previcon="$prev"
+        prevmontharialabel="$vuetify.datePicker.prevMonthAriaLabel"
+        prevyeararialabel="$vuetify.datePicker.prevYearAriaLabel"
+        selecteditemstext="$vuetify.datePicker.itemsSelected"
+        showcurrent="true"
+        titledateformat="[Function]"
+        type="date"
+        value="1999-05-19"
+        width="290"
+        yearformat="[Function]"
+      >
+        <v-spacer-stub
+          tag="div"
+        />
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-clear=""
+          text=""
+        >
+          クリア
+        </a>
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-cancel=""
+          text=""
+        >
+          キャンセル
+        </a>
+      </v-date-picker-stub>
+    </v-dialog-stub>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue submit z-dws-certification-form should display errors when server responses 400 Bad Request (error occurred in "agreedOn") 1`] = `
+<div
+  class="root"
+  data-agreement-agreed-on="0"
+  data-z-form-card-item=""
+>
+  <div
+    class="z-date-field"
+  >
+    <div
+      class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--is-readonly v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+    >
+      <div
+        class="v-input__control"
+      >
+        <div
+          class="v-input__slot"
+          style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+        >
+          <fieldset
+            aria-hidden="true"
+          >
+            <legend
+              style="width: -24px;"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+          <div
+            class="v-text-field__slot"
+          >
+            <label
+              class="v-label v-label--active theme--light error--text"
+              style="left: 0px; position: absolute;"
+            >
+              契約日 *
+            </label>
+            <input
+              readonly="readonly"
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          class="v-text-field__details"
+        >
+          <div
+            class="v-messages theme--light error--text"
+            role="alert"
+          >
+            <transition-group-stub
+              class="v-messages__wrapper"
+              name="message-transition"
+              tag="div"
+            >
+              <div
+                class="v-messages__message"
+              >
+                契約日を入力してください。
+              </div>
+            </transition-group-stub>
+          </div>
+        </div>
+      </div>
+    </div>
+    <v-dialog-stub
+      closedelay="0"
+      contentclass=""
+      data-z-date-field-dialog=""
+      opendelay="0"
+      origin="center center"
+      retainfocus="true"
+      transition="dialog-transition"
+      width="290px"
+    >
+      <v-date-picker-stub
+        data-z-date-field-picker=""
+        dayformat="[Function]"
+        eventcolor="warning"
+        firstdayofweek="1"
+        headerdateformat="[Function]"
+        locale="ja-JP"
+        localefirstdayofyear="0"
+        max="2028-05-17"
+        min="1920-01-01"
+        nexticon="$next"
+        nextmontharialabel="$vuetify.datePicker.nextMonthAriaLabel"
+        nextyeararialabel="$vuetify.datePicker.nextYearAriaLabel"
+        notitle="true"
+        previcon="$prev"
+        prevmontharialabel="$vuetify.datePicker.prevMonthAriaLabel"
+        prevyeararialabel="$vuetify.datePicker.prevYearAriaLabel"
+        selecteditemstext="$vuetify.datePicker.itemsSelected"
+        showcurrent="true"
+        titledateformat="[Function]"
+        type="date"
+        value="1997-11-27"
+        width="290"
+        yearformat="[Function]"
+      >
+        <v-spacer-stub
+          tag="div"
+        />
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-clear=""
+          text=""
+        >
+          クリア
+        </a>
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-cancel=""
+          text=""
+        >
+          キャンセル
+        </a>
+      </v-date-picker-stub>
+    </v-dialog-stub>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue submit z-dws-certification-form should display errors when server responses 400 Bad Request (error occurred in "childBirthday") 1`] = `
+<div
+  class="root"
+  data-birthday=""
+  data-z-form-card-item=""
+>
+  <div
+    class="z-date-field z-date-field--birthday"
+    max="2018-05-17"
+  >
+    <div
+      class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--is-readonly v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+    >
+      <div
+        class="v-input__control"
+      >
+        <div
+          class="v-input__slot"
+          style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+        >
+          <fieldset
+            aria-hidden="true"
+          >
+            <legend
+              style="width: -24px;"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+          <div
+            class="v-text-field__slot"
+          >
+            <label
+              class="v-label v-label--active theme--light error--text"
+              style="left: 0px; position: absolute;"
+            >
+              生年月日
+            </label>
+            <input
+              readonly="readonly"
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          class="v-text-field__details"
+        >
+          <div
+            class="v-messages theme--light error--text"
+            role="alert"
+          >
+            <transition-group-stub
+              class="v-messages__wrapper"
+              name="message-transition"
+              tag="div"
+            >
+              <div
+                class="v-messages__message"
+              >
+                生年月日を入力してください。
+              </div>
+            </transition-group-stub>
+          </div>
+        </div>
+      </div>
+    </div>
+    <v-dialog-stub
+      closedelay="0"
+      contentclass=""
+      data-z-date-field-dialog=""
+      opendelay="0"
+      origin="center center"
+      retainfocus="true"
+      transition="dialog-transition"
+      width="290px"
+    >
+      <v-date-picker-stub
+        data-z-date-field-picker=""
+        dayformat="[Function]"
+        eventcolor="warning"
+        firstdayofweek="1"
+        headerdateformat="[Function]"
+        locale="ja-JP"
+        localefirstdayofyear="0"
+        max="2018-05-17"
+        min="1920-01-01"
+        nexticon="$next"
+        nextmontharialabel="$vuetify.datePicker.nextMonthAriaLabel"
+        nextyeararialabel="$vuetify.datePicker.nextYearAriaLabel"
+        notitle="true"
+        previcon="$prev"
+        prevmontharialabel="$vuetify.datePicker.prevMonthAriaLabel"
+        prevyeararialabel="$vuetify.datePicker.prevYearAriaLabel"
+        selecteditemstext="$vuetify.datePicker.itemsSelected"
+        showcurrent="true"
+        titledateformat="[Function]"
+        type="date"
+        value="2021-06-11"
+        width="290"
+        yearformat="[Function]"
+      >
+        <v-spacer-stub
+          tag="div"
+        />
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-clear=""
+          text=""
+        >
+          クリア
+        </a>
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-cancel=""
+          text=""
+        >
+          キャンセル
+        </a>
+      </v-date-picker-stub>
+    </v-dialog-stub>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue submit z-dws-certification-form should display errors when server responses 400 Bad Request (error occurred in "childFamilyName") 1`] = `
+<div
+  class="root"
+  data-family-name=""
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        class="v-input__slot"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-text-field__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            姓
+          </label>
+          <input
+            data-family-name-input=""
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              姓を入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue submit z-dws-certification-form should display errors when server responses 400 Bad Request (error occurred in "childGivenName") 1`] = `
+<div
+  class="root"
+  data-given-name=""
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        class="v-input__slot"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-text-field__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            名
+          </label>
+          <input
+            data-given-name-input=""
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              名を入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue submit z-dws-certification-form should display errors when server responses 400 Bad Request (error occurred in "childPhoneticFamilyName") 1`] = `
+<div
+  class="root"
+  data-phonetic-family-name=""
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        class="v-input__slot"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-text-field__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            フリガナ：姓
+          </label>
+          <input
+            data-phonetic-family-name-input=""
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              フリガナ：姓を入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue submit z-dws-certification-form should display errors when server responses 400 Bad Request (error occurred in "childPhoneticGivenName") 1`] = `
+<div
+  class="root"
+  data-phonetic-given-name=""
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        class="v-input__slot"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-text-field__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            フリガナ：名
+          </label>
+          <input
+            data-phonetic-given-name-input=""
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              フリガナ：名を入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue submit z-dws-certification-form should display errors when server responses 400 Bad Request (error occurred in "cityCode") 1`] = `
+<div
+  class="root"
+  data-city-code=""
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        class="v-input__slot"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-text-field__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            市町村番号 *
+          </label>
+          <input
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              市町村番号を入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue submit z-dws-certification-form should display errors when server responses 400 Bad Request (error occurred in "cityName") 1`] = `
+<div
+  class="root"
+  data-city-name=""
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        class="v-input__slot"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-text-field__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            市町村名 *
+          </label>
+          <input
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              市町村名を入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue submit z-dws-certification-form should display errors when server responses 400 Bad Request (error occurred in "copayActivatedOn") 1`] = `
+<div
+  class="root"
+  data-copay-activated-on=""
+  data-z-form-card-item=""
+>
+  <div
+    class="z-date-field"
+  >
+    <div
+      class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--is-readonly v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+    >
+      <div
+        class="v-input__control"
+      >
+        <div
+          class="v-input__slot"
+          style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+        >
+          <fieldset
+            aria-hidden="true"
+          >
+            <legend
+              style="width: -24px;"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+          <div
+            class="v-text-field__slot"
+          >
+            <label
+              class="v-label v-label--active theme--light error--text"
+              style="left: 0px; position: absolute;"
+            >
+              利用者負担適用期間 *
+            </label>
+            <input
+              readonly="readonly"
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          class="v-text-field__details"
+        >
+          <div
+            class="v-messages theme--light error--text"
+            role="alert"
+          >
+            <transition-group-stub
+              class="v-messages__wrapper"
+              name="message-transition"
+              tag="div"
+            >
+              <div
+                class="v-messages__message"
+              >
+                利用者負担適用期間（開始）を入力してください。
+              </div>
+            </transition-group-stub>
+          </div>
+        </div>
+      </div>
+    </div>
+    <v-dialog-stub
+      closedelay="0"
+      contentclass=""
+      data-z-date-field-dialog=""
+      opendelay="0"
+      origin="center center"
+      retainfocus="true"
+      transition="dialog-transition"
+      width="290px"
+    >
+      <v-date-picker-stub
+        data-z-date-field-picker=""
+        dayformat="[Function]"
+        eventcolor="warning"
+        firstdayofweek="1"
+        headerdateformat="[Function]"
+        locale="ja-JP"
+        localefirstdayofyear="0"
+        max="2028-05-17"
+        min="1920-01-01"
+        nexticon="$next"
+        nextmontharialabel="$vuetify.datePicker.nextMonthAriaLabel"
+        nextyeararialabel="$vuetify.datePicker.nextYearAriaLabel"
+        notitle="true"
+        previcon="$prev"
+        prevmontharialabel="$vuetify.datePicker.prevMonthAriaLabel"
+        prevyeararialabel="$vuetify.datePicker.prevYearAriaLabel"
+        selecteditemstext="$vuetify.datePicker.itemsSelected"
+        showcurrent="true"
+        titledateformat="[Function]"
+        type="date"
+        value="1971-06-08"
+        width="290"
+        yearformat="[Function]"
+      >
+        <v-spacer-stub
+          tag="div"
+        />
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-clear=""
+          text=""
+        >
+          クリア
+        </a>
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-cancel=""
+          text=""
+        >
+          キャンセル
+        </a>
+      </v-date-picker-stub>
+    </v-dialog-stub>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue submit z-dws-certification-form should display errors when server responses 400 Bad Request (error occurred in "copayCoordinationType") 1`] = `
+<div
+  class="root"
+  data-copay-coordination-type=""
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined v-select error--text"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        aria-expanded="false"
+        aria-haspopup="listbox"
+        class="v-input__slot"
+        role="button"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-select__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            上限管理区分 *
+          </label>
+          <div
+            class="v-select__selections"
+          >
+            <div
+              class="v-select__selection v-select__selection--comma"
+            >
+              自社事業所
+            </div>
+            <input
+              aria-readonly="false"
+              autocomplete="off"
+              readonly="readonly"
+              type="text"
+            />
+          </div>
+          <div
+            class="v-input__append-inner"
+          >
+            <div
+              class="v-input__icon v-input__icon--append"
+            >
+              <i
+                aria-hidden="true"
+                class="v-icon notranslate mdi mdi-menu-down theme--light error--text"
+              />
+            </div>
+          </div>
+          <input
+            type="hidden"
+            value="2"
+          />
+        </div>
+        <div
+          class="v-menu"
+        >
+          <!---->
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              上限管理区分を入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue submit z-dws-certification-form should display errors when server responses 400 Bad Request (error occurred in "copayDeactivatedOn") 1`] = `
+<div
+  class="root"
+  data-copay-deactivated-on=""
+  data-z-form-card-item=""
+>
+  <div
+    class="z-date-field"
+  >
+    <div
+      class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--is-readonly v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+    >
+      <div
+        class="v-input__control"
+      >
+        <div
+          class="v-input__slot"
+          style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+        >
+          <fieldset
+            aria-hidden="true"
+          >
+            <legend
+              style="width: 0px;"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+          <div
+            class="v-text-field__slot"
+          >
+            <input
+              readonly="readonly"
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          class="v-text-field__details"
+        >
+          <div
+            class="v-messages theme--light error--text"
+            role="alert"
+          >
+            <transition-group-stub
+              class="v-messages__wrapper"
+              name="message-transition"
+              tag="div"
+            >
+              <div
+                class="v-messages__message"
+              >
+                利用者負担適用期間（終了）を入力してください。
+              </div>
+            </transition-group-stub>
+          </div>
+        </div>
+      </div>
+    </div>
+    <v-dialog-stub
+      closedelay="0"
+      contentclass=""
+      data-z-date-field-dialog=""
+      opendelay="0"
+      origin="center center"
+      retainfocus="true"
+      transition="dialog-transition"
+      width="290px"
+    >
+      <v-date-picker-stub
+        data-z-date-field-picker=""
+        dayformat="[Function]"
+        eventcolor="warning"
+        firstdayofweek="1"
+        headerdateformat="[Function]"
+        locale="ja-JP"
+        localefirstdayofyear="0"
+        max="2028-05-17"
+        min="1920-01-01"
+        nexticon="$next"
+        nextmontharialabel="$vuetify.datePicker.nextMonthAriaLabel"
+        nextyeararialabel="$vuetify.datePicker.nextYearAriaLabel"
+        notitle="true"
+        previcon="$prev"
+        prevmontharialabel="$vuetify.datePicker.prevMonthAriaLabel"
+        prevyeararialabel="$vuetify.datePicker.prevYearAriaLabel"
+        selecteditemstext="$vuetify.datePicker.itemsSelected"
+        showcurrent="true"
+        titledateformat="[Function]"
+        type="date"
+        value="1978-10-02"
+        width="290"
+        yearformat="[Function]"
+      >
+        <v-spacer-stub
+          tag="div"
+        />
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-clear=""
+          text=""
+        >
+          クリア
+        </a>
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-cancel=""
+          text=""
+        >
+          キャンセル
+        </a>
+      </v-date-picker-stub>
+    </v-dialog-stub>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue submit z-dws-certification-form should display errors when server responses 400 Bad Request (error occurred in "copayLimit") 1`] = `
+<div
+  class="root"
+  data-copay-limit=""
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input z-text-field--numeric v-input--has-state v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        class="v-input__slot"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-text-field__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            負担上限月額 *
+          </label>
+          <input
+            type="text"
+          />
+          <div
+            class="v-text-field__suffix"
+          >
+            円/月
+          </div>
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              負担上限月額を入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue submit z-dws-certification-form should display errors when server responses 400 Bad Request (error occurred in "copayOfficeId") 1`] = `
+<div
+  class="root"
+  data-copay-office-id=""
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined v-select v-autocomplete error--text"
+    error-messages="上限額管理事業所名を入力してください。"
+    label="上限額管理事業所名"
+    value="46"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        aria-expanded="false"
+        aria-haspopup="listbox"
+        class="v-input__slot"
+        role="combobox"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-select__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            上限額管理事業所名
+          </label>
+          <input
+            autocomplete="off"
+            type="text"
+          />
+          <div
+            class="v-input__append-inner"
+          >
+            <div
+              class="v-input__icon v-input__icon--append"
+            >
+              <i
+                aria-hidden="true"
+                class="v-icon notranslate mdi mdi-menu-down theme--light error--text"
+              />
+            </div>
+          </div>
+          <input
+            type="hidden"
+            value="46"
+          />
+        </div>
+        <div
+          class="v-menu"
+        >
+          <!---->
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              上限額管理事業所名を入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue submit z-dws-certification-form should display errors when server responses 400 Bad Request (error occurred in "deactivatedOn") 1`] = `
+<div
+  class="root"
+  data-deactivated-on=""
+  data-z-form-card-item=""
+>
+  <div
+    class="z-date-field"
+  >
+    <div
+      class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--is-readonly v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+    >
+      <div
+        class="v-input__control"
+      >
+        <div
+          class="v-input__slot"
+          style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+        >
+          <fieldset
+            aria-hidden="true"
+          >
+            <legend
+              style="width: 0px;"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+          <div
+            class="v-text-field__slot"
+          >
+            <input
+              readonly="readonly"
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          class="v-text-field__details"
+        >
+          <div
+            class="v-messages theme--light error--text"
+            role="alert"
+          >
+            <transition-group-stub
+              class="v-messages__wrapper"
+              name="message-transition"
+              tag="div"
+            >
+              <div
+                class="v-messages__message"
+              >
+                認定有効期間（終了）を入力してください。
+              </div>
+            </transition-group-stub>
+          </div>
+        </div>
+      </div>
+    </div>
+    <v-dialog-stub
+      closedelay="0"
+      contentclass=""
+      data-z-date-field-dialog=""
+      opendelay="0"
+      origin="center center"
+      retainfocus="true"
+      transition="dialog-transition"
+      width="290px"
+    >
+      <v-date-picker-stub
+        data-z-date-field-picker=""
+        dayformat="[Function]"
+        eventcolor="warning"
+        firstdayofweek="1"
+        headerdateformat="[Function]"
+        locale="ja-JP"
+        localefirstdayofyear="0"
+        max="2028-05-17"
+        min="1920-01-01"
+        nexticon="$next"
+        nextmontharialabel="$vuetify.datePicker.nextMonthAriaLabel"
+        nextyeararialabel="$vuetify.datePicker.nextYearAriaLabel"
+        notitle="true"
+        previcon="$prev"
+        prevmontharialabel="$vuetify.datePicker.prevMonthAriaLabel"
+        prevyeararialabel="$vuetify.datePicker.prevYearAriaLabel"
+        selecteditemstext="$vuetify.datePicker.itemsSelected"
+        showcurrent="true"
+        titledateformat="[Function]"
+        type="date"
+        value="1996-07-11"
+        width="290"
+        yearformat="[Function]"
+      >
+        <v-spacer-stub
+          tag="div"
+        />
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-clear=""
+          text=""
+        >
+          クリア
+        </a>
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-cancel=""
+          text=""
+        >
+          キャンセル
+        </a>
+      </v-date-picker-stub>
+    </v-dialog-stub>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue submit z-dws-certification-form should display errors when server responses 400 Bad Request (error occurred in "deactivatedOn") 2`] = `
+<div
+  class="root"
+  data-grant-deactivated-on="0"
+  data-z-form-card-item=""
+>
+  <div
+    class="z-date-field"
+  >
+    <div
+      class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--is-readonly v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+    >
+      <div
+        class="v-input__control"
+      >
+        <div
+          class="v-input__slot"
+          style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+        >
+          <fieldset
+            aria-hidden="true"
+          >
+            <legend
+              style="width: 0px;"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+          <div
+            class="v-text-field__slot"
+          >
+            <input
+              readonly="readonly"
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          class="v-text-field__details"
+        >
+          <div
+            class="v-messages theme--light error--text"
+            role="alert"
+          >
+            <transition-group-stub
+              class="v-messages__wrapper"
+              name="message-transition"
+              tag="div"
+            >
+              <div
+                class="v-messages__message"
+              >
+                支給決定期間（終了）を入力してください。
+              </div>
+            </transition-group-stub>
+          </div>
+        </div>
+      </div>
+    </div>
+    <v-dialog-stub
+      closedelay="0"
+      contentclass=""
+      data-z-date-field-dialog=""
+      opendelay="0"
+      origin="center center"
+      retainfocus="true"
+      transition="dialog-transition"
+      width="290px"
+    >
+      <v-date-picker-stub
+        data-z-date-field-picker=""
+        dayformat="[Function]"
+        eventcolor="warning"
+        firstdayofweek="1"
+        headerdateformat="[Function]"
+        locale="ja-JP"
+        localefirstdayofyear="0"
+        max="2028-05-17"
+        min="1920-01-01"
+        nexticon="$next"
+        nextmontharialabel="$vuetify.datePicker.nextMonthAriaLabel"
+        nextyeararialabel="$vuetify.datePicker.nextYearAriaLabel"
+        notitle="true"
+        previcon="$prev"
+        prevmontharialabel="$vuetify.datePicker.prevMonthAriaLabel"
+        prevyeararialabel="$vuetify.datePicker.prevYearAriaLabel"
+        selecteditemstext="$vuetify.datePicker.itemsSelected"
+        showcurrent="true"
+        titledateformat="[Function]"
+        type="date"
+        value="1999-09-24"
+        width="290"
+        yearformat="[Function]"
+      >
+        <v-spacer-stub
+          tag="div"
+        />
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-clear=""
+          text=""
+        >
+          クリア
+        </a>
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-cancel=""
+          text=""
+        >
+          キャンセル
+        </a>
+      </v-date-picker-stub>
+    </v-dialog-stub>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue submit z-dws-certification-form should display errors when server responses 400 Bad Request (error occurred in "dwsCertificationAgreementType") 1`] = `
+<div
+  class="root"
+  data-agreement-dws-certification-agreement-type="0"
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined v-select error--text"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        aria-expanded="false"
+        aria-haspopup="listbox"
+        class="v-input__slot"
+        role="button"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-select__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            サービス内容 *
+          </label>
+          <div
+            class="v-select__selections"
+          >
+            <div
+              class="v-select__selection v-select__selection--comma"
+            >
+              重度訪問介護（障害支援区分6該当者）
+            </div>
+            <input
+              aria-readonly="false"
+              autocomplete="off"
+              readonly="readonly"
+              type="text"
+            />
+          </div>
+          <div
+            class="v-input__append-inner"
+          >
+            <div
+              class="v-input__icon v-input__icon--append"
+            >
+              <i
+                aria-hidden="true"
+                class="v-icon notranslate mdi mdi-menu-down theme--light error--text"
+              />
+            </div>
+          </div>
+          <input
+            type="hidden"
+            value="22"
+          />
+        </div>
+        <div
+          class="v-menu"
+        >
+          <!---->
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              サービス内容を入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue submit z-dws-certification-form should display errors when server responses 400 Bad Request (error occurred in "dwsCertificationServiceType") 1`] = `
+<div
+  class="root"
+  data-grant-dws-certification-service-type="0"
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined v-select error--text"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        aria-expanded="false"
+        aria-haspopup="listbox"
+        class="v-input__slot"
+        role="button"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-select__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            サービス種別 *
+          </label>
+          <div
+            class="v-select__selections"
+          >
+            <div
+              class="v-select__selection v-select__selection--comma"
+            >
+              居宅介護：家事援助中心
+            </div>
+            <input
+              aria-readonly="false"
+              autocomplete="off"
+              readonly="readonly"
+              type="text"
+            />
+          </div>
+          <div
+            class="v-input__append-inner"
+          >
+            <div
+              class="v-input__icon v-input__icon--append"
+            >
+              <i
+                aria-hidden="true"
+                class="v-icon notranslate mdi mdi-menu-down theme--light error--text"
+              />
+            </div>
+          </div>
+          <input
+            type="hidden"
+            value="2"
+          />
+        </div>
+        <div
+          class="v-menu"
+        >
+          <!---->
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              サービス種別を入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue submit z-dws-certification-form should display errors when server responses 400 Bad Request (error occurred in "dwsLevel") 1`] = `
+<div
+  class="root"
+  data-dws-level=""
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined v-select error--text"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        aria-expanded="false"
+        aria-haspopup="listbox"
+        class="v-input__slot"
+        role="button"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-select__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            障害支援区分 *
+          </label>
+          <div
+            class="v-select__selections"
+          >
+            <div
+              class="v-select__selection v-select__selection--comma"
+            >
+              区分3
+            </div>
+            <input
+              aria-readonly="false"
+              autocomplete="off"
+              readonly="readonly"
+              type="text"
+            />
+          </div>
+          <div
+            class="v-input__append-inner"
+          >
+            <div
+              class="v-input__icon v-input__icon--append"
+            >
+              <i
+                aria-hidden="true"
+                class="v-icon notranslate mdi mdi-menu-down theme--light error--text"
+              />
+            </div>
+          </div>
+          <input
+            type="hidden"
+            value="23"
+          />
+        </div>
+        <div
+          class="v-menu"
+        >
+          <!---->
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              障害支援区分を入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue submit z-dws-certification-form should display errors when server responses 400 Bad Request (error occurred in "dwsNumber") 1`] = `
+<div
+  class="root"
+  data-dws-number=""
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        class="v-input__slot"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-text-field__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            受給者証番号 *
+          </label>
+          <input
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              受給者証番号を入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue submit z-dws-certification-form should display errors when server responses 400 Bad Request (error occurred in "dwsTypes") 1`] = `
+<div
+  class="mb-2 mt-n2"
+  data-dws-types=""
+  vid="dwsTypes"
+>
+  <input
+    type="hidden"
+    value="3,2,5"
+  />
+  <div
+    class="root z-error-container py-1 px-4 rounded"
+  >
+    <div
+      class="error--text v-messages"
+    >
+      障害種別を入力してください。
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue submit z-dws-certification-form should display errors when server responses 400 Bad Request (error occurred in "effectivatedOn") 1`] = `
+<div
+  class="root"
+  data-effectivated-on=""
+  data-z-form-card-item=""
+>
+  <div
+    class="z-date-field"
+  >
+    <div
+      class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--is-readonly v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+    >
+      <div
+        class="v-input__control"
+      >
+        <div
+          class="v-input__slot"
+          style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+        >
+          <fieldset
+            aria-hidden="true"
+          >
+            <legend
+              style="width: -24px;"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+          <div
+            class="v-text-field__slot"
+          >
+            <label
+              class="v-label v-label--active theme--light error--text"
+              style="left: 0px; position: absolute;"
+            >
+              適用日 *
+            </label>
+            <input
+              readonly="readonly"
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          class="v-text-field__details"
+        >
+          <div
+            class="v-messages theme--light error--text"
+            role="alert"
+          >
+            <transition-group-stub
+              class="v-messages__wrapper"
+              name="message-transition"
+              tag="div"
+            >
+              <div
+                class="v-messages__message"
+              >
+                適用日を入力してください。
+              </div>
+            </transition-group-stub>
+          </div>
+        </div>
+      </div>
+    </div>
+    <v-dialog-stub
+      closedelay="0"
+      contentclass=""
+      data-z-date-field-dialog=""
+      opendelay="0"
+      origin="center center"
+      retainfocus="true"
+      transition="dialog-transition"
+      width="290px"
+    >
+      <v-date-picker-stub
+        data-z-date-field-picker=""
+        dayformat="[Function]"
+        eventcolor="warning"
+        firstdayofweek="1"
+        headerdateformat="[Function]"
+        locale="ja-JP"
+        localefirstdayofyear="0"
+        max="2028-05-17"
+        min="1920-01-01"
+        nexticon="$next"
+        nextmontharialabel="$vuetify.datePicker.nextMonthAriaLabel"
+        nextyeararialabel="$vuetify.datePicker.nextYearAriaLabel"
+        notitle="true"
+        previcon="$prev"
+        prevmontharialabel="$vuetify.datePicker.prevMonthAriaLabel"
+        prevyeararialabel="$vuetify.datePicker.prevYearAriaLabel"
+        selecteditemstext="$vuetify.datePicker.itemsSelected"
+        showcurrent="true"
+        titledateformat="[Function]"
+        type="date"
+        value="1988-08-23"
+        width="290"
+        yearformat="[Function]"
+      >
+        <v-spacer-stub
+          tag="div"
+        />
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-clear=""
+          text=""
+        >
+          クリア
+        </a>
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-cancel=""
+          text=""
+        >
+          キャンセル
+        </a>
+      </v-date-picker-stub>
+    </v-dialog-stub>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue submit z-dws-certification-form should display errors when server responses 400 Bad Request (error occurred in "expiredOn") 1`] = `
+<div
+  class="root"
+  data-agreement-expired-on="0"
+  data-z-form-card-item=""
+>
+  <div
+    class="z-date-field"
+  >
+    <div
+      class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--is-readonly v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+    >
+      <div
+        class="v-input__control"
+      >
+        <div
+          class="v-input__slot"
+          style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+        >
+          <fieldset
+            aria-hidden="true"
+          >
+            <legend
+              style="width: -24px;"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+          <div
+            class="v-text-field__slot"
+          >
+            <label
+              class="v-label v-label--active theme--light error--text"
+              style="left: 0px; position: absolute;"
+            >
+              当該契約支給量によるサービス提供終了日
+            </label>
+            <input
+              readonly="readonly"
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          class="v-text-field__details"
+        >
+          <div
+            class="v-messages theme--light error--text"
+            role="alert"
+          >
+            <transition-group-stub
+              class="v-messages__wrapper"
+              name="message-transition"
+              tag="div"
+            >
+              <div
+                class="v-messages__message"
+              >
+                当該契約支給量によるサービス提供終了日を入力してください。
+              </div>
+            </transition-group-stub>
+          </div>
+        </div>
+      </div>
+    </div>
+    <v-dialog-stub
+      closedelay="0"
+      contentclass=""
+      data-z-date-field-dialog=""
+      opendelay="0"
+      origin="center center"
+      retainfocus="true"
+      transition="dialog-transition"
+      width="290px"
+    >
+      <v-date-picker-stub
+        data-z-date-field-picker=""
+        dayformat="[Function]"
+        eventcolor="warning"
+        firstdayofweek="1"
+        headerdateformat="[Function]"
+        locale="ja-JP"
+        localefirstdayofyear="0"
+        max="2028-05-17"
+        min="1920-01-01"
+        nexticon="$next"
+        nextmontharialabel="$vuetify.datePicker.nextMonthAriaLabel"
+        nextyeararialabel="$vuetify.datePicker.nextYearAriaLabel"
+        notitle="true"
+        previcon="$prev"
+        prevmontharialabel="$vuetify.datePicker.prevMonthAriaLabel"
+        prevyeararialabel="$vuetify.datePicker.prevYearAriaLabel"
+        selecteditemstext="$vuetify.datePicker.itemsSelected"
+        showcurrent="true"
+        titledateformat="[Function]"
+        type="date"
+        value="1998-12-27"
+        width="290"
+        yearformat="[Function]"
+      >
+        <v-spacer-stub
+          tag="div"
+        />
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-clear=""
+          text=""
+        >
+          クリア
+        </a>
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-cancel=""
+          text=""
+        >
+          キャンセル
+        </a>
+      </v-date-picker-stub>
+    </v-dialog-stub>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue submit z-dws-certification-form should display errors when server responses 400 Bad Request (error occurred in "grantedAmount") 1`] = `
+<div
+  class="root"
+  data-grant-granted-amount="0"
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input v-textarea v-textarea--auto-grow v-textarea--no-resize v-input--has-state v-input--is-label-active v-input--is-dirty theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        class="v-input__slot"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-text-field__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            支給量等 *
+          </label>
+          <textarea
+            rows="3"
+          />
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              支給量等を入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue submit z-dws-certification-form should display errors when server responses 400 Bad Request (error occurred in "indexNumber") 1`] = `
+<div
+  class="root"
+  data-agreement-index-number="0"
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        class="v-input__slot"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-text-field__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            番号 *
+          </label>
+          <input
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              番号を入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue submit z-dws-certification-form should display errors when server responses 400 Bad Request (error occurred in "issuedOn") 1`] = `
+<div
+  class="root"
+  data-issued-on=""
+  data-z-form-card-item=""
+>
+  <div
+    class="z-date-field"
+  >
+    <div
+      class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--is-readonly v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+    >
+      <div
+        class="v-input__control"
+      >
+        <div
+          class="v-input__slot"
+          style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+        >
+          <fieldset
+            aria-hidden="true"
+          >
+            <legend
+              style="width: -24px;"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+          <div
+            class="v-text-field__slot"
+          >
+            <label
+              class="v-label v-label--active theme--light error--text"
+              style="left: 0px; position: absolute;"
+            >
+              交付年月日 *
+            </label>
+            <input
+              readonly="readonly"
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          class="v-text-field__details"
+        >
+          <div
+            class="v-messages theme--light error--text"
+            role="alert"
+          >
+            <transition-group-stub
+              class="v-messages__wrapper"
+              name="message-transition"
+              tag="div"
+            >
+              <div
+                class="v-messages__message"
+              >
+                交付年月日を入力してください。
+              </div>
+            </transition-group-stub>
+          </div>
+        </div>
+      </div>
+    </div>
+    <v-dialog-stub
+      closedelay="0"
+      contentclass=""
+      data-z-date-field-dialog=""
+      opendelay="0"
+      origin="center center"
+      retainfocus="true"
+      transition="dialog-transition"
+      width="290px"
+    >
+      <v-date-picker-stub
+        data-z-date-field-picker=""
+        dayformat="[Function]"
+        eventcolor="warning"
+        firstdayofweek="1"
+        headerdateformat="[Function]"
+        locale="ja-JP"
+        localefirstdayofyear="0"
+        max="2028-05-17"
+        min="1920-01-01"
+        nexticon="$next"
+        nextmontharialabel="$vuetify.datePicker.nextMonthAriaLabel"
+        nextyeararialabel="$vuetify.datePicker.nextYearAriaLabel"
+        notitle="true"
+        previcon="$prev"
+        prevmontharialabel="$vuetify.datePicker.prevMonthAriaLabel"
+        prevyeararialabel="$vuetify.datePicker.prevYearAriaLabel"
+        selecteditemstext="$vuetify.datePicker.itemsSelected"
+        showcurrent="true"
+        titledateformat="[Function]"
+        type="date"
+        value="1986-11-27"
+        width="290"
+        yearformat="[Function]"
+      >
+        <v-spacer-stub
+          tag="div"
+        />
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-clear=""
+          text=""
+        >
+          クリア
+        </a>
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-cancel=""
+          text=""
+        >
+          キャンセル
+        </a>
+      </v-date-picker-stub>
+    </v-dialog-stub>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue submit z-dws-certification-form should display errors when server responses 400 Bad Request (error occurred in "officeId") 1`] = `
+<div
+  class="root"
+  data-agreement-office-id="0"
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined v-select v-autocomplete error--text"
+    error-messages="事業所を入力してください。"
+    label="事業所 *"
+    value="8"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        aria-expanded="false"
+        aria-haspopup="listbox"
+        class="v-input__slot"
+        role="combobox"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-select__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            事業所 *
+          </label>
+          <input
+            autocomplete="off"
+            type="text"
+          />
+          <div
+            class="v-input__append-inner"
+          >
+            <div
+              class="v-input__icon v-input__icon--append"
+            >
+              <i
+                aria-hidden="true"
+                class="v-icon notranslate mdi mdi-menu-down theme--light error--text"
+              />
+            </div>
+          </div>
+          <input
+            type="hidden"
+            value="8"
+          />
+        </div>
+        <div
+          class="v-menu"
+        >
+          <!---->
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              事業所を入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue submit z-dws-certification-form should display errors when server responses 400 Bad Request (error occurred in "paymentAmount") 1`] = `
+<div
+  class="root"
+  data-agreement-payment-amount="0"
+  data-z-form-card-item=""
+>
+  <div
+    class="z-hour-and-minute-field"
+  >
+    <z-flex-stub
+      class="slot"
+    >
+      <div
+        class="item"
+      >
+        <div
+          class="v-input z-text-field--numeric v-input--has-state v-input--hide-details v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+        >
+          <div
+            class="v-input__control"
+          >
+            <div
+              class="v-input__slot"
+              style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+            >
+              <fieldset
+                aria-hidden="true"
+              >
+                <legend
+                  style="width: -24px;"
+                >
+                  <span
+                    class="notranslate"
+                  >
+                    ​
+                  </span>
+                </legend>
+              </fieldset>
+              <div
+                class="v-text-field__slot"
+              >
+                <label
+                  class="v-label v-label--active theme--light error--text"
+                  style="left: 0px; position: absolute;"
+                >
+                  契約支給量 *
+                </label>
+                <input
+                  data-hour-text-field=""
+                  type="text"
+                />
+                <div
+                  class="v-text-field__suffix"
+                >
+                  時間
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="item"
+      >
+        <div
+          class="v-input z-text-field--numeric v-input--has-state v-input--hide-details v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+        >
+          <div
+            class="v-input__control"
+          >
+            <div
+              class="v-input__slot"
+              style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+            >
+              <fieldset
+                aria-hidden="true"
+              >
+                <legend
+                  style="width: 0px;"
+                >
+                  <span
+                    class="notranslate"
+                  >
+                    ​
+                  </span>
+                </legend>
+              </fieldset>
+              <div
+                class="v-text-field__slot"
+              >
+                <input
+                  data-minute-text-field=""
+                  max-length="2"
+                  type="text"
+                />
+                <div
+                  class="v-text-field__suffix"
+                >
+                  分
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </z-flex-stub>
+    <div
+      class="details"
+    >
+      <v-messages-stub
+        color="error"
+        value="契約支給量を入力してください。"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/dws-certifications/_certificationId/edit.vue submit z-dws-certification-form should display errors when server responses 400 Bad Request (error occurred in "status") 1`] = `
+<div
+  class="root"
+  data-status=""
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined v-select error--text"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        aria-expanded="false"
+        aria-haspopup="listbox"
+        class="v-input__slot"
+        role="button"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-select__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            認定区分 *
+          </label>
+          <div
+            class="v-select__selections"
+          >
+            <div
+              class="v-select__selection v-select__selection--comma"
+            >
+              申請中
+            </div>
+            <input
+              aria-readonly="false"
+              autocomplete="off"
+              readonly="readonly"
+              type="text"
+            />
+          </div>
+          <div
+            class="v-input__append-inner"
+          >
+            <div
+              class="v-input__icon v-input__icon--append"
+            >
+              <i
+                aria-hidden="true"
+                class="v-icon notranslate mdi mdi-menu-down theme--light error--text"
+              />
+            </div>
+          </div>
+          <input
+            type="hidden"
+            value="1"
+          />
+        </div>
+        <div
+          class="v-menu"
+        >
+          <!---->
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              認定区分を入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

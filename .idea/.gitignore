@@ -1,0 +1,19 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# Others
+/inspectionProfiles/
+/jsLinters/
+/libraries/
+codeception.xml
+misc.xml
+modules.xml
+php.xml
+php-test-framework.xml
+vcs.xml
+zinger.iml

@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-breadcrumbs.vue should be rendered correctly 1`] = `
+<div
+  class="d-flex v-sheet theme--light breadcrumbs"
+  data-z-breadcrumbs=""
+  style="height: 32px;"
+>
+  <ul
+    class="v-breadcrumbs theme--light"
+  >
+    <li>
+      <div
+        class="v-breadcrumbs__item"
+      >
+        パンくず1
+      </div>
+    </li>
+    <li
+      class="v-breadcrumbs__divider"
+    >
+      ▸
+    </li>
+    <li>
+      <div
+        class="v-breadcrumbs__item"
+      >
+        パンくず2
+      </div>
+    </li>
+    <li
+      class="v-breadcrumbs__divider"
+    >
+      ▸
+    </li>
+    <li>
+      <div
+        class="v-breadcrumbs__item"
+      >
+        パンくず3
+      </div>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`z-breadcrumbs.vue should be updated when $breadcrumbs is updated 1`] = `
+<div
+  class="d-flex v-sheet theme--light breadcrumbs"
+  data-z-breadcrumbs=""
+  style="height: 32px;"
+>
+  <ul
+    class="v-breadcrumbs theme--light"
+  >
+    <li>
+      <a
+        class="v-breadcrumbs__item"
+      >
+        新しいパンくず1
+      </a>
+    </li>
+    <li
+      class="v-breadcrumbs__divider"
+    >
+      ▸
+    </li>
+    <li>
+      <a
+        class="v-breadcrumbs__item"
+      >
+        新しいパンくず2
+      </a>
+    </li>
+    <li
+      class="v-breadcrumbs__divider"
+    >
+      ▸
+    </li>
+    <li>
+      <div
+        class="v-breadcrumbs__item v-breadcrumbs__item--disabled"
+      >
+        新しいパンくず3
+      </div>
+    </li>
+  </ul>
+</div>
+`;

@@ -1,0 +1,12 @@
+{
+    "name": "\u4e8b\u696d\u6240\u30c6\u30b9\u30c8",
+    "corporationName": "\u4e8b\u696d\u6240\u30c6\u30b9\u30c8",
+    "addr": {
+        "postcode": "164-0011",
+        "prefecture": 13,
+        "city": "\u4e2d\u91ce\u533a",
+        "street": "\u4e2d\u592e1-35-6",
+        "apartment": "\u30ec\u30c3\u30c1\u30d5\u30a3\u30fc\u30eb\u30c9\u4e2d\u91ce\u5742\u4e0a\u30d3\u30eb6F"
+    },
+    "tel": "012-245-6789"
+}

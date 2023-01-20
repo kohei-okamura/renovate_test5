@@ -1,0 +1,155 @@
+billings:
+    -
+        issuedOn: 2019年5月15日
+        office:
+            name: 事業所テスト
+            corporationName: 事業所テスト
+            addr:
+                postcode: 111-1111
+                prefecture: 37
+                city: 事業所市
+                street: 事業所1-2-8-9
+                apartment: 事業所建物
+            tel: 012-245-6789
+        period:
+            start: '2021-04-01T00:00:00+09:00'
+            end: '2021-04-30T23:59:59+09:00'
+        user:
+            id: 1
+            organizationId: 5
+            name:
+                displayName: '固定 値用'
+                phoneticDisplayName: 'こてい ちよう'
+                familyName: 固定
+                givenName: 値用
+                phoneticFamilyName: こてい
+                phoneticGivenName: ちよう
+            sex: 1
+            birthday: '2019-05-15T00:00:00+09:00'
+            addr:
+                postcode: '1640000'
+                prefecture: 13
+                city: 中野区
+                street: ここどこ町
+                apartment: 架空建物
+            location:
+                lat: 35.696929
+                lng: 139.684812
+            contacts:
+                -
+                    tel: 01-2345-6789
+                    relationship: 20
+                    name: 田中花子
+            bankAccountId: 21
+            billingDestination:
+                destination: 2
+                paymentMethod: 1
+                contractNumber: '0123456789'
+                corporationName: ユースタイルラボラトリー株式会社
+                agentName: 山田太郎
+                addr:
+                    postcode: 164-0011
+                    prefecture: 13
+                    city: 中野区
+                    street: 中央1-35-6
+                    apartment: レッチフィールド中野坂上ビル6F
+                tel: 03-1234-5678
+            isEnabled: true
+            version: 1
+            createdAt: '2019-05-15T00:00:00+09:00'
+            updatedAt: '2019-05-15T00:00:00+09:00'
+        billingItems:
+            -
+                serviceCode: '111000'
+                serviceName: 適当な居宅サービス
+                unitScore: '2,000'
+                count: '20'
+                totalScore: '2,000'
+            -
+                serviceCode: '111111'
+                serviceName: 身体日0.5
+                unitScore: '1,000'
+                count: '20'
+                totalScore: '2,000'
+        itemsAmounts:
+            score: '100'
+            unitCost: '10.00'
+            subtotalCost: '1,000'
+            benefitAmount: '2,000'
+            copayWithTax: '2,200'
+        page: 1
+        maxPage: 1
+    -
+        issuedOn: 2019年5月15日
+        office:
+            name: 事業所テスト
+            corporationName: 事業所テスト
+            addr:
+                postcode: 111-1111
+                prefecture: 37
+                city: 事業所市
+                street: 事業所1-2-8-9
+                apartment: 事業所建物
+            tel: 012-245-6789
+        period:
+            start: '2021-04-01T00:00:00+09:00'
+            end: '2021-04-30T23:59:59+09:00'
+        user:
+            id: 1
+            organizationId: 5
+            name:
+                displayName: '固定 値用'
+                phoneticDisplayName: 'こてい ちよう'
+                familyName: 固定
+                givenName: 値用
+                phoneticFamilyName: こてい
+                phoneticGivenName: ちよう
+            sex: 1
+            birthday: '2019-05-15T00:00:00+09:00'
+            addr:
+                postcode: '1640000'
+                prefecture: 13
+                city: 中野区
+                street: ここどこ町
+                apartment: 架空建物
+            location:
+                lat: 35.696929
+                lng: 139.684812
+            contacts:
+                -
+                    tel: 01-2345-6789
+                    relationship: 20
+                    name: 田中花子
+            bankAccountId: 21
+            billingDestination:
+                destination: 2
+                paymentMethod: 1
+                contractNumber: '0123456789'
+                corporationName: ユースタイルラボラトリー株式会社
+                agentName: 山田太郎
+                addr:
+                    postcode: 164-0011
+                    prefecture: 13
+                    city: 中野区
+                    street: 中央1-35-6
+                    apartment: レッチフィールド中野坂上ビル6F
+                tel: 03-1234-5678
+            isEnabled: true
+            version: 1
+            createdAt: '2019-05-15T00:00:00+09:00'
+            updatedAt: '2019-05-15T00:00:00+09:00'
+        billingItems:
+            -
+                serviceCode: '125010'
+                serviceName: ''
+                unitScore: '100'
+                count: '30'
+                totalScore: '3,000'
+        itemsAmounts:
+            score: '100'
+            unitCost: '10.00'
+            subtotalCost: '1,000'
+            benefitAmount: '2,000'
+            copayWithTax: '2,200'
+        page: 1
+        maxPage: 1

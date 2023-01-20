@@ -1,0 +1,46 @@
+<?php
+/*
+ * Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+ * UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+ */
+declare(strict_types=1);
+
+namespace Tests\Unit\Mixins;
+
+use Mockery;
+use UseCase\User\CreateUserLtcsCalcSpecUseCase;
+
+/**
+ * {@link \UseCase\User\CreateUserLtcsCalcSpecUseCase} Mixin.
+ *
+ * @mixin \Tests\Unit\Helpers\UnitSupport
+ */
+trait CreateUserLtcsCalcSpecUseCaseMixin
+{
+    /**
+     * @var \Mockery\MockInterface|\UseCase\User\CreateUserLtcsCalcSpecUseCase
+     */
+    protected $createUserLtcsCalcSpecUseCase;
+
+    /**
+     * {@link \UseCase\User\CreateUserLtcsCalcSpecUseCase} に関する初期化・終了処理を登録する.
+     *
+     * @return void
+     */
+    public static function mixinCreateUserLtcsCalcSpecUseCase(): void
+    {
+        static::beforeEachTest(function ($self): void {
+            assert($self instanceof self);
+            app()->bind(
+                CreateUserLtcsCalcSpecUseCase::class,
+                fn () => $self->createUserLtcsCalcSpecUseCase
+            );
+        });
+        static::beforeEachSpec(function ($self): void {
+            assert($self instanceof self);
+            $self->createUserLtcsCalcSpecUseCase = Mockery::mock(
+                CreateUserLtcsCalcSpecUseCase::class
+            );
+        });
+    }
+}

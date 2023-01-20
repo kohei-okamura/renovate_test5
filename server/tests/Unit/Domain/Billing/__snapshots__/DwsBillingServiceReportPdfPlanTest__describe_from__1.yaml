@@ -1,0 +1,7 @@
+physicalCare: '1'
+accompanyWithPhysicalCare: '2'
+housework: '3'
+accompany: '4'
+accessibleTaxi: '5'
+visitingCareForPwsd: ''
+outingSupportForPwsd: ''

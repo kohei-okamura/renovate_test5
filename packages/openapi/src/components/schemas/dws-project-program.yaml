@@ -1,0 +1,41 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 障害福祉サービス：計画：週間サービス計画
+type: object
+properties:
+  summaryIndex:
+    description: 週間サービス計画番号
+    type: number
+  category:
+    $ref: '#/components/schemas/DwsProjectServiceCategory'
+  recurrence:
+    $ref: '#/components/schemas/Recurrence'
+  dayOfWeeks:
+    description: 曜日
+    type: array
+    items:
+      $ref: '#/components/schemas/DayOfWeek'
+  slot:
+    $ref: '#/components/schemas/TimeRange'
+  headcount:
+    description: 提供人数
+    type: number
+  ownExpenseProgramId:
+    description: 自費サービス情報 ID
+    type: object
+  options:
+    description: サービスオプション
+    type: array
+    items:
+      $ref: '#/components/schemas/ServiceOption'
+  contents:
+    description: サービス詳細
+    type: array
+    items:
+      $ref: '#/components/schemas/DwsProjectContent'
+  note:
+    description: 備考
+    type: string

@@ -1,0 +1,207 @@
+{
+    "office": {
+        "officeId": 1,
+        "code": "0123456789",
+        "name": "\u4e8b\u696d\u6240\u30c6\u30b9\u30c8",
+        "abbr": "\u4e8b\u30c6\u30b9",
+        "addr": {
+            "postcode": "164-0012",
+            "prefecture": 13,
+            "city": "\u4e2d\u91ce\u533a",
+            "street": "\u672c\u753a1\u4e01\u76ee1801",
+            "apartment": ""
+        },
+        "tel": "090-0000-0000"
+    },
+    "cityCode": "123456",
+    "providedIn": {
+        "japaneseCalender": "20",
+        "year": "20",
+        "month": "04",
+        "day": "01"
+    },
+    "subsidyCityCode": 5349,
+    "user": {
+        "userId": 4,
+        "dwsCertificationId": 3,
+        "dwsNumber": "0123456789",
+        "name": {
+            "displayName": "\u5185\u85e4 \u52c7\u4ecb",
+            "phoneticDisplayName": "\u30ca\u30a4\u30c8\u30a6 \u30e6\u30a6\u30b9\u30b1",
+            "familyName": "\u5185\u85e4",
+            "givenName": "\u52c7\u4ecb",
+            "phoneticFamilyName": "\u30ca\u30a4\u30c8\u30a6",
+            "phoneticGivenName": "\u30e6\u30a6\u30b9\u30b1"
+        },
+        "childName": {
+            "displayName": " ",
+            "phoneticDisplayName": " ",
+            "familyName": "",
+            "givenName": "",
+            "phoneticFamilyName": "",
+            "phoneticGivenName": ""
+        },
+        "copayLimit": 0
+    },
+    "dwsAreaGradeName": "\u5730\u57df\u533a\u5206\u540d\u30c6\u30b9\u30c8",
+    "copayLimit": "    0",
+    "copayCoordination": {
+        "code": "          ",
+        "name": "",
+        "result": " ",
+        "amount": "     "
+    },
+    "daysRecords": [
+        {
+            "dwsServiceDivisionCode": "11",
+            "startedOn": {
+                "japaneseCalender": "20",
+                "year": "21",
+                "month": "04",
+                "day": "01"
+            },
+            "terminatedOn": {
+                "japaneseCalender": "  ",
+                "year": "  ",
+                "month": "  ",
+                "day": "  "
+            },
+            "serviceDays": "10"
+        }
+    ],
+    "items": [
+        {
+            "serviceCode": "123456",
+            "serviceCodeCategory": 111000,
+            "unitScore": 100,
+            "count": 1,
+            "totalScore": 100
+        },
+        {
+            "serviceCode": "123456",
+            "serviceCodeCategory": 111000,
+            "unitScore": 100,
+            "count": 1,
+            "totalScore": 100
+        },
+        {
+            "serviceCode": "123456",
+            "serviceCodeCategory": 111000,
+            "unitScore": 100,
+            "count": 1,
+            "totalScore": 100
+        },
+        {
+            "serviceCode": "123456",
+            "serviceCodeCategory": 111000,
+            "unitScore": 100,
+            "count": 1,
+            "totalScore": 100
+        },
+        {
+            "serviceCode": "123456",
+            "serviceCodeCategory": 111000,
+            "unitScore": 100,
+            "count": 1,
+            "totalScore": 100
+        },
+        {
+            "serviceCode": "123456",
+            "serviceCodeCategory": 111000,
+            "unitScore": 100,
+            "count": 1,
+            "totalScore": 100
+        },
+        {
+            "serviceCode": "123456",
+            "serviceCodeCategory": 111000,
+            "unitScore": 100,
+            "count": 1,
+            "totalScore": 100
+        },
+        {
+            "serviceCode": "123456",
+            "serviceCodeCategory": 111000,
+            "unitScore": 100,
+            "count": 1,
+            "totalScore": 100
+        },
+        {
+            "serviceCode": "123456",
+            "serviceCodeCategory": 111000,
+            "unitScore": 100,
+            "count": 1,
+            "totalScore": 100
+        },
+        {
+            "serviceCode": "123456",
+            "serviceCodeCategory": 111000,
+            "unitScore": 100,
+            "count": 1,
+            "totalScore": 100
+        },
+        {
+            "serviceCode": "123456",
+            "serviceCodeCategory": 111000,
+            "unitScore": 100,
+            "count": 1,
+            "totalScore": 100
+        },
+        {
+            "serviceCode": "123456",
+            "serviceCodeCategory": 111000,
+            "unitScore": 100,
+            "count": 1,
+            "totalScore": 100
+        },
+        {
+            "serviceCode": "123456",
+            "serviceCodeCategory": 111000,
+            "unitScore": 100,
+            "count": 1,
+            "totalScore": 100
+        },
+        {
+            "serviceCode": "123456",
+            "serviceCodeCategory": 111000,
+            "unitScore": 100,
+            "count": 1,
+            "totalScore": 100
+        },
+        {
+            "serviceCode": "123456",
+            "serviceCodeCategory": 111000,
+            "unitScore": 100,
+            "count": 1,
+            "totalScore": 100
+        }
+    ],
+    "aggregates": [
+        {
+            "serviceDivisionCode": "11",
+            "resolvedServiceDivisionCode": "\u5c45\u5b85\u4ecb\u8b77",
+            "serviceDays": "14",
+            "subtotalScore": "  7028",
+            "unitCost": "1120",
+            "subtotalFee": " 78713",
+            "unmanagedCopay": "  7871",
+            "managedCopay": "  7871",
+            "cappedCopay": "     0",
+            "adjustedCopay": "      ",
+            "coordinatedCopay": "      ",
+            "subtotalCopay": "     0",
+            "subtotalBenefit": " 78713",
+            "subtotalSubsidy": "      "
+        }
+    ],
+    "totalScore": "  7028",
+    "totalFee": " 78713",
+    "totalCappedCopay": "     0",
+    "totalAdjustedCopay": "      ",
+    "totalCoordinatedCopay": "      ",
+    "totalCopay": "     0",
+    "totalBenefit": " 78713",
+    "totalSubsidy": "      ",
+    "exemptionMeasure": 1,
+    "exemptionTarget": 1
+}

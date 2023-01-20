@@ -1,0 +1,35 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 郵便番号
+type: object
+properties:
+  prefecture_jis_code:
+    description: 都道府県 JIS コード
+    type: string
+  city_jis_code:
+    description: 市区町村 JIS コード
+    type: string
+  zip_code:
+    description: 郵便番号
+    type: string
+  prefecture_name_kana:
+    description: 都道府県（カナ）
+    type: string
+  city_name_kana:
+    description: 市区町村（カナ）
+    type: string
+  town_name_kana:
+    description: 町名（カナ）
+    type: string
+  prefecture_name:
+    description: 都道府県
+    type: string
+  city_name:
+    description: 市区町村
+    type: string
+  town_name:
+    description: 町名
+    type: string

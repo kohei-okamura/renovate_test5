@@ -1,0 +1,22 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 要介護度（要介護状態区分等）
+name: LtcsLevel
+php:
+  enabled: true
+  namespace: LtcsInsCard
+  withResolver: true
+  traits:
+    - LtcsLevelSupport
+typescript:
+  enabled: true
+items:
+  - { description: 事業対象者, name: Target, value: 6 }
+  - { description: 要支援1, name: SupportLevel1, value: 12 }
+  - { description: 要支援2, name: SupportLevel2, value: 13 }
+  - { description: 要介護1, name: CareLevel1, value: 21 }
+  - { description: 要介護2, name: CareLevel2, value: 22 }
+  - { description: 要介護3, name: CareLevel3, value: 23 }
+  - { description: 要介護4, name: CareLevel4, value: 24 }
+  - { description: 要介護5, name: CareLevel5, value: 25 }

@@ -1,0 +1,114 @@
+-
+    userId: 1
+    disposition: 2
+    providedOn: '2021-01-07T00:00:00+09:00'
+    serviceCode:
+        serviceDivisionCode: '11'
+        serviceCategoryCode: '1411'
+    serviceCodeCategory: 111000
+    buildingSubtraction: 0
+    noteRequirement: 99
+    isAddition: false
+    isLimited: true
+    durationMinutes: 120
+    unitScore: 660
+    count: 1
+    wholeScore: 660
+    maxBenefitQuotaExcessScore: 0
+    maxBenefitExcessScore: 0
+    totalScore: 660
+-
+    userId: 1
+    disposition: 2
+    providedOn: '2021-01-14T00:00:00+09:00'
+    serviceCode:
+        serviceDivisionCode: '11'
+        serviceCategoryCode: '1411'
+    serviceCodeCategory: 111000
+    buildingSubtraction: 0
+    noteRequirement: 99
+    isAddition: false
+    isLimited: true
+    durationMinutes: 120
+    unitScore: 660
+    count: 1
+    wholeScore: 660
+    maxBenefitQuotaExcessScore: 0
+    maxBenefitExcessScore: 0
+    totalScore: 660
+-
+    userId: 1
+    disposition: 2
+    providedOn: '2021-01-21T00:00:00+09:00'
+    serviceCode:
+        serviceDivisionCode: '11'
+        serviceCategoryCode: '1411'
+    serviceCodeCategory: 111000
+    buildingSubtraction: 0
+    noteRequirement: 99
+    isAddition: false
+    isLimited: true
+    durationMinutes: 120
+    unitScore: 660
+    count: 1
+    wholeScore: 660
+    maxBenefitQuotaExcessScore: 0
+    maxBenefitExcessScore: 0
+    totalScore: 660
+-
+    userId: 1
+    disposition: 2
+    providedOn: '2021-01-28T00:00:00+09:00'
+    serviceCode:
+        serviceDivisionCode: '11'
+        serviceCategoryCode: '1411'
+    serviceCodeCategory: 111000
+    buildingSubtraction: 0
+    noteRequirement: 99
+    isAddition: false
+    isLimited: true
+    durationMinutes: 120
+    unitScore: 660
+    count: 1
+    wholeScore: 660
+    maxBenefitQuotaExcessScore: 0
+    maxBenefitExcessScore: 0
+    totalScore: 660
+-
+    userId: 1
+    disposition: 2
+    providedOn: '2022-08-04T00:00:00+09:00'
+    serviceCode:
+        serviceDivisionCode: '77'
+        serviceCategoryCode: '4946'
+    serviceCodeCategory: 113000
+    buildingSubtraction: 2
+    noteRequirement: 1
+    isAddition: true
+    isLimited: true
+    durationMinutes: 47
+    unitScore: 1
+    count: 1
+    wholeScore: 1
+    maxBenefitQuotaExcessScore: 0
+    maxBenefitExcessScore: 0
+    totalScore: 1
+-
+    userId: 1
+    disposition: 2
+    providedOn: '2021-01-31T23:59:59+09:00'
+    serviceCode:
+        serviceDivisionCode: '11'
+        serviceCategoryCode: '8100'
+    serviceCodeCategory: 990901
+    buildingSubtraction: 0
+    noteRequirement: 99
+    isAddition: true
+    isLimited: false
+    durationMinutes: 0
+    unitScore: 264
+    count: 1
+    wholeScore: 264
+    maxBenefitQuotaExcessScore: 0
+    maxBenefitExcessScore: 0
+    totalScore: 264

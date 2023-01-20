@@ -1,0 +1,17 @@
+officeName: 事業所名
+officeCode: '0123456'
+serviceName: '訪問介護 合計'
+serviceCode: '123456'
+unitScore: '0'
+count: '0'
+wholeScore: (0)
+maxBenefitQuotaExcessScore: (0)
+maxBenefitExcessScore: (0)
+scoreWithinMaxBenefitQuota: (0)
+scoreWithinMaxBenefit: (0)
+unitCost: '0.12'
+totalFeeForInsuranceOrBusiness: (0)
+benefitRate: (0)
+claimAmountForInsuranceOrBusiness: (0)
+copayForInsuranceOrBusiness: (0)
+copayWholeExpense: (0)

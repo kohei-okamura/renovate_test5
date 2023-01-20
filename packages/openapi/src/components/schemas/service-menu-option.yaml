@@ -1,0 +1,25 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 計画：サービス内容詳細
+type: object
+properties:
+  id:
+    description: サービス内容詳細 ID
+    type: object
+  serviceMenuId:
+    description: サービス内容 ID
+    type: object
+  name:
+    description: 名称
+    type: string
+  displayName:
+    description: 表示名
+    type: string
+  sortOrder:
+    description: 表示順
+    type: number
+  createdAt:
+    $ref: '#/components/schemas/DateLike'

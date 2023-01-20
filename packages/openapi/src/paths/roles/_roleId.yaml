@@ -1,0 +1,59 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+get:
+  summary: ロール取得
+  description: ロールを取得する。
+  parameters:
+    - $ref: '#/components/parameters/roleId'
+  responses:
+    '200':
+      description: 正常に処理が行われた場合
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              role:
+                $ref: '#/components/schemas/Role'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+    '404':
+      description: ロール ID に対応するロールが存在しない場合
+  tags:
+    - ロール
+put:
+  summary: ロール更新
+  description: ロールを更新する。
+  parameters:
+    - $ref: '#/components/parameters/roleId'
+  requestBody:
+    content:
+      application/json:
+        schema:
+          $ref: '#/components/schemas/RoleForm'
+  responses:
+    '200':
+      $ref: '#/components/responses/OK'
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+    '404':
+      description: ロール ID に対応するロールが存在しない場合
+  tags:
+    - ロール
+delete:
+  summary: ロール削除
+  description: ロールを削除する。
+  parameters:
+    - $ref: '#/components/parameters/roleId'
+  responses:
+    '200':
+      $ref: '#/components/responses/OK'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+    '404':
+      description: ロール ID に対応するロールが存在しない場合
+  tags:
+    - ロール

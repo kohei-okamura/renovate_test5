@@ -1,0 +1,24 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 障害福祉サービス：請求：利用者
+type: object
+properties:
+  userId:
+    description: 利用者 ID
+    type: object
+  dwsCertificationId:
+    description: 障害福祉サービス受給者証 ID
+    type: object
+  dwsNumber:
+    description: 受給者番号
+    type: string
+  name:
+    $ref: '#/components/schemas/StructuredName'
+  childName:
+    $ref: '#/components/schemas/StructuredName'
+  copayLimit:
+    description: 利用者負担上限月額
+    type: number

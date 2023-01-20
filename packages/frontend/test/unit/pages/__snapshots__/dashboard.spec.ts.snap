@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/dashboard.vue should be rendered correctly 1`] = `
+<div
+  breadcrumbs="[object Object]"
+  class="page-dashboard-index z-page-stub"
+  compact="compact"
+>
+  <div
+    class="z-page-stub-slot-tabs"
+  />
+  <div
+    class="z-page-stub-slot-title"
+  />
+  <z-my-shifts-card-stub />
+</div>
+`;

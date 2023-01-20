@@ -1,0 +1,28 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+post:
+  summary: 利用者請求入金日削除
+  description: 複数の利用者請求に対して一括で入金日を削除する。
+  requestBody:
+    content:
+      application/json:
+        schema:
+          properties:
+            ids:
+              description: 利用者請求 ID
+              type: array
+              items:
+                $ref: '#/components/schemas/UserBillingId'
+              minItems: 1
+          required:
+            - ids
+  responses:
+    '202':
+      $ref: '#/components/responses/JobCreated'
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+  tags:
+    - 利用者請求

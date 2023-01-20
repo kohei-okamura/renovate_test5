@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-subheader.vue should be rendered correctly 1`] = `
+<v-subheader-stub
+  class="root blue"
+  data-z-subheader=""
+>
+  <div
+    class="inner"
+  >
+    This is subtitle
+  </div>
+</v-subheader-stub>
+`;

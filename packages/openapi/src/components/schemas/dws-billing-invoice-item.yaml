@@ -1,0 +1,30 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 障害福祉サービス：請求書：明細
+type: object
+properties:
+  paymentCategory:
+    $ref: '#/components/schemas/DwsBillingPaymentCategory'
+  serviceDivisionCode:
+    $ref: '#/components/schemas/DwsServiceDivisionCode'
+  subtotalCount:
+    description: 件数
+    type: number
+  subtotalScore:
+    description: 単位数
+    type: number
+  subtotalFee:
+    description: 費用合計
+    type: number
+  subtotalBenefit:
+    description: 給付費請求額
+    type: number
+  subtotalCopay:
+    description: 利用者負担額
+    type: number
+  subtotalSubsidy:
+    description: 自治体助成額
+    type: number

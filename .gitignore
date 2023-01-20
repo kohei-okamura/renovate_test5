@@ -1,0 +1,16 @@
+/node_modules
+/vendor
+
+**/node_modules
+
+.actrc
+.eslintcache
+.php-cs-fixer.cache
+.secrets
+_ide_helper.php
+docker-compose.override.yaml
+
+~*.xlsx
+*.log
+*.tsbuildinfo
+sw.*

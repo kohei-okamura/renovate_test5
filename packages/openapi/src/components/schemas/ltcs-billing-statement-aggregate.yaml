@@ -1,0 +1,29 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 介護保険サービス：明細書：集計
+type: object
+properties:
+  serviceDivisionCode:
+    $ref: '#/components/schemas/LtcsServiceDivisionCode'
+  serviceDays:
+    description: サービス実日数
+    type: number
+  plannedScore:
+    description: 計画単位数
+    type: number
+  managedScore:
+    description: 限度額管理対象単位数
+    type: number
+  unmanagedScore:
+    description: 限度額管理対象外単位数
+    type: number
+  insurance:
+    $ref: '#/components/schemas/LtcsBillingStatementAggregateInsurance'
+  subsidies:
+    description: 公費集計結果
+    type: array
+    items:
+      $ref: '#/components/schemas/LtcsBillingStatementAggregateSubsidy'

@@ -1,0 +1,52 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 介護保険サービス：明細書
+type: object
+properties:
+  id:
+    description: 明細書 ID
+    type: object
+  billingId:
+    description: 請求 ID
+    type: object
+  bundleId:
+    description: 請求単位 ID
+    type: object
+  user:
+    $ref: '#/components/schemas/LtcsBillingUser'
+  carePlanAuthor:
+    $ref: '#/components/schemas/LtcsCarePlanAuthor'
+  agreedOn:
+    $ref: '#/components/schemas/DateLike'
+  expiredOn:
+    $ref: '#/components/schemas/DateLike'
+  expiredReason:
+    $ref: '#/components/schemas/LtcsExpiredReason'
+  insurance:
+    $ref: '#/components/schemas/LtcsBillingStatementInsurance'
+  subsidies:
+    description: 公費請求内容
+    type: array
+    items:
+      $ref: '#/components/schemas/LtcsBillingStatementSubsidy'
+  items:
+    description: 明細
+    type: array
+    items:
+      $ref: '#/components/schemas/LtcsBillingStatementItem'
+  aggregates:
+    description: 集計
+    type: array
+    items:
+      $ref: '#/components/schemas/LtcsBillingStatementAggregate'
+  status:
+    $ref: '#/components/schemas/LtcsBillingStatus'
+  fixedAt:
+    $ref: '#/components/schemas/DateLike'
+  createdAt:
+    $ref: '#/components/schemas/DateLike'
+  updatedAt:
+    $ref: '#/components/schemas/DateLike'

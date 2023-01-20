@@ -1,0 +1,11 @@
+{
+    "bankCode": "0005",
+    "bankBranchCode": "798",
+    "bankAccountType": 1,
+    "bankAccountNumber": "1234567",
+    "bankAccountHolder": "\uff80\uff85\uff76 \uff80\uff9b\uff73",
+    "amount": 198000,
+    "dataRecordCode": 1,
+    "clientNumber": "12345678901234567890",
+    "withdrawalResultCode": 0
+}

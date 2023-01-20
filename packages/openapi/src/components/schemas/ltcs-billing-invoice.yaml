@@ -1,0 +1,44 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 介護保険サービス：請求書
+type: object
+properties:
+  id:
+    description: 請求書 ID
+    type: object
+  billingId:
+    description: 請求 ID
+    type: object
+  bundleId:
+    description: 請求単位 ID
+    type: object
+  isSubsidy:
+    description: 公費フラグ
+    type: boolean
+  defrayerCategory:
+    $ref: '#/components/schemas/DefrayerCategory'
+  statementCount:
+    description: サービス費用：件数
+    type: number
+  totalScore:
+    description: サービス費用：単位数
+    type: number
+  totalFee:
+    description: サービス費用：費用合計
+    type: number
+  insuranceAmount:
+    description: サービス費用：保険請求額
+    type: number
+  subsidyAmount:
+    description: サービス費用：公費請求額
+    type: number
+  copayAmount:
+    description: サービス費用：利用者負担
+    type: number
+  createdAt:
+    $ref: '#/components/schemas/DateLike'
+  updatedAt:
+    $ref: '#/components/schemas/DateLike'

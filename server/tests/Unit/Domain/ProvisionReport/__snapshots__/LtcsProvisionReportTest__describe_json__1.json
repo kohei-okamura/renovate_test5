@@ -1,0 +1,39 @@
+{
+    "id": 1,
+    "userId": 1,
+    "officeId": 1,
+    "contractId": 1,
+    "providedIn": "2019-05-15T00:00:00+0900",
+    "entries": [
+        {
+            "ownExpenseProgramId": null,
+            "slot": null,
+            "timeframe": null,
+            "category": null,
+            "amounts": null,
+            "headcount": null,
+            "serviceCode": null,
+            "options": null,
+            "note": null,
+            "plans": null,
+            "results": null
+        }
+    ],
+    "specifiedOfficeAddition": 1,
+    "treatmentImprovementAddition": 1,
+    "specifiedTreatmentImprovementAddition": 1,
+    "baseIncreaseSupportAddition": 1,
+    "locationAddition": 1,
+    "plan": {
+        "maxBenefitExcessScore": 100,
+        "maxBenefitQuotaExcessScore": 200
+    },
+    "result": {
+        "maxBenefitExcessScore": 100,
+        "maxBenefitQuotaExcessScore": 200
+    },
+    "status": 3,
+    "fixedAt": null,
+    "createdAt": "2019-05-15T00:00:00+0900",
+    "updatedAt": "2019-05-15T00:00:00+0900"
+}

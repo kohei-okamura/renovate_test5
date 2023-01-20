@@ -1,0 +1,14 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 介護保険サービス：同一建物減算区分
+name: LtcsBuildingSubtraction
+php:
+  enabled: true
+  namespace: ProvisionReport
+typescript:
+  enabled: false
+items:
+  - { description: なし, name: None, value: 0 }
+  - { description: 同一建物減算1, name: Subtraction1, value: 1 }
+  - { description: 同一建物減算2, name: Subtraction2, value: 2 }

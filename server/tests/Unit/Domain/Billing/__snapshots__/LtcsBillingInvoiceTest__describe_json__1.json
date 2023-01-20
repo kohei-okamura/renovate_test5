@@ -1,0 +1,15 @@
+{
+    "id": 95169479,
+    "billingId": 93152532,
+    "bundleId": 78289017,
+    "isSubsidy": false,
+    "defrayerCategory": 25,
+    "statementCount": 46631,
+    "totalScore": 10480,
+    "totalFee": 85420,
+    "insuranceAmount": 55191,
+    "subsidyAmount": 33569,
+    "copayAmount": 80345,
+    "createdAt": "2013-01-21T11:16:21+0900",
+    "updatedAt": "2017-02-04T16:09:56+0900"
+}

@@ -1,0 +1,15 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 送信タイプ
+name: CallingType
+php:
+  enabled: true
+  namespace: Calling
+typescript:
+  enabled: false
+items:
+  - { description: メール, name: mail, value: 1 }
+  - { description: SMS, name: sms, value: 2 }
+  - { description: 電話呼び出し, name: telephoneCall, value: 3 }
+  - { description: 管理スタッフ電話呼び出し, name: telephoneCallAssigner, value: 4 }

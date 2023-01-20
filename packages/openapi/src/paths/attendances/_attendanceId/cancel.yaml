@@ -1,0 +1,30 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+post:
+  summary: 勤務実績キャンセル
+  description: 勤務実績をキャンセルする。
+  parameters:
+    - $ref: '#/components/parameters/attendanceId'
+  requestBody:
+    content:
+      application/json:
+        schema:
+          type: object
+          properties:
+            reason:
+              description: キャンセル理由
+              type: string
+          required:
+            - reason
+  responses:
+    '200':
+      $ref: '#/components/responses/OK'
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+    '404':
+      description: 勤務実績 ID に対応する勤務実績が存在しない場合
+  tags:
+    - 勤務実績

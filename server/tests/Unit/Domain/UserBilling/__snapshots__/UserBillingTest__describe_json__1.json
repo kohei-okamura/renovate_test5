@@ -1,0 +1,68 @@
+{
+    "totalAmount": 1000,
+    "id": 1,
+    "userId": 1,
+    "officeId": 1,
+    "user": {
+        "name": null,
+        "addr": null,
+        "contacts": null,
+        "billingDestination": null,
+        "bankAccount": null
+    },
+    "office": {
+        "name": null,
+        "corporationName": null,
+        "addr": null,
+        "tel": null
+    },
+    "dwsItem": {
+        "dwsStatementId": null,
+        "score": null,
+        "unitCost": null,
+        "subtotalCost": null,
+        "tax": null,
+        "medicalDeductionAmount": null,
+        "benefitAmount": null,
+        "subsidyAmount": null,
+        "totalAmount": null,
+        "copayWithoutTax": null,
+        "copayWithTax": null
+    },
+    "ltcsItem": {
+        "ltcsStatementId": null,
+        "score": null,
+        "unitCost": null,
+        "subtotalCost": null,
+        "tax": null,
+        "medicalDeductionAmount": null,
+        "benefitAmount": null,
+        "subsidyAmount": null,
+        "totalAmount": null,
+        "copayWithoutTax": null,
+        "copayWithTax": null
+    },
+    "otherItems": [
+        {
+            "score": null,
+            "unitCost": null,
+            "subtotalCost": null,
+            "tax": null,
+            "medicalDeductionAmount": null,
+            "totalAmount": null,
+            "copayWithoutTax": null,
+            "copayWithTax": null
+        }
+    ],
+    "result": 2,
+    "carriedOverAmount": 1000,
+    "withdrawalResultCode": 0,
+    "providedIn": "0000-01-01T00:00:00+0918",
+    "issuedOn": "0000-01-01T00:00:00+0918",
+    "depositedAt": "0000-01-01T00:00:00+0918",
+    "transactedAt": "0000-01-01T00:00:00+0918",
+    "deductedOn": "0000-01-01T00:00:00+0918",
+    "dueDate": "0000-01-01T00:00:00+0918",
+    "createdAt": "0000-01-01T00:00:00+0918",
+    "updatedAt": "0000-01-01T00:00:00+0918"
+}

@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/shifts/_id/index.vue FAB (speed dial) should be rendered when session auth is system admin 1`] = `
+<z-fab-speed-dial-stub
+  data-fab=""
+  icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+>
+  <z-fab-speed-dial-button-stub
+    color="secondary"
+    icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+  >
+      勤務シフトを編集
+  </z-fab-speed-dial-button-stub>
+  <z-fab-speed-dial-button-stub
+    color="secondary"
+    icon="M6,19A2,2 0 0,0 8,21H16A2,2 0 0,0 18,19V7H6V19M8,9H16V19H8V9M15.5,4L14.5,3H9.5L8.5,4H5V6H19V4H15.5Z"
+  >
+      勤務シフトをキャンセル
+  </z-fab-speed-dial-button-stub>
+</z-fab-speed-dial-stub>
+`;
+
+exports[`pages/shifts/_id/index.vue FAB (speed dial) should be rendered when the staff has permission(s) 1`] = `
+<z-fab-speed-dial-stub
+  data-fab=""
+  icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+>
+  <z-fab-speed-dial-button-stub
+    color="secondary"
+    icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+  >
+      勤務シフトを編集
+  </z-fab-speed-dial-button-stub>
+  <z-fab-speed-dial-button-stub
+    color="secondary"
+    icon="M6,19A2,2 0 0,0 8,21H16A2,2 0 0,0 18,19V7H6V19M8,9H16V19H8V9M15.5,4L14.5,3H9.5L8.5,4H5V6H19V4H15.5Z"
+  >
+      勤務シフトをキャンセル
+  </z-fab-speed-dial-button-stub>
+</z-fab-speed-dial-stub>
+`;
+
+exports[`pages/shifts/_id/index.vue should be rendered correctly 1`] = `
+<div
+  breadcrumbs="[object Object],[object Object]"
+  class="z-page-stub"
+  compact="compact"
+>
+  <div
+    class="z-page-stub-slot-tabs"
+  />
+  <div
+    class="z-page-stub-slot-title"
+  />
+  <z-shift-view-stub
+    shift="[object Object]"
+  />
+  <z-fab-speed-dial-stub
+    data-fab=""
+    icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+  >
+    <z-fab-speed-dial-button-stub
+      color="secondary"
+      icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+    >
+      勤務シフトを編集
+    </z-fab-speed-dial-button-stub>
+    <z-fab-speed-dial-button-stub
+      color="secondary"
+      icon="M6,19A2,2 0 0,0 8,21H16A2,2 0 0,0 18,19V7H6V19M8,9H16V19H8V9M15.5,4L14.5,3H9.5L8.5,4H5V6H19V4H15.5Z"
+    >
+      勤務シフトをキャンセル
+    </z-fab-speed-dial-button-stub>
+  </z-fab-speed-dial-stub>
+  <z-cancel-confirm-dialog-stub
+    message="キャンセルする場合は、キャンセル理由を入力して実行を押してください。"
+  />
+</div>
+`;

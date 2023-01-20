@@ -1,0 +1,87 @@
+totalAmount: 44320
+id: null
+organizationId: 1
+userId: 17
+officeId: 25
+user:
+    name:
+        displayName: '固定 値用'
+        phoneticDisplayName: 'こてい ちよう'
+        familyName: 固定
+        givenName: 値用
+        phoneticFamilyName: こてい
+        phoneticGivenName: ちよう
+    addr:
+        postcode: '1640000'
+        prefecture: 13
+        city: 中野区
+        street: ここどこ町
+        apartment: 架空建物
+    contacts:
+        -
+            tel: 01-2345-6789
+            relationship: 20
+            name: 田中花子
+    billingDestination:
+        destination: 2
+        paymentMethod: 1
+        contractNumber: '0123456789'
+        corporationName: ユースタイルラボラトリー株式会社
+        agentName: 山田太郎
+        addr:
+            postcode: 164-0011
+            prefecture: 13
+            city: 中野区
+            street: 中央1-35-6
+            apartment: レッチフィールド中野坂上ビル6F
+        tel: 03-1234-5678
+    bankAccount:
+        bankName: 固定銀行
+        bankCode: '1234'
+        bankBranchName: 固定銀行支店
+        bankBranchCode: '567'
+        bankAccountType: 2
+        bankAccountNumber: '1234567'
+        bankAccountHolder: 固定銀行口座
+office:
+    name: 固定値事業所
+    corporationName: 固定値法人
+    addr:
+        postcode: 214-0038
+        prefecture: 14
+        city: 多摩区
+        street: どこでもいい
+        apartment: 存在しない建物
+    tel: 01-2345-6789
+dwsItem: null
+ltcsItem: null
+otherItems:
+    -
+        score: 0
+        unitCost: 0
+        subtotalCost: 0
+        tax: 0
+        medicalDeductionAmount: 0
+        totalAmount: 11920
+        copayWithoutTax: 11920
+        copayWithTax: 11920
+    -
+        score: 0
+        unitCost: 0
+        subtotalCost: 0
+        tax: 8
+        medicalDeductionAmount: 0
+        totalAmount: 30000
+        copayWithoutTax: 30000
+        copayWithTax: 32400
+result: 0
+carriedOverAmount: 0
+withdrawalResultCode: 99
+providedIn: '2019-05-15T00:00:00+09:00'
+issuedOn: '2019-05-15T00:00:00+09:00'
+depositedAt: null
+transactedAt: null
+deductedOn: '2019-05-27T00:00:00+09:00'
+dueDate: '2019-05-31T23:59:59+09:00'
+createdAt: '2019-05-15T00:00:00+09:00'
+updatedAt: '2019-05-15T00:00:00+09:00'

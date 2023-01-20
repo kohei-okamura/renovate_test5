@@ -1,0 +1,53 @@
+managedTotalEntry:
+    scoreWithinMaxBenefitQuota: 250
+    scoreWithinMaxBenefit: 250
+    totalFeeForInsuranceOrBusiness: 2850
+    claimAmountForInsuranceOrBusiness: 2565
+    copayForInsuranceOrBusiness: 285
+    copayWholeExpense: 0
+    officeName: 事業所テスト
+    officeCode: '1370406140'
+    serviceName: '訪問介護 合計'
+    serviceCode: ''
+    unitScore: 0
+    count: 0
+    wholeScore: 250
+    maxBenefitQuotaExcessScore: 0
+    maxBenefitExcessScore: 0
+    unitCost: 114000
+    benefitRate: 90
+totalScoreTotal: 250
+maxBenefitExcessScoreTotal: 0
+scoreWithinMaxBenefitTotal: 250
+totalFeeForInsuranceOrBusinessTotal: 2850
+claimAmountForInsuranceOrBusinessTotal: 2565
+copayForInsuranceOrBusinessTotal: 285
+copayWholeExpenseTotal: 0
+providedIn: '2020-10-01T00:00:00+09:00'
+insNumber: '0123456789'
+userName: '固定 値用'
+unmanagedEntries: {  }
+managedEntries:
+    -
+        scoreWithinMaxBenefitQuota: 250
+        scoreWithinMaxBenefit: 250
+        totalFeeForInsuranceOrBusiness: 2850
+        claimAmountForInsuranceOrBusiness: 2565
+        copayForInsuranceOrBusiness: 285
+        copayWholeExpense: 0
+        officeName: 事業所テスト
+        officeCode: '1370406140'
+        serviceName: 身体介護1
+        serviceCode: '111111'
+        unitScore: 250
+        count: 1
+        wholeScore: 250
+        maxBenefitQuotaExcessScore: 0
+        maxBenefitExcessScore: 0
+        unitCost: 114000
+        benefitRate: 90
+maxBenefit: 27048
+insuranceClaimAmount: 0
+subsidyClaimAmount: 0
+copayAmount: 0
+unitCost: 114000

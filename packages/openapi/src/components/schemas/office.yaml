@@ -1,0 +1,79 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 事業所
+type: object
+properties:
+  id:
+    description: 事業所 ID
+    type: object
+  name:
+    description: 事業所名
+    type: string
+  abbr:
+    description: 事業所名：略称
+    type: string
+  phoneticName:
+    description: 事業所名：フリガナ
+    type: string
+  corporationName:
+    description: 法人名
+    type: string
+  phoneticCorporationName:
+    description: 法人名：フリガナ
+    type: string
+  purpose:
+    $ref: '#/components/schemas/Purpose'
+  addr:
+    $ref: '#/components/schemas/Addr'
+  location:
+    $ref: '#/components/schemas/Location'
+  tel:
+    description: 電話番号
+    type: string
+  fax:
+    description: FAX番号
+    type: string
+  email:
+    description: メールアドレス
+    type: string
+  qualifications:
+    description: 指定区分
+    type: array
+    items:
+      $ref: '#/components/schemas/OfficeQualification'
+  officeGroupId:
+    description: 事業所グループID
+    type: object
+  dwsGenericService:
+    description: 障害福祉サービス
+    type: object
+  dwsCommAccompanyService:
+    description: 障害福祉サービス：移動支援（地域生活支援事業）
+    type: object
+  ltcsHomeVisitLongTermCareService:
+    description: 介護保険サービス：訪問介護
+    type: object
+  ltcsCareManagementService:
+    description: 介護保険サービス：居宅介護支援
+    type: object
+  ltcsCompHomeVisitingService:
+    description: 介護保険サービス：訪問型サービス（総合事業）
+    type: object
+  ltcsPreventionService:
+    description: 介護保険サービス：介護予防支援
+    type: object
+  status:
+    $ref: '#/components/schemas/OfficeStatus'
+  isEnabled:
+    description: 有効フラグ
+    type: boolean
+  version:
+    description: バージョン
+    type: number
+  createdAt:
+    $ref: '#/components/schemas/DateLike'
+  updatedAt:
+    $ref: '#/components/schemas/DateLike'

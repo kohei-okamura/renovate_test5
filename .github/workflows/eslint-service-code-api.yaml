@@ -1,0 +1,19 @@
+name: "ESLint for @zinger/service-code-api"
+on:
+  pull_request:
+    paths:
+      - 'packages/service-code-api/**/*.js'
+      - 'packages/service-code-api/**/*.ts'
+      - '.eslintignore'
+      - '.eslintrc.js'
+      - '.github/workflows/eslint-service-code-api.yaml'
+jobs:
+  lint:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup
+        uses: ./.github/actions/setup-node-js
+      - name: Run eslint
+        run: yarn lint:ci packages/service-code-api

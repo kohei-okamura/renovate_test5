@@ -1,0 +1,40 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 利用者請求：障害福祉サービス明細
+type: object
+properties:
+  dwsStatementId:
+    description: 障害福祉明細書 ID
+    type: object
+  score:
+    description: 単位数
+    type: number
+  unitCost:
+    description: 単価
+    type: number
+  subtotalCost:
+    description: 小計
+    type: number
+  tax:
+    $ref: '#/components/schemas/ConsumptionTaxRate'
+  medicalDeductionAmount:
+    description: 医療費控除対象額
+    type: number
+  benefitAmount:
+    description: 介護給付額
+    type: number
+  subsidyAmount:
+    description: 自治体助成額
+    type: number
+  totalAmount:
+    description: 金額
+    type: number
+  copayWithoutTax:
+    description: 自己負担額（税抜）
+    type: number
+  copayWithTax:
+    description: 自己負担額（税込）
+    type: number

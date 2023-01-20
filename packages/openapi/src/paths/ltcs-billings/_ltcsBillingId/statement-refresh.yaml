@@ -1,0 +1,30 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+post:
+  summary: 介護保険サービス：明細書リフレッシュ
+  description: 介護保険サービス：明細書を最新の予実を参照して更新する。
+  parameters:
+    - $ref: '#/components/parameters/ltcsBillingId'
+  requestBody:
+    content:
+      application/json:
+        schema:
+          properties:
+            ids:
+              description: 介護保険サービス：明細書 ID
+              type: array
+              items:
+                $ref: '#/components/schemas/DwsBillingStatementId'
+              minItems: 1
+          required:
+            - ids
+  responses:
+    '202':
+      $ref: '#/components/responses/JobCreated'
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+  tags:
+    - 介護保険サービス：請求

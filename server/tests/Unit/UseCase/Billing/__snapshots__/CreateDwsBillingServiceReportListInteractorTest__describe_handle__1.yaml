@@ -1,0 +1,462 @@
+-
+    id: 1
+    dwsBillingId: 1
+    dwsBillingBundleId: 1
+    user:
+        userId: 1
+        dwsCertificationId: 1
+        dwsNumber: '1234567890'
+        name:
+            displayName: '高田 純次'
+            phoneticDisplayName: 'タカダ ジュンジ'
+            familyName: 高田
+            givenName: 純次
+            phoneticFamilyName: タカダ
+            phoneticGivenName: ジュンジ
+        childName:
+            displayName: ' '
+            phoneticDisplayName: ' '
+            familyName: ''
+            givenName: ''
+            phoneticFamilyName: ''
+            phoneticGivenName: ''
+        copayLimit: 37200
+    format: '0101'
+    plan:
+        11: {  }
+    result:
+        11: {  }
+    emergencyCount: 0
+    firstTimeCount: 0
+    welfareSpecialistCooperationCount: 0
+    behavioralDisorderSupportCooperationCount: 0
+    movingCareSupportCount: 0
+    items:
+        -
+            serialNumber: 1
+            providedOn: '2021-01-01T00:00:00+09:00'
+            serviceType: '112000'
+            providerType: 0
+            situation: 0
+            plan:
+                period:
+                    start: '2021-01-01T09:00:00+09:00'
+                    end: '2021-01-01T11:00:00+09:00'
+                serviceDurationHours: 20000
+                movingDurationHours: 0
+            result:
+                period:
+                    start: '2021-01-01T09:00:00+09:00'
+                    end: '2021-01-01T11:00:00+09:00'
+                serviceDurationHours: 20000
+                movingDurationHours: 0
+            serviceCount: 1
+            headcount: null
+            isCoaching: false
+            isFirstTime: false
+            isEmergency: false
+            isWelfareSpecialistCooperation: false
+            isBehavioralDisorderSupportCooperation: false
+            isMovingCareSupport: null
+            isDriving: false
+            isPreviousMonth: false
+            note: 適当な備考
+        -
+            serialNumber: 2
+            providedOn: '2021-01-02T00:00:00+09:00'
+            serviceType: '112000'
+            providerType: 0
+            situation: 0
+            plan:
+                period:
+                    start: '2021-01-02T13:00:00+09:00'
+                    end: '2021-01-02T14:30:00+09:00'
+                serviceDurationHours: 15000
+                movingDurationHours: 0
+            result:
+                period:
+                    start: '2021-01-02T13:00:00+09:00'
+                    end: '2021-01-02T14:30:00+09:00'
+                serviceDurationHours: 15000
+                movingDurationHours: 0
+            serviceCount: 1
+            headcount: null
+            isCoaching: false
+            isFirstTime: false
+            isEmergency: false
+            isWelfareSpecialistCooperation: false
+            isBehavioralDisorderSupportCooperation: false
+            isMovingCareSupport: null
+            isDriving: false
+            isPreviousMonth: false
+            note: 適当な備考
+        -
+            serialNumber: 3
+            providedOn: '2021-01-03T00:00:00+09:00'
+            serviceType: '112000'
+            providerType: 0
+            situation: 0
+            plan:
+                period:
+                    start: '2021-01-03T13:00:00+09:00'
+                    end: '2021-01-03T14:30:00+09:00'
+                serviceDurationHours: 15000
+                movingDurationHours: 0
+            result:
+                period:
+                    start: '2021-01-03T13:00:00+09:00'
+                    end: '2021-01-03T14:30:00+09:00'
+                serviceDurationHours: 15000
+                movingDurationHours: 0
+            serviceCount: 1
+            headcount: null
+            isCoaching: false
+            isFirstTime: false
+            isEmergency: false
+            isWelfareSpecialistCooperation: false
+            isBehavioralDisorderSupportCooperation: false
+            isMovingCareSupport: null
+            isDriving: false
+            isPreviousMonth: false
+            note: 適当な備考
+        -
+            serialNumber: 4
+            providedOn: '2021-01-04T00:00:00+09:00'
+            serviceType: '112000'
+            providerType: 0
+            situation: 0
+            plan:
+                period:
+                    start: '2021-01-04T13:00:00+09:00'
+                    end: '2021-01-04T14:30:00+09:00'
+                serviceDurationHours: 15000
+                movingDurationHours: 0
+            result:
+                period:
+                    start: '2021-01-04T13:00:00+09:00'
+                    end: '2021-01-04T14:30:00+09:00'
+                serviceDurationHours: 15000
+                movingDurationHours: 0
+            serviceCount: 1
+            headcount: null
+            isCoaching: false
+            isFirstTime: false
+            isEmergency: false
+            isWelfareSpecialistCooperation: false
+            isBehavioralDisorderSupportCooperation: false
+            isMovingCareSupport: null
+            isDriving: false
+            isPreviousMonth: false
+            note: 適当な備考
+    status: 20
+    fixedAt: null
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 1
+    dwsBillingId: 1
+    dwsBillingBundleId: 1
+    user:
+        userId: 1
+        dwsCertificationId: 1
+        dwsNumber: '1234567890'
+        name:
+            displayName: '高田 純次'
+            phoneticDisplayName: 'タカダ ジュンジ'
+            familyName: 高田
+            givenName: 純次
+            phoneticFamilyName: タカダ
+            phoneticGivenName: ジュンジ
+        childName:
+            displayName: ' '
+            phoneticDisplayName: ' '
+            familyName: ''
+            givenName: ''
+            phoneticFamilyName: ''
+            phoneticGivenName: ''
+        copayLimit: 37200
+    format: '0101'
+    plan:
+        11: {  }
+    result:
+        11: {  }
+    emergencyCount: 0
+    firstTimeCount: 0
+    welfareSpecialistCooperationCount: 0
+    behavioralDisorderSupportCooperationCount: 0
+    movingCareSupportCount: 0
+    items:
+        -
+            serialNumber: 1
+            providedOn: '2021-01-01T00:00:00+09:00'
+            serviceType: '112000'
+            providerType: 0
+            situation: 0
+            plan:
+                period:
+                    start: '2021-01-01T09:00:00+09:00'
+                    end: '2021-01-01T11:00:00+09:00'
+                serviceDurationHours: 20000
+                movingDurationHours: 0
+            result:
+                period:
+                    start: '2021-01-01T09:00:00+09:00'
+                    end: '2021-01-01T11:00:00+09:00'
+                serviceDurationHours: 20000
+                movingDurationHours: 0
+            serviceCount: 1
+            headcount: null
+            isCoaching: false
+            isFirstTime: false
+            isEmergency: false
+            isWelfareSpecialistCooperation: false
+            isBehavioralDisorderSupportCooperation: false
+            isMovingCareSupport: null
+            isDriving: false
+            isPreviousMonth: false
+            note: 適当な備考
+        -
+            serialNumber: 2
+            providedOn: '2021-01-02T00:00:00+09:00'
+            serviceType: '112000'
+            providerType: 0
+            situation: 0
+            plan:
+                period:
+                    start: '2021-01-02T13:00:00+09:00'
+                    end: '2021-01-02T14:30:00+09:00'
+                serviceDurationHours: 15000
+                movingDurationHours: 0
+            result:
+                period:
+                    start: '2021-01-02T13:00:00+09:00'
+                    end: '2021-01-02T14:30:00+09:00'
+                serviceDurationHours: 15000
+                movingDurationHours: 0
+            serviceCount: 1
+            headcount: null
+            isCoaching: false
+            isFirstTime: false
+            isEmergency: false
+            isWelfareSpecialistCooperation: false
+            isBehavioralDisorderSupportCooperation: false
+            isMovingCareSupport: null
+            isDriving: false
+            isPreviousMonth: false
+            note: 適当な備考
+        -
+            serialNumber: 3
+            providedOn: '2021-01-03T00:00:00+09:00'
+            serviceType: '112000'
+            providerType: 0
+            situation: 0
+            plan:
+                period:
+                    start: '2021-01-03T13:00:00+09:00'
+                    end: '2021-01-03T14:30:00+09:00'
+                serviceDurationHours: 15000
+                movingDurationHours: 0
+            result:
+                period:
+                    start: '2021-01-03T13:00:00+09:00'
+                    end: '2021-01-03T14:30:00+09:00'
+                serviceDurationHours: 15000
+                movingDurationHours: 0
+            serviceCount: 1
+            headcount: null
+            isCoaching: false
+            isFirstTime: false
+            isEmergency: false
+            isWelfareSpecialistCooperation: false
+            isBehavioralDisorderSupportCooperation: false
+            isMovingCareSupport: null
+            isDriving: false
+            isPreviousMonth: false
+            note: 適当な備考
+        -
+            serialNumber: 4
+            providedOn: '2021-01-04T00:00:00+09:00'
+            serviceType: '112000'
+            providerType: 0
+            situation: 0
+            plan:
+                period:
+                    start: '2021-01-04T13:00:00+09:00'
+                    end: '2021-01-04T14:30:00+09:00'
+                serviceDurationHours: 15000
+                movingDurationHours: 0
+            result:
+                period:
+                    start: '2021-01-04T13:00:00+09:00'
+                    end: '2021-01-04T14:30:00+09:00'
+                serviceDurationHours: 15000
+                movingDurationHours: 0
+            serviceCount: 1
+            headcount: null
+            isCoaching: false
+            isFirstTime: false
+            isEmergency: false
+            isWelfareSpecialistCooperation: false
+            isBehavioralDisorderSupportCooperation: false
+            isMovingCareSupport: null
+            isDriving: false
+            isPreviousMonth: false
+            note: 適当な備考
+    status: 20
+    fixedAt: null
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: 1
+    dwsBillingId: 1
+    dwsBillingBundleId: 1
+    user:
+        userId: 1
+        dwsCertificationId: 1
+        dwsNumber: '1234567890'
+        name:
+            displayName: '高田 純次'
+            phoneticDisplayName: 'タカダ ジュンジ'
+            familyName: 高田
+            givenName: 純次
+            phoneticFamilyName: タカダ
+            phoneticGivenName: ジュンジ
+        childName:
+            displayName: ' '
+            phoneticDisplayName: ' '
+            familyName: ''
+            givenName: ''
+            phoneticFamilyName: ''
+            phoneticGivenName: ''
+        copayLimit: 37200
+    format: '0101'
+    plan:
+        11: {  }
+    result:
+        11: {  }
+    emergencyCount: 0
+    firstTimeCount: 0
+    welfareSpecialistCooperationCount: 0
+    behavioralDisorderSupportCooperationCount: 0
+    movingCareSupportCount: 0
+    items:
+        -
+            serialNumber: 1
+            providedOn: '2021-01-01T00:00:00+09:00'
+            serviceType: '112000'
+            providerType: 0
+            situation: 0
+            plan:
+                period:
+                    start: '2021-01-01T09:00:00+09:00'
+                    end: '2021-01-01T11:00:00+09:00'
+                serviceDurationHours: 20000
+                movingDurationHours: 0
+            result:
+                period:
+                    start: '2021-01-01T09:00:00+09:00'
+                    end: '2021-01-01T11:00:00+09:00'
+                serviceDurationHours: 20000
+                movingDurationHours: 0
+            serviceCount: 1
+            headcount: null
+            isCoaching: false
+            isFirstTime: false
+            isEmergency: false
+            isWelfareSpecialistCooperation: false
+            isBehavioralDisorderSupportCooperation: false
+            isMovingCareSupport: null
+            isDriving: false
+            isPreviousMonth: false
+            note: 適当な備考
+        -
+            serialNumber: 2
+            providedOn: '2021-01-02T00:00:00+09:00'
+            serviceType: '112000'
+            providerType: 0
+            situation: 0
+            plan:
+                period:
+                    start: '2021-01-02T13:00:00+09:00'
+                    end: '2021-01-02T14:30:00+09:00'
+                serviceDurationHours: 15000
+                movingDurationHours: 0
+            result:
+                period:
+                    start: '2021-01-02T13:00:00+09:00'
+                    end: '2021-01-02T14:30:00+09:00'
+                serviceDurationHours: 15000
+                movingDurationHours: 0
+            serviceCount: 1
+            headcount: null
+            isCoaching: false
+            isFirstTime: false
+            isEmergency: false
+            isWelfareSpecialistCooperation: false
+            isBehavioralDisorderSupportCooperation: false
+            isMovingCareSupport: null
+            isDriving: false
+            isPreviousMonth: false
+            note: 適当な備考
+        -
+            serialNumber: 3
+            providedOn: '2021-01-03T00:00:00+09:00'
+            serviceType: '112000'
+            providerType: 0
+            situation: 0
+            plan:
+                period:
+                    start: '2021-01-03T13:00:00+09:00'
+                    end: '2021-01-03T14:30:00+09:00'
+                serviceDurationHours: 15000
+                movingDurationHours: 0
+            result:
+                period:
+                    start: '2021-01-03T13:00:00+09:00'
+                    end: '2021-01-03T14:30:00+09:00'
+                serviceDurationHours: 15000
+                movingDurationHours: 0
+            serviceCount: 1
+            headcount: null
+            isCoaching: false
+            isFirstTime: false
+            isEmergency: false
+            isWelfareSpecialistCooperation: false
+            isBehavioralDisorderSupportCooperation: false
+            isMovingCareSupport: null
+            isDriving: false
+            isPreviousMonth: false
+            note: 適当な備考
+        -
+            serialNumber: 4
+            providedOn: '2021-01-04T00:00:00+09:00'
+            serviceType: '112000'
+            providerType: 0
+            situation: 0
+            plan:
+                period:
+                    start: '2021-01-04T13:00:00+09:00'
+                    end: '2021-01-04T14:30:00+09:00'
+                serviceDurationHours: 15000
+                movingDurationHours: 0
+            result:
+                period:
+                    start: '2021-01-04T13:00:00+09:00'
+                    end: '2021-01-04T14:30:00+09:00'
+                serviceDurationHours: 15000
+                movingDurationHours: 0
+            serviceCount: 1
+            headcount: null
+            isCoaching: false
+            isFirstTime: false
+            isEmergency: false
+            isWelfareSpecialistCooperation: false
+            isBehavioralDisorderSupportCooperation: false
+            isMovingCareSupport: null
+            isDriving: false
+            isPreviousMonth: false
+            note: 適当な備考
+    status: 20
+    fixedAt: null
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'

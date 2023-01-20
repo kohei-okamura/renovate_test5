@@ -1,0 +1,77 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 障害福祉サービス受給者証
+type: object
+properties:
+  id:
+    description: 障害福祉サービス受給者証 ID
+    type: object
+  userId:
+    description: 利用者 ID
+    type: object
+  effectivatedOn:
+    $ref: '#/components/schemas/DateLike'
+  status:
+    $ref: '#/components/schemas/DwsCertificationStatus'
+  dwsNumber:
+    description: 受給者証番号
+    type: string
+  dwsTypes:
+    description: 障害種別
+    type: array
+    items:
+      $ref: '#/components/schemas/DwsType'
+  issuedOn:
+    $ref: '#/components/schemas/DateLike'
+  cityName:
+    description: 市区町村名
+    type: string
+  cityCode:
+    description: 市区町村番号
+    type: string
+  dwsLevel:
+    $ref: '#/components/schemas/DwsLevel'
+  isSubjectOfComprehensiveSupport:
+    description: 重度障害者等包括支援対象フラグ
+    type: boolean
+  activatedOn:
+    $ref: '#/components/schemas/DateLike'
+  deactivatedOn:
+    $ref: '#/components/schemas/DateLike'
+  grants:
+    description: 支給量
+    type: array
+    items:
+      $ref: '#/components/schemas/DwsCertificationGrant'
+  child:
+    $ref: '#/components/schemas/Child'
+  copayRate:
+    description: 利用者負担割合（原則）
+    type: number
+  copayLimit:
+    description: 負担上限月額
+    type: number
+  copayActivatedOn:
+    $ref: '#/components/schemas/DateLike'
+  copayDeactivatedOn:
+    $ref: '#/components/schemas/DateLike'
+  copayCoordination:
+    $ref: '#/components/schemas/CopayCoordination'
+  agreements:
+    description: 訪問系サービス事業者記入欄
+    type: array
+    items:
+      $ref: '#/components/schemas/DwsCertificationAgreement'
+  isEnabled:
+    description: 有効フラグ
+    type: boolean
+  version:
+    description: バージョン
+    type: number
+  createdAt:
+    $ref: '#/components/schemas/DateLike'
+  updatedAt:
+    $ref: '#/components/schemas/DateLike'

@@ -1,0 +1,24 @@
+-
+    fragment:
+        isHospitalized: true
+        isLongHospitalized: true
+        isCoaching: true
+        isMoving: false
+        isSecondary: true
+        movingDurationMinutes: 0
+        range:
+            start: '2019-05-15T00:00:00+09:00'
+            end: '2019-05-15T01:00:00+09:00'
+        headcount: 1
+    providedOn: '2019-05-15T00:00:00+09:00'
+    isEmergency: false
+    isFirst: false
+    isBehavioralDisorderSupportCooperation: false
+    category: null
+    range:
+        start: '2019-05-15T00:00:00+09:00'
+        end: '2019-05-15T01:00:00+09:00'
+    serviceCount: 2
+    isTerminated: true
+    serviceDuration: 60
+    movingDuration: null

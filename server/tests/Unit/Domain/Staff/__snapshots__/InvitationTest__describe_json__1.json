@@ -1,0 +1,14 @@
+{
+    "id": 1,
+    "email": "sample@example.com",
+    "token": "eustylelab",
+    "roleIds": [
+        1
+    ],
+    "officeIds": [
+        1
+    ],
+    "officeGroupIds": null,
+    "expiredAt": "2019-05-15T00:00:00+0900",
+    "createdAt": "2019-05-15T00:00:00+0900"
+}

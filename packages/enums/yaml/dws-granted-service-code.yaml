@@ -1,0 +1,24 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 障害福祉サービス：決定サービスコード
+name: DwsGrantedServiceCode
+php:
+  enabled: true
+  namespace: Billing
+  withResolver: true
+  traits:
+    - DwsGrantedServiceCodeSupport
+typescript:
+  enabled: true
+items:
+  - { description: なし, name: None, value: '000000' }
+  - { description: 居宅介護身体介護, name: PhysicalCare, value: '111000' }
+  - { description: 居宅介護家事援助, name: Housework, value: '112000' }
+  - { description: 居宅介護通院介助（身体介護を伴う）, name: AccompanyWithPhysicalCare, value: '113000' }
+  - { description: 居宅介護通院介助（身体介護を伴わない）, name: Accompany, value: '114000' }
+  - { description: 重度訪問介護（重度障害者等包括支援対象者）, name: VisitingCareForPwsd1, value: '121000' }    # 重度障害者等包括支援対象者
+  - { description: 重度訪問介護（障害支援区分6該当者）, name: VisitingCareForPwsd2, value: '122000' }   # 区分6
+  - { description: 重度訪問介護（その他）, name: VisitingCareForPwsd3, value: '123000' }           # 区分4〜5
+  - { description: 重度訪問介護（移動加算）, name: OutingSupportForPwsd, value: '120901' }
+  - { description: 重度包括基本, name: ComprehensiveSupport, value: '141000' }

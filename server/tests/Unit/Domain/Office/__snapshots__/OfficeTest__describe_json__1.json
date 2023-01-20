@@ -1,0 +1,64 @@
+{
+    "id": 1,
+    "name": "\u4e8b\u696d\u6240\u30c6\u30b9\u30c8",
+    "abbr": "\u4e8b\u30c6\u30b9",
+    "phoneticName": "\u30c4\u30c1\u30e4\u30db\u30a6\u30e2\u30f3\u30ab\u30a4\u30b4\u30b8\u30ae\u30e7\u30a6\u30b7\u30e7\u30bb\u30f3\u30c0\u30a4",
+    "corporationName": "\u4e8b\u696d\u6240\u30c6\u30b9\u30c8",
+    "phoneticCorporationName": "\u30b8\u30ae\u30e7\u30a6\u30b7\u30e7\u30c6\u30b9\u30c8",
+    "purpose": 0,
+    "addr": [
+        9840056,
+        4,
+        "\u4ed9\u53f0\u5e02\u82e5\u6797\u533a",
+        "\u6210\u7530\u753a16\u756a\u5730\u306e2",
+        "\u30ed\u30a4\u30e4\u30eb\u30d2\u30eb\u30ba\u6210\u7530\u753a403\u53f7"
+    ],
+    "location": {
+        "lat": 35.6969932,
+        "lng": 139.6839594
+    },
+    "tel": "012-245-6789",
+    "fax": "123-456-7890",
+    "email": "sample@example.com",
+    "qualifications": [
+        "1011"
+    ],
+    "officeGroupId": 1,
+    "dwsGenericService": [
+        1,
+        "01234567890123456789",
+        "2010-03-30T00:00:00+0900",
+        "2015-08-09T00:00:00+0900"
+    ],
+    "dwsCommAccompanyService": [
+        "01234567890123456789",
+        "2010-03-30T00:00:00+0900",
+        "2015-08-09T00:00:00+0900"
+    ],
+    "ltcsCareManagementService": [
+        1,
+        "01234567890123456789",
+        "2010-03-30T00:00:00+0900",
+        "2015-08-09T00:00:00+0900"
+    ],
+    "ltcsHomeVisitLongTermCareService": [
+        1,
+        "01234567890123456789",
+        "2010-03-30T00:00:00+0900",
+        "2015-08-09T00:00:00+0900"
+    ],
+    "ltcsCompHomeVisitingService": [
+        "01234567890123456789",
+        "2010-03-30T00:00:00+0900",
+        "2015-08-09T00:00:00+0900"
+    ],
+    "ltcsPreventionService": {
+        "code": "01234567890123456789",
+        "openedOn": "2010-03-30T00:00:00+0900",
+        "designationExpiredOn": "2015-08-09T00:00:00+0900"
+    },
+    "status": 2,
+    "isEnabled": 1,
+    "createdAt": "2019-05-15T00:00:00+0900",
+    "updatedAt": "2019-05-15T00:00:00+0900"
+}

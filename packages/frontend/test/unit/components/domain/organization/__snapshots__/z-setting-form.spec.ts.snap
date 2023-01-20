@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-setting-form.vue should be rendered correctly 1`] = `
+<form
+  class="v-form"
+  novalidate="novalidate"
+>
+  <div>
+    <div
+      class="z-form-card-stub"
+      title="事業者別設定"
+    >
+      <div
+        class="z-form-card-stub-slot-actions"
+      />
+      <z-form-card-item-set-stub
+        icon=""
+        label=""
+      >
+        <div
+          class="root"
+          data-banking-client-code=""
+          data-z-form-card-item=""
+        >
+          <div
+            class="v-input v-input--dense theme--light v-text-field v-text-field--enclosed v-text-field--outlined"
+          >
+            <div
+              class="v-input__control"
+            >
+              <div
+                class="v-input__slot"
+                style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+              >
+                <fieldset
+                  aria-hidden="true"
+                >
+                  <legend
+                    style="width: 0px;"
+                  >
+                    <span
+                      class="notranslate"
+                    >
+                      ​
+                    </span>
+                  </legend>
+                </fieldset>
+                <div
+                  class="v-text-field__slot"
+                >
+                  <label
+                    class="v-label theme--light"
+                    style="left: 0px; position: absolute;"
+                  >
+                    委託者番号 *
+                  </label>
+                  <input
+                    type="text"
+                  />
+                </div>
+              </div>
+              <div
+                class="v-text-field__details"
+              >
+                <div
+                  class="v-messages theme--light"
+                >
+                  <transition-group-stub
+                    class="v-messages__wrapper"
+                    name="message-transition"
+                    tag="div"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </z-form-card-item-set-stub>
+      <div
+        class="z-form-card-stub-slot-header"
+      />
+    </div>
+    <z-form-action-button-stub
+      icon="M14,13V17H10V13H7L12,8L17,13M19.35,10.03C18.67,6.59 15.64,4 12,4C9.11,4 6.6,5.64 5.35,8.03C2.34,8.36 0,10.9 0,14A6,6 0 0,0 6,20H19A5,5 0 0,0 24,15C24,12.36 21.95,10.22 19.35,10.03Z"
+      text="登録"
+    />
+  </div>
+</form>
+`;

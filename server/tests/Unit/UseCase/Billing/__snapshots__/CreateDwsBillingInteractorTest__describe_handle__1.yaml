@@ -1,0 +1,20 @@
+id: null
+organizationId: 1
+office:
+    officeId: 604
+    code: '1370406140'
+    name: 土屋ケア
+    abbr: 土屋ケア
+    addr:
+        postcode: 151-0051
+        prefecture: 13
+        city: 渋谷区
+        street: 千駄ヶ谷2-2-6
+        apartment: 株式会社テイクワン・オフィス
+    tel: 03-5474-8581
+transactedIn: '2021-02-01T00:00:00+09:00'
+files: {  }
+status: 10
+fixedAt: null
+createdAt: '2019-05-15T00:00:00+09:00'
+updatedAt: '2019-05-15T00:00:00+09:00'

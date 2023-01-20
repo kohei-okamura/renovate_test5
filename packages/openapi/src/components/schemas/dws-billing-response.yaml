@@ -1,0 +1,23 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+type: object
+properties:
+  billing:
+    $ref: '#/components/schemas/DwsBilling'
+  bundles:
+    type: array
+    items:
+      $ref: '#/components/schemas/DwsBillingBundle'
+  statements:
+    type: array
+    items:
+      $ref: '#/components/schemas/DwsBillingStatement'
+  reports:
+    type: array
+    items:
+      $ref: '#/components/schemas/DwsBillingServiceReport'
+  copayCoordinations:
+    type: array
+    items:
+      $ref: '#/components/schemas/DwsBillingCopayCoordination'

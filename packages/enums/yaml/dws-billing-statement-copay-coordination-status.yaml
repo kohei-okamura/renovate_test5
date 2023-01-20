@@ -1,0 +1,19 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 障害福祉サービス：明細書：上限管理区分
+name: DwsBillingStatementCopayCoordinationStatus
+php:
+  enabled: true
+  namespace: Billing
+  traits:
+    - DwsBillingStatementCopayCoordinationStatusSupport
+typescript:
+  enabled: true
+items:
+  - { description: 不要（上限管理なし）, name: Unapplicable, value: 11 }
+  - { description: 不要（サービス提供なし）, name: Unclaimable, value: 12 }
+  - { description: 未作成, name: Uncreated, value: 21 }
+  - { description: 未入力, name: Unfilled, value: 22 }
+  - { description: 入力中, name: Checking, value: 23 }
+  - { description: 入力済, name: Fulfilled, value: 31 }

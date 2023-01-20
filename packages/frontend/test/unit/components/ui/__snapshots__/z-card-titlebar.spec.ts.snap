@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-card-titlebar.vue should be rendered correctly 1`] = `
+<div
+  class="titlebar d-flex align-center v-sheet theme--dark rounded-0 primary"
+  color="primary"
+>
+  <div
+    class="title"
+  >
+    タイトル
+  </div>
+</div>
+`;

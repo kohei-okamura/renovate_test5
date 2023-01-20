@@ -1,0 +1,23 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+description: 算定情報登録／更新フォーム
+type: object
+properties:
+  period:
+    $ref: '#/components/schemas/PeriodForm'
+  specifiedOfficeAddition:
+    $ref: '#/components/schemas/HomeHelpServiceSpecifiedOfficeAddition'
+  treatmentImprovementAddition:
+    $ref: '#/components/schemas/DwsTreatmentImprovementAddition'
+  specifiedTreatmentImprovementAddition:
+    $ref: '#/components/schemas/DwsSpecifiedTreatmentImprovementAddition'
+  baseIncreaseSupportAddition:
+    $ref: '#/components/schemas/DwsBaseIncreaseSupportAddition'
+required:
+  - period
+  - specifiedOfficeAddition
+  - treatmentImprovementAddition
+  - specifiedTreatmentImprovementAddition
+  - baseIncreaseSupportAddition
+

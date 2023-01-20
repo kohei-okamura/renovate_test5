@@ -1,0 +1,937 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ecs-register-task-definition registerTaskDefinition should register task: batch 1`] = `
+Array [
+  Object {
+    "containerDefinitions": Array [
+      Object {
+        "command": Array [
+          "php",
+          "artisan",
+          "schedule:run",
+        ],
+        "environment": Array [
+          Object {
+            "name": "APP_DEBUG",
+            "value": "true",
+          },
+          Object {
+            "name": "APP_ENV",
+            "value": "sandbox",
+          },
+          Object {
+            "name": "MAIL_DRIVER",
+            "value": "sendgrid",
+          },
+          Object {
+            "name": "QUEUE_CONNECTION",
+            "value": "redis",
+          },
+          Object {
+            "name": "REDIS_SCHEME",
+            "value": "tls",
+          },
+          Object {
+            "name": "SQS_KEY",
+            "value": "",
+          },
+          Object {
+            "name": "SQS_PREFIX",
+            "value": "https://sqs.ap-northeast-1.amazonaws.com/869997810708",
+          },
+          Object {
+            "name": "SQS_QUEUE",
+            "value": "ZingerQueue.fifo",
+          },
+          Object {
+            "name": "SQS_REGION",
+            "value": "ap-northeast-1",
+          },
+          Object {
+            "name": "SQS_SECRET",
+            "value": "",
+          },
+          Object {
+            "name": "ZINGER_FILENAME_DWS_PROJECT_PDF",
+            "value": "サンドボックス_居宅介護計画書_%Y%m%d%H%M%S.xlsx",
+          },
+          Object {
+            "name": "ZINGER_FILENAME_LTCS_PROJECT_PDF",
+            "value": "サンドボックス_訪問介護計画書_%Y%m%d%H%M%S.xlsx",
+          },
+          Object {
+            "name": "ZINGER_FILENAME_PLAN_TEMPLATE",
+            "value": "サンドボックス_予定雛形_%Y%m%d%H%M%S.xlsx",
+          },
+          Object {
+            "name": "ZINGER_STAFF_ATTENDANCE_CONFIRMATION_FOURTH_AUDIO_URI",
+            "value": "__UNDEFINED__",
+          },
+          Object {
+            "name": "ZINGER_STAFF_ATTENDANCE_CONFIRMATION_THIRD_AUDIO_URI",
+            "value": "__UNDEFINED__",
+          },
+          Object {
+            "name": "ZINGER_URI_APP_DOMAIN",
+            "value": "staging.careid.net",
+          },
+        ],
+        "essential": true,
+        "image": "869997810708.dkr.ecr.ap-northeast-1.amazonaws.com/zinger/app-cli-sandbox:20221029123456-ae16de3bf",
+        "logConfiguration": Object {
+          "logDriver": "awslogs",
+          "options": Object {
+            "awslogs-create-group": "true",
+            "awslogs-group": "app-batch-watch",
+            "awslogs-region": "ap-northeast-1",
+            "awslogs-stream-prefix": "app-batch",
+          },
+        },
+        "name": "app-batch",
+        "secrets": Array [
+          Object {
+            "name": "APP_KEY",
+            "valueFrom": "/zinger/secure/appKey",
+          },
+          Object {
+            "name": "AWS_BUCKET",
+            "valueFrom": "/zinger/secure/awsBucket",
+          },
+          Object {
+            "name": "AWS_READONLY_BUCKET",
+            "valueFrom": "/zinger/secure/awsReadonlyBucket",
+          },
+          Object {
+            "name": "DB_HOST",
+            "valueFrom": "/zinger/string/dbHost",
+          },
+          Object {
+            "name": "DB_PASSWORD",
+            "valueFrom": "/zinger/secure/dbPassword",
+          },
+          Object {
+            "name": "DB_USERNAME",
+            "valueFrom": "/zinger/secure/dbUsername",
+          },
+          Object {
+            "name": "REDIS_HOST",
+            "valueFrom": "/zinger/string/redisHost",
+          },
+          Object {
+            "name": "REDIS_PASSWORD",
+            "valueFrom": "/zinger/secure/redisPassword",
+          },
+          Object {
+            "name": "ZINGER_GOOGLE_GEOCODING_API_KEY",
+            "valueFrom": "/zinger/secure/zingerGoogleGeocodingApiKey",
+          },
+          Object {
+            "name": "ZINGER_SENDGRID_API_KEY",
+            "valueFrom": "/zinger/secure/zingerSendgridApiKey",
+          },
+          Object {
+            "name": "ZINGER_TWILIO_ACCOUNT_SID",
+            "valueFrom": "/zinger/secure/zingerTwilioAccountSid",
+          },
+          Object {
+            "name": "ZINGER_TWILIO_API_KEY_SECRET",
+            "valueFrom": "/zinger/secure/zingerTwilioApiKeySecret",
+          },
+          Object {
+            "name": "ZINGER_TWILIO_API_KEY_SID",
+            "valueFrom": "/zinger/secure/zingerTwilioApiKeySid",
+          },
+          Object {
+            "name": "ZINGER_TWILIO_FROM_SMS_NUMBER",
+            "valueFrom": "/zinger/secure/zingerTwilioFromSmsNumber",
+          },
+          Object {
+            "name": "ZINGER_TWILIO_FROM_TEL_NUMBER",
+            "valueFrom": "/zinger/secure/zingerTwilioFromTelNumber",
+          },
+          Object {
+            "name": "ZINGER_URL_SHORTENER_KEY",
+            "valueFrom": "/zinger/secure/zingerUrlShortenerKey",
+          },
+        ],
+      },
+    ],
+    "cpu": "512",
+    "executionRoleArn": "ZingerEcsTaskExecutionRole",
+    "family": "ZingerAppBatchTaskDefinition",
+    "memory": "2048",
+    "networkMode": "awsvpc",
+    "requiresCompatibilities": Array [
+      "FARGATE",
+    ],
+    "taskRoleArn": "ZingerEcsTaskRole",
+  },
+]
+`;
+
+exports[`ecs-register-task-definition registerTaskDefinition should register task: createUserBilling 1`] = `
+Array [
+  Object {
+    "containerDefinitions": Array [
+      Object {
+        "command": Array [
+          "php",
+          "artisan",
+          "user-billing:create",
+          "--batch",
+        ],
+        "environment": Array [
+          Object {
+            "name": "APP_DEBUG",
+            "value": "true",
+          },
+          Object {
+            "name": "APP_ENV",
+            "value": "sandbox",
+          },
+          Object {
+            "name": "MAIL_DRIVER",
+            "value": "sendgrid",
+          },
+          Object {
+            "name": "QUEUE_CONNECTION",
+            "value": "redis",
+          },
+          Object {
+            "name": "REDIS_SCHEME",
+            "value": "tls",
+          },
+          Object {
+            "name": "SQS_KEY",
+            "value": "",
+          },
+          Object {
+            "name": "SQS_PREFIX",
+            "value": "https://sqs.ap-northeast-1.amazonaws.com/869997810708",
+          },
+          Object {
+            "name": "SQS_QUEUE",
+            "value": "ZingerQueue.fifo",
+          },
+          Object {
+            "name": "SQS_REGION",
+            "value": "ap-northeast-1",
+          },
+          Object {
+            "name": "SQS_SECRET",
+            "value": "",
+          },
+          Object {
+            "name": "ZINGER_FILENAME_DWS_PROJECT_PDF",
+            "value": "サンドボックス_居宅介護計画書_%Y%m%d%H%M%S.xlsx",
+          },
+          Object {
+            "name": "ZINGER_FILENAME_LTCS_PROJECT_PDF",
+            "value": "サンドボックス_訪問介護計画書_%Y%m%d%H%M%S.xlsx",
+          },
+          Object {
+            "name": "ZINGER_FILENAME_PLAN_TEMPLATE",
+            "value": "サンドボックス_予定雛形_%Y%m%d%H%M%S.xlsx",
+          },
+          Object {
+            "name": "ZINGER_STAFF_ATTENDANCE_CONFIRMATION_FOURTH_AUDIO_URI",
+            "value": "__UNDEFINED__",
+          },
+          Object {
+            "name": "ZINGER_STAFF_ATTENDANCE_CONFIRMATION_THIRD_AUDIO_URI",
+            "value": "__UNDEFINED__",
+          },
+          Object {
+            "name": "ZINGER_URI_APP_DOMAIN",
+            "value": "staging.careid.net",
+          },
+        ],
+        "essential": true,
+        "image": "869997810708.dkr.ecr.ap-northeast-1.amazonaws.com/zinger/app-cli-sandbox:20221029123456-ae16de3bf",
+        "logConfiguration": Object {
+          "logDriver": "awslogs",
+          "options": Object {
+            "awslogs-create-group": "true",
+            "awslogs-group": "app-batch-watch",
+            "awslogs-region": "ap-northeast-1",
+            "awslogs-stream-prefix": "app-batch",
+          },
+        },
+        "name": "app-batch",
+        "secrets": Array [
+          Object {
+            "name": "APP_KEY",
+            "valueFrom": "/zinger/secure/appKey",
+          },
+          Object {
+            "name": "AWS_BUCKET",
+            "valueFrom": "/zinger/secure/awsBucket",
+          },
+          Object {
+            "name": "AWS_READONLY_BUCKET",
+            "valueFrom": "/zinger/secure/awsReadonlyBucket",
+          },
+          Object {
+            "name": "DB_HOST",
+            "valueFrom": "/zinger/string/dbHost",
+          },
+          Object {
+            "name": "DB_PASSWORD",
+            "valueFrom": "/zinger/secure/dbPassword",
+          },
+          Object {
+            "name": "DB_USERNAME",
+            "valueFrom": "/zinger/secure/dbUsername",
+          },
+          Object {
+            "name": "REDIS_HOST",
+            "valueFrom": "/zinger/string/redisHost",
+          },
+          Object {
+            "name": "REDIS_PASSWORD",
+            "valueFrom": "/zinger/secure/redisPassword",
+          },
+          Object {
+            "name": "ZINGER_GOOGLE_GEOCODING_API_KEY",
+            "valueFrom": "/zinger/secure/zingerGoogleGeocodingApiKey",
+          },
+          Object {
+            "name": "ZINGER_SENDGRID_API_KEY",
+            "valueFrom": "/zinger/secure/zingerSendgridApiKey",
+          },
+          Object {
+            "name": "ZINGER_TWILIO_ACCOUNT_SID",
+            "valueFrom": "/zinger/secure/zingerTwilioAccountSid",
+          },
+          Object {
+            "name": "ZINGER_TWILIO_API_KEY_SECRET",
+            "valueFrom": "/zinger/secure/zingerTwilioApiKeySecret",
+          },
+          Object {
+            "name": "ZINGER_TWILIO_API_KEY_SID",
+            "valueFrom": "/zinger/secure/zingerTwilioApiKeySid",
+          },
+          Object {
+            "name": "ZINGER_TWILIO_FROM_SMS_NUMBER",
+            "valueFrom": "/zinger/secure/zingerTwilioFromSmsNumber",
+          },
+          Object {
+            "name": "ZINGER_TWILIO_FROM_TEL_NUMBER",
+            "valueFrom": "/zinger/secure/zingerTwilioFromTelNumber",
+          },
+          Object {
+            "name": "ZINGER_URL_SHORTENER_KEY",
+            "valueFrom": "/zinger/secure/zingerUrlShortenerKey",
+          },
+        ],
+      },
+    ],
+    "cpu": "512",
+    "executionRoleArn": "ZingerEcsTaskExecutionRole",
+    "family": "ZingerAppCreateUserBillingTaskDefinition",
+    "memory": "2048",
+    "networkMode": "awsvpc",
+    "requiresCompatibilities": Array [
+      "FARGATE",
+    ],
+    "taskRoleArn": "ZingerEcsTaskRole",
+  },
+]
+`;
+
+exports[`ecs-register-task-definition registerTaskDefinition should register task: migration 1`] = `
+Array [
+  Object {
+    "containerDefinitions": Array [
+      Object {
+        "command": Array [
+          "php",
+          "artisan",
+          "migrate",
+          "--force",
+        ],
+        "environment": Array [
+          Object {
+            "name": "APP_DEBUG",
+            "value": "true",
+          },
+          Object {
+            "name": "APP_ENV",
+            "value": "sandbox",
+          },
+          Object {
+            "name": "MAIL_DRIVER",
+            "value": "sendgrid",
+          },
+          Object {
+            "name": "QUEUE_CONNECTION",
+            "value": "redis",
+          },
+          Object {
+            "name": "REDIS_SCHEME",
+            "value": "tls",
+          },
+          Object {
+            "name": "SQS_KEY",
+            "value": "",
+          },
+          Object {
+            "name": "SQS_PREFIX",
+            "value": "https://sqs.ap-northeast-1.amazonaws.com/869997810708",
+          },
+          Object {
+            "name": "SQS_QUEUE",
+            "value": "ZingerQueue.fifo",
+          },
+          Object {
+            "name": "SQS_REGION",
+            "value": "ap-northeast-1",
+          },
+          Object {
+            "name": "SQS_SECRET",
+            "value": "",
+          },
+          Object {
+            "name": "ZINGER_FILENAME_DWS_PROJECT_PDF",
+            "value": "サンドボックス_居宅介護計画書_%Y%m%d%H%M%S.xlsx",
+          },
+          Object {
+            "name": "ZINGER_FILENAME_LTCS_PROJECT_PDF",
+            "value": "サンドボックス_訪問介護計画書_%Y%m%d%H%M%S.xlsx",
+          },
+          Object {
+            "name": "ZINGER_FILENAME_PLAN_TEMPLATE",
+            "value": "サンドボックス_予定雛形_%Y%m%d%H%M%S.xlsx",
+          },
+          Object {
+            "name": "ZINGER_STAFF_ATTENDANCE_CONFIRMATION_FOURTH_AUDIO_URI",
+            "value": "__UNDEFINED__",
+          },
+          Object {
+            "name": "ZINGER_STAFF_ATTENDANCE_CONFIRMATION_THIRD_AUDIO_URI",
+            "value": "__UNDEFINED__",
+          },
+          Object {
+            "name": "ZINGER_URI_APP_DOMAIN",
+            "value": "staging.careid.net",
+          },
+        ],
+        "essential": true,
+        "image": "869997810708.dkr.ecr.ap-northeast-1.amazonaws.com/zinger/app-cli-sandbox:20221029123456-ae16de3bf",
+        "logConfiguration": Object {
+          "logDriver": "awslogs",
+          "options": Object {
+            "awslogs-create-group": "true",
+            "awslogs-group": "app-batch-watch",
+            "awslogs-region": "ap-northeast-1",
+            "awslogs-stream-prefix": "app-batch",
+          },
+        },
+        "name": "app-batch",
+        "secrets": Array [
+          Object {
+            "name": "APP_KEY",
+            "valueFrom": "/zinger/secure/appKey",
+          },
+          Object {
+            "name": "AWS_BUCKET",
+            "valueFrom": "/zinger/secure/awsBucket",
+          },
+          Object {
+            "name": "AWS_READONLY_BUCKET",
+            "valueFrom": "/zinger/secure/awsReadonlyBucket",
+          },
+          Object {
+            "name": "DB_HOST",
+            "valueFrom": "/zinger/string/dbHost",
+          },
+          Object {
+            "name": "DB_PASSWORD",
+            "valueFrom": "/zinger/secure/dbPassword",
+          },
+          Object {
+            "name": "DB_USERNAME",
+            "valueFrom": "/zinger/secure/dbUsername",
+          },
+          Object {
+            "name": "REDIS_HOST",
+            "valueFrom": "/zinger/string/redisHost",
+          },
+          Object {
+            "name": "REDIS_PASSWORD",
+            "valueFrom": "/zinger/secure/redisPassword",
+          },
+          Object {
+            "name": "ZINGER_GOOGLE_GEOCODING_API_KEY",
+            "valueFrom": "/zinger/secure/zingerGoogleGeocodingApiKey",
+          },
+          Object {
+            "name": "ZINGER_SENDGRID_API_KEY",
+            "valueFrom": "/zinger/secure/zingerSendgridApiKey",
+          },
+          Object {
+            "name": "ZINGER_TWILIO_ACCOUNT_SID",
+            "valueFrom": "/zinger/secure/zingerTwilioAccountSid",
+          },
+          Object {
+            "name": "ZINGER_TWILIO_API_KEY_SECRET",
+            "valueFrom": "/zinger/secure/zingerTwilioApiKeySecret",
+          },
+          Object {
+            "name": "ZINGER_TWILIO_API_KEY_SID",
+            "valueFrom": "/zinger/secure/zingerTwilioApiKeySid",
+          },
+          Object {
+            "name": "ZINGER_TWILIO_FROM_SMS_NUMBER",
+            "valueFrom": "/zinger/secure/zingerTwilioFromSmsNumber",
+          },
+          Object {
+            "name": "ZINGER_TWILIO_FROM_TEL_NUMBER",
+            "valueFrom": "/zinger/secure/zingerTwilioFromTelNumber",
+          },
+          Object {
+            "name": "ZINGER_URL_SHORTENER_KEY",
+            "valueFrom": "/zinger/secure/zingerUrlShortenerKey",
+          },
+        ],
+      },
+    ],
+    "cpu": "512",
+    "executionRoleArn": "ZingerEcsTaskExecutionRole",
+    "family": "ZingerAppMigrationTaskDefinition",
+    "memory": "1024",
+    "networkMode": "awsvpc",
+    "requiresCompatibilities": Array [
+      "FARGATE",
+    ],
+    "taskRoleArn": "ZingerEcsTaskRole",
+  },
+]
+`;
+
+exports[`ecs-register-task-definition registerTaskDefinition should register task: queue 1`] = `
+Array [
+  Object {
+    "containerDefinitions": Array [
+      Object {
+        "command": Array [
+          "php",
+          "artisan",
+          "queue:work",
+        ],
+        "environment": Array [
+          Object {
+            "name": "APP_DEBUG",
+            "value": "true",
+          },
+          Object {
+            "name": "APP_ENV",
+            "value": "sandbox",
+          },
+          Object {
+            "name": "MAIL_DRIVER",
+            "value": "sendgrid",
+          },
+          Object {
+            "name": "QUEUE_CONNECTION",
+            "value": "redis",
+          },
+          Object {
+            "name": "REDIS_SCHEME",
+            "value": "tls",
+          },
+          Object {
+            "name": "SQS_KEY",
+            "value": "",
+          },
+          Object {
+            "name": "SQS_PREFIX",
+            "value": "https://sqs.ap-northeast-1.amazonaws.com/869997810708",
+          },
+          Object {
+            "name": "SQS_QUEUE",
+            "value": "ZingerQueue.fifo",
+          },
+          Object {
+            "name": "SQS_REGION",
+            "value": "ap-northeast-1",
+          },
+          Object {
+            "name": "SQS_SECRET",
+            "value": "",
+          },
+          Object {
+            "name": "ZINGER_FILENAME_DWS_PROJECT_PDF",
+            "value": "サンドボックス_居宅介護計画書_%Y%m%d%H%M%S.xlsx",
+          },
+          Object {
+            "name": "ZINGER_FILENAME_LTCS_PROJECT_PDF",
+            "value": "サンドボックス_訪問介護計画書_%Y%m%d%H%M%S.xlsx",
+          },
+          Object {
+            "name": "ZINGER_FILENAME_PLAN_TEMPLATE",
+            "value": "サンドボックス_予定雛形_%Y%m%d%H%M%S.xlsx",
+          },
+          Object {
+            "name": "ZINGER_STAFF_ATTENDANCE_CONFIRMATION_FOURTH_AUDIO_URI",
+            "value": "__UNDEFINED__",
+          },
+          Object {
+            "name": "ZINGER_STAFF_ATTENDANCE_CONFIRMATION_THIRD_AUDIO_URI",
+            "value": "__UNDEFINED__",
+          },
+          Object {
+            "name": "ZINGER_URI_APP_DOMAIN",
+            "value": "staging.careid.net",
+          },
+        ],
+        "essential": true,
+        "image": "869997810708.dkr.ecr.ap-northeast-1.amazonaws.com/zinger/app-cli-sandbox:20221029123456-ae16de3bf",
+        "logConfiguration": Object {
+          "logDriver": "awslogs",
+          "options": Object {
+            "awslogs-create-group": "true",
+            "awslogs-group": "app-queue-watch",
+            "awslogs-region": "ap-northeast-1",
+            "awslogs-stream-prefix": "app-queue",
+          },
+        },
+        "name": "app-queue",
+        "secrets": Array [
+          Object {
+            "name": "APP_KEY",
+            "valueFrom": "/zinger/secure/appKey",
+          },
+          Object {
+            "name": "AWS_BUCKET",
+            "valueFrom": "/zinger/secure/awsBucket",
+          },
+          Object {
+            "name": "AWS_READONLY_BUCKET",
+            "valueFrom": "/zinger/secure/awsReadonlyBucket",
+          },
+          Object {
+            "name": "DB_HOST",
+            "valueFrom": "/zinger/string/dbHost",
+          },
+          Object {
+            "name": "DB_PASSWORD",
+            "valueFrom": "/zinger/secure/dbPassword",
+          },
+          Object {
+            "name": "DB_USERNAME",
+            "valueFrom": "/zinger/secure/dbUsername",
+          },
+          Object {
+            "name": "REDIS_HOST",
+            "valueFrom": "/zinger/string/redisHost",
+          },
+          Object {
+            "name": "REDIS_PASSWORD",
+            "valueFrom": "/zinger/secure/redisPassword",
+          },
+          Object {
+            "name": "ZINGER_GOOGLE_GEOCODING_API_KEY",
+            "valueFrom": "/zinger/secure/zingerGoogleGeocodingApiKey",
+          },
+          Object {
+            "name": "ZINGER_SENDGRID_API_KEY",
+            "valueFrom": "/zinger/secure/zingerSendgridApiKey",
+          },
+          Object {
+            "name": "ZINGER_TWILIO_ACCOUNT_SID",
+            "valueFrom": "/zinger/secure/zingerTwilioAccountSid",
+          },
+          Object {
+            "name": "ZINGER_TWILIO_API_KEY_SECRET",
+            "valueFrom": "/zinger/secure/zingerTwilioApiKeySecret",
+          },
+          Object {
+            "name": "ZINGER_TWILIO_API_KEY_SID",
+            "valueFrom": "/zinger/secure/zingerTwilioApiKeySid",
+          },
+          Object {
+            "name": "ZINGER_TWILIO_FROM_SMS_NUMBER",
+            "valueFrom": "/zinger/secure/zingerTwilioFromSmsNumber",
+          },
+          Object {
+            "name": "ZINGER_TWILIO_FROM_TEL_NUMBER",
+            "valueFrom": "/zinger/secure/zingerTwilioFromTelNumber",
+          },
+          Object {
+            "name": "ZINGER_URL_SHORTENER_KEY",
+            "valueFrom": "/zinger/secure/zingerUrlShortenerKey",
+          },
+        ],
+      },
+      Object {
+        "environment": Array [
+          Object {
+            "name": "MACKEREL_CONTAINER_PLATFORM",
+            "value": "ecs_v3",
+          },
+          Object {
+            "name": "MACKEREL_ROLES",
+            "value": "ZingerSandbox:Ecs",
+          },
+        ],
+        "essential": false,
+        "image": "mackerel/mackerel-container-agent:latest",
+        "logConfiguration": Object {
+          "logDriver": "awslogs",
+          "options": Object {
+            "awslogs-create-group": "true",
+            "awslogs-group": "mackerel-queue-watch",
+            "awslogs-region": "ap-northeast-1",
+            "awslogs-stream-prefix": "mackerel-queue",
+          },
+        },
+        "memory": 128,
+        "name": "mackerel-queue-container-agent",
+        "secrets": Array [
+          Object {
+            "name": "MACKEREL_APIKEY",
+            "valueFrom": "/zinger/secure/mackerelApiKey",
+          },
+        ],
+      },
+    ],
+    "cpu": "1024",
+    "executionRoleArn": "ZingerEcsTaskExecutionRole",
+    "family": "ZingerAppQueueTaskDefinition",
+    "memory": "2048",
+    "networkMode": "awsvpc",
+    "requiresCompatibilities": Array [
+      "FARGATE",
+    ],
+    "taskRoleArn": "ZingerEcsTaskRole",
+  },
+]
+`;
+
+exports[`ecs-register-task-definition registerTaskDefinition should register task: service 1`] = `
+Array [
+  Object {
+    "containerDefinitions": Array [
+      Object {
+        "dependsOn": Array [
+          Object {
+            "condition": "START",
+            "containerName": "app-server",
+          },
+        ],
+        "essential": true,
+        "image": "869997810708.dkr.ecr.ap-northeast-1.amazonaws.com/zinger/web-sandbox:20221029123456-ae16de3bf",
+        "logConfiguration": Object {
+          "logDriver": "awslogs",
+          "options": Object {
+            "awslogs-create-group": "true",
+            "awslogs-group": "web-watch",
+            "awslogs-region": "ap-northeast-1",
+            "awslogs-stream-prefix": "web",
+          },
+        },
+        "name": "web",
+        "portMappings": Array [
+          Object {
+            "containerPort": 55080,
+            "protocol": "tcp",
+          },
+        ],
+        "volumesFrom": Array [
+          Object {
+            "readOnly": true,
+            "sourceContainer": "app-server",
+          },
+        ],
+      },
+      Object {
+        "environment": Array [
+          Object {
+            "name": "APP_DEBUG",
+            "value": "true",
+          },
+          Object {
+            "name": "APP_ENV",
+            "value": "sandbox",
+          },
+          Object {
+            "name": "MAIL_DRIVER",
+            "value": "sendgrid",
+          },
+          Object {
+            "name": "QUEUE_CONNECTION",
+            "value": "redis",
+          },
+          Object {
+            "name": "REDIS_SCHEME",
+            "value": "tls",
+          },
+          Object {
+            "name": "SQS_KEY",
+            "value": "",
+          },
+          Object {
+            "name": "SQS_PREFIX",
+            "value": "https://sqs.ap-northeast-1.amazonaws.com/869997810708",
+          },
+          Object {
+            "name": "SQS_QUEUE",
+            "value": "ZingerQueue.fifo",
+          },
+          Object {
+            "name": "SQS_REGION",
+            "value": "ap-northeast-1",
+          },
+          Object {
+            "name": "SQS_SECRET",
+            "value": "",
+          },
+          Object {
+            "name": "ZINGER_FILENAME_DWS_PROJECT_PDF",
+            "value": "サンドボックス_居宅介護計画書_%Y%m%d%H%M%S.xlsx",
+          },
+          Object {
+            "name": "ZINGER_FILENAME_LTCS_PROJECT_PDF",
+            "value": "サンドボックス_訪問介護計画書_%Y%m%d%H%M%S.xlsx",
+          },
+          Object {
+            "name": "ZINGER_FILENAME_PLAN_TEMPLATE",
+            "value": "サンドボックス_予定雛形_%Y%m%d%H%M%S.xlsx",
+          },
+          Object {
+            "name": "ZINGER_STAFF_ATTENDANCE_CONFIRMATION_FOURTH_AUDIO_URI",
+            "value": "__UNDEFINED__",
+          },
+          Object {
+            "name": "ZINGER_STAFF_ATTENDANCE_CONFIRMATION_THIRD_AUDIO_URI",
+            "value": "__UNDEFINED__",
+          },
+          Object {
+            "name": "ZINGER_URI_APP_DOMAIN",
+            "value": "staging.careid.net",
+          },
+        ],
+        "essential": true,
+        "image": "869997810708.dkr.ecr.ap-northeast-1.amazonaws.com/zinger/app-server-sandbox:20221029123456-ae16de3bf",
+        "logConfiguration": Object {
+          "logDriver": "awslogs",
+          "options": Object {
+            "awslogs-create-group": "true",
+            "awslogs-group": "app-server-watch",
+            "awslogs-region": "ap-northeast-1",
+            "awslogs-stream-prefix": "app-server",
+          },
+        },
+        "name": "app-server",
+        "secrets": Array [
+          Object {
+            "name": "APP_KEY",
+            "valueFrom": "/zinger/secure/appKey",
+          },
+          Object {
+            "name": "AWS_BUCKET",
+            "valueFrom": "/zinger/secure/awsBucket",
+          },
+          Object {
+            "name": "AWS_READONLY_BUCKET",
+            "valueFrom": "/zinger/secure/awsReadonlyBucket",
+          },
+          Object {
+            "name": "DB_HOST",
+            "valueFrom": "/zinger/string/dbHost",
+          },
+          Object {
+            "name": "DB_PASSWORD",
+            "valueFrom": "/zinger/secure/dbPassword",
+          },
+          Object {
+            "name": "DB_USERNAME",
+            "valueFrom": "/zinger/secure/dbUsername",
+          },
+          Object {
+            "name": "REDIS_HOST",
+            "valueFrom": "/zinger/string/redisHost",
+          },
+          Object {
+            "name": "REDIS_PASSWORD",
+            "valueFrom": "/zinger/secure/redisPassword",
+          },
+          Object {
+            "name": "ZINGER_GOOGLE_GEOCODING_API_KEY",
+            "valueFrom": "/zinger/secure/zingerGoogleGeocodingApiKey",
+          },
+          Object {
+            "name": "ZINGER_SENDGRID_API_KEY",
+            "valueFrom": "/zinger/secure/zingerSendgridApiKey",
+          },
+          Object {
+            "name": "ZINGER_TWILIO_ACCOUNT_SID",
+            "valueFrom": "/zinger/secure/zingerTwilioAccountSid",
+          },
+          Object {
+            "name": "ZINGER_TWILIO_API_KEY_SECRET",
+            "valueFrom": "/zinger/secure/zingerTwilioApiKeySecret",
+          },
+          Object {
+            "name": "ZINGER_TWILIO_API_KEY_SID",
+            "valueFrom": "/zinger/secure/zingerTwilioApiKeySid",
+          },
+          Object {
+            "name": "ZINGER_TWILIO_FROM_SMS_NUMBER",
+            "valueFrom": "/zinger/secure/zingerTwilioFromSmsNumber",
+          },
+          Object {
+            "name": "ZINGER_TWILIO_FROM_TEL_NUMBER",
+            "valueFrom": "/zinger/secure/zingerTwilioFromTelNumber",
+          },
+          Object {
+            "name": "ZINGER_URL_SHORTENER_KEY",
+            "valueFrom": "/zinger/secure/zingerUrlShortenerKey",
+          },
+        ],
+      },
+      Object {
+        "environment": Array [
+          Object {
+            "name": "MACKEREL_CONTAINER_PLATFORM",
+            "value": "ecs_v3",
+          },
+          Object {
+            "name": "MACKEREL_ROLES",
+            "value": "ZingerSandbox:Ecs",
+          },
+        ],
+        "essential": false,
+        "image": "mackerel/mackerel-container-agent:latest",
+        "logConfiguration": Object {
+          "logDriver": "awslogs",
+          "options": Object {
+            "awslogs-create-group": "true",
+            "awslogs-group": "mackerel-service-watch",
+            "awslogs-region": "ap-northeast-1",
+            "awslogs-stream-prefix": "mackerel-service",
+          },
+        },
+        "memory": 128,
+        "name": "mackerel-service-container-agent",
+        "secrets": Array [
+          Object {
+            "name": "MACKEREL_APIKEY",
+            "valueFrom": "/zinger/secure/mackerelApiKey",
+          },
+        ],
+      },
+    ],
+    "cpu": "512",
+    "executionRoleArn": "ZingerEcsTaskExecutionRole",
+    "family": "ZingerTaskDefinition",
+    "memory": "1024",
+    "networkMode": "awsvpc",
+    "requiresCompatibilities": Array [
+      "FARGATE",
+    ],
+    "taskRoleArn": "ZingerEcsTaskRole",
+  },
+]
+`;

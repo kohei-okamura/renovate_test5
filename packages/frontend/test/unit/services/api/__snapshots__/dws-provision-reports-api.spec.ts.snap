@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`api/dws-provision-reports-api dws-provision-report-time-summary should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/dws-provision-reports-api dws-service-report-previews should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/dws-provision-reports-api get should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/dws-provision-reports-api getIndex should return response of the api 1`] = `
+Object {
+  "list": Array [
+    Object {
+      "dwsNumber": "0141011148",
+      "isEnabled": false,
+      "name": Object {
+        "displayName": "宮部 昴",
+        "familyName": "宮部",
+        "givenName": "昴",
+        "phoneticDisplayName": "ミヤベ スバル",
+        "phoneticFamilyName": "ミヤベ",
+        "phoneticGivenName": "スバル",
+      },
+      "status": 2,
+      "userId": 78,
+    },
+    Object {
+      "dwsNumber": "2359782409",
+      "isEnabled": false,
+      "name": Object {
+        "displayName": "木村 恵梨香",
+        "familyName": "木村",
+        "givenName": "恵梨香",
+        "phoneticDisplayName": "キムラ エリカ",
+        "phoneticFamilyName": "キムラ",
+        "phoneticGivenName": "エリカ",
+      },
+      "status": 2,
+      "userId": 71,
+    },
+    Object {
+      "dwsNumber": "8051111277",
+      "isEnabled": false,
+      "name": Object {
+        "displayName": "早川 沙知絵",
+        "familyName": "早川",
+        "givenName": "沙知絵",
+        "phoneticDisplayName": "ハヤカワ サチエ",
+        "phoneticFamilyName": "ハヤカワ",
+        "phoneticGivenName": "サチエ",
+      },
+      "status": 3,
+      "userId": 21,
+    },
+    Object {
+      "dwsNumber": "7700042244",
+      "isEnabled": false,
+      "name": Object {
+        "displayName": "浅利 惇",
+        "familyName": "浅利",
+        "givenName": "惇",
+        "phoneticDisplayName": "アサリ アツシ",
+        "phoneticFamilyName": "アサリ",
+        "phoneticGivenName": "アツシ",
+      },
+      "status": 1,
+      "userId": 67,
+    },
+    Object {
+      "dwsNumber": "2267381752",
+      "isEnabled": false,
+      "name": Object {
+        "displayName": "吉野 美帆",
+        "familyName": "吉野",
+        "givenName": "美帆",
+        "phoneticDisplayName": "ヨシノ ミホ",
+        "phoneticFamilyName": "ヨシノ",
+        "phoneticGivenName": "ミホ",
+      },
+      "status": 3,
+      "userId": 13,
+    },
+    Object {
+      "dwsNumber": "2775778802",
+      "isEnabled": false,
+      "name": Object {
+        "displayName": "松本 早紀",
+        "familyName": "松本",
+        "givenName": "早紀",
+        "phoneticDisplayName": "マツモト サキ",
+        "phoneticFamilyName": "マツモト",
+        "phoneticGivenName": "サキ",
+      },
+      "status": 3,
+      "userId": 45,
+    },
+    Object {
+      "dwsNumber": "4697982719",
+      "isEnabled": true,
+      "name": Object {
+        "displayName": "佐竹 真吾",
+        "familyName": "佐竹",
+        "givenName": "真吾",
+        "phoneticDisplayName": "サタケ シンゴ",
+        "phoneticFamilyName": "サタケ",
+        "phoneticGivenName": "シンゴ",
+      },
+      "status": 3,
+      "userId": 31,
+    },
+    Object {
+      "dwsNumber": "1759064165",
+      "isEnabled": false,
+      "name": Object {
+        "displayName": "市川 涼子",
+        "familyName": "市川",
+        "givenName": "涼子",
+        "phoneticDisplayName": "イチカワ リョウコ",
+        "phoneticFamilyName": "イチカワ",
+        "phoneticGivenName": "リョウコ",
+      },
+      "status": 1,
+      "userId": 68,
+    },
+    Object {
+      "dwsNumber": "6548698044",
+      "isEnabled": false,
+      "name": Object {
+        "displayName": "前原 栄一",
+        "familyName": "前原",
+        "givenName": "栄一",
+        "phoneticDisplayName": "マエハラ エイイチ",
+        "phoneticFamilyName": "マエハラ",
+        "phoneticGivenName": "エイイチ",
+      },
+      "status": 1,
+      "userId": 64,
+    },
+    Object {
+      "dwsNumber": "7304119384",
+      "isEnabled": true,
+      "name": Object {
+        "displayName": "木本 恵美",
+        "familyName": "木本",
+        "givenName": "恵美",
+        "phoneticDisplayName": "キモト メグミ",
+        "phoneticFamilyName": "キモト",
+        "phoneticGivenName": "メグミ",
+      },
+      "status": 3,
+      "userId": 28,
+    },
+  ],
+  "pagination": Object {
+    "count": 10,
+    "desc": false,
+    "itemsPerPage": 10,
+    "page": 1,
+    "pages": 1,
+    "sortBy": "",
+  },
+}
+`;
+
+exports[`api/dws-provision-reports-api getIndex should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/dws-provision-reports-api update should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/dws-provision-reports-api updateStatus should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;

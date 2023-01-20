@@ -1,0 +1,16 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: サービス提供実績記録票：合計区分カテゴリー
+name: DwsBillingServiceReportAggregateCategory
+php:
+  enabled: true
+  namespace: Billing
+typescript:
+  enabled: true
+items:
+  - { description: 内訳 100%, name: Category100, value: 1 }
+  - { description: 内訳 90%, name: Category90, value: 2 }
+  - { description: 内訳 70%, name: Category70, value: 3  }
+  - { description: 内訳 重訪, name: CategoryPwsd, value: 4 }
+  - { description: 合計 算定時間数計, name: CategoryTotal, value: 5 }

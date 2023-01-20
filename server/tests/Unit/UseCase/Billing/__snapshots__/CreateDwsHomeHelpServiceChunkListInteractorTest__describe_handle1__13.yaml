@@ -1,0 +1,20 @@
+-
+    id: 1
+    userId: 1
+    category: 111000
+    buildingType: 0
+    isEmergency: false
+    isFirst: false
+    isWelfareSpecialistCooperation: false
+    isPlannedByNovice: false
+    range:
+        start: '2022-01-31T23:30:00+09:00'
+        end: '2022-02-01T00:30:00+09:00'
+    fragments:
+        -
+            providerType: 2
+            isSecondary: false
+            range:
+                start: '2022-01-31T23:30:00+09:00'
+                end: '2022-02-01T00:30:00+09:00'
+            headcount: 1

@@ -1,0 +1,16 @@
+{
+    "id": null,
+    "officeId": 1,
+    "period": {
+        "start": null,
+        "end": null
+    },
+    "specifiedOfficeAddition": 1,
+    "treatmentImprovementAddition": 2,
+    "specifiedTreatmentImprovementAddition": 1,
+    "locationAddition": 2,
+    "baseIncreaseSupportAddition": 1,
+    "isEnabled": true,
+    "createdAt": "2019-05-15T00:00:00+0900",
+    "updatedAt": "2019-05-15T00:00:00+0900"
+}

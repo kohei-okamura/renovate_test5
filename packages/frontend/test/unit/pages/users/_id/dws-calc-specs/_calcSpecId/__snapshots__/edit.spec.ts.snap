@@ -1,0 +1,261 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/users/_id/dws-calc-specs/_calcSpecId/edit.vue should be rendered correctly 1`] = `
+<div
+  breadcrumbs="[object Object],[object Object],[object Object],[object Object]"
+  class="z-page-stub"
+  compact="compact"
+>
+  <div
+    class="z-page-stub-slot-tabs"
+  />
+  <div
+    class="z-page-stub-slot-title"
+  />
+  <form
+    class="v-form"
+    data-form=""
+    data-z-user-dws-calc-spec-form=""
+    novalidate="novalidate"
+  >
+    <div>
+      <z-user-summary-stub
+        user="[object Object]"
+      />
+      <div
+        class="z-form-card-stub"
+        title="利用者別算定情報"
+      >
+        <div
+          class="z-form-card-stub-slot-actions"
+        />
+        <z-form-card-item-set-stub
+          icon="M19,19H5V8H19M19,3H18V1H16V3H8V1H6V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3M16.53,11.06L15.47,10L10.59,14.88L8.47,12.76L7.41,13.82L10.59,17L16.53,11.06Z"
+          label=""
+        >
+          <div
+            class="root"
+            data-effectivated-on=""
+            data-z-form-card-item=""
+          >
+            <div
+              class="z-date-field"
+            >
+              <div
+                class="v-input v-input--is-label-active v-input--is-dirty v-input--is-readonly v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"
+              >
+                <div
+                  class="v-input__control"
+                >
+                  <div
+                    class="v-input__slot"
+                    style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                  >
+                    <fieldset
+                      aria-hidden="true"
+                    >
+                      <legend
+                        style="width: -24px;"
+                      >
+                        <span
+                          class="notranslate"
+                        >
+                          ​
+                        </span>
+                      </legend>
+                    </fieldset>
+                    <div
+                      class="v-text-field__slot"
+                    >
+                      <label
+                        class="v-label v-label--active theme--light"
+                        style="left: 0px; position: absolute;"
+                      >
+                        適用日 *
+                      </label>
+                      <input
+                        readonly="readonly"
+                        type="text"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="v-text-field__details"
+                  >
+                    <div
+                      class="v-messages theme--light"
+                    >
+                      <transition-group-stub
+                        class="v-messages__wrapper"
+                        name="message-transition"
+                        tag="div"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <v-dialog-stub
+                closedelay="0"
+                contentclass=""
+                data-z-date-field-dialog=""
+                opendelay="0"
+                origin="center center"
+                retainfocus="true"
+                transition="dialog-transition"
+                width="290px"
+              >
+                <v-date-picker-stub
+                  data-z-date-field-picker=""
+                  dayformat="[Function]"
+                  eventcolor="warning"
+                  firstdayofweek="1"
+                  headerdateformat="[Function]"
+                  locale="ja-JP"
+                  localefirstdayofyear="0"
+                  max="2028-05-17"
+                  min="1920-01-01"
+                  nexticon="$next"
+                  nextmontharialabel="$vuetify.datePicker.nextMonthAriaLabel"
+                  nextyeararialabel="$vuetify.datePicker.nextYearAriaLabel"
+                  notitle="true"
+                  previcon="$prev"
+                  prevmontharialabel="$vuetify.datePicker.prevMonthAriaLabel"
+                  prevyeararialabel="$vuetify.datePicker.prevYearAriaLabel"
+                  selecteditemstext="$vuetify.datePicker.itemsSelected"
+                  showcurrent="true"
+                  titledateformat="[Function]"
+                  type="date"
+                  value="2012-10-11"
+                  width="290"
+                  yearformat="[Function]"
+                >
+                  <v-spacer-stub
+                    tag="div"
+                  />
+                  <a
+                    class="v-btn-stub"
+                    color="primary"
+                    data-z-date-field-button-clear=""
+                    text=""
+                  >
+                    クリア
+                  </a>
+                  <a
+                    class="v-btn-stub"
+                    color="primary"
+                    data-z-date-field-button-cancel=""
+                    text=""
+                  >
+                    キャンセル
+                  </a>
+                </v-date-picker-stub>
+              </v-dialog-stub>
+            </div>
+          </div>
+          <div
+            class="root"
+            data-location-addition=""
+            data-z-form-card-item=""
+          >
+            <div
+              class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined v-select"
+            >
+              <div
+                class="v-input__control"
+              >
+                <div
+                  aria-expanded="false"
+                  aria-haspopup="listbox"
+                  class="v-input__slot"
+                  role="button"
+                  style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                >
+                  <fieldset
+                    aria-hidden="true"
+                  >
+                    <legend
+                      style="width: -24px;"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                  <div
+                    class="v-select__slot"
+                  >
+                    <label
+                      class="v-label v-label--active theme--light"
+                      style="left: 0px; position: absolute;"
+                    >
+                      地域加算 *
+                    </label>
+                    <div
+                      class="v-select__selections"
+                    >
+                      <div
+                        class="v-select__selection v-select__selection--comma"
+                      >
+                        特別地域加算
+                      </div>
+                      <input
+                        aria-readonly="false"
+                        autocomplete="off"
+                        readonly="readonly"
+                        type="text"
+                      />
+                    </div>
+                    <div
+                      class="v-input__append-inner"
+                    >
+                      <div
+                        class="v-input__icon v-input__icon--append"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="v-icon notranslate mdi mdi-menu-down theme--light"
+                        />
+                      </div>
+                    </div>
+                    <input
+                      type="hidden"
+                      value="1"
+                    />
+                  </div>
+                  <div
+                    class="v-menu"
+                  >
+                    <!---->
+                  </div>
+                </div>
+                <div
+                  class="v-text-field__details"
+                >
+                  <div
+                    class="v-messages theme--light"
+                  >
+                    <transition-group-stub
+                      class="v-messages__wrapper"
+                      name="message-transition"
+                      tag="div"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </z-form-card-item-set-stub>
+        <div
+          class="z-form-card-stub-slot-header"
+        />
+      </div>
+      <z-form-action-button-stub
+        icon="M14,13V17H10V13H7L12,8L17,13M19.35,10.03C18.67,6.59 15.64,4 12,4C9.11,4 6.6,5.64 5.35,8.03C2.34,8.36 0,10.9 0,14A6,6 0 0,0 6,20H19A5,5 0 0,0 24,15C24,12.36 21.95,10.22 19.35,10.03Z"
+        text="保存"
+      />
+    </div>
+  </form>
+</div>
+`;

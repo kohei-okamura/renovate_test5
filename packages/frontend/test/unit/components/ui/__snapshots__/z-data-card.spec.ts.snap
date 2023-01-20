@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-data-card.vue should be rendered correctly 1`] = `
+<div
+  class="dataCard"
+>
+  <v-subheader-stub
+    class="root"
+    data-z-subheader=""
+  >
+    <div
+      class="inner"
+    >
+      5th DIMENSION
+    </div>
+  </v-subheader-stub>
+  <div
+    class="flex-grow-1 v-card v-sheet theme--light"
+  >
+    <div
+      class="v-card__text px-0"
+    >
+      <div
+        data-slot-default=""
+      />
+    </div>
+    <div
+      class="v-card__actions"
+    >
+      <div
+        data-slot-actions=""
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`z-data-card.vue should be rendered correctly with class 1`] = `
+<div
+  class="dataCard test"
+>
+  <v-subheader-stub
+    class="root"
+    data-z-subheader=""
+  >
+    <div
+      class="inner"
+    >
+      5th DIMENSION
+    </div>
+  </v-subheader-stub>
+  <div
+    class="flex-grow-1 v-card v-sheet theme--light"
+  >
+    <div
+      class="v-card__text px-0"
+    />
+  </div>
+</div>
+`;

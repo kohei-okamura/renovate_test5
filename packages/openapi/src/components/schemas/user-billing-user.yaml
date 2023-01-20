@@ -1,0 +1,21 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 利用者請求：利用者
+type: object
+properties:
+  name:
+    $ref: '#/components/schemas/StructuredName'
+  addr:
+    $ref: '#/components/schemas/Addr'
+  contacts:
+    description: 連絡先電話番号
+    type: array
+    items:
+      $ref: '#/components/schemas/Contact'
+  billingDestination:
+    $ref: '#/components/schemas/UserBillingDestination'
+  bankAccount:
+    $ref: '#/components/schemas/UserBillingBankAccount'

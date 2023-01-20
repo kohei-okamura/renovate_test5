@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-data-accordion.vue should be rendered correctly 1`] = `
+<div
+  class="root"
+  data-z-data-accordion=""
+>
+  <!---->
+  <div
+    class="v-item-group theme--light v-expansion-panels"
+  >
+    <div
+      aria-expanded="false"
+      class="v-expansion-panel panel"
+      data-expansion-panel=""
+    >
+      <button
+        class="v-expansion-panel-header header"
+        data-expansion-panel-header=""
+        type="button"
+      >
+        <div
+          class="item"
+        >
+          <div
+            class="text-caption text--secondary"
+          >
+            Dessert (100g serving)
+          </div>
+          <div
+            class="text-body-2 text--primary"
+          />
+        </div>
+        <transition-stub
+          name="fade-transition"
+        >
+          <div
+            class="v-expansion-panel-header__icon"
+          >
+            <i
+              aria-hidden="true"
+              class="v-icon notranslate mdi mdi-chevron-down theme--light"
+            />
+          </div>
+        </transition-stub>
+      </button>
+      <transition-stub
+        name="expand-transition"
+      >
+        <!---->
+      </transition-stub>
+    </div>
+    <div
+      aria-expanded="false"
+      class="v-expansion-panel panel"
+      data-expansion-panel=""
+    >
+      <button
+        class="v-expansion-panel-header header"
+        data-expansion-panel-header=""
+        type="button"
+      >
+        <div
+          class="item"
+        >
+          <div
+            class="text-caption text--secondary"
+          >
+            Dessert (100g serving)
+          </div>
+          <div
+            class="text-body-2 text--primary"
+          />
+        </div>
+        <transition-stub
+          name="fade-transition"
+        >
+          <div
+            class="v-expansion-panel-header__icon"
+          >
+            <i
+              aria-hidden="true"
+              class="v-icon notranslate mdi mdi-chevron-down theme--light"
+            />
+          </div>
+        </transition-stub>
+      </button>
+      <transition-stub
+        name="expand-transition"
+      >
+        <!---->
+      </transition-stub>
+    </div>
+  </div>
+  <!---->
+  <!---->
+</div>
+`;
+
+exports[`z-data-accordion.vue should be rendered with expanded contents when click expansion panel header 1`] = `
+<div
+  class="root"
+  data-z-data-accordion=""
+>
+  <!---->
+  <div
+    class="v-item-group theme--light v-expansion-panels"
+  >
+    <div
+      aria-expanded="true"
+      class="v-expansion-panel v-expansion-panel--active v-item--active panel"
+      data-expansion-panel=""
+    >
+      <button
+        aria-expanded="true"
+        class="v-expansion-panel-header v-expansion-panel-header--active header"
+        data-expansion-panel-header=""
+        type="button"
+      >
+        <div
+          class="item"
+        >
+          <div
+            class="text-caption text--secondary"
+          >
+            Dessert (100g serving)
+          </div>
+          <div
+            class="text-body-2 text--primary"
+          />
+        </div>
+        <transition-stub
+          name="fade-transition"
+        >
+          <div
+            class="v-expansion-panel-header__icon"
+          >
+            <i
+              aria-hidden="true"
+              class="v-icon notranslate mdi mdi-chevron-down theme--light"
+            />
+          </div>
+        </transition-stub>
+      </button>
+      <transition-stub
+        name="expand-transition"
+      >
+        <div
+          class="v-expansion-panel-content"
+          style=""
+        >
+          <div
+            class="v-expansion-panel-content__wrap"
+          >
+            <div
+              class="item"
+            >
+              <div
+                class="text-caption text--secondary"
+              >
+            Calories
+              </div>
+              <div
+                class="text-body-2 text--primary value"
+              />
+            </div>
+            <!---->
+          </div>
+        </div>
+      </transition-stub>
+    </div>
+    <div
+      aria-expanded="false"
+      class="v-expansion-panel panel"
+      data-expansion-panel=""
+    >
+      <button
+        class="v-expansion-panel-header header"
+        data-expansion-panel-header=""
+        type="button"
+      >
+        <div
+          class="item"
+        >
+          <div
+            class="text-caption text--secondary"
+          >
+            Dessert (100g serving)
+          </div>
+          <div
+            class="text-body-2 text--primary"
+          />
+        </div>
+        <transition-stub
+          name="fade-transition"
+        >
+          <div
+            class="v-expansion-panel-header__icon"
+          >
+            <i
+              aria-hidden="true"
+              class="v-icon notranslate mdi mdi-chevron-down theme--light"
+            />
+          </div>
+        </transition-stub>
+      </button>
+      <transition-stub
+        name="expand-transition"
+      >
+        <!---->
+      </transition-stub>
+    </div>
+  </div>
+  <!---->
+  <!---->
+</div>
+`;

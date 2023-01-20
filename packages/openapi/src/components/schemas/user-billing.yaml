@@ -1,0 +1,56 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 利用者請求
+type: object
+properties:
+  id:
+    description: 利用者請求 ID
+    type: object
+  userId:
+    description: 利用者 ID
+    type: object
+  officeId:
+    description: 事業所 ID
+    type: object
+  user:
+    $ref: '#/components/schemas/UserBillingUser'
+  office:
+    $ref: '#/components/schemas/UserBillingOffice'
+  dwsItem:
+    $ref: '#/components/schemas/UserBillingDwsItem'
+  ltcsItem:
+    $ref: '#/components/schemas/UserBillingLtcsItem'
+  otherItems:
+    description: その他サービス明細
+    type: array
+    items:
+      $ref: '#/components/schemas/UserBillingOtherItem'
+  result:
+    $ref: '#/components/schemas/UserBillingResult'
+  totalAmount:
+    description: 合計金額
+    type: number
+  carriedOverAmount:
+    description: 繰越金額
+    type: number
+  withdrawalResultCode:
+    $ref: '#/components/schemas/WithdrawalResultCode'
+  providedIn:
+    $ref: '#/components/schemas/DateLike'
+  issuedOn:
+    $ref: '#/components/schemas/DateLike'
+  depositedAt:
+    $ref: '#/components/schemas/DateLike'
+  transactedAt:
+    $ref: '#/components/schemas/DateLike'
+  deductedOn:
+    $ref: '#/components/schemas/DateLike'
+  dueDate:
+    $ref: '#/components/schemas/DateLike'
+  createdAt:
+    $ref: '#/components/schemas/DateLike'
+  updatedAt:
+    $ref: '#/components/schemas/DateLike'

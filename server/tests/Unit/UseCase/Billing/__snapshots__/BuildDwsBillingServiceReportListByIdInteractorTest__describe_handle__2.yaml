@@ -1,0 +1,160 @@
+-
+    id: null
+    dwsBillingId: 1
+    dwsBillingBundleId: 1
+    user:
+        userId: 1
+        dwsCertificationId: 1
+        dwsNumber: '1234567890'
+        name:
+            displayName: '高田 純次'
+            phoneticDisplayName: 'タカダ ジュンジ'
+            familyName: 高田
+            givenName: 純次
+            phoneticFamilyName: タカダ
+            phoneticGivenName: ジュンジ
+        childName:
+            displayName: ' '
+            phoneticDisplayName: ' '
+            familyName: ''
+            givenName: ''
+            phoneticFamilyName: ''
+            phoneticGivenName: ''
+        copayLimit: 37200
+    format: '0301'
+    plan:
+        21: {  }
+        22: {  }
+    result:
+        21: {  }
+        22: {  }
+    emergencyCount: 0
+    firstTimeCount: 1
+    welfareSpecialistCooperationCount: 0
+    behavioralDisorderSupportCooperationCount: 0
+    movingCareSupportCount: 0
+    items:
+        -
+            serialNumber: 1
+            providedOn: '2021-01-02T12:00:00+09:00'
+            serviceType: '121000'
+            providerType: 0
+            situation: 0
+            plan:
+                period:
+                    start: '2021-01-02T12:00:00+09:00'
+                    end: '2021-01-02T20:00:00+09:00'
+                serviceDurationHours: 80000
+                movingDurationHours: 0
+            result: null
+            serviceCount: 0
+            headcount: 1
+            isCoaching: false
+            isFirstTime: false
+            isEmergency: false
+            isWelfareSpecialistCooperation: false
+            isBehavioralDisorderSupportCooperation: false
+            isMovingCareSupport: false
+            isDriving: false
+            isPreviousMonth: false
+            note: ''
+        -
+            serialNumber: 1
+            providedOn: '2021-01-03T12:00:00+09:00'
+            serviceType: '122000'
+            providerType: 0
+            situation: 0
+            plan:
+                period:
+                    start: '2021-01-03T12:00:00+09:00'
+                    end: '2021-01-03T20:00:00+09:00'
+                serviceDurationHours: 80000
+                movingDurationHours: 0
+            result: null
+            serviceCount: 0
+            headcount: 1
+            isCoaching: false
+            isFirstTime: true
+            isEmergency: false
+            isWelfareSpecialistCooperation: false
+            isBehavioralDisorderSupportCooperation: false
+            isMovingCareSupport: false
+            isDriving: false
+            isPreviousMonth: false
+            note: ''
+        -
+            serialNumber: 1
+            providedOn: '2021-01-02T12:00:00+09:00'
+            serviceType: '123000'
+            providerType: 0
+            situation: 0
+            plan:
+                period:
+                    start: '2021-01-02T12:00:00+09:00'
+                    end: '2021-01-02T20:00:00+09:00'
+                serviceDurationHours: 0
+                movingDurationHours: 0
+            result: null
+            serviceCount: 0
+            headcount: 2
+            isCoaching: false
+            isFirstTime: false
+            isEmergency: false
+            isWelfareSpecialistCooperation: false
+            isBehavioralDisorderSupportCooperation: false
+            isMovingCareSupport: false
+            isDriving: false
+            isPreviousMonth: false
+            note: ''
+        -
+            serialNumber: 1
+            providedOn: '2021-01-02T12:00:00+09:00'
+            serviceType: '123000'
+            providerType: 0
+            situation: 0
+            plan:
+                period:
+                    start: '2021-01-02T12:00:00+09:00'
+                    end: '2021-01-02T20:00:00+09:00'
+                serviceDurationHours: 160000
+                movingDurationHours: 0
+            result: null
+            serviceCount: 0
+            headcount: 2
+            isCoaching: false
+            isFirstTime: false
+            isEmergency: false
+            isWelfareSpecialistCooperation: false
+            isBehavioralDisorderSupportCooperation: false
+            isMovingCareSupport: false
+            isDriving: false
+            isPreviousMonth: false
+            note: ''
+        -
+            serialNumber: 1
+            providedOn: '2021-01-02T12:00:00+09:00'
+            serviceType: '123000'
+            providerType: 0
+            situation: 0
+            plan:
+                period:
+                    start: '2021-01-02T12:00:00+09:00'
+                    end: '2021-01-02T20:00:00+09:00'
+                serviceDurationHours: 80000
+                movingDurationHours: 10000
+            result: null
+            serviceCount: 0
+            headcount: 1
+            isCoaching: false
+            isFirstTime: false
+            isEmergency: false
+            isWelfareSpecialistCooperation: false
+            isBehavioralDisorderSupportCooperation: false
+            isMovingCareSupport: false
+            isDriving: false
+            isPreviousMonth: false
+            note: ''
+    status: 20
+    fixedAt: null
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'

@@ -1,0 +1,19 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+description: 障害福祉サービス：予実登録／更新フォーム
+type: object
+properties:
+  plans:
+    description: 予定
+    type: array
+    items:
+      $ref: '#/components/schemas/DwsProvisionReportItem'
+  results:
+    description: 実績
+    type: array
+    items:
+      $ref: '#/components/schemas/DwsProvisionReportItem'
+required:
+  - plans
+  - results

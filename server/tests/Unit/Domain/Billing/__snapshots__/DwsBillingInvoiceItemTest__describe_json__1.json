@@ -1,0 +1,10 @@
+{
+    "paymentCategory": 1,
+    "serviceDivisionCode": "12",
+    "subtotalCount": 10,
+    "subtotalScore": 1000,
+    "subtotalFee": 1000,
+    "subtotalBenefit": 1000,
+    "subtotalCopay": 1000,
+    "subtotalSubsidy": 1000
+}

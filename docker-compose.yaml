@@ -1,0 +1,108 @@
+---
+version: '3.7'
+
+services:
+  mysql:
+    build: packages/docker/dockerfiles/mysql
+    cap_add:
+      - SYS_NICE
+    environment:
+      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_ZINGER_PASSWORD: secret
+    ports:
+      - "33306:3306"
+    restart: always
+    volumes:
+      - mysql-data:/var/lib/mysql
+
+  mysql-testing:
+    build: packages/docker/dockerfiles/mysql
+    cap_add:
+      - SYS_NICE
+    environment:
+      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_ZINGER_PASSWORD: secret
+    ports:
+      - "43306:3306"
+    restart: always
+    tmpfs:
+      - /var/lib/mysql
+
+  redis:
+    image: redis:6.0.12
+    command: redis-server --requirepass secret
+    ports:
+      - "6379:6379"
+    restart: always
+    volumes:
+      - redis-data:/data
+
+  maildev:
+    image: maildev/maildev:1.1.0
+    ports:
+      - "1025:25"
+    restart: always
+
+  app-server:
+    image: zinger/app-server-dev:latest
+    depends_on:
+      - maildev
+      - mysql
+      - redis
+    environment:
+      - APP_ENV=docker
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+      - ZINGER_GOOGLE_GEOCODING_API_KEY=${ZINGER_GOOGLE_GEOCODING_API_KEY}
+      - ZINGER_SENDGRID_API_KEY=${ZINGER_SENDGRID_API_KEY}
+      - ZINGER_TWILIO_ACCOUNT_SID=${ZINGER_TWILIO_ACCOUNT_SID}
+      - ZINGER_TWILIO_API_KEY_SECRET=${ZINGER_TWILIO_API_KEY_SECRET}
+      - ZINGER_TWILIO_API_KEY_SID=${ZINGER_TWILIO_API_KEY_SID}
+      - ZINGER_TWILIO_FROM_SMS_NUMBER=${ZINGER_TWILIO_FROM_SMS_NUMBER}
+      - ZINGER_TWILIO_FROM_TEL_NUMBER=${ZINGER_TWILIO_FROM_TEL_NUMBER}
+      - ZINGER_URL_SHORTENER_KEY=${ZINGER_URL_SHORTENER_KEY}
+    restart: always
+    volumes:
+      - .:/app
+      - app-data:/var/run/php-fpm
+
+  app-queue:
+    image: zinger/app-cli-dev:latest
+    command: php artisan queue:work ${ZINGER_APP_QUEUE_OPTIONS}
+    depends_on:
+      - maildev
+      - mysql
+      - redis
+    environment:
+      - APP_ENV=docker
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+      - PHP_IDE_CONFIG=${PHP_IDE_CONFIG:-serverName=dev.careid.net}
+      - ZINGER_GOOGLE_GEOCODING_API_KEY=${ZINGER_GOOGLE_GEOCODING_API_KEY}
+      - ZINGER_SENDGRID_API_KEY=${ZINGER_SENDGRID_API_KEY}
+      - ZINGER_TWILIO_ACCOUNT_SID=${ZINGER_TWILIO_ACCOUNT_SID}
+      - ZINGER_TWILIO_API_KEY_SECRET=${ZINGER_TWILIO_API_KEY_SECRET}
+      - ZINGER_TWILIO_API_KEY_SID=${ZINGER_TWILIO_API_KEY_SID}
+      - ZINGER_TWILIO_FROM_SMS_NUMBER=${ZINGER_TWILIO_FROM_SMS_NUMBER}
+      - ZINGER_TWILIO_FROM_TEL_NUMBER=${ZINGER_TWILIO_FROM_TEL_NUMBER}
+      - ZINGER_URL_SHORTENER_KEY=${ZINGER_URL_SHORTENER_KEY}
+    restart: always
+    volumes:
+      - .:/app
+
+  nginx:
+    image: zinger/web-dev:latest
+    depends_on:
+      - app-server
+      - maildev
+    ports:
+      - "80:55080"
+      - "443:55443"
+    restart: always
+    volumes:
+      - app-data:/var/run/php-fpm
+
+volumes:
+  mysql-data:
+  app-data:
+  redis-data:

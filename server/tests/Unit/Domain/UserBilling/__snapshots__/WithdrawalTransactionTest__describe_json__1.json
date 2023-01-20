@@ -1,0 +1,17 @@
+{
+    "id": 1,
+    "items": [
+        {
+            "userBillingIds": null,
+            "zenginRecord": null
+        },
+        {
+            "userBillingIds": null,
+            "zenginRecord": null
+        }
+    ],
+    "deductedOn": "0000-01-01T00:00:00+0918",
+    "downloadedAt": "0000-01-01T00:00:00+0918",
+    "createdAt": "0000-01-01T00:00:00+0918",
+    "updatedAt": "0000-01-01T00:00:00+0918"
+}

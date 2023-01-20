@@ -1,0 +1,24 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+post:
+  summary: 障害福祉サービス契約登録
+  description: 契約（障害福祉サービス）情報を登録する。
+  parameters:
+    - $ref: '#/components/parameters/userId'
+  requestBody:
+    content:
+      application/json:
+        schema:
+          $ref: '#/components/schemas/DwsContractForm'
+  responses:
+    '201':
+      $ref: '#/components/responses/Created'
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+    '404':
+      $ref: '#/components/responses/UserNotFound'
+  tags:
+    - 利用者：障害福祉サービス契約

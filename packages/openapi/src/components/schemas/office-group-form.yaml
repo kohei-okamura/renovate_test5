@@ -1,0 +1,16 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+description: 事業所グループ登録／更新フォーム
+type: object
+properties:
+  name:
+    description: 名称
+    type: string
+  parentOfficeGroupId:
+    $ref: '#/components/schemas/OfficeGroupId'
+  sortOrder:
+    description: 表示順
+    type: integer
+required:
+  - name

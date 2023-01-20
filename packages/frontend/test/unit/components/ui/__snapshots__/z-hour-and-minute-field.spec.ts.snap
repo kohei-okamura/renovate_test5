@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-hour-and-minute-field.vue should be rendered correctly 1`] = `
+<div
+  class="z-hour-and-minute-field"
+>
+  <z-flex-stub
+    class="slot"
+  >
+    <div
+      class="item"
+    >
+      <div
+        class="v-input z-text-field--numeric v-input--hide-details v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"
+      >
+        <div
+          class="v-input__control"
+        >
+          <div
+            class="v-input__slot"
+            style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+          >
+            <fieldset
+              aria-hidden="true"
+            >
+              <legend
+                style="width: 0px;"
+              >
+                <span
+                  class="notranslate"
+                >
+                  ​
+                </span>
+              </legend>
+            </fieldset>
+            <div
+              class="v-text-field__slot"
+            >
+              <input
+                data-hour-text-field=""
+                type="text"
+              />
+              <div
+                class="v-text-field__suffix"
+              >
+                時間
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="item"
+    >
+      <div
+        class="v-input z-text-field--numeric v-input--hide-details v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"
+      >
+        <div
+          class="v-input__control"
+        >
+          <div
+            class="v-input__slot"
+            style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+          >
+            <fieldset
+              aria-hidden="true"
+            >
+              <legend
+                style="width: 0px;"
+              >
+                <span
+                  class="notranslate"
+                >
+                  ​
+                </span>
+              </legend>
+            </fieldset>
+            <div
+              class="v-text-field__slot"
+            >
+              <input
+                data-minute-text-field=""
+                max-length="2"
+                type="text"
+              />
+              <div
+                class="v-text-field__suffix"
+              >
+                分
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </z-flex-stub>
+  <div
+    class="details"
+  >
+    <!---->
+  </div>
+</div>
+`;

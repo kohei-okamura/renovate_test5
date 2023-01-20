@@ -1,0 +1,15 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: サービス提供実績記録票：サービス提供の状況
+name: DwsBillingServiceReportSituation
+php:
+  enabled: true
+  namespace: Billing
+  withResolver: true
+typescript:
+  enabled: true
+items:
+  - { description: 未設定, name: None, value: 0 }
+  - { description: 入院, name: Hospitalized, value: 1 }
+  - { description: 入院（長期）, name: LongHospitalized, value: 2 }

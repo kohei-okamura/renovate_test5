@@ -1,0 +1,21 @@
+providedOn: '1'
+weekday: 月
+serviceCount: '1'
+serviceType: 身体
+situation: ''
+plan:
+    start: ''
+    end: ''
+    serviceDurationHours: ''
+    movingDurationHours: ''
+result:
+    start: '10:00'
+    end: '12:00'
+    serviceDurationHours: '30'
+    movingDurationHours: '45'
+headcount: '1'
+isFirstTime: '1'
+isEmergency: '1'
+isWelfareSpecialistCooperation: '1'
+isMovingCareSupport: '1'
+note: びこう

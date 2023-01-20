@@ -1,0 +1,15 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 障害福祉サービス：利用者別地域加算区分
+name: DwsUserLocationAddition
+php:
+  enabled: true
+  namespace: User
+  traits:
+    - DwsUserLocationAdditionSupport
+typescript:
+  enabled: true
+items:
+  - { description: なし, name: None, value: 0 }
+  - { description: 特別地域加算, name: SpecifiedArea, value: 1 }

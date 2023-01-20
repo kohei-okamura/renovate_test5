@@ -1,0 +1,16 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 障害福祉サービス：福祉・介護職員等特定処遇改善加算区分
+name: DwsSpecifiedTreatmentImprovementAddition
+php:
+  enabled: true
+  namespace: Office
+  traits:
+    - DwsSpecifiedTreatmentImprovementAdditionSupport
+typescript:
+  enabled: true
+items:
+  - { description: なし, name: None, value: 0 }
+  - { description: 特定処遇改善加算（Ⅰ）, name: Addition1, value: 1 }
+  - { description: 特定処遇改善加算（Ⅱ）, name: Addition2, value: 2 }

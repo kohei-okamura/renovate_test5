@@ -1,0 +1,45 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+post:
+  summary: 介護保険サービス：予実合計単位数取得
+  description: 介護保険サービス：予実詳細の合計単位数を取得する。
+  requestBody:
+    content:
+      application/json:
+        schema:
+          $ref: '#/components/schemas/LtcsProvisionReportScoreSummaryForm'
+  responses:
+    '200':
+      description: 合計単位数が正常に計算できた場合
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              plan:
+                description: 予定
+                type: object
+                properties:
+                  managedScore:
+                    description: 予定の限度額管理対象単位数
+                    type: integer
+                  unmanagedScore:
+                    description: 予定の限度額管理対象外単位数
+                    type: integer
+              result:
+                description: 実績
+                type: object
+                properties:
+                  managedScore:
+                    description: 実績の限度額管理対象単位数
+                    type: integer
+                  unmanagedScore:
+                    description: 実績の限度額管理対象外単位数
+                    type: integer
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+  tags:
+    - 介護保険サービス：予実

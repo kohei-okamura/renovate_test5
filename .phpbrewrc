@@ -1,0 +1,1 @@
+test -z "$fish_home" && eval "source $0.sh" || eval "source (status -f).fish"

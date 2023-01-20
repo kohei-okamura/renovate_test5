@@ -1,0 +1,15 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 上限管理区分
+name: CopayCoordinationType
+php:
+  enabled: true
+  namespace: DwsCertification
+typescript:
+  enabled: true
+items:
+  - { description: 上限管理なし, name: None, value: 1 }
+  - { description: 自社事業所, name: Internal, value: 2 }
+  - { description: 他社事業所, name: External, value: 3 }
+  - { description: 不明, name: Unknown, value: 9 }

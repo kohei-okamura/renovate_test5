@@ -1,0 +1,1010 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-postcode-resolver.vue dialog close button should close the dialog when click cancel 1`] = `
+<div
+  class="root"
+  data-z-postcode-resolver=""
+>
+  <a
+    class="v-btn-stub"
+    color="primary"
+    data-postcode-resolver-button=""
+    depressed=""
+  >
+    <span>
+      住所を自動入力
+    </span>
+  </a>
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    data-postcode-resolver-dialog=""
+    maxwidth="360px"
+    opendelay="0"
+    origin="center center"
+    retainfocus="true"
+    scrollable="true"
+    transition="dialog-transition"
+  >
+    <v-card-stub
+      loaderheight="4"
+      tag="div"
+    >
+      <v-card-title-stub
+        class="text-h6"
+        tag="div"
+      >
+        住所を選択
+      </v-card-title-stub>
+      <v-divider-stub />
+      <v-card-text-stub
+        class="pa-0"
+        style="height: 152px;"
+        tag="div"
+      >
+        <div
+          class="v-input ma-0 pa-4 v-input--hide-details theme--light v-input--selection-controls v-input--radio-group v-input--radio-group--column"
+        >
+          <div
+            class="v-input__control"
+          >
+            <div
+              class="v-input__slot"
+              style="height: auto;"
+            >
+              <div
+                class="v-input--radio-group__input"
+                role="radiogroup"
+              >
+                <div
+                  class="v-radio theme--light"
+                >
+                  <div
+                    class="v-input--selection-controls__input"
+                  >
+                    <i
+                      aria-hidden="true"
+                      class="v-icon notranslate mdi mdi-radiobox-blank theme--light"
+                    />
+                    <input
+                      aria-checked="false"
+                      role="radio"
+                      type="radio"
+                      value="[object Object]"
+                    />
+                    <div
+                      class="v-input--selection-controls__ripple"
+                    />
+                  </div>
+                  <label
+                    class="v-label theme--light"
+                    style="left: 0px; position: relative;"
+                  >
+                    大阪府守口市高瀬旧大枝
+                  </label>
+                </div>
+                <div
+                  class="v-radio theme--light"
+                >
+                  <div
+                    class="v-input--selection-controls__input"
+                  >
+                    <i
+                      aria-hidden="true"
+                      class="v-icon notranslate mdi mdi-radiobox-blank theme--light"
+                    />
+                    <input
+                      aria-checked="false"
+                      role="radio"
+                      type="radio"
+                      value="[object Object]"
+                    />
+                    <div
+                      class="v-input--selection-controls__ripple"
+                    />
+                  </div>
+                  <label
+                    class="v-label theme--light"
+                    style="left: 0px; position: relative;"
+                  >
+                    大阪府守口市高瀬旧世木
+                  </label>
+                </div>
+                <div
+                  class="v-radio theme--light"
+                >
+                  <div
+                    class="v-input--selection-controls__input"
+                  >
+                    <i
+                      aria-hidden="true"
+                      class="v-icon notranslate mdi mdi-radiobox-blank theme--light"
+                    />
+                    <input
+                      aria-checked="false"
+                      role="radio"
+                      type="radio"
+                      value="[object Object]"
+                    />
+                    <div
+                      class="v-input--selection-controls__ripple"
+                    />
+                  </div>
+                  <label
+                    class="v-label theme--light"
+                    style="left: 0px; position: relative;"
+                  >
+                    大阪府守口市高瀬旧馬場
+                  </label>
+                </div>
+                <div
+                  class="v-radio theme--light"
+                >
+                  <div
+                    class="v-input--selection-controls__input"
+                  >
+                    <i
+                      aria-hidden="true"
+                      class="v-icon notranslate mdi mdi-radiobox-blank theme--light"
+                    />
+                    <input
+                      aria-checked="false"
+                      role="radio"
+                      type="radio"
+                      value="[object Object]"
+                    />
+                    <div
+                      class="v-input--selection-controls__ripple"
+                    />
+                  </div>
+                  <label
+                    class="v-label theme--light"
+                    style="left: 0px; position: relative;"
+                  >
+                    大阪府守口市南寺方東通
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </v-card-text-stub>
+      <v-divider-stub />
+      <v-card-actions-stub
+        tag="div"
+      >
+        <v-spacer-stub
+          tag="div"
+        />
+        <a
+          class="v-btn-stub"
+          color="secondary"
+          data-postcode-resolver-cancel=""
+          text=""
+        >
+          キャンセル
+        </a>
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-postcode-resolver-ok=""
+          disabled="disabled"
+          text=""
+        >
+          <span>
+            決定
+          </span>
+        </a>
+      </v-card-actions-stub>
+    </v-card-stub>
+  </v-dialog-stub>
+</div>
+`;
+
+exports[`z-postcode-resolver.vue dialog submit button should close the dialog when clicked 1`] = `
+<div
+  class="root"
+  data-z-postcode-resolver=""
+>
+  <a
+    class="v-btn-stub"
+    color="primary"
+    data-postcode-resolver-button=""
+    depressed=""
+  >
+    <span>
+      住所を自動入力
+    </span>
+  </a>
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    data-postcode-resolver-dialog=""
+    maxwidth="360px"
+    opendelay="0"
+    origin="center center"
+    retainfocus="true"
+    scrollable="true"
+    transition="dialog-transition"
+  >
+    <v-card-stub
+      loaderheight="4"
+      tag="div"
+    >
+      <v-card-title-stub
+        class="text-h6"
+        tag="div"
+      >
+        住所を選択
+      </v-card-title-stub>
+      <v-divider-stub />
+      <v-card-text-stub
+        class="pa-0"
+        style="height: 152px;"
+        tag="div"
+      >
+        <div
+          class="v-input ma-0 pa-4 v-input--hide-details v-input--is-label-active v-input--is-dirty theme--light v-input--selection-controls v-input--radio-group v-input--radio-group--column"
+        >
+          <div
+            class="v-input__control"
+          >
+            <div
+              class="v-input__slot"
+              style="height: auto;"
+            >
+              <div
+                class="v-input--radio-group__input"
+                role="radiogroup"
+              >
+                <div
+                  class="v-radio theme--light v-item--active"
+                >
+                  <div
+                    class="v-input--selection-controls__input"
+                  >
+                    <i
+                      aria-hidden="true"
+                      class="v-icon notranslate mdi mdi-radiobox-marked theme--light primary--text"
+                    />
+                    <input
+                      aria-checked="true"
+                      role="radio"
+                      type="radio"
+                      value="[object Object]"
+                    />
+                    <div
+                      class="v-input--selection-controls__ripple primary--text"
+                    />
+                  </div>
+                  <label
+                    class="v-label theme--light"
+                    style="left: 0px; position: relative;"
+                  >
+                    大阪府守口市高瀬旧大枝
+                  </label>
+                </div>
+                <div
+                  class="v-radio theme--light"
+                >
+                  <div
+                    class="v-input--selection-controls__input"
+                  >
+                    <i
+                      aria-hidden="true"
+                      class="v-icon notranslate mdi mdi-radiobox-blank theme--light"
+                    />
+                    <input
+                      aria-checked="false"
+                      role="radio"
+                      type="radio"
+                      value="[object Object]"
+                    />
+                    <div
+                      class="v-input--selection-controls__ripple"
+                    />
+                  </div>
+                  <label
+                    class="v-label theme--light"
+                    style="left: 0px; position: relative;"
+                  >
+                    大阪府守口市高瀬旧世木
+                  </label>
+                </div>
+                <div
+                  class="v-radio theme--light"
+                >
+                  <div
+                    class="v-input--selection-controls__input"
+                  >
+                    <i
+                      aria-hidden="true"
+                      class="v-icon notranslate mdi mdi-radiobox-blank theme--light"
+                    />
+                    <input
+                      aria-checked="false"
+                      role="radio"
+                      type="radio"
+                      value="[object Object]"
+                    />
+                    <div
+                      class="v-input--selection-controls__ripple"
+                    />
+                  </div>
+                  <label
+                    class="v-label theme--light"
+                    style="left: 0px; position: relative;"
+                  >
+                    大阪府守口市高瀬旧馬場
+                  </label>
+                </div>
+                <div
+                  class="v-radio theme--light"
+                >
+                  <div
+                    class="v-input--selection-controls__input"
+                  >
+                    <i
+                      aria-hidden="true"
+                      class="v-icon notranslate mdi mdi-radiobox-blank theme--light"
+                    />
+                    <input
+                      aria-checked="false"
+                      role="radio"
+                      type="radio"
+                      value="[object Object]"
+                    />
+                    <div
+                      class="v-input--selection-controls__ripple"
+                    />
+                  </div>
+                  <label
+                    class="v-label theme--light"
+                    style="left: 0px; position: relative;"
+                  >
+                    大阪府守口市南寺方東通
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </v-card-text-stub>
+      <v-divider-stub />
+      <v-card-actions-stub
+        tag="div"
+      >
+        <v-spacer-stub
+          tag="div"
+        />
+        <a
+          class="v-btn-stub"
+          color="secondary"
+          data-postcode-resolver-cancel=""
+          text=""
+        >
+          キャンセル
+        </a>
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-postcode-resolver-ok=""
+          text=""
+        >
+          <span>
+            決定
+          </span>
+        </a>
+      </v-card-actions-stub>
+    </v-card-stub>
+  </v-dialog-stub>
+</div>
+`;
+
+exports[`z-postcode-resolver.vue onClick when api responses multiple data should display the dialog 1`] = `
+<div
+  class="root"
+  data-z-postcode-resolver=""
+>
+  <a
+    class="v-btn-stub"
+    color="primary"
+    data-postcode-resolver-button=""
+    depressed=""
+  >
+    <span>
+      住所を自動入力
+    </span>
+  </a>
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    data-postcode-resolver-dialog=""
+    maxwidth="360px"
+    opendelay="0"
+    origin="center center"
+    retainfocus="true"
+    scrollable="true"
+    transition="dialog-transition"
+    value="true"
+  >
+    <v-card-stub
+      loaderheight="4"
+      tag="div"
+    >
+      <v-card-title-stub
+        class="text-h6"
+        tag="div"
+      >
+        住所を選択
+      </v-card-title-stub>
+      <v-divider-stub />
+      <v-card-text-stub
+        class="pa-0"
+        style="height: 88px;"
+        tag="div"
+      >
+        <div
+          class="v-input ma-0 pa-4 v-input--hide-details theme--light v-input--selection-controls v-input--radio-group v-input--radio-group--column"
+        >
+          <div
+            class="v-input__control"
+          >
+            <div
+              class="v-input__slot"
+              style="height: auto;"
+            >
+              <div
+                class="v-input--radio-group__input"
+                role="radiogroup"
+              >
+                <div
+                  class="v-radio theme--light"
+                >
+                  <div
+                    class="v-input--selection-controls__input"
+                  >
+                    <i
+                      aria-hidden="true"
+                      class="v-icon notranslate mdi mdi-radiobox-blank theme--light"
+                    />
+                    <input
+                      aria-checked="false"
+                      role="radio"
+                      type="radio"
+                      value="[object Object]"
+                    />
+                    <div
+                      class="v-input--selection-controls__ripple"
+                    />
+                  </div>
+                  <label
+                    class="v-label theme--light"
+                    style="left: 0px; position: relative;"
+                  >
+                    秋田県大仙市南外揚土山
+                  </label>
+                </div>
+                <div
+                  class="v-radio theme--light"
+                >
+                  <div
+                    class="v-input--selection-controls__input"
+                  >
+                    <i
+                      aria-hidden="true"
+                      class="v-icon notranslate mdi mdi-radiobox-blank theme--light"
+                    />
+                    <input
+                      aria-checked="false"
+                      role="radio"
+                      type="radio"
+                      value="[object Object]"
+                    />
+                    <div
+                      class="v-input--selection-controls__ripple"
+                    />
+                  </div>
+                  <label
+                    class="v-label theme--light"
+                    style="left: 0px; position: relative;"
+                  >
+                    秋田県大仙市南外北田黒瀬
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </v-card-text-stub>
+      <v-divider-stub />
+      <v-card-actions-stub
+        tag="div"
+      >
+        <v-spacer-stub
+          tag="div"
+        />
+        <a
+          class="v-btn-stub"
+          color="secondary"
+          data-postcode-resolver-cancel=""
+          text=""
+        >
+          キャンセル
+        </a>
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-postcode-resolver-ok=""
+          disabled="disabled"
+          text=""
+        >
+          <span>
+            決定
+          </span>
+        </a>
+      </v-card-actions-stub>
+    </v-card-stub>
+  </v-dialog-stub>
+</div>
+`;
+
+exports[`z-postcode-resolver.vue onClick when api responses no data should not display the dialog 1`] = `
+<div
+  class="root"
+  data-z-postcode-resolver=""
+>
+  <a
+    class="v-btn-stub"
+    color="primary"
+    data-postcode-resolver-button=""
+    depressed=""
+  >
+    <span>
+      住所を自動入力
+    </span>
+  </a>
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    data-postcode-resolver-dialog=""
+    maxwidth="360px"
+    opendelay="0"
+    origin="center center"
+    retainfocus="true"
+    scrollable="true"
+    transition="dialog-transition"
+  >
+    <v-card-stub
+      loaderheight="4"
+      tag="div"
+    >
+      <v-card-title-stub
+        class="text-h6"
+        tag="div"
+      >
+        住所を選択
+      </v-card-title-stub>
+      <v-divider-stub />
+      <v-card-text-stub
+        class="pa-0"
+        style="height: 24px;"
+        tag="div"
+      >
+        <div
+          class="v-input ma-0 pa-4 v-input--hide-details theme--light v-input--selection-controls v-input--radio-group v-input--radio-group--column"
+        >
+          <div
+            class="v-input__control"
+          >
+            <div
+              class="v-input__slot"
+              style="height: auto;"
+            >
+              <div
+                class="v-input--radio-group__input"
+                role="radiogroup"
+              />
+            </div>
+          </div>
+        </div>
+      </v-card-text-stub>
+      <v-divider-stub />
+      <v-card-actions-stub
+        tag="div"
+      >
+        <v-spacer-stub
+          tag="div"
+        />
+        <a
+          class="v-btn-stub"
+          color="secondary"
+          data-postcode-resolver-cancel=""
+          text=""
+        >
+          キャンセル
+        </a>
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-postcode-resolver-ok=""
+          disabled="disabled"
+          text=""
+        >
+          <span>
+            決定
+          </span>
+        </a>
+      </v-card-actions-stub>
+    </v-card-stub>
+  </v-dialog-stub>
+</div>
+`;
+
+exports[`z-postcode-resolver.vue onClick when api responses single data should not display the dialog 1`] = `
+<div
+  class="root"
+  data-z-postcode-resolver=""
+>
+  <a
+    class="v-btn-stub"
+    color="primary"
+    data-postcode-resolver-button=""
+    depressed=""
+  >
+    <span>
+      住所を自動入力
+    </span>
+  </a>
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    data-postcode-resolver-dialog=""
+    maxwidth="360px"
+    opendelay="0"
+    origin="center center"
+    retainfocus="true"
+    scrollable="true"
+    transition="dialog-transition"
+  >
+    <v-card-stub
+      loaderheight="4"
+      tag="div"
+    >
+      <v-card-title-stub
+        class="text-h6"
+        tag="div"
+      >
+        住所を選択
+      </v-card-title-stub>
+      <v-divider-stub />
+      <v-card-text-stub
+        class="pa-0"
+        style="height: 24px;"
+        tag="div"
+      >
+        <div
+          class="v-input ma-0 pa-4 v-input--hide-details theme--light v-input--selection-controls v-input--radio-group v-input--radio-group--column"
+        >
+          <div
+            class="v-input__control"
+          >
+            <div
+              class="v-input__slot"
+              style="height: auto;"
+            >
+              <div
+                class="v-input--radio-group__input"
+                role="radiogroup"
+              />
+            </div>
+          </div>
+        </div>
+      </v-card-text-stub>
+      <v-divider-stub />
+      <v-card-actions-stub
+        tag="div"
+      >
+        <v-spacer-stub
+          tag="div"
+        />
+        <a
+          class="v-btn-stub"
+          color="secondary"
+          data-postcode-resolver-cancel=""
+          text=""
+        >
+          キャンセル
+        </a>
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-postcode-resolver-ok=""
+          disabled="disabled"
+          text=""
+        >
+          <span>
+            決定
+          </span>
+        </a>
+      </v-card-actions-stub>
+    </v-card-stub>
+  </v-dialog-stub>
+</div>
+`;
+
+exports[`z-postcode-resolver.vue onClick when api throws an error(403 Forbidden) should not display the dialog 1`] = `
+<div
+  class="root"
+  data-z-postcode-resolver=""
+>
+  <a
+    class="v-btn-stub"
+    color="primary"
+    data-postcode-resolver-button=""
+    depressed=""
+  >
+    <span>
+      住所を自動入力
+    </span>
+  </a>
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    data-postcode-resolver-dialog=""
+    maxwidth="360px"
+    opendelay="0"
+    origin="center center"
+    retainfocus="true"
+    scrollable="true"
+    transition="dialog-transition"
+  >
+    <v-card-stub
+      loaderheight="4"
+      tag="div"
+    >
+      <v-card-title-stub
+        class="text-h6"
+        tag="div"
+      >
+        住所を選択
+      </v-card-title-stub>
+      <v-divider-stub />
+      <v-card-text-stub
+        class="pa-0"
+        style="height: 24px;"
+        tag="div"
+      >
+        <div
+          class="v-input ma-0 pa-4 v-input--hide-details theme--light v-input--selection-controls v-input--radio-group v-input--radio-group--column"
+        >
+          <div
+            class="v-input__control"
+          >
+            <div
+              class="v-input__slot"
+              style="height: auto;"
+            >
+              <div
+                class="v-input--radio-group__input"
+                role="radiogroup"
+              />
+            </div>
+          </div>
+        </div>
+      </v-card-text-stub>
+      <v-divider-stub />
+      <v-card-actions-stub
+        tag="div"
+      >
+        <v-spacer-stub
+          tag="div"
+        />
+        <a
+          class="v-btn-stub"
+          color="secondary"
+          data-postcode-resolver-cancel=""
+          text=""
+        >
+          キャンセル
+        </a>
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-postcode-resolver-ok=""
+          disabled="disabled"
+          text=""
+        >
+          <span>
+            決定
+          </span>
+        </a>
+      </v-card-actions-stub>
+    </v-card-stub>
+  </v-dialog-stub>
+</div>
+`;
+
+exports[`z-postcode-resolver.vue onClick when api throws an error(404 NotFound) should not display the dialog 1`] = `
+<div
+  class="root"
+  data-z-postcode-resolver=""
+>
+  <a
+    class="v-btn-stub"
+    color="primary"
+    data-postcode-resolver-button=""
+    depressed=""
+  >
+    <span>
+      住所を自動入力
+    </span>
+  </a>
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    data-postcode-resolver-dialog=""
+    maxwidth="360px"
+    opendelay="0"
+    origin="center center"
+    retainfocus="true"
+    scrollable="true"
+    transition="dialog-transition"
+  >
+    <v-card-stub
+      loaderheight="4"
+      tag="div"
+    >
+      <v-card-title-stub
+        class="text-h6"
+        tag="div"
+      >
+        住所を選択
+      </v-card-title-stub>
+      <v-divider-stub />
+      <v-card-text-stub
+        class="pa-0"
+        style="height: 24px;"
+        tag="div"
+      >
+        <div
+          class="v-input ma-0 pa-4 v-input--hide-details theme--light v-input--selection-controls v-input--radio-group v-input--radio-group--column"
+        >
+          <div
+            class="v-input__control"
+          >
+            <div
+              class="v-input__slot"
+              style="height: auto;"
+            >
+              <div
+                class="v-input--radio-group__input"
+                role="radiogroup"
+              />
+            </div>
+          </div>
+        </div>
+      </v-card-text-stub>
+      <v-divider-stub />
+      <v-card-actions-stub
+        tag="div"
+      >
+        <v-spacer-stub
+          tag="div"
+        />
+        <a
+          class="v-btn-stub"
+          color="secondary"
+          data-postcode-resolver-cancel=""
+          text=""
+        >
+          キャンセル
+        </a>
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-postcode-resolver-ok=""
+          disabled="disabled"
+          text=""
+        >
+          <span>
+            決定
+          </span>
+        </a>
+      </v-card-actions-stub>
+    </v-card-stub>
+  </v-dialog-stub>
+</div>
+`;
+
+exports[`z-postcode-resolver.vue should be rendered correctly 1`] = `
+<div
+  class="root"
+  data-z-postcode-resolver=""
+>
+  <a
+    class="v-btn-stub"
+    color="primary"
+    data-postcode-resolver-button=""
+    depressed=""
+  >
+    <span>
+      住所を自動入力
+    </span>
+  </a>
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    data-postcode-resolver-dialog=""
+    maxwidth="360px"
+    opendelay="0"
+    origin="center center"
+    retainfocus="true"
+    scrollable="true"
+    transition="dialog-transition"
+  >
+    <v-card-stub
+      loaderheight="4"
+      tag="div"
+    >
+      <v-card-title-stub
+        class="text-h6"
+        tag="div"
+      >
+        住所を選択
+      </v-card-title-stub>
+      <v-divider-stub />
+      <v-card-text-stub
+        class="pa-0"
+        style="height: 24px;"
+        tag="div"
+      >
+        <div
+          class="v-input ma-0 pa-4 v-input--hide-details theme--light v-input--selection-controls v-input--radio-group v-input--radio-group--column"
+        >
+          <div
+            class="v-input__control"
+          >
+            <div
+              class="v-input__slot"
+              style="height: auto;"
+            >
+              <div
+                class="v-input--radio-group__input"
+                role="radiogroup"
+              />
+            </div>
+          </div>
+        </div>
+      </v-card-text-stub>
+      <v-divider-stub />
+      <v-card-actions-stub
+        tag="div"
+      >
+        <v-spacer-stub
+          tag="div"
+        />
+        <a
+          class="v-btn-stub"
+          color="secondary"
+          data-postcode-resolver-cancel=""
+          text=""
+        >
+          キャンセル
+        </a>
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-postcode-resolver-ok=""
+          disabled="disabled"
+          text=""
+        >
+          <span>
+            決定
+          </span>
+        </a>
+      </v-card-actions-stub>
+    </v-card-stub>
+  </v-dialog-stub>
+</div>
+`;

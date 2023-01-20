@@ -1,0 +1,23 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 障害福祉サービス：明細書：明細
+type: object
+properties:
+  serviceCode:
+    description: サービスコード
+    type: string
+  serviceCodeCategory:
+    description: サービスコード区分
+    type: object
+  unitScore:
+    description: 単位数
+    type: number
+  count:
+    description: 回数
+    type: number
+  totalScore:
+    description: サービス単位数
+    type: number

@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/dws-billings/_id/bundles/_bundleId/reports/_reportId.vue should be rendered correctly 1`] = `<nuxt-child-stub />`;

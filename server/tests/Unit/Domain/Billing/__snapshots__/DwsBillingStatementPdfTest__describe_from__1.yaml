@@ -1,0 +1,206 @@
+office:
+    officeId: 1
+    code: '0123456789'
+    name: 事業所テスト
+    abbr: 事テス
+    addr:
+        postcode: 164-0012
+        prefecture: 13
+        city: 中野区
+        street: 本町1丁目1801
+        apartment: ''
+    tel: 090-0000-0000
+cityCode: '123456'
+providedIn:
+    japaneseCalender: '20'
+    year: '20'
+    month: '04'
+    day: '01'
+subsidyCityCode: 5349
+user:
+    userId: 4
+    dwsCertificationId: 3
+    dwsNumber: '0123456789'
+    name:
+        displayName: '内藤 勇介'
+        phoneticDisplayName: 'ナイトウ ユウスケ'
+        familyName: 内藤
+        givenName: 勇介
+        phoneticFamilyName: ナイトウ
+        phoneticGivenName: ユウスケ
+    childName:
+        displayName: ' '
+        phoneticDisplayName: ' '
+        familyName: ''
+        givenName: ''
+        phoneticFamilyName: ''
+        phoneticGivenName: ''
+    copayLimit: 0
+dwsAreaGradeName: 地域区分名テスト
+copayLimit: '    0'
+copayCoordination:
+    code: '          '
+    name: ''
+    result: ' '
+    amount: '     '
+daysRecords:
+    -
+        dwsServiceDivisionCode: '11'
+        startedOn:
+            japaneseCalender: '20'
+            year: '21'
+            month: '04'
+            day: '01'
+        terminatedOn:
+            japaneseCalender: '  '
+            year: '  '
+            month: '  '
+            day: '  '
+        serviceDays: '10'
+items:
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '3456'
+        serviceCodeCategory: 111000
+        unitScore: 100
+        count: 1
+        totalScore: 100
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '3456'
+        serviceCodeCategory: 111000
+        unitScore: 100
+        count: 1
+        totalScore: 100
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '3456'
+        serviceCodeCategory: 111000
+        unitScore: 100
+        count: 1
+        totalScore: 100
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '3456'
+        serviceCodeCategory: 111000
+        unitScore: 100
+        count: 1
+        totalScore: 100
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '3456'
+        serviceCodeCategory: 111000
+        unitScore: 100
+        count: 1
+        totalScore: 100
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '3456'
+        serviceCodeCategory: 111000
+        unitScore: 100
+        count: 1
+        totalScore: 100
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '3456'
+        serviceCodeCategory: 111000
+        unitScore: 100
+        count: 1
+        totalScore: 100
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '3456'
+        serviceCodeCategory: 111000
+        unitScore: 100
+        count: 1
+        totalScore: 100
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '3456'
+        serviceCodeCategory: 111000
+        unitScore: 100
+        count: 1
+        totalScore: 100
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '3456'
+        serviceCodeCategory: 111000
+        unitScore: 100
+        count: 1
+        totalScore: 100
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '3456'
+        serviceCodeCategory: 111000
+        unitScore: 100
+        count: 1
+        totalScore: 100
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '3456'
+        serviceCodeCategory: 111000
+        unitScore: 100
+        count: 1
+        totalScore: 100
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '3456'
+        serviceCodeCategory: 111000
+        unitScore: 100
+        count: 1
+        totalScore: 100
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '3456'
+        serviceCodeCategory: 111000
+        unitScore: 100
+        count: 1
+        totalScore: 100
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '3456'
+        serviceCodeCategory: 111000
+        unitScore: 100
+        count: 1
+        totalScore: 100
+aggregates:
+    -
+        serviceDivisionCode: '11'
+        resolvedServiceDivisionCode: 居宅介護
+        serviceDays: '14'
+        subtotalScore: '  7028'
+        unitCost: '1120'
+        subtotalFee: ' 78713'
+        unmanagedCopay: '  7871'
+        managedCopay: '  7871'
+        cappedCopay: '     0'
+        adjustedCopay: '      '
+        coordinatedCopay: '      '
+        subtotalCopay: '     0'
+        subtotalBenefit: ' 78713'
+        subtotalSubsidy: '      '
+totalScore: '  7028'
+totalFee: ' 78713'
+totalCappedCopay: '     0'
+totalAdjustedCopay: '      '
+totalCoordinatedCopay: '      '
+totalCopay: '     0'
+totalBenefit: ' 78713'
+totalSubsidy: '      '
+exemptionMeasure: 1
+exemptionTarget: 1

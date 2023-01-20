@@ -1,0 +1,15 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 利用者：自治体助成情報：給付方式
+name: UserDwsSubsidyType
+php:
+  enabled: true
+  namespace: User
+typescript:
+  enabled: true
+items:
+  - { description: 定率給付, name: BenefitRate, value: 1 }
+  - { description: 定率負担, name: CopayRate, value: 4 }
+  - { description: 定額給付, name: BenefitAmount, value: 2 }
+  - { description: 定額負担, name: CopayAmount, value: 3 }

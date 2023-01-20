@@ -1,0 +1,17 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+get:
+  summary: 非同期ジョブ取得
+  description: 非同期ジョブの詳細を取得する。
+  parameters:
+    - $ref: '#/components/parameters/token'
+  responses:
+    '200':
+      $ref: '#/components/responses/JobCreated'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+    '404':
+      description: トークンに対応する非同期ジョブが存在しない場合
+  tags:
+    - 非同期ジョブ

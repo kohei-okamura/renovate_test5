@@ -1,0 +1,28 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+description: 利用者請求更新フォーム
+type: object
+properties:
+  carriedOverAmount:
+    description: 繰越金額
+    type: integer
+  paymentMethod:
+    $ref: '#/components/schemas/PaymentMethod'
+  bankAccount:
+    $ref: '#/components/schemas/BankAccountForm'
+required:
+  - carriedOverAmount
+  - paymentMethod
+  - bankAccount
+example:
+  carriedOverAmount: -10000
+  paymentMethod: 2
+  bankAccount:
+    bankAccountHolder: "string"
+    bankAccountNumber: "string"
+    bankAccountType: 0
+    bankBranchCode: "string"
+    bankBranchName: "string"
+    bankCode: "string"
+    bankName: "string"

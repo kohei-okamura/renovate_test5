@@ -1,0 +1,29 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+post:
+  summary: 口座振替データ（全銀ファイル）ダウンロード
+  description: 指定した口座振替データ ID に紐づく口座振替データ（全銀ファイル）をダウンロードする。
+  requestBody:
+    content:
+      application/json:
+        schema:
+          type: object
+          properties:
+            id:
+              $ref: '#/components/schemas/WithdrawalTransactionId'
+          example:
+            id: 10
+          required:
+            - id
+  responses:
+    '202':
+      $ref: '#/components/responses/JobCreated'
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+    '404':
+      description: 口座振替データ ID に対応する口座振替データ（全銀ファイル）が存在しない場合
+  tags:
+    - 口座振替データ

@@ -1,0 +1,18 @@
+{
+    "userId": 31959661,
+    "ltcsInsCardId": 66532668,
+    "insNumber": "1425832258",
+    "name": {
+        "displayName": "\u8d64\u5742 \u8061",
+        "phoneticDisplayName": "\u30a2\u30ab\u30b5\u30ab \u30b5\u30c8\u30b7",
+        "familyName": "\u8d64\u5742",
+        "givenName": "\u8061",
+        "phoneticFamilyName": "\u30a2\u30ab\u30b5\u30ab",
+        "phoneticGivenName": "\u30b5\u30c8\u30b7"
+    },
+    "sex": 1,
+    "birthday": "2008-03-07T00:00:00+0900",
+    "ltcsLevel": 21,
+    "activatedOn": "1977-02-28T00:00:00+0900",
+    "deactivatedOn": "1981-11-05T00:00:00+0900"
+}

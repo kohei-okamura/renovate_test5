@@ -1,0 +1,51 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 介護保険サービス：計画：週間サービス計画
+type: object
+properties:
+  programIndex:
+    description: 週間サービス計画番号
+    type: number
+  category:
+    $ref: '#/components/schemas/LtcsProjectServiceCategory'
+  recurrence:
+    $ref: '#/components/schemas/Recurrence'
+  dayOfWeeks:
+    description: 曜日
+    type: array
+    items:
+      $ref: '#/components/schemas/DayOfWeek'
+  slot:
+    $ref: '#/components/schemas/TimeRange'
+  timeframe:
+    $ref: '#/components/schemas/Timeframe'
+  amounts:
+    description: サービス提供量
+    type: array
+    items:
+      $ref: '#/components/schemas/LtcsProjectAmount'
+  headcount:
+    description: 提供人数
+    type: number
+  ownExpenseProgramId:
+    description: 自費サービス情報 ID
+    type: object
+  serviceCode:
+    description: サービスコード
+    type: string
+  options:
+    description: サービスオプション
+    type: array
+    items:
+      $ref: '#/components/schemas/ServiceOption'
+  contents:
+    description: サービス詳細
+    type: array
+    items:
+      $ref: '#/components/schemas/LtcsProjectContent'
+  note:
+    description: 備考
+    type: string

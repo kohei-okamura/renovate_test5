@@ -1,0 +1,234 @@
+-
+    status: 1
+    providedIn: '2020-10-01T00:00:00+09:00'
+    insurerNumber: '222222'
+    insurerName: 変更後の後保険者証名前
+    carePlanAuthorOfficeName: ''
+    careManagerName: 変更後のケアマネの名前
+    carePlanAuthorOfficeTel: ''
+    createdOn: 2019年5月15日
+    insNumber: '222222'
+    phoneticDisplayName: 'ナルホドウ リュウノスケ'
+    displayName: '成歩堂 龍ノ介'
+    birthday: '2000-01-01T00:00:00+09:00'
+    sex: 1
+    ltcsLevel: 要介護3
+    updatedLtcsLevel: 要介護2
+    ltcsLevelUpdatedOn: 2020年4月15日
+    maxBenefit: '27,048'
+    activatedOn: 2019年5月
+    deactivatedOn: 2019年6月
+    entries:
+        -
+            slot: '00:00〜08:00'
+            serviceName:
+                id: 5
+                dictionaryId: 3
+                serviceCode:
+                    serviceDivisionCode: '11'
+                    serviceCategoryCode: '1213'
+                name: 身体介護2・深
+                category: 112000
+                headcount: 1
+                compositionType: 2
+                specifiedOfficeAddition: 0
+                noteRequirement: 99
+                isLimited: true
+                isBulkSubtractionTarget: true
+                isSymbioticSubtractionTarget: true
+                score:
+                    value: 593
+                    calcType: 11
+                    calcCycle: 1
+                extraScore:
+                    isAvailable: false
+                    baseMinutes: 0
+                    unitScore: 0
+                    unitMinutes: 0
+                    specifiedOfficeAdditionCoefficient: 0
+                    timeframeAdditionCoefficient: 0
+                timeframe: 4
+                totalMinutes:
+                    start: 30
+                    end: 60
+                physicalMinutes:
+                    start: 30
+                    end: 60
+                houseworkMinutes:
+                    start: 0
+                    end: 0
+                createdAt: '2012-05-19T23:25:21+09:00'
+                updatedAt: '1991-01-27T09:36:10+09:00'
+            officeName: 事業所テスト
+            plans:
+                9: '2020-10-09T00:00:00+09:00'
+                17: '2020-10-17T00:00:00+09:00'
+                26: '2020-10-26T00:00:00+09:00'
+            results:
+                9: '2020-10-09T00:00:00+09:00'
+                17: '2020-10-17T00:00:00+09:00'
+                26: '2020-10-26T00:00:00+09:00'
+            plansCount: 3
+            resultsCount: 3
+        -
+            slot: '00:00〜08:00'
+            serviceName:
+                id: 5
+                dictionaryId: 3
+                serviceCode:
+                    serviceDivisionCode: '11'
+                    serviceCategoryCode: '1213'
+                name: 身体介護2・深
+                category: 112000
+                headcount: 1
+                compositionType: 2
+                specifiedOfficeAddition: 0
+                noteRequirement: 99
+                isLimited: true
+                isBulkSubtractionTarget: true
+                isSymbioticSubtractionTarget: true
+                score:
+                    value: 593
+                    calcType: 11
+                    calcCycle: 1
+                extraScore:
+                    isAvailable: false
+                    baseMinutes: 0
+                    unitScore: 0
+                    unitMinutes: 0
+                    specifiedOfficeAdditionCoefficient: 0
+                    timeframeAdditionCoefficient: 0
+                timeframe: 4
+                totalMinutes:
+                    start: 30
+                    end: 60
+                physicalMinutes:
+                    start: 30
+                    end: 60
+                houseworkMinutes:
+                    start: 0
+                    end: 0
+                createdAt: '2012-05-19T23:25:21+09:00'
+                updatedAt: '1991-01-27T09:36:10+09:00'
+            officeName: 事業所テスト
+            plans:
+                9: '2020-10-09T00:00:00+09:00'
+                17: '2020-10-17T00:00:00+09:00'
+                26: '2020-10-26T00:00:00+09:00'
+            results:
+                9: '2020-10-09T00:00:00+09:00'
+                17: '2020-10-17T00:00:00+09:00'
+                26: '2020-10-26T00:00:00+09:00'
+            plansCount: 3
+            resultsCount: 3
+        -
+            slot: ''
+            serviceName:
+                id: 6
+                dictionaryId: 3
+                serviceCode:
+                    serviceDivisionCode: '11'
+                    serviceCategoryCode: '4001'
+                name: 訪問介護初回加算
+                category: 990201
+                headcount: 1
+                compositionType: 3
+                specifiedOfficeAddition: 0
+                noteRequirement: 99
+                isLimited: true
+                isBulkSubtractionTarget: false
+                isSymbioticSubtractionTarget: false
+                score:
+                    value: 200
+                    calcType: 11
+                    calcCycle: 3
+                extraScore:
+                    isAvailable: false
+                    baseMinutes: 0
+                    unitScore: 0
+                    unitMinutes: 0
+                    specifiedOfficeAdditionCoefficient: 0
+                    timeframeAdditionCoefficient: 0
+                timeframe: 9
+                totalMinutes:
+                    start: 0
+                    end: 0
+                physicalMinutes:
+                    start: 0
+                    end: 0
+                houseworkMinutes:
+                    start: 0
+                    end: 0
+                createdAt: '1996-06-03T21:37:39+09:00'
+                updatedAt: '2020-12-25T08:38:28+09:00'
+            officeName: 事業所テスト
+            plans: {  }
+            results:
+                15:
+                    userId: 17
+                    disposition: 2
+                    providedOn: '2019-05-15T00:00:00+09:00'
+                    serviceCode:
+                        serviceDivisionCode: '11'
+                        serviceCategoryCode: '4001'
+                    serviceCodeCategory: 990201
+                    buildingSubtraction: 0
+                    noteRequirement: 99
+                    isAddition: true
+                    isLimited: true
+                    durationMinutes: 0
+                    unitScore: 200
+                    count: 1
+                    wholeScore: 250
+                    maxBenefitQuotaExcessScore: 0
+                    maxBenefitExcessScore: 0
+                    totalScore: 250
+            plansCount: 0
+            resultsCount: 1
+        -
+            slot: ''
+            serviceName:
+                id: 3
+                dictionaryId: 4
+                serviceCode:
+                    serviceDivisionCode: '11'
+                    serviceCategoryCode: '6275'
+                name: 訪問介護処遇改善加算Ⅰ
+                category: 990501
+                headcount: 0
+                compositionType: 3
+                specifiedOfficeAddition: 0
+                noteRequirement: 99
+                isLimited: false
+                isBulkSubtractionTarget: false
+                isSymbioticSubtractionTarget: false
+                score:
+                    value: 137
+                    calcType: 22
+                    calcCycle: 3
+                extraScore:
+                    isAvailable: false
+                    baseMinutes: 0
+                    unitScore: 0
+                    unitMinutes: 0
+                    specifiedOfficeAdditionCoefficient: 0
+                    timeframeAdditionCoefficient: 0
+                timeframe: 9
+                totalMinutes:
+                    start: 0
+                    end: 0
+                physicalMinutes:
+                    start: 0
+                    end: 0
+                houseworkMinutes:
+                    start: 0
+                    end: 0
+                createdAt: '1989-01-06T15:06:50+09:00'
+                updatedAt: '2000-02-28T12:26:14+09:00'
+            officeName: 事業所テスト
+            plans: {  }
+            results: {  }
+            plansCount: 0
+            resultsCount: 1
+    currentPageCount: 1
+    maxPageCount: 1

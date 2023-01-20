@@ -1,0 +1,65 @@
+labels:
+  - name: backend
+    description: Backend issue
+    color: 975bb7
+  - name: bug
+    description: Something isn't working
+    color: d73a4a
+  - name: dependencies
+    description: Upgrade or downgrade dependencies
+    color: 008672
+  - name: documentation
+    description: Documentation issue
+    color: e99695
+  - name: duplicate
+    description: This issue or pull request already exists
+    color: cfd3d7
+  - name: dx
+    description: Development Experience
+    color: 146acc
+  - name: enhancement
+    description: New feature or request
+    color: a2eeef
+  - name: frontend
+    description: Frontend issue
+    color: fcddab
+  - name: infrastructure
+    description: Infrastructure issue
+    color: e4e669
+  - name: performance
+    description: Performance issue
+    color: d876e3
+  - name: php
+    description: Pull requests that update PHP code
+    color: 45229e
+  - name: refactoring
+    description: Refactoring
+    color: 7057ff
+  - name: testing
+    description: Testing issue
+    color: c3f943
+  - name: typescript
+    description: Pull requests that update TypeScript code
+    color: 2f73C0
+  - name: WIP
+    description: Work in progress
+    color: 666666
+
+repos:
+  - name: eustylelab/zinger
+    labels:
+      - backend
+      - bug
+      - dependencies
+      - documentation
+      - duplicate
+      - dx
+      - enhancement
+      - frontend
+      - infrastructure
+      - performance
+      - php
+      - refactoring
+      - testing
+      - typescript
+      - WIP

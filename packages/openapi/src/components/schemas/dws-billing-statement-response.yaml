@@ -1,0 +1,14 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+type: object
+properties:
+  billing:
+    $ref: '#/components/schemas/DwsBilling'
+  bundle:
+    $ref: '#/components/schemas/DwsBillingBundle'
+  statement:
+    $ref: '#/components/schemas/DwsBillingStatement'
+  serviceCodeDictionary:
+    type: object
+    example: { 111111: '身体日0.5' }

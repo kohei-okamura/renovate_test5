@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-fab-speed-dial.vue should be rendered correctly 1`] = `
+<div
+  class="root"
+  data-z-fab-speed-dial-button=""
+  style="transition-delay: 50ms;"
+>
+  <div
+    class="v-tooltip-stub"
+    color="secondary"
+    dark=""
+    left=""
+    transition="slide-x-reverse-transition"
+  >
+    <div
+      class="v-tooltip-stub-slot-activator"
+    />
+    新規登録
+  </div>
+  <a
+    class="v-btn-stub"
+    color="secondary"
+    dark=""
+    data-button=""
+    fab="fab"
+    small=""
+  >
+    <v-icon-stub>
+      M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z
+    </v-icon-stub>
+  </a>
+</div>
+`;

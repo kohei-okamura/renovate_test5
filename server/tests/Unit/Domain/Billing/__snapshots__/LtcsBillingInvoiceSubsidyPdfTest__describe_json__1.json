@@ -1,0 +1,34 @@
+{
+    "items": {
+        "12": {
+            "statementCount": null,
+            "totalScore": null,
+            "totalFee": null,
+            "subsidyAmount": null
+        },
+        "81": {
+            "statementCount": null,
+            "totalScore": null,
+            "totalFee": null,
+            "subsidyAmount": null
+        },
+        "58": {
+            "statementCount": null,
+            "totalScore": null,
+            "totalFee": null,
+            "subsidyAmount": null
+        },
+        "25": {
+            "statementCount": null,
+            "totalScore": null,
+            "totalFee": null,
+            "subsidyAmount": null
+        }
+    },
+    "subsidyAmountTotal": {
+        "statementCount": null,
+        "totalScore": null,
+        "totalFee": null,
+        "subsidyAmount": null
+    }
+}

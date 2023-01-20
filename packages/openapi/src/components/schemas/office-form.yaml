@@ -1,0 +1,129 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+description: 事業所登録／更新フォーム
+allOf:
+  - type: object
+    properties:
+      name:
+        description: 事業所名
+        type: string
+      abbr:
+        description: 略称
+        type: string
+      phoneticName:
+        description: フリガナ
+        type: string
+      corporationName:
+        description: 法人名
+        type: string
+      phoneticCorporationName:
+        description: 法人名：フリガナ
+        type: string
+      purpose:
+        $ref: '#/components/schemas/Purpose'
+    required:
+      - name
+      - abbr
+      - phoneticName
+      - corporationName
+      - phoneticCorporationName
+      - purpose
+  - $ref: '#/components/schemas/AddrForm'
+  - type: object
+    properties:
+      tel:
+        description: 電話番号
+        type: string
+      fax:
+        description: FAX番号
+        type: string
+      email:
+        description: メールアドレス
+        type: string
+      qualifications:
+        description: 指定区分
+        type: array
+        items:
+          $ref: '#/components/schemas/OfficeQualification'
+      officeGroupId:
+        $ref: '#/components/schemas/OfficeGroupId'
+      dwsGenericService:
+        description: 障害福祉サービス
+        type: object
+        properties:
+          code:
+            description: 事業所番号
+            type: string
+          openedOn:
+            $ref: '#/components/schemas/DateLike'
+          designationExpiredOn:
+            $ref: '#/components/schemas/DateLike'
+          dwsAreaGradeId:
+            description: 地域区分 ID
+            type: integer
+      dwsCommAccompanyService:
+        description: 障害福祉サービス：移動支援（地域生活支援事業）
+        type: object
+        properties:
+          code:
+            description: 事業所番号
+            type: string
+          openedOn:
+            $ref: '#/components/schemas/DateLike'
+          designationExpiredOn:
+            $ref: '#/components/schemas/DateLike'
+      ltcsHomeVisitLongTermCareService:
+        description: 介護保険サービス：訪問介護
+        type: object
+        properties:
+          code:
+            description: 事業所番号
+            type: string
+          openedOn:
+            $ref: '#/components/schemas/DateLike'
+          designationExpiredOn:
+            $ref: '#/components/schemas/DateLike'
+          ltcsAreaGradeId:
+            description: 地域区分 ID
+            type: integer
+      ltcsCareManagementService:
+        description: 介護保険サービス：居宅介護支援
+        type: object
+        properties:
+          code:
+            description: 事業所番号
+            type: string
+          openedOn:
+            $ref: '#/components/schemas/DateLike'
+          designationExpiredOn:
+            $ref: '#/components/schemas/DateLike'
+          ltcsAreaGradeId:
+            description: 地域区分 ID
+            type: integer
+      ltcsCompHomeVisitingService:
+        description: 介護保険サービス：訪問型サービス（総合事業）
+        type: object
+        properties:
+          code:
+            description: 事業所番号
+            type: string
+          openedOn:
+            $ref: '#/components/schemas/DateLike'
+          designationExpiredOn:
+            $ref: '#/components/schemas/DateLike'
+            description: 事業所番号
+      ltcsPreventionService:
+        description: 介護保険サービス：介護予防支援
+        type: object
+        properties:
+          code:
+            description: 事業所番号
+            type: string
+          openedOn:
+            $ref: '#/components/schemas/DateLike'
+          designationExpiredOn:
+            $ref: '#/components/schemas/DateLike'
+    required:
+      - tel
+      - email

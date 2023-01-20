@@ -1,0 +1,20 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 介護保険サービス：明細書：中止理由
+name: LtcsExpiredReason
+php:
+  enabled: true
+  namespace: Billing
+typescript:
+  enabled: true
+items:
+  - { description: 未設定, name: Unspecified, value: 0 }
+  - { description: 非該当, name: NotApplicable, value: 1 }
+  - { description: 医療機関入院, name: Hospitalized, value: 3 }
+  - { description: 死亡, name: Died, value: 4 }
+  - { description: その他, name: Other, value: 5 }
+  - { description: 介護老人福祉施設入所, name: AdmittedToWelfareFacility, value: 6 }
+  - { description: 介護老人保健施設入所, name: AdmittedToHealthCareFacility, value: 7 }
+  - { description: 介護療養型医療施設入所, name: AdmittedToMedicalLongTermCareSanatoriums, value: 8 }
+  - { description: 介護医療院入所, name: AdmittedToCareAidMedicalCenter, value: 9 }

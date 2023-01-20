@@ -1,0 +1,187 @@
+[
+    {
+        "providedIn": "2021-01-01T00:00:00+0900",
+        "user": {
+            "userId": 1,
+            "dwsCertificationId": 1,
+            "dwsNumber": "1234567890",
+            "name": {
+                "displayName": "\u9ad8\u7530 \u7d14\u6b21",
+                "phoneticDisplayName": "\u30bf\u30ab\u30c0 \u30b8\u30e5\u30f3\u30b8",
+                "familyName": "\u9ad8\u7530",
+                "givenName": "\u7d14\u6b21",
+                "phoneticFamilyName": "\u30bf\u30ab\u30c0",
+                "phoneticGivenName": "\u30b8\u30e5\u30f3\u30b8"
+            },
+            "childName": {
+                "displayName": " ",
+                "phoneticDisplayName": " ",
+                "familyName": "",
+                "givenName": "",
+                "phoneticFamilyName": "",
+                "phoneticGivenName": ""
+            },
+            "copayLimit": 37200
+        },
+        "office": {
+            "officeId": 604,
+            "code": "1370406140",
+            "name": "\u571f\u5c4b\u30b1\u30a2",
+            "abbr": "\u571f\u5c4b\u30b1\u30a2",
+            "addr": {
+                "postcode": "151-0051",
+                "prefecture": 13,
+                "city": "\u6e0b\u8c37\u533a",
+                "street": "\u5343\u99c4\u30f6\u8c372-2-6",
+                "apartment": "\u682a\u5f0f\u4f1a\u793e\u30c6\u30a4\u30af\u30ef\u30f3\u30fb\u30aa\u30d5\u30a3\u30b9"
+            },
+            "tel": "03-5474-8581"
+        },
+        "format": "0101",
+        "items": [
+            {
+                "providedOn": "1",
+                "weekday": "\u91d1",
+                "serviceCount": "\u2460",
+                "serviceType": "\u5bb6\u4e8b",
+                "situation": "",
+                "plan": {
+                    "start": "09:00",
+                    "end": "11:00",
+                    "serviceDurationHours": "2",
+                    "movingDurationHours": ""
+                },
+                "result": {
+                    "start": "09:00",
+                    "end": "11:00",
+                    "serviceDurationHours": "2",
+                    "movingDurationHours": ""
+                },
+                "headcount": "",
+                "isFirstTime": "",
+                "isEmergency": "",
+                "isWelfareSpecialistCooperation": "",
+                "isMovingCareSupport": "",
+                "note": "\u9069\u5f53\u306a\u5099\u8003"
+            },
+            {
+                "providedOn": "2",
+                "weekday": "\u571f",
+                "serviceCount": "\u2460",
+                "serviceType": "\u5bb6\u4e8b",
+                "situation": "",
+                "plan": {
+                    "start": "13:00",
+                    "end": "14:30",
+                    "serviceDurationHours": "1.5",
+                    "movingDurationHours": ""
+                },
+                "result": {
+                    "start": "13:00",
+                    "end": "14:30",
+                    "serviceDurationHours": "1.5",
+                    "movingDurationHours": ""
+                },
+                "headcount": "",
+                "isFirstTime": "",
+                "isEmergency": "",
+                "isWelfareSpecialistCooperation": "",
+                "isMovingCareSupport": "",
+                "note": "\u9069\u5f53\u306a\u5099\u8003"
+            },
+            {
+                "providedOn": "3",
+                "weekday": "\u65e5",
+                "serviceCount": "\u2460",
+                "serviceType": "\u5bb6\u4e8b",
+                "situation": "",
+                "plan": {
+                    "start": "13:00",
+                    "end": "14:30",
+                    "serviceDurationHours": "1.5",
+                    "movingDurationHours": ""
+                },
+                "result": {
+                    "start": "13:00",
+                    "end": "14:30",
+                    "serviceDurationHours": "1.5",
+                    "movingDurationHours": ""
+                },
+                "headcount": "",
+                "isFirstTime": "",
+                "isEmergency": "",
+                "isWelfareSpecialistCooperation": "",
+                "isMovingCareSupport": "",
+                "note": "\u9069\u5f53\u306a\u5099\u8003"
+            },
+            {
+                "providedOn": "4",
+                "weekday": "\u6708",
+                "serviceCount": "\u2460",
+                "serviceType": "\u5bb6\u4e8b",
+                "situation": "",
+                "plan": {
+                    "start": "13:00",
+                    "end": "14:30",
+                    "serviceDurationHours": "1.5",
+                    "movingDurationHours": ""
+                },
+                "result": {
+                    "start": "13:00",
+                    "end": "14:30",
+                    "serviceDurationHours": "1.5",
+                    "movingDurationHours": ""
+                },
+                "headcount": "",
+                "isFirstTime": "",
+                "isEmergency": "",
+                "isWelfareSpecialistCooperation": "",
+                "isMovingCareSupport": "",
+                "note": "\u9069\u5f53\u306a\u5099\u8003"
+            }
+        ],
+        "plan": {
+            "physicalCare": "",
+            "accompanyWithPhysicalCare": "",
+            "housework": "",
+            "accompany": "",
+            "accessibleTaxi": "",
+            "visitingCareForPwsd": "",
+            "outingSupportForPwsd": ""
+        },
+        "result": {
+            "physicalCare": "",
+            "physicalCare100": "1",
+            "physicalCare70": "",
+            "physicalCarePwsd": "",
+            "accompanyWithPhysicalCare": "",
+            "accompanyWithPhysicalCare100": "",
+            "accompanyWithPhysicalCare70": "",
+            "accompanyWithPhysicalCarePwsd": "",
+            "housework": "",
+            "housework100": "",
+            "housework90": "",
+            "houseworkPwsd": "",
+            "accompany": "",
+            "accompany100": "",
+            "accompany90": "",
+            "accompanyPwsd": "",
+            "accessibleTaxi": "",
+            "accessibleTaxi100": "",
+            "accessibleTaxi90": "",
+            "accessibleTaxiPwsd": "",
+            "visitingCareForPwsd": "",
+            "outingSupportForPwsd": ""
+        },
+        "emergencyCount": "",
+        "firstTimeCount": "",
+        "welfareSpecialistCooperationCount": "",
+        "behavioralDisorderSupportCooperationCount": "",
+        "movingCareSupportCount": "",
+        "grantAmounts": [
+            "\u91cd\u5ea6\u8a2a\u554f\u4ecb\u8b77 205.7\u6642\u9593\/\u6708"
+        ],
+        "currentPageCount": " ",
+        "maxPageCount": " "
+    }
+]

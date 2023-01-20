@@ -1,0 +1,118 @@
+{
+    "billingDestination": {
+        "addr": {
+            "postcode": "164-0011",
+            "prefecture": 13,
+            "city": "\u4e2d\u91ce\u533a",
+            "street": "\u4e2d\u592e1-35-6",
+            "apartment": "\u30ec\u30c3\u30c1\u30d5\u30a3\u30fc\u30eb\u30c9\u4e2d\u91ce\u5742\u4e0a\u30d3\u30eb6F"
+        },
+        "corporationName": "",
+        "agentName": "\u5c71\u7530\u592a\u90ce"
+    },
+    "carriedOverAmount": 1000,
+    "depositedAt": "2021\u5e744\u67081\u65e5",
+    "dwsItem": {
+        "dwsStatementId": 1,
+        "score": 100,
+        "unitCost": 100000,
+        "subtotalCost": 1000,
+        "tax": 10,
+        "medicalDeductionAmount": 5000,
+        "benefitAmount": 2000,
+        "subsidyAmount": 1000,
+        "totalAmount": 1000,
+        "copayWithoutTax": 2000,
+        "copayWithTax": 2200
+    },
+    "issuedOn": "2021\u5e7411\u670810\u65e5",
+    "ltcsItem": {
+        "ltcsStatementId": 6,
+        "score": 100,
+        "unitCost": 100000,
+        "subtotalCost": 1000,
+        "tax": 10,
+        "medicalDeductionAmount": 5000,
+        "benefitAmount": 2000,
+        "subsidyAmount": 1000,
+        "totalAmount": 1000,
+        "copayWithoutTax": 2000,
+        "copayWithTax": 2200
+    },
+    "medicalDeductionAmount": 25000,
+    "normalTaxRate": {
+        "withoutTax": 2000,
+        "tax": 200
+    },
+    "office": {
+        "name": "\u4e8b\u52d9\u6240\u540d",
+        "corporationName": "\u6cd5\u4eba\u540d",
+        "addr": {
+            "postcode": "164-0000",
+            "prefecture": 13,
+            "city": "\u4e2d\u91ce\u533a",
+            "street": "\u3069\u3053\u3060\u308d\u3046",
+            "apartment": "\u30cf\u30fc\u30e2\u30cb\u30fc\u30bf\u30ef\u30fc"
+        },
+        "tel": "090-0000-0000"
+    },
+    "otherItemsTotalAmount": 3000,
+    "period": {
+        "start": "2021-04-01T00:00:00+0900",
+        "end": "2021-04-30T23:59:59+0900"
+    },
+    "providedIn": "2021\u5e744\u6708",
+    "reducedTaxRate": {
+        "withoutTax": 0,
+        "tax": 0
+    },
+    "totalAmount": 12000,
+    "user": {
+        "name": {
+            "displayName": "\u3066\u3059\u3068 \u305f\u308d\u3046",
+            "phoneticDisplayName": "\u30c6\u30b9\u30c8 \u30bf\u30ed\u30a6",
+            "familyName": "\u3066\u3059\u3068",
+            "givenName": "\u305f\u308d\u3046",
+            "phoneticFamilyName": "\u30c6\u30b9\u30c8",
+            "phoneticGivenName": "\u30bf\u30ed\u30a6"
+        },
+        "addr": {
+            "postcode": "164-0011",
+            "prefecture": 13,
+            "city": "\u4e2d\u91ce\u533a",
+            "street": "\u4e2d\u592e1-35-6",
+            "apartment": "\u30ec\u30c3\u30c1\u30d5\u30a3\u30fc\u30eb\u30c9\u4e2d\u91ce\u5742\u4e0a\u30d3\u30eb6F"
+        },
+        "contacts": [
+            {
+                "tel": "01-2345-6789",
+                "relationship": 20,
+                "name": "\u7530\u4e2d\u82b1\u5b50"
+            }
+        ],
+        "billingDestination": {
+            "destination": 2,
+            "paymentMethod": 1,
+            "contractNumber": "0123456789",
+            "corporationName": "\u30e6\u30fc\u30b9\u30bf\u30a4\u30eb\u30e9\u30dc\u30e9\u30c8\u30ea\u30fc\u682a\u5f0f\u4f1a\u793e",
+            "agentName": "\u5c71\u7530\u592a\u90ce",
+            "addr": {
+                "postcode": "164-0011",
+                "prefecture": 13,
+                "city": "\u4e2d\u91ce\u533a",
+                "street": "\u4e2d\u592e1-35-6",
+                "apartment": "\u30ec\u30c3\u30c1\u30d5\u30a3\u30fc\u30eb\u30c9\u4e2d\u91ce\u5742\u4e0a\u30d3\u30eb6F"
+            },
+            "tel": "03-1234-5678"
+        },
+        "bankAccount": {
+            "bankName": "\u30c6\u30b9\u30c8\u9280\u884c\u540d",
+            "bankCode": "\u30c6\u30b9\u30c8\u9280\u884c\u30b3\u30fc\u30c9",
+            "bankBranchName": "\u9280\u884c\u652f\u5e97\u540d",
+            "bankBranchCode": "0123456789",
+            "bankAccountType": 1,
+            "bankAccountNumber": "0123456789",
+            "bankAccountHolder": "\u30c6\u30b9\u30c8\u540d\u7fa9"
+        }
+    }
+}

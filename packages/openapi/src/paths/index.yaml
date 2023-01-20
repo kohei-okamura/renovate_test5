@@ -1,0 +1,267 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+/attendances/{attendanceId}/cancel:
+  $ref: ./attendances/_attendanceId/cancel.yaml
+/attendances/{attendanceId}:
+  $ref: ./attendances/_attendanceId.yaml
+/attendances/cancel:
+  $ref: ./attendances/cancel.yaml
+/attendances/confirmation:
+  $ref: ./attendances/confirmation.yaml
+/attendances:
+  $ref: ./attendances/index.yaml
+/callings/{token}/acknowledges:
+  $ref: ./callings/_token/acknowledges.yaml
+/callings/{token}/plans:
+  $ref: ./callings/_token/plans.yaml
+/dws-area-grades:
+  $ref: ./dws-area-grades/index.yaml
+/dws-billings/{dwsBillingId}/bundles/{dwsBillingBundleId}/copay-coordinations/{dwsBillingCopayCoordinationId}/status:
+  $ref: >-
+    ./dws-billings/_dwsBillingId/bundles/_dwsBillingBundleId/copay-coordinations/_dwsBillingCopayCoordinationId/status.yaml
+/dws-billings/{dwsBillingId}/bundles/{dwsBillingBundleId}/copay-coordinations/{dwsBillingCopayCoordinationId}.pdf:
+  $ref: >-
+    ./dws-billings/_dwsBillingId/bundles/_dwsBillingBundleId/copay-coordinations/_dwsBillingCopayCoordinationId.pdf.yaml
+/dws-billings/{dwsBillingId}/bundles/{dwsBillingBundleId}/copay-coordinations/{dwsBillingCopayCoordinationId}:
+  $ref: >-
+    ./dws-billings/_dwsBillingId/bundles/_dwsBillingBundleId/copay-coordinations/_dwsBillingCopayCoordinationId.yaml
+/dws-billings/{dwsBillingId}/bundles/{dwsBillingBundleId}/copay-coordinations:
+  $ref: >-
+    ./dws-billings/_dwsBillingId/bundles/_dwsBillingBundleId/copay-coordinations/index.yaml
+/dws-billings/{dwsBillingId}/bundles/{dwsBillingBundleId}/reports/{dwsBillingServiceReportId}/status:
+  $ref: >-
+    ./dws-billings/_dwsBillingId/bundles/_dwsBillingBundleId/reports/_dwsBillingServiceReportId/status.yaml
+/dws-billings/{dwsBillingId}/bundles/{dwsBillingBundleId}/reports/{dwsBillingServiceReportId}:
+  $ref: >-
+    ./dws-billings/_dwsBillingId/bundles/_dwsBillingBundleId/reports/_dwsBillingServiceReportId.yaml
+/dws-billings/{dwsBillingId}/bundles/{dwsBillingBundleId}/statements/{dwsBillingStatementId}/copay-coordination-status:
+  $ref: >-
+    ./dws-billings/_dwsBillingId/bundles/_dwsBillingBundleId/statements/_dwsBillingStatementId/copay-coordination-status.yaml
+/dws-billings/{dwsBillingId}/bundles/{dwsBillingBundleId}/statements/{dwsBillingStatementId}/copay-coordination:
+  $ref: >-
+    ./dws-billings/_dwsBillingId/bundles/_dwsBillingBundleId/statements/_dwsBillingStatementId/copay-coordination.yaml
+/dws-billings/{dwsBillingId}/bundles/{dwsBillingBundleId}/statements/{dwsBillingStatementId}/status:
+  $ref: >-
+    ./dws-billings/_dwsBillingId/bundles/_dwsBillingBundleId/statements/_dwsBillingStatementId/status.yaml
+/dws-billings/{dwsBillingId}/bundles/{dwsBillingBundleId}/statements/{dwsBillingStatementId}:
+  $ref: >-
+    ./dws-billings/_dwsBillingId/bundles/_dwsBillingBundleId/statements/_dwsBillingStatementId.yaml
+/dws-billings/{dwsBillingId}/copay-lists:
+  $ref: ./dws-billings/_dwsBillingId/copay-lists.yaml
+/dws-billings/{dwsBillingId}/copy:
+  $ref: ./dws-billings/_dwsBillingId/copy.yaml
+/dws-billings/{dwsBillingId}/files/{token}:
+  $ref: ./dws-billings/_dwsBillingId/files/_token.yaml
+/dws-billings/{dwsBillingId}/service-report-status-update:
+  $ref: ./dws-billings/_dwsBillingId/service-report-status-update.yaml
+/dws-billings/{dwsBillingId}/statement-refresh:
+  $ref: ./dws-billings/_dwsBillingId/statement-refresh.yaml
+/dws-billings/{dwsBillingId}/statement-status-update:
+  $ref: ./dws-billings/_dwsBillingId/statement-status-update.yaml
+/dws-billings/{dwsBillingId}/status:
+  $ref: ./dws-billings/_dwsBillingId/status.yaml
+/dws-billings/{dwsBillingId}:
+  $ref: ./dws-billings/_dwsBillingId.yaml
+/dws-billings:
+  $ref: ./dws-billings/index.yaml
+/dws-project-service-menus:
+  $ref: ./dws-project-service-menus/index.yaml
+/dws-provision-report-time-summary:
+  $ref: ./dws-provision-report-time-summary/index.yaml
+/dws-provision-reports/{officeId}/{userId}/{providedIn}/status:
+  $ref: ./dws-provision-reports/_officeId/_userId/_providedIn/status.yaml
+/dws-provision-reports/{officeId}/{userId}/{providedIn}:
+  $ref: ./dws-provision-reports/_officeId/_userId/_providedIn.yaml
+/dws-provision-reports:
+  $ref: ./dws-provision-reports/index.yaml
+/dws-service-report-previews:
+  $ref: ./dws-service-report-previews/index.yaml
+/invitations/{token}:
+  $ref: ./invitations/_token.yaml
+/invitations:
+  $ref: ./invitations/index.yaml
+/jobs/{token}:
+  $ref: ./jobs/_token.yaml
+/ltcs-area-grades:
+  $ref: ./ltcs-area-grades/index.yaml
+/ltcs-billings/{ltcsBillingId}/bundles/{ltcsBillingBundleId}/statements/{ltcsBillingStatementId}/status:
+  $ref: >-
+    ./ltcs-billings/_ltcsBillingId/bundles/_ltcsBillingBundleId/statements/_ltcsBillingStatementId/status.yaml
+/ltcs-billings/{ltcsBillingId}/bundles/{ltcsBillingBundleId}/statements/{ltcsBillingStatementId}:
+  $ref: >-
+    ./ltcs-billings/_ltcsBillingId/bundles/_ltcsBillingBundleId/statements/_ltcsBillingStatementId.yaml
+/ltcs-billings/{ltcsBillingId}/bundles/{ltcsBillingBundleId}/statements/bulk-status:
+  $ref: >-
+    ./ltcs-billings/_ltcsBillingId/bundles/_ltcsBillingBundleId/statements/bulk-status.yaml
+/ltcs-billings/{ltcsBillingId}/files/{token}:
+  $ref: ./ltcs-billings/_ltcsBillingId/files/_token.yaml
+/ltcs-billings/{ltcsBillingId}/statement-refresh:
+  $ref: ./ltcs-billings/_ltcsBillingId/statement-refresh.yaml
+/ltcs-billings/{ltcsBillingId}/status:
+  $ref: ./ltcs-billings/_ltcsBillingId/status.yaml
+/ltcs-billings/{ltcsBillingId}:
+  $ref: ./ltcs-billings/_ltcsBillingId.yaml
+/ltcs-billings:
+  $ref: ./ltcs-billings/index.yaml
+/ltcs-home-visit-long-term-care-dictionary:
+  $ref: ./ltcs-home-visit-long-term-care-dictionary/index.yaml
+/ltcs-home-visit-long-term-care-dictionary-entries/{serviceCode}:
+  $ref: ./ltcs-home-visit-long-term-care-dictionary-entries/_serviceCode.yaml
+/ltcs-project-service-menus:
+  $ref: ./ltcs-project-service-menus/index.yaml
+/ltcs-provision-report-score-summary:
+  $ref: ./ltcs-provision-report-score-summary/index.yaml
+/ltcs-provision-report-sheets:
+  $ref: ./ltcs-provision-report-sheets/index.yaml
+/ltcs-provision-reports/{officeId}/{userId}/{providedIn}/status:
+  $ref: ./ltcs-provision-reports/_officeId/_userId/_providedIn/status.yaml
+/ltcs-provision-reports/{officeId}/{userId}/{providedIn}:
+  $ref: ./ltcs-provision-reports/_officeId/_userId/_providedIn.yaml
+/ltcs-provision-reports:
+  $ref: ./ltcs-provision-reports/index.yaml
+/office-groups/{officeGroupId}:
+  $ref: ./office-groups/_officeGroupId.yaml
+/office-groups:
+  $ref: ./office-groups/index.yaml
+/offices/{officeId}/home-help-service-calc-specs/{homeHelpServiceCalcSpecId}:
+  $ref: >-
+    ./offices/_officeId/home-help-service-calc-specs/_homeHelpServiceCalcSpecId.yaml
+/offices/{officeId}/home-help-service-calc-specs:
+  $ref: ./offices/_officeId/home-help-service-calc-specs/index.yaml
+/offices/{officeId}/home-visit-long-term-care-calc-specs/{homeVisitLongTermCareCalcSpecId}:
+  $ref: >-
+    ./offices/_officeId/home-visit-long-term-care-calc-specs/_homeVisitLongTermCareCalcSpecId.yaml
+/offices/{officeId}/home-visit-long-term-care-calc-specs:
+  $ref: ./offices/_officeId/home-visit-long-term-care-calc-specs/index.yaml
+/offices/{officeId}/visiting-care-for-pwsd-calc-specs/{visitingCareForPwsdCalcSpecId}:
+  $ref: >-
+    ./offices/_officeId/visiting-care-for-pwsd-calc-specs/_visitingCareForPwsdCalcSpecId.yaml
+/offices/{officeId}/visiting-care-for-pwsd-calc-specs:
+  $ref: ./offices/_officeId/visiting-care-for-pwsd-calc-specs/index.yaml
+/offices/{officeId}:
+  $ref: ./offices/_officeId.yaml
+/offices:
+  $ref: ./offices/index.yaml
+/options/office-groups:
+  $ref: ./options/office-groups.yaml
+/options/offices:
+  $ref: ./options/offices.yaml
+/options/roles:
+  $ref: ./options/roles.yaml
+/options/staffs:
+  $ref: ./options/staffs.yaml
+/options/users:
+  $ref: ./options/users.yaml
+/own-expense-programs/{ownExpenseProgramId}:
+  $ref: ./own-expense-programs/_ownExpenseProgramId.yaml
+/own-expense-programs:
+  $ref: ./own-expense-programs/index.yaml
+/password-resets/{token}:
+  $ref: ./password-resets/_token.yaml
+/password-resets:
+  $ref: ./password-resets/index.yaml
+/permissions:
+  $ref: ./permissions/index.yaml
+/roles/{roleId}:
+  $ref: ./roles/_roleId.yaml
+/roles:
+  $ref: ./roles/index.yaml
+/sessions:
+  $ref: ./sessions/index.yaml
+/sessions/my:
+  $ref: ./sessions/my.yaml
+/setting:
+  $ref: ./setting/index.yaml
+/shift-imports:
+  $ref: ./shift-imports/index.yaml
+/shift-templates:
+  $ref: ./shift-templates/index.yaml
+/shifts/{shiftId}/cancel:
+  $ref: ./shifts/_shiftId/cancel.yaml
+/shifts/{shiftId}:
+  $ref: ./shifts/_shiftId.yaml
+/shifts/cancel:
+  $ref: ./shifts/cancel.yaml
+/shifts/confirmation:
+  $ref: ./shifts/confirmation.yaml
+/shifts:
+  $ref: ./shifts/index.yaml
+/staff-verifications/{token}:
+  $ref: ./staff-verifications/_token.yaml
+/staffs/{staffId}/bank-accounts/{bankAccountId}:
+  $ref: ./staffs/_staffId/bank-accounts/_bankAccountId.yaml
+/staffs/{staffId}:
+  $ref: ./staffs/_staffId.yaml
+/staffs:
+  $ref: ./staffs/index.yaml
+/user-billing-invoices:
+  $ref: ./user-billing-invoices/index.yaml
+/user-billing-notices:
+  $ref: ./user-billing-notices/index.yaml
+/user-billing-receipts:
+  $ref: ./user-billing-receipts/index.yaml
+/user-billing-statements:
+  $ref: ./user-billing-statements/index.yaml
+/user-billings/{userBillingId}:
+  $ref: ./user-billings/_userBillingId.yaml
+/user-billings/deposit-cancellation:
+  $ref: ./user-billings/deposit-cancellation.yaml
+/user-billings/deposit-registration:
+  $ref: ./user-billings/deposit-registration.yaml
+/user-billings:
+  $ref: ./user-billings/index.yaml
+/users/{userId}/bank-accounts/{bankAccountId}:
+  $ref: ./users/_userId/bank-accounts/_bankAccountId.yaml
+/users/{userId}/dws-calc-specs/{dwsCalcSpecId}:
+  $ref: ./users/_userId/dws-calc-specs/_dwsCalcSpecId.yaml
+/users/{userId}/dws-calc-specs:
+  $ref: ./users/_userId/dws-calc-specs/index.yaml
+/users/{userId}/dws-certifications/{dwsCertificationId}:
+  $ref: ./users/_userId/dws-certifications/_dwsCertificationId.yaml
+/users/{userId}/dws-certifications:
+  $ref: ./users/_userId/dws-certifications/index.yaml
+/users/{userId}/dws-contracts/{dwsContractId}:
+  $ref: ./users/_userId/dws-contracts/_dwsContractId.yaml
+/users/{userId}/dws-contracts:
+  $ref: ./users/_userId/dws-contracts/index.yaml
+/users/{userId}/dws-projects/{dwsProjectId}:
+  $ref: ./users/_userId/dws-projects/_dwsProjectId.yaml
+/users/{userId}/dws-projects:
+  $ref: ./users/_userId/dws-projects/index.yaml
+/users/{userId}/dws-subsidies/{dwsSubsidyId}:
+  $ref: ./users/_userId/dws-subsidies/_dwsSubsidyId.yaml
+/users/{userId}/dws-subsidies:
+  $ref: ./users/_userId/dws-subsidies/index.yaml
+/users/{userId}/ltcs-calc-specs/{ltcsCalcSpecId}:
+  $ref: ./users/_userId/ltcs-calc-specs/_ltcsCalcSpecId.yaml
+/users/{userId}/ltcs-calc-specs:
+  $ref: ./users/_userId/ltcs-calc-specs/index.yaml
+/users/{userId}/ltcs-contracts/{ltcsContractId}:
+  $ref: ./users/_userId/ltcs-contracts/_ltcsContractId.yaml
+/users/{userId}/ltcs-contracts:
+  $ref: ./users/_userId/ltcs-contracts/index.yaml
+/users/{userId}/ltcs-ins-cards/{ltcsInsCardId}:
+  $ref: ./users/_userId/ltcs-ins-cards/_ltcsInsCardId.yaml
+/users/{userId}/ltcs-ins-cards:
+  $ref: ./users/_userId/ltcs-ins-cards/index.yaml
+/users/{userId}/ltcs-projects/{ltcsProjectId}:
+  $ref: ./users/_userId/ltcs-projects/_ltcsProjectId.yaml
+/users/{userId}/ltcs-projects:
+  $ref: ./users/_userId/ltcs-projects/index.yaml
+/users/{userId}/ltcs-subsidies/{ltcsSubsidyId}:
+  $ref: ./users/_userId/ltcs-subsidies/_ltcsSubsidyId.yaml
+/users/{userId}/ltcs-subsidies:
+  $ref: ./users/_userId/ltcs-subsidies/index.yaml
+/users/{userId}:
+  $ref: ./users/_userId.yaml
+/users:
+  $ref: ./users/index.yaml
+/withdrawal-transaction-files:
+  $ref: ./withdrawal-transaction-files/index.yaml
+/withdrawal-transaction-imports:
+  $ref: ./withdrawal-transaction-imports/index.yaml
+/withdrawal-transactions:
+  $ref: ./withdrawal-transactions/index.yaml

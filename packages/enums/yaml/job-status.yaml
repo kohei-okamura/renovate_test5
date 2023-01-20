@@ -1,0 +1,15 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 非同期ジョブ：状態
+name: JobStatus
+php:
+  enabled: true
+  namespace: Job
+typescript:
+  enabled: true
+items:
+  - { description: 待機中, name: Waiting, value: 1 }
+  - { description: 処理中, name: InProgress, value: 2 }
+  - { description: 成功, name: Success, value: 3 }
+  - { description: 失敗, name: Failure, value: 9 }

@@ -1,0 +1,14 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 介護保険サービス：地域加算区分
+name: LtcsOfficeLocationAddition
+php:
+  enabled: true
+  namespace: Office
+typescript:
+  enabled: true
+items:
+  - { description: なし, name: None, value: 0 }
+  - { description: 特別地域訪問介護加算, name: SpecifiedArea, value: 1 }
+  - { description: 中山間地域等における小規模事業所加算, name: MountainousArea, value: 2 }

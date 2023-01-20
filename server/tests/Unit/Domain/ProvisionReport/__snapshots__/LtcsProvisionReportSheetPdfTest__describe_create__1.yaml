@@ -1,0 +1,40 @@
+status: 1
+providedIn: '2019-05-15T00:00:00+09:00'
+insurerNumber: '123456'
+insurerName: 新宿区
+carePlanAuthorOfficeName: テストケア
+careManagerName: テスト太郎
+carePlanAuthorOfficeTel: 03-1234-5678
+createdOn: 2019年5月15日
+insNumber: '0123456789'
+phoneticDisplayName: テストナマエ
+displayName: テスト名前
+birthday: '2001-10-11T00:00:00+09:00'
+sex: 2
+ltcsLevel: 要介護2
+updatedLtcsLevel: ''
+ltcsLevelUpdatedOn: ''
+maxBenefit: 36127
+activatedOn: 2019年5月
+deactivatedOn: 2019年5月
+entries:
+    -
+        slot:
+            start: '08:00'
+            end: '16:00'
+        serviceName: 仮のサービス内容
+        officeName: 土屋訪問介護事業所
+        plans:
+            - 0
+            - 1
+            - 0
+            - 1
+        results:
+            - 0
+            - 1
+            - 0
+            - 1
+        plansCount: 2
+        resultsCount: 2
+currentPageCount: 1
+maxPageCount: 3

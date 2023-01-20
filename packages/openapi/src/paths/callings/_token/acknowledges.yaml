@@ -1,0 +1,18 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+post:
+  summary: 出勤確認応答
+  description: トークンに対応する出勤確認に応答する（出勤する意思を送信する）。
+  parameters:
+    - $ref: '#/components/parameters/token'
+  responses:
+    '201':
+      $ref: '#/components/responses/Created'
+    '404':
+      $ref: '#/components/responses/CallingNotFound'
+    '410':
+      $ref: '#/components/responses/TokenExpired'
+  security: []
+  tags:
+    - スタッフ：出勤確認

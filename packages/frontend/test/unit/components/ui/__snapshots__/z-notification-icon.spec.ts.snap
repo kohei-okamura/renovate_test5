@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-notification-icon.vue should not show badge when did not pass props 1`] = `
+<span
+  class="v-badge mx-2 v-badge--overlap theme--light"
+>
+  <a
+    class="v-btn-stub"
+    data-button=""
+    disabled="disabled"
+    icon=""
+    small=""
+  >
+    <v-icon-stub
+      color="white"
+      dark=""
+    >
+      M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M14,21A2,2 0 0,1 12,23A2,2 0 0,1 10,21
+    </v-icon-stub>
+  </a>
+  <span
+    class="v-badge__wrapper"
+  >
+    <transition-stub
+      name="scale-rotate-transition"
+    >
+      <span
+        aria-atomic="true"
+        aria-label="Badge"
+        aria-live="polite"
+        class="v-badge__badge primary"
+        role="status"
+        style="bottom: calc(100% - 16px); left: calc(100% - 16px); display: none;"
+      />
+    </transition-stub>
+  </span>
+</span>
+`;
+
+exports[`z-notification-icon.vue should not show badge when it does not have notification 1`] = `
+<span
+  class="v-badge mx-2 v-badge--overlap theme--light"
+>
+  <a
+    class="v-btn-stub"
+    data-button=""
+    disabled="disabled"
+    icon=""
+    small=""
+  >
+    <v-icon-stub
+      color="white"
+      dark=""
+    >
+      M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M14,21A2,2 0 0,1 12,23A2,2 0 0,1 10,21
+    </v-icon-stub>
+  </a>
+  <span
+    class="v-badge__wrapper"
+  >
+    <transition-stub
+      name="scale-rotate-transition"
+    >
+      <span
+        aria-atomic="true"
+        aria-label="Badge"
+        aria-live="polite"
+        class="v-badge__badge primary"
+        role="status"
+        style="bottom: calc(100% - 16px); left: calc(100% - 16px); display: none;"
+      />
+    </transition-stub>
+  </span>
+</span>
+`;
+
+exports[`z-notification-icon.vue should show badge when it has notification 1`] = `
+<span
+  class="v-badge mx-2 v-badge--overlap theme--light"
+>
+  <a
+    class="v-btn-stub"
+    data-button=""
+    icon=""
+    small=""
+  >
+    <v-icon-stub
+      color="white"
+      dark=""
+    >
+      M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M14,21A2,2 0 0,1 12,23A2,2 0 0,1 10,21
+    </v-icon-stub>
+  </a>
+  <span
+    class="v-badge__wrapper"
+  >
+    <transition-stub
+      name="scale-rotate-transition"
+    >
+      <span
+        aria-atomic="true"
+        aria-label="Badge"
+        aria-live="polite"
+        class="v-badge__badge primary"
+        role="status"
+        style="bottom: calc(100% - 16px); left: calc(100% - 16px);"
+      >
+        3
+      </span>
+    </transition-stub>
+  </span>
+</span>
+`;

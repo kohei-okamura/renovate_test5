@@ -1,0 +1,19 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 曜日
+name: DayOfWeek
+php:
+  enabled: true
+  namespace: Common
+  withResolver: true
+typescript:
+  enabled: true
+items:
+  - { description: 月, name: Mon, value: 1 }
+  - { description: 火, name: Tue, value: 2 }
+  - { description: 水, name: Wed, value: 3 }
+  - { description: 木, name: Thu, value: 4 }
+  - { description: 金, name: Fri, value: 5 }
+  - { description: 土, name: Sat, value: 6 }
+  - { description: 日, name: Sun, value: 7 }

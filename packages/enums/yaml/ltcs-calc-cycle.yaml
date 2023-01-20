@@ -1,0 +1,14 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 介護保険サービス：算定単位
+name: LtcsCalcCycle
+php:
+  enabled: true
+  namespace: ServiceCodeDictionary
+typescript:
+  enabled: true
+items:
+  - { description: 1回につき, name: PerService, value: 1 }
+  - { description: 1日につき, name: PerDay, value: 2 }
+  - { description: 1月につき, name: PerMonth, value: 3 }

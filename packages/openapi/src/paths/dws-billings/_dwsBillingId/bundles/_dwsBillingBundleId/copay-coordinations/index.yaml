@@ -1,0 +1,27 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+post:
+  summary: 利用者負担上限額管理結果票登録
+  description: 利用者負担上限額管理結果票を登録する。
+  parameters:
+    - $ref: '#/components/parameters/dwsBillingId'
+    - $ref: '#/components/parameters/dwsBillingBundleId'
+  requestBody:
+    content:
+      application/json:
+        schema:
+          $ref: '#/components/schemas/DwsBillingCopayCoordinationForm'
+  responses:
+    '201':
+      description: 正常に処理が行われた場合
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/DwsBillingCopayCoordinationResponse'
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+  tags:
+    - 障害福祉サービス：請求

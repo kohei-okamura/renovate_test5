@@ -1,0 +1,27 @@
+{
+    "id": 1,
+    "userId": 1,
+    "effectivatedOn": "2016-05-02 00:00:00",
+    "status": 2,
+    "insNumber": "0123456789",
+    "issuedOn": "2016-05-01 00:00:00",
+    "insurerNumber": "123456",
+    "insurerName": "\u4f50\u85e4\u592a\u90ce",
+    "ltcsLevel": 12,
+    "certificatedOn": "2016-05-01 00:00:00",
+    "activatedOn": "2016-05-01 00:00:00",
+    "deactivatedOn": "2016-05-01 00:00:00",
+    "maxBenefitQuotas": [
+        1,
+        1
+    ],
+    "copayRate": "123",
+    "copayActivatedOn": "2016-05-01 00:00:00",
+    "copayDeactivatedOn": "2016-05-01 00:00:00",
+    "careManagerName": "\u9234\u6728\u592a\u90ce",
+    "carePlanAuthorType": 1,
+    "communityGeneralSupportCenterId": 1,
+    "carePlanAuthorOfficeId": 1,
+    "createdAt": "2019-05-15T00:00:00+0900",
+    "updatedAt": "2019-05-15T00:00:00+0900"
+}

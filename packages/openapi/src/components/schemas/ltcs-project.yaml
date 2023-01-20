@@ -1,0 +1,55 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 介護保険サービス：計画
+type: object
+properties:
+  id:
+    description: 計画 ID
+    type: object
+  contractId:
+    description: 契約 ID
+    type: object
+  officeId:
+    description: 事業所 ID
+    type: object
+  userId:
+    description: 利用者 ID
+    type: object
+  staffId:
+    description: 作成者 ID
+    type: object
+  writtenOn:
+    $ref: '#/components/schemas/DateLike'
+  effectivatedOn:
+    $ref: '#/components/schemas/DateLike'
+  requestFromUser:
+    description: ご本人の希望
+    type: string
+  requestFromFamily:
+    description: ご家族の希望
+    type: string
+  problem:
+    description: 解決すべき課題
+    type: string
+  longTermObjective:
+    $ref: '#/components/schemas/Objective'
+  shortTermObjective:
+    $ref: '#/components/schemas/Objective'
+  programs:
+    description: 週間サービス計画
+    type: array
+    items:
+      $ref: '#/components/schemas/LtcsProjectProgram'
+  isEnabled:
+    description: 有効フラグ
+    type: boolean
+  version:
+    description: バージョン
+    type: number
+  createdAt:
+    $ref: '#/components/schemas/DateLike'
+  updatedAt:
+    $ref: '#/components/schemas/DateLike'

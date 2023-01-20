@@ -1,0 +1,18 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 時間帯
+name: Timeframe
+php:
+  enabled: true
+  namespace: ServiceCodeDictionary
+  traits:
+    - TimeframeSupport
+typescript:
+  enabled: true
+items:
+  - { description: 日中, name: Daytime, value: 1 } # 8-18時
+  - { description: 早朝, name: Morning, value: 2 } # 6-8時
+  - { description: 夜間, name: Night, value: 3 } # 18-22時
+  - { description: 深夜, name: Midnight, value: 4 } # 22-6時
+  - { description: 未定義, name: Unknown, value: 9 }

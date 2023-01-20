@@ -1,0 +1,32 @@
+chunk:
+    id: null
+    userId: 1
+    category: 113000
+    buildingType: 0
+    isEmergency: false
+    isFirst: false
+    isWelfareSpecialistCooperation: false
+    isPlannedByNovice: false
+    range:
+        start: '2021-04-01T17:50:00+09:00'
+        end: '2021-04-01T18:50:00+09:00'
+    fragments:
+        -
+            providerType: 0
+            isSecondary: false
+            range:
+                start: '2021-04-01T17:50:00+09:00'
+                end: '2021-04-01T18:50:00+09:00'
+            headcount: 1
+durations:
+    -
+        -
+            category: 113000
+            providerType: 0
+            isSecondary: false
+            isSpanning: false
+            spanningDuration: 0
+            providedOn: '2021-04-01T00:00:00+09:00'
+            timeframe: 3
+            duration: 60
+            headcount: 1

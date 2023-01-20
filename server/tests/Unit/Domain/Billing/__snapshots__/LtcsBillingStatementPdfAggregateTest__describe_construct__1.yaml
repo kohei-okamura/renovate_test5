@@ -1,0 +1,13 @@
+serviceDivisionCode: '11'
+resolvedServiceDivisionCode: 訪問介護
+serviceDays: '11'
+plannedScore: '1000'
+managedScore: '2000'
+unmanagedScore: '200'
+totalScore: '2000'
+subsidyTotalScore: '300'
+insuranceUnitCost: '11.4'
+insuranceClaimAmount: '22800'
+insuranceCopayAmount: '2280'
+subsidyClaimAmount: '3420'
+subsidyCopayAmount: '342'

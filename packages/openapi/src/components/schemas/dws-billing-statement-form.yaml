@@ -1,0 +1,25 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+description: 障害福祉サービス：明細書更新フォーム
+type: object
+properties:
+  aggregates:
+    type: array
+    items:
+      description: 集計
+      type: object
+      properties:
+        serviceDivisionCode:
+          $ref: '#/components/schemas/DwsServiceDivisionCode'
+        managedCopay:
+          description: 利用者負担額
+          type: integer
+        subtotalSubsidy:
+          description: 自治体助成分請求額
+          type: integer
+      required:
+        - serviceDivisionCode
+        - managedCopay
+required:
+  - aggregates

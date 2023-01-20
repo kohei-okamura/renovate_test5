@@ -1,0 +1,30 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+description: 公費情報登録／更新フォーム
+type: object
+properties:
+  period:
+    description: 適用期間
+    type: object
+    properties:
+      start:
+        description: 開始
+        $ref: '#/components/schemas/DateLike'
+      end:
+        description: 終了
+        $ref: '#/components/schemas/DateLike'
+  defrayerCategory:
+    $ref: '#/components/schemas/DefrayerCategory'
+  defrayerNumber:
+    description: 負担者番号
+    type: string
+  recipientNumber:
+    description: 受給者番号
+    type: string
+  benefitRate:
+    description: 給付率
+    type: integer
+  copay:
+    description: 本人負担額
+    type: integer

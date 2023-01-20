@@ -1,0 +1,14 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 障害福祉サービス：居宅介護：建物区分
+name: DwsHomeHelpServiceBuildingType
+php:
+  enabled: true
+  namespace: ServiceCodeDictionary
+typescript:
+  enabled: true
+items:
+  - { description: 下記に該当しない, name: None, value: 0 }
+  - { description: 事業所と同一建物の利用者又はこれ以外の同一建物の利用者20人以上にサービスを行う場合, name: Over20, value: 1 }
+  - { description: 事業所と同一建物の利用者50人以上にサービスを行う場合, name: Over50, value: 2 }

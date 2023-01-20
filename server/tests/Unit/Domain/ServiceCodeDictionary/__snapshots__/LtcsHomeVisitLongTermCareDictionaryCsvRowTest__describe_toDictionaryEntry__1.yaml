@@ -1,0 +1,114 @@
+-
+    id: null
+    dictionaryId: 517
+    serviceCode:
+        serviceDivisionCode: '11'
+        serviceCategoryCode: '1111'
+    name: 身体介護1
+    category: 111000
+    headcount: 1
+    compositionType: 1
+    specifiedOfficeAddition: 0
+    noteRequirement: 99
+    isLimited: true
+    isBulkSubtractionTarget: true
+    isSymbioticSubtractionTarget: true
+    score:
+        value: 249
+        calcType: 11
+        calcCycle: 1
+    extraScore:
+        isAvailable: false
+        baseMinutes: 0
+        unitScore: 0
+        unitMinutes: 0
+        specifiedOfficeAdditionCoefficient: 0
+        timeframeAdditionCoefficient: 0
+    timeframe: 1
+    totalMinutes:
+        start: 20
+        end: 30
+    physicalMinutes:
+        start: 20
+        end: 30
+    houseworkMinutes:
+        start: 0
+        end: 0
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: null
+    dictionaryId: 517
+    serviceCode:
+        serviceDivisionCode: '11'
+        serviceCategoryCode: '2444'
+    name: 身9生3・2人・深・Ⅰ
+    category: 112000
+    headcount: 2
+    compositionType: 2
+    specifiedOfficeAddition: 1
+    noteRequirement: 1
+    isLimited: true
+    isBulkSubtractionTarget: true
+    isSymbioticSubtractionTarget: true
+    score:
+        value: 1273
+        calcType: 12
+        calcCycle: 1
+    extraScore:
+        isAvailable: true
+        baseMinutes: 240
+        unitScore: 83
+        unitMinutes: 30
+        specifiedOfficeAdditionCoefficient: 120
+        timeframeAdditionCoefficient: 150
+    timeframe: 4
+    totalMinutes:
+        start: 310
+        end: 9999
+    physicalMinutes:
+        start: 240
+        end: 9999
+    houseworkMinutes:
+        start: 70
+        end: 9999
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    id: null
+    dictionaryId: 517
+    serviceCode:
+        serviceDivisionCode: '11'
+        serviceCategoryCode: '6275'
+    name: 訪問介護処遇改善加算Ⅰ
+    category: 990501
+    headcount: 0
+    compositionType: 3
+    specifiedOfficeAddition: 0
+    noteRequirement: 99
+    isLimited: false
+    isBulkSubtractionTarget: false
+    isSymbioticSubtractionTarget: false
+    score:
+        value: 137
+        calcType: 22
+        calcCycle: 3
+    extraScore:
+        isAvailable: false
+        baseMinutes: 0
+        unitScore: 0
+        unitMinutes: 0
+        specifiedOfficeAdditionCoefficient: 0
+        timeframeAdditionCoefficient: 0
+    timeframe: 9
+    totalMinutes:
+        start: 0
+        end: 0
+    physicalMinutes:
+        start: 0
+        end: 0
+    houseworkMinutes:
+        start: 0
+        end: 0
+    createdAt: '2019-05-15T00:00:00+09:00'
+    updatedAt: '2019-05-15T00:00:00+09:00'

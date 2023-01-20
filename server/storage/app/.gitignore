@@ -1,0 +1,5 @@
+*
+!.gitignore
+!artifacts
+!exported
+!readonly

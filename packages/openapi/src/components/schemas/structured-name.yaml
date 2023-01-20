@@ -1,0 +1,28 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 氏名
+type: object
+properties:
+  familyName:
+    description: 姓
+    type: string
+  givenName:
+    description: 名
+    type: string
+  phoneticFamilyName:
+    description: フリガナ：姓
+    type: string
+  phoneticGivenName:
+    description: フリガナ：名
+    type: string
+  displayName:
+    description: 表示用氏名
+    type: string
+    readOnly: true
+  phoneticDisplayName:
+    description: フリガナ：表示用氏名
+    type: string
+    readOnly: true

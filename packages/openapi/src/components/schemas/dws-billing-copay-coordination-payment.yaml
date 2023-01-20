@@ -1,0 +1,17 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 利用者負担上限額管理結果票：費用
+type: object
+properties:
+  fee:
+    description: 総費用額
+    type: number
+  copay:
+    description: 利用者負担額
+    type: number
+  coordinatedCopay:
+    description: 管理結果後利用者負担額
+    type: number

@@ -1,0 +1,24 @@
+id: null
+organizationId: null
+userId: null
+officeId: 1
+serviceSegment: 1
+status: 1
+contractedOn: null
+terminatedOn: null
+dwsPeriods:
+    11:
+        start: null
+        end: null
+    12:
+        start: null
+        end: null
+ltcsPeriod:
+    start: null
+    end: null
+expiredReason: 0
+note: だるまさんがころんだ
+isEnabled: true
+version: 1
+createdAt: '2019-05-15T00:00:00+09:00'
+updatedAt: '2019-05-15T00:00:00+09:00'

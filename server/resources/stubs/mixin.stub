@@ -1,0 +1,45 @@
+<?php
+/*
+ * Copyright © {{ year }} EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+ * UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+ */
+declare(strict_types=1);
+
+namespace Tests\Unit\Mixins;
+
+{{ imports }}
+
+/**
+ * {@link \{{ fqn }}} Mixin.
+ *
+ * @mixin \Tests\Unit\Helpers\UnitSupport
+ */
+trait {{ className }}Mixin
+{
+    /**
+     * @var {{ propertyType }}
+     */
+    protected ${{ propertyName }};
+
+    /**
+     * {@link \{{ fqn }}} に関する初期化・終了処理を登録する.
+     *
+     * @return void
+     */
+    public static function mixin{{ className }}(): void
+    {
+        static::beforeEachTest(function ($self): void {
+            assert($self instanceof self);
+            app()->bind(
+                {{ className }}::class,
+                fn () => $self->{{ propertyName }}
+            );
+        });
+        static::beforeEachSpec(function ($self): void {
+            assert($self instanceof self);
+            $self->{{ propertyName }} = Mockery::mock(
+                {{ className }}::class
+            );
+        });
+    }
+}

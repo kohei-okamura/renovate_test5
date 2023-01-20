@@ -1,0 +1,14 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 上限管理結果
+name: CopayCoordinationResult
+php:
+  enabled: true
+  namespace: Billing
+typescript:
+  enabled: true
+items:
+  - { description: 1. 管理事業所で利用者負担額を充当したため、他事業所の利用者負担は発生しない。, name: Appropriated, value: 1 }
+  - { description: 2. 利用者負担額の合計額が、負担上限月額以下のため、調整事務は行わない。, name: NotCoordinated, value: 2 }
+  - { description: 3. 利用者負担額の合計額が、負担上限月額を超過するため、下記のとおり調整した。, name: Coordinated, value: 3 }

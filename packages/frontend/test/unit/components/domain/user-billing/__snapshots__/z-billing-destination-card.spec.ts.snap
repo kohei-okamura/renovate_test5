@@ -1,0 +1,234 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-bank-account-card.vue should be rendered correctly 1`] = `
+<div>
+  <div
+    class="z-data-card-stub"
+    title="請求先"
+  >
+    <div
+      class="z-data-card-stub-slot-actions"
+    />
+    <z-data-card-item-stub
+      icon="M7,2H17A2,2 0 0,1 19,4V20A2,2 0 0,1 17,22H7A2,2 0 0,1 5,20V4A2,2 0 0,1 7,2M7,4V8H17V4H7M7,10V12H9V10H7M11,10V12H13V10H11M15,10V12H17V10H15M7,14V16H9V14H7M11,14V16H13V14H11M15,14V16H17V14H15M7,18V20H9V18H7M11,18V20H13V18H11M15,18V20H17V18H15Z"
+      label="請求先"
+      value="本人"
+    />
+    <z-data-card-item-stub
+      icon="M5,3C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V16.72C21.59,16.37 22,15.74 22,15V9C22,8.26 21.59,7.63 21,7.28V5A2,2 0 0,0 19,3H5M5,5H19V7H13A2,2 0 0,0 11,9V15A2,2 0 0,0 13,17H19V19H5V5M13,9H20V15H13V9M16,10.5A1.5,1.5 0 0,0 14.5,12A1.5,1.5 0 0,0 16,13.5A1.5,1.5 0 0,0 17.5,12A1.5,1.5 0 0,0 16,10.5Z"
+      label="支払方法"
+      value="銀行振込"
+    />
+    <!---->
+    <!---->
+    <!---->
+    <v-card-actions-stub
+      tag="div"
+    >
+      <v-spacer-stub
+        tag="div"
+      />
+      <a
+        class="v-btn-stub"
+        color="primary"
+        data-payment-method-button=""
+        text=""
+      >
+        支払方法を変更する
+      </a>
+    </v-card-actions-stub>
+    <div
+      class="z-data-card-stub-slot-header"
+    />
+  </div>
+  <v-dialog-stub
+    closedelay="0"
+    contentclass=""
+    opendelay="0"
+    origin="center center"
+    persistent="true"
+    retainfocus="true"
+    transition="dialog-transition"
+    width="480"
+  >
+    <v-card-stub
+      loaderheight="4"
+      tag="div"
+    >
+      <!---->
+      <v-card-text-stub
+        tag="div"
+      >
+        <p
+          class="message"
+        >
+          支払方法を選択して変更を押してください。
+        </p>
+        <div>
+          <z-form-card-item-set-stub
+            icon="M5,3C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V16.72C21.59,16.37 22,15.74 22,15V9C22,8.26 21.59,7.63 21,7.28V5A2,2 0 0,0 19,3H5M5,5H19V7H13A2,2 0 0,0 11,9V15A2,2 0 0,0 13,17H19V19H5V5M13,9H20V15H13V9M16,10.5A1.5,1.5 0 0,0 14.5,12A1.5,1.5 0 0,0 16,13.5A1.5,1.5 0 0,0 17.5,12A1.5,1.5 0 0,0 16,10.5Z"
+            label=""
+          >
+            <div
+              class="root"
+              data-payment-method-form=""
+              data-z-form-card-item=""
+            >
+              <div
+                class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-input--selection-controls v-input--radio-group v-input--radio-group--column"
+              >
+                <div
+                  class="v-input__control"
+                >
+                  <div
+                    class="v-input__slot"
+                    style="height: auto;"
+                  >
+                    <div
+                      class="v-input--radio-group__input"
+                      role="radiogroup"
+                    >
+                      <z-flex-stub>
+                        <div
+                          class="mr-4"
+                        >
+                          <div
+                            class="v-radio theme--light"
+                          >
+                            <div
+                              class="v-input--selection-controls__input"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate v-icon--dense mdi mdi-radiobox-blank theme--light"
+                              />
+                              <input
+                                aria-checked="false"
+                                role="radio"
+                                type="radio"
+                                value="1"
+                              />
+                              <div
+                                class="v-input--selection-controls__ripple"
+                              />
+                            </div>
+                            <label
+                              class="v-label theme--light"
+                              style="left: 0px; position: relative;"
+                            >
+                              口座振替
+                            </label>
+                          </div>
+                        </div>
+                        <div
+                          class="mr-4"
+                        >
+                          <div
+                            class="v-radio theme--light v-item--active"
+                          >
+                            <div
+                              class="v-input--selection-controls__input"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate v-icon--dense mdi mdi-radiobox-marked theme--light primary--text"
+                              />
+                              <input
+                                aria-checked="true"
+                                role="radio"
+                                type="radio"
+                                value="2"
+                              />
+                              <div
+                                class="v-input--selection-controls__ripple primary--text"
+                              />
+                            </div>
+                            <label
+                              class="v-label theme--light"
+                              style="left: 0px; position: relative;"
+                            >
+                              銀行振込
+                            </label>
+                          </div>
+                        </div>
+                        <div
+                          class="mr-4"
+                        >
+                          <div
+                            class="v-radio theme--light"
+                          >
+                            <div
+                              class="v-input--selection-controls__input"
+                            >
+                              <i
+                                aria-hidden="true"
+                                class="v-icon notranslate v-icon--dense mdi mdi-radiobox-blank theme--light"
+                              />
+                              <input
+                                aria-checked="false"
+                                role="radio"
+                                type="radio"
+                                value="3"
+                              />
+                              <div
+                                class="v-input--selection-controls__ripple"
+                              />
+                            </div>
+                            <label
+                              class="v-label theme--light"
+                              style="left: 0px; position: relative;"
+                            >
+                              集金
+                            </label>
+                          </div>
+                        </div>
+                      </z-flex-stub>
+                    </div>
+                  </div>
+                  <div
+                    class="v-messages theme--light"
+                  >
+                    <transition-group-stub
+                      class="v-messages__wrapper"
+                      name="message-transition"
+                      tag="div"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </z-form-card-item-set-stub>
+        </div>
+      </v-card-text-stub>
+      <v-card-actions-stub
+        tag="div"
+      >
+        <v-spacer-stub
+          tag="div"
+        />
+        <a
+          class="v-btn-stub"
+          color="grey"
+          data-button-negative=""
+          text=""
+        >
+          <span>
+            キャンセル
+          </span>
+        </a>
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-button-positive=""
+          text=""
+          type="submit"
+        >
+          <span>
+            変更
+          </span>
+        </a>
+      </v-card-actions-stub>
+    </v-card-stub>
+  </v-dialog-stub>
+</div>
+`;

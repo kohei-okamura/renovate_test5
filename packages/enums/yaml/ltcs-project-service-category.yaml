@@ -1,0 +1,16 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 介護保険サービス：計画：サービス区分
+name: LtcsProjectServiceCategory
+php:
+  enabled: true
+  namespace: Project
+  withResolver: true
+typescript:
+  enabled: true
+items:
+  - { description: 身体介護, name: PhysicalCare, value: 11 }
+  - { description: 生活援助, name: Housework, value: 12 }
+  - { description: 身体・生活, name: PhysicalCareAndHousework, value: 13 }
+  - { description: 自費, name: OwnExpense, value: 91 }

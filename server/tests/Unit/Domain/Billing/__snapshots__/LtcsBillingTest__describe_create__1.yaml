@@ -1,0 +1,27 @@
+id: null
+organizationId: 2351
+office:
+    officeId: 7850
+    code: '1222828353'
+    name: '有限会社 渚'
+    abbr: '有限会社 浜田'
+    addr:
+        postcode: 889-1612
+        prefecture: 45
+        city: 宮崎市
+        street: 清武町岡3-1-19
+        apartment: ''
+    tel: 080-9288-5672
+transactedIn: '2021-04-01T00:00:00+09:00'
+files:
+    -
+        name: 介護給付費請求書・明細書_新宿_202012.csv
+        path: attachments/xyz.csv
+        token: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+        mimeType: text/csv
+        createdAt: '2001-09-04T06:50:24+09:00'
+        downloadedAt: '2006-06-13T17:07:40+09:00'
+status: 99
+fixedAt: '1999-09-29T03:04:14+09:00'
+createdAt: '2009-06-07T21:14:26+09:00'
+updatedAt: '1988-12-08T13:08:20+09:00'

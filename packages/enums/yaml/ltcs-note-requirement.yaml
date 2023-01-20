@@ -1,0 +1,13 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 介護保険サービス：摘要欄記載条件
+name: LtcsNoteRequirement
+php:
+  enabled: true
+  namespace: ServiceCodeDictionary
+typescript:
+  enabled: true
+items:
+  - { description: 所要時間, name: DurationMinutes, value: 1 }
+  - { description: 空白（記載不要）, name: None, value: 99 }

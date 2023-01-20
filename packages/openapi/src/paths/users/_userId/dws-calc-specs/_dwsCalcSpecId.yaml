@@ -1,0 +1,48 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+get:
+  summary: 障害福祉サービス：利用者別算定情報取得
+  description: 障害福祉サービス：利用者別算定情報の詳細を取得する。
+  parameters:
+    - $ref: '#/components/parameters/userId'
+    - $ref: '#/components/parameters/userDwsCalcSpecId'
+  responses:
+    '200':
+      description: 正常に処理が行われた場合
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/UserDwsCalcSpecResponse'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+    '404':
+      description: 利用者 ID に対応する利用者、もしくは障害福祉サービス利用者別算定情報 ID に対応する障害福祉サービス利用者別算定情報が存在しない場合
+  tags:
+    - 利用者：障害福祉サービス利用者別算定情報
+put:
+  summary: 障害福祉サービス：利用者別算定情報更新
+  description: 障害福祉サービス：利用者別算定情報を更新する。
+  parameters:
+    - $ref: '#/components/parameters/userId'
+    - $ref: '#/components/parameters/userDwsCalcSpecId'
+  requestBody:
+    content:
+      application/json:
+        schema:
+          $ref: '#/components/schemas/UserDwsCalcSpecForm'
+  responses:
+    '200':
+      description: 正常に処理が行われた場合
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/UserDwsCalcSpecResponse'
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+    '404':
+      description: 利用者 ID に対応する利用者、もしくは障害福祉サービス利用者別算定情報 ID に対応する障害福祉サービス利用者別算定情報が存在しない場合
+  tags:
+    - 利用者：障害福祉サービス利用者別算定情報

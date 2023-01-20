@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/staffs/_id/index.vue FAB (speed dial) should be rendered when session auth is system admin 1`] = `
+<z-fab-speed-dial-stub
+  data-fab=""
+  icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+>
+  <z-fab-speed-dial-button-stub
+    color="secondary"
+    icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+    nuxt=""
+    to="/staffs/1/edit"
+  >
+      基本情報を編集
+  </z-fab-speed-dial-button-stub>
+  <z-fab-speed-dial-button-stub
+    color="secondary"
+    icon="M6.5,10H4.5V17H6.5V10M12.5,10H10.5V17H12.5V10M21,19H2V21H21V19M18.5,10H16.5V17H18.5V10M11.5,3.26L16.71,6H6.29L11.5,3.26M11.5,1L2,6V8H21V6L11.5,1Z"
+    nuxt=""
+    to="/staffs/1/bank-account/edit"
+  >
+      銀行口座情報を編集
+  </z-fab-speed-dial-button-stub>
+</z-fab-speed-dial-stub>
+`;
+
+exports[`pages/staffs/_id/index.vue FAB (speed dial) should be rendered when the staff has permissions 1`] = `
+<z-fab-speed-dial-stub
+  data-fab=""
+  icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+>
+  <z-fab-speed-dial-button-stub
+    color="secondary"
+    icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+    nuxt=""
+    to="/staffs/1/edit"
+  >
+      基本情報を編集
+  </z-fab-speed-dial-button-stub>
+  <z-fab-speed-dial-button-stub
+    color="secondary"
+    icon="M6.5,10H4.5V17H6.5V10M12.5,10H10.5V17H12.5V10M21,19H2V21H21V19M18.5,10H16.5V17H18.5V10M11.5,3.26L16.71,6H6.29L11.5,3.26M11.5,1L2,6V8H21V6L11.5,1Z"
+    nuxt=""
+    to="/staffs/1/bank-account/edit"
+  >
+      銀行口座情報を編集
+  </z-fab-speed-dial-button-stub>
+</z-fab-speed-dial-stub>
+`;
+
+exports[`pages/staffs/_id/index.vue should be rendered correctly 1`] = `
+<div
+  breadcrumbs="[object Object],[object Object]"
+  class="z-page-stub"
+  compact="compact"
+  title="新井 恵梨香"
+>
+  <div
+    class="z-page-stub-slot-tabs"
+  />
+  <div
+    class="z-page-stub-slot-title"
+  />
+  <z-staff-card-stub
+    addr="[object Object]"
+    bankaccountid="9"
+    birthday="1997-12-08"
+    certifications="4,5,8,9,11,12,14"
+    createdat="1986-03-23T12:47:49+0900"
+    email="lvrjmoem8823@edd.example.com"
+    employeenumber="0001"
+    fax=""
+    id="1"
+    isenabled="true"
+    isverified="true"
+    location="[object Object]"
+    name="[object Object]"
+    officegroupids="86"
+    officeids="59,2,40"
+    offices="[object Object],[object Object],[object Object]"
+    roleids="1,2"
+    roles="[object Object],[object Object]"
+    sex="2"
+    status="1"
+    tel="0731-85-3606"
+    updatedat="2023-08-21T17:18:19+0900"
+    version="1"
+  />
+  <z-bank-account-card-stub
+    bankaccountholder="タンバ ナオミ"
+    bankaccountnumber="6968786"
+    bankaccounttype="2"
+    bankbranchcode="784"
+    bankbranchname="羽田空港出張所"
+    bankcode="0001"
+    bankname="みずほ"
+    createdat="2011-11-21T20:12:19+0900"
+    id="9"
+    title="銀行口座"
+    updatedat="2001-09-01T00:31:39+0900"
+  />
+  <z-system-meta-card-stub
+    createdat="1986-03-23T12:47:49+0900"
+    id="1"
+    updatedat="2023-08-21T17:18:19+0900"
+  />
+  <z-fab-speed-dial-stub
+    data-fab=""
+    icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+  >
+    <z-fab-speed-dial-button-stub
+      color="secondary"
+      icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+      nuxt=""
+      to="/staffs/1/edit"
+    >
+      基本情報を編集
+    </z-fab-speed-dial-button-stub>
+    <z-fab-speed-dial-button-stub
+      color="secondary"
+      icon="M6.5,10H4.5V17H6.5V10M12.5,10H10.5V17H12.5V10M21,19H2V21H21V19M18.5,10H16.5V17H18.5V10M11.5,3.26L16.71,6H6.29L11.5,3.26M11.5,1L2,6V8H21V6L11.5,1Z"
+      nuxt=""
+      to="/staffs/1/bank-account/edit"
+    >
+      銀行口座情報を編集
+    </z-fab-speed-dial-button-stub>
+  </z-fab-speed-dial-stub>
+</div>
+`;

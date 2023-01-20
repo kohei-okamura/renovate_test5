@@ -1,0 +1,19 @@
+name: "ESLint for @zinger/helpers"
+on:
+  pull_request:
+    paths:
+      - 'packages/helpers/**/*.js'
+      - 'packages/helpers/**/*.ts'
+      - '.eslintignore'
+      - '.eslintrc.js'
+      - '.github/workflows/eslint-helpers.yaml'
+jobs:
+  lint:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup
+        uses: ./.github/actions/setup-node-js
+      - name: Run eslint
+        run: yarn lint:ci packages/helpers

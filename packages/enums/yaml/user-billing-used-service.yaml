@@ -1,0 +1,14 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 利用者請求：利用サービス
+name: UserBillingUsedService
+php:
+  enabled: true
+  namespace: UserBillingUsedService
+typescript:
+  enabled: true
+items:
+  - { description: 障害福祉サービス, name: DisabilitiesWelfareService, value: 1 }
+  - { description: 介護保険サービス, name: LongTermCareService, value: 2 }
+  - { description: 自費サービス, name: OwnExpenseService, value: 3 }

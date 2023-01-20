@@ -1,0 +1,11 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+type: object
+properties:
+  billing:
+    $ref: '#/components/schemas/LtcsBilling'
+  bundle:
+    $ref: '#/components/schemas/LtcsBillingBundle'
+  statement:
+    $ref: '#/components/schemas/LtcsBillingStatement'

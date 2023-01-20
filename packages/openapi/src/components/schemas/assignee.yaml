@@ -1,0 +1,17 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 勤務スタッフ
+type: object
+properties:
+  staffId:
+    description: スタッフID
+    type: object
+  isUndecided:
+    description: 未定フラグ
+    type: boolean
+  isTraining:
+    description: 研修フラグ
+    type: boolean

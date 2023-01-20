@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`api/attendances-api batchCancel should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/attendances-api cancel should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/attendances-api confirm should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/attendances-api create should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/attendances-api get should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/attendances-api getIndex should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/attendances-api update should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;

@@ -1,0 +1,34 @@
+id: 604
+dictionaryId: 517
+serviceCode:
+    serviceDivisionCode: '11'
+    serviceCategoryCode: '2417'
+name: 身9生1・2人・深・Ⅰ
+category: 112000
+headcount: 2
+compositionType: 2
+specifiedOfficeAddition: 1
+noteRequirement: 1
+isLimited: true
+isBulkSubtractionTarget: true
+isSymbioticSubtractionTarget: true
+score:
+    value: 1141
+    calcType: 12
+    calcCycle: 1
+extraScore:
+    value: null
+    calcType: null
+    calcCycle: null
+timeframe: 4
+totalMinutes:
+    start: 260
+    end: 9999
+physicalMinutes:
+    start: 240
+    end: 9999
+houseworkMinutes:
+    start: 20
+    end: 45
+createdAt: '2019-05-14T00:00:00+09:00'
+updatedAt: null

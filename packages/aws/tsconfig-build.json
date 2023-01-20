@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "types": ["node"]
+  },
+  "exclude": [
+    "cdk.out",
+    "jest.config.ts",
+    "node_modules",
+    "scripts",
+    "test"
+  ]
+}

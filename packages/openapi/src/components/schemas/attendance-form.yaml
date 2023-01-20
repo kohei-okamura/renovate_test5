@@ -1,0 +1,52 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+description: 勤務実績登録／更新フォーム
+type: object
+properties:
+  task:
+    $ref: '#/components/schemas/Task'
+  serviceCode:
+    description: サービスコード
+    type: string
+  officeId:
+    $ref: '#/components/schemas/OfficeId'
+  userId:
+    $ref: '#/components/schemas/UserId'
+  contractId:
+    $ref: '#/components/schemas/ContractId'
+  assignerId:
+    $ref: '#/components/schemas/StaffId'
+  headcount:
+    description: 頭数
+    type: integer
+  assignees:
+    description: 担当スタッフ
+    type: array
+    items:
+      $ref: '#/components/schemas/Assignee'
+  schedule:
+    $ref: '#/components/schemas/Schedule'
+  durations:
+    description: 予実所要時間
+    type: array
+    items:
+      $ref: '#/components/schemas/Duration'
+  options:
+    description: オプション
+    type: array
+    items:
+      $ref: '#/components/schemas/ServiceOption'
+  note:
+    description: 備考
+    type: string
+required:
+  - task
+  - serviceCode
+  - assignerId
+  - assignees
+  - headcount
+  - schedule
+  - durations
+  - options
+  - note

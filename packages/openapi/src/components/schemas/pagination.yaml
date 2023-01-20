@@ -1,0 +1,26 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: ページネーション
+type: object
+properties:
+  count:
+    description: 件数
+    type: number
+  desc:
+    description: 降順
+    type: boolean
+  itemsPerPage:
+    description: 1ページあたりの件数
+    type: number
+  page:
+    description: ページ
+    type: number
+  pages:
+    description: 総ページ数
+    type: number
+  sortBy:
+    description: ソート順
+    type: string

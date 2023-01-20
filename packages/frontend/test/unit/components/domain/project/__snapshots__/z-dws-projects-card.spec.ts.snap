@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-dws-projects-card.vue should be rendered correctly 1`] = `
+<z-projects-card-stub
+  contracts="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+  items="[object Object],[object Object]"
+  options="[object Object]"
+  permission="dws-projects/list"
+  user="[object Object]"
+/>
+`;

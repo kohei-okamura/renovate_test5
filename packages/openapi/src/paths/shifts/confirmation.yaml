@@ -1,0 +1,28 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+put:
+  summary: 勤務シフト一括確定
+  description: 複数の勤務シフトの状態を一括で「確定」に更新する。
+  requestBody:
+    content:
+      application/json:
+        schema:
+          properties:
+            ids:
+              description: 勤務シフト ID
+              type: array
+              items:
+                $ref: '#/components/schemas/ShiftId'
+              minItems: 1
+          required:
+            - ids
+  responses:
+    '202':
+      $ref: '#/components/responses/JobCreated'
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+  tags:
+    - 勤務シフト

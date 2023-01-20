@@ -1,0 +1,1008 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-billing-file-list-card.vue should be rendered correctly 1`] = `
+<div
+  class="root"
+  data-z-data-table=""
+>
+  <z-subheader-stub>
+    ファイル
+  </z-subheader-stub>
+  <v-card-stub
+    class="py-4"
+    loaderheight="4"
+    tag="div"
+  >
+    <div
+      class="v-data-table theme--light table"
+      data-desktop-table=""
+    >
+      <div
+        class="v-data-table__wrapper"
+      >
+        <table>
+          <colgroup>
+            <col
+              class=""
+            />
+            <col
+              class=""
+            />
+            <col
+              class=""
+            />
+            <col
+              class=""
+            />
+          </colgroup>
+          <thead
+            class="v-data-table-header"
+          >
+            <tr>
+              <th
+                aria-label="種類"
+                class="text-start th-name"
+                role="columnheader"
+                scope="col"
+              >
+                <span>
+                  種類
+                </span>
+              </th>
+              <th
+                aria-label="ファイル形式"
+                class="text-start th-type"
+                role="columnheader"
+                scope="col"
+                style="width: 120px; min-width: 120px;"
+              >
+                <span>
+                  ファイル形式
+                </span>
+              </th>
+              <th
+                aria-label="作成日時"
+                class="text-start th-created-at"
+                role="columnheader"
+                scope="col"
+                style="width: 190px; min-width: 190px;"
+              >
+                <span>
+                  作成日時
+                </span>
+              </th>
+              <th
+                aria-label="ダウンロード"
+                class="text-center th-download"
+                role="columnheader"
+                scope="col"
+                style="width: 120px; min-width: 120px;"
+              >
+                <span>
+                  ダウンロード
+                </span>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              class=""
+            >
+              <td
+                class="text-start"
+              >
+                給付費明細.pdf
+              </td>
+              <td
+                class="text-start"
+              >
+                <v-icon-stub>
+                  M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3M9.5 11.5C9.5 12.3 8.8 13 8 13H7V15H5.5V9H8C8.8 9 9.5 9.7 9.5 10.5V11.5M14.5 13.5C14.5 14.3 13.8 15 13 15H10.5V9H13C13.8 9 14.5 9.7 14.5 10.5V13.5M18.5 10.5H17V11.5H18.5V13H17V15H15.5V9H18.5V10.5M12 10.5H13V13.5H12V10.5M7 10.5H8V11.5H7V10.5Z
+                </v-icon-stub>
+                <span
+                  class="ml-1 file-type"
+                >
+                  PDF
+                </span>
+              </td>
+              <td
+                class="text-start"
+              >
+                <time
+                  datetime="1996-10-02T23:55:45+0900"
+                >
+                  1996年10月02日 23:55
+                </time>
+              </td>
+              <td
+                class="text-center"
+              >
+                <a
+                  class="v-btn-stub"
+                  color="secondary"
+                  icon=""
+                >
+                  <v-icon-stub>
+                    M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z
+                  </v-icon-stub>
+                </a>
+              </td>
+            </tr>
+            <tr
+              class=""
+            >
+              <td
+                class="text-start"
+              >
+                給付費明細.pdf
+              </td>
+              <td
+                class="text-start"
+              >
+                <v-icon-stub>
+                  M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3M9.5 11.5C9.5 12.3 8.8 13 8 13H7V15H5.5V9H8C8.8 9 9.5 9.7 9.5 10.5V11.5M14.5 13.5C14.5 14.3 13.8 15 13 15H10.5V9H13C13.8 9 14.5 9.7 14.5 10.5V13.5M18.5 10.5H17V11.5H18.5V13H17V15H15.5V9H18.5V10.5M12 10.5H13V13.5H12V10.5M7 10.5H8V11.5H7V10.5Z
+                </v-icon-stub>
+                <span
+                  class="ml-1 file-type"
+                >
+                  PDF
+                </span>
+              </td>
+              <td
+                class="text-start"
+              >
+                <time
+                  datetime="1971-04-03T04:29:37+0900"
+                >
+                  1971年04月03日 04:29
+                </time>
+              </td>
+              <td
+                class="text-center"
+              >
+                <a
+                  class="v-btn-stub"
+                  color="secondary"
+                  icon=""
+                >
+                  <v-icon-stub>
+                    M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z
+                  </v-icon-stub>
+                </a>
+              </td>
+            </tr>
+            <tr
+              class=""
+            >
+              <td
+                class="text-start"
+              >
+                給付費明細.csv
+              </td>
+              <td
+                class="text-start"
+              >
+                <v-icon-stub>
+                  M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20M10,13H7V11H10V13M14,13H11V11H14V13M10,16H7V14H10V16M14,16H11V14H14V16M10,19H7V17H10V19M14,19H11V17H14V19Z
+                </v-icon-stub>
+                <span
+                  class="ml-1 file-type"
+                >
+                  CSV
+                </span>
+              </td>
+              <td
+                class="text-start"
+              >
+                <time
+                  datetime="1973-07-10T13:24:29+0900"
+                >
+                  1973年07月10日 13:24
+                </time>
+              </td>
+              <td
+                class="text-center"
+              >
+                <a
+                  class="v-btn-stub"
+                  color="secondary"
+                  icon=""
+                >
+                  <v-icon-stub>
+                    M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z
+                  </v-icon-stub>
+                </a>
+              </td>
+            </tr>
+            <tr
+              class=""
+            >
+              <td
+                class="text-start"
+              >
+                給付費明細.pdf
+              </td>
+              <td
+                class="text-start"
+              >
+                <v-icon-stub>
+                  M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3M9.5 11.5C9.5 12.3 8.8 13 8 13H7V15H5.5V9H8C8.8 9 9.5 9.7 9.5 10.5V11.5M14.5 13.5C14.5 14.3 13.8 15 13 15H10.5V9H13C13.8 9 14.5 9.7 14.5 10.5V13.5M18.5 10.5H17V11.5H18.5V13H17V15H15.5V9H18.5V10.5M12 10.5H13V13.5H12V10.5M7 10.5H8V11.5H7V10.5Z
+                </v-icon-stub>
+                <span
+                  class="ml-1 file-type"
+                >
+                  PDF
+                </span>
+              </td>
+              <td
+                class="text-start"
+              >
+                <time
+                  datetime="2021-12-27T20:51:25+0900"
+                >
+                  2021年12月27日 20:51
+                </time>
+              </td>
+              <td
+                class="text-center"
+              >
+                <a
+                  class="v-btn-stub"
+                  color="secondary"
+                  icon=""
+                >
+                  <v-icon-stub>
+                    M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z
+                  </v-icon-stub>
+                </a>
+              </td>
+            </tr>
+            <tr
+              class=""
+            >
+              <td
+                class="text-start"
+              >
+                給付費明細.csv
+              </td>
+              <td
+                class="text-start"
+              >
+                <v-icon-stub>
+                  M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20M10,13H7V11H10V13M14,13H11V11H14V13M10,16H7V14H10V16M14,16H11V14H14V16M10,19H7V17H10V19M14,19H11V17H14V19Z
+                </v-icon-stub>
+                <span
+                  class="ml-1 file-type"
+                >
+                  CSV
+                </span>
+              </td>
+              <td
+                class="text-start"
+              >
+                <time
+                  datetime="2019-04-05T11:51:32+0900"
+                >
+                  2019年04月05日 11:51
+                </time>
+              </td>
+              <td
+                class="text-center"
+              >
+                <a
+                  class="v-btn-stub"
+                  color="secondary"
+                  icon=""
+                >
+                  <v-icon-stub>
+                    M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z
+                  </v-icon-stub>
+                </a>
+              </td>
+            </tr>
+            <tr
+              class=""
+            >
+              <td
+                class="text-start"
+              >
+                給付費明細.csv
+              </td>
+              <td
+                class="text-start"
+              >
+                <v-icon-stub>
+                  M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20M10,13H7V11H10V13M14,13H11V11H14V13M10,16H7V14H10V16M14,16H11V14H14V16M10,19H7V17H10V19M14,19H11V17H14V19Z
+                </v-icon-stub>
+                <span
+                  class="ml-1 file-type"
+                >
+                  CSV
+                </span>
+              </td>
+              <td
+                class="text-start"
+              >
+                <time
+                  datetime="2015-03-05T15:34:02+0900"
+                >
+                  2015年03月05日 15:34
+                </time>
+              </td>
+              <td
+                class="text-center"
+              >
+                <a
+                  class="v-btn-stub"
+                  color="secondary"
+                  icon=""
+                >
+                  <v-icon-stub>
+                    M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z
+                  </v-icon-stub>
+                </a>
+              </td>
+            </tr>
+            <tr
+              class=""
+            >
+              <td
+                class="text-start"
+              >
+                給付費明細.csv
+              </td>
+              <td
+                class="text-start"
+              >
+                <v-icon-stub>
+                  M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20M10,13H7V11H10V13M14,13H11V11H14V13M10,16H7V14H10V16M14,16H11V14H14V16M10,19H7V17H10V19M14,19H11V17H14V19Z
+                </v-icon-stub>
+                <span
+                  class="ml-1 file-type"
+                >
+                  CSV
+                </span>
+              </td>
+              <td
+                class="text-start"
+              >
+                <time
+                  datetime="1978-04-03T22:32:54+0900"
+                >
+                  1978年04月03日 22:32
+                </time>
+              </td>
+              <td
+                class="text-center"
+              >
+                <a
+                  class="v-btn-stub"
+                  color="secondary"
+                  icon=""
+                >
+                  <v-icon-stub>
+                    M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z
+                  </v-icon-stub>
+                </a>
+              </td>
+            </tr>
+            <tr
+              class=""
+            >
+              <td
+                class="text-start"
+              >
+                給付費明細.pdf
+              </td>
+              <td
+                class="text-start"
+              >
+                <v-icon-stub>
+                  M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3M9.5 11.5C9.5 12.3 8.8 13 8 13H7V15H5.5V9H8C8.8 9 9.5 9.7 9.5 10.5V11.5M14.5 13.5C14.5 14.3 13.8 15 13 15H10.5V9H13C13.8 9 14.5 9.7 14.5 10.5V13.5M18.5 10.5H17V11.5H18.5V13H17V15H15.5V9H18.5V10.5M12 10.5H13V13.5H12V10.5M7 10.5H8V11.5H7V10.5Z
+                </v-icon-stub>
+                <span
+                  class="ml-1 file-type"
+                >
+                  PDF
+                </span>
+              </td>
+              <td
+                class="text-start"
+              >
+                <time
+                  datetime="2015-12-29T01:17:39+0900"
+                >
+                  2015年12月29日 01:17
+                </time>
+              </td>
+              <td
+                class="text-center"
+              >
+                <a
+                  class="v-btn-stub"
+                  color="secondary"
+                  icon=""
+                >
+                  <v-icon-stub>
+                    M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z
+                  </v-icon-stub>
+                </a>
+              </td>
+            </tr>
+            <tr
+              class=""
+            >
+              <td
+                class="text-start"
+              >
+                給付費明細.pdf
+              </td>
+              <td
+                class="text-start"
+              >
+                <v-icon-stub>
+                  M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3M9.5 11.5C9.5 12.3 8.8 13 8 13H7V15H5.5V9H8C8.8 9 9.5 9.7 9.5 10.5V11.5M14.5 13.5C14.5 14.3 13.8 15 13 15H10.5V9H13C13.8 9 14.5 9.7 14.5 10.5V13.5M18.5 10.5H17V11.5H18.5V13H17V15H15.5V9H18.5V10.5M12 10.5H13V13.5H12V10.5M7 10.5H8V11.5H7V10.5Z
+                </v-icon-stub>
+                <span
+                  class="ml-1 file-type"
+                >
+                  PDF
+                </span>
+              </td>
+              <td
+                class="text-start"
+              >
+                <time
+                  datetime="1998-07-08T05:16:43+0900"
+                >
+                  1998年07月08日 05:16
+                </time>
+              </td>
+              <td
+                class="text-center"
+              >
+                <a
+                  class="v-btn-stub"
+                  color="secondary"
+                  icon=""
+                >
+                  <v-icon-stub>
+                    M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z
+                  </v-icon-stub>
+                </a>
+              </td>
+            </tr>
+            <tr
+              class=""
+            >
+              <td
+                class="text-start"
+              >
+                給付費明細.csv
+              </td>
+              <td
+                class="text-start"
+              >
+                <v-icon-stub>
+                  M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20M10,13H7V11H10V13M14,13H11V11H14V13M10,16H7V14H10V16M14,16H11V14H14V16M10,19H7V17H10V19M14,19H11V17H14V19Z
+                </v-icon-stub>
+                <span
+                  class="ml-1 file-type"
+                >
+                  CSV
+                </span>
+              </td>
+              <td
+                class="text-start"
+              >
+                <time
+                  datetime="1983-10-02T16:29:23+0900"
+                >
+                  1983年10月02日 16:29
+                </time>
+              </td>
+              <td
+                class="text-center"
+              >
+                <a
+                  class="v-btn-stub"
+                  color="secondary"
+                  icon=""
+                >
+                  <v-icon-stub>
+                    M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z
+                  </v-icon-stub>
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!---->
+  </v-card-stub>
+</div>
+`;
+
+exports[`z-billing-file-list-card.vue should be rendered correctly when it is not downloadable 1`] = `
+<div
+  class="root"
+  data-z-data-table=""
+>
+  <z-subheader-stub>
+    ファイル
+  </z-subheader-stub>
+  <v-card-stub
+    class="py-4"
+    loaderheight="4"
+    tag="div"
+  >
+    <div
+      class="v-data-table theme--light table"
+      data-desktop-table=""
+    >
+      <div
+        class="v-data-table__wrapper"
+      >
+        <table>
+          <colgroup>
+            <col
+              class=""
+            />
+            <col
+              class=""
+            />
+            <col
+              class=""
+            />
+          </colgroup>
+          <thead
+            class="v-data-table-header"
+          >
+            <tr>
+              <th
+                aria-label="種類"
+                class="text-start th-name"
+                role="columnheader"
+                scope="col"
+              >
+                <span>
+                  種類
+                </span>
+              </th>
+              <th
+                aria-label="ファイル形式"
+                class="text-start th-type"
+                role="columnheader"
+                scope="col"
+                style="width: 120px; min-width: 120px;"
+              >
+                <span>
+                  ファイル形式
+                </span>
+              </th>
+              <th
+                aria-label="作成日時"
+                class="text-start th-created-at"
+                role="columnheader"
+                scope="col"
+                style="width: 190px; min-width: 190px;"
+              >
+                <span>
+                  作成日時
+                </span>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              class=""
+            >
+              <td
+                class="text-start"
+              >
+                給付費明細.pdf
+              </td>
+              <td
+                class="text-start"
+              >
+                <v-icon-stub>
+                  M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3M9.5 11.5C9.5 12.3 8.8 13 8 13H7V15H5.5V9H8C8.8 9 9.5 9.7 9.5 10.5V11.5M14.5 13.5C14.5 14.3 13.8 15 13 15H10.5V9H13C13.8 9 14.5 9.7 14.5 10.5V13.5M18.5 10.5H17V11.5H18.5V13H17V15H15.5V9H18.5V10.5M12 10.5H13V13.5H12V10.5M7 10.5H8V11.5H7V10.5Z
+                </v-icon-stub>
+                <span
+                  class="ml-1 file-type"
+                >
+                  PDF
+                </span>
+              </td>
+              <td
+                class="text-start"
+              >
+                <time
+                  datetime="1996-10-02T23:55:45+0900"
+                >
+                  1996年10月02日 23:55
+                </time>
+              </td>
+            </tr>
+            <tr
+              class=""
+            >
+              <td
+                class="text-start"
+              >
+                給付費明細.pdf
+              </td>
+              <td
+                class="text-start"
+              >
+                <v-icon-stub>
+                  M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3M9.5 11.5C9.5 12.3 8.8 13 8 13H7V15H5.5V9H8C8.8 9 9.5 9.7 9.5 10.5V11.5M14.5 13.5C14.5 14.3 13.8 15 13 15H10.5V9H13C13.8 9 14.5 9.7 14.5 10.5V13.5M18.5 10.5H17V11.5H18.5V13H17V15H15.5V9H18.5V10.5M12 10.5H13V13.5H12V10.5M7 10.5H8V11.5H7V10.5Z
+                </v-icon-stub>
+                <span
+                  class="ml-1 file-type"
+                >
+                  PDF
+                </span>
+              </td>
+              <td
+                class="text-start"
+              >
+                <time
+                  datetime="1971-04-03T04:29:37+0900"
+                >
+                  1971年04月03日 04:29
+                </time>
+              </td>
+            </tr>
+            <tr
+              class=""
+            >
+              <td
+                class="text-start"
+              >
+                給付費明細.csv
+              </td>
+              <td
+                class="text-start"
+              >
+                <v-icon-stub>
+                  M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20M10,13H7V11H10V13M14,13H11V11H14V13M10,16H7V14H10V16M14,16H11V14H14V16M10,19H7V17H10V19M14,19H11V17H14V19Z
+                </v-icon-stub>
+                <span
+                  class="ml-1 file-type"
+                >
+                  CSV
+                </span>
+              </td>
+              <td
+                class="text-start"
+              >
+                <time
+                  datetime="1973-07-10T13:24:29+0900"
+                >
+                  1973年07月10日 13:24
+                </time>
+              </td>
+            </tr>
+            <tr
+              class=""
+            >
+              <td
+                class="text-start"
+              >
+                給付費明細.pdf
+              </td>
+              <td
+                class="text-start"
+              >
+                <v-icon-stub>
+                  M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3M9.5 11.5C9.5 12.3 8.8 13 8 13H7V15H5.5V9H8C8.8 9 9.5 9.7 9.5 10.5V11.5M14.5 13.5C14.5 14.3 13.8 15 13 15H10.5V9H13C13.8 9 14.5 9.7 14.5 10.5V13.5M18.5 10.5H17V11.5H18.5V13H17V15H15.5V9H18.5V10.5M12 10.5H13V13.5H12V10.5M7 10.5H8V11.5H7V10.5Z
+                </v-icon-stub>
+                <span
+                  class="ml-1 file-type"
+                >
+                  PDF
+                </span>
+              </td>
+              <td
+                class="text-start"
+              >
+                <time
+                  datetime="2021-12-27T20:51:25+0900"
+                >
+                  2021年12月27日 20:51
+                </time>
+              </td>
+            </tr>
+            <tr
+              class=""
+            >
+              <td
+                class="text-start"
+              >
+                給付費明細.csv
+              </td>
+              <td
+                class="text-start"
+              >
+                <v-icon-stub>
+                  M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20M10,13H7V11H10V13M14,13H11V11H14V13M10,16H7V14H10V16M14,16H11V14H14V16M10,19H7V17H10V19M14,19H11V17H14V19Z
+                </v-icon-stub>
+                <span
+                  class="ml-1 file-type"
+                >
+                  CSV
+                </span>
+              </td>
+              <td
+                class="text-start"
+              >
+                <time
+                  datetime="2019-04-05T11:51:32+0900"
+                >
+                  2019年04月05日 11:51
+                </time>
+              </td>
+            </tr>
+            <tr
+              class=""
+            >
+              <td
+                class="text-start"
+              >
+                給付費明細.csv
+              </td>
+              <td
+                class="text-start"
+              >
+                <v-icon-stub>
+                  M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20M10,13H7V11H10V13M14,13H11V11H14V13M10,16H7V14H10V16M14,16H11V14H14V16M10,19H7V17H10V19M14,19H11V17H14V19Z
+                </v-icon-stub>
+                <span
+                  class="ml-1 file-type"
+                >
+                  CSV
+                </span>
+              </td>
+              <td
+                class="text-start"
+              >
+                <time
+                  datetime="2015-03-05T15:34:02+0900"
+                >
+                  2015年03月05日 15:34
+                </time>
+              </td>
+            </tr>
+            <tr
+              class=""
+            >
+              <td
+                class="text-start"
+              >
+                給付費明細.csv
+              </td>
+              <td
+                class="text-start"
+              >
+                <v-icon-stub>
+                  M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20M10,13H7V11H10V13M14,13H11V11H14V13M10,16H7V14H10V16M14,16H11V14H14V16M10,19H7V17H10V19M14,19H11V17H14V19Z
+                </v-icon-stub>
+                <span
+                  class="ml-1 file-type"
+                >
+                  CSV
+                </span>
+              </td>
+              <td
+                class="text-start"
+              >
+                <time
+                  datetime="1978-04-03T22:32:54+0900"
+                >
+                  1978年04月03日 22:32
+                </time>
+              </td>
+            </tr>
+            <tr
+              class=""
+            >
+              <td
+                class="text-start"
+              >
+                給付費明細.pdf
+              </td>
+              <td
+                class="text-start"
+              >
+                <v-icon-stub>
+                  M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3M9.5 11.5C9.5 12.3 8.8 13 8 13H7V15H5.5V9H8C8.8 9 9.5 9.7 9.5 10.5V11.5M14.5 13.5C14.5 14.3 13.8 15 13 15H10.5V9H13C13.8 9 14.5 9.7 14.5 10.5V13.5M18.5 10.5H17V11.5H18.5V13H17V15H15.5V9H18.5V10.5M12 10.5H13V13.5H12V10.5M7 10.5H8V11.5H7V10.5Z
+                </v-icon-stub>
+                <span
+                  class="ml-1 file-type"
+                >
+                  PDF
+                </span>
+              </td>
+              <td
+                class="text-start"
+              >
+                <time
+                  datetime="2015-12-29T01:17:39+0900"
+                >
+                  2015年12月29日 01:17
+                </time>
+              </td>
+            </tr>
+            <tr
+              class=""
+            >
+              <td
+                class="text-start"
+              >
+                給付費明細.pdf
+              </td>
+              <td
+                class="text-start"
+              >
+                <v-icon-stub>
+                  M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3M9.5 11.5C9.5 12.3 8.8 13 8 13H7V15H5.5V9H8C8.8 9 9.5 9.7 9.5 10.5V11.5M14.5 13.5C14.5 14.3 13.8 15 13 15H10.5V9H13C13.8 9 14.5 9.7 14.5 10.5V13.5M18.5 10.5H17V11.5H18.5V13H17V15H15.5V9H18.5V10.5M12 10.5H13V13.5H12V10.5M7 10.5H8V11.5H7V10.5Z
+                </v-icon-stub>
+                <span
+                  class="ml-1 file-type"
+                >
+                  PDF
+                </span>
+              </td>
+              <td
+                class="text-start"
+              >
+                <time
+                  datetime="1998-07-08T05:16:43+0900"
+                >
+                  1998年07月08日 05:16
+                </time>
+              </td>
+            </tr>
+            <tr
+              class=""
+            >
+              <td
+                class="text-start"
+              >
+                給付費明細.csv
+              </td>
+              <td
+                class="text-start"
+              >
+                <v-icon-stub>
+                  M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20M10,13H7V11H10V13M14,13H11V11H14V13M10,16H7V14H10V16M14,16H11V14H14V16M10,19H7V17H10V19M14,19H11V17H14V19Z
+                </v-icon-stub>
+                <span
+                  class="ml-1 file-type"
+                >
+                  CSV
+                </span>
+              </td>
+              <td
+                class="text-start"
+              >
+                <time
+                  datetime="1983-10-02T16:29:23+0900"
+                >
+                  1983年10月02日 16:29
+                </time>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!---->
+  </v-card-stub>
+</div>
+`;
+
+exports[`z-billing-file-list-card.vue should be rendered correctly when items is empty 1`] = `
+<div
+  class="root"
+  data-z-data-table=""
+>
+  <z-subheader-stub>
+    ファイル
+  </z-subheader-stub>
+  <v-card-stub
+    class="py-4"
+    loaderheight="4"
+    tag="div"
+  >
+    <div
+      class="v-data-table theme--light table"
+      data-desktop-table=""
+    >
+      <div
+        class="v-data-table__wrapper"
+      >
+        <table>
+          <colgroup>
+            <col
+              class=""
+            />
+            <col
+              class=""
+            />
+            <col
+              class=""
+            />
+            <col
+              class=""
+            />
+          </colgroup>
+          <thead
+            class="v-data-table-header"
+          >
+            <tr>
+              <th
+                aria-label="種類"
+                class="text-start th-name"
+                role="columnheader"
+                scope="col"
+              >
+                <span>
+                  種類
+                </span>
+              </th>
+              <th
+                aria-label="ファイル形式"
+                class="text-start th-type"
+                role="columnheader"
+                scope="col"
+                style="width: 120px; min-width: 120px;"
+              >
+                <span>
+                  ファイル形式
+                </span>
+              </th>
+              <th
+                aria-label="作成日時"
+                class="text-start th-created-at"
+                role="columnheader"
+                scope="col"
+                style="width: 190px; min-width: 190px;"
+              >
+                <span>
+                  作成日時
+                </span>
+              </th>
+              <th
+                aria-label="ダウンロード"
+                class="text-center th-download"
+                role="columnheader"
+                scope="col"
+                style="width: 120px; min-width: 120px;"
+              >
+                <span>
+                  ダウンロード
+                </span>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              class="v-data-table__empty-wrapper"
+            >
+              <td
+                colspan="4"
+              >
+                該当するファイルは登録されていません。
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!---->
+  </v-card-stub>
+</div>
+`;

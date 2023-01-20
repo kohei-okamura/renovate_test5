@@ -1,0 +1,13 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 介護保険サービス：ベースアップ等支援加算
+name: LtcsBaseIncreaseSupportAddition
+php:
+  enabled: true
+  namespace: Office
+typescript:
+  enabled: true
+items:
+  - { description: なし, name: None, value: 0 }
+  - { description: 介護職員等ベースアップ等支援加算, name: Addition1, value: 1 }

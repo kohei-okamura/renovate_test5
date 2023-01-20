@@ -1,0 +1,46 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 介護保険サービス：予実：サービス情報
+type: object
+properties:
+  slot:
+    $ref: '#/components/schemas/TimeRange'
+  timeframe:
+    $ref: '#/components/schemas/Timeframe'
+  category:
+    $ref: '#/components/schemas/LtcsProjectServiceCategory'
+  amounts:
+    description: サービス提供量
+    type: array
+    items:
+      $ref: '#/components/schemas/LtcsProjectAmount'
+  headcount:
+    description: 提供人数
+    type: number
+  ownExpenseProgramId:
+    description: 自費サービス情報 ID
+    type: object
+  serviceCode:
+    description: サービスコード
+    type: string
+  options:
+    description: サービスオプション
+    type: array
+    items:
+      $ref: '#/components/schemas/ServiceOption'
+  note:
+    description: 備考
+    type: string
+  plans:
+    description: 予定年月日
+    type: array
+    items:
+      $ref: '#/components/schemas/DateLike'
+  results:
+    description: 実績年月日
+    type: array
+    items:
+      $ref: '#/components/schemas/DateLike'

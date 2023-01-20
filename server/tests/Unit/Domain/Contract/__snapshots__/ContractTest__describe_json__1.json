@@ -1,0 +1,27 @@
+{
+    "id": 1,
+    "userId": 3,
+    "officeId": 4,
+    "serviceSegment": 1,
+    "status": 3,
+    "contractedOn": "1996-06-04T00:00:00+0900",
+    "terminatedOn": "2008-05-17T00:00:00+0900",
+    "dwsPeriods": {
+        "11": {
+            "start": "2020-01-01",
+            "end": "2020-12-31"
+        },
+        "12": {
+            "start": "2021-01-01",
+            "end": "2021-12-31"
+        }
+    },
+    "ltcsPeriod": {
+        "start": "2019-01-01",
+        "end": "2019-12-31"
+    },
+    "expiredReason": 3,
+    "note": "\u3060\u308b\u307e\u3055\u3093\u304c\u3053\u308d\u3093\u3060",
+    "createdAt": "2019-05-15T00:00:00+0900",
+    "updatedAt": "2019-05-15T00:00:00+0900"
+}

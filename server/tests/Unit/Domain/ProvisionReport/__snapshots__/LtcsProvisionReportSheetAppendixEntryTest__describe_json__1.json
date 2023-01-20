@@ -1,0 +1,19 @@
+{
+    "scoreWithinMaxBenefitQuota": 480,
+    "scoreWithinMaxBenefit": 440,
+    "totalFeeForInsuranceOrBusiness": 501,
+    "claimAmountForInsuranceOrBusiness": 400,
+    "copayForInsuranceOrBusiness": 101,
+    "copayWholeExpense": 69,
+    "officeName": "\u4e8b\u696d\u6240\u540d",
+    "officeCode": "0123456789",
+    "serviceName": "\u8eab\u4f53\u4ecb\u8b771",
+    "serviceCode": "111111",
+    "unitScore": 250,
+    "count": 2,
+    "wholeScore": 500,
+    "maxBenefitQuotaExcessScore": 20,
+    "maxBenefitExcessScore": 40,
+    "unitCost": 11400,
+    "benefitRate": 80
+}

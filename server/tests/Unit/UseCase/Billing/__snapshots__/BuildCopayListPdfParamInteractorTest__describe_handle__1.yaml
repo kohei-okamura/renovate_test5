@@ -1,0 +1,28 @@
+copayLists:
+    -
+        issuedOn: 2019年5月15日
+        copayCoordinationOfficeName: 事業所テスト
+        officeCode: '8127193362'
+        officeAddr:
+            postcode: 984-0056
+            prefecture: 4
+            city: 仙台市
+            street: 若林区成田町16番地の2
+            apartment: ロイヤルヒルズ成田町403号
+        officeTel: 01-2345-6789
+        officeName: 事業所テスト
+        providedIn:
+            japaneseCalender: '20'
+            year: '20'
+            month: '10'
+            day: '10'
+        items:
+            -
+                itemNumber: 1
+                cityCode: '123456'
+                dwsNumber: '1234567890'
+                name: ' '
+                fee: 100000
+                copay: 9300
+                serviceDivision:
+                    - '11'

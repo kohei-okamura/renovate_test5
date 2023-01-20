@@ -1,0 +1,24 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+post:
+  summary: 事業所障害福祉サービス：重度訪問介護：算定情報登録
+  description: 事業所の障害福祉サービス：重度訪問介護：算定情報を登録する。
+  parameters:
+    - $ref: '#/components/parameters/officeId'
+  requestBody:
+    content:
+      application/json:
+        schema:
+          $ref: '#/components/schemas/VisitingCareForPwsdCalcSpecForm'
+  responses:
+    '200':
+      $ref: '#/components/responses/OK'
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+    '404':
+      $ref: '#/components/responses/OfficeNotFound'
+  tags:
+    - 事業所：障害福祉サービス：重度訪問介護：算定情報

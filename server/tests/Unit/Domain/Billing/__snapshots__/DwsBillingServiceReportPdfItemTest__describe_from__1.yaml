@@ -1,0 +1,22 @@
+-
+    providedOn: '15'
+    weekday: 水
+    serviceCount: ①
+    serviceType: (基礎等)
+    situation: 入院
+    plan:
+        start: '00:00'
+        end: '00:00'
+        serviceDurationHours: '1'
+        movingDurationHours: '5'
+    result:
+        start: '00:00'
+        end: '00:00'
+        serviceDurationHours: '0.8'
+        movingDurationHours: '2'
+    headcount: '2'
+    isFirstTime: '1'
+    isEmergency: '1'
+    isWelfareSpecialistCooperation: '1'
+    isMovingCareSupport: '1'
+    note: sample

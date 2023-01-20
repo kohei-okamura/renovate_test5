@@ -1,0 +1,13 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 介護保険被保険者証：種類支給限度基準額
+type: object
+properties:
+  ltcsInsCardServiceType:
+    $ref: '#/components/schemas/LtcsInsCardServiceType'
+  maxBenefitQuota:
+    description: 種類支給限度基準額
+    type: number

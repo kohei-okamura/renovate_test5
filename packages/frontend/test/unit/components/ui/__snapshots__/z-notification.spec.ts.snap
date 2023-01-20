@@ -1,0 +1,226 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-notification.vue should be rendered correctly when status is "failure" 1`] = `
+<div
+  class="px-3 py-2 root"
+  data-z-notification=""
+>
+  <div
+    class="d-inline-flex"
+  >
+    <div
+      class="mr-3"
+    >
+      <v-icon-stub
+        color="error"
+        data-failure-icon=""
+        datafailureicon=""
+      >
+        M12,2L1,21H23M12,6L19.53,19H4.47M11,10V14H13V10M11,16V18H13V16
+      </v-icon-stub>
+    </div>
+    <div>
+      <span
+        class="font-weight-bold"
+      >
+        完了
+      </span>
+      <span>
+        -
+      </span>
+      <span
+        class="body-1"
+      >
+        タスクの処理にエラーがありました
+      </span>
+    </div>
+    <a
+      class="v-btn-stub"
+      color="transparent"
+      data-close-button=""
+      height="24"
+      icon=""
+      small=""
+    >
+      <v-icon-stub
+        color="primary"
+      >
+        M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z
+      </v-icon-stub>
+    </a>
+  </div>
+  <div
+    class="d-inline-flex justify-end container"
+    data-detail-button-container-on-failure=""
+  >
+    <a
+      class="v-btn-stub"
+      color="primary"
+      data-detail-button-on-failure=""
+      text=""
+    >
+      詳細を確認
+    </a>
+  </div>
+</div>
+`;
+
+exports[`z-notification.vue should be rendered correctly when status is "inProgress" 1`] = `
+<div
+  class="px-3 py-2 root"
+  data-z-notification=""
+>
+  <div
+    class="d-inline-flex"
+  >
+    <div
+      class="mr-3"
+    >
+      <div
+        aria-valuemax="100"
+        aria-valuemin="0"
+        class="v-progress-circular v-progress-circular--visible v-progress-circular--indeterminate blue-grey--text"
+        data-in-progress-icon=""
+        role="progressbar"
+        style="height: 26px; width: 26px;"
+      >
+        <svg
+          style="transform: rotate(0deg);"
+          viewBox="22.608695652173914 22.608695652173914 45.21739130434783 45.21739130434783"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            class="v-progress-circular__overlay"
+            cx="45.21739130434783"
+            cy="45.21739130434783"
+            fill="transparent"
+            r="20"
+            stroke-dasharray="125.664"
+            stroke-dashoffset="125.66370614359172px"
+            stroke-width="5.217391304347826"
+          />
+        </svg>
+        <div
+          class="v-progress-circular__info"
+        />
+      </div>
+    </div>
+    <div>
+      <span
+        class="font-weight-bold"
+      >
+        処理中
+      </span>
+      <span>
+        -
+      </span>
+      <span
+        class="body-1"
+      >
+        タスクを処理しています
+      </span>
+    </div>
+    <!---->
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`z-notification.vue should be rendered correctly when status is "success" 1`] = `
+<div
+  class="px-3 py-2 root"
+  data-z-notification=""
+>
+  <div
+    class="d-inline-flex"
+  >
+    <div
+      class="mr-3"
+    >
+      <v-icon-stub
+        color="success"
+        data-success-icon=""
+        datasuccessicon=""
+      >
+        M12 2C6.5 2 2 6.5 2 12S6.5 22 12 22 22 17.5 22 12 17.5 2 12 2M10 17L5 12L6.41 10.59L10 14.17L17.59 6.58L19 8L10 17Z
+      </v-icon-stub>
+    </div>
+    <div>
+      <span
+        class="font-weight-bold"
+      >
+        完了
+      </span>
+      <span>
+        -
+      </span>
+      <span
+        class="body-1"
+      >
+        タスクの処理が正常に終了しました
+      </span>
+    </div>
+    <a
+      class="v-btn-stub"
+      color="transparent"
+      data-close-button=""
+      height="24"
+      icon=""
+      small=""
+    >
+      <v-icon-stub
+        color="primary"
+      >
+        M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z
+      </v-icon-stub>
+    </a>
+  </div>
+  <div
+    class="d-inline-flex justify-end container"
+    data-detail-button-container-on-success=""
+  >
+    <a
+      class="v-btn-stub"
+      color="primary"
+      data-detail-button-on-success=""
+      text=""
+    >
+      詳細を確認
+    </a>
+  </div>
+</div>
+`;
+
+exports[`z-notification.vue should be rendered correctly when status is "waiting" 1`] = `
+<div
+  class="px-3 py-2 root"
+  data-z-notification=""
+>
+  <div
+    class="d-inline-flex"
+  >
+    <div
+      class="mr-3"
+    >
+      <!---->
+    </div>
+    <div>
+      <span
+        class="font-weight-bold"
+      >
+        待機中
+      </span>
+      <span>
+        -
+      </span>
+      <span
+        class="body-1"
+      >
+        待機中
+      </span>
+    </div>
+    <!---->
+  </div>
+  <!---->
+</div>
+`;

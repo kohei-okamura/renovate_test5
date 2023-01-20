@@ -1,0 +1,162 @@
+/*
+ * Copyright © 2019 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+ * UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+ */
+
+// ダイアログ切り替え時のトランジション.
+.dialog {
+  &-enter {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  &-enter-active {
+    transition: all .3s ease-out;
+  }
+  &-enter-to,
+  &-leave {
+    opacity: 1;
+  }
+  &-leave-active {
+    transition: all .3s ease-in;
+  }
+  &-leave-to {
+    opacity: 0;
+    transform: translateY(-16px);
+  }
+}
+// レイアウト切り替え時のトランジション.
+.layout {
+  &-enter {
+    opacity: 0;
+  }
+  &-enter-active {
+    transition: opacity .3s ease-out;
+  }
+  &-enter-to,
+  &-leave {
+    opacity: 1;
+  }
+  &-leave-active {
+    transition: opacity .3s ease-in;
+  }
+  &-leave-to {
+    opacity: 0;
+  }
+}
+// ページ切り替え時のトランジション.
+.page {
+  &-enter {
+    opacity: 0;
+  }
+  &-enter-active {
+    transition: all .3s ease-out;
+  }
+  &-enter-to,
+  &-leave {
+    opacity: 1;
+  }
+  &-leave-active {
+    transition: all .3s ease-in;
+  }
+  &-leave-to {
+    opacity: 0;
+  }
+}
+.layout-login .page {
+  &-enter {
+    transform: translateX(8px);
+  }
+  &-leave-to {
+    transform: translateX(-8px);
+  }
+}
+.layout-default .page {
+  &-enter {
+    margin-left: 8px;
+  }
+  &-leave-to {
+    margin-left: -8px;
+  }
+}
+// カードリストのトランジション.
+.card-list {
+  &-enter {
+    opacity: 0;
+    transform: translateX(-12px);
+  }
+  &-enter-active {
+    transition: all .4s ease-out;
+  }
+  &-enter-to,
+  &-leave {
+    opacity: 1;
+  }
+  &-leave-active {
+    transition: all .4s ease-in;
+  }
+  &-leave-to {
+    opacity: 0;
+    transform: translateX(12px);
+  }
+}
+// トランジション: フェード.
+.fade {
+  &-enter {
+    opacity: 0;
+  }
+  &-enter-active {
+    transition: opacity .2s ease-out;
+  }
+  &-enter-to,
+  &-leave {
+    opacity: 1;
+  }
+  &-leave-active {
+    transition: opacity .2s ease-in;
+  }
+  &-leave-to {
+    opacity: 0;
+  }
+}
+// Transition: slide
+.slide {
+  &-enter {
+    opacity: 0;
+    transform: translateX(8px);
+  }
+  &-enter-active {
+    transition: all .3s ease-out;
+  }
+  &-enter-to,
+  &-leave {
+    opacity: 1;
+  }
+  &-leave-active {
+    transition: all .3s ease-in;
+  }
+  &-leave-to {
+    opacity: 0;
+    transform: translateX(-8px);
+  }
+}
+// Transition: slide-reversse
+.slide-reverse {
+  &-enter {
+    opacity: 0;
+    transform: translateX(-8px);
+  }
+  &-enter-active {
+    transition: all .3s ease-out;
+  }
+  &-enter-to,
+  &-leave {
+    opacity: 1;
+  }
+  &-leave-active {
+    transition: all .3s ease-in;
+  }
+  &-leave-to {
+    opacity: 0;
+    transform: translateX(8px);
+  }
+}

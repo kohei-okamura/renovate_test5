@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`api/shifts-api batchCancel should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/shifts-api cancel should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/shifts-api confirm should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/shifts-api create should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/shifts-api createTemplate should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/shifts-api get should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/shifts-api getIndex should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/shifts-api import should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/shifts-api update should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;

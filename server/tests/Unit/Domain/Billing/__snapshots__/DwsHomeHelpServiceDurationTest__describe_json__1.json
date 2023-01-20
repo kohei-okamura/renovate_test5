@@ -1,0 +1,11 @@
+{
+    "category": 111000,
+    "providerType": 0,
+    "isSecondary": false,
+    "isSpanning": false,
+    "spanningDuration": 0,
+    "providedOn": "2020-01-01T00:00:00+0900",
+    "timeframe": 1,
+    "duration": 2,
+    "headcount": 1
+}

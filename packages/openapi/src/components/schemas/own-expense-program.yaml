@@ -1,0 +1,35 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 自費サービス情報
+type: object
+properties:
+  id:
+    description: 自費サービス情報 ID
+    type: object
+  officeId:
+    description: 事業所 ID
+    type: object
+  name:
+    description: 名称
+    type: string
+  durationMinutes:
+    description: 単位時間数
+    type: number
+  fee:
+    $ref: '#/components/schemas/Expense'
+  note:
+    description: 備考
+    type: string
+  isEnabled:
+    description: 有効フラグ
+    type: boolean
+  version:
+    description: バージョン
+    type: number
+  createdAt:
+    $ref: '#/components/schemas/DateLike'
+  updatedAt:
+    $ref: '#/components/schemas/DateLike'

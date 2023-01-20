@@ -1,0 +1,53 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 利用者：自治体助成情報
+type: object
+properties:
+  id:
+    description: 自治体助成情報 ID
+    type: object
+  userId:
+    description: 利用者 ID
+    type: object
+  period:
+    $ref: '#/components/schemas/DateRange'
+  cityName:
+    description: 助成自治体名
+    type: string
+  cityCode:
+    description: 助成自治体番号
+    type: string
+  subsidyType:
+    $ref: '#/components/schemas/UserDwsSubsidyType'
+  factor:
+    $ref: '#/components/schemas/UserDwsSubsidyFactor'
+  benefitRate:
+    description: 給付率
+    type: number
+  copayRate:
+    description: 本人負担率
+    type: number
+  rounding:
+    $ref: '#/components/schemas/Rounding'
+  benefitAmount:
+    description: 給付額
+    type: number
+  copayAmount:
+    description: 本人負担額
+    type: number
+  note:
+    description: 備考
+    type: string
+  isEnabled:
+    description: 有効フラグ
+    type: boolean
+  version:
+    description: バージョン
+    type: number
+  createdAt:
+    $ref: '#/components/schemas/DateLike'
+  updatedAt:
+    $ref: '#/components/schemas/DateLike'

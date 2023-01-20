@@ -1,0 +1,19 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+description: ログインセッション登録フォーム
+type: object
+properties:
+  email:
+    description: メールアドレス
+    type: string
+  password:
+    description: パスワード
+    type: string
+  rememberMe:
+    description: ログインしたままにする
+    type: boolean
+required:
+  - email
+  - password
+  - rememberMe

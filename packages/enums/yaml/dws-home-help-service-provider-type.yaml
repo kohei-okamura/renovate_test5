@@ -1,0 +1,16 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 障害福祉サービス：居宅介護：提供者区分
+name: DwsHomeHelpServiceProviderType
+php:
+  enabled: true
+  namespace: ServiceCodeDictionary
+  traits:
+    - DwsHomeHelpServiceProviderTypeSupport
+typescript:
+  enabled: true
+items:
+  - { description: 下記に該当しない, name: None, value: 0 }
+  - { description: 基（基礎研修課程修了者等により行われる場合）, name: Beginner, value: 1 }
+  - { description: 重研（重度訪問介護研修修了者による場合）, name: CareWorkerForPwsd, value: 2 }

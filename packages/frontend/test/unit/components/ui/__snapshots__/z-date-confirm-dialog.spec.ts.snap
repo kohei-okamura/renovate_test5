@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-date-confirm-dialog.vue should be rendered correctly 1`] = `
+<v-dialog-stub
+  closedelay="0"
+  contentclass=""
+  opendelay="0"
+  origin="center center"
+  persistent="true"
+  retainfocus="true"
+  transition="dialog-transition"
+  width="400"
+>
+  <v-card-stub
+    loaderheight="4"
+    tag="div"
+  >
+    <!---->
+    <v-card-text-stub
+      tag="div"
+    >
+      <p
+        class="message"
+      >
+        日付を選択して実行を押してください。
+      </p>
+      <div>
+        <v-date-picker-stub
+          dayformat="[Function]"
+          eventcolor="warning"
+          firstdayofweek="1"
+          full-width=""
+          fullwidth="true"
+          headerdateformat="[Function]"
+          locale="ja-JP"
+          localefirstdayofyear="0"
+          max="2028-05-17"
+          min="1920-01-01"
+          nexticon="$next"
+          nextmontharialabel="$vuetify.datePicker.nextMonthAriaLabel"
+          nextyeararialabel="$vuetify.datePicker.nextYearAriaLabel"
+          notitle="true"
+          previcon="$prev"
+          prevmontharialabel="$vuetify.datePicker.prevMonthAriaLabel"
+          prevyeararialabel="$vuetify.datePicker.prevYearAriaLabel"
+          selecteditemstext="$vuetify.datePicker.itemsSelected"
+          titledateformat="[Function]"
+          type="date"
+          width="290"
+          yearformat="[Function]"
+        />
+        <div
+          class="mt-1"
+          data-error=""
+          vid="date"
+        >
+          <input
+            type="hidden"
+          />
+          <!---->
+        </div>
+         オプション
+      </div>
+    </v-card-text-stub>
+    <v-card-actions-stub
+      tag="div"
+    >
+      <v-spacer-stub
+        tag="div"
+      />
+      <a
+        class="v-btn-stub"
+        color="grey"
+        data-button-negative=""
+        text=""
+      >
+        <span>
+          キャンセル
+        </span>
+      </a>
+      <a
+        class="v-btn-stub"
+        color="primary"
+        data-button-positive=""
+        text=""
+        type="submit"
+      >
+        <span>
+          実行
+        </span>
+      </a>
+    </v-card-actions-stub>
+  </v-card-stub>
+</v-dialog-stub>
+`;
+
+exports[`z-date-confirm-dialog.vue should display errors when z-prompt-dialog emits click:positive if a date is not selected 1`] = `
+<div
+  class="mt-1"
+  data-error=""
+  vid="date"
+>
+  <input
+    type="hidden"
+  />
+  <div
+    class="error--text v-messages root z-error-container py-1 px-4 rounded"
+  >
+    <div>
+      入力してください。
+    </div>
+  </div>
+</div>
+`;

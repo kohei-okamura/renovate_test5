@@ -1,0 +1,15 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 障害種別
+name: DwsType
+php:
+  enabled: true
+  namespace: DwsCertification
+typescript:
+  enabled: true
+items:
+  - { description: 身体, name: Physical, value: 1 }
+  - { description: 知的, name: Intellectual, value: 2 }
+  - { description: 精神, name: Mental, value: 3 }
+  - { description: 難病, name: IntractableDiseases, value: 5 }

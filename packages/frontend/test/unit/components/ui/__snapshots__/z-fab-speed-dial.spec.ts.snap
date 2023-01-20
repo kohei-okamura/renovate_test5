@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-fab-speed-dial.vue should be rendered correctly 1`] = `
+<div
+  class="root"
+  data-z-fab-speed-dial=""
+>
+  <div
+    class="v-overlay theme--dark"
+    data-z-fab-speed-dial-overlay=""
+    style="z-index: 5;"
+  >
+    <div
+      class="v-overlay__scrim white"
+      style="opacity: 0;"
+    />
+  </div>
+  <div
+    class="v-speed-dial v-speed-dial--right v-speed-dial--bottom v-speed-dial--fixed v-speed-dial--direction-top fab"
+  >
+    <a
+      class="z-fab-stub"
+      data-z-fab-speed-dial-fab=""
+      icon="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+    />
+    <transition-group-stub
+      class="v-speed-dial__list"
+      name="slide-y-reverse-transition"
+      tag="div"
+    />
+  </div>
+</div>
+`;
+
+exports[`z-fab-speed-dial.vue should show buttons when the fab clicked 1`] = `
+<div
+  class="root"
+  data-z-fab-speed-dial=""
+>
+  <div
+    class="v-overlay v-overlay--active theme--dark"
+    data-z-fab-speed-dial-overlay=""
+    style="z-index: 5;"
+  >
+    <div
+      class="v-overlay__scrim white"
+      style="opacity: 0.8;"
+    />
+    <div
+      class="v-overlay__content"
+    />
+  </div>
+  <div
+    class="v-speed-dial v-speed-dial--right v-speed-dial--bottom v-speed-dial--fixed v-speed-dial--direction-top v-speed-dial--is-active fab"
+  >
+    <a
+      class="z-fab-stub"
+      data-z-fab-speed-dial-fab=""
+      icon="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"
+    />
+    <transition-group-stub
+      class="v-speed-dial__list"
+      name="slide-y-reverse-transition"
+      tag="div"
+    >
+      <div>
+        A
+      </div>
+      <div>
+        B
+      </div>
+      <div>
+        C
+      </div>
+    </transition-group-stub>
+  </div>
+</div>
+`;

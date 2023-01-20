@@ -1,0 +1,545 @@
+-
+    certification:
+        id: 1
+        userId: 1
+        effectivatedOn: '2022-02-01T00:00:00+09:00'
+        status: 2
+        dwsNumber: '1234567890'
+        dwsTypes:
+            - 1
+        issuedOn: '2022-01-01T00:00:00+09:00'
+        cityName: 米花市
+        cityCode: '141421'
+        dwsLevel: 25
+        isSubjectOfComprehensiveSupport: false
+        activatedOn: '2022-01-01T00:00:00+09:00'
+        deactivatedOn: '2022-12-31T00:00:00+09:00'
+        grants:
+            -
+                dwsCertificationServiceType: 1
+                grantedAmount: 支給量
+                activatedOn: '2022-01-01T00:00:00+09:00'
+                deactivatedOn: '2022-12-31T00:00:00+09:00'
+            -
+                dwsCertificationServiceType: 2
+                grantedAmount: 支給量
+                activatedOn: '2022-01-01T00:00:00+09:00'
+                deactivatedOn: '2022-12-31T00:00:00+09:00'
+            -
+                dwsCertificationServiceType: 3
+                grantedAmount: 支給量
+                activatedOn: '2022-01-01T00:00:00+09:00'
+                deactivatedOn: '2022-12-31T00:00:00+09:00'
+            -
+                dwsCertificationServiceType: 4
+                grantedAmount: 支給量
+                activatedOn: '2022-01-01T00:00:00+09:00'
+                deactivatedOn: '2022-12-31T00:00:00+09:00'
+            -
+                dwsCertificationServiceType: 8
+                grantedAmount: 支給量
+                activatedOn: '2022-01-01T00:00:00+09:00'
+                deactivatedOn: '2022-12-31T00:00:00+09:00'
+        child:
+            name:
+                displayName: ' '
+                phoneticDisplayName: ' '
+                familyName: ''
+                givenName: ''
+                phoneticFamilyName: ''
+                phoneticGivenName: ''
+            birthday: null
+        copayRate: 10
+        copayLimit: 37200
+        copayActivatedOn: '2022-01-01T00:00:00+09:00'
+        copayDeactivatedOn: '2022-12-31T00:00:00+09:00'
+        copayCoordination:
+            copayCoordinationType: 2
+            officeId: null
+        agreements:
+            -
+                indexNumber: 1
+                officeId: 604
+                dwsCertificationAgreementType: 21
+                paymentAmount: 44640
+                agreedOn: '2022-01-31T00:00:00+09:00'
+                expiredOn: '2022-12-31T00:00:00+09:00'
+        isEnabled: true
+        version: 1
+        createdAt: '2019-05-15T00:00:00+09:00'
+        updatedAt: '2019-05-15T00:00:00+09:00'
+    provisionReport:
+        id: 1
+        userId: 1
+        officeId: 604
+        contractId: 1
+        providedIn: '2021-01-01T00:00:00+09:00'
+        plans:
+            -
+                schedule:
+                    date: '2021-01-23T00:00:00+09:00'
+                    start: '2021-01-23T11:10:00+09:00'
+                    end: '2021-01-23T12:10:00+09:00'
+                category: 11
+                headcount: 1
+                movingDurationMinutes: null
+                ownExpenseProgramId: null
+                options: {  }
+                note: ''
+        results:
+            -
+                schedule:
+                    date: '2021-01-23T00:00:00+09:00'
+                    start: '2021-01-23T11:10:00+09:00'
+                    end: '2021-01-23T12:10:00+09:00'
+                category: 11
+                headcount: 1
+                movingDurationMinutes: null
+                ownExpenseProgramId: null
+                options: {  }
+                note: ''
+        status: 3
+        fixedAt: '2021-02-15T00:00:00+09:00'
+        createdAt: '2019-05-15T00:00:00+09:00'
+        updatedAt: '2019-05-15T00:00:00+09:00'
+    previousProvisionReport:
+        -
+            id: 1
+            userId: 1
+            officeId: 604
+            contractId: 1
+            providedIn: '2020-12-01T00:00:00+09:00'
+            plans:
+                -
+                    schedule:
+                        date: '2021-01-23T00:00:00+09:00'
+                        start: '2021-01-23T11:10:00+09:00'
+                        end: '2021-01-23T12:10:00+09:00'
+                    category: 11
+                    headcount: 1
+                    movingDurationMinutes: null
+                    ownExpenseProgramId: null
+                    options: {  }
+                    note: ''
+            results:
+                -
+                    schedule:
+                        date: '2021-01-23T00:00:00+09:00'
+                        start: '2021-01-23T11:10:00+09:00'
+                        end: '2021-01-23T12:10:00+09:00'
+                    category: 11
+                    headcount: 1
+                    movingDurationMinutes: null
+                    ownExpenseProgramId: null
+                    options: {  }
+                    note: ''
+            status: 3
+            fixedAt: '2021-02-15T00:00:00+09:00'
+            createdAt: '2019-05-15T00:00:00+09:00'
+            updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    certification:
+        id: 1
+        userId: 1
+        effectivatedOn: '2022-02-01T00:00:00+09:00'
+        status: 2
+        dwsNumber: '1234567890'
+        dwsTypes:
+            - 1
+        issuedOn: '2022-01-01T00:00:00+09:00'
+        cityName: 米花市
+        cityCode: '141421'
+        dwsLevel: 25
+        isSubjectOfComprehensiveSupport: false
+        activatedOn: '2022-01-01T00:00:00+09:00'
+        deactivatedOn: '2022-12-31T00:00:00+09:00'
+        grants:
+            -
+                dwsCertificationServiceType: 1
+                grantedAmount: 支給量
+                activatedOn: '2022-01-01T00:00:00+09:00'
+                deactivatedOn: '2022-12-31T00:00:00+09:00'
+            -
+                dwsCertificationServiceType: 2
+                grantedAmount: 支給量
+                activatedOn: '2022-01-01T00:00:00+09:00'
+                deactivatedOn: '2022-12-31T00:00:00+09:00'
+            -
+                dwsCertificationServiceType: 3
+                grantedAmount: 支給量
+                activatedOn: '2022-01-01T00:00:00+09:00'
+                deactivatedOn: '2022-12-31T00:00:00+09:00'
+            -
+                dwsCertificationServiceType: 4
+                grantedAmount: 支給量
+                activatedOn: '2022-01-01T00:00:00+09:00'
+                deactivatedOn: '2022-12-31T00:00:00+09:00'
+            -
+                dwsCertificationServiceType: 8
+                grantedAmount: 支給量
+                activatedOn: '2022-01-01T00:00:00+09:00'
+                deactivatedOn: '2022-12-31T00:00:00+09:00'
+        child:
+            name:
+                displayName: ' '
+                phoneticDisplayName: ' '
+                familyName: ''
+                givenName: ''
+                phoneticFamilyName: ''
+                phoneticGivenName: ''
+            birthday: null
+        copayRate: 10
+        copayLimit: 37200
+        copayActivatedOn: '2022-01-01T00:00:00+09:00'
+        copayDeactivatedOn: '2022-12-31T00:00:00+09:00'
+        copayCoordination:
+            copayCoordinationType: 2
+            officeId: null
+        agreements:
+            -
+                indexNumber: 1
+                officeId: 604
+                dwsCertificationAgreementType: 21
+                paymentAmount: 44640
+                agreedOn: '2022-01-31T00:00:00+09:00'
+                expiredOn: '2022-12-31T00:00:00+09:00'
+        isEnabled: true
+        version: 1
+        createdAt: '2019-05-15T00:00:00+09:00'
+        updatedAt: '2019-05-15T00:00:00+09:00'
+    provisionReport:
+        id: 2
+        userId: 2
+        officeId: 604
+        contractId: 1
+        providedIn: '2021-01-01T00:00:00+09:00'
+        plans:
+            -
+                schedule:
+                    date: '2021-01-23T00:00:00+09:00'
+                    start: '2021-01-23T11:10:00+09:00'
+                    end: '2021-01-23T12:10:00+09:00'
+                category: 11
+                headcount: 1
+                movingDurationMinutes: null
+                ownExpenseProgramId: null
+                options: {  }
+                note: ''
+        results:
+            -
+                schedule:
+                    date: '2021-01-23T00:00:00+09:00'
+                    start: '2021-01-23T11:10:00+09:00'
+                    end: '2021-01-23T12:10:00+09:00'
+                category: 11
+                headcount: 1
+                movingDurationMinutes: null
+                ownExpenseProgramId: null
+                options: {  }
+                note: ''
+        status: 3
+        fixedAt: '2021-02-15T00:00:00+09:00'
+        createdAt: '2019-05-15T00:00:00+09:00'
+        updatedAt: '2019-05-15T00:00:00+09:00'
+    previousProvisionReport:
+        -
+            id: 2
+            userId: 2
+            officeId: 604
+            contractId: 1
+            providedIn: '2020-12-01T00:00:00+09:00'
+            plans:
+                -
+                    schedule:
+                        date: '2021-01-23T00:00:00+09:00'
+                        start: '2021-01-23T11:10:00+09:00'
+                        end: '2021-01-23T12:10:00+09:00'
+                    category: 11
+                    headcount: 1
+                    movingDurationMinutes: null
+                    ownExpenseProgramId: null
+                    options: {  }
+                    note: ''
+            results:
+                -
+                    schedule:
+                        date: '2021-01-23T00:00:00+09:00'
+                        start: '2021-01-23T11:10:00+09:00'
+                        end: '2021-01-23T12:10:00+09:00'
+                    category: 11
+                    headcount: 1
+                    movingDurationMinutes: null
+                    ownExpenseProgramId: null
+                    options: {  }
+                    note: ''
+            status: 3
+            fixedAt: '2021-02-15T00:00:00+09:00'
+            createdAt: '2019-05-15T00:00:00+09:00'
+            updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    certification:
+        id: 1
+        userId: 1
+        effectivatedOn: '2022-02-01T00:00:00+09:00'
+        status: 2
+        dwsNumber: '1234567890'
+        dwsTypes:
+            - 1
+        issuedOn: '2022-01-01T00:00:00+09:00'
+        cityName: 米花市
+        cityCode: '141421'
+        dwsLevel: 25
+        isSubjectOfComprehensiveSupport: false
+        activatedOn: '2022-01-01T00:00:00+09:00'
+        deactivatedOn: '2022-12-31T00:00:00+09:00'
+        grants:
+            -
+                dwsCertificationServiceType: 1
+                grantedAmount: 支給量
+                activatedOn: '2022-01-01T00:00:00+09:00'
+                deactivatedOn: '2022-12-31T00:00:00+09:00'
+            -
+                dwsCertificationServiceType: 2
+                grantedAmount: 支給量
+                activatedOn: '2022-01-01T00:00:00+09:00'
+                deactivatedOn: '2022-12-31T00:00:00+09:00'
+            -
+                dwsCertificationServiceType: 3
+                grantedAmount: 支給量
+                activatedOn: '2022-01-01T00:00:00+09:00'
+                deactivatedOn: '2022-12-31T00:00:00+09:00'
+            -
+                dwsCertificationServiceType: 4
+                grantedAmount: 支給量
+                activatedOn: '2022-01-01T00:00:00+09:00'
+                deactivatedOn: '2022-12-31T00:00:00+09:00'
+            -
+                dwsCertificationServiceType: 8
+                grantedAmount: 支給量
+                activatedOn: '2022-01-01T00:00:00+09:00'
+                deactivatedOn: '2022-12-31T00:00:00+09:00'
+        child:
+            name:
+                displayName: ' '
+                phoneticDisplayName: ' '
+                familyName: ''
+                givenName: ''
+                phoneticFamilyName: ''
+                phoneticGivenName: ''
+            birthday: null
+        copayRate: 10
+        copayLimit: 37200
+        copayActivatedOn: '2022-01-01T00:00:00+09:00'
+        copayDeactivatedOn: '2022-12-31T00:00:00+09:00'
+        copayCoordination:
+            copayCoordinationType: 2
+            officeId: null
+        agreements:
+            -
+                indexNumber: 1
+                officeId: 604
+                dwsCertificationAgreementType: 21
+                paymentAmount: 44640
+                agreedOn: '2022-01-31T00:00:00+09:00'
+                expiredOn: '2022-12-31T00:00:00+09:00'
+        isEnabled: true
+        version: 1
+        createdAt: '2019-05-15T00:00:00+09:00'
+        updatedAt: '2019-05-15T00:00:00+09:00'
+    provisionReport:
+        id: 3
+        userId: 3
+        officeId: 604
+        contractId: 1
+        providedIn: '2021-01-01T00:00:00+09:00'
+        plans:
+            -
+                schedule:
+                    date: '2021-01-23T00:00:00+09:00'
+                    start: '2021-01-23T11:10:00+09:00'
+                    end: '2021-01-23T12:10:00+09:00'
+                category: 11
+                headcount: 1
+                movingDurationMinutes: null
+                ownExpenseProgramId: null
+                options: {  }
+                note: ''
+        results:
+            -
+                schedule:
+                    date: '2021-01-23T00:00:00+09:00'
+                    start: '2021-01-23T11:10:00+09:00'
+                    end: '2021-01-23T12:10:00+09:00'
+                category: 11
+                headcount: 1
+                movingDurationMinutes: null
+                ownExpenseProgramId: null
+                options: {  }
+                note: ''
+        status: 3
+        fixedAt: '2021-02-15T00:00:00+09:00'
+        createdAt: '2019-05-15T00:00:00+09:00'
+        updatedAt: '2019-05-15T00:00:00+09:00'
+    previousProvisionReport:
+        -
+            id: 3
+            userId: 3
+            officeId: 604
+            contractId: 1
+            providedIn: '2020-12-01T00:00:00+09:00'
+            plans:
+                -
+                    schedule:
+                        date: '2021-01-23T00:00:00+09:00'
+                        start: '2021-01-23T11:10:00+09:00'
+                        end: '2021-01-23T12:10:00+09:00'
+                    category: 11
+                    headcount: 1
+                    movingDurationMinutes: null
+                    ownExpenseProgramId: null
+                    options: {  }
+                    note: ''
+            results:
+                -
+                    schedule:
+                        date: '2021-01-23T00:00:00+09:00'
+                        start: '2021-01-23T11:10:00+09:00'
+                        end: '2021-01-23T12:10:00+09:00'
+                    category: 11
+                    headcount: 1
+                    movingDurationMinutes: null
+                    ownExpenseProgramId: null
+                    options: {  }
+                    note: ''
+            status: 3
+            fixedAt: '2021-02-15T00:00:00+09:00'
+            createdAt: '2019-05-15T00:00:00+09:00'
+            updatedAt: '2019-05-15T00:00:00+09:00'
+-
+    certification:
+        id: 1
+        userId: 1
+        effectivatedOn: '2022-02-01T00:00:00+09:00'
+        status: 2
+        dwsNumber: '1234567890'
+        dwsTypes:
+            - 1
+        issuedOn: '2022-01-01T00:00:00+09:00'
+        cityName: 米花市
+        cityCode: '141421'
+        dwsLevel: 25
+        isSubjectOfComprehensiveSupport: false
+        activatedOn: '2022-01-01T00:00:00+09:00'
+        deactivatedOn: '2022-12-31T00:00:00+09:00'
+        grants:
+            -
+                dwsCertificationServiceType: 1
+                grantedAmount: 支給量
+                activatedOn: '2022-01-01T00:00:00+09:00'
+                deactivatedOn: '2022-12-31T00:00:00+09:00'
+            -
+                dwsCertificationServiceType: 2
+                grantedAmount: 支給量
+                activatedOn: '2022-01-01T00:00:00+09:00'
+                deactivatedOn: '2022-12-31T00:00:00+09:00'
+            -
+                dwsCertificationServiceType: 3
+                grantedAmount: 支給量
+                activatedOn: '2022-01-01T00:00:00+09:00'
+                deactivatedOn: '2022-12-31T00:00:00+09:00'
+            -
+                dwsCertificationServiceType: 4
+                grantedAmount: 支給量
+                activatedOn: '2022-01-01T00:00:00+09:00'
+                deactivatedOn: '2022-12-31T00:00:00+09:00'
+            -
+                dwsCertificationServiceType: 8
+                grantedAmount: 支給量
+                activatedOn: '2022-01-01T00:00:00+09:00'
+                deactivatedOn: '2022-12-31T00:00:00+09:00'
+        child:
+            name:
+                displayName: ' '
+                phoneticDisplayName: ' '
+                familyName: ''
+                givenName: ''
+                phoneticFamilyName: ''
+                phoneticGivenName: ''
+            birthday: null
+        copayRate: 10
+        copayLimit: 37200
+        copayActivatedOn: '2022-01-01T00:00:00+09:00'
+        copayDeactivatedOn: '2022-12-31T00:00:00+09:00'
+        copayCoordination:
+            copayCoordinationType: 2
+            officeId: null
+        agreements:
+            -
+                indexNumber: 1
+                officeId: 604
+                dwsCertificationAgreementType: 21
+                paymentAmount: 44640
+                agreedOn: '2022-01-31T00:00:00+09:00'
+                expiredOn: '2022-12-31T00:00:00+09:00'
+        isEnabled: true
+        version: 1
+        createdAt: '2019-05-15T00:00:00+09:00'
+        updatedAt: '2019-05-15T00:00:00+09:00'
+    provisionReport:
+        id: 4
+        userId: 1
+        officeId: 604
+        contractId: 1
+        providedIn: '2021-01-01T00:00:00+09:00'
+        plans:
+            -
+                schedule:
+                    date: '2021-01-23T00:00:00+09:00'
+                    start: '2021-01-23T11:10:00+09:00'
+                    end: '2021-01-23T12:10:00+09:00'
+                category: 91
+                headcount: 1
+                movingDurationMinutes: null
+                ownExpenseProgramId: 1
+                options: {  }
+                note: ''
+        results: {  }
+        status: 3
+        fixedAt: '2021-02-15T00:00:00+09:00'
+        createdAt: '2019-05-15T00:00:00+09:00'
+        updatedAt: '2019-05-15T00:00:00+09:00'
+    previousProvisionReport:
+        -
+            id: 1
+            userId: 1
+            officeId: 604
+            contractId: 1
+            providedIn: '2020-12-01T00:00:00+09:00'
+            plans:
+                -
+                    schedule:
+                        date: '2021-01-23T00:00:00+09:00'
+                        start: '2021-01-23T11:10:00+09:00'
+                        end: '2021-01-23T12:10:00+09:00'
+                    category: 11
+                    headcount: 1
+                    movingDurationMinutes: null
+                    ownExpenseProgramId: null
+                    options: {  }
+                    note: ''
+            results:
+                -
+                    schedule:
+                        date: '2021-01-23T00:00:00+09:00'
+                        start: '2021-01-23T11:10:00+09:00'
+                        end: '2021-01-23T12:10:00+09:00'
+                    category: 11
+                    headcount: 1
+                    movingDurationMinutes: null
+                    ownExpenseProgramId: null
+                    options: {  }
+                    note: ''
+            status: 3
+            fixedAt: '2021-02-15T00:00:00+09:00'
+            createdAt: '2019-05-15T00:00:00+09:00'
+            updatedAt: '2019-05-15T00:00:00+09:00'

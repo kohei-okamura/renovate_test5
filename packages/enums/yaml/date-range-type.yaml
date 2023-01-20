@@ -1,0 +1,17 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 日付範囲区分
+name: DateRangeType
+php:
+  enabled: false
+typescript:
+  enabled: true
+items:
+  - { description: 先週, name: LastWeek, value: 1 }
+  - { description: 今週, name: ThisWeek, value: 2 }
+  - { description: 来週, name: NextWeek, value: 3 }
+  - { description: 先月, name: LastMonth, value: 4 }
+  - { description: 今月, name: ThisMonth, value: 5 }
+  - { description: 来月, name: NextMonth, value: 6 }
+  - { description: 範囲を指定, name: Specify, value: 7 }

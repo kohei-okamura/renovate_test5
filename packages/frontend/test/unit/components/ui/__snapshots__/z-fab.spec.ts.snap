@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-fab.vue should be rendered correctly 1`] = `
+<transition-stub
+  mode="out-in"
+  name="fab-transition"
+>
+  <button
+    class="z-fab v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--round theme--dark v-size--default accent"
+    type="button"
+  >
+    <span
+      class="v-btn__content"
+    >
+      <span
+        aria-hidden="true"
+        class="v-icon notranslate theme--dark"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon__svg"
+          role="img"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+          />
+        </svg>
+      </span>
+    </span>
+  </button>
+</transition-stub>
+`;

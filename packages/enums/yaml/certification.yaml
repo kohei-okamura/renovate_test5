@@ -1,0 +1,28 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 資格
+name: Certification
+php:
+  enabled: true
+  namespace: Staff
+typescript:
+  enabled: true
+items:
+  - { description: 喀痰吸引研修, name: SuctionTraining, value: 1 }
+  - { description: 重度訪問介護従業者, name: VisitingCareWorkerForPwsd, value: 2 }
+  - { description: 初任者研修, name: Novice, value: 3 }
+  - { description: 実務者研修, name: Practitioner, value: 4 }
+  - { description: 介護福祉士, name: CertifiedCareWorker, value: 5 }
+  - { description: ケアマネージャー, name: CareManager, value: 6 }
+  - { description: 准看護師, name: PracticalNurse, value: 7 }
+  - { description: 正看護師, name: RegisteredNurse, value: 8 }
+  - { description: 理学療法士, name: PhysicalTherapist, value: 9 }
+  - { description: 作業療法士, name: OccupationalTherapist, value: 10 }
+  - { description: 普通自動車免許, name: DriversLicense, value: 11 }
+  - { description: 社会福祉主事任用資格, name: SocialWorkOfficer, value: 12 }
+  - { description: 福祉用具専門相談員, name: WelfareEquipmentSpecialist, value: 13 }
+  - { description: 言語聴覚士, name: SpeechLanguageHearingTherapist, value: 14 }
+  - { description: あん摩マッサージ指圧師, name: Masseur, value: 15 }
+  - { description: はり師, name: Acupuncturist, value: 16 }
+  - { description: きゅう師, name: Moxibutionist, value: 17 }

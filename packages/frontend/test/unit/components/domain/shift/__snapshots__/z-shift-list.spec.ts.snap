@@ -1,0 +1,597 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-shift-list.vue should be rendered correctly 1`] = `
+<div
+  class=""
+  data-z-shift-list=""
+>
+  <z-flex-stub
+    class="align-baseline item"
+  >
+    <div
+      class="element schedule"
+    >
+      <time
+        datetime="10:00"
+      >
+        10:00
+      </time>
+      <span>
+        -
+      </span>
+      <time
+        datetime="15:30"
+      >
+        15:30
+      </time>
+    </div>
+    <div
+      class="element task"
+    >
+      <div
+        class="z-task-marker z-task-marker--visit"
+      >
+        実地研修
+      </div>
+    </div>
+    <div
+      class="element user"
+    >
+      <span>
+        新井 恵梨香
+      </span>
+    </div>
+    <div
+      class="element note"
+    >
+      タマネギマシマシで。
+    </div>
+  </z-flex-stub>
+  <z-flex-stub
+    class="align-baseline item"
+  >
+    <div
+      class="element schedule"
+    >
+      <time
+        datetime="09:30"
+      >
+        09:30
+      </time>
+      <span>
+        -
+      </span>
+      <time
+        datetime="15:30"
+      >
+        15:30
+      </time>
+    </div>
+    <div
+      class="element task"
+    >
+      <div
+        class="z-task-marker z-task-marker--other"
+      >
+        ミーティング
+      </div>
+    </div>
+    <div
+      class="element user"
+    >
+      <span>
+        -
+      </span>
+    </div>
+    <div
+      class="element note"
+    >
+      中太麺マシマシで。
+    </div>
+  </z-flex-stub>
+  <z-flex-stub
+    class="align-baseline item"
+  >
+    <div
+      class="element schedule"
+    >
+      <time
+        datetime="09:30"
+      >
+        09:30
+      </time>
+      <span>
+        -
+      </span>
+      <time
+        datetime="13:00"
+      >
+        13:00
+      </time>
+    </div>
+    <div
+      class="element task"
+    >
+      <div
+        class="z-task-marker z-task-marker--comm"
+      >
+        移動支援
+      </div>
+    </div>
+    <div
+      class="element user"
+    >
+      <span>
+        新井 恵梨香
+      </span>
+    </div>
+    <div
+      class="element note"
+    >
+      雲呑も好きだ。
+    </div>
+  </z-flex-stub>
+  <z-flex-stub
+    class="align-baseline item"
+  >
+    <div
+      class="element schedule"
+    >
+      <time
+        datetime="10:30"
+      >
+        10:30
+      </time>
+      <span>
+        -
+      </span>
+      <time
+        datetime="14:30"
+      >
+        14:30
+      </time>
+    </div>
+    <div
+      class="element task"
+    >
+      <div
+        class="z-task-marker z-task-marker--own"
+      >
+        自費
+      </div>
+    </div>
+    <div
+      class="element user"
+    >
+      <span>
+        新井 恵梨香
+      </span>
+    </div>
+    <div
+      class="element note"
+    >
+      海苔も好きだ。
+    </div>
+  </z-flex-stub>
+  <z-flex-stub
+    class="align-baseline item"
+  >
+    <div
+      class="element schedule"
+    >
+      <time
+        datetime="10:00"
+      >
+        10:00
+      </time>
+      <span>
+        -
+      </span>
+      <time
+        datetime="14:00"
+      >
+        14:00
+      </time>
+    </div>
+    <div
+      class="element task"
+    >
+      <div
+        class="z-task-marker z-task-marker--dws"
+      >
+        居宅：家事
+      </div>
+    </div>
+    <div
+      class="element user"
+    >
+      <span>
+        新井 恵梨香
+      </span>
+    </div>
+    <div
+      class="element note"
+    >
+      油そばを注文する。
+    </div>
+  </z-flex-stub>
+  <z-flex-stub
+    class="align-baseline item"
+  >
+    <div
+      class="element schedule"
+    >
+      <time
+        datetime="07:30"
+      >
+        07:30
+      </time>
+      <span>
+        -
+      </span>
+      <time
+        datetime="13:30"
+      >
+        13:30
+      </time>
+    </div>
+    <div
+      class="element task"
+    >
+      <div
+        class="z-task-marker z-task-marker--comp"
+      >
+        総合事業
+      </div>
+    </div>
+    <div
+      class="element user"
+    >
+      <span>
+        新井 恵梨香
+      </span>
+    </div>
+    <div
+      class="element note"
+    >
+      メンマが食べたい。
+    </div>
+  </z-flex-stub>
+  <z-flex-stub
+    class="align-baseline item"
+  >
+    <div
+      class="element schedule"
+    >
+      <time
+        datetime="09:00"
+      >
+        09:00
+      </time>
+      <span>
+        -
+      </span>
+      <time
+        datetime="14:00"
+      >
+        14:00
+      </time>
+    </div>
+    <div
+      class="element task"
+    >
+      <div
+        class="z-task-marker z-task-marker--dws"
+      >
+        居宅：通院・身体
+      </div>
+    </div>
+    <div
+      class="element user"
+    >
+      <span>
+        新井 恵梨香
+      </span>
+    </div>
+    <div
+      class="element note"
+    >
+      ワンタンメンマシマシで。
+    </div>
+  </z-flex-stub>
+  <z-flex-stub
+    class="align-baseline item"
+  >
+    <div
+      class="element schedule"
+    >
+      <time
+        datetime="06:30"
+      >
+        06:30
+      </time>
+      <span>
+        -
+      </span>
+      <time
+        datetime="11:30"
+      >
+        11:30
+      </time>
+    </div>
+    <div
+      class="element task"
+    >
+      <div
+        class="z-task-marker z-task-marker--dws"
+      >
+        居宅：通院
+      </div>
+    </div>
+    <div
+      class="element user"
+    >
+      <span>
+        新井 恵梨香
+      </span>
+    </div>
+    <div
+      class="element note"
+    >
+      焼きラーメンを注文する。
+    </div>
+  </z-flex-stub>
+  <z-flex-stub
+    class="align-baseline item"
+  >
+    <div
+      class="element schedule"
+    >
+      <time
+        datetime="09:00"
+      >
+        09:00
+      </time>
+      <span>
+        -
+      </span>
+      <time
+        datetime="13:30"
+      >
+        13:30
+      </time>
+    </div>
+    <div
+      class="element task"
+    >
+      <div
+        class="z-task-marker z-task-marker--dws"
+      >
+        居宅：家事
+      </div>
+    </div>
+    <div
+      class="element user"
+    >
+      <span>
+        新井 恵梨香
+      </span>
+    </div>
+    <div
+      class="element note"
+    >
+      油そばだった。
+    </div>
+  </z-flex-stub>
+  <z-flex-stub
+    class="align-baseline item"
+  >
+    <div
+      class="element schedule"
+    >
+      <time
+        datetime="10:00"
+      >
+        10:00
+      </time>
+      <span>
+        -
+      </span>
+      <time
+        datetime="13:00"
+      >
+        13:00
+      </time>
+    </div>
+    <div
+      class="element task"
+    >
+      <div
+        class="z-task-marker z-task-marker--dws"
+      >
+        居宅：通院・身体
+      </div>
+    </div>
+    <div
+      class="element user"
+    >
+      <span>
+        新井 恵梨香
+      </span>
+    </div>
+    <div
+      class="element note"
+    >
+      ワンタンメンだった。
+    </div>
+  </z-flex-stub>
+  <z-flex-stub
+    class="align-baseline item"
+  >
+    <div
+      class="element schedule"
+    >
+      <time
+        datetime="12:00"
+      >
+        12:00
+      </time>
+      <span>
+        -
+      </span>
+      <time
+        datetime="14:00"
+      >
+        14:00
+      </time>
+    </div>
+    <div
+      class="element task"
+    >
+      <div
+        class="z-task-marker z-task-marker--visit"
+      >
+        アセスメント
+      </div>
+    </div>
+    <div
+      class="element user"
+    >
+      <span>
+        新井 恵梨香
+      </span>
+    </div>
+    <div
+      class="element note"
+    >
+      もやしが好きだ。
+    </div>
+  </z-flex-stub>
+  <z-flex-stub
+    class="align-baseline item"
+  >
+    <div
+      class="element schedule"
+    >
+      <time
+        datetime="08:00"
+      >
+        08:00
+      </time>
+      <span>
+        -
+      </span>
+      <time
+        datetime="12:30"
+      >
+        12:30
+      </time>
+    </div>
+    <div
+      class="element task"
+    >
+      <div
+        class="z-task-marker z-task-marker--dws"
+      >
+        居宅：通院・身体
+      </div>
+    </div>
+    <div
+      class="element user"
+    >
+      <span>
+        新井 恵梨香
+      </span>
+    </div>
+    <div
+      class="element note"
+    >
+      ワンタンメンだった。
+    </div>
+  </z-flex-stub>
+  <z-flex-stub
+    class="align-baseline item"
+  >
+    <div
+      class="element schedule"
+    >
+      <time
+        datetime="08:30"
+      >
+        08:30
+      </time>
+      <span>
+        -
+      </span>
+      <time
+        datetime="12:30"
+      >
+        12:30
+      </time>
+    </div>
+    <div
+      class="element task"
+    >
+      <div
+        class="z-task-marker z-task-marker--other"
+      >
+        営業
+      </div>
+    </div>
+    <div
+      class="element user"
+    >
+      <span>
+        -
+      </span>
+    </div>
+    <div
+      class="element note"
+    >
+      あっさりにしよう。
+    </div>
+  </z-flex-stub>
+  <z-flex-stub
+    class="align-baseline item"
+  >
+    <div
+      class="element schedule"
+    >
+      <time
+        datetime="10:30"
+      >
+        10:30
+      </time>
+      <span>
+        -
+      </span>
+      <time
+        datetime="15:00"
+      >
+        15:00
+      </time>
+    </div>
+    <div
+      class="element task"
+    >
+      <div
+        class="z-task-marker z-task-marker--comp"
+      >
+        総合事業
+      </div>
+    </div>
+    <div
+      class="element user"
+    >
+      <span>
+        新井 恵梨香
+      </span>
+    </div>
+    <div
+      class="element note"
+    >
+      味玉を注文する。
+    </div>
+  </z-flex-stub>
+</div>
+`;

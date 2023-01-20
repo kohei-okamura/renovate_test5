@@ -1,0 +1,14 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 利用者：自治体助成情報：基準値種別
+name: UserDwsSubsidyFactor
+php:
+  enabled: true
+  namespace: User
+typescript:
+  enabled: true
+items:
+  - { description: 未設定, name: None, value: 0 }
+  - { description: 総費用額, name: Fee, value: 1 }
+  - { description: 決定利用者負担額, name: Copay, value: 2 }

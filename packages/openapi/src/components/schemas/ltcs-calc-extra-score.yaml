@@ -1,0 +1,26 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 介護保険サービス：きざみ単位数
+type: object
+properties:
+  isAvailable:
+    description: きざみ有無
+    type: boolean
+  baseMinutes:
+    description: きざみ基準時間数
+    type: number
+  unitScore:
+    description: きざみ単位数
+    type: number
+  unitMinutes:
+    description: きざみ時間量
+    type: number
+  specifiedOfficeAdditionCoefficient:
+    description: 特定事業所加算係数
+    type: number
+  timeframeAdditionCoefficient:
+    description: 時間帯係数
+    type: number

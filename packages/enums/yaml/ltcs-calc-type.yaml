@@ -1,0 +1,15 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 介護保険サービス：単位数区分
+name: LtcsCalcType
+php:
+  enabled: true
+  namespace: ServiceCodeDictionary
+typescript:
+  enabled: true
+items:
+  - { description: 単位数, name: Score, value: 11 }
+  - { description: きざみ基準単位数, name: BaseScore, value: 12 }
+  - { description: '%値', name: Percent, value: 21 }
+  - { description: 1/1000値, name: Permille, value: 22 }

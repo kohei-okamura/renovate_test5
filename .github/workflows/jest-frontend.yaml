@@ -1,0 +1,75 @@
+name: "Jest for @zinger/frontend"
+
+on:
+  pull_request:
+    branches:
+      - staging
+      - prod
+    paths:
+      - '.github/workflows/jest-frontend.yaml'
+      - 'packages/enums/lib/*.ts'
+      - 'packages/frontend/**/*.js'
+      - 'packages/frontend/**/*.ts'
+      - 'packages/frontend/**/*.vue'
+      - 'packages/helpers/lib/*.ts'
+      - 'tsconfig.json'
+      - 'tsconfig-test.json'
+      - 'yarn.lock'
+  workflow_dispatch:
+
+env:
+  CHUNK_COUNT: 2
+
+concurrency:
+  group: jest-for-zinger-frontend-${{ github.head_ref || github.run_id }}-${{ github.base_ref || github.run_id }}
+  cancel-in-progress: true
+
+jobs:
+  setup:
+    runs-on: ubuntu-20.04
+    outputs:
+      chunks: ${{ steps['set-chunks'].outputs['chunks'] }}
+      chunk-ids: ${{ steps['set-chunk-ids'].outputs['chunk-ids'] }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup
+        uses: ./.github/actions/setup-node-js
+      - name: Set Chunks
+        id: set-chunks
+        run: |
+          CHUNKS=$(yarn run -s test:unit:frontend:list | jq -c "[_nwise(length / $CHUNK_COUNT | ceil)]")
+          echo "chunks=$CHUNKS" >> $GITHUB_OUTPUT
+      - name: Set Chunk IDs
+        id: set-chunk-ids
+        run: |
+          CHUNK_IDS=$(echo $CHUNKS | jq -cM 'to_entries | map(.key)')
+          echo "chunk-ids=$CHUNK_IDS" >> $GITHUB_OUTPUT
+        env:
+          CHUNKS: ${{ steps['set-chunks'].outputs['chunks'] }}
+  jest:
+    runs-on: ubuntu-20.04
+    needs:
+      - setup
+    strategy:
+      fail-fast: false
+      matrix:
+        chunk: ${{ fromJson(needs.setup.outputs['chunk-ids']) }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup
+        uses: ./.github/actions/setup-node-js
+      - name: Run jest
+        run: echo $CHUNKS | jq '.[0] | .[]' | xargs yarn test:ci:frontend
+        env:
+          CHUNKS: ${{ needs.setup.outputs['chunks'] }}
+          NODE_OPTIONS: --max_old_space_size=4096
+          TZ: Asia/Tokyo
+      - name: Slack Notification on Failure
+        if: ${{ failure() }}
+        uses: ./.github/actions/notify-to-slack
+        with:
+          color: danger
+          text: フロントエンドのテストでエラーが検出されました。
+          url: ${{ secrets.SLACK_WEBHOOK }}

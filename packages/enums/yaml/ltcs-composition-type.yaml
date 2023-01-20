@@ -1,0 +1,14 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 介護保険サービス：合成識別区分
+name: LtcsCompositionType
+php:
+  enabled: true
+  namespace: ServiceCodeDictionary
+typescript:
+  enabled: true
+items:
+  - { description: 基本サービスコード, name: Basic, value: 1 }
+  - { description: 合成サービスコード, name: Composed, value: 2 }
+  - { description: 単独加減算サービスコード, name: Independent, value: 3 }

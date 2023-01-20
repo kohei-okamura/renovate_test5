@@ -1,0 +1,15 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 契約：状態
+name: ContractStatus
+php:
+  enabled: true
+  namespace: Contract
+typescript:
+  enabled: true
+items:
+  - { description: 仮契約, name: Provisional, value: 1 }
+  - { description: 本契約, name: Formal, value: 2 }
+  - { description: 契約終了, name: Terminated, value: 3 }
+  - { description: 無効, name: Disabled, value: 9 }

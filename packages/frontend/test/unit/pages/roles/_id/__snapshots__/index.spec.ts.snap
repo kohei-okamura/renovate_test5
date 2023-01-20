@@ -1,0 +1,540 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/roles/_id/index.vue FAB (speed dial) should be rendered when session auth is system admin 1`] = `
+<z-fab-speed-dial-stub
+  data-fab=""
+  icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+>
+  <z-fab-speed-dial-button-stub
+    color="secondary"
+    icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+    to="/roles/1/edit"
+  >
+      ロールを編集
+  </z-fab-speed-dial-button-stub>
+  <z-fab-speed-dial-button-stub
+    color="secondary"
+    icon="M6,19A2,2 0 0,0 8,21H16A2,2 0 0,0 18,19V7H6V19M8,9H16V19H8V9M15.5,4L14.5,3H9.5L8.5,4H5V6H19V4H15.5Z"
+  >
+      ロールを削除
+  </z-fab-speed-dial-button-stub>
+</z-fab-speed-dial-stub>
+`;
+
+exports[`pages/roles/_id/index.vue FAB (speed dial) should be rendered when the staff has permissions: [ 'roles/delete' ] 1`] = `
+<z-fab-speed-dial-stub
+  data-fab=""
+  icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+>
+  <!---->
+  <z-fab-speed-dial-button-stub
+    color="secondary"
+    icon="M6,19A2,2 0 0,0 8,21H16A2,2 0 0,0 18,19V7H6V19M8,9H16V19H8V9M15.5,4L14.5,3H9.5L8.5,4H5V6H19V4H15.5Z"
+  >
+      ロールを削除
+  </z-fab-speed-dial-button-stub>
+</z-fab-speed-dial-stub>
+`;
+
+exports[`pages/roles/_id/index.vue FAB (speed dial) should be rendered when the staff has permissions: [ 'roles/update' ] 1`] = `
+<z-fab-speed-dial-stub
+  data-fab=""
+  icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+>
+  <z-fab-speed-dial-button-stub
+    color="secondary"
+    icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+    to="/roles/1/edit"
+  >
+      ロールを編集
+  </z-fab-speed-dial-button-stub>
+  <!---->
+</z-fab-speed-dial-stub>
+`;
+
+exports[`pages/roles/_id/index.vue FAB (speed dial) should be rendered when the staff has permissions: [ 'roles/update', 'roles/delete' ] 1`] = `
+<z-fab-speed-dial-stub
+  data-fab=""
+  icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+>
+  <z-fab-speed-dial-button-stub
+    color="secondary"
+    icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+    to="/roles/1/edit"
+  >
+      ロールを編集
+  </z-fab-speed-dial-button-stub>
+  <z-fab-speed-dial-button-stub
+    color="secondary"
+    icon="M6,19A2,2 0 0,0 8,21H16A2,2 0 0,0 18,19V7H6V19M8,9H16V19H8V9M15.5,4L14.5,3H9.5L8.5,4H5V6H19V4H15.5Z"
+  >
+      ロールを削除
+  </z-fab-speed-dial-button-stub>
+</z-fab-speed-dial-stub>
+`;
+
+exports[`pages/roles/_id/index.vue should be rendered correctly 1`] = `
+<div
+  breadcrumbs="[object Object],[object Object]"
+  class="z-page-stub"
+  compact="compact"
+  title="システム管理者"
+>
+  <div
+    class="z-page-stub-slot-tabs"
+  />
+  <div
+    class="z-page-stub-slot-title"
+  />
+  <div
+    class="z-data-card-stub"
+    title="基本情報"
+  >
+    <div
+      class="z-data-card-stub-slot-actions"
+    />
+    <z-data-card-item-stub
+      icon="M10 4A4 4 0 0 0 6 8A4 4 0 0 0 10 12A4 4 0 0 0 14 8A4 4 0 0 0 10 4M10 6A2 2 0 0 1 12 8A2 2 0 0 1 10 10A2 2 0 0 1 8 8A2 2 0 0 1 10 6M17 12C16.84 12 16.76 12.08 16.76 12.24L16.5 13.5C16.28 13.68 15.96 13.84 15.72 14L14.44 13.5C14.36 13.5 14.2 13.5 14.12 13.6L13.16 15.36C13.08 15.44 13.08 15.6 13.24 15.68L14.28 16.5V17.5L13.24 18.32C13.16 18.4 13.08 18.56 13.16 18.64L14.12 20.4C14.2 20.5 14.36 20.5 14.44 20.5L15.72 20C15.96 20.16 16.28 20.32 16.5 20.5L16.76 21.76C16.76 21.92 16.84 22 17 22H19C19.08 22 19.24 21.92 19.24 21.76L19.4 20.5C19.72 20.32 20.04 20.16 20.28 20L21.5 20.5C21.64 20.5 21.8 20.5 21.8 20.4L22.84 18.64C22.92 18.56 22.84 18.4 22.76 18.32L21.72 17.5V16.5L22.76 15.68C22.84 15.6 22.92 15.44 22.84 15.36L21.8 13.6C21.8 13.5 21.64 13.5 21.5 13.5L20.28 14C20.04 13.84 19.72 13.68 19.4 13.5L19.24 12.24C19.24 12.08 19.08 12 19 12H17M10 13C7.33 13 2 14.33 2 17V20H11.67C11.39 19.41 11.19 18.77 11.09 18.1H3.9V17C3.9 16.36 7.03 14.9 10 14.9C10.43 14.9 10.87 14.94 11.3 15C11.5 14.36 11.77 13.76 12.12 13.21C11.34 13.08 10.6 13 10 13M18.04 15.5C18.84 15.5 19.5 16.16 19.5 17.04C19.5 17.84 18.84 18.5 18.04 18.5C17.16 18.5 16.5 17.84 16.5 17.04C16.5 16.16 17.16 15.5 18.04 15.5Z"
+      label="ロール名"
+      value="システム管理者"
+    />
+    <z-data-card-item-stub
+      icon="M22.08,11.04H20.08V4H13.05V2H11.04V4H4V11.04H2V13.05H4V20.08H11.04V22.08H13.05V20.08H20.08V13.05H22.08V11.04M18.07,18.07H13.05V16.06H11.04V18.07H6V13.05H8.03V11.04H6V6H11.04V8.03H13.05V6H18.07V11.04H16.06V13.05H18.07V18.07M13.05,12.05A1,1 0 0,1 12.05,13.05C11.5,13.05 11.04,12.6 11.04,12.05C11.04,11.5 11.5,11.04 12.05,11.04C12.6,11.04 13.05,11.5 13.05,12.05Z"
+      label="権限範囲"
+      value="個人"
+    />
+    <z-data-card-item-stub
+      icon="M21,11C21,16.55 17.16,21.74 12,23C6.84,21.74 3,16.55 3,11V5L12,1L21,5V11M12,21C15.75,20 19,15.54 19,11.22V6.3L12,3.18L5,6.3V11.22C5,15.54 8.25,20 12,21M12,6A3,3 0 0,1 15,9C15,10.31 14.17,11.42 13,11.83V14H15V16H13V18H11V11.83C9.83,11.42 9,10.31 9,9A3,3 0 0,1 12,6M12,8A1,1 0 0,0 11,9A1,1 0 0,0 12,10A1,1 0 0,0 13,9A1,1 0 0,0 12,8Z"
+      label="システム管理権限"
+      value="有効"
+    />
+    <!---->
+    <div
+      class="z-data-card-stub-slot-header"
+    />
+  </div>
+  <z-fab-speed-dial-stub
+    data-fab=""
+    icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+  >
+    <z-fab-speed-dial-button-stub
+      color="secondary"
+      icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+      to="/roles/1/edit"
+    >
+      ロールを編集
+    </z-fab-speed-dial-button-stub>
+    <z-fab-speed-dial-button-stub
+      color="secondary"
+      icon="M6,19A2,2 0 0,0 8,21H16A2,2 0 0,0 18,19V7H6V19M8,9H16V19H8V9M15.5,4L14.5,3H9.5L8.5,4H5V6H19V4H15.5Z"
+    >
+      ロールを削除
+    </z-fab-speed-dial-button-stub>
+  </z-fab-speed-dial-stub>
+</div>
+`;
+
+exports[`pages/roles/_id/index.vue should be rendered correctly 2`] = `
+<div
+  breadcrumbs="[object Object],[object Object]"
+  class="z-page-stub"
+  compact="compact"
+  title="テスト担当者"
+>
+  <div
+    class="z-page-stub-slot-tabs"
+  />
+  <div
+    class="z-page-stub-slot-title"
+  />
+  <div
+    class="z-data-card-stub"
+    title="基本情報"
+  >
+    <div
+      class="z-data-card-stub-slot-actions"
+    />
+    <z-data-card-item-stub
+      icon="M10 4A4 4 0 0 0 6 8A4 4 0 0 0 10 12A4 4 0 0 0 14 8A4 4 0 0 0 10 4M10 6A2 2 0 0 1 12 8A2 2 0 0 1 10 10A2 2 0 0 1 8 8A2 2 0 0 1 10 6M17 12C16.84 12 16.76 12.08 16.76 12.24L16.5 13.5C16.28 13.68 15.96 13.84 15.72 14L14.44 13.5C14.36 13.5 14.2 13.5 14.12 13.6L13.16 15.36C13.08 15.44 13.08 15.6 13.24 15.68L14.28 16.5V17.5L13.24 18.32C13.16 18.4 13.08 18.56 13.16 18.64L14.12 20.4C14.2 20.5 14.36 20.5 14.44 20.5L15.72 20C15.96 20.16 16.28 20.32 16.5 20.5L16.76 21.76C16.76 21.92 16.84 22 17 22H19C19.08 22 19.24 21.92 19.24 21.76L19.4 20.5C19.72 20.32 20.04 20.16 20.28 20L21.5 20.5C21.64 20.5 21.8 20.5 21.8 20.4L22.84 18.64C22.92 18.56 22.84 18.4 22.76 18.32L21.72 17.5V16.5L22.76 15.68C22.84 15.6 22.92 15.44 22.84 15.36L21.8 13.6C21.8 13.5 21.64 13.5 21.5 13.5L20.28 14C20.04 13.84 19.72 13.68 19.4 13.5L19.24 12.24C19.24 12.08 19.08 12 19 12H17M10 13C7.33 13 2 14.33 2 17V20H11.67C11.39 19.41 11.19 18.77 11.09 18.1H3.9V17C3.9 16.36 7.03 14.9 10 14.9C10.43 14.9 10.87 14.94 11.3 15C11.5 14.36 11.77 13.76 12.12 13.21C11.34 13.08 10.6 13 10 13M18.04 15.5C18.84 15.5 19.5 16.16 19.5 17.04C19.5 17.84 18.84 18.5 18.04 18.5C17.16 18.5 16.5 17.84 16.5 17.04C16.5 16.16 17.16 15.5 18.04 15.5Z"
+      label="ロール名"
+      value="テスト担当者"
+    />
+    <z-data-card-item-stub
+      icon="M22.08,11.04H20.08V4H13.05V2H11.04V4H4V11.04H2V13.05H4V20.08H11.04V22.08H13.05V20.08H20.08V13.05H22.08V11.04M18.07,18.07H13.05V16.06H11.04V18.07H6V13.05H8.03V11.04H6V6H11.04V8.03H13.05V6H18.07V11.04H16.06V13.05H18.07V18.07M13.05,12.05A1,1 0 0,1 12.05,13.05C11.5,13.05 11.04,12.6 11.04,12.05C11.04,11.5 11.5,11.04 12.05,11.04C12.6,11.04 13.05,11.5 13.05,12.05Z"
+      label="権限範囲"
+      value="事業所"
+    />
+    <z-data-card-item-stub
+      icon="M21,11C21,16.55 17.16,21.74 12,23C6.84,21.74 3,16.55 3,11V5L12,1L21,5V11M12,21C15.75,20 19,15.54 19,11.22V6.3L12,3.18L5,6.3V11.22C5,15.54 8.25,20 12,21M12,6A3,3 0 0,1 15,9C15,10.31 14.17,11.42 13,11.83V14H15V16H13V18H11V11.83C9.83,11.42 9,10.31 9,9A3,3 0 0,1 12,6M12,8A1,1 0 0,0 11,9A1,1 0 0,0 12,10A1,1 0 0,0 13,9A1,1 0 0,0 12,8Z"
+      label="システム管理権限"
+      value="無効"
+    />
+    <v-divider-stub />
+    <v-subheader-stub>
+      詳細権限
+    </v-subheader-stub>
+    <z-data-card-item-stub>
+      <v-chip-stub
+        active="true"
+        activeclass=""
+        closeicon="$delete"
+        closelabel="$vuetify.close"
+        color="secondary"
+        filtericon="$complete"
+        label="true"
+        small="true"
+        tag="span"
+      >
+          一覧参照（自社）
+      </v-chip-stub>
+      <v-chip-stub
+        active="true"
+        activeclass=""
+        closeicon="$delete"
+        closelabel="$vuetify.close"
+        color="secondary"
+        filtericon="$complete"
+        label="true"
+        small="true"
+        tag="span"
+      >
+          詳細参照（自社）
+      </v-chip-stub>
+      <v-chip-stub
+        active="true"
+        activeclass=""
+        closeicon="$delete"
+        closelabel="$vuetify.close"
+        color="secondary"
+        filtericon="$complete"
+        label="true"
+        small="true"
+        tag="span"
+      >
+          登録（自社）
+      </v-chip-stub>
+      <v-chip-stub
+        active="true"
+        activeclass=""
+        closeicon="$delete"
+        closelabel="$vuetify.close"
+        color="secondary"
+        filtericon="$complete"
+        label="true"
+        small="true"
+        tag="span"
+      >
+          編集（自社）
+      </v-chip-stub>
+      <v-chip-stub
+        active="true"
+        activeclass=""
+        closeicon="$delete"
+        closelabel="$vuetify.close"
+        color="secondary"
+        filtericon="$complete"
+        label="true"
+        small="true"
+        tag="span"
+      >
+          削除（自社）
+      </v-chip-stub>
+    </z-data-card-item-stub>
+    <z-data-card-item-stub>
+      <v-chip-stub
+        active="true"
+        activeclass=""
+        closeicon="$delete"
+        closelabel="$vuetify.close"
+        color="secondary"
+        disabled="true"
+        filtericon="$complete"
+        label="true"
+        small="true"
+        tag="span"
+      >
+          一覧参照
+      </v-chip-stub>
+      <v-chip-stub
+        active="true"
+        activeclass=""
+        closeicon="$delete"
+        closelabel="$vuetify.close"
+        color="secondary"
+        disabled="true"
+        filtericon="$complete"
+        label="true"
+        small="true"
+        tag="span"
+      >
+          登録
+      </v-chip-stub>
+      <v-chip-stub
+        active="true"
+        activeclass=""
+        closeicon="$delete"
+        closelabel="$vuetify.close"
+        color="secondary"
+        disabled="true"
+        filtericon="$complete"
+        label="true"
+        small="true"
+        tag="span"
+      >
+          編集
+      </v-chip-stub>
+      <v-chip-stub
+        active="true"
+        activeclass=""
+        closeicon="$delete"
+        closelabel="$vuetify.close"
+        color="secondary"
+        disabled="true"
+        filtericon="$complete"
+        label="true"
+        small="true"
+        tag="span"
+      >
+          削除
+      </v-chip-stub>
+    </z-data-card-item-stub>
+    <z-data-card-item-stub>
+      <v-chip-stub
+        active="true"
+        activeclass=""
+        closeicon="$delete"
+        closelabel="$vuetify.close"
+        color="secondary"
+        disabled="true"
+        filtericon="$complete"
+        label="true"
+        small="true"
+        tag="span"
+      >
+          一覧参照
+      </v-chip-stub>
+      <v-chip-stub
+        active="true"
+        activeclass=""
+        closeicon="$delete"
+        closelabel="$vuetify.close"
+        color="secondary"
+        disabled="true"
+        filtericon="$complete"
+        label="true"
+        small="true"
+        tag="span"
+      >
+          詳細参照
+      </v-chip-stub>
+      <v-chip-stub
+        active="true"
+        activeclass=""
+        closeicon="$delete"
+        closelabel="$vuetify.close"
+        color="secondary"
+        disabled="true"
+        filtericon="$complete"
+        label="true"
+        small="true"
+        tag="span"
+      >
+          登録
+      </v-chip-stub>
+      <v-chip-stub
+        active="true"
+        activeclass=""
+        closeicon="$delete"
+        closelabel="$vuetify.close"
+        color="secondary"
+        disabled="true"
+        filtericon="$complete"
+        label="true"
+        small="true"
+        tag="span"
+      >
+          編集
+      </v-chip-stub>
+      <v-chip-stub
+        active="true"
+        activeclass=""
+        closeicon="$delete"
+        closelabel="$vuetify.close"
+        color="secondary"
+        disabled="true"
+        filtericon="$complete"
+        label="true"
+        small="true"
+        tag="span"
+      >
+          削除
+      </v-chip-stub>
+    </z-data-card-item-stub>
+    <z-data-card-item-stub>
+      <v-chip-stub
+        active="true"
+        activeclass=""
+        closeicon="$delete"
+        closelabel="$vuetify.close"
+        color="secondary"
+        disabled="true"
+        filtericon="$complete"
+        label="true"
+        small="true"
+        tag="span"
+      >
+          一覧参照
+      </v-chip-stub>
+      <v-chip-stub
+        active="true"
+        activeclass=""
+        closeicon="$delete"
+        closelabel="$vuetify.close"
+        color="secondary"
+        disabled="true"
+        filtericon="$complete"
+        label="true"
+        small="true"
+        tag="span"
+      >
+          詳細参照
+      </v-chip-stub>
+      <v-chip-stub
+        active="true"
+        activeclass=""
+        closeicon="$delete"
+        closelabel="$vuetify.close"
+        color="secondary"
+        disabled="true"
+        filtericon="$complete"
+        label="true"
+        small="true"
+        tag="span"
+      >
+          登録
+      </v-chip-stub>
+      <v-chip-stub
+        active="true"
+        activeclass=""
+        closeicon="$delete"
+        closelabel="$vuetify.close"
+        color="secondary"
+        disabled="true"
+        filtericon="$complete"
+        label="true"
+        small="true"
+        tag="span"
+      >
+          編集
+      </v-chip-stub>
+      <v-chip-stub
+        active="true"
+        activeclass=""
+        closeicon="$delete"
+        closelabel="$vuetify.close"
+        color="secondary"
+        disabled="true"
+        filtericon="$complete"
+        label="true"
+        small="true"
+        tag="span"
+      >
+          削除
+      </v-chip-stub>
+    </z-data-card-item-stub>
+    <z-data-card-item-stub>
+      <v-chip-stub
+        active="true"
+        activeclass=""
+        closeicon="$delete"
+        closelabel="$vuetify.close"
+        color="secondary"
+        disabled="true"
+        filtericon="$complete"
+        label="true"
+        small="true"
+        tag="span"
+      >
+          一覧参照
+      </v-chip-stub>
+      <v-chip-stub
+        active="true"
+        activeclass=""
+        closeicon="$delete"
+        closelabel="$vuetify.close"
+        color="secondary"
+        disabled="true"
+        filtericon="$complete"
+        label="true"
+        small="true"
+        tag="span"
+      >
+          詳細参照
+      </v-chip-stub>
+      <v-chip-stub
+        active="true"
+        activeclass=""
+        closeicon="$delete"
+        closelabel="$vuetify.close"
+        color="secondary"
+        disabled="true"
+        filtericon="$complete"
+        label="true"
+        small="true"
+        tag="span"
+      >
+          登録
+      </v-chip-stub>
+      <v-chip-stub
+        active="true"
+        activeclass=""
+        closeicon="$delete"
+        closelabel="$vuetify.close"
+        color="secondary"
+        disabled="true"
+        filtericon="$complete"
+        label="true"
+        small="true"
+        tag="span"
+      >
+          編集
+      </v-chip-stub>
+      <v-chip-stub
+        active="true"
+        activeclass=""
+        closeicon="$delete"
+        closelabel="$vuetify.close"
+        color="secondary"
+        disabled="true"
+        filtericon="$complete"
+        label="true"
+        small="true"
+        tag="span"
+      >
+          削除
+      </v-chip-stub>
+    </z-data-card-item-stub>
+    <div
+      class="z-data-card-stub-slot-header"
+    />
+  </div>
+  <z-fab-speed-dial-stub
+    data-fab=""
+    icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+  >
+    <z-fab-speed-dial-button-stub
+      color="secondary"
+      icon="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+      to="/roles/2/edit"
+    >
+      ロールを編集
+    </z-fab-speed-dial-button-stub>
+    <z-fab-speed-dial-button-stub
+      color="secondary"
+      icon="M6,19A2,2 0 0,0 8,21H16A2,2 0 0,0 18,19V7H6V19M8,9H16V19H8V9M15.5,4L14.5,3H9.5L8.5,4H5V6H19V4H15.5Z"
+    >
+      ロールを削除
+    </z-fab-speed-dial-button-stub>
+  </z-fab-speed-dial-stub>
+</div>
+`;

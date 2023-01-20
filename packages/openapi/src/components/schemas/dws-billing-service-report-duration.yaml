@@ -1,0 +1,16 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: サービス提供実績記録票：明細：算定時間
+type: object
+properties:
+  period:
+    $ref: '#/components/schemas/DateRange'
+  serviceDurationHours:
+    description: 算定時間数
+    type: object
+  movingDurationHours:
+    description: 移動時間数
+    type: object

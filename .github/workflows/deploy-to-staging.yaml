@@ -1,0 +1,23 @@
+name: Deploy to Staging
+
+on:
+  push:
+    branches:
+      - staging
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+  packages: write
+
+jobs:
+  deploy:
+    uses: eustylelab/zinger/.github/workflows/deploy.yaml@staging
+    with:
+      aws-profile: zinger-staging
+      stage: staging
+      stage-name: ステージング環境
+    secrets:
+      aws-role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME_STAGING }}
+      slack-webhook: ${{ secrets.SLACK_WEBHOOK }}

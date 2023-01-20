@@ -1,0 +1,68 @@
+dwsNumber: 1234567890
+userAddr:
+    postcode: '1640000'
+    prefecture: 13
+    city: 中野区
+    street: ここどこ町
+    apartment: 架空建物
+dwsBillingUser:
+    name:
+        displayName: 'テスト姓 テスト名'
+        phoneticDisplayName: 'テストセイ テストメイ'
+        familyName: テスト姓
+        givenName: テスト名
+        phoneticFamilyName: テストセイ
+        phoneticGivenName: テストメイ
+    addr:
+        postcode: 164-0011
+        prefecture: 13
+        city: 中野区
+        street: 中央1-35-6
+        apartment: レッチフィールド中野坂上ビル6F
+    contacts:
+        -
+            tel: 01-2345-6789
+            relationship: 10
+            name: 田中花子
+        -
+            tel: 01-1111-2222
+            relationship: 30
+            name: 佐藤太郎
+    billingDestination:
+        destination: 2
+        paymentMethod: 1
+        contractNumber: '5432109876'
+        corporationName: ユースタイルラボラトリー株式会社
+        agentName: 山田太郎
+        addr:
+            postcode: 164-0011
+            prefecture: 13
+            city: 中野区
+            street: 中央1-35-6
+            apartment: レッチフィールド中野坂上ビル6F
+        tel: 03-1234-5678
+    bankAccount:
+        bankName: ラボラトリー銀行
+        bankCode: '5678'
+        bankBranchName: 中野支店
+        bankBranchCode: '009'
+        bankAccountType: 1
+        bankAccountNumber: '3456789'
+        bankAccountHolder: ﾕｰｽﾀｲﾙﾗﾎﾞﾗﾄﾘｰ-DEF().-/
+providedIn: 2021年10月
+issuedOn: 2021年11月10日
+cityName: 中野区
+dwsServiceDivision: 重度訪問介護
+office:
+    name: 事業所テスト
+    corporationName: 事業所テスト
+    addr:
+        postcode: 111-1111
+        prefecture: 37
+        city: 事業所市
+        street: 事業所1-2-8-9
+        apartment: 事業所建物
+    tel: 012-245-6789
+subtotalFee: 150000
+subtotalCopay: 50000
+receiptedAmount: 100000

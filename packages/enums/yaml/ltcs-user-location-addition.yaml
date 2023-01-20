@@ -1,0 +1,13 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 介護保険サービス：利用者別地域加算区分
+name: LtcsUserLocationAddition
+php:
+  enabled: true
+  namespace: User
+typescript:
+  enabled: true
+items:
+  - { description: なし, name: None, value: 0 }
+  - { description: 中山間地域等に居住する者へのサービス提供加算, name: MountainousArea, value: 1 }

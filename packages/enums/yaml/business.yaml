@@ -1,0 +1,18 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 事業内容
+name: Business
+php:
+  enabled: true
+  namespace: Office
+typescript:
+  enabled: true
+items:
+  - { description: バックオフィス, name: BackOffice, value: 1 }
+  - { description: 訪問介護, name: HomeVisitCare, value: 2 }
+  - { description: 訪問看護, name: HomeVisitNursing, value: 3 }
+  - { description: デイサービス, name: DayCare, value: 4 }
+  - { description: 居宅介護支援, name: HomeCareSupport, value: 5 }
+  - { description: カレッジ, name: College, value: 6 }
+  - { description: マッサージ, name: Massage, value: 7 }

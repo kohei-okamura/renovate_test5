@@ -1,0 +1,265 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/password-resets/new.vue should be rendered correctly 1`] = `
+<v-container-stub
+  fill-height=""
+  tag="div"
+>
+  <v-row-stub
+    aligncontent="center"
+    justify="center"
+    nogutters="true"
+    tag="div"
+  >
+    <v-col-stub
+      cols="12"
+      lg="4"
+      md="5"
+      sm="8"
+      tag="div"
+      xl="3"
+    >
+      <transition-stub
+        mode="out-in"
+        name="slide"
+      >
+        <form
+          class="v-form"
+          data-form=""
+          novalidate="novalidate"
+        >
+          <div>
+            <v-card-stub
+              loaderheight="4"
+              tag="div"
+            >
+              <z-card-titlebar-stub
+                color="primary"
+              >
+                パスワード再設定
+              </z-card-titlebar-stub>
+              <v-card-text-stub
+                tag="div"
+              >
+                <p>
+                  登録されているメールアドレスにパスワード再設定用の URL を送信します。
+                </p>
+                <div
+                  data-email=""
+                >
+                  <div
+                    class="v-input v-input--dense theme--light v-text-field v-text-field--enclosed v-text-field--outlined"
+                  >
+                    <div
+                      class="v-input__control"
+                    >
+                      <div
+                        class="v-input__slot"
+                        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+                      >
+                        <fieldset
+                          aria-hidden="true"
+                        >
+                          <legend
+                            style="width: 0px;"
+                          >
+                            <span
+                              class="notranslate"
+                            >
+                              ​
+                            </span>
+                          </legend>
+                        </fieldset>
+                        <div
+                          class="v-text-field__slot"
+                        >
+                          <label
+                            class="v-label theme--light"
+                            style="left: 0px; position: absolute;"
+                          >
+                            メールアドレス
+                          </label>
+                          <input
+                            autofocus="autofocus"
+                            type="text"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="v-text-field__details"
+                      >
+                        <div
+                          class="v-messages theme--light"
+                        >
+                          <transition-group-stub
+                            class="v-messages__wrapper"
+                            name="message-transition"
+                            tag="div"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </v-card-text-stub>
+              <v-card-actions-stub
+                class="pa-4"
+                tag="div"
+              >
+                <a
+                  block=""
+                  class="v-btn-stub"
+                  color="primary"
+                  text=""
+                  type="submit"
+                >
+                  <v-icon-stub
+                    dark=""
+                    left=""
+                  >
+                    M2,21L23,12L2,3V10L17,12L2,14V21Z
+                  </v-icon-stub>
+                  <span>
+                    メールを送信
+                  </span>
+                </a>
+              </v-card-actions-stub>
+            </v-card-stub>
+          </div>
+        </form>
+      </transition-stub>
+    </v-col-stub>
+  </v-row-stub>
+</v-container-stub>
+`;
+
+exports[`pages/password-resets/new.vue submit should display errors when server responses 400 Bad Request (error occurred in "email") 1`] = `
+<div
+  data-email=""
+>
+  <div
+    class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        class="v-input__slot"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-text-field__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            メールアドレス
+          </label>
+          <input
+            autofocus="autofocus"
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              メールアドレスを入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/password-resets/new.vue submit should display message when succeeded 1`] = `
+<v-container-stub
+  fill-height=""
+  tag="div"
+>
+  <v-row-stub
+    aligncontent="center"
+    justify="center"
+    nogutters="true"
+    tag="div"
+  >
+    <v-col-stub
+      cols="12"
+      lg="4"
+      md="5"
+      sm="8"
+      tag="div"
+      xl="3"
+    >
+      <transition-stub
+        mode="out-in"
+        name="slide"
+      >
+        <v-card-stub
+          loaderheight="4"
+          tag="div"
+        >
+          <z-card-titlebar-stub
+            color="primary"
+          >
+            パスワード再設定
+          </z-card-titlebar-stub>
+          <v-card-text-stub
+            tag="div"
+          >
+            <p>
+              指定されたメールアドレスにメールを送信しました。
+            </p>
+            <p>
+              メールに記載された URL へアクセスし、パスワードを再設定してください。
+            </p>
+          </v-card-text-stub>
+          <v-card-actions-stub
+            class="pa-4"
+            tag="div"
+          >
+            <a
+              block=""
+              class="v-btn-stub"
+              color="primary"
+              nuxt=""
+              text=""
+              to="/"
+            >
+              ログイン画面へ
+            </a>
+          </v-card-actions-stub>
+        </v-card-stub>
+      </transition-stub>
+    </v-col-stub>
+  </v-row-stub>
+</v-container-stub>
+`;

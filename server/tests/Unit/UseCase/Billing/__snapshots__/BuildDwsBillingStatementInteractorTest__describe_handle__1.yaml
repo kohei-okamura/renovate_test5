@@ -1,0 +1,450 @@
+id: null
+dwsBillingId: 1
+dwsBillingBundleId: 1
+subsidyCityCode: '131181'
+user:
+    userId: 1
+    dwsCertificationId: 1
+    dwsNumber: '1234567890'
+    name:
+        displayName: '高田 純次'
+        phoneticDisplayName: 'タカダ ジュンジ'
+        familyName: 高田
+        givenName: 純次
+        phoneticFamilyName: タカダ
+        phoneticGivenName: ジュンジ
+    childName:
+        displayName: ' '
+        phoneticDisplayName: ' '
+        familyName: ''
+        givenName: ''
+        phoneticFamilyName: ''
+        phoneticGivenName: ''
+    copayLimit: 37200
+dwsAreaGradeName: 一級地
+dwsAreaGradeCode: '01'
+copayLimit: 37200
+totalScore: 21095
+totalFee: 236263
+totalCappedCopay: 23626
+totalAdjustedCopay: 23626
+totalCoordinatedCopay: null
+totalCopay: 23626
+totalBenefit: 212637
+totalSubsidy: 0
+isProvided: true
+copayCoordination: null
+copayCoordinationStatus: 11
+aggregates:
+    -
+        serviceDivisionCode: '11'
+        startedOn: '2020-01-01T00:00:00+09:00'
+        terminatedOn: null
+        serviceDays: 2
+        subtotalScore: 1784
+        unitCost: 112000
+        subtotalFee: 19980
+        unmanagedCopay: 1998
+        managedCopay: 1998
+        cappedCopay: 1998
+        adjustedCopay: 1998
+        coordinatedCopay: null
+        subtotalCopay: 1998
+        subtotalBenefit: 17982
+        subtotalSubsidy: 0
+    -
+        serviceDivisionCode: '12'
+        startedOn: '2020-01-01T00:00:00+09:00'
+        terminatedOn: null
+        serviceDays: 2
+        subtotalScore: 19311
+        unitCost: 112000
+        subtotalFee: 216283
+        unmanagedCopay: 21628
+        managedCopay: 21628
+        cappedCopay: 21628
+        adjustedCopay: 21628
+        coordinatedCopay: null
+        subtotalCopay: 21628
+        subtotalBenefit: 194655
+        subtotalSubsidy: 0
+contracts:
+    -
+        dwsGrantedServiceCode: '121000'
+        grantedAmount: 12345
+        agreedOn: '2021-01-01T00:00:00+09:00'
+        expiredOn: '2021-03-31T00:00:00+09:00'
+        indexNumber: 1
+items:
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '1147'
+        serviceCodeCategory: 111000
+        unitScore: 113
+        count: 1
+        totalScore: 113
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '7667'
+        serviceCodeCategory: 112000
+        unitScore: 438
+        count: 1
+        totalScore: 438
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '6010'
+        serviceCodeCategory: 990101
+        unitScore: 315
+        count: 1
+        totalScore: 315
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '5010'
+        serviceCodeCategory: 990601
+        unitScore: 150
+        count: 1
+        totalScore: 150
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '6715'
+        serviceCodeCategory: 990801
+        unitScore: 617
+        count: 1
+        totalScore: 617
+    -
+        serviceCode:
+            serviceDivisionCode: '11'
+            serviceCategoryCode: '6772'
+        serviceCodeCategory: 991001
+        unitScore: 151
+        count: 1
+        totalScore: 151
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '4371'
+        serviceCodeCategory: 123000
+        unitScore: 276
+        count: 1
+        totalScore: 276
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '4381'
+        serviceCodeCategory: 123000
+        unitScore: 135
+        count: 1
+        totalScore: 135
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '4491'
+        serviceCodeCategory: 123000
+        unitScore: 138
+        count: 1
+        totalScore: 138
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '4501'
+        serviceCodeCategory: 123000
+        unitScore: 137
+        count: 1
+        totalScore: 137
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '4511'
+        serviceCodeCategory: 123000
+        unitScore: 138
+        count: 1
+        totalScore: 138
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '4521'
+        serviceCodeCategory: 123000
+        unitScore: 135
+        count: 1
+        totalScore: 135
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '4531'
+        serviceCodeCategory: 123000
+        unitScore: 138
+        count: 1
+        totalScore: 138
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '4321'
+        serviceCodeCategory: 123000
+        unitScore: 128
+        count: 4
+        totalScore: 512
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '2321'
+        serviceCodeCategory: 123000
+        unitScore: 106
+        count: 4
+        totalScore: 424
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '1331'
+        serviceCodeCategory: 123000
+        unitScore: 85
+        count: 8
+        totalScore: 680
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '1341'
+        serviceCodeCategory: 123000
+        unitScore: 80
+        count: 8
+        totalScore: 640
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '1351'
+        serviceCodeCategory: 123000
+        unitScore: 86
+        count: 4
+        totalScore: 344
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '3351'
+        serviceCodeCategory: 123000
+        unitScore: 108
+        count: 4
+        totalScore: 432
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '3361'
+        serviceCodeCategory: 123000
+        unitScore: 100
+        count: 4
+        totalScore: 400
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '4361'
+        serviceCodeCategory: 123000
+        unitScore: 120
+        count: 4
+        totalScore: 480
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '4171'
+        serviceCodeCategory: 121000
+        unitScore: 318
+        count: 1
+        totalScore: 318
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '4181'
+        serviceCodeCategory: 121000
+        unitScore: 156
+        count: 1
+        totalScore: 156
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '4391'
+        serviceCodeCategory: 121000
+        unitScore: 159
+        count: 1
+        totalScore: 159
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '4401'
+        serviceCodeCategory: 121000
+        unitScore: 158
+        count: 1
+        totalScore: 158
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '4411'
+        serviceCodeCategory: 121000
+        unitScore: 159
+        count: 1
+        totalScore: 159
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '4421'
+        serviceCodeCategory: 121000
+        unitScore: 156
+        count: 1
+        totalScore: 156
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '4431'
+        serviceCodeCategory: 121000
+        unitScore: 159
+        count: 1
+        totalScore: 159
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '4121'
+        serviceCodeCategory: 121000
+        unitScore: 147
+        count: 4
+        totalScore: 588
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '2121'
+        serviceCodeCategory: 121000
+        unitScore: 123
+        count: 4
+        totalScore: 492
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '1131'
+        serviceCodeCategory: 121000
+        unitScore: 98
+        count: 8
+        totalScore: 784
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '1141'
+        serviceCodeCategory: 121000
+        unitScore: 92
+        count: 8
+        totalScore: 736
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '1151'
+        serviceCodeCategory: 121000
+        unitScore: 99
+        count: 4
+        totalScore: 396
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '3151'
+        serviceCodeCategory: 121000
+        unitScore: 124
+        count: 4
+        totalScore: 496
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '3161'
+        serviceCodeCategory: 121000
+        unitScore: 115
+        count: 4
+        totalScore: 460
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '4161'
+        serviceCodeCategory: 121000
+        unitScore: 138
+        count: 4
+        totalScore: 552
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '8453'
+        serviceCodeCategory: 120901
+        unitScore: 100
+        count: 1
+        totalScore: 100
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '8457'
+        serviceCodeCategory: 120901
+        unitScore: 25
+        count: 1
+        totalScore: 25
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '8461'
+        serviceCodeCategory: 120901
+        unitScore: 25
+        count: 1
+        totalScore: 25
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '8465'
+        serviceCodeCategory: 120901
+        unitScore: 25
+        count: 1
+        totalScore: 25
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '8469'
+        serviceCodeCategory: 120901
+        unitScore: 25
+        count: 1
+        totalScore: 25
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '8473'
+        serviceCodeCategory: 120901
+        unitScore: 50
+        count: 1
+        totalScore: 50
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '6010'
+        serviceCodeCategory: 990101
+        unitScore: 4446
+        count: 1
+        totalScore: 4446
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '5010'
+        serviceCodeCategory: 990601
+        unitScore: 150
+        count: 1
+        totalScore: 150
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '6715'
+        serviceCodeCategory: 990801
+        unitScore: 2984
+        count: 1
+        totalScore: 2984
+    -
+        serviceCode:
+            serviceDivisionCode: '12'
+            serviceCategoryCode: '6772'
+        serviceCodeCategory: 991001
+        unitScore: 703
+        count: 1
+        totalScore: 703
+status: 20
+fixedAt: null
+createdAt: '2019-05-15T00:00:00+09:00'
+updatedAt: '2019-05-15T00:00:00+09:00'

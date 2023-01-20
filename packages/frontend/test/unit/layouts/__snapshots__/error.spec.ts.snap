@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`layouts/error.vue should be rendered correctly 1`] = `
+<v-container-stub
+  fill-height=""
+  tag="div"
+>
+  <v-row-stub
+    aligncontent="center"
+    justify="center"
+    tag="div"
+  >
+    <v-col-stub
+      cols="12"
+      lg="4"
+      md="5"
+      sm="8"
+      tag="div"
+      xl="3"
+    >
+      <v-card-stub
+        loaderheight="4"
+        tag="div"
+      >
+        <v-card-title-stub
+          class="justify-center"
+          tag="div"
+        >
+          <h1
+            class="text-h3"
+          >
+            Not Found
+          </h1>
+        </v-card-title-stub>
+        <v-card-text-stub
+          tag="div"
+        >
+          <div
+            class="text-center"
+          >
+            お探しのページは見つかりませんでした。
+          </div>
+        </v-card-text-stub>
+      </v-card-stub>
+    </v-col-stub>
+  </v-row-stub>
+</v-container-stub>
+`;

@@ -1,0 +1,16 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 利用者請求：請求結果
+name: UserBillingResult
+php:
+  enabled: true
+  namespace: UserBilling
+typescript:
+  enabled: true
+items:
+  - { description: 未処理, name: pending, value: 0 }
+  - { description: 処理中, name: inProgress, value: 1 }
+  - { description: 入金済, name: paid, value: 2 }
+  - { description: 口座振替未済, name: unpaid, value: 3 }
+  - { description: 請求なし, name: none, value: 4 }

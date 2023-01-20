@@ -1,0 +1,13 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 期間目標
+type: object
+properties:
+  term:
+    $ref: '#/components/schemas/DateRange'
+  text:
+    description: 目標
+    type: string

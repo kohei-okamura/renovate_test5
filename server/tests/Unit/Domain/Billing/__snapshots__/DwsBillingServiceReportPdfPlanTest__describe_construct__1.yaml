@@ -1,0 +1,7 @@
+physicalCare: '60'
+accompanyWithPhysicalCare: '20'
+housework: '10'
+accompany: '30'
+accessibleTaxi: '50'
+visitingCareForPwsd: '25'
+outingSupportForPwsd: '15'

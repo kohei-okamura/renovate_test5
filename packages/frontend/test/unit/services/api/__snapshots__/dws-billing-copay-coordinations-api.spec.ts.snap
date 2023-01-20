@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`api/dws-billing-copay-coordinations-api create API レスポンスのステータスコードが 2xx でない場合は AxiosError を投げる 1`] = `"Request failed with status code 400"`;
+
+exports[`api/dws-billing-copay-coordinations-api get API レスポンスのステータスコードが 2xx でない場合は AxiosError を投げる 1`] = `"Request failed with status code 400"`;
+
+exports[`api/dws-billing-copay-coordinations-api update API レスポンスのステータスコードが 2xx でない場合は AxiosError を投げる 1`] = `"Request failed with status code 400"`;
+
+exports[`api/dws-billing-copay-coordinations-api updateStatus API レスポンスのステータスコードが 2xx でない場合は AxiosError を投げる 1`] = `"Request failed with status code 400"`;

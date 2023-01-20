@@ -1,0 +1,19 @@
+{
+  "name": "@zinger/enums",
+  "version": "1.0.0",
+  "description": "Zinger enum file generator",
+  "private": true,
+  "scripts": {
+    "build": "ts-node generate-enums.ts"
+  },
+  "dependencies": {
+    "@types/js-yaml": "^4.0.5",
+    "@types/mustache": "^4.1.2",
+    "@types/pluralize": "^0.0.29",
+    "commander": "^9.0.0",
+    "js-yaml": "^4.1.0",
+    "mustache": "^4.2.0",
+    "pluralize": "^8.0.0",
+    "ts-node": "^10.4.0"
+  }
+}

@@ -1,0 +1,13 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: サービス提供実績記録票：様式種別番号
+name: DwsBillingServiceReportFormat
+php:
+  enabled: true
+  namespace: Billing
+typescript:
+  enabled: true
+items:
+  - { description: 様式1（居宅介護サービス提供実績記録票情報）, name: HomeHelpService, value: '0101' }
+  - { description: 様式3-1（重度訪問介護サービス提供実績記録票）, name: VisitingCareForPwsd, value: '0301' }

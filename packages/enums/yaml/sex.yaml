@@ -1,0 +1,15 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 性別（ISO 5218）
+name: Sex
+php:
+  enabled: true
+  namespace: Common
+typescript:
+  enabled: true
+items:
+  - { description: 不明, name: NotKnown, value: 0 }
+  - { description: 男性, name: Male, value: 1 }
+  - { description: 女性, name: Female, value: 2 }
+  - { description: 適用不能, name: NotApplicable, value: 9 }

@@ -1,0 +1,20 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 障害福祉サービス：計画：サービス詳細
+type: object
+properties:
+  menuId:
+    description: サービス内容 ID
+    type: object
+  duration:
+    description: 所要時間
+    type: number
+  content:
+    description: サービスの具体的内容
+    type: string
+  memo:
+    description: 留意事項
+    type: string

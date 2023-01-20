@@ -1,0 +1,24 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+get:
+  summary: 利用者負担上限額管理結果票ダウンロード
+  description: 単一の利用者負担上限額管理結果票をダウンロードする。
+  parameters:
+    - $ref: '#/components/parameters/dwsBillingId'
+    - $ref: '#/components/parameters/dwsBillingBundleId'
+    - $ref: '#/components/parameters/dwsBillingCopayCoordinationId'
+  responses:
+    '200':
+      description: 正常に処理が行われた場合
+      content:
+        application/pdf:
+          schema:
+            type: string
+            format: binary
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+    '404':
+      description: 請求 ID、請求単位 ID、利用者負担上限額管理結果票 ID が一致する利用者負担上限額管理結果票が存在しない場合
+  tags:
+    - 障害福祉サービス：請求

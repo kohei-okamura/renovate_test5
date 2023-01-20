@@ -1,0 +1,17 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 障害福祉サービス：重度訪問介護：特定事業所加算区分
+name: VisitingCareForPwsdSpecifiedOfficeAddition
+php:
+  enabled: true
+  namespace: Office
+  traits:
+    - VisitingCareForPwsdSpecifiedOfficeAdditionSupport
+typescript:
+  enabled: true
+items:
+  - { description: なし, name: None, value: 0 }
+  - { description: 特定事業所加算Ⅰ, name: Addition1, value: 1 }
+  - { description: 特定事業所加算Ⅱ, name: Addition2, value: 2 }
+  - { description: 特定事業所加算Ⅲ, name: Addition3, value: 3 }

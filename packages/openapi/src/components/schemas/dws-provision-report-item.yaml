@@ -1,0 +1,29 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 障害福祉サービス：予実：要素
+type: object
+properties:
+  schedule:
+    $ref: '#/components/schemas/Schedule'
+  category:
+    $ref: '#/components/schemas/DwsProjectServiceCategory'
+  headcount:
+    description: 提供人数
+    type: number
+  movingDurationMinutes:
+    description: 移動介護時間数
+    type: number
+  ownExpenseProgramId:
+    description: 自費サービス情報 ID
+    type: object
+  options:
+    description: サービスオプション
+    type: array
+    items:
+      $ref: '#/components/schemas/ServiceOption'
+  note:
+    description: 備考
+    type: string

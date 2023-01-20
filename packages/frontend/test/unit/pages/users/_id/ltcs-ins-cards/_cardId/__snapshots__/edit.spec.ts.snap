@@ -1,0 +1,1777 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/users/_id/ltcs-ins-cards/_cardId/edit.vue display should be rendered correctly 1`] = `
+<div
+  breadcrumbs="[object Object],[object Object],[object Object],[object Object]"
+  class="z-page-stub"
+  compact="compact"
+>
+  <div
+    class="z-page-stub-slot-tabs"
+  />
+  <div
+    class="z-page-stub-slot-title"
+  />
+  <v-card-stub
+    class="mt-4"
+    loaderheight="4"
+    tag="div"
+  >
+    <v-card-title-stub
+      class="subtitle-1"
+      tag="div"
+    >
+      編集理由を選択してください。
+    </v-card-title-stub>
+    <v-card-text-stub
+      class="pb-2"
+      tag="div"
+    >
+      <div
+        class="v-input mt-0 theme--light v-input--selection-controls v-input--radio-group v-input--radio-group--column"
+      >
+        <div
+          class="v-input__control"
+        >
+          <div
+            class="v-input__slot"
+            style="height: auto;"
+          >
+            <div
+              class="v-input--radio-group__input"
+              role="radiogroup"
+            >
+              <div
+                class="v-radio theme--light"
+              >
+                <div
+                  class="v-input--selection-controls__input"
+                >
+                  <i
+                    aria-hidden="true"
+                    class="v-icon notranslate mdi mdi-radiobox-blank theme--light"
+                  />
+                  <input
+                    aria-checked="false"
+                    data-reason-a="true"
+                    role="radio"
+                    type="radio"
+                    value="A"
+                  />
+                  <div
+                    class="v-input--selection-controls__ripple"
+                  />
+                </div>
+                <label
+                  class="v-label theme--light"
+                  style="left: 0px; position: relative;"
+                >
+                  被保険者証の記載内容が変更されたので反映したい。
+                </label>
+              </div>
+              <div
+                class="v-radio theme--light"
+              >
+                <div
+                  class="v-input--selection-controls__input"
+                >
+                  <i
+                    aria-hidden="true"
+                    class="v-icon notranslate mdi mdi-radiobox-blank theme--light"
+                  />
+                  <input
+                    aria-checked="false"
+                    data-reason-b="true"
+                    role="radio"
+                    type="radio"
+                    value="B"
+                  />
+                  <div
+                    class="v-input--selection-controls__ripple"
+                  />
+                </div>
+                <label
+                  class="v-label theme--light"
+                  style="left: 0px; position: relative;"
+                >
+                  新しい被保険者証や負担割合証が発行されたので内容を書き換えたい。
+                </label>
+              </div>
+              <div
+                class="v-radio theme--light"
+              >
+                <div
+                  class="v-input--selection-controls__input"
+                >
+                  <i
+                    aria-hidden="true"
+                    class="v-icon notranslate mdi mdi-radiobox-blank theme--light"
+                  />
+                  <input
+                    aria-checked="false"
+                    data-reason-c="true"
+                    role="radio"
+                    type="radio"
+                    value="C"
+                  />
+                  <div
+                    class="v-input--selection-controls__ripple"
+                  />
+                </div>
+                <label
+                  class="v-label theme--light"
+                  style="left: 0px; position: relative;"
+                >
+                  入力ミスなどの不正確な情報を訂正したい。
+                </label>
+              </div>
+            </div>
+          </div>
+          <div
+            class="v-messages theme--light"
+          >
+            <transition-group-stub
+              class="v-messages__wrapper"
+              name="message-transition"
+              tag="div"
+            />
+          </div>
+        </div>
+      </div>
+    </v-card-text-stub>
+  </v-card-stub>
+  <transition-stub
+    mode="out-in"
+    name="fade-transition"
+  >
+    <!---->
+  </transition-stub>
+</div>
+`;
+
+exports[`pages/users/_id/ltcs-ins-cards/_cardId/edit.vue error text in card-text should be not rendered when session auth is system admin 1`] = `
+<v-card-text-stub
+  data-card-text=""
+  tag="div"
+>
+  <p>
+          記載内容が変更されたり、新しい被保険者証が発行された場合は、新しく登録を行ってください。
+    <br />
+    <!---->
+  </p>
+</v-card-text-stub>
+`;
+
+exports[`pages/users/_id/ltcs-ins-cards/_cardId/edit.vue error text in card-text should be not rendered when the staff has permissions: ltcs-ins-cards/create 1`] = `
+<v-card-text-stub
+  data-card-text=""
+  tag="div"
+>
+  <p>
+          記載内容が変更されたり、新しい被保険者証が発行された場合は、新しく登録を行ってください。
+    <br />
+    <!---->
+  </p>
+</v-card-text-stub>
+`;
+
+exports[`pages/users/_id/ltcs-ins-cards/_cardId/edit.vue error text in card-text should be rendered when the staff does not have permissions: ltcs-ins-cards/create 1`] = `
+<v-card-text-stub
+  data-card-text=""
+  tag="div"
+>
+  <p>
+          記載内容が変更されたり、新しい被保険者証が発行された場合は、新しく登録を行ってください。
+    <br />
+    <span
+      class="error--text"
+    >
+            被保険者証を登録する権限が無いため新しく登録することができません。担当者にご確認ください。
+    </span>
+  </p>
+</v-card-text-stub>
+`;
+
+exports[`pages/users/_id/ltcs-ins-cards/_cardId/edit.vue submit should display errors when server responses 400 Bad Request (error occurred in "activatedOn") 1`] = `
+<div
+  class="root"
+  data-activated-on=""
+  data-z-form-card-item=""
+>
+  <div
+    class="z-date-field"
+  >
+    <div
+      class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--is-readonly v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+    >
+      <div
+        class="v-input__control"
+      >
+        <div
+          class="v-input__slot"
+          style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+        >
+          <fieldset
+            aria-hidden="true"
+          >
+            <legend
+              style="width: -24px;"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+          <div
+            class="v-text-field__slot"
+          >
+            <label
+              class="v-label v-label--active theme--light error--text"
+              style="left: 0px; position: absolute;"
+            >
+              認定の有効期間 *
+            </label>
+            <input
+              readonly="readonly"
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          class="v-text-field__details"
+        >
+          <div
+            class="v-messages theme--light error--text"
+            role="alert"
+          >
+            <transition-group-stub
+              class="v-messages__wrapper"
+              name="message-transition"
+              tag="div"
+            >
+              <div
+                class="v-messages__message"
+              >
+                認定の有効期間（開始）を入力してください。
+              </div>
+            </transition-group-stub>
+          </div>
+        </div>
+      </div>
+    </div>
+    <v-dialog-stub
+      closedelay="0"
+      contentclass=""
+      data-z-date-field-dialog=""
+      opendelay="0"
+      origin="center center"
+      retainfocus="true"
+      transition="dialog-transition"
+      width="290px"
+    >
+      <v-date-picker-stub
+        data-z-date-field-picker=""
+        dayformat="[Function]"
+        eventcolor="warning"
+        firstdayofweek="1"
+        headerdateformat="[Function]"
+        locale="ja-JP"
+        localefirstdayofyear="0"
+        max="2028-05-17"
+        min="1920-01-01"
+        nexticon="$next"
+        nextmontharialabel="$vuetify.datePicker.nextMonthAriaLabel"
+        nextyeararialabel="$vuetify.datePicker.nextYearAriaLabel"
+        notitle="true"
+        previcon="$prev"
+        prevmontharialabel="$vuetify.datePicker.prevMonthAriaLabel"
+        prevyeararialabel="$vuetify.datePicker.prevYearAriaLabel"
+        selecteditemstext="$vuetify.datePicker.itemsSelected"
+        showcurrent="true"
+        titledateformat="[Function]"
+        type="date"
+        value="1989-08-01"
+        width="290"
+        yearformat="[Function]"
+      >
+        <v-spacer-stub
+          tag="div"
+        />
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-clear=""
+          text=""
+        >
+          クリア
+        </a>
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-cancel=""
+          text=""
+        >
+          キャンセル
+        </a>
+      </v-date-picker-stub>
+    </v-dialog-stub>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/ltcs-ins-cards/_cardId/edit.vue submit should display errors when server responses 400 Bad Request (error occurred in "certificatedOn") 1`] = `
+<div
+  class="root"
+  data-certificated-on=""
+  data-z-form-card-item=""
+>
+  <div
+    class="z-date-field"
+  >
+    <div
+      class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--is-readonly v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+    >
+      <div
+        class="v-input__control"
+      >
+        <div
+          class="v-input__slot"
+          style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+        >
+          <fieldset
+            aria-hidden="true"
+          >
+            <legend
+              style="width: -24px;"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+          <div
+            class="v-text-field__slot"
+          >
+            <label
+              class="v-label v-label--active theme--light error--text"
+              style="left: 0px; position: absolute;"
+            >
+              認定年月日 *
+            </label>
+            <input
+              readonly="readonly"
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          class="v-text-field__details"
+        >
+          <div
+            class="v-messages theme--light error--text"
+            role="alert"
+          >
+            <transition-group-stub
+              class="v-messages__wrapper"
+              name="message-transition"
+              tag="div"
+            >
+              <div
+                class="v-messages__message"
+              >
+                認定年月日を入力してください。
+              </div>
+            </transition-group-stub>
+          </div>
+        </div>
+      </div>
+    </div>
+    <v-dialog-stub
+      closedelay="0"
+      contentclass=""
+      data-z-date-field-dialog=""
+      opendelay="0"
+      origin="center center"
+      retainfocus="true"
+      transition="dialog-transition"
+      width="290px"
+    >
+      <v-date-picker-stub
+        data-z-date-field-picker=""
+        dayformat="[Function]"
+        eventcolor="warning"
+        firstdayofweek="1"
+        headerdateformat="[Function]"
+        locale="ja-JP"
+        localefirstdayofyear="0"
+        max="2028-05-17"
+        min="1920-01-01"
+        nexticon="$next"
+        nextmontharialabel="$vuetify.datePicker.nextMonthAriaLabel"
+        nextyeararialabel="$vuetify.datePicker.nextYearAriaLabel"
+        notitle="true"
+        previcon="$prev"
+        prevmontharialabel="$vuetify.datePicker.prevMonthAriaLabel"
+        prevyeararialabel="$vuetify.datePicker.prevYearAriaLabel"
+        selecteditemstext="$vuetify.datePicker.itemsSelected"
+        showcurrent="true"
+        titledateformat="[Function]"
+        type="date"
+        value="1993-11-18"
+        width="290"
+        yearformat="[Function]"
+      >
+        <v-spacer-stub
+          tag="div"
+        />
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-clear=""
+          text=""
+        >
+          クリア
+        </a>
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-cancel=""
+          text=""
+        >
+          キャンセル
+        </a>
+      </v-date-picker-stub>
+    </v-dialog-stub>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/ltcs-ins-cards/_cardId/edit.vue submit should display errors when server responses 400 Bad Request (error occurred in "copayActivatedOn") 1`] = `
+<div
+  class="root"
+  data-copay-activated-on=""
+  data-z-form-card-item=""
+>
+  <div
+    class="z-date-field"
+  >
+    <div
+      class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--is-readonly v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+    >
+      <div
+        class="v-input__control"
+      >
+        <div
+          class="v-input__slot"
+          style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+        >
+          <fieldset
+            aria-hidden="true"
+          >
+            <legend
+              style="width: -24px;"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+          <div
+            class="v-text-field__slot"
+          >
+            <label
+              class="v-label v-label--active theme--light error--text"
+              style="left: 0px; position: absolute;"
+            >
+              利用者負担適用期間 *
+            </label>
+            <input
+              readonly="readonly"
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          class="v-text-field__details"
+        >
+          <div
+            class="v-messages theme--light error--text"
+            role="alert"
+          >
+            <transition-group-stub
+              class="v-messages__wrapper"
+              name="message-transition"
+              tag="div"
+            >
+              <div
+                class="v-messages__message"
+              >
+                利用者負担適用期間（開始）を入力してください。
+              </div>
+            </transition-group-stub>
+          </div>
+        </div>
+      </div>
+    </div>
+    <v-dialog-stub
+      closedelay="0"
+      contentclass=""
+      data-z-date-field-dialog=""
+      opendelay="0"
+      origin="center center"
+      retainfocus="true"
+      transition="dialog-transition"
+      width="290px"
+    >
+      <v-date-picker-stub
+        data-z-date-field-picker=""
+        dayformat="[Function]"
+        eventcolor="warning"
+        firstdayofweek="1"
+        headerdateformat="[Function]"
+        locale="ja-JP"
+        localefirstdayofyear="0"
+        max="2028-05-17"
+        min="1920-01-01"
+        nexticon="$next"
+        nextmontharialabel="$vuetify.datePicker.nextMonthAriaLabel"
+        nextyeararialabel="$vuetify.datePicker.nextYearAriaLabel"
+        notitle="true"
+        previcon="$prev"
+        prevmontharialabel="$vuetify.datePicker.prevMonthAriaLabel"
+        prevyeararialabel="$vuetify.datePicker.prevYearAriaLabel"
+        selecteditemstext="$vuetify.datePicker.itemsSelected"
+        showcurrent="true"
+        titledateformat="[Function]"
+        type="date"
+        value="2018-09-26"
+        width="290"
+        yearformat="[Function]"
+      >
+        <v-spacer-stub
+          tag="div"
+        />
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-clear=""
+          text=""
+        >
+          クリア
+        </a>
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-cancel=""
+          text=""
+        >
+          キャンセル
+        </a>
+      </v-date-picker-stub>
+    </v-dialog-stub>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/ltcs-ins-cards/_cardId/edit.vue submit should display errors when server responses 400 Bad Request (error occurred in "copayDeactivatedOn") 1`] = `
+<div
+  class="root"
+  data-copay-deactivated-on=""
+  data-z-form-card-item=""
+>
+  <div
+    class="z-date-field"
+  >
+    <div
+      class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--is-readonly v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+    >
+      <div
+        class="v-input__control"
+      >
+        <div
+          class="v-input__slot"
+          style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+        >
+          <fieldset
+            aria-hidden="true"
+          >
+            <legend
+              style="width: 0px;"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+          <div
+            class="v-text-field__slot"
+          >
+            <input
+              readonly="readonly"
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          class="v-text-field__details"
+        >
+          <div
+            class="v-messages theme--light error--text"
+            role="alert"
+          >
+            <transition-group-stub
+              class="v-messages__wrapper"
+              name="message-transition"
+              tag="div"
+            >
+              <div
+                class="v-messages__message"
+              >
+                利用者負担適用期間（終了）を入力してください。
+              </div>
+            </transition-group-stub>
+          </div>
+        </div>
+      </div>
+    </div>
+    <v-dialog-stub
+      closedelay="0"
+      contentclass=""
+      data-z-date-field-dialog=""
+      opendelay="0"
+      origin="center center"
+      retainfocus="true"
+      transition="dialog-transition"
+      width="290px"
+    >
+      <v-date-picker-stub
+        data-z-date-field-picker=""
+        dayformat="[Function]"
+        eventcolor="warning"
+        firstdayofweek="1"
+        headerdateformat="[Function]"
+        locale="ja-JP"
+        localefirstdayofyear="0"
+        max="2028-05-17"
+        min="1920-01-01"
+        nexticon="$next"
+        nextmontharialabel="$vuetify.datePicker.nextMonthAriaLabel"
+        nextyeararialabel="$vuetify.datePicker.nextYearAriaLabel"
+        notitle="true"
+        previcon="$prev"
+        prevmontharialabel="$vuetify.datePicker.prevMonthAriaLabel"
+        prevyeararialabel="$vuetify.datePicker.prevYearAriaLabel"
+        selecteditemstext="$vuetify.datePicker.itemsSelected"
+        showcurrent="true"
+        titledateformat="[Function]"
+        type="date"
+        value="2015-09-23"
+        width="290"
+        yearformat="[Function]"
+      >
+        <v-spacer-stub
+          tag="div"
+        />
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-clear=""
+          text=""
+        >
+          クリア
+        </a>
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-cancel=""
+          text=""
+        >
+          キャンセル
+        </a>
+      </v-date-picker-stub>
+    </v-dialog-stub>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/ltcs-ins-cards/_cardId/edit.vue submit should display errors when server responses 400 Bad Request (error occurred in "copayRate") 1`] = `
+<div
+  class="root"
+  data-copay-rate=""
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined v-select error--text"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        aria-expanded="false"
+        aria-haspopup="listbox"
+        class="v-input__slot"
+        role="button"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-select__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            利用者負担の割合 *
+          </label>
+          <div
+            class="v-select__selections"
+          >
+            <div
+              class="v-select__selection v-select__selection--comma"
+            >
+              5割
+            </div>
+            <input
+              aria-readonly="false"
+              autocomplete="off"
+              readonly="readonly"
+              type="text"
+            />
+          </div>
+          <div
+            class="v-input__append-inner"
+          >
+            <div
+              class="v-input__icon v-input__icon--append"
+            >
+              <i
+                aria-hidden="true"
+                class="v-icon notranslate mdi mdi-menu-down theme--light error--text"
+              />
+            </div>
+          </div>
+          <input
+            type="hidden"
+            value="5"
+          />
+        </div>
+        <div
+          class="v-menu"
+        >
+          <!---->
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              利用者負担の割合を入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/ltcs-ins-cards/_cardId/edit.vue submit should display errors when server responses 400 Bad Request (error occurred in "deactivatedOn") 1`] = `
+<div
+  class="root"
+  data-deactivated-on=""
+  data-z-form-card-item=""
+>
+  <div
+    class="z-date-field"
+  >
+    <div
+      class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--is-readonly v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+    >
+      <div
+        class="v-input__control"
+      >
+        <div
+          class="v-input__slot"
+          style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+        >
+          <fieldset
+            aria-hidden="true"
+          >
+            <legend
+              style="width: 0px;"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+          <div
+            class="v-text-field__slot"
+          >
+            <input
+              readonly="readonly"
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          class="v-text-field__details"
+        >
+          <div
+            class="v-messages theme--light error--text"
+            role="alert"
+          >
+            <transition-group-stub
+              class="v-messages__wrapper"
+              name="message-transition"
+              tag="div"
+            >
+              <div
+                class="v-messages__message"
+              >
+                認定の有効期間（終了）を入力してください。
+              </div>
+            </transition-group-stub>
+          </div>
+        </div>
+      </div>
+    </div>
+    <v-dialog-stub
+      closedelay="0"
+      contentclass=""
+      data-z-date-field-dialog=""
+      opendelay="0"
+      origin="center center"
+      retainfocus="true"
+      transition="dialog-transition"
+      width="290px"
+    >
+      <v-date-picker-stub
+        data-z-date-field-picker=""
+        dayformat="[Function]"
+        eventcolor="warning"
+        firstdayofweek="1"
+        headerdateformat="[Function]"
+        locale="ja-JP"
+        localefirstdayofyear="0"
+        max="2028-05-17"
+        min="1920-01-01"
+        nexticon="$next"
+        nextmontharialabel="$vuetify.datePicker.nextMonthAriaLabel"
+        nextyeararialabel="$vuetify.datePicker.nextYearAriaLabel"
+        notitle="true"
+        previcon="$prev"
+        prevmontharialabel="$vuetify.datePicker.prevMonthAriaLabel"
+        prevyeararialabel="$vuetify.datePicker.prevYearAriaLabel"
+        selecteditemstext="$vuetify.datePicker.itemsSelected"
+        showcurrent="true"
+        titledateformat="[Function]"
+        type="date"
+        value="1995-04-16"
+        width="290"
+        yearformat="[Function]"
+      >
+        <v-spacer-stub
+          tag="div"
+        />
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-clear=""
+          text=""
+        >
+          クリア
+        </a>
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-cancel=""
+          text=""
+        >
+          キャンセル
+        </a>
+      </v-date-picker-stub>
+    </v-dialog-stub>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/ltcs-ins-cards/_cardId/edit.vue submit should display errors when server responses 400 Bad Request (error occurred in "effectivatedOn") 1`] = `
+<div
+  class="root"
+  data-effectivated-on=""
+  data-z-form-card-item=""
+>
+  <div
+    class="z-date-field"
+  >
+    <div
+      class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--is-readonly v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+    >
+      <div
+        class="v-input__control"
+      >
+        <div
+          class="v-input__slot"
+          style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+        >
+          <fieldset
+            aria-hidden="true"
+          >
+            <legend
+              style="width: -24px;"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+          <div
+            class="v-text-field__slot"
+          >
+            <label
+              class="v-label v-label--active theme--light error--text"
+              style="left: 0px; position: absolute;"
+            >
+              適用日 *
+            </label>
+            <input
+              readonly="readonly"
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          class="v-text-field__details"
+        >
+          <div
+            class="v-messages theme--light error--text"
+            role="alert"
+          >
+            <transition-group-stub
+              class="v-messages__wrapper"
+              name="message-transition"
+              tag="div"
+            >
+              <div
+                class="v-messages__message"
+              >
+                適用日を入力してください。
+              </div>
+            </transition-group-stub>
+          </div>
+        </div>
+      </div>
+    </div>
+    <v-dialog-stub
+      closedelay="0"
+      contentclass=""
+      data-z-date-field-dialog=""
+      opendelay="0"
+      origin="center center"
+      retainfocus="true"
+      transition="dialog-transition"
+      width="290px"
+    >
+      <v-date-picker-stub
+        data-z-date-field-picker=""
+        dayformat="[Function]"
+        eventcolor="warning"
+        firstdayofweek="1"
+        headerdateformat="[Function]"
+        locale="ja-JP"
+        localefirstdayofyear="0"
+        max="2028-05-17"
+        min="1920-01-01"
+        nexticon="$next"
+        nextmontharialabel="$vuetify.datePicker.nextMonthAriaLabel"
+        nextyeararialabel="$vuetify.datePicker.nextYearAriaLabel"
+        notitle="true"
+        previcon="$prev"
+        prevmontharialabel="$vuetify.datePicker.prevMonthAriaLabel"
+        prevyeararialabel="$vuetify.datePicker.prevYearAriaLabel"
+        selecteditemstext="$vuetify.datePicker.itemsSelected"
+        showcurrent="true"
+        titledateformat="[Function]"
+        type="date"
+        value="1980-10-08"
+        width="290"
+        yearformat="[Function]"
+      >
+        <v-spacer-stub
+          tag="div"
+        />
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-clear=""
+          text=""
+        >
+          クリア
+        </a>
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-cancel=""
+          text=""
+        >
+          キャンセル
+        </a>
+      </v-date-picker-stub>
+    </v-dialog-stub>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/ltcs-ins-cards/_cardId/edit.vue submit should display errors when server responses 400 Bad Request (error occurred in "insNumber") 1`] = `
+<div
+  class="root"
+  data-ins-number=""
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        class="v-input__slot"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-text-field__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            被保険者証番号 *
+          </label>
+          <input
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              被保険者証番号を入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/ltcs-ins-cards/_cardId/edit.vue submit should display errors when server responses 400 Bad Request (error occurred in "insurerName") 1`] = `
+<div
+  class="root"
+  data-insurer-name=""
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        class="v-input__slot"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-text-field__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            保険者の名称 *
+          </label>
+          <input
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              保険者の名称を入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/ltcs-ins-cards/_cardId/edit.vue submit should display errors when server responses 400 Bad Request (error occurred in "insurerNumber") 1`] = `
+<div
+  class="root"
+  data-insurer-number=""
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        class="v-input__slot"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-text-field__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            保険者番号 *
+          </label>
+          <input
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              保険者番号を入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/ltcs-ins-cards/_cardId/edit.vue submit should display errors when server responses 400 Bad Request (error occurred in "issuedOn") 1`] = `
+<div
+  class="root"
+  data-issued-on=""
+  data-z-form-card-item=""
+>
+  <div
+    class="z-date-field"
+  >
+    <div
+      class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--is-readonly v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+    >
+      <div
+        class="v-input__control"
+      >
+        <div
+          class="v-input__slot"
+          style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+        >
+          <fieldset
+            aria-hidden="true"
+          >
+            <legend
+              style="width: -24px;"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+          <div
+            class="v-text-field__slot"
+          >
+            <label
+              class="v-label v-label--active theme--light error--text"
+              style="left: 0px; position: absolute;"
+            >
+              交付年月日 *
+            </label>
+            <input
+              readonly="readonly"
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          class="v-text-field__details"
+        >
+          <div
+            class="v-messages theme--light error--text"
+            role="alert"
+          >
+            <transition-group-stub
+              class="v-messages__wrapper"
+              name="message-transition"
+              tag="div"
+            >
+              <div
+                class="v-messages__message"
+              >
+                交付年月日を入力してください。
+              </div>
+            </transition-group-stub>
+          </div>
+        </div>
+      </div>
+    </div>
+    <v-dialog-stub
+      closedelay="0"
+      contentclass=""
+      data-z-date-field-dialog=""
+      opendelay="0"
+      origin="center center"
+      retainfocus="true"
+      transition="dialog-transition"
+      width="290px"
+    >
+      <v-date-picker-stub
+        data-z-date-field-picker=""
+        dayformat="[Function]"
+        eventcolor="warning"
+        firstdayofweek="1"
+        headerdateformat="[Function]"
+        locale="ja-JP"
+        localefirstdayofyear="0"
+        max="2028-05-17"
+        min="1920-01-01"
+        nexticon="$next"
+        nextmontharialabel="$vuetify.datePicker.nextMonthAriaLabel"
+        nextyeararialabel="$vuetify.datePicker.nextYearAriaLabel"
+        notitle="true"
+        previcon="$prev"
+        prevmontharialabel="$vuetify.datePicker.prevMonthAriaLabel"
+        prevyeararialabel="$vuetify.datePicker.prevYearAriaLabel"
+        selecteditemstext="$vuetify.datePicker.itemsSelected"
+        showcurrent="true"
+        titledateformat="[Function]"
+        type="date"
+        value="2009-10-22"
+        width="290"
+        yearformat="[Function]"
+      >
+        <v-spacer-stub
+          tag="div"
+        />
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-clear=""
+          text=""
+        >
+          クリア
+        </a>
+        <a
+          class="v-btn-stub"
+          color="primary"
+          data-z-date-field-button-cancel=""
+          text=""
+        >
+          キャンセル
+        </a>
+      </v-date-picker-stub>
+    </v-dialog-stub>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/ltcs-ins-cards/_cardId/edit.vue submit should display errors when server responses 400 Bad Request (error occurred in "ltcsInsCardServiceType") 1`] = `
+<div
+  class="root"
+  data-ltcs-ins-card-service-type=""
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined v-select error--text"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        aria-expanded="false"
+        aria-haspopup="listbox"
+        class="v-input__slot"
+        role="button"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-select__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            サービスの種類 *
+          </label>
+          <div
+            class="v-select__selections"
+          >
+            <div
+              class="v-select__selection v-select__selection--comma"
+            >
+              サービス種別2
+            </div>
+            <input
+              aria-readonly="false"
+              autocomplete="off"
+              readonly="readonly"
+              type="text"
+            />
+          </div>
+          <div
+            class="v-input__append-inner"
+          >
+            <div
+              class="v-input__icon v-input__icon--append"
+            >
+              <i
+                aria-hidden="true"
+                class="v-icon notranslate mdi mdi-menu-down theme--light error--text"
+              />
+            </div>
+          </div>
+          <input
+            type="hidden"
+            value="2"
+          />
+        </div>
+        <div
+          class="v-menu"
+        >
+          <!---->
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              サービスの種類を入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/ltcs-ins-cards/_cardId/edit.vue submit should display errors when server responses 400 Bad Request (error occurred in "ltcsLevel") 1`] = `
+<div
+  class="root"
+  data-ltcs-level=""
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined v-select error--text"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        aria-expanded="false"
+        aria-haspopup="listbox"
+        class="v-input__slot"
+        role="button"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-select__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            要介護状態区分等 *
+          </label>
+          <div
+            class="v-select__selections"
+          >
+            <div
+              class="v-select__selection v-select__selection--comma"
+            >
+              要介護5
+            </div>
+            <input
+              aria-readonly="false"
+              autocomplete="off"
+              readonly="readonly"
+              type="text"
+            />
+          </div>
+          <div
+            class="v-input__append-inner"
+          >
+            <div
+              class="v-input__icon v-input__icon--append"
+            >
+              <i
+                aria-hidden="true"
+                class="v-icon notranslate mdi mdi-menu-down theme--light error--text"
+              />
+            </div>
+          </div>
+          <input
+            type="hidden"
+            value="25"
+          />
+        </div>
+        <div
+          class="v-menu"
+        >
+          <!---->
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              要介護状態区分等を入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/ltcs-ins-cards/_cardId/edit.vue submit should display errors when server responses 400 Bad Request (error occurred in "maxBenefitQuota") 1`] = `
+<div
+  class="root"
+  data-max-benefit-quota=""
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input z-text-field--numeric v-input--has-state v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined error--text"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        class="v-input__slot"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-text-field__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            種類支給限度基準額 *
+          </label>
+          <input
+            type="text"
+          />
+          <div
+            class="v-text-field__suffix"
+          >
+            単位/月
+          </div>
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              種類支給限度基準額を入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/users/_id/ltcs-ins-cards/_cardId/edit.vue submit should display errors when server responses 400 Bad Request (error occurred in "status") 1`] = `
+<div
+  class="root"
+  data-ltcs-ins-card-status=""
+  data-z-form-card-item=""
+>
+  <div
+    class="v-input v-input--has-state v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined v-select error--text"
+  >
+    <div
+      class="v-input__control"
+    >
+      <div
+        aria-expanded="false"
+        aria-haspopup="listbox"
+        class="v-input__slot"
+        role="button"
+        style="background-color: rgb(241, 246, 250); border-color: #f1f6fa;"
+      >
+        <fieldset
+          aria-hidden="true"
+        >
+          <legend
+            style="width: -24px;"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+        <div
+          class="v-select__slot"
+        >
+          <label
+            class="v-label v-label--active theme--light error--text"
+            style="left: 0px; position: absolute;"
+          >
+            認定区分 *
+          </label>
+          <div
+            class="v-select__selections"
+          >
+            <div
+              class="v-select__selection v-select__selection--comma"
+            >
+              認定済
+            </div>
+            <input
+              aria-readonly="false"
+              autocomplete="off"
+              readonly="readonly"
+              type="text"
+            />
+          </div>
+          <div
+            class="v-input__append-inner"
+          >
+            <div
+              class="v-input__icon v-input__icon--append"
+            >
+              <i
+                aria-hidden="true"
+                class="v-icon notranslate mdi mdi-menu-down theme--light error--text"
+              />
+            </div>
+          </div>
+          <input
+            type="hidden"
+            value="2"
+          />
+        </div>
+        <div
+          class="v-menu"
+        >
+          <!---->
+        </div>
+      </div>
+      <div
+        class="v-text-field__details"
+      >
+        <div
+          class="v-messages theme--light error--text"
+          role="alert"
+        >
+          <transition-group-stub
+            class="v-messages__wrapper"
+            name="message-transition"
+            tag="div"
+          >
+            <div
+              class="v-messages__message"
+            >
+              認定区分を入力してください。
+            </div>
+          </transition-group-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

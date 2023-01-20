@@ -1,0 +1,10 @@
+schedule:
+    date: null
+    start: null
+    end: null
+category: 11
+headcount: 1
+movingDurationMinutes: 0
+ownExpenseProgramId: null
+options: 300001
+note: aaa

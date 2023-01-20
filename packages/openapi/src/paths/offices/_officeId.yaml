@@ -1,0 +1,80 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+get:
+  summary: 事業所取得
+  description: 事業所の詳細を取得する。
+  parameters:
+    - $ref: '#/components/parameters/officeId'
+  responses:
+    '200':
+      description: 正常に処理が行われた場合
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              homeHelpServiceCalcSpecs:
+                type: array
+                items:
+                  $ref: '#/components/schemas/HomeHelpServiceCalcSpec'
+              homeVisitLongTermCareCalcSpecs:
+                type: array
+                items:
+                  $ref: '#/components/schemas/HomeVisitLongTermCareCalcSpec'
+              office:
+                $ref: '#/components/schemas/Office'
+              officeGroup:
+                $ref: '#/components/schemas/OfficeGroup'
+              visitingCareForPwsdCalcSpecs:
+                type: array
+                items:
+                  $ref: '#/components/schemas/VisitingCareForPwsdCalcSpec'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+    '404':
+      description: 事業所 ID に対応する事業所が存在しない場合
+  tags:
+    - 事業所
+put:
+  summary: 事業所更新
+  description: 事業所情報を更新する。
+  parameters:
+    - $ref: '#/components/parameters/officeId'
+  requestBody:
+    content:
+      application/json:
+        schema:
+          $ref: '#/components/schemas/OfficeForm'
+  responses:
+    '200':
+      description: 正常に処理が行われた場合
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              homeHelpServiceCalcSpecs:
+                type: array
+                items:
+                  $ref: '#/components/schemas/HomeHelpServiceCalcSpec'
+              homeVisitLongTermCareCalcSpecs:
+                type: array
+                items:
+                  $ref: '#/components/schemas/HomeVisitLongTermCareCalcSpec'
+              office:
+                $ref: '#/components/schemas/Office'
+              officeGroup:
+                $ref: '#/components/schemas/OfficeGroup'
+              visitingCareForPwsdCalcSpecs:
+                type: array
+                items:
+                  $ref: '#/components/schemas/VisitingCareForPwsdCalcSpec'
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+    '404':
+      description: 事業所 ID に対応する事業所が存在しない場合
+  tags:
+    - 事業所

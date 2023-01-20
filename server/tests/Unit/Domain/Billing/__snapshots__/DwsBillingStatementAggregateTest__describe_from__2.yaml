@@ -1,0 +1,15 @@
+serviceDivisionCode: '12'
+startedOn: '2021-01-01T00:00:00+09:00'
+terminatedOn: '2021-12-31T00:00:00+09:00'
+serviceDays: 22
+subtotalScore: 68546
+unitCost: 112000
+subtotalFee: 767715
+unmanagedCopay: 76771
+managedCopay: 76771
+cappedCopay: 37200
+adjustedCopay: null
+coordinatedCopay: 10086
+subtotalCopay: 10086
+subtotalBenefit: 757629
+subtotalSubsidy: null

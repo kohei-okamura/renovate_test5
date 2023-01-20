@@ -1,0 +1,20 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 事業所：指定区分
+name: OfficeQualification
+php:
+  enabled: true
+  namespace: Office
+typescript:
+  enabled: true
+items:
+  - { description: 居宅介護（障害福祉サービス）, name: DwsHomeHelpService, value: '1011' }
+  - { description: 重度訪問介護（障害福祉サービス）, name: DwsVisitingCareForPwsd, value: '1012' }
+  - { description: 地域生活支援事業・移動支援（障害福祉サービス）, name: DwsCommAccompany, value: '1072' }
+  - { description: その他障害福祉サービス, name: DwsOthers, value: '10ZZ' }
+  - { description: 訪問介護（介護保険サービス）, name: LtcsHomeVisitLongTermCare, value: '2011' }
+  - { description: 総合事業・訪問型サービス（介護保険サービス）, name: LtcsCompHomeVisiting, value: '20A0' }
+  - { description: 居宅介護支援（介護保険サービス）, name: LtcsCareManagement, value: '2046' }
+  - { description: 介護予防支援（介護保険サービス）, name: LtcsPrevention, value: '20A4' }
+  - { description: その他介護保険サービス, name: LtcsOthers, value: '20ZZ' }

@@ -1,0 +1,61 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+get:
+  summary: 自費サービス取得
+  description: 自費サービスの詳細を取得する。
+  parameters:
+    - $ref: '#/components/parameters/ownExpenseProgramId'
+  responses:
+    '200':
+      description: 正常に処理が行われた場合
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              ownExpenseProgram:
+                $ref: '#/components/schemas/OwnExpenseProgram'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+    '404':
+      description: 自費サービス ID に対応する自費サービスが存在しない場合
+  tags:
+    - 自費サービス
+put:
+  summary: 自費サービス更新
+  description: 自費サービス情報を更新する。
+  parameters:
+    - $ref: '#/components/parameters/ownExpenseProgramId'
+  requestBody:
+    content:
+      application/json:
+        schema:
+          type: object
+          properties:
+            name:
+              description: 名称
+              type: string
+            note:
+              description: 備考
+              type: string
+          required:
+            - name
+  responses:
+    '200':
+      description: 正常に処理が行われた場合
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              ownExpenseProgram:
+                $ref: '#/components/schemas/OwnExpenseProgram'
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+    '404':
+      description: 自費サービス ID に対応する自費サービスが存在しない場合
+  tags:
+    - 自費サービス

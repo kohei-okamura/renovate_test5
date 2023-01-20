@@ -1,0 +1,16 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 介護保険被保険者証：サービスの種類
+name: LtcsInsCardServiceType
+php:
+  enabled: true
+  namespace: LtcsInsCard
+typescript:
+  enabled: true
+items:
+  # とりあえず適当な値を用いる.
+  # TODO: 正しい値を調査？ヒアリング？して設定する.
+  - { description: サービス種別1, name: ServiceType1, value: 1 }
+  - { description: サービス種別2, name: ServiceType2, value: 2 }
+  - { description: サービス種別3, name: ServiceType3, value: 3 }

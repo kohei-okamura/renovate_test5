@@ -1,0 +1,23 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+description: 自費サービス登録／更新フォーム
+type: object
+properties:
+  officeId:
+    $ref: '#/components/schemas/OfficeId'
+  name:
+    description: 名称
+    type: string
+  durationMinutes:
+    description: 単位時間数
+    type: integer
+  fee:
+    $ref: '#/components/schemas/Expense'
+  note:
+    description: 備考
+    type: string
+required:
+  - name
+  - durationMinutes
+  - fee

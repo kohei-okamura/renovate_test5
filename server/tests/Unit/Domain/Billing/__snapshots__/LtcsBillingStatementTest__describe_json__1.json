@@ -1,0 +1,130 @@
+{
+    "id": 22519017,
+    "billingId": 93152532,
+    "bundleId": 78289017,
+    "insurerNumber": "519388",
+    "insurerName": "\u76db\u5ca1\u5e02",
+    "user": {
+        "userId": 46457795,
+        "ltcsInsCardId": 18011460,
+        "insNumber": "1568891108",
+        "name": {
+            "displayName": "\u5bcc\u6a2b \u53cb\u9999",
+            "phoneticDisplayName": "\u30c8\u30ac\u30b7 \u30c8\u30e2\u30ab",
+            "familyName": "\u5bcc\u6a2b",
+            "givenName": "\u53cb\u9999",
+            "phoneticFamilyName": "\u30c8\u30ac\u30b7",
+            "phoneticGivenName": "\u30c8\u30e2\u30ab"
+        },
+        "sex": 2,
+        "birthday": "1970-08-28T00:00:00+0900",
+        "ltcsLevel": 24,
+        "activatedOn": "2017-04-16T00:00:00+0900",
+        "deactivatedOn": "1988-10-19T00:00:00+0900"
+    },
+    "carePlanAuthor": {
+        "authorType": 1,
+        "officeId": 97811357,
+        "code": "1321928942",
+        "name": "\u682a\u5f0f\u4f1a\u793e \u6850\u5c71"
+    },
+    "agreedOn": "1999-08-27T00:00:00+0900",
+    "expiredOn": "1976-09-04T00:00:00+0900",
+    "expiredReason": 6,
+    "insurance": {
+        "benefitRate": 90,
+        "totalScore": 76658,
+        "claimAmount": 70326,
+        "copayAmount": 31923
+    },
+    "subsidies": [
+        {
+            "defrayerCategory": 81,
+            "defrayerNumber": "90982440",
+            "recipientNumber": "30772136",
+            "benefitRate": 100,
+            "totalScore": 76703,
+            "claimAmount": 23928,
+            "copayAmount": 93923
+        },
+        {
+            "defrayerCategory": null,
+            "defrayerNumber": "",
+            "recipientNumber": "",
+            "benefitRate": null,
+            "totalScore": 0,
+            "claimAmount": 0,
+            "copayAmount": 0
+        },
+        {
+            "defrayerCategory": null,
+            "defrayerNumber": "",
+            "recipientNumber": "",
+            "benefitRate": null,
+            "totalScore": 0,
+            "claimAmount": 0,
+            "copayAmount": 0
+        }
+    ],
+    "items": [
+        {
+            "serviceCode": "118592",
+            "serviceCodeCategory": 113000,
+            "unitScore": 1382,
+            "count": 16,
+            "totalScore": 67284,
+            "subsidies": [
+                {
+                    "count": 21,
+                    "totalScore": 557601
+                },
+                {
+                    "count": 0,
+                    "totalScore": 0
+                },
+                {
+                    "count": 0,
+                    "totalScore": 0
+                }
+            ],
+            "note": "300"
+        }
+    ],
+    "aggregates": [
+        {
+            "serviceDivisionCode": "11",
+            "serviceDays": 3,
+            "plannedScore": 382759,
+            "managedScore": 124281,
+            "unmanagedScore": 50551,
+            "insurance": {
+                "totalScore": 503019,
+                "unitCost": 114000,
+                "claimAmount": 590722,
+                "copayAmount": 209863
+            },
+            "subsidies": [
+                {
+                    "totalScore": 561173,
+                    "claimAmount": 493609,
+                    "copayAmount": 484278
+                },
+                {
+                    "totalScore": 0,
+                    "claimAmount": 0,
+                    "copayAmount": 0
+                },
+                {
+                    "totalScore": 0,
+                    "claimAmount": 0,
+                    "copayAmount": 0
+                }
+            ]
+        }
+    ],
+    "appendix": null,
+    "status": 10,
+    "fixedAt": "1975-07-15T09:32:00+0900",
+    "createdAt": "1993-02-18T11:57:24+0900",
+    "updatedAt": "2020-07-18T03:50:48+0900"
+}

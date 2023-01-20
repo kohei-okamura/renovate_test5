@@ -1,0 +1,15 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 障害福祉サービス：請求：状態
+name: DwsBillingStatus
+php:
+  enabled: true
+  namespace: Billing
+typescript:
+  enabled: true
+items:
+  - { description: 入力中, name: Checking, value: 10 }
+  - { description: 未確定, name: Ready, value: 20 }
+  - { description: 確定済, name: Fixed, value: 30 }
+  - { description: 無効, name: Disabled, value: 99 }

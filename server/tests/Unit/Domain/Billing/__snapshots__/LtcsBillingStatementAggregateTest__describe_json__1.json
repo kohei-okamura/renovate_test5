@@ -1,0 +1,30 @@
+{
+    "serviceDivisionCode": "11",
+    "serviceDays": 20,
+    "plannedScore": 57878,
+    "managedScore": 444238,
+    "unmanagedScore": 459666,
+    "insurance": {
+        "totalScore": 296956,
+        "unitCost": 111200,
+        "claimAmount": 539297,
+        "copayAmount": 194157
+    },
+    "subsidies": [
+        {
+            "totalScore": 18087,
+            "claimAmount": 229439,
+            "copayAmount": 351933
+        },
+        {
+            "totalScore": 0,
+            "claimAmount": 0,
+            "copayAmount": 0
+        },
+        {
+            "totalScore": 0,
+            "claimAmount": 0,
+            "copayAmount": 0
+        }
+    ]
+}

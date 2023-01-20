@@ -1,0 +1,40 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 障害福祉サービス：予実
+type: object
+properties:
+  id:
+    description: 予実 ID
+    type: object
+  userId:
+    description: 利用者 ID
+    type: object
+  officeId:
+    description: 事業所 ID
+    type: object
+  contractId:
+    description: 契約 ID
+    type: object
+  providedIn:
+    $ref: '#/components/schemas/DateLike'
+  plans:
+    description: 予定
+    type: array
+    items:
+      $ref: '#/components/schemas/DwsProvisionReportItem'
+  results:
+    description: 実績
+    type: array
+    items:
+      $ref: '#/components/schemas/DwsProvisionReportItem'
+  status:
+    $ref: '#/components/schemas/DwsProvisionReportStatus'
+  fixedAt:
+    $ref: '#/components/schemas/DateLike'
+  createdAt:
+    $ref: '#/components/schemas/DateLike'
+  updatedAt:
+    $ref: '#/components/schemas/DateLike'

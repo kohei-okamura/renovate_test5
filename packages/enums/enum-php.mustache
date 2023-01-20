@@ -1,0 +1,59 @@
+<?php
+/*
+ * Copyright © {{year}} EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+ * UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+ *
+ * THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+ */
+declare(strict_types=1);
+
+namespace Domain\{{params.php.namespace}};
+
+{{#params.php.imports}}
+use {{{.}}};
+{{/params.php.imports}}
+
+/**
+ * {{{params.description}}}.
+ *
+{{#params.items}}
+ * @method static {{{params.name}}} {{{names.camelCase}}}() {{{description}}}
+{{/params.items}}
+ */
+final class {{{params.name}}} extends Enum
+{
+{{#params.php.trait.enabled}}
+{{#params.php.trait.entries}}
+    use {{.}};
+{{/params.php.trait.entries}}
+
+{{/params.php.trait.enabled}}
+    /** {@inheritdoc} */
+    protected static array $values = [
+    {{#params.items}}
+        '{{{names.camelCase}}}' => {{{value}}},
+    {{/params.items}}
+    ];
+{{#params.php.withResolver}}
+
+    /**
+     * Map for resolve function.
+     */
+    private static array $map = [
+    {{#params.items}}
+        {{{value}}} => '{{{description}}}',
+    {{/params.items}}
+    ];
+
+    /**
+     * Resolve {{{params.name}}} to label.
+     *
+     * @param \Domain\{{params.php.namespace}}\{{params.name}} $x
+     * @return string
+     */
+    public static function resolve({{{params.name}}} $x): string
+    {
+        return self::$map[$x->value()];
+    }
+{{/params.php.withResolver}}
+}

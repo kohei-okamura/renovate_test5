@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-flex.vue should be rendered correctly 1`] = `
+<div
+  class="d-flex"
+>
+  <div>
+    FOO BAR BAZ
+  </div>
+</div>
+`;

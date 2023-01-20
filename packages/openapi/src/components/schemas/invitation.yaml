@@ -1,0 +1,39 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 招待
+type: object
+properties:
+  id:
+    description: 招待 ID
+    type: object
+  email:
+    description: メールアドレス
+    type: string
+  token:
+    description: トークン
+    type: string
+  roleIds:
+    description: ロール
+    type: array
+    items:
+      description: ロール
+      type: object
+  officeIds:
+    description: 事業所
+    type: array
+    items:
+      description: 事業所
+      type: object
+  officeGroupIds:
+    description: 事業所グループ
+    type: array
+    items:
+      description: 事業所グループ
+      type: object
+  expiredAt:
+    $ref: '#/components/schemas/DateLike'
+  createdAt:
+    $ref: '#/components/schemas/DateLike'

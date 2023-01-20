@@ -1,0 +1,88 @@
+-
+    dwsNumber: 1234567890
+    userAddr:
+        postcode: '1640000'
+        prefecture: 13
+        city: 中野区
+        street: ここどこ町
+        apartment: 架空建物
+    dwsBillingUser:
+        userId: 1
+        dwsCertificationId: 1
+        dwsNumber: 1234567890
+        name:
+            displayName: '固定姓 固定名'
+            phoneticDisplayName: 'コテイセイ コテイメイ'
+            familyName: 固定姓
+            givenName: 固定名
+            phoneticFamilyName: コテイセイ
+            phoneticGivenName: コテイメイ
+        childName:
+            displayName: '固定児童姓 固定児童名'
+            phoneticDisplayName: 'コテイジドウセイ コテイジドウメイ'
+            familyName: 固定児童姓
+            givenName: 固定児童名
+            phoneticFamilyName: コテイジドウセイ
+            phoneticGivenName: コテイジドウメイ
+        copayLimit: null
+    providedIn: 2021年4月
+    issuedOn: 2021年11月10日
+    cityName: 浜田市
+    dwsServiceDivision: 居宅介護
+    office:
+        name: 事業所テスト
+        corporationName: 事業所テスト
+        addr:
+            postcode: 111-1111
+            prefecture: 37
+            city: 事業所市
+            street: 事業所1-2-8-9
+            apartment: 事業所建物
+        tel: 012-245-6789
+    subtotalFee: 700000
+    subtotalCopay: 37200
+    receiptedAmount: 662800
+-
+    dwsNumber: 1234567890
+    userAddr:
+        postcode: '1640000'
+        prefecture: 13
+        city: 中野区
+        street: ここどこ町
+        apartment: 架空建物
+    dwsBillingUser:
+        userId: 1
+        dwsCertificationId: 1
+        dwsNumber: 1234567890
+        name:
+            displayName: '固定姓 固定名'
+            phoneticDisplayName: 'コテイセイ コテイメイ'
+            familyName: 固定姓
+            givenName: 固定名
+            phoneticFamilyName: コテイセイ
+            phoneticGivenName: コテイメイ
+        childName:
+            displayName: '固定児童姓 固定児童名'
+            phoneticDisplayName: 'コテイジドウセイ コテイジドウメイ'
+            familyName: 固定児童姓
+            givenName: 固定児童名
+            phoneticFamilyName: コテイジドウセイ
+            phoneticGivenName: コテイジドウメイ
+        copayLimit: null
+    providedIn: 2021年4月
+    issuedOn: 2021年11月10日
+    cityName: 浜田市
+    dwsServiceDivision: 重度訪問介護
+    office:
+        name: 事業所テスト
+        corporationName: 事業所テスト
+        addr:
+            postcode: 111-1111
+            prefecture: 37
+            city: 事業所市
+            street: 事業所1-2-8-9
+            apartment: 事業所建物
+        tel: 012-245-6789
+    subtotalFee: 700000
+    subtotalCopay: 37200
+    receiptedAmount: 662800

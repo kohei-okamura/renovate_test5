@@ -1,0 +1,33 @@
+name: "Jest for @zinger/frontend with coverage"
+
+on:
+  schedule:
+    - cron: '58 0 * * 1-5'
+  workflow_dispatch:
+
+jobs:
+  jest:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup
+        uses: ./.github/actions/setup-node-js
+      - name: Run jest
+        run: yarn test:ci:frontend:coverage
+        env:
+          NODE_OPTIONS: --max_old_space_size=4096
+          TZ: Asia/Tokyo
+      - name: Codecov
+        uses: codecov/codecov-action@v2
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          directory: ./packages/frontend/coverage
+          flags: frontend-unit-tests
+      - name: Slack Notification on Failure
+        if: ${{ failure() }}
+        uses: ./.github/actions/notify-to-slack
+        with:
+          color: danger
+          text: フロントエンドのテストでエラーが検出されました。
+          url: ${{ secrets.SLACK_WEBHOOK }}

@@ -1,0 +1,16 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 連絡先電話番号
+type: object
+properties:
+  tel:
+    description: 電話番号
+    type: string
+  relationship:
+    $ref: '#/components/schemas/ContactRelationship'
+  name:
+    description: 名前
+    type: string

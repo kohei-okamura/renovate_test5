@@ -1,0 +1,51 @@
+{
+  "name": "@zinger/openapi",
+  "version": "1.0.0",
+  "description": "Zinger api definition",
+  "private": true,
+  "scripts": {
+    "build": "make -j",
+    "gas:open": "clasp open",
+    "gas:pull": "clasp pull",
+    "gas:push": "run-s gas:push:*",
+    "gas:push:clean": "rimraf gas/*.js",
+    "gas:push:push": "clasp push",
+    "start": "run-s start:*",
+    "start:build": "run-s build",
+    "start:start": "reload --browser --dir dist",
+    "watch": "run-p watch:watch start",
+    "watch:watch": "npm-watch build"
+  },
+  "watch": {
+    "build": {
+      "patterns": [
+        "src"
+      ],
+      "ignore": [
+        "src/components/*.yaml",
+        "src/components/parameters/*-id.yaml",
+        "src/components/query-parameters/*-id.yaml",
+        "src/components/schemas/*.yaml",
+        "src/paths/index.yaml"
+      ],
+      "extensions": "yaml",
+      "runOnChangeOnly": true
+    }
+  },
+  "dependencies": {
+    "@google/clasp": "^2.4.1",
+    "@types/google-apps-script": "^1.0.45",
+    "@types/js-yaml": "^4.0.5",
+    "@zinger/helpers": "^1.0.0",
+    "change-case": "^4.1.2",
+    "js-yaml": "^4.1.0",
+    "npm-run-all": "^4.1.5",
+    "npm-watch": "^0.11.0",
+    "react-is": "^18.1.0",
+    "redoc-cli": "^0.13.7",
+    "reload": "^3.2.0",
+    "rimraf": "^3.0.0",
+    "swagger-merger": "^1.4.3",
+    "ts-node": "^10.4.0"
+  }
+}

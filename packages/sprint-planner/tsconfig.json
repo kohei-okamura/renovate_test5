@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext"],
+    "module": "commonjs",
+    "noEmit": false,
+    "removeComments": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "target": "es2019",
+    "types": [
+      "google-apps-script"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+    "id": 1,
+    "contractId": 3,
+    "officeId": 1,
+    "userId": 1,
+    "assignerId": 11,
+    "task": 801102,
+    "serviceCode": "123456",
+    "headcount": 2,
+    "assignees": [
+        {
+            "staffId": null,
+            "isUndecided": null,
+            "isTraining": null
+        }
+    ],
+    "schedule": {
+        "date": "2040-01-01",
+        "start": "2040-11-12T10:00:00+0900",
+        "end": "2040-11-12T11:00:00+0900"
+    },
+    "durations": [
+        {
+            "activity": null,
+            "duration": null
+        }
+    ],
+    "options": [
+        300001
+    ],
+    "note": "Note",
+    "isConfirmed": false,
+    "isCanceled": null,
+    "reason": "\u30ad\u30e3\u30f3\u30bb\u30eb\u7406\u7531",
+    "updatedAt": "2019-05-15T00:00:00+0900",
+    "createdAt": "2019-05-15T00:00:00+0900"
+}

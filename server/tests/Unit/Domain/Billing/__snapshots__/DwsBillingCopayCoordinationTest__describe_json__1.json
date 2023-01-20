@@ -1,0 +1,75 @@
+{
+    "id": 1,
+    "dwsBillingId": 3,
+    "dwsBillingBundleId": 1,
+    "office": {
+        "officeId": 1,
+        "code": "123456",
+        "name": "\u4e8b\u696d\u62401",
+        "abbr": "\u4e8b\u696d1",
+        "addr": {
+            "postcode": "739-0604",
+            "prefecture": 34,
+            "city": "\u5927\u7af9\u5e02",
+            "street": "\u5317\u68041-13-11",
+            "apartment": "\u5317\u6804\u8358411"
+        },
+        "tel": "090-3169-6661"
+    },
+    "user": {
+        "userId": 1,
+        "dwsCertificationId": 10,
+        "dwsNumber": "0123456789",
+        "name": {
+            "displayName": "\u571f\u5c4b \u82b1\u5b50",
+            "phoneticDisplayName": "\u30c4\u30c1\u30e4 \u30cf\u30ca\u30b3",
+            "familyName": "\u571f\u5c4b",
+            "givenName": "\u82b1\u5b50",
+            "phoneticFamilyName": "\u30c4\u30c1\u30e4",
+            "phoneticGivenName": "\u30cf\u30ca\u30b3"
+        },
+        "childName": {
+            "displayName": "\u571f\u5c4b \u592a\u90ce",
+            "phoneticDisplayName": "\u30c4\u30c1\u30e4 \u30bf\u30ed\u30a6",
+            "familyName": "\u571f\u5c4b",
+            "givenName": "\u592a\u90ce",
+            "phoneticFamilyName": "\u30c4\u30c1\u30e4",
+            "phoneticGivenName": "\u30bf\u30ed\u30a6"
+        },
+        "copayLimit": 10000
+    },
+    "result": 1,
+    "exchangeAim": 1,
+    "items": [
+        {
+            "itemNumber": 1,
+            "office": {
+                "officeId": 1,
+                "code": "123456",
+                "name": "\u4e8b\u696d\u62401",
+                "abbr": "\u4e8b\u696d1",
+                "addr": {
+                    "postcode": "739-0604",
+                    "prefecture": 34,
+                    "city": "\u5927\u7af9\u5e02",
+                    "street": "\u5317\u68041-13-11",
+                    "apartment": "\u5317\u6804\u8358411"
+                },
+                "tel": "090-3169-6661"
+            },
+            "subtotal": {
+                "fee": 10000,
+                "copay": 10000,
+                "coordinatedCopay": 10000
+            }
+        }
+    ],
+    "total": {
+        "fee": 10000,
+        "copay": 10000,
+        "coordinatedCopay": 10000
+    },
+    "status": 10,
+    "createdAt": "2019-05-15T00:00:00+0900",
+    "updatedAt": "2019-05-15T00:00:00+0900"
+}

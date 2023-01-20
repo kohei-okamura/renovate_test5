@@ -1,0 +1,19 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 利用者請求：事業所
+type: object
+properties:
+  name:
+    description: 事業所名
+    type: string
+  corporationName:
+    description: 法人名
+    type: string
+  addr:
+    $ref: '#/components/schemas/Addr'
+  tel:
+    description: 電話番号
+    type: string

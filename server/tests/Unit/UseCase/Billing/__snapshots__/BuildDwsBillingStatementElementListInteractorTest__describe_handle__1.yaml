@@ -1,0 +1,60 @@
+-
+    serviceCode:
+        serviceDivisionCode: '11'
+        serviceCategoryCode: '1147'
+    serviceCodeCategory: 111000
+    unitScore: 1139
+    isAddition: false
+    count: 1
+    providedOn:
+        - '2021-01-03T00:00:00+09:00'
+-
+    serviceCode:
+        serviceDivisionCode: '11'
+        serviceCategoryCode: '7667'
+    serviceCodeCategory: 112000
+    unitScore: 438
+    isAddition: false
+    count: 1
+    providedOn:
+        - '2021-01-07T00:00:00+09:00'
+-
+    serviceCode:
+        serviceDivisionCode: '11'
+        serviceCategoryCode: '6010'
+    serviceCodeCategory: 990101
+    unitScore: 315
+    isAddition: true
+    count: 1
+    providedOn:
+        - '2021-01-31T00:00:00+09:00'
+-
+    serviceCode:
+        serviceDivisionCode: '11'
+        serviceCategoryCode: '5010'
+    serviceCodeCategory: 990601
+    unitScore: 150
+    isAddition: true
+    count: 1
+    providedOn:
+        - '2021-01-31T00:00:00+09:00'
+-
+    serviceCode:
+        serviceDivisionCode: '11'
+        serviceCategoryCode: '6715'
+    serviceCodeCategory: 990801
+    unitScore: 617
+    isAddition: true
+    count: 1
+    providedOn:
+        - '2021-01-31T00:00:00+09:00'
+-
+    serviceCode:
+        serviceDivisionCode: '11'
+        serviceCategoryCode: '6772'
+    serviceCodeCategory: 991001
+    unitScore: 151
+    isAddition: true
+    count: 1
+    providedOn:
+        - '2021-01-31T00:00:00+09:00'

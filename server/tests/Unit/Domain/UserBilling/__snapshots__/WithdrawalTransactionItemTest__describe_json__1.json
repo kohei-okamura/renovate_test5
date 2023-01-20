@@ -1,0 +1,17 @@
+{
+    "userBillingIds": [
+        1,
+        2
+    ],
+    "zenginRecord": {
+        "bankCode": null,
+        "bankBranchCode": null,
+        "bankAccountType": null,
+        "bankAccountNumber": null,
+        "bankAccountHolder": null,
+        "amount": null,
+        "dataRecordCode": null,
+        "clientNumber": null,
+        "withdrawalResultCode": null
+    }
+}

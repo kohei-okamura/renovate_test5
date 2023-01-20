@@ -1,0 +1,15 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 銀行口座：種別
+name: BankAccountType
+php:
+  enabled: true
+  namespace: BankAccount
+typescript:
+  enabled: true
+items:
+  - { description: 不明, name: Unknown, value: 0 }
+  - { description: 普通預金, name: OrdinaryDeposit, value: 1 }
+  - { description: 当座預金, name: CurrentDeposit, value: 2 }
+  - { description: 定期預金, name: FixedDeposit, value: 3 }

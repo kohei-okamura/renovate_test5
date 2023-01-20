@@ -1,0 +1,51 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 障害福祉サービス：計画
+type: object
+properties:
+  id:
+    description: 計画 ID
+    type: object
+  contractId:
+    description: 契約 ID
+    type: object
+  officeId:
+    description: 事業所 ID
+    type: object
+  userId:
+    description: 利用者 ID
+    type: object
+  staffId:
+    description: 作成者 ID
+    type: object
+  writtenOn:
+    $ref: '#/components/schemas/DateLike'
+  effectivatedOn:
+    $ref: '#/components/schemas/DateLike'
+  requestFromUser:
+    description: ご本人の希望
+    type: string
+  requestFromFamily:
+    description: ご家族の希望
+    type: string
+  objective:
+    description: 援助目標
+    type: string
+  programs:
+    description: 週間サービス計画
+    type: array
+    items:
+      $ref: '#/components/schemas/DwsProjectProgram'
+  isEnabled:
+    description: 有効フラグ
+    type: boolean
+  version:
+    description: バージョン
+    type: number
+  createdAt:
+    $ref: '#/components/schemas/DateLike'
+  updatedAt:
+    $ref: '#/components/schemas/DateLike'

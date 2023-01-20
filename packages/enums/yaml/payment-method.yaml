@@ -1,0 +1,15 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 支払方法
+name: PaymentMethod
+php:
+  enabled: true
+  namespace: User
+typescript:
+  enabled: true
+items:
+  - { description: 未設定, name: None, value: 0 }
+  - { description: 口座振替, name: Withdrawal, value: 1 }
+  - { description: 銀行振込, name: Transfer, value: 2 }
+  - { description: 集金, name: Collection, value: 3 }

@@ -1,0 +1,32 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+CallingNotFound:
+  description: トークンに対応する出勤確認が存在しない場合
+Created:
+  description: 正常に処理が行われた場合
+OK:
+  description: 正常に処理が行われた場合
+NoContent:
+  description: 正常に処理が行われた場合
+OfficeNotFound:
+  description: 事業所 ID に対応する利用者が存在しない場合
+StaffNotFound:
+  description: スタッフ ID に対応するスタッフが存在しない場合
+TokenExpired:
+  description: トークンの有効期限が切れている場合
+Unauthenticated:
+  description: 未認証の場合
+UserNotFound:
+  description: 利用者 ID に対応する利用者が存在しない場合
+ValidationFailed:
+  description: 入力値に不備がある場合
+JobCreated:
+  description: 正常に非同期ジョブ作成処理が行われた場合
+  content:
+    application/json:
+      schema:
+        type: object
+        properties:
+          job:
+            $ref: '#/components/schemas/Job'

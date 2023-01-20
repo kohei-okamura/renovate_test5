@@ -1,0 +1,51 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 介護保険サービス：予実
+type: object
+properties:
+  id:
+    description: 予実 ID
+    type: object
+  userId:
+    description: 利用者 ID
+    type: object
+  officeId:
+    description: 事業所 ID
+    type: object
+  contractId:
+    description: 契約 ID
+    type: object
+  provisionReportType:
+    $ref: '#/components/schemas/LtcsProvisionReportType'
+  providedIn:
+    $ref: '#/components/schemas/DateLike'
+  entries:
+    description: サービス情報
+    type: array
+    items:
+      $ref: '#/components/schemas/LtcsProvisionReportEntry'
+  specifiedOfficeAddition:
+    $ref: '#/components/schemas/HomeVisitLongTermCareSpecifiedOfficeAddition'
+  treatmentImprovementAddition:
+    $ref: '#/components/schemas/LtcsTreatmentImprovementAddition'
+  specifiedTreatmentImprovementAddition:
+    $ref: '#/components/schemas/LtcsSpecifiedTreatmentImprovementAddition'
+  baseIncreaseSupportAddition:
+    $ref: '#/components/schemas/LtcsBaseIncreaseSupportAddition'
+  locationAddition:
+    $ref: '#/components/schemas/LtcsOfficeLocationAddition'
+  plan:
+    $ref: '#/components/schemas/LtcsProvisionReportOverScore'
+  result:
+    $ref: '#/components/schemas/LtcsProvisionReportOverScore'
+  status:
+    $ref: '#/components/schemas/LtcsProvisionReportStatus'
+  fixedAt:
+    $ref: '#/components/schemas/DateLike'
+  createdAt:
+    $ref: '#/components/schemas/DateLike'
+  updatedAt:
+    $ref: '#/components/schemas/DateLike'

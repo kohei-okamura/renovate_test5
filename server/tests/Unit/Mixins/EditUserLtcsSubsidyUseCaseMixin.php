@@ -1,0 +1,37 @@
+<?php
+/**
+ * Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+ * UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+ */
+declare(strict_types=1);
+
+namespace Tests\Unit\Mixins;
+
+use Mockery;
+use UseCase\User\EditUserLtcsSubsidyUseCase;
+
+/**
+ * EditUserLtcsSubsidyUsecase Mixin
+ *
+ * @mixin \Tests\Unit\Helpers\UnitSupport
+ */
+trait EditUserLtcsSubsidyUseCaseMixin
+{
+    /** @var \Mockery\MockInterface|\UseCase\User\EditUserLtcsSubsidyUseCase */
+    protected $editUserLtcsSubsidyUseCase;
+
+    /**
+     * {@link \UseCase\User\EditUserLtcsSubsidyUseCase} に関する初期化・終了処理を登録する
+     *
+     * @return void
+     */
+    public static function mixinEditUserLtcsSubsidyUseCase(): void
+    {
+        static::beforeEachTest(function ($self): void {
+            app()->bind(EditUserLtcsSubsidyUseCase::class, fn () => $self->editUserLtcsSubsidyUseCase);
+        });
+        static::beforeEachSpec(function ($self): void {
+            $self->editUserLtcsSubsidyUseCase = Mockery::mock(EditUserLtcsSubsidyUseCase::class);
+        });
+    }
+}

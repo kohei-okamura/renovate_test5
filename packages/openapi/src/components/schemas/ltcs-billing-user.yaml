@@ -1,0 +1,29 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 介護保険サービス：請求：利用者
+type: object
+properties:
+  userId:
+    description: 利用者 ID
+    type: object
+  ltcsInsCardId:
+    description: 介護保険被保険者証 ID
+    type: object
+  insNumber:
+    description: 被保険者証番号
+    type: string
+  name:
+    $ref: '#/components/schemas/StructuredName'
+  sex:
+    $ref: '#/components/schemas/Sex'
+  birthday:
+    $ref: '#/components/schemas/DateLike'
+  ltcsLevel:
+    $ref: '#/components/schemas/LtcsLevel'
+  activatedOn:
+    $ref: '#/components/schemas/DateLike'
+  deactivatedOn:
+    $ref: '#/components/schemas/DateLike'

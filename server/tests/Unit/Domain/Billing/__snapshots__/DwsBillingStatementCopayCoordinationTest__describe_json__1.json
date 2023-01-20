@@ -1,0 +1,18 @@
+{
+    "office": {
+        "officeId": 1,
+        "code": "123456",
+        "name": "\u4e8b\u696d\u62401",
+        "abbr": "\u4e8b\u696d1",
+        "addr": {
+            "postcode": "739-0604",
+            "prefecture": 34,
+            "city": "\u5927\u7af9\u5e02",
+            "street": "\u5317\u68041-13-11",
+            "apartment": "\u5317\u6804\u8358411"
+        },
+        "tel": "090-3169-6661"
+    },
+    "result": 1,
+    "amount": 1000
+}

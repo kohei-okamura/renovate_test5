@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`api/ltcs-subsidy-api create delete should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/ltcs-subsidy-api create get should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/ltcs-subsidy-api create should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;
+
+exports[`api/ltcs-subsidy-api update should throw an AxiosError when failed to request 1`] = `"Request failed with status code 400"`;

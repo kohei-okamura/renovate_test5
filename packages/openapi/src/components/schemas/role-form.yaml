@@ -1,0 +1,26 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+description: ロール登録／更新フォーム
+type: object
+properties:
+  name:
+    description: ロール名
+    type: string
+  isSystemAdmin:
+    description: システム管理者フラグ（true の場合、全ての権限を指定した時と同等になる）
+    type: boolean
+  permissions:
+    description: 権限
+    type: object
+    additionalProperties:
+      type: boolean
+    example:
+      'billings/list': true
+  scope:
+    $ref: '#/components/schemas/RoleScope'
+required:
+  - name
+  - isSystemAdmin
+  - permissions
+  - scope

@@ -1,0 +1,24 @@
+-
+    serviceDivisionCode: '11'
+    serviceDays: 9
+    plannedScore: 2700
+    managedScore: 2700
+    unmanagedScore: 0
+    insurance:
+        totalScore: 2700
+        unitCost: 114000
+        claimAmount: 21546
+        copayAmount: 0
+    subsidies:
+        -
+            totalScore: 2700
+            claimAmount: 9234
+            copayAmount: 0
+        -
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0
+        -
+            totalScore: 0
+            claimAmount: 0
+            copayAmount: 0

@@ -1,0 +1,38 @@
+-
+    serviceCode:
+        serviceDivisionCode: '11'
+        serviceCategoryCode: '7311'
+    serviceCodeCategory: 113000
+    unitScore: 224
+    count: 5
+    totalScore: 1120
+    subsidies:
+        -
+            count: 5
+            totalScore: 1120
+        -
+            count: 0
+            totalScore: 0
+        -
+            count: 0
+            totalScore: 0
+    note: ''
+-
+    serviceCode:
+        serviceDivisionCode: '11'
+        serviceCategoryCode: '1211'
+    serviceCodeCategory: 111000
+    unitScore: 395
+    count: 4
+    totalScore: 1580
+    subsidies:
+        -
+            count: 4
+            totalScore: 1580
+        -
+            count: 0
+            totalScore: 0
+        -
+            count: 0
+            totalScore: 0
+    note: ''

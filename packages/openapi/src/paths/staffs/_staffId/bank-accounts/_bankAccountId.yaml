@@ -1,0 +1,24 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+put:
+  summary: スタッフ銀行口座更新
+  description: スタッフの銀行口座情報を更新する。
+  parameters:
+    - $ref: '#/components/parameters/staffId'
+  requestBody:
+    content:
+      application/json:
+        schema:
+          $ref: '#/components/schemas/BankAccountForm'
+  responses:
+    '200':
+      $ref: '#/components/responses/OK'
+    '400':
+      $ref: '#/components/responses/ValidationFailed'
+    '401':
+      $ref: '#/components/responses/Unauthenticated'
+    '404':
+      description: スタッフ ID に対応するスタッフ、もしくは銀行口座 ID に対応する銀行口座が存在しない場合
+  tags:
+    - スタッフ

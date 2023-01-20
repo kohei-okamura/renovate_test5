@@ -1,0 +1,8 @@
+# Copyright © 2021 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+description: 障害福祉サービス：明細書上限管理区分更新フォーム
+type: object
+properties:
+  status:
+    $ref: '#/components/schemas/DwsBillingStatementCopayCoordinationStatus'

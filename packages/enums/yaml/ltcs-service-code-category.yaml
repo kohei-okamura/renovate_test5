@@ -1,0 +1,44 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+
+description: 介護保険サービス：請求：サービスコード区分
+name: LtcsServiceCodeCategory
+php:
+  enabled: true
+  namespace: ServiceCodeDictionary
+  traits:
+    - LtcsServiceCodeCategorySupport
+typescript:
+  enabled: true
+items:
+  - { description: 身体, name: PhysicalCare, value: 111000 }
+  - { description: 身体＋生活, name: PhysicalCareAndHousework, value: 112000 }
+  - { description: 生活, name: Housework, value: 113000 }
+  - { description: 緊急時訪問介護加算, name: EmergencyAddition, value: 990101 }
+  - { description: 初回加算, name: FirstTimeAddition, value: 990201 }
+  - { description: 生活機能向上連携加算Ⅰ, name: VitalFunctionsImprovementAddition1, value: 990301 }
+  - { description: 生活機能向上連携加算Ⅱ, name: VitalFunctionsImprovementAddition2, value: 990302 }
+  - { description: 同一建物減算Ⅰ, name: BulkServiceSubtraction1, value: 990401 }
+  - { description: 同一建物減算Ⅱ, name: BulkServiceSubtraction2, value: 990402 }
+  - { description: 介護職員処遇改善加算Ⅰ, name: TreatmentImprovementAddition1, value: 990501 }
+  - { description: 介護職員処遇改善加算Ⅱ, name: TreatmentImprovementAddition2, value: 990502 }
+  - { description: 介護職員処遇改善加算Ⅲ, name: TreatmentImprovementAddition3, value: 990503 }
+  - { description: 介護職員処遇改善加算Ⅳ, name: TreatmentImprovementAddition4, value: 990504 }
+  - { description: 介護職員処遇改善加算Ⅴ, name: TreatmentImprovementAddition5, value: 990505 }
+  - { description: 介護職員等特定処遇改善加算Ⅰ, name: SpecifiedTreatmentImprovementAddition1, value: 990601 }
+  - { description: 介護職員等特定処遇改善加算Ⅱ, name: SpecifiedTreatmentImprovementAddition2, value: 990602 }
+  - { description: 共生型サービス減算（居宅介護1）, name: SymbioticServiceSubtraction1, value: 990701 }
+  - { description: 共生型サービス減算（居宅介護2）, name: SymbioticServiceSubtraction2, value: 990702 }
+  - { description: 共生型サービス減算（重度訪問介護）, name: SymbioticServiceSubtraction3, value: 990711 }
+  - { description: 特別地域訪問介護加算, name: SpecifiedAreaAddition, value: 990801 }
+  - { description: 小規模事業所加算（中山間地域等における小規模事業所加算）, name: SmallOfficeAddition, value: 990901 }
+  - { description: 中山間地域等提供加算（中山間地域等に居住する者へのサービス提供加算）, name: MountainousAreaAddition, value: 991001 }
+  - { description: 特定事業所加算Ⅰ, name: SpecifiedOfficeAddition1, value: 991101 }
+  - { description: 特定事業所加算Ⅱ, name: SpecifiedOfficeAddition2, value: 991102 }
+  - { description: 特定事業所加算Ⅲ, name: SpecifiedOfficeAddition3, value: 991103 }
+  - { description: 特定事業所加算Ⅳ, name: SpecifiedOfficeAddition4, value: 991104 }
+  - { description: 特定事業所加算Ⅴ, name: SpecifiedOfficeAddition5, value: 991105 }
+  - { description: 認知症専門ケア加算Ⅰ, name: DementiaCareSpecialistAddition1, value: 991201 }
+  - { description: 認知症専門ケア加算Ⅱ, name: DementiaCareSpecialistAddition2, value: 991202 }
+  - { description: 令和3年9月30日までの上乗せ分, name: Covid19PandemicSpecialAddition, value: 991301 }
+  - { description: 訪問介護ベースアップ等支援加算, name: BaseIncreaseSupportAddition, value: 991401 }

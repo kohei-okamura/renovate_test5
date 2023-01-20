@@ -1,0 +1,254 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`z-data-table.vue pc layout should be rendered correctly 1`] = `
+<div
+  class="root"
+  data-z-data-table=""
+>
+  <!---->
+  <v-card-stub
+    class="py-4"
+    loaderheight="4"
+    tag="div"
+  >
+    <div
+      class="v-data-table theme--light table"
+      data-desktop-table=""
+    >
+      <div
+        class="v-data-table__wrapper"
+      >
+        <table>
+          <colgroup>
+            <col
+              class=""
+            />
+            <col
+              class=""
+            />
+            <col
+              class=""
+            />
+          </colgroup>
+          <thead
+            class="v-data-table-header"
+          >
+            <tr>
+              <th
+                aria-label="Dessert (100g serving): Not sorted. Activate to sort ascending."
+                aria-sort="none"
+                class="text-start sortable"
+                role="columnheader"
+                scope="col"
+              >
+                <span>
+                  Dessert (100g serving)
+                </span>
+                <i
+                  aria-hidden="true"
+                  class="v-icon notranslate v-data-table-header__icon mdi mdi-arrow-up theme--light"
+                  style="font-size: 18px;"
+                />
+              </th>
+              <th
+                aria-label="Calories: Not sorted. Activate to sort ascending."
+                aria-sort="none"
+                class="text-start sortable"
+                role="columnheader"
+                scope="col"
+              >
+                <span>
+                  Calories
+                </span>
+                <i
+                  aria-hidden="true"
+                  class="v-icon notranslate v-data-table-header__icon mdi mdi-arrow-up theme--light"
+                  style="font-size: 18px;"
+                />
+              </th>
+              <th
+                aria-label="Fat (g): Not sorted. Activate to sort ascending."
+                aria-sort="none"
+                class="text-start sortable"
+                role="columnheader"
+                scope="col"
+              >
+                <span>
+                  Fat (g)
+                </span>
+                <i
+                  aria-hidden="true"
+                  class="v-icon notranslate v-data-table-header__icon mdi mdi-arrow-up theme--light"
+                  style="font-size: 18px;"
+                />
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              class=""
+            >
+              <td
+                class="text-start"
+              >
+                Frozen Yogurt
+              </td>
+              <td
+                class="text-start"
+              >
+                159
+              </td>
+              <td
+                class="text-start"
+              >
+                6
+              </td>
+            </tr>
+            <tr
+              class=""
+            >
+              <td
+                class="text-start"
+              >
+                Ice cream sandwich
+              </td>
+              <td
+                class="text-start"
+              >
+                237
+              </td>
+              <td
+                class="text-start"
+              >
+                9
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!---->
+  </v-card-stub>
+</div>
+`;
+
+exports[`z-data-table.vue smart phone layout should be rendered correctly 1`] = `
+<div
+  class="root"
+  data-z-data-table=""
+>
+  <!---->
+  <!---->
+  <!---->
+  <v-card-stub
+    class="mobileRoot"
+    loaderheight="4"
+    tag="div"
+  >
+    <v-card-text-stub
+      class="text"
+      tag="div"
+    >
+      <div
+        class="mobileColumn"
+      >
+        <div
+          class="text-caption header"
+        >
+            Dessert (100g serving)
+        </div>
+        <div
+          class="text-body-2 text--primary value"
+        >
+          Frozen Yogurt
+        </div>
+      </div>
+      <div
+        class="mobileColumn"
+      >
+        <div
+          class="text-caption header"
+        >
+            Calories
+        </div>
+        <div
+          class="text-body-2 text--primary value"
+        >
+          159
+        </div>
+      </div>
+      <div
+        class="mobileColumn"
+      >
+        <div
+          class="text-caption header"
+        >
+            Fat (g)
+        </div>
+        <div
+          class="text-body-2 text--primary value"
+        >
+          6
+        </div>
+      </div>
+    </v-card-text-stub>
+    <!---->
+  </v-card-stub>
+  <v-card-stub
+    class="mobileRoot"
+    loaderheight="4"
+    tag="div"
+  >
+    <v-card-text-stub
+      class="text"
+      tag="div"
+    >
+      <div
+        class="mobileColumn"
+      >
+        <div
+          class="text-caption header"
+        >
+            Dessert (100g serving)
+        </div>
+        <div
+          class="text-body-2 text--primary value"
+        >
+          Ice cream sandwich
+        </div>
+      </div>
+      <div
+        class="mobileColumn"
+      >
+        <div
+          class="text-caption header"
+        >
+            Calories
+        </div>
+        <div
+          class="text-body-2 text--primary value"
+        >
+          237
+        </div>
+      </div>
+      <div
+        class="mobileColumn"
+      >
+        <div
+          class="text-caption header"
+        >
+            Fat (g)
+        </div>
+        <div
+          class="text-body-2 text--primary value"
+        >
+          9
+        </div>
+      </div>
+    </v-card-text-stub>
+    <!---->
+  </v-card-stub>
+  <!---->
+  <!---->
+</div>
+`;

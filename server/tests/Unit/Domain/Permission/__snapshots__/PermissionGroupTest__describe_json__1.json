@@ -1,0 +1,9 @@
+{
+    "id": 1,
+    "code": "123456",
+    "name": "\u6a29\u9650\u30b0\u30eb\u30fc\u30d7\u540d",
+    "displayName": "\u8868\u793a\u540d",
+    "permissions": [
+        "staffs\/create"
+    ]
+}

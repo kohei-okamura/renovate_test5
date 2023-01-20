@@ -1,0 +1,9 @@
+itemNumber: 5
+cityCode: '123456'
+dwsNumber: '5432106789'
+name: ' '
+fee: 150000
+copay: 37200
+serviceDivision:
+    - '12'
+    - '11'

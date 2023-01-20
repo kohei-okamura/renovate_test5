@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`layouts/default.vue should be rendered correctly when greater than or equal a breakpoint 1`] = `
+<v-app-stub
+  class="z-app layout-default root"
+  data-layout-default=""
+  id="app"
+>
+  <z-app-bar-stub
+    numberofnotices="0"
+  />
+  <v-main-stub
+    tag="main"
+  >
+    <nuxt-stub />
+  </v-main-stub>
+  <z-navigation-drawer-stub />
+  <z-confirm-dialog-stub />
+  <v-snackbar-stub
+    color="info"
+    contentclass=""
+    tag="div"
+    timeout="5000"
+    top="true"
+    transition="v-snack-transition"
+  >
+  </v-snackbar-stub>
+  <z-notifications-stub
+    items=""
+  />
+</v-app-stub>
+`;
+
+exports[`layouts/default.vue should be rendered correctly when less than a breakpoint 1`] = `
+<v-app-stub
+  class="z-app layout-default root z-app--mobile"
+  data-layout-default=""
+  id="app"
+>
+  <z-app-bar-stub
+    numberofnotices="0"
+  />
+  <v-main-stub
+    tag="main"
+  >
+    <nuxt-stub />
+  </v-main-stub>
+  <z-navigation-drawer-stub />
+  <z-confirm-dialog-stub />
+  <v-snackbar-stub
+    color="info"
+    contentclass=""
+    tag="div"
+    timeout="5000"
+    top="true"
+    transition="v-snack-transition"
+  >
+  </v-snackbar-stub>
+  <z-notifications-stub
+    items=""
+  />
+</v-app-stub>
+`;

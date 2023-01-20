@@ -1,0 +1,42 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+get:
+  summary: パスワード再設定取得
+  description: パスワード再設定の詳細を取得する。
+  parameters:
+    - $ref: '#/components/parameters/token'
+  responses:
+    '200':
+      $ref: '#/components/responses/OK'
+    '404':
+      description: トークンに対応するパスワード再設定エンティティが存在しない場合
+    '410':
+      $ref: '#/components/responses/TokenExpired'
+  tags:
+    - スタッフ：パスワード再設定
+put:
+  summary: パスワード再設定更新
+  description: パスワード再設定情報を更新する。
+  parameters:
+    - $ref: '#/components/parameters/token'
+  requestBody:
+    content:
+      application/json:
+        schema:
+          type: object
+          properties:
+            password:
+              description: パスワード
+              type: string
+          required:
+            - password
+  responses:
+    '200':
+      $ref: '#/components/responses/OK'
+    '404':
+      description: トークンに対応するパスワード再設定エンティティが存在しない場合
+    '410':
+      $ref: '#/components/responses/TokenExpired'
+  tags:
+    - スタッフ：パスワード再設定

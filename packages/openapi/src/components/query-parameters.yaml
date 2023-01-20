@@ -1,0 +1,121 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+all:
+  $ref: ./query-parameters/all.yaml
+assigneeId:
+  $ref: ./query-parameters/assignee-id.yaml
+assignerId:
+  $ref: ./query-parameters/assigner-id.yaml
+attendanceId:
+  $ref: ./query-parameters/attendance-id.yaml
+bankAccountId:
+  $ref: ./query-parameters/bank-account-id.yaml
+contractId:
+  $ref: ./query-parameters/contract-id.yaml
+desc:
+  $ref: ./query-parameters/desc.yaml
+dwsAreaGradeId:
+  $ref: ./query-parameters/dws-area-grade-id.yaml
+dwsBillingBundleId:
+  $ref: ./query-parameters/dws-billing-bundle-id.yaml
+dwsBillingCopayCoordinationId:
+  $ref: ./query-parameters/dws-billing-copay-coordination-id.yaml
+dwsBillingId:
+  $ref: ./query-parameters/dws-billing-id.yaml
+dwsBillingInvoiceId:
+  $ref: ./query-parameters/dws-billing-invoice-id.yaml
+dwsBillingServiceReportId:
+  $ref: ./query-parameters/dws-billing-service-report-id.yaml
+dwsBillingStatementId:
+  $ref: ./query-parameters/dws-billing-statement-id.yaml
+dwsCertificationId:
+  $ref: ./query-parameters/dws-certification-id.yaml
+dwsProjectId:
+  $ref: ./query-parameters/dws-project-id.yaml
+dwsProvisionReportId:
+  $ref: ./query-parameters/dws-provision-report-id.yaml
+homeHelpServiceCalcSpecId:
+  $ref: ./query-parameters/home-help-service-calc-spec-id.yaml
+homeVisitLongTermCareCalcSpecId:
+  $ref: ./query-parameters/home-visit-long-term-care-calc-spec-id.yaml
+invitationId:
+  $ref: ./query-parameters/invitation-id.yaml
+itemsPerPage:
+  $ref: ./query-parameters/items-per-page.yaml
+jobId:
+  $ref: ./query-parameters/job-id.yaml
+ltcsAreaGradeId:
+  $ref: ./query-parameters/ltcs-area-grade-id.yaml
+ltcsBillingBundleId:
+  $ref: ./query-parameters/ltcs-billing-bundle-id.yaml
+ltcsBillingId:
+  $ref: ./query-parameters/ltcs-billing-id.yaml
+ltcsBillingInvoiceId:
+  $ref: ./query-parameters/ltcs-billing-invoice-id.yaml
+ltcsBillingStatementId:
+  $ref: ./query-parameters/ltcs-billing-statement-id.yaml
+ltcsHomeVisitLongTermCareDictionaryEntryId:
+  $ref: ./query-parameters/ltcs-home-visit-long-term-care-dictionary-entry-id.yaml
+ltcsHomeVisitLongTermCareDictionaryId:
+  $ref: ./query-parameters/ltcs-home-visit-long-term-care-dictionary-id.yaml
+ltcsInsCardId:
+  $ref: ./query-parameters/ltcs-ins-card-id.yaml
+ltcsProjectId:
+  $ref: ./query-parameters/ltcs-project-id.yaml
+ltcsProvisionReportId:
+  $ref: ./query-parameters/ltcs-provision-report-id.yaml
+officeGroupId:
+  $ref: ./query-parameters/office-group-id.yaml
+officeId:
+  $ref: ./query-parameters/office-id.yaml
+officeIds:
+  $ref: ./query-parameters/office-ids.yaml
+organizationSettingId:
+  $ref: ./query-parameters/organization-setting-id.yaml
+ownExpenseProgramId:
+  $ref: ./query-parameters/own-expense-program-id.yaml
+page:
+  $ref: ./query-parameters/page.yaml
+permissionGroupId:
+  $ref: ./query-parameters/permission-group-id.yaml
+prefecture:
+  $ref: ./query-parameters/prefecture.yaml
+projectId:
+  $ref: ./query-parameters/project-id.yaml
+q:
+  $ref: ./query-parameters/q.yaml
+roleId:
+  $ref: ./query-parameters/role-id.yaml
+serviceCategoryId:
+  $ref: ./query-parameters/service-category-id.yaml
+serviceMenuId:
+  $ref: ./query-parameters/service-menu-id.yaml
+serviceMenuOptionId:
+  $ref: ./query-parameters/service-menu-option-id.yaml
+shiftId:
+  $ref: ./query-parameters/shift-id.yaml
+sortBy:
+  $ref: ./query-parameters/sort-by.yaml
+staffId:
+  $ref: ./query-parameters/staff-id.yaml
+task:
+  $ref: ./query-parameters/task.yaml
+userBillingId:
+  $ref: ./query-parameters/user-billing-id.yaml
+userDwsCalcSpecId:
+  $ref: ./query-parameters/user-dws-calc-spec-id.yaml
+userDwsSubsidyId:
+  $ref: ./query-parameters/user-dws-subsidy-id.yaml
+userId:
+  $ref: ./query-parameters/user-id.yaml
+userLtcsCalcSpecId:
+  $ref: ./query-parameters/user-ltcs-calc-spec-id.yaml
+userLtcsSubsidyId:
+  $ref: ./query-parameters/user-ltcs-subsidy-id.yaml
+visitingCareForPwsdCalcSpecId:
+  $ref: ./query-parameters/visiting-care-for-pwsd-calc-spec-id.yaml
+withdrawalTransactionId:
+  $ref: ./query-parameters/withdrawal-transaction-id.yaml

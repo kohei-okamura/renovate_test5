@@ -1,0 +1,64 @@
+# Copyright © 2022 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+#
+# THIS CODE IS AUTO GENERATED. DO NOT EDIT DIRECTLY.
+---
+description: 勤務実績
+type: object
+properties:
+  id:
+    description: 勤務実績 ID
+    type: object
+  contractId:
+    description: 契約 ID
+    type: object
+  officeId:
+    description: 事業所 ID
+    type: object
+  userId:
+    description: 利用者 ID
+    type: object
+  assignerId:
+    description: 管理スタッフ ID
+    type: object
+  task:
+    $ref: '#/components/schemas/Task'
+  serviceCode:
+    description: サービスコード
+    type: string
+  headcount:
+    description: 頭数
+    type: number
+  assignees:
+    description: 担当スタッフ
+    type: array
+    items:
+      $ref: '#/components/schemas/Assignee'
+  schedule:
+    $ref: '#/components/schemas/Schedule'
+  durations:
+    description: 勤務時間
+    type: array
+    items:
+      $ref: '#/components/schemas/Duration'
+  options:
+    description: オプション
+    type: array
+    items:
+      $ref: '#/components/schemas/ServiceOption'
+  note:
+    description: 備考
+    type: string
+  isConfirmed:
+    description: 確定フラグ
+    type: boolean
+  isCanceled:
+    description: キャンセルフラグ
+    type: boolean
+  reason:
+    description: キャンセル理由
+    type: string
+  createdAt:
+    $ref: '#/components/schemas/DateLike'
+  updatedAt:
+    $ref: '#/components/schemas/DateLike'

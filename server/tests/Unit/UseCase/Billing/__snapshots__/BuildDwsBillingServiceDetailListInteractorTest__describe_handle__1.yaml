@@ -1,0 +1,613 @@
+-
+    cityCode: '141421'
+    cityName: 米花市
+    details:
+        -
+            userId: 2
+            providedOn: '2021-01-03T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '1147'
+            serviceCodeCategory: 111000
+            isAddition: false
+            unitScore: 1139
+            count: 1
+            totalScore: 1139
+        -
+            userId: 2
+            providedOn: '2021-01-07T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '7667'
+            serviceCodeCategory: 112000
+            isAddition: false
+            unitScore: 438
+            count: 1
+            totalScore: 438
+        -
+            userId: 2
+            providedOn: '2021-01-31T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '11'
+                serviceCategoryCode: '6010'
+            serviceCodeCategory: 990101
+            isAddition: true
+            unitScore: 315
+            count: 1
+            totalScore: 315
+        -
+            userId: 1
+            providedOn: '2021-01-11T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '4171'
+            serviceCodeCategory: 121000
+            isAddition: false
+            unitScore: 318
+            count: 1
+            totalScore: 318
+        -
+            userId: 1
+            providedOn: '2021-01-11T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '4181'
+            serviceCodeCategory: 121000
+            isAddition: false
+            unitScore: 156
+            count: 1
+            totalScore: 156
+        -
+            userId: 1
+            providedOn: '2021-01-11T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '4391'
+            serviceCodeCategory: 121000
+            isAddition: false
+            unitScore: 159
+            count: 1
+            totalScore: 159
+        -
+            userId: 1
+            providedOn: '2021-01-11T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '4401'
+            serviceCodeCategory: 121000
+            isAddition: false
+            unitScore: 158
+            count: 1
+            totalScore: 158
+        -
+            userId: 1
+            providedOn: '2021-01-11T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '4411'
+            serviceCodeCategory: 121000
+            isAddition: false
+            unitScore: 159
+            count: 1
+            totalScore: 159
+        -
+            userId: 1
+            providedOn: '2021-01-11T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '4421'
+            serviceCodeCategory: 121000
+            isAddition: false
+            unitScore: 156
+            count: 1
+            totalScore: 156
+        -
+            userId: 1
+            providedOn: '2021-01-11T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '4431'
+            serviceCodeCategory: 121000
+            isAddition: false
+            unitScore: 159
+            count: 1
+            totalScore: 159
+        -
+            userId: 1
+            providedOn: '2021-01-11T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '4121'
+            serviceCodeCategory: 121000
+            isAddition: false
+            unitScore: 147
+            count: 4
+            totalScore: 588
+        -
+            userId: 1
+            providedOn: '2021-01-11T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '2121'
+            serviceCodeCategory: 121000
+            isAddition: false
+            unitScore: 123
+            count: 4
+            totalScore: 492
+        -
+            userId: 1
+            providedOn: '2021-01-11T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '1131'
+            serviceCodeCategory: 121000
+            isAddition: false
+            unitScore: 98
+            count: 8
+            totalScore: 784
+        -
+            userId: 1
+            providedOn: '2021-01-11T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '1141'
+            serviceCodeCategory: 121000
+            isAddition: false
+            unitScore: 92
+            count: 8
+            totalScore: 736
+        -
+            userId: 1
+            providedOn: '2021-01-11T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '1151'
+            serviceCodeCategory: 121000
+            isAddition: false
+            unitScore: 99
+            count: 4
+            totalScore: 396
+        -
+            userId: 1
+            providedOn: '2021-01-11T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '3151'
+            serviceCodeCategory: 121000
+            isAddition: false
+            unitScore: 124
+            count: 4
+            totalScore: 496
+        -
+            userId: 1
+            providedOn: '2021-01-11T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '3161'
+            serviceCodeCategory: 121000
+            isAddition: false
+            unitScore: 115
+            count: 4
+            totalScore: 460
+        -
+            userId: 1
+            providedOn: '2021-01-11T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '4161'
+            serviceCodeCategory: 121000
+            isAddition: false
+            unitScore: 138
+            count: 4
+            totalScore: 552
+-
+    cityCode: '173205'
+    cityName: 古糸市
+    details:
+        -
+            userId: 3
+            providedOn: '2021-01-08T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '4371'
+            serviceCodeCategory: 123000
+            isAddition: false
+            unitScore: 276
+            count: 1
+            totalScore: 276
+        -
+            userId: 3
+            providedOn: '2021-01-08T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '4381'
+            serviceCodeCategory: 123000
+            isAddition: false
+            unitScore: 135
+            count: 1
+            totalScore: 135
+        -
+            userId: 3
+            providedOn: '2021-01-08T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '4491'
+            serviceCodeCategory: 123000
+            isAddition: false
+            unitScore: 138
+            count: 1
+            totalScore: 138
+        -
+            userId: 3
+            providedOn: '2021-01-08T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '4501'
+            serviceCodeCategory: 123000
+            isAddition: false
+            unitScore: 137
+            count: 1
+            totalScore: 137
+        -
+            userId: 3
+            providedOn: '2021-01-08T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '4511'
+            serviceCodeCategory: 123000
+            isAddition: false
+            unitScore: 138
+            count: 1
+            totalScore: 138
+        -
+            userId: 3
+            providedOn: '2021-01-08T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '4521'
+            serviceCodeCategory: 123000
+            isAddition: false
+            unitScore: 135
+            count: 1
+            totalScore: 135
+        -
+            userId: 3
+            providedOn: '2021-01-08T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '4531'
+            serviceCodeCategory: 123000
+            isAddition: false
+            unitScore: 138
+            count: 1
+            totalScore: 138
+        -
+            userId: 3
+            providedOn: '2021-01-08T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '4321'
+            serviceCodeCategory: 123000
+            isAddition: false
+            unitScore: 128
+            count: 4
+            totalScore: 512
+        -
+            userId: 3
+            providedOn: '2021-01-08T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '2321'
+            serviceCodeCategory: 123000
+            isAddition: false
+            unitScore: 106
+            count: 4
+            totalScore: 424
+        -
+            userId: 3
+            providedOn: '2021-01-08T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '1331'
+            serviceCodeCategory: 123000
+            isAddition: false
+            unitScore: 85
+            count: 8
+            totalScore: 680
+        -
+            userId: 3
+            providedOn: '2021-01-08T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '1341'
+            serviceCodeCategory: 123000
+            isAddition: false
+            unitScore: 80
+            count: 8
+            totalScore: 640
+        -
+            userId: 3
+            providedOn: '2021-01-08T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '1351'
+            serviceCodeCategory: 123000
+            isAddition: false
+            unitScore: 86
+            count: 4
+            totalScore: 344
+        -
+            userId: 3
+            providedOn: '2021-01-08T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '3351'
+            serviceCodeCategory: 123000
+            isAddition: false
+            unitScore: 108
+            count: 4
+            totalScore: 432
+        -
+            userId: 3
+            providedOn: '2021-01-08T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '3361'
+            serviceCodeCategory: 123000
+            isAddition: false
+            unitScore: 100
+            count: 4
+            totalScore: 400
+        -
+            userId: 3
+            providedOn: '2021-01-08T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '4361'
+            serviceCodeCategory: 123000
+            isAddition: false
+            unitScore: 120
+            count: 4
+            totalScore: 480
+        -
+            userId: 3
+            providedOn: '2021-01-23T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '4171'
+            serviceCodeCategory: 121000
+            isAddition: false
+            unitScore: 318
+            count: 1
+            totalScore: 318
+        -
+            userId: 3
+            providedOn: '2021-01-23T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '4181'
+            serviceCodeCategory: 121000
+            isAddition: false
+            unitScore: 156
+            count: 1
+            totalScore: 156
+        -
+            userId: 3
+            providedOn: '2021-01-23T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '4391'
+            serviceCodeCategory: 121000
+            isAddition: false
+            unitScore: 159
+            count: 1
+            totalScore: 159
+        -
+            userId: 3
+            providedOn: '2021-01-23T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '4401'
+            serviceCodeCategory: 121000
+            isAddition: false
+            unitScore: 158
+            count: 1
+            totalScore: 158
+        -
+            userId: 3
+            providedOn: '2021-01-23T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '4411'
+            serviceCodeCategory: 121000
+            isAddition: false
+            unitScore: 159
+            count: 1
+            totalScore: 159
+        -
+            userId: 3
+            providedOn: '2021-01-23T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '4421'
+            serviceCodeCategory: 121000
+            isAddition: false
+            unitScore: 156
+            count: 1
+            totalScore: 156
+        -
+            userId: 3
+            providedOn: '2021-01-23T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '4431'
+            serviceCodeCategory: 121000
+            isAddition: false
+            unitScore: 159
+            count: 1
+            totalScore: 159
+        -
+            userId: 3
+            providedOn: '2021-01-23T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '4121'
+            serviceCodeCategory: 121000
+            isAddition: false
+            unitScore: 147
+            count: 4
+            totalScore: 588
+        -
+            userId: 3
+            providedOn: '2021-01-23T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '2121'
+            serviceCodeCategory: 121000
+            isAddition: false
+            unitScore: 123
+            count: 4
+            totalScore: 492
+        -
+            userId: 3
+            providedOn: '2021-01-23T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '1131'
+            serviceCodeCategory: 121000
+            isAddition: false
+            unitScore: 98
+            count: 8
+            totalScore: 784
+        -
+            userId: 3
+            providedOn: '2021-01-23T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '1141'
+            serviceCodeCategory: 121000
+            isAddition: false
+            unitScore: 92
+            count: 8
+            totalScore: 736
+        -
+            userId: 3
+            providedOn: '2021-01-23T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '1151'
+            serviceCodeCategory: 121000
+            isAddition: false
+            unitScore: 99
+            count: 4
+            totalScore: 396
+        -
+            userId: 3
+            providedOn: '2021-01-23T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '3151'
+            serviceCodeCategory: 121000
+            isAddition: false
+            unitScore: 124
+            count: 4
+            totalScore: 496
+        -
+            userId: 3
+            providedOn: '2021-01-23T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '3161'
+            serviceCodeCategory: 121000
+            isAddition: false
+            unitScore: 115
+            count: 4
+            totalScore: 460
+        -
+            userId: 3
+            providedOn: '2021-01-23T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '4161'
+            serviceCodeCategory: 121000
+            isAddition: false
+            unitScore: 138
+            count: 4
+            totalScore: 552
+        -
+            userId: 3
+            providedOn: '2021-01-23T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '8453'
+            serviceCodeCategory: 120901
+            isAddition: false
+            unitScore: 100
+            count: 1
+            totalScore: 100
+        -
+            userId: 3
+            providedOn: '2021-01-23T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '8457'
+            serviceCodeCategory: 120901
+            isAddition: false
+            unitScore: 25
+            count: 1
+            totalScore: 25
+        -
+            userId: 3
+            providedOn: '2021-01-23T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '8461'
+            serviceCodeCategory: 120901
+            isAddition: false
+            unitScore: 25
+            count: 1
+            totalScore: 25
+        -
+            userId: 3
+            providedOn: '2021-01-23T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '8465'
+            serviceCodeCategory: 120901
+            isAddition: false
+            unitScore: 25
+            count: 1
+            totalScore: 25
+        -
+            userId: 3
+            providedOn: '2021-01-23T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '8469'
+            serviceCodeCategory: 120901
+            isAddition: false
+            unitScore: 25
+            count: 1
+            totalScore: 25
+        -
+            userId: 3
+            providedOn: '2021-01-23T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '8473'
+            serviceCodeCategory: 120901
+            isAddition: false
+            unitScore: 50
+            count: 1
+            totalScore: 50
+        -
+            userId: 3
+            providedOn: '2021-01-31T00:00:00+09:00'
+            serviceCode:
+                serviceDivisionCode: '12'
+                serviceCategoryCode: '6010'
+            serviceCodeCategory: 990101
+            isAddition: true
+            unitScore: 4446
+            count: 1
+            totalScore: 4446

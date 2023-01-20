@@ -1,0 +1,28 @@
+name: "Create Pull Request for Release"
+
+on:
+  push:
+    branches:
+      - main
+      - staging
+
+jobs:
+  codeception:
+    runs-on: ubuntu-20.04
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      BASE_BRANCH: ${{ (github.ref == 'refs/heads/main' && 'staging') || 'prod' }}
+      HEAD_BRANCH: ${{ (github.ref == 'refs/heads/main' && 'main') || 'staging' }}
+      PULL_REQUEST_TITLE: ${{ (github.ref == 'refs/heads/main' && 'ステージングリリース') || '本番リリース' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Check
+        id: check
+        run: |
+          COUNT=$(gh pr list --base "${BASE_BRANCH}" --head "${HEAD_BRANCH}" --json id | jq '. | length')
+          echo "count=${COUNT}" >> $GITHUB_OUTPUT
+      - name: Create Pull Request
+        if: ${{ steps.check.outputs.count == 0 }}
+        run: |
+          gh pr create --base "${BASE_BRANCH}" --title "${PULL_REQUEST_TITLE}" --body ""

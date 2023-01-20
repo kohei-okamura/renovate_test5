@@ -1,0 +1,37 @@
+# Copyright © 2020 EUSTYLE LABORATORY - ALL RIGHTS RESERVED.
+# UNAUTHORIZED COPYING OF THIS FILE, VIA ANY MEDIUM IS STRICTLY PROHIBITED PROPRIETARY AND CONFIDENTIAL.
+---
+description: 障害福祉サービス計画
+type: object
+properties:
+  officeId:
+    $ref: '#/components/schemas/OfficeId'
+  staffId:
+    $ref: '#/components/schemas/StaffId'
+  writtenOn:
+    $ref: '#/components/schemas/DateLike'
+  effectivatedOn:
+    $ref: '#/components/schemas/DateLike'
+  requestFromUser:
+    description: ご本人の希望
+    type: string
+  requestFromFamily:
+    description: ご家族の希望
+    type: string
+  objective:
+    description: 援助目標
+    type: string
+  programs:
+    description: 週間サービス計画
+    type: array
+    items:
+      $ref: '#/components/schemas/DwsProjectProgram'
+required:
+  - officeId
+  - staffId
+  - writtenOn
+  - effectivatedOn
+  - requestFromUser
+  - requestFromFamily
+  - objective
+  - programs
