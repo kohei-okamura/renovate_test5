@@ -1,6 +1,5 @@
 {
   "extends": ["config:base", "group:all", ":preserveSemverRanges"],
   "dependencyDashboard": false,
-  "timezone": "Asia/Tokyo",
-  "ignorePaths": ["package.json", "packages", ".github"]
+  "timezone": "Asia/Tokyo"
 }
