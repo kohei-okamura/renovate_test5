@@ -1,5 +1,10 @@
 {
-  "extends": ["config:base", "group:all", ":preserveSemverRanges"],
+  "extends": [
+    "config:base",
+    "group:all",
+    ":preserveSemverRanges",
+    "disableDependencyDashboard"
+  ],
   "timezone": "Asia/Tokyo",
   "ignorePaths": ["package.json", "packages", ".github"]
 }
