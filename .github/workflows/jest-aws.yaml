@@ -3,6 +3,7 @@ name: "Jest for @zinger/aws"
 on:
   pull_request:
     branches:
+      - main
       - staging
       - prod
     paths:
@@ -25,6 +26,7 @@ concurrency:
 jobs:
   jest:
     runs-on: ubuntu-20.04
+    if: ${{ github.event_name != 'pull_request' || github.base_ref != 'main' || startsWith(github.head_ref, 'renovate/') }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3

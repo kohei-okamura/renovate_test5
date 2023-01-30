@@ -3,6 +3,7 @@ name: "Jest for @zinger/frontend"
 on:
   pull_request:
     branches:
+      - main
       - staging
       - prod
     paths:
@@ -27,6 +28,7 @@ concurrency:
 jobs:
   setup:
     runs-on: ubuntu-20.04
+    if: ${{ github.event_name != 'pull_request' || github.base_ref != 'main' || startsWith(github.head_ref, 'renovate/') }}
     outputs:
       chunks: ${{ steps['set-chunks'].outputs['chunks'] }}
       chunk-ids: ${{ steps['set-chunk-ids'].outputs['chunk-ids'] }}
@@ -49,6 +51,7 @@ jobs:
           CHUNKS: ${{ steps['set-chunks'].outputs['chunks'] }}
   jest:
     runs-on: ubuntu-20.04
+    if: ${{ github.event_name != 'pull_request' || github.base_ref != 'main' || startsWith(github.head_ref, 'renovate/') }}
     needs:
       - setup
     strategy:
