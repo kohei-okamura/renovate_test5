@@ -3,6 +3,7 @@ name: "Codeception"
 on:
   pull_request:
     branches:
+      - main
       - staging
       - prod
     paths:
@@ -24,6 +25,7 @@ concurrency:
 jobs:
   codeception:
     runs-on: ubuntu-20.04
+    if: ${{ github.event_name != 'pull_request' || github.base_ref != 'main' || startsWith(github.head_ref, 'renovate/') }}
     services:
       mysql:
         image: mysql:8.0.21
