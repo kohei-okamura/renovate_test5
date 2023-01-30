@@ -1,4 +1,5 @@
 # zinger
+
 [![Codeception](https://github.com/eustylelab/zinger/actions/workflows/codeception.yaml/badge.svg)](https://github.com/eustylelab/zinger/actions/workflows/codeception.yaml)
 [![Jest for @zinger/aws](https://github.com/eustylelab/zinger/actions/workflows/jest-aws.yaml/badge.svg)](https://github.com/eustylelab/zinger/actions/workflows/jest-aws.yaml)
 [![Jest for @zinger/frontend](https://github.com/eustylelab/zinger/actions/workflows/jest-frontend.yaml/badge.svg)](https://github.com/eustylelab/zinger/actions/workflows/jest-frontend.yaml)
@@ -9,34 +10,43 @@
 ## セットアップ
 
 ### バックエンド
+
 #### 前提条件
+
 `direnv` がインストール・設定されていること。
 
 #### 事前準備
+
 `direnv` を使い、環境変数 `APP_ENV` の値を `local` としてください。
 
-#### redisの拡張モジュールをインストール
+#### redis の拡張モジュールをインストール
+
 ```bash
 phpbrew ext install redis
 ```
 
-#### sqlite のPDOモジュールをインストール
+#### sqlite の PDO モジュールをインストール
+
 ```bash
 phpbrew ext install pdo_sqlite
 ```
 
 #### 依存パッケージをインストール
+
 ```bash
 composer install && php artisan ide-helper:generate
 ```
 
 ### フロントエンド
+
 #### 依存パッケージをインストール
+
 ```bash
 yarn install
 ```
 
 ## 開発用サーバー起動・停止方法
+
 ```bash
 # 開発用 Docker コンテナを起動する
 yarn start:docker
@@ -64,6 +74,7 @@ ENV=dev (yarn start:nuxt | yarn s:n | yarn start | yarn s)
 ```
 
 ## OpenAPI
+
 ```bash
 # OpenAPI ドキュメントを生成する
 yarn openapi:build
@@ -78,6 +89,7 @@ yarn openapi:watch
 ## 自動テスト関連
 
 ### バックエンド
+
 ```bash
 # 全テストを実行する
 composer test
@@ -108,6 +120,7 @@ composer test:update-snapshots -- server/tests/Unit/App/Http/Resolvers/StaffReso
 ```
 
 ### フロントエンド
+
 ```bash
 # すべてのテストを実行する
 yarn test
@@ -141,6 +154,7 @@ yarn t:w
 ```
 
 ## ビルド
+
 ```bash
 # 列挙型 YAML 定義からソースコードを生成する
 yarn enums:build
@@ -159,16 +173,21 @@ yarn docker:build:all
 ```
 
 ## インフラ（AWS）関連
+
 [packages/aws/README.md](./packages/aws/README.md) を参照。
 
 ## デプロイ
+
 ### AWS (CDK)
+
 TBD
 
 ### アプリケーション
+
 TBD
 
 ### 辞書 API
+
 ```bash
 # ステージング環境
 yarn service-code-api:deploy:staging
@@ -178,6 +197,7 @@ yarn service-code-api:deploy:prod
 ```
 
 ## クリーンアップ
+
 ```bash
 # すべての自動生成ファイルを削除（クリーンアップ）する
 yarn clean
@@ -196,16 +216,20 @@ yarn service-code-api:clean
 ```
 
 ## REPL を起動する
+
 ### バックエンド
+
 ```bash
 php artisan tinker
 ```
 
 ### フロントエンド
+
 ```bash
 yarn repl
 ```
 
 ## その他
-* [フロントエンド依存パッケージ更新手順](./docs/how-to-upgrade-frontend-dependencies.md)
-* [バックエンドログ出力ガイドライン](./docs/logging-guideline.md)
+
+- [フロントエンド依存パッケージ更新手順](./docs/how-to-upgrade-frontend-dependencies.md)
+- [バックエンドログ出力ガイドライン](./docs/logging-guideline.md)
