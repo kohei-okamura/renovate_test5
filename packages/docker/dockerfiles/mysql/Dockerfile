@@ -1,3 +1,3 @@
-FROM mysql:8.0.28-oracle
+FROM mysql:8.0.32-oracle
 
 COPY assets /

@@ -19,7 +19,7 @@ jobs:
           NODE_OPTIONS: --max_old_space_size=4096
           TZ: Asia/Tokyo
       - name: Codecov
-        uses: codecov/codecov-action@v2
+        uses: codecov/codecov-action@v3
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           directory: ./packages/frontend/coverage

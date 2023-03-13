@@ -44,7 +44,7 @@
     "react-is": "^18.1.0",
     "redoc-cli": "^0.13.7",
     "reload": "^3.2.0",
-    "rimraf": "^3.0.0",
+    "rimraf": "^4.0.0",
     "swagger-merger": "^1.4.3",
     "ts-node": "^10.4.0"
   }

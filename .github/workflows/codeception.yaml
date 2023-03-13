@@ -28,7 +28,7 @@ jobs:
     if: ${{ github.event_name != 'pull_request' || github.base_ref != 'main' || startsWith(github.head_ref, 'renovate/') }}
     services:
       mysql:
-        image: mysql:8.0.21
+        image: mysql:8.0.32
         ports:
           - "43306:3306"
         env:
@@ -38,7 +38,7 @@ jobs:
           MYSQL_ROOT_PASSWORD: secret
         options: --health-cmd="mysqladmin ping" --health-interval=5s --health-timeout=2s --health-retries=3
       maildev:
-        image: maildev/maildev:1.1.0
+        image: maildev/maildev:2.0.5
         ports:
           - "80:80"
           - "1025:25"

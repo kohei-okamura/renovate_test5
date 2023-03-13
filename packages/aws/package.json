@@ -62,7 +62,7 @@
     "@zinger/helpers": "^1.0.0",
     "aws-cdk-lib": "^2.33.0",
     "aws-sdk": "^2.1178.0",
-    "commander": "^9.4.0",
+    "commander": "^10.0.0",
     "constructs": "^10.1.51",
     "luxon": "^3.0.1",
     "prompts": "^2.4.2",
@@ -75,8 +75,8 @@
     "aws-cdk": "^2.33.0",
     "change-case": "^4.1.2",
     "npm-run-all": "^4.1.5",
-    "rimraf": "^3.0.2",
+    "rimraf": "^4.0.0",
     "ts-node": "^10.9.1",
-    "typescript": "~4.7.3"
+    "typescript": "~4.9.0"
   }
 }
