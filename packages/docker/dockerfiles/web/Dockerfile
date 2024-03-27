@@ -1,7 +1,7 @@
 #
 # web-resources
 #
-FROM nginxinc/nginx-unprivileged:1.20.1 AS web-resources
+FROM nginxinc/nginx-unprivileged:1.25.4 AS web-resources
 
 USER root
 RUN echo "************" && find /usr/share -name "zoneinfo"
@@ -32,7 +32,7 @@ RUN mkdir -p /opt/var/cache/nginx && \
 #
 # web-modules
 #
-FROM nginx:1.20.1 AS web-modules
+FROM nginx:1.25.4 AS web-modules
 
 RUN set -eux; \
     apt-get update; \

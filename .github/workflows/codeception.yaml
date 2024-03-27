@@ -24,11 +24,11 @@ concurrency:
 
 jobs:
   codeception:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     if: ${{ github.event_name != 'pull_request' || github.base_ref != 'main' || startsWith(github.head_ref, 'renovate/') }}
     services:
       mysql:
-        image: mysql:8.0.21
+        image: mysql:8.3.0
         ports:
           - "43306:3306"
         env:
@@ -38,7 +38,7 @@ jobs:
           MYSQL_ROOT_PASSWORD: secret
         options: --health-cmd="mysqladmin ping" --health-interval=5s --health-timeout=2s --health-retries=3
       maildev:
-        image: maildev/maildev:1.1.0
+        image: maildev/maildev:2.1.0
         ports:
           - "80:80"
           - "1025:25"
@@ -58,12 +58,12 @@ jobs:
           php-version: '8.1'
           extensions: gd, json, pdo, redis
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Get Composer Cache Directory
         id: cache
         run: echo "dir=$(composer config cache-files-dir)" >> $GITHUB_OUTPUT
       - name: Restore Cache
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ${{ steps.cache.outputs.dir }}
           key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
@@ -95,7 +95,7 @@ jobs:
           ZINGER_TWILIO_FROM_TEL_NUMBER: ${{ secrets.ZINGER_TWILIO_FROM_TEL_NUMBER }}
       - name: Codecov
         if: ${{ matrix.command == 'unit' }}
-        uses: codecov/codecov-action@v3
+        uses: codecov/codecov-action@v4
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           directory: ./server/tests/_output

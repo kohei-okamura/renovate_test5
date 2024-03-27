@@ -1,7 +1,7 @@
 #
 # app-base
 #
-FROM php:8.1.6-fpm-buster AS app-base
+FROM php:8.2.7-fpm-buster AS app-base
 
 RUN set -eux; \
     apt-get update; \
